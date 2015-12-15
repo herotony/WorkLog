@@ -1,0 +1,1337 @@
+Date: Tue, 15 Dec 2015 09:38:05 +0800
+Message-ID: <00010b3c$866c8300$a653c972$EverNote>
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_NextPart_0001_0B3C_3F594DE9.A85CA05A"
+X-Mailer: Evernote® v5.09.1.8742
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_0001_0B3C_3F594DE9.A85CA05A
+Content-Type: text/html; 
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+  <title>Evernote Export</title>
+  <basefont face=3D"=E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91" size=3D"2" />
+  <meta http-equiv=3D"Content-Type" =
+content=3D"text/html;charset=3Dutf-8" />
+  <meta name=3D"exporter-version" content=3D"Evernote Windows/276742; =
+Windows/10.0.10240 (Win64);"/>
+  <style>
+    body, td {
+      font-family: =E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+<a name=3D"1536"/>
+
+<div>=0A<span><br/><div style=3D"font-size:100%;text-align:left;"><div =
+style=3D"font-size:100%;box-sizing:content-box;background-color:rgb(255, =
+255, 255);"><div style=3D"font-size:100%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;"><d=
+iv =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;margin-bottom:1=
+0px;position:relative;"><div><br/></div></div><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:721px;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:=
+top;padding-right:15px;width:8.460471567267684%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-align:cent=
+er;min-width:46px;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><a =
+style=3D"background-image:url(&quot;http://cdn.sstatic.net/stackoverflow/=
+img/sprites.svg?v=3Da7723f5f7e59&quot;), none;margin:0px auto =
+2px;border:0px;font-size:1px;text-decoration:none;cursor:pointer;color:rg=
+b(0, 119, =
+204);overflow:hidden;padding:0px;background-repeat:no-repeat;display:bloc=
+k;text-indent:-9999em;width:40px;height:30px;background-position:0px =
+-170px;background-size:initial;" title=3D"This question shows research =
+effort; it is useful and clear">up vote</a> <span =
+style=3D"padding:0px;border:0px;font-size:20px;display:block;color:rgb(11=
+9, 119, 119);margin:8px 0px;">83</span> <a =
+style=3D"background-image:url(&quot;http://cdn.sstatic.net/stackoverflow/=
+img/sprites.svg?v=3Da7723f5f7e59&quot;), none;margin:0px auto =
+2px;border:0px;font-size:1px;text-decoration:none;cursor:pointer;color:rg=
+b(0, 119, =
+204);overflow:hidden;padding:0px;background-repeat:no-repeat;display:bloc=
+k;text-indent:-9999em;width:40px;height:30px;margin-bottom:10px;backgroun=
+d-position:0px -220px;background-size:initial;" title=3D"This question =
+does not show any research effort; it is unclear or not useful">down =
+vote</a> <a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar#"=
+ =
+style=3D"background-image:url(&quot;http://cdn.sstatic.net/stackoverflow/=
+img/sprites.svg?v=3Da7723f5f7e59&quot;), none;margin:0px auto =
+2px;border:0px;font-size:1px;text-decoration:none;cursor:pointer;color:rg=
+b(0, 119, =
+204);overflow:hidden;padding:0px;background-repeat:no-repeat;display:bloc=
+k;text-indent:-9999em;width:40px;height:30px;background-position:0px =
+-120px;background-size:initial;" title=3D"This is a favorite question =
+(click again to undo)">favorite</a></span><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-align:cent=
+er;"><span style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, =
+Helvetica, sans-serif;"><b =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;font-weight:nor=
+mal;color:rgb(119, 119, 119);">12</b></span></div></div></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:=
+top;width:91.53952843273233%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:15px;width:660px;mar=
+gin-bottom:5px;word-wrap:break-word;"><p =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:1em;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">I am reading Maven documentation and came across the name =
+'uber-jar'.</span></span></p><p =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:1em;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">What does an uber-jar mean and what are its =
+features/advantages?</span></span></p></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;margin-bottom:1=
+0px;clear:both;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><a =
+href=3D"http://stackoverflow.com/questions/tagged/maven" rel=3D"tag" =
+style=3D"border-radius:0px;margin:2px 2px 2px 0px;border:1px solid =
+rgb(225, 236, =
+244);font-size:12px;text-decoration:none;cursor:pointer;color:rgb(57, =
+115, 157);padding:0.4em =
+0.5em;text-align:center;white-space:nowrap;display:inline-block;backgroun=
+d:rgb(225, 236, 244);transition:color 0.15s ease, background 0.15s ease, =
+border 0.15s ease;" title=3D"show questions tagged =
+&apos;maven&apos;">maven</a> <a =
+href=3D"http://stackoverflow.com/questions/tagged/uberjar" rel=3D"tag" =
+style=3D"border-radius:0px;margin:2px 2px 2px 0px;border:1px solid =
+rgb(225, 236, =
+244);font-size:12px;text-decoration:none;cursor:pointer;color:rgb(57, =
+115, 157);padding:0.4em =
+0.5em;text-align:center;white-space:nowrap;display:inline-block;backgroun=
+d:rgb(225, 236, 244);transition:color 0.15s ease, background 0.15s ease, =
+border 0.15s ease;" title=3D"show questions tagged =
+&apos;uberjar&apos;">uberjar</a></span></div><table =
+style=3D"padding:0px;font-size:100%;font-style:inherit;font-variant:inher=
+it;margin:0px;font-weight:inherit;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;margin-bottom:4px;width:100%;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:=
+top;width:35.15151515151515%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;padding-top:2px=
+;"><span style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, =
+Helvetica, sans-serif;"><a href=3D"http://stackoverflow.com/q/11947037" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;padding:0px 3px 2px;color:rgb(136, 136, 136);" title=3D"short =
+permalink to this question">share</a><span =
+style=3D"border:0px;font-size:1px;color:rgb(27, 64, =
+114);visibility:hidden;margin:0px;padding:0px;">|</span><a =
+href=3D"http://stackoverflow.com/posts/11947037/edit" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;padding:0px 3px 2px;color:rgb(136, 136, 136);">improve this =
+question</a></span></div></td><td align=3D"right" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-align:left=
+;vertical-align:top;width:32.42424242424242%;"><div =
+style=3D"margin:0px;border:0px;font-size:100%;padding:5px 6px 7px =
+7px;box-sizing:border-box;width:200px;color:rgb(82, 87, 92);"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:12px;margin-top:1px;=
+margin-bottom:4px;white-space:nowrap;"><span style=3D"font-family: =
+Arial, &apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><a =
+href=3D"http://stackoverflow.com/posts/11947037/revisions" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);" title=3D"show all edits to =
+this post">edited <span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;" title=3D"2012-08-14 06:46:22Z">Aug 14 '12 at =
+6:46</span></a></span></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;float:left;widt=
+h:32px;height:32px;border-radius:1px;box-shadow:rgba(0, 0, 0, 0.498039) =
+2px 2px 4px;border-collapse:separate;"><a =
+href=3D"http://stackoverflow.com/users/289396/josek" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);"></a><div =
+style=3D"margin:0px;border:0px;font-size:100%;padding:0px;width:32px;heig=
+ht:32px;overflow:hidden;"><span style=3D"font-family: Arial, =
+&apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><img height=3D"32" =
+style=3D"cursor: default;" width=3D"32"></img></span></div></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;word-wrap:break=
+-word;float:left;width:calc(100% - 40px);margin-left:8px;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><a href=3D"http://stackoverflow.com/users/289396/josek" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);">JoseK</a></span><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:12px;font-weight:bol=
+d;margin-right:2px;" title=3D"reputation score 22855">22.9k</span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"8 =
+gold badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, 145);font-size:12px;font-weight:400;">8</span></span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"68 =
+silver badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, 145);font-size:12px;font-weight:400;">68</span></span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"95 =
+bronze badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, =
+145);font-size:12px;font-weight:400;">95</span></span></span></div></div>=
+</div></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-align:left=
+;vertical-align:top;background-color:rgb(224, 234, =
+241);width:32.42424242424242%;"><div =
+style=3D"margin:0px;border:0px;font-size:100%;padding:5px 6px 7px =
+7px;box-sizing:border-box;width:200px;color:rgb(82, 87, 92);"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:12px;margin-top:1px;=
+margin-bottom:4px;white-space:nowrap;"><span style=3D"font-family: =
+Arial, &apos;Helvetica Neue&apos;, Helvetica, sans-serif;">asked <span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;" title=3D"2012-08-14 06:42:04Z">Aug 14 '12 at =
+6:42</span></span></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;float:left;widt=
+h:32px;height:32px;border-radius:1px;"><a =
+href=3D"http://stackoverflow.com/users/1578531/abose" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);"></a><div =
+style=3D"margin:0px;border:0px;font-size:100%;padding:0px;width:32px;heig=
+ht:32px;overflow:hidden;"><span style=3D"font-family: Arial, =
+&apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><img height=3D"32" =
+style=3D"cursor: default;" width=3D"32"></img></span></div></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;word-wrap:break=
+-word;float:left;width:calc(100% - 40px);margin-left:8px;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><a href=3D"http://stackoverflow.com/users/1578531/abose" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);">ABose</a></span><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:12px;font-weight:bol=
+d;margin-right:2px;" title=3D"reputation score">1,184</span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"1 =
+gold badge"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, 145);font-size:12px;font-weight:400;">1</span></span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"10 =
+silver badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, 145);font-size:12px;font-weight:400;">10</span></span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"21 =
+bronze badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, =
+145);font-size:12px;font-weight:400;">21</span></span></span></div></div>=
+</div></td></tr></tbody></table></div></td></tr><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:=
+top;padding-right:15px;"><div><br/></div></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><div =
+style=3D"padding-bottom:10px;margin:0px;border:0px;padding:0px;width:660p=
+x;margin-top:10px;font-size:13px;border-top-width:1px;border-top-style:so=
+lid;border-top-color:rgb(234, 235, =
+236);-webkit-tap-highlight-color:rgba(255, 255, 255, 0);"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:100%;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;border:0px;padding:6px 6px 6px =
+0px;font-size:13px;border-bottom-width:1px;border-bottom-style:solid;bord=
+er-bottom-color:rgb(240, 240, =
+240);vertical-align:top;width:10.958503798947984%;"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:70px;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span =
+style=3D"margin:0px;padding:0px;border:0px;color:rgb(153, 153, =
+153);font-size:13px;font-weight:normal;padding-right:4px;" =
+title=3D"number of &apos;useful comment&apos; votes =
+received">3</span></span></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">=C2=A0</span></span></td></tr></tbody></table></td><td =
+style=3D"margin:0px;border:0px;padding:6px 6px 6px =
+0px;font-size:13px;vertical-align:top;border-bottom-width:1px;border-bott=
+om-style:solid;border-bottom-color:rgb(240, 240, =
+240);width:79.44915254237289%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;display:block;"=
+><span style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, =
+Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, 38);"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;">Another term =
+for an &quot;uber jar&quot; or &quot;super jar&quot; is &quot;fat =
+jar&quot;. See <a =
+href=3D"http://stackoverflow.com/questions/19150811/what-does-it-mean-to-=
+fat-jar-something-into-a-jar-file/19150914" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);" title=3D"what does it mean =
+to fat jar something into a jar =
+file">stackoverflow.com/questions/19150811/=E2=80=A6</a>.</span> =
+=E2=80=93=C2=A0</span><a =
+href=3D"http://stackoverflow.com/users/1128392/erwaman" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;color:rgb(0, 119, 204);padding:0px;white-space:nowrap;" =
+title=3D"153 reputation">erwaman</a> <span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(153, =
+153, 153);border-bottom-style:none;"><a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar#c=
+omment28785383_11947037" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(153, 153, =
+153);border-bottom-style:none;"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" =
+title=3D"2013-10-17 03:31:06Z">Oct 17 '13 at =
+3:31</span></a></span></span></div></td></tr></tbody></table></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><a =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;padding:0px 3px 2px;color:rgb(136, 136, 136);opacity:0.6;" =
+title=3D"Use comments to ask for more information or suggest =
+improvements. Avoid answering questions in comments.">add a =
+comment</a></span></div></td></tr></tbody></table></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;padd=
+ing-top:10px;width:728px;"><a name=3D"tab-top" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);"></a><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;margin-top:10px=
+;width:728px;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:15px;height:34px;border-bottom-width:1px;border-bottom-style:so=
+lid;border-bottom-color:rgb(234, 235, 236);"><h2 =
+style=3D"margin:0px;padding:0px;border:0px;font-size:18px;margin-bottom:0=
+px;color:rgb(68, 68, 68);float:left;font-weight:400;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;">2 Answers</span></h2><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;float:right;hei=
+ght:38px;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar?a=
+nswertab=3Dactive#tab-top" style=3D"float:left;margin:0px 8px 0px =
+0px;border:0px;font-size:12px;text-decoration:none;cursor:pointer;color:r=
+gb(118, 125, 132);padding:10px;display:block;border-width:2px 1px =
+1px;border-style:solid;border-color:transparent transparent rgb(234, =
+235, 236);background:rgb(255, 255, 255);" title=3D"Answers with the =
+latest activity first">active</a> <a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar?a=
+nswertab=3Doldest#tab-top" style=3D"float:left;margin:0px 8px 0px =
+0px;border:0px;font-size:12px;text-decoration:none;cursor:pointer;color:r=
+gb(118, 125, 132);padding:10px;display:block;border-width:2px 1px =
+1px;border-style:solid;border-color:transparent transparent rgb(234, =
+235, 236);background:rgb(255, 255, 255);" title=3D"Answers in the order =
+they were provided">oldest</a> <span style=3D"color: rgb(34, 36, =
+38);"><a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar?a=
+nswertab=3Dvotes#tab-top" style=3D"display:block;margin:0px 8px 0px =
+0px;border:0px;font-size:12px;text-decoration:none;cursor:pointer;backgro=
+und:rgb(255, 255, 255);float:left;padding:10px;border-width:2px 1px =
+1px;border-style:solid;border-color:rgb(246, 156, 85) rgb(234, 235, 236) =
+rgb(255, 255, 255);color:rgb(34, 36, =
+38);margin-right:0px;font-weight:400;" title=3D"Answers with the highest =
+score first">votes</a></span></span></div></div></div></div><a =
+name=3D"11947093" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);"></a><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;padding-bottom:=
+20px;padding-top:20px;width:728px;border-bottom-width:1px;border-bottom-s=
+tyle:solid;border-bottom-color:rgb(240, 240, 240);"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:721px;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:=
+top;padding-right:15px;width:8.460471567267684%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-align:cent=
+er;min-width:46px;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><a =
+style=3D"background-image:url(&quot;http://cdn.sstatic.net/stackoverflow/=
+img/sprites.svg?v=3Da7723f5f7e59&quot;), none;margin:0px auto =
+2px;border:0px;font-size:1px;text-decoration:none;cursor:pointer;color:rg=
+b(0, 119, =
+204);overflow:hidden;padding:0px;background-repeat:no-repeat;display:bloc=
+k;text-indent:-9999em;width:40px;height:30px;background-position:0px =
+-170px;background-size:initial;" title=3D"This answer is useful">up =
+vote</a> <span =
+style=3D"padding:0px;border:0px;font-size:20px;display:block;color:rgb(11=
+9, 119, 119);margin:8px 0px;">121</span> <a =
+style=3D"background-image:url(&quot;http://cdn.sstatic.net/stackoverflow/=
+img/sprites.svg?v=3Da7723f5f7e59&quot;), none;margin:0px auto =
+2px;border:0px;font-size:1px;text-decoration:none;cursor:pointer;color:rg=
+b(0, 119, =
+204);overflow:hidden;padding:0px;background-repeat:no-repeat;display:bloc=
+k;text-indent:-9999em;width:40px;height:30px;margin-bottom:10px;backgroun=
+d-position:0px -220px;background-size:initial;" title=3D"This answer is =
+not useful">down vote</a> <span style=3D"display:block;margin:0px =
+auto;border:0px;font-size:1px;overflow:hidden;background-image:url(&quot;=
+http://cdn.sstatic.net/stackoverflow/img/sprites.svg?v=3Da7723f5f7e59&quo=
+t;), =
+none;background-repeat:no-repeat;padding:0px;text-indent:-9999em;width:40=
+px;height:40px;background-position:-40px =
+-270px;background-size:initial;color:rgb(119, 119, 119);" =
+title=3D"loading when this answer was =
+accepted...">accepted</span></span></div></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:=
+top;width:91.53952843273233%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:15px;width:660px;mar=
+gin-bottom:5px;word-wrap:break-word;"><p =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:1em;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);"><code style=3D"margin:0px;border:0px;font-family:Consolas, Menlo, =
+Monaco, &apos;Lucida Console&apos;, &apos;Liberation Mono&apos;, =
+&apos;DejaVu Sans Mono&apos;, &apos;Bitstream Vera Sans Mono&apos;, =
+&apos;Courier New&apos;, monospace, sans-serif;background-color:rgb(238, =
+238, 238);white-space:pre-wrap;padding:1px =
+5px;font-size:13px;">=C3=9Cber</code> is the German word for <code =
+style=3D"margin:0px;border:0px;font-family:Consolas, Menlo, Monaco, =
+&apos;Lucida Console&apos;, &apos;Liberation Mono&apos;, &apos;DejaVu =
+Sans Mono&apos;, &apos;Bitstream Vera Sans Mono&apos;, &apos;Courier =
+New&apos;, monospace, sans-serif;background-color:rgb(238, 238, =
+238);white-space:pre-wrap;padding:1px 5px;font-size:13px;">above</code> =
+or <code style=3D"margin:0px;border:0px;font-family:Consolas, Menlo, =
+Monaco, &apos;Lucida Console&apos;, &apos;Liberation Mono&apos;, =
+&apos;DejaVu Sans Mono&apos;, &apos;Bitstream Vera Sans Mono&apos;, =
+&apos;Courier New&apos;, monospace, sans-serif;background-color:rgb(238, =
+238, 238);white-space:pre-wrap;padding:1px =
+5px;font-size:13px;">over</code>, as in a line from a previous national =
+anthem: <code style=3D"margin:0px;border:0px;font-family:Consolas, =
+Menlo, Monaco, &apos;Lucida Console&apos;, &apos;Liberation Mono&apos;, =
+&apos;DejaVu Sans Mono&apos;, &apos;Bitstream Vera Sans Mono&apos;, =
+&apos;Courier New&apos;, monospace, sans-serif;background-color:rgb(238, =
+238, 238);white-space:pre-wrap;padding:1px =
+5px;font-size:13px;">Deutschland, Deutschland, =C3=BCber alles</code> =
+(Germany, Germany above all else).</span></span></p><p =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:1em;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">Hence, in this context, an uber-jar is an &quot;over-jar&quot;, =
+one level up from a simple &quot;jar&quot;, defined as one that contains =
+both your package <em =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;font-style:ital=
+ic;">and</em> all its dependencies in one single JAR file. The name can =
+be thought to come from the same stable as ultrageek, superman, =
+hyperspace, and metadata, which all have similar meanings of =
+&quot;beyond the normal&quot;.</span></span></p><p =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:1em;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">The advantage is that you can distribute your uber-jar and not =
+care at all whether or not dependencies are installed at the =
+destination, as your uber-jar actually <em =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;font-style:ital=
+ic;">has</em> no dependencies.</span></span></p><p =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:1em;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">All the dependencies of your own stuff within the uber-jar are <em =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;font-style:ital=
+ic;">also</em> within that uber-jar.</span></span></p></div><table =
+style=3D"padding:0px;font-size:100%;font-style:inherit;font-variant:inher=
+it;margin:0px;font-weight:inherit;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;margin-bottom:4px;width:100%;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:=
+top;width:35.15151515151515%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;padding-top:2px=
+;"><span style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, =
+Helvetica, sans-serif;"><a href=3D"http://stackoverflow.com/a/11947093" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;padding:0px 3px 2px;color:rgb(136, 136, 136);" title=3D"short =
+permalink to this answer">share</a><span =
+style=3D"border:0px;font-size:1px;color:rgb(27, 64, =
+114);visibility:hidden;margin:0px;padding:0px;">|</span><a =
+href=3D"http://stackoverflow.com/posts/11947093/edit" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;padding:0px 3px 2px;color:rgb(136, 136, 136);">improve this =
+answer</a></span></div></td><td align=3D"right" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-align:left=
+;vertical-align:top;width:32.42424242424242%;"><div =
+style=3D"margin:0px;border:0px;font-size:100%;padding:5px 6px 7px =
+7px;box-sizing:border-box;width:200px;color:rgb(82, 87, 92);"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:12px;margin-top:1px;=
+margin-bottom:4px;white-space:nowrap;"><span style=3D"font-family: =
+Arial, &apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><a =
+href=3D"http://stackoverflow.com/posts/11947093/revisions" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);" title=3D"show all edits to =
+this post">edited <span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;" title=3D"2015-05-17 22:48:00Z">May 17 at =
+22:48</span></a></span></div></div></td><td align=3D"right" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-align:left=
+;vertical-align:top;width:32.42424242424242%;"><div =
+style=3D"margin:0px;border:0px;font-size:100%;padding:5px 6px 7px =
+7px;box-sizing:border-box;width:200px;color:rgb(82, 87, 92);"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:12px;margin-top:1px;=
+margin-bottom:4px;white-space:nowrap;"><span style=3D"font-family: =
+Arial, &apos;Helvetica Neue&apos;, Helvetica, sans-serif;">answered =
+<span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;" title=3D"2012-08-14 06:46:15Z">Aug 14 '12 at =
+6:46</span></span></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;float:left;widt=
+h:32px;height:32px;border-radius:1px;box-shadow:rgba(0, 0, 0, 0.498039) =
+2px 2px 4px;border-collapse:separate;"><a =
+href=3D"http://stackoverflow.com/users/14860/paxdiablo" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);"></a><div =
+style=3D"margin:0px;border:0px;font-size:100%;padding:0px;width:32px;heig=
+ht:32px;overflow:hidden;"><span style=3D"font-family: Arial, =
+&apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><img src=3D"What is =
+an uber jar_files/CXdfN.jpg" type=3D"image/jpeg" height=3D"32" =
+style=3D"cursor: default; height: auto;" =
+width=3D"32"/></span></div></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;word-wrap:break=
+-word;float:left;width:calc(100% - 40px);margin-left:8px;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><a href=3D"http://stackoverflow.com/users/14860/paxdiablo" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);">paxdiablo</a></span><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:12px;font-weight:bol=
+d;margin-right:2px;" title=3D"reputation score 438399">438k</span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"106 =
+gold badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, 145);font-size:12px;font-weight:400;">106</span></span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"856 =
+silver badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, 145);font-size:12px;font-weight:400;">856</span></span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" =
+title=3D"1315 bronze badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, =
+145);font-size:12px;font-weight:400;">1315</span></span></span></div></di=
+v></div></td></tr></tbody></table></td></tr><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:=
+top;padding-right:15px;"><div><br/></div></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><div =
+style=3D"padding-bottom:10px;margin:0px;border:0px;padding:0px;width:660p=
+x;margin-top:10px;font-size:13px;border-top-width:1px;border-top-style:so=
+lid;border-top-color:rgb(234, 235, =
+236);-webkit-tap-highlight-color:rgba(255, 255, 255, 0);"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:100%;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;border:0px;padding:6px 6px 6px =
+0px;font-size:13px;border-bottom-width:1px;border-bottom-style:solid;bord=
+er-bottom-color:rgb(240, 240, =
+240);vertical-align:top;width:10.958503798947984%;"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:70px;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span =
+style=3D"margin:0px;padding:0px;border:0px;color:rgb(153, 153, =
+153);font-size:13px;font-weight:normal;padding-right:4px;" =
+title=3D"number of &apos;useful comment&apos; votes =
+received">1</span></span></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">=C2=A0</span></span></td></tr></tbody></table></td><td =
+style=3D"margin:0px;border:0px;padding:6px 6px 6px =
+0px;font-size:13px;vertical-align:top;border-bottom-width:1px;border-bott=
+om-style:solid;border-bottom-color:rgb(240, 240, =
+240);width:79.44915254237289%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;display:block;"=
+><span style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, =
+Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, 38);"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;">Thanks for =
+language explaination ! I wasn't aware about it :).</span> =
+=E2=80=93=C2=A0</span><a =
+href=3D"http://stackoverflow.com/users/1047365/jean-r%c3%a9my-revy" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;color:rgb(0, 119, 204);padding:0px;white-space:nowrap;" =
+title=3D"3606 reputation">Jean-R=C3=A9my Revy</a> <span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(153, =
+153, 153);border-bottom-style:none;"><a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar#c=
+omment15927711_11947093" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(153, 153, =
+153);border-bottom-style:none;"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" =
+title=3D"2012-08-14 13:53:26Z">Aug 14 '12 at =
+13:53</span></a></span></span></div></td></tr><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;border:0px;width:15px;padding:6px 6px 6px =
+0px;font-size:13px;border-bottom-width:1px;border-bottom-style:solid;bord=
+er-bottom-color:rgb(240, 240, 240);vertical-align:top;"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:70px;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span =
+style=3D"margin:0px;padding:0px;border:0px;color:rgb(153, 153, =
+153);font-size:13px;font-weight:normal;padding-right:4px;" =
+title=3D"number of &apos;useful comment&apos; votes =
+received">1</span></span></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">=C2=A0</span></span></td></tr></tbody></table></td><td =
+style=3D"margin:0px;border:0px;padding:6px 6px 6px =
+0px;font-size:13px;vertical-align:top;border-bottom-width:1px;border-bott=
+om-style:solid;border-bottom-color:rgb(240, 240, 240);"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;display:block;"=
+><span style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, =
+Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, 38);"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;">zapl, good =
+point. Modified to say &quot;original&quot; anthem since I think it was =
+from '22 to the fall of Nazi Germany at the end of WW2. A similar thing =
+happened when we (Auusies) adopted &quot;Advance Australia Fair&quot; as =
+out anthem, we only used the first two stanzas.. Not many people =
+realised there were another three which concentrated more on our =
+committment to England, not something we wanted in when we were getting =
+rid of &quot;God save the Queen&quot; :-)</span> =
+=E2=80=93=C2=A0</span><a =
+href=3D"http://stackoverflow.com/users/14860/paxdiablo" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;color:rgb(0, 119, 204);padding:0px;white-space:nowrap;" =
+title=3D"438399 reputation">paxdiablo</a> <span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(153, =
+153, 153);border-bottom-style:none;"><a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar#c=
+omment26130976_11947093" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(153, 153, =
+153);border-bottom-style:none;"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" =
+title=3D"2013-07-26 22:32:02Z">Jul 26 '13 at =
+22:32</span></a></span></span></div></td></tr><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;border:0px;width:15px;padding:6px 6px 6px =
+0px;font-size:13px;border-bottom-width:1px;border-bottom-style:solid;bord=
+er-bottom-color:rgb(240, 240, 240);vertical-align:top;"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:70px;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span =
+style=3D"margin:0px;padding:0px;border:0px;color:rgb(153, 153, =
+153);font-size:13px;font-weight:normal;padding-right:4px;" =
+title=3D"number of &apos;useful comment&apos; votes =
+received">3</span></span></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">=C2=A0</span></span></td></tr></tbody></table></td><td =
+style=3D"margin:0px;border:0px;padding:6px 6px 6px =
+0px;font-size:13px;vertical-align:top;border-bottom-width:1px;border-bott=
+om-style:solid;border-bottom-color:rgb(240, 240, 240);"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;display:block;"=
+><span style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, =
+Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, 38);"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;">@ghayes, =
+it's hardly a rant, there's absolutely <i =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;font-style:ital=
+ic;">no</i> anger or passion in the text at all. Instead, it's meant to =
+give context on the use of the word itself. Now people who use words =
+without knowing what they mean, <i =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;font-style:ital=
+ic;">that's</i> something I could rant about :-)</span> =
+=E2=80=93=C2=A0</span><a =
+href=3D"http://stackoverflow.com/users/14860/paxdiablo" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;color:rgb(0, 119, 204);padding:0px;white-space:nowrap;" =
+title=3D"438399 reputation">paxdiablo</a> <span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(153, =
+153, 153);border-bottom-style:none;"><a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar#c=
+omment37352147_11947093" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(153, 153, =
+153);border-bottom-style:none;"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" =
+title=3D"2014-06-12 22:20:20Z">Jun 12 '14 at =
+22:20</span></a></span></span></div></td></tr><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;border:0px;width:15px;padding:6px 6px 6px =
+0px;font-size:13px;border-bottom-width:1px;border-bottom-style:solid;bord=
+er-bottom-color:rgb(240, 240, 240);vertical-align:top;"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:70px;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span =
+style=3D"margin:0px;padding:0px;border:0px;color:rgb(153, 153, =
+153);font-size:13px;font-weight:normal;padding-right:4px;" =
+title=3D"number of &apos;useful comment&apos; votes =
+received">2</span></span></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">=C2=A0</span></span></td></tr></tbody></table></td><td =
+style=3D"margin:0px;border:0px;padding:6px 6px 6px =
+0px;font-size:13px;vertical-align:top;border-bottom-width:1px;border-bott=
+om-style:solid;border-bottom-color:rgb(240, 240, 240);"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;display:block;"=
+><span style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, =
+Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, 38);"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;">@ghayes, =
+I've &quot;footnoted&quot; the background information so that the =
+important stuff is up the front. Thanks for your input, hopefully it's a =
+better answer now.</span> =E2=80=93=C2=A0</span><a =
+href=3D"http://stackoverflow.com/users/14860/paxdiablo" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;color:rgb(0, 119, 204);padding:0px;white-space:nowrap;" =
+title=3D"438399 reputation">paxdiablo</a> <span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(153, =
+153, 153);border-bottom-style:none;"><a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar#c=
+omment37549788_11947093" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(153, 153, =
+153);border-bottom-style:none;"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" =
+title=3D"2014-06-19 03:47:39Z">Jun 19 '14 at =
+3:47</span></a></span></span></div></td></tr><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;border:0px;width:15px;padding:6px 6px 6px =
+0px;font-size:13px;border-bottom-width:1px;border-bottom-style:solid;bord=
+er-bottom-color:rgb(240, 240, 240);vertical-align:top;"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:70px;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span =
+style=3D"margin:0px;padding:0px;border:0px;color:rgb(153, 153, =
+153);font-size:13px;font-weight:normal;padding-right:4px;" =
+title=3D"number of &apos;useful comment&apos; votes =
+received">2</span></span></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">=C2=A0</span></span></td></tr></tbody></table></td><td =
+style=3D"margin:0px;border:0px;padding:6px 6px 6px =
+0px;font-size:13px;vertical-align:top;border-bottom-width:1px;border-bott=
+om-style:solid;border-bottom-color:rgb(240, 240, 240);"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;display:block;"=
+><span style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, =
+Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, 38);"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;">Awesome =
+update. Thank you for listening to my input. I think the answer is great =
+now.</span> =E2=80=93=C2=A0</span><a =
+href=3D"http://stackoverflow.com/users/320471/ghayes" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;color:rgb(0, 119, 204);padding:0px;white-space:nowrap;" =
+title=3D"5849 reputation">ghayes</a> <span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(153, =
+153, 153);border-bottom-style:none;"><a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar#c=
+omment37576396_11947093" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(153, 153, =
+153);border-bottom-style:none;"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" =
+title=3D"2014-06-19 17:23:50Z">Jun 19 '14 at =
+17:23</span></a></span></span></div></td></tr></tbody></table></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar#"=
+ =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;color:rgb(0, 119, 204);padding:0px 3px 2px;" title=3D"expand to =
+show all comments on this post">show <b =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;font-weight:bol=
+d;">8</b> more =
+comments</a></span></div></td></tr></tbody></table></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;margin-bottom:1=
+0px;position:relative;"><span style=3D"font-family: Arial, =
+&apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><a =
+href=3D"http://engine.adzerk.net/r?e=3DeyJhdiI6NDE0LCJhdCI6NCwiYnQiOjAsIm=
+NtIjozMjI1MTQsImNoIjoxMTc4LCJjayI6e30sImNyIjoxMTk1OTc5LCJkaSI6IjI1M2NiMDg=
+zYzQwOTRiMjViODJlMTA0NzQxMTA1OTZmIiwiZG0iOjEsImZjIjoxMjY5MzM3LCJmbCI6ODY0=
+MjI2LCJpcCI6IjExOC4yNi42Ni4xOTUiLCJrdyI6Im1hdmVuLHViZXJqYXIiLCJudyI6MjIsI=
+nBjIjowLCJlYyI6MCwicHIiOjE1NjgsInJ0IjoxLCJyZiI6Imh0dHBzOi8vd3d3Lmdvb2dsZS=
+5jby5rci8iLCJzdCI6ODI3NywidWsiOiJ1ZTEtZmZkNmJjOGJiYjBhNDFiYmEwNTE5M2Q2ZTM=
+5N2E3N2UiLCJ6biI6NDQsInRzIjoxNDUwMTQyNTAzNjcyLCJiZiI6dHJ1ZSwicG4iOiJhZHpl=
+cmsxNjQyMTU5ODY1IiwidXIiOiJodHRwOi8vY2FyZWVycy5zdGFja292ZXJmbG93LmNvbS93a=
+Hktc3RhY2s_dXRtX3NvdXJjZT1zdGFja292ZXJmbG93LmNvbSZ1dG1fbWVkaXVtPWFkJnV0bV=
+9jYW1wYWlnbj1jYW5kaWRhdGVzLWFkZC1jdiZ1dG1fY29udGVudD1sYi1jYXJlZXJzLWdvb2d=
+sZSJ9&amp;s=3Dq3h1ZNJ2Ftg7QouEuo157emLNpA" rel=3D"nofollow" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);" target=3D"_blank"><img =
+src=3D"What is an uber jar_files/8c72abb5ff154d1f9daba58a2ce84a0d.png" =
+type=3D"image/png" border=3D"0" height=3D"90" style=3D"cursor: default; =
+height: auto;" width=3D"728"/></a><span style=3D"color: rgb(34, 36, =
+38);"><img src=3D"What is an uber jar_files/i.gif" type=3D"image/gif" =
+border=3D"0" height=3D"0px" style=3D"cursor: default;cursor: default;" =
+width=3D"0px"/></span></span></div><a name=3D"11954179" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);"></a><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;padding-bottom:=
+20px;padding-top:20px;width:728px;border-bottom-width:1px;border-bottom-s=
+tyle:solid;border-bottom-color:rgb(240, 240, 240);"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:721px;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:=
+top;padding-right:15px;width:8.460471567267684%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-align:cent=
+er;min-width:46px;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><a =
+style=3D"background-image:url(&quot;http://cdn.sstatic.net/stackoverflow/=
+img/sprites.svg?v=3Da7723f5f7e59&quot;), none;margin:0px auto =
+2px;border:0px;font-size:1px;text-decoration:none;cursor:pointer;color:rg=
+b(0, 119, =
+204);overflow:hidden;padding:0px;background-repeat:no-repeat;display:bloc=
+k;text-indent:-9999em;width:40px;height:30px;background-position:0px =
+-170px;background-size:initial;" title=3D"This answer is useful">up =
+vote</a> <span =
+style=3D"padding:0px;border:0px;font-size:20px;display:block;color:rgb(11=
+9, 119, 119);margin:8px 0px;">31</span> <a =
+style=3D"background-image:url(&quot;http://cdn.sstatic.net/stackoverflow/=
+img/sprites.svg?v=3Da7723f5f7e59&quot;), none;margin:0px auto =
+2px;border:0px;font-size:1px;text-decoration:none;cursor:pointer;color:rg=
+b(0, 119, =
+204);overflow:hidden;padding:0px;background-repeat:no-repeat;display:bloc=
+k;text-indent:-9999em;width:40px;height:30px;margin-bottom:10px;backgroun=
+d-position:0px -220px;background-size:initial;" title=3D"This answer is =
+not useful">down vote</a></span></div></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:=
+top;width:91.53952843273233%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:15px;width:660px;mar=
+gin-bottom:5px;word-wrap:break-word;"><p =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:1em;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">Paxdiablo definition is really good.</span></span></p><p =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:1em;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">In addition, please consider delivering an uber-jar is sometimes =
+quite interesting, if you really want to distribute a software and don't =
+want customer to have to download dependencies by themselves. As a draw =
+back, if their own policy don't allow usage of some library, or if they =
+have to bind some extra-components (slf4j, system compliant libs, arch =
+specialiez libs, ...) this will probably increase difficulties for =
+them.</span></span></p><p =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:1em;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">You can perform that :</span></span></p><ul =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;list-style:disc=
+;margin-left:30px;margin-bottom:1em;"><li =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;word-wrap:break=
+-word;margin-bottom:0.5em;"><span style=3D"font-family: Arial, =
+&apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><span =
+style=3D"color: rgb(34, 36, 38);">basically with</span> <a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, =
+204);">maven-assembly-plugin</a></span></li><li =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;word-wrap:break=
+-word;margin-bottom:0px;"><span style=3D"font-family: Arial, =
+&apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><span =
+style=3D"color: rgb(34, 36, 38);">a bit more further with</span> <a =
+href=3D"http://maven.apache.org/plugins/maven-shade-plugin/" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, =
+204);">maven-shade-plugin</a></span></li></ul><p =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:1em;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">A cleaner solution is to provide thir library separately; =
+maven-shade-plugin has preconfigured descriptor for that. This is not =
+more complicated to do (with maven and its plugin).</span></span></p><p =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:1em;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">Finally, a really good solution is to use an OSGI Bundle. There is =
+plenty of good tutorials on that :)</span></span></p><p =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;marg=
+in-bottom:1em;"><span style=3D"font-family: Arial, &apos;Helvetica =
+Neue&apos;, Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">For further configuration, please read those topics =
+:</span></span></p><ul =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;list-style:disc=
+;margin-left:30px;margin-bottom:1em;"><li =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;word-wrap:break=
+-word;margin-bottom:0.5em;"><span style=3D"font-family: Arial, =
+&apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><a =
+href=3D"http://stackoverflow.com/questions/1746336/should-you-provide-dep=
+endent-libraries-in-client-jar" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);">Should you provide =
+dependent libraries in client jar?</a></span></li><li =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;word-wrap:break=
+-word;margin-bottom:0px;"><span style=3D"font-family: Arial, =
+&apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><a =
+href=3D"http://stackoverflow.com/questions/2391711/best-practices-in-buil=
+ding-and-deploying-clojure-applications-good-tutorials" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);">Best practices in building =
+and deploying Clojure applications: good =
+tutorials?</a></span></li></ul></div><table =
+style=3D"padding:0px;font-size:100%;font-style:inherit;font-variant:inher=
+it;margin:0px;font-weight:inherit;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;margin-bottom:4px;width:100%;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:=
+top;width:35.15151515151515%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;padding-top:2px=
+;"><span style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, =
+Helvetica, sans-serif;"><a href=3D"http://stackoverflow.com/a/11954179" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;padding:0px 3px 2px;color:rgb(136, 136, 136);" title=3D"short =
+permalink to this answer">share</a><span =
+style=3D"border:0px;font-size:1px;color:rgb(27, 64, =
+114);visibility:hidden;margin:0px;padding:0px;">|</span><a =
+href=3D"http://stackoverflow.com/posts/11954179/edit" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;padding:0px 3px 2px;color:rgb(136, 136, 136);">improve this =
+answer</a></span></div></td><td align=3D"right" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-align:left=
+;vertical-align:top;width:32.42424242424242%;"><div =
+style=3D"margin:0px;border:0px;font-size:100%;padding:5px 6px 7px =
+7px;box-sizing:border-box;width:200px;color:rgb(82, 87, 92);"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:12px;margin-top:1px;=
+margin-bottom:4px;white-space:nowrap;"><span style=3D"font-family: =
+Arial, &apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><a =
+href=3D"http://stackoverflow.com/posts/11954179/revisions" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);" title=3D"show all edits to =
+this post">edited <span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;" title=3D"2014-05-21 11:33:50Z">May 21 '14 at =
+11:33</span></a></span></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;float:left;widt=
+h:32px;height:32px;border-radius:1px;"><a =
+href=3D"http://stackoverflow.com/users/330457/jin-kwon" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);"></a><div =
+style=3D"margin:0px;border:0px;font-size:100%;padding:0px;width:32px;heig=
+ht:32px;overflow:hidden;"><span style=3D"font-family: Arial, =
+&apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><img src=3D"What is =
+an uber jar_files/2JN6W.jpg" type=3D"image/jpeg" height=3D"32" =
+style=3D"cursor: default; height: auto;" =
+width=3D"32"/></span></div></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;word-wrap:break=
+-word;float:left;width:calc(100% - 40px);margin-left:8px;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><a href=3D"http://stackoverflow.com/users/330457/jin-kwon" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);">Jin Kwon</a></span><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:12px;font-weight:bol=
+d;margin-right:2px;" title=3D"reputation score">4,363</span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"2 =
+gold badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, 145);font-size:12px;font-weight:400;">2</span></span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"25 =
+silver badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, 145);font-size:12px;font-weight:400;">25</span></span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"45 =
+bronze badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, =
+145);font-size:12px;font-weight:400;">45</span></span></span></div></div>=
+</div></td><td align=3D"right" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-align:left=
+;vertical-align:top;width:32.42424242424242%;"><div =
+style=3D"margin:0px;border:0px;font-size:100%;padding:5px 6px 7px =
+7px;box-sizing:border-box;width:200px;color:rgb(82, 87, 92);"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:12px;margin-top:1px;=
+margin-bottom:4px;white-space:nowrap;"><span style=3D"font-family: =
+Arial, &apos;Helvetica Neue&apos;, Helvetica, sans-serif;">answered =
+<span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;" title=3D"2012-08-14 14:12:15Z">Aug 14 '12 at =
+14:12</span></span></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;float:left;widt=
+h:32px;height:32px;border-radius:1px;box-shadow:rgba(0, 0, 0, 0.498039) =
+2px 2px 4px;border-collapse:separate;"><a =
+href=3D"http://stackoverflow.com/users/1047365/jean-r%c3%a9my-revy" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);"></a><div =
+style=3D"margin:0px;border:0px;font-size:100%;padding:0px;width:32px;heig=
+ht:32px;overflow:hidden;"><span style=3D"font-family: Arial, =
+&apos;Helvetica Neue&apos;, Helvetica, sans-serif;"><img height=3D"32" =
+style=3D"cursor: default;" width=3D"32"></img></span></div></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;word-wrap:break=
+-word;float:left;width:calc(100% - 40px);margin-left:8px;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><a =
+href=3D"http://stackoverflow.com/users/1047365/jean-r%c3%a9my-revy" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(0, 119, 204);">Jean-R=C3=A9my =
+Revy</a></span><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:12px;font-weight:bol=
+d;margin-right:2px;" title=3D"reputation score">3,606</span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"1 =
+gold badge"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, 145);font-size:12px;font-weight:400;">1</span></span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"21 =
+silver badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, 145);font-size:12px;font-weight:400;">21</span></span><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" title=3D"49 =
+bronze badges"><span =
+style=3D"margin:0px;padding:0px;border:0px;padding-left:2px;color:rgb(132=
+, 138, =
+145);font-size:12px;font-weight:400;">49</span></span></span></div></div>=
+</div></td></tr></tbody></table></td></tr><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:=
+top;padding-right:15px;"><div><br/></div></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><div =
+style=3D"padding-bottom:10px;margin:0px;border:0px;padding:0px;width:660p=
+x;margin-top:10px;font-size:13px;border-top-width:1px;border-top-style:so=
+lid;border-top-color:rgb(234, 235, =
+236);-webkit-tap-highlight-color:rgba(255, 255, 255, 0);"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:100%;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;border:0px;padding:6px 6px 6px =
+0px;font-size:13px;border-bottom-width:1px;border-bottom-style:solid;bord=
+er-bottom-color:rgb(240, 240, =
+240);vertical-align:top;width:10.958503798947984%;"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:70px;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span =
+style=3D"margin:0px;padding:0px;border:0px;color:rgb(153, 153, =
+153);font-size:13px;font-weight:normal;padding-right:4px;" =
+title=3D"number of &apos;useful comment&apos; votes =
+received">1</span></span></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">=C2=A0</span></span></td></tr></tbody></table></td><td =
+style=3D"margin:0px;border:0px;padding:6px 6px 6px =
+0px;font-size:13px;vertical-align:top;border-bottom-width:1px;border-bott=
+om-style:solid;border-bottom-color:rgb(240, 240, =
+240);width:79.44915254237289%;"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;display:block;"=
+><span style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, =
+Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, 38);"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;">good answer =
+in addition to accepted answer.</span> =E2=80=93=C2=A0</span><a =
+href=3D"http://stackoverflow.com/users/2742702/alex-mathew" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;color:rgb(0, 119, 204);padding:0px;white-space:nowrap;" =
+title=3D"471 reputation">Alex Mathew</a> <span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(153, =
+153, 153);border-bottom-style:none;"><a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar#c=
+omment47901199_11954179" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(153, 153, =
+153);border-bottom-style:none;"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" =
+title=3D"2015-04-27 06:38:21Z">Apr 27 at =
+6:38</span></a></span></span></div></td></tr><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;border:0px;width:15px;padding:6px 6px 6px =
+0px;font-size:13px;border-bottom-width:1px;border-bottom-style:solid;bord=
+er-bottom-color:rgb(240, 240, 240);vertical-align:top;"><table =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:100%;margin:0px;padding:0px;border:0px;border-collapse:collapse;bor=
+der-spacing:0px;width:70px;"><tbody =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><tr =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span =
+style=3D"margin:0px;padding:0px;border:0px;color:rgb(153, 153, =
+153);font-size:13px;font-weight:normal;padding-right:4px;" =
+title=3D"number of &apos;useful comment&apos; votes =
+received">1</span></span></td><td =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;width:50%;"><sp=
+an style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><span style=3D"color: rgb(34, 36, =
+38);">=C2=A0</span></span></td></tr></tbody></table></td><td =
+style=3D"margin:0px;border:0px;padding:6px 6px 6px =
+0px;font-size:13px;vertical-align:top;border-bottom-width:1px;border-bott=
+om-style:solid;border-bottom-color:rgb(240, 240, 240);"><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;display:block;"=
+><span style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, =
+Helvetica, sans-serif;"><span style=3D"color: rgb(34, 36, 38);"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;">much better =
+answer than the accepted one</span> =E2=80=93=C2=A0</span><a =
+href=3D"http://stackoverflow.com/users/719278/shanyangqu" =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;color:rgb(0, 119, 204);padding:0px;white-space:nowrap;" =
+title=3D"1116 reputation">shanyangqu</a> <span dir=3D"ltr" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(153, =
+153, 153);border-bottom-style:none;"><a =
+href=3D"http://stackoverflow.com/questions/11947037/what-is-an-uber-jar#c=
+omment53358728_11954179" =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;text-decoration=
+:none;cursor:pointer;color:rgb(153, 153, =
+153);border-bottom-style:none;"><span =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;" =
+title=3D"2015-09-24 11:10:52Z">Sep 24 at =
+11:10</span></a></span></span></div></td></tr></tbody></table></div><div =
+style=3D"margin:0px;padding:0px;border:0px;font-size:100%;"><span =
+style=3D"font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, =
+sans-serif;"><a =
+style=3D"margin:0px;border:0px;font-size:100%;text-decoration:none;cursor=
+:pointer;padding:0px 3px 2px;color:rgb(136, 136, 136);opacity:0.6;" =
+title=3D"Use comments to ask for more information or suggest =
+improvements. Avoid comments like =E2=80=9C+1=E2=80=9D or =
+=E2=80=9Cthanks=E2=80=9D.">add a =
+comment</a></span></div></td></tr></tbody></table></div></div></div></div=
+></div><br/></span>=0A</div></body></html>
+
+------=_NextPart_0001_0B3C_3F594DE9.A85CA05A
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: What is an uber jar_files/2JN6W.jpg
+
+/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcG
+BwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAgACADASIA
+AhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAABggJBQcK/8QAKxAAAQQCAQMEAQMFAAAAAAAAAQID
+BAUGEQcAEiEICRMxFCJBURYyM1Jy/8QAFwEBAQEBAAAAAAAAAAAAAAAABQcGCP/EACcRAAIBAgUD
+BAMAAAAAAAAAAAECEQMEAAUSITEGB0EiMlFhExRx/9oADAMBAAIRAxEAPwBuOafU5knF3CmVX1ZD
+hXlvR1T06NHk2KqwSi2O4oVLStBaHaFH5CodpAO+lg4T9+e9rpr8XmXGs14/rUWD0iDa3cN3IKp6
+tSytYjGxQUOfkdydIcQHw4opT2ju0D31M5LU0Ppm5BsMkrJN3jkXG5y7StjyjFesIpYUl1hDoBLa
+1oJSFAHtJ3rx1E3gbGIXL98xgnHTmXx8szD+oYsim/MQa6ZDTXqfrWUpbIU4/wDI06lwuJ7NhhSd
+EKPXL/Zitd3WT3tS4rOiU2n8gJhQELMTLFPSFmXov7gA3xQOr6VKjeUVRAzMPbHO8DgA7k+GGOi7
+i/3iuCctx/HrBVhbChyqM47XXlfDVPhrdbfaYejPNAJkx3m3JEbaFNHYktqHjZ63nXc2cc5jSwZN
+LmuMz4ltGbmwnDNS2JLLqQttafk7TpSSDrWx9EAgjqBuB8lp9UL+d5JjlJY43Q2t3TUkKE5GRGbj
+X7+ITo00Npb/AEgmbCgrP0okNKUEqOg1PCnJTNzwvLKVspj1N4H4rCUgfBXXURu6hp/5bcfmtD+O
+wD9uqDY9aZhb3qZZfqGbbUTAZNShlVisIWEim2lVBcyAo9OMktjRuLp0B0ofb9kc7HeCAxG5MDee
+cZLmT3DMVx70z5DlWAZFjtnncGvjyKennodH5D632UltaNtnw2tw6C0kFP340Vnq/eO9QpntTJfB
+XHto8R8aZUSvnMyFJV4KUuJfWrR/cD7/AI6SDlPm1nlrBoWNiVKaisPMvPlLKVmT8aCEp0pQAT3E
+qP3vQ6CreKxVvGyiQW3JqE6S60lEL8Yb3tCY6UfqO9bJJ14HQHT3abKqFpUp3tqtUs7EGoG1BYAC
+yr09tifqTzwHcy6quKlVWo1igAGyxBPkwQ38xU3lz3Ijyhh8eHfVGN45dY7jFHys1GXPWiRHuI16
+hl6ocQ6f8rsbvdQkgOkLG+4HYH+J8gi1lBneM43NRkDUTHXoMN2GTKVOeoMldbhFsoBCi7WTyhOj
+5/GV966lfPyR52nBbU2j431O/AnuUVuK/udUVbK1HyCpRJ148Dx03foA9zSx4jmtVEgwKZl5SG3k
+GMFU1kEjtSH44IS0sJ8B1rsWP9iP0FjLO1dpYBf020ItRX0iSCVKkCWJMAieTufPOBr/ADurWuRd
+uZbTHj7k7Dkgx8wPExj/2Q==
+
+------=_NextPart_0001_0B3C_3F594DE9.A85CA05A
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: What is an uber jar_files/8c72abb5ff154d1f9daba58a2ce84a0d.png
+
+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
+J9clZAAAAABJRU5ErkJggg==
+
+------=_NextPart_0001_0B3C_3F594DE9.A85CA05A
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: What is an uber jar_files/CXdfN.jpg
+
+/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcG
+BwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAgACADASIA
+AhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABwYIAv/EACkQAAICAgEEAQMEAwAAAAAAAAECAwQF
+EQYABxIhMRQiMggTQVEVgfD/xAAXAQADAQAAAAAAAAAAAAAAAAACAwQF/8QAJhEAAQMDAwIHAAAA
+AAAAAAAAAQIDBAAFERJBUQYhEzFhgaGxwf/aAAwDAQACEQMRAD8AYUyx8QCd+v56zZ3l/VB3J5Fn
+b9ftXwvEZ/CYmcR2c1kLYWO06PqWOBfNQy6BXzHkd79dPmQrHI4S1Cv5T1pIh70dshX5/wB9Z849
+mMjxzjvD+M0eLzxQNjYI2nkEqQ13ESs0egviG8iQfJtk7OukTZamwNO9aVktjUpxQeJAHHJocwfc
+7ldOKzQ5hXtce5LdS9ditU7crVL8585v2/22Z4gRvSpr8QPH49WWfsgSK59E6J/ro37i8hy/MFlv
+TY6KpAkn1AlH2BCh9RkF2PkBvZIX59b99U3J84UcDYOgP56mS+VJyql3CEhh7Q3nB5rY8GUAjUKx
+/vXQp3jnykOZMdOYItVJFdhMYmRW+4MCAd7GgB6H3N76qW5jJUmjigbFWZJJJ2jlkysUSGOBSX3H
+pm2zaA2V0P4JOgBd0e70fG++N7EZC/BPBlqVW5QnhRo4YpTXj+ogBb267IYOfyPnr1rVE6GsN6zt
+7+n3VnT0zwpBbzgK7ceXf5FSeFsNUofQW7K7/wAiklYtIXZovfmXY/LbH/e+uOXZEvO2m2AT8Ho/
+zlibI8+rSGw9WpXtpblkQglYw4A0SdbLMoA37+B7PS/hkx3MbEVPJQYXcEFiSzce7LUuWp42IKkF
+WCqQAQCm979kdDHhKW2VpoL1LBkBJ2H7X//Z
+
+------=_NextPart_0001_0B3C_3F594DE9.A85CA05A
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: What is an uber jar_files/i.gif
+
+R0lGODlhAQABAPAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
+
+------=_NextPart_0001_0B3C_3F594DE9.A85CA05A--
+ 

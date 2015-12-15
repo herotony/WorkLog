@@ -1,0 +1,1712 @@
+Date: Tue, 15 Dec 2015 10:47:43 +0800
+Message-ID: <00020b3c$f75cd9c0$f5f796d8$EverNote>
+MIME-Version: 1.0
+Content-Type: text/html; 
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Evernote® v5.09.1.8742
+
+<html>
+<head>
+  <title>Evernote Export</title>
+  <basefont face=3D"=E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91" size=3D"2" />
+  <meta http-equiv=3D"Content-Type" =
+content=3D"text/html;charset=3Dutf-8" />
+  <meta name=3D"exporter-version" content=3D"Evernote Windows/276742; =
+Windows/10.0.10240 (Win64);"/>
+  <style>
+    body, td {
+      font-family: =E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+<a name=3D"1548"/>
+
+<div>=0A<span><br/><div style=3D"font-size: 16px"><div =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:13px;background-color:rgb(255, 255, =
+255);background-repeat:repeat-y;"><div><h2 =
+style=3D"font-size:17px;color:rgb(51, 51, 51);"><a name=3D"Assembly" =
+style=3D"text-decoration:none;"></a>Assembly</h2><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);"></p><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">Maven Assembly Plugin =
+relies on the provided assembly descriptors to dictate its execution. =
+Although there are already prefabricated descriptors available for use, =
+they can only suffice some of the common assembly requirements.</p><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">So in order for you to =
+customize the way the Assembly Plugin creates your assemblies, you need =
+to know how to use the Assembly Descriptor.</p><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">This descriptor specifies =
+the type of assembly archive to create, the contents of the assembly, =
+and the ways in which dependencies or its modules are bundled with an =
+assembly.</p><div style=3D"padding:12px;margin:1em 7px;border:1px solid =
+rgb(153, 153, 153);overflow:auto;"><pre =
+style=3D"margin:0px;padding:0px;">=0A&lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_assembly" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">assembly</a> =
+xmlns=3D&quot;http://maven.apache.org/plugins/maven-assembly-plugin/assem=
+bly/1.1.3&quot; =
+xmlns:xsi=3D&quot;http://www.w3.org/2001/XMLSchema-instance&quot;=0A  =
+xsi:schemaLocation=3D&quot;http://maven.apache.org/plugins/maven-assembly=
+-plugin/assembly/1.1.3 <a =
+href=3D"http://maven.apache.org/xsd/assembly-1.1.3.xsd" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);padding-right:18px;background:url(&quot;../images/external.png&quot;=
+) 100% 50% =
+no-repeat;">http://maven.apache.org/xsd/assembly-1.1.3.xsd</a>&quot;&gt;=0A=
+  &lt;id/&gt;=0A  &lt;formats/&gt;=0A  &lt;includeBaseDirectory/&gt;=0A  =
+&lt;baseDirectory/&gt;=0A  &lt;includeSiteDirectory/&gt;=0A  =
+&lt;containerDescriptorHandlers&gt;=0A    &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_containerDescriptorHandler" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">containerDescriptorHandler</a>&gt;=0A      =
+&lt;handlerName/&gt;=0A      &lt;configuration/&gt;=0A    =
+&lt;/containerDescriptorHandler&gt;=0A  =
+&lt;/containerDescriptorHandlers&gt;=0A  <span =
+style=3D"background-color: rgb(255, 250, =
+165);-evernote-highlight:true;">&lt;moduleSets&gt;</span>=0A    &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_moduleSet" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">moduleSet</a>&gt;=0A      &lt;useAllReactorProjects/&gt;=0A      =
+&lt;includeSubModules/&gt;=0A      &lt;includes/&gt;=0A      =
+&lt;excludes/&gt;=0A      &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_sources" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">sources</a>&gt;=0A        &lt;useDefaultExcludes/&gt;=0A        =
+&lt;outputDirectory/&gt;=0A        &lt;includes/&gt;=0A        =
+&lt;excludes/&gt;=0A        &lt;fileMode/&gt;=0A        =
+&lt;directoryMode/&gt;=0A        &lt;fileSets&gt;=0A          &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_fileSet" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">fileSet</a>&gt;=0A            &lt;useDefaultExcludes/&gt;=0A      =
+      &lt;outputDirectory/&gt;=0A            &lt;includes/&gt;=0A        =
+    &lt;excludes/&gt;=0A            &lt;fileMode/&gt;=0A            =
+&lt;directoryMode/&gt;=0A            &lt;directory/&gt;=0A            =
+&lt;lineEnding/&gt;=0A            &lt;filtered/&gt;=0A          =
+&lt;/fileSet&gt;=0A        &lt;/fileSets&gt;=0A        =
+&lt;includeModuleDirectory/&gt;=0A        =
+&lt;excludeSubModuleDirectories/&gt;=0A        =
+&lt;outputDirectoryMapping/&gt;=0A      &lt;/sources&gt;=0A      &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_binaries" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">binaries</a>&gt;=0A        &lt;outputDirectory/&gt;=0A        =
+&lt;includes/&gt;=0A        &lt;excludes/&gt;=0A        =
+&lt;fileMode/&gt;=0A        &lt;directoryMode/&gt;=0A        =
+&lt;attachmentClassifier/&gt;=0A        &lt;includeDependencies/&gt;=0A  =
+      &lt;dependencySets&gt;=0A          &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_dependencySet" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">dependencySet</a>&gt;=0A            &lt;outputDirectory/&gt;=0A   =
+         &lt;includes/&gt;=0A            &lt;excludes/&gt;=0A            =
+&lt;fileMode/&gt;=0A            &lt;directoryMode/&gt;=0A            =
+&lt;useStrictFiltering/&gt;=0A            =
+&lt;outputFileNameMapping/&gt;=0A            &lt;unpack/&gt;=0A          =
+  &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_unpackOptions" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">unpackOptions</a>&gt;=0A              &lt;includes/&gt;=0A        =
+      &lt;excludes/&gt;=0A              &lt;filtered/&gt;=0A             =
+ &lt;lineEnding/&gt;=0A              &lt;useDefaultExcludes/&gt;=0A      =
+        &lt;encoding/&gt;=0A            &lt;/unpackOptions&gt;=0A        =
+    &lt;scope/&gt;=0A            &lt;useProjectArtifact/&gt;=0A          =
+  &lt;useProjectAttachments/&gt;=0A            =
+&lt;useTransitiveDependencies/&gt;=0A            =
+&lt;useTransitiveFiltering/&gt;=0A          &lt;/dependencySet&gt;=0A    =
+    &lt;/dependencySets&gt;=0A        &lt;unpack/&gt;=0A        &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_unpackOptions" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">unpackOptions</a>&gt;=0A          &lt;includes/&gt;=0A          =
+&lt;excludes/&gt;=0A          &lt;filtered/&gt;=0A          =
+&lt;lineEnding/&gt;=0A          &lt;useDefaultExcludes/&gt;=0A          =
+&lt;encoding/&gt;=0A        &lt;/unpackOptions&gt;=0A        =
+&lt;outputFileNameMapping/&gt;=0A      &lt;/binaries&gt;=0A    =
+&lt;/moduleSet&gt;=0A  &lt;/moduleSets&gt;=0A  &lt;fileSets&gt;=0A    =
+&lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_fileSet" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">fileSet</a>&gt;=0A      &lt;useDefaultExcludes/&gt;=0A      =
+&lt;outputDirectory/&gt;=0A      &lt;includes/&gt;=0A      =
+&lt;excludes/&gt;=0A      &lt;fileMode/&gt;=0A      =
+&lt;directoryMode/&gt;=0A      &lt;directory/&gt;=0A      =
+&lt;lineEnding/&gt;=0A      &lt;filtered/&gt;=0A    &lt;/fileSet&gt;=0A  =
+&lt;/fileSets&gt;=0A  &lt;files&gt;=0A    &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_file" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">file</a>&gt;=0A      &lt;source/&gt;=0A      =
+&lt;outputDirectory/&gt;=0A      &lt;destName/&gt;=0A      =
+&lt;fileMode/&gt;=0A      &lt;lineEnding/&gt;=0A      =
+&lt;filtered/&gt;=0A    &lt;/file&gt;=0A  &lt;/files&gt;=0A  =
+&lt;dependencySets&gt;=0A    &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_dependencySet" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">dependencySet</a>&gt;=0A      &lt;outputDirectory/&gt;=0A      =
+&lt;includes/&gt;=0A      &lt;excludes/&gt;=0A      &lt;fileMode/&gt;=0A =
+     &lt;directoryMode/&gt;=0A      &lt;useStrictFiltering/&gt;=0A      =
+&lt;outputFileNameMapping/&gt;=0A      &lt;unpack/&gt;=0A      &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_unpackOptions" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">unpackOptions</a>&gt;=0A        &lt;includes/&gt;=0A        =
+&lt;excludes/&gt;=0A        &lt;filtered/&gt;=0A        =
+&lt;lineEnding/&gt;=0A        &lt;useDefaultExcludes/&gt;=0A        =
+&lt;encoding/&gt;=0A      &lt;/unpackOptions&gt;=0A      =
+&lt;scope/&gt;=0A      &lt;useProjectArtifact/&gt;=0A      =
+&lt;useProjectAttachments/&gt;=0A      =
+&lt;useTransitiveDependencies/&gt;=0A      =
+&lt;useTransitiveFiltering/&gt;=0A    &lt;/dependencySet&gt;=0A  =
+&lt;/dependencySets&gt;=0A  &lt;repositories&gt;=0A    &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_repository" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">repository</a>&gt;=0A      &lt;outputDirectory/&gt;=0A      =
+&lt;includes/&gt;=0A      &lt;excludes/&gt;=0A      &lt;fileMode/&gt;=0A =
+     &lt;directoryMode/&gt;=0A      &lt;includeMetadata/&gt;=0A      =
+&lt;groupVersionAlignments&gt;=0A        &lt;<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_groupVersionAlignment" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">groupVersionAlignment</a>&gt;=0A          &lt;id/&gt;=0A          =
+&lt;version/&gt;=0A          &lt;excludes/&gt;=0A        =
+&lt;/groupVersionAlignment&gt;=0A      =
+&lt;/groupVersionAlignments&gt;=0A      &lt;scope/&gt;=0A    =
+&lt;/repository&gt;=0A  &lt;/repositories&gt;=0A  =
+&lt;componentDescriptors/&gt;=0A&lt;/assembly&gt;=0A</pre></div><a =
+name=3D"class_assembly" style=3D"text-decoration:none;"></a><div =
+style=3D"padding:4px;"><h3 style=3D"padding:4px 4px 4px =
+24px;color:rgb(102, 102, =
+102);font-weight:bold;font-size:14px;background-image:url(&quot;../images=
+/h3.jpg&quot;);background-color:rgb(204, 204, =
+204);background-position:0% 100%;background-repeat:no-repeat;"><a =
+name=3D"assembly" style=3D"text-decoration:none;"></a>assembly</h3><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">An assembly defines a =
+collection of files usually distributed in an archive format such as =
+zip, tar, or tar.gz that is generated from a project. For example, a =
+project could produce a ZIP assembly which contains a project's JAR =
+artifact in the root directory, the runtime dependencies in a lib/ =
+directory, and a shell script to launch a stand-alone =
+application.</p><table border=3D"0" =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:10px;padding:0px;width:100%;margin-left:-2px;margin-right:-2px;"><t=
+r style=3D"background-color:rgb(221, 221, 221);"><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Element</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Type</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Description</th></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>id</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the id =
+of this assembly. This is a symbolic name for a particular assembly of =
+files from this project. Also, aside from being used to distinctly name =
+the assembled package by attaching its value to the generated archive, =
+the id is used as your artifact's classifier when =
+deploying.</td></tr><tr style=3D"background-color:rgb(221, 221, =
+221);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>formats/format*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Specifies the formats of the =
+assembly. It is often better to specify the formats via the goal =
+parameter rather than here. For example, that allows different profiles =
+to generate different types of archives. Multiple formats can be =
+supplied and the Assembly Plugin will generate an archive for each of =
+the desired formats. When deploying your project, all file formats =
+specified will also be deployed. A format is specified by supplying one =
+of the following values in a &lt;format&gt; subelement:=0A<ul><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, 51);"><b>&quot;zip&quot;</b> =
+- Creates a ZIP file format</li><li style=3D"font-family:Verdana, =
+Helvetica, Arial, sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;tar&quot;</b> - Creates a TAR format</li><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;tar.gz&quot;</b> or <b>&quot;tgz&quot;</b> - Creates a =
+gzip'd TAR format</li><li style=3D"font-family:Verdana, Helvetica, =
+Arial, sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;tar.bz2&quot;</b> or <b>&quot;tbz2&quot;</b> - Creates a =
+bzip'd TAR format</li><li style=3D"font-family:Verdana, Helvetica, =
+Arial, sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;jar&quot;</b> - Creates a JAR format</li><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, 51);"><b>&quot;dir&quot;</b> =
+- Creates an exploded directory format</li><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, 51);"><b>&quot;war&quot;</b> =
+- Creates a WAR format</li></ul></td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includeBaseDirectory</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Includes a =
+base directory in the final archive. For example, if you are creating an =
+assembly named &quot;your-app&quot;, setting includeBaseDirectory to =
+true will create an archive that includes this base directory. If this =
+option is set to false the archive created will unzip its content to the =
+current directory.<br/><b>Default value is</b>: =
+<tt>true</tt>.</td></tr><tr style=3D"background-color:rgb(221, 221, =
+221);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>baseDirectory</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+base directory of the resulting assembly archive. If this is not set and =
+includeBaseDirectory =3D=3D true, ${project.build.finalName} will be =
+used instead. (Since 2.2-beta-1)</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includeSiteDirectory</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Includes a =
+site directory in the final archive. The site directory location of a =
+project is determined by the siteDirectory parameter of the Assembly =
+Plugin.<br/><b>Default value is</b>: <tt>false</tt>.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>containerDescriptorHandlers/<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_containerDescriptorHandler" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">containerDescriptorHandler</a>*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;ContainerDescriptorHandlerConfig&gt;=
+</tt></td><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Set of components which filter =
+various container descriptors out of the normal archive stream, so they =
+can be aggregated then added.</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>moduleSets/<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_moduleSet" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">moduleSet</a>*</tt></td><td style=3D"font-family:Verdana, =
+Helvetica, Arial, sans-serif;color:rgb(51, 51, =
+51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;ModuleSet&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Specifies which module files to =
+include in the assembly. A moduleSet is specified by providing one or =
+more of &lt;moduleSet&gt; subelements.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>fileSets/<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_fileSet" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">fileSet</a>*</tt></td><td style=3D"font-family:Verdana, =
+Helvetica, Arial, sans-serif;color:rgb(51, 51, =
+51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;FileSet&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Specifies which groups of files =
+to include in the assembly. A fileSet is specified by providing one or =
+more of &lt;fileSet&gt; subelements.</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;"><tt>files/<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_file" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">file</a>*</tt></td><td style=3D"font-family:Verdana, Helvetica, =
+Arial, sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;FileItem&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Specifies which single files to =
+include in the assembly. A file is specified by providing one or more of =
+&lt;file&gt; subelements.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>dependencySets/<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_dependencySet" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">dependencySet</a>*</tt></td><td style=3D"font-family:Verdana, =
+Helvetica, Arial, sans-serif;color:rgb(51, 51, =
+51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;DependencySet&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Specifies which dependencies to =
+include in the assembly. A dependencySet is specified by providing one =
+or more of &lt;dependencySet&gt; subelements.</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>repositories/<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_repository" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">repository</a>*</tt></td><td style=3D"font-family:Verdana, =
+Helvetica, Arial, sans-serif;color:rgb(51, 51, =
+51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;Repository&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Specifies which repository files =
+to include in the assembly. A repository is specified by providing one =
+or more of &lt;repository&gt; subelements.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>componentDescriptors/componentDescriptor*</t=
+t></td><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Specifies the shared components =
+xml file locations to include in the assembly. The locations specified =
+must be relative to the base location of the descriptor. If the =
+descriptor was found via a &lt;descriptorRef/&gt; element in the =
+classpath, any components it specifies will also be found on the =
+classpath. If it is found by pathname via a &lt;descriptor/&gt; element =
+the value here will be interpreted as a path relative to the project =
+basedir. When multiple componentDescriptors are found, their contents =
+are merged. Check out the <a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/component.h=
+tml" style=3D"text-decoration:none;color:rgb(68, 119, 170);">descriptor =
+components</a> for more information. A componentDescriptor is specified =
+by providing one or more of &lt;componentDescriptor&gt; =
+subelements.</td></tr></table></div><a =
+name=3D"class_containerDescriptorHandler" =
+style=3D"text-decoration:none;"></a><div style=3D"padding:4px;"><h3 =
+style=3D"padding:4px 4px 4px 24px;color:rgb(102, 102, =
+102);font-weight:bold;font-size:14px;background-image:url(&quot;../images=
+/h3.jpg&quot;);background-color:rgb(204, 204, =
+204);background-position:0% 100%;background-repeat:no-repeat;"><a =
+name=3D"containerDescriptorHandler" =
+style=3D"text-decoration:none;"></a>containerDescriptorHandler</h3><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">Configures a filter for =
+files headed into the assembly archive, to enable aggregation of various =
+types of descriptor fragments, such as components.xml, web.xml, =
+etc.</p><table border=3D"0" =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:10px;padding:0px;width:100%;margin-left:-2px;margin-right:-2px;"><t=
+body><tr style=3D"background-color:rgb(221, 221, 221);"><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Element</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Type</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Description</th></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>handlerName</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">The =
+handler's plexus role-hint, for lookup from the container.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>configuration</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>DOM</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;">Configuration options for the =
+handler.</td></tr></tbody></table></div><a name=3D"class_moduleSet" =
+style=3D"text-decoration:none;"></a><div style=3D"padding:4px;"><h3 =
+style=3D"padding:4px 4px 4px 24px;color:rgb(102, 102, =
+102);font-weight:bold;font-size:14px;background-image:url(&quot;../images=
+/h3.jpg&quot;);background-color:rgb(204, 204, =
+204);background-position:0% 100%;background-repeat:no-repeat;"><a =
+name=3D"moduleSet" style=3D"text-decoration:none;"></a>moduleSet</h3><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">A moduleSet represent one =
+or more project &lt;module&gt; present inside a project's pom.xml. This =
+allows you to include sources or binaries belonging to a project's =
+&lt;modules&gt;.<br/><b>NOTE:</b> When using &lt;moduleSets&gt; from the =
+command-line, it is required to pass first the package phase by doing: =
+&quot;mvn package assembly:assembly&quot;. This bug/issue is scheduled =
+to be addressed by Maven 2.1.</p><table border=3D"0" =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:10px;padding:0px;width:100%;margin-left:-2px;margin-right:-2px;"><t=
+r style=3D"background-color:rgb(221, 221, 221);"><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Element</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Type</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Description</th></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>useAllReactorProjects</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">If set to =
+true, the plugin will include all projects in the current reactor for =
+processing in this ModuleSet. These will be subject to include/exclude =
+rules. (Since 2.2)<br/><b>Default value is</b>: =
+<tt>false</tt>.</td></tr><tr style=3D"background-color:rgb(221, 221, =
+221);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includeSubModules</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">If set to =
+false, the plugin will exclude sub-modules from processing in this =
+ModuleSet. Otherwise, it will process all sub-modules, each subject to =
+include/exclude rules. (Since 2.2-beta-1)<br/><b>Default value is</b>: =
+<tt>true</tt>.</td></tr><tr style=3D"background-color:rgb(238, 238, =
+238);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includes/include*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;include&gt; subelements =
+are present, they define a set of project coordinates to include. If =
+none is present, then &lt;includes&gt; represents all valid values. =
+Artifact coordinates may be given in simple groupId:artifactId form, or =
+they may be fully qualified in the form =
+groupId:artifactId:type[:classifier]:version. Additionally, wildcards =
+can be used, as in *:maven-*</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>excludes/exclude*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;exclude&gt; subelements =
+are present, they define a set of project artifact coordinates to =
+exclude. If none is present, then &lt;excludes&gt; represents no =
+exclusions. Artifact coordinates may be given in simple =
+groupId:artifactId form, or they may be fully qualified in the form =
+groupId:artifactId:type[:classifier]:version. Additionally, wildcards =
+can be used, as in *:maven-*</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;"><tt><a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_sources" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">sources</a></tt></td><td style=3D"font-family:Verdana, Helvetica, =
+Arial, sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>ModuleSources</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">When this is =
+present, the plugin will include the source files of the included =
+modules from this set in the resulting assembly.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;"><tt><a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_binaries" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">binaries</a></tt></td><td style=3D"font-family:Verdana, =
+Helvetica, Arial, sans-serif;color:rgb(51, 51, =
+51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>ModuleBinaries</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">When this is =
+present, the plugin will include the binaries of the included modules =
+from this set in the resulting assembly.</td></tr></table></div><a =
+name=3D"class_sources" style=3D"text-decoration:none;"></a><div =
+style=3D"padding:4px;"><h3 style=3D"padding:4px 4px 4px =
+24px;color:rgb(102, 102, =
+102);font-weight:bold;font-size:14px;background-image:url(&quot;../images=
+/h3.jpg&quot;);background-color:rgb(204, 204, =
+204);background-position:0% 100%;background-repeat:no-repeat;"><a =
+name=3D"sources" style=3D"text-decoration:none;"></a>sources</h3><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">Contains configuration =
+options for including the source files of a project module in an =
+assembly.</p><table border=3D"0" =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:10px;padding:0px;width:100%;margin-left:-2px;margin-right:-2px;"><t=
+r style=3D"background-color:rgb(221, 221, 221);"><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Element</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Type</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Description</th></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>useDefaultExcludes</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Whether =
+standard exclusion patterns, such as those matching CVS and Subversion =
+metadata files, should be used when calculating the files affected by =
+this set. For backward compatibility, the default value is true. (Since =
+2.2-beta-1)<br/><b>Default value is</b>: <tt>true</tt>.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>outputDirectory</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+output directory relative to the root of the root directory of the =
+assembly. For example, &quot;log&quot; will put the specified files in =
+the log directory.</td></tr><tr style=3D"background-color:rgb(238, 238, =
+238);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includes/include*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;include&gt; subelements =
+are present, they define a set of files and directory to include. If =
+none is present, then &lt;includes&gt; represents all valid =
+values.</td></tr><tr style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>excludes/exclude*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;exclude&gt; subelements =
+are present, they define a set of files and directory to exclude. If =
+none is present, then &lt;excludes&gt; represents no =
+exclusions.</td></tr><tr style=3D"background-color:rgb(238, 238, =
+238);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>fileMode</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Similar to a =
+UNIX permission, sets the file mode of the files included. THIS IS AN =
+OCTAL VALUE. Format: (User)(Group)(Other) where each component is a sum =
+of Read =3D 4, Write =3D 2, and Execute =3D 1. For example, the value =
+0644 translates to User read-write, Group and Other read-only. The =
+default value is 0644 <a =
+href=3D"http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);padding-right:18px;background:url(&quot;../images/external.png&quot;=
+) 100% 50% no-repeat;">(more on unix-style permissions)</a></td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>directoryMode</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Similar to a =
+UNIX permission, sets the directory mode of the directories included. =
+THIS IS AN OCTAL VALUE. Format: (User)(Group)(Other) where each =
+component is a sum of Read =3D 4, Write =3D 2, and Execute =3D 1. For =
+example, the value 0755 translates to User read-write, Group and Other =
+read-only. The default value is 0755. <a =
+href=3D"http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);padding-right:18px;background:url(&quot;../images/external.png&quot;=
+) 100% 50% no-repeat;">(more on unix-style permissions)</a></td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>fileSets/<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_fileSet" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">fileSet</a>*</tt></td><td style=3D"font-family:Verdana, =
+Helvetica, Arial, sans-serif;color:rgb(51, 51, =
+51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;FileSet&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Specifies which groups of files =
+from each included module to include in the assembly. A fileSet is =
+specified by providing one or more of &lt;fileSet&gt; subelements. =
+(Since 2.2-beta-1)</td></tr><tr style=3D"background-color:rgb(221, 221, =
+221);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includeModuleDirectory</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Specifies =
+whether the module's finalName should be prepended to the =
+outputDirectory values of any fileSets applied to it. (Since =
+2.2-beta-1)<br/><b>Default value is</b>: <tt>true</tt>.</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>excludeSubModuleDirectories</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Specifies =
+whether sub-module directories below the current module should be =
+excluded from fileSets applied to that module. This might be useful if =
+you only mean to copy the sources for the exact module list matched by =
+this ModuleSet, ignoring (or processing separately) the modules which =
+exist in directories below the current one. (Since =
+2.2-beta-1)<br/><b>Default value is</b>: <tt>true</tt>.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>outputDirectoryMapping</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+mapping pattern for all module base-directories included in this =
+assembly. NOTE: This field is only used if includeModuleDirectory =3D=3D =
+true. Default is the module's ${artifactId} in 2.2-beta-1, and =
+${module.artifactId} in subsequent versions. (Since =
+2.2-beta-1)<br/><b>Default value is</b>: =
+<tt>${module.artifactId}</tt>.</td></tr></table></div><a =
+name=3D"class_fileSet" style=3D"text-decoration:none;"></a><div =
+style=3D"padding:4px;"><h3 style=3D"padding:4px 4px 4px =
+24px;color:rgb(102, 102, =
+102);font-weight:bold;font-size:14px;background-image:url(&quot;../images=
+/h3.jpg&quot;);background-color:rgb(204, 204, =
+204);background-position:0% 100%;background-repeat:no-repeat;"><a =
+name=3D"fileSet" style=3D"text-decoration:none;"></a>fileSet</h3><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">A fileSet allows the =
+inclusion of groups of files into the assembly.</p><table border=3D"0" =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:10px;padding:0px;width:100%;margin-left:-2px;margin-right:-2px;"><t=
+r style=3D"background-color:rgb(221, 221, 221);"><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Element</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Type</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Description</th></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>useDefaultExcludes</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Whether =
+standard exclusion patterns, such as those matching CVS and Subversion =
+metadata files, should be used when calculating the files affected by =
+this set. For backward compatibility, the default value is true. (Since =
+2.2-beta-1)<br/><b>Default value is</b>: <tt>true</tt>.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>outputDirectory</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+output directory relative to the root of the root directory of the =
+assembly. For example, &quot;log&quot; will put the specified files in =
+the log directory.</td></tr><tr style=3D"background-color:rgb(238, 238, =
+238);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includes/include*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;include&gt; subelements =
+are present, they define a set of files and directory to include. If =
+none is present, then &lt;includes&gt; represents all valid =
+values.</td></tr><tr style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>excludes/exclude*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;exclude&gt; subelements =
+are present, they define a set of files and directory to exclude. If =
+none is present, then &lt;excludes&gt; represents no =
+exclusions.</td></tr><tr style=3D"background-color:rgb(238, 238, =
+238);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>fileMode</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Similar to a =
+UNIX permission, sets the file mode of the files included. THIS IS AN =
+OCTAL VALUE. Format: (User)(Group)(Other) where each component is a sum =
+of Read =3D 4, Write =3D 2, and Execute =3D 1. For example, the value =
+0644 translates to User read-write, Group and Other read-only. The =
+default value is 0644. <a =
+href=3D"http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);padding-right:18px;background:url(&quot;../images/external.png&quot;=
+) 100% 50% no-repeat;">(more on unix-style permissions)</a></td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>directoryMode</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Similar to a =
+UNIX permission, sets the directory mode of the directories included. =
+THIS IS AN OCTAL VALUE. Format: (User)(Group)(Other) where each =
+component is a sum of Read =3D 4, Write =3D 2, and Execute =3D 1. For =
+example, the value 0755 translates to User read-write, Group and Other =
+read-only. The default value is 0755. <a =
+href=3D"http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);padding-right:18px;background:url(&quot;../images/external.png&quot;=
+) 100% 50% no-repeat;">(more on unix-style permissions)</a></td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>directory</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+absolute or relative location from the module's directory. For example, =
+&quot;src/main/bin&quot; would select this subdirectory of the project =
+in which this dependency is defined.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>lineEnding</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+line-endings of the files in this fileSet. Valid values:=0A<ul><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;keep&quot;</b> - Preserve all line endings</li><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;unix&quot;</b> - Use Unix-style line endings (i.e. =
+&quot;\n&quot;)</li><li style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, 51);"><b>&quot;lf&quot;</b> =
+- Use a single line-feed line endings (i.e. &quot;\n&quot;)</li><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, 51);"><b>&quot;dos&quot;</b> =
+- Use DOS-/Windows-style line endings (i.e. &quot;\r\n&quot;)</li><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;windows&quot;</b> - Use DOS-/Windows-style line endings =
+(i.e. &quot;\r\n&quot;)</li><li style=3D"font-family:Verdana, Helvetica, =
+Arial, sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;crlf&quot;</b> - Use carriage-return, line-feed line =
+endings (i.e. &quot;\r\n&quot;)</li></ul></td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>filtered</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Whether to =
+filter symbols in the files as they are copied, using properties from =
+the build configuration. (Since 2.2-beta-1)<br/><b>Default value is</b>: =
+<tt>false</tt>.</td></tr></table></div><a name=3D"class_binaries" =
+style=3D"text-decoration:none;"></a><div style=3D"padding:4px;"><h3 =
+style=3D"padding:4px 4px 4px 24px;color:rgb(102, 102, =
+102);font-weight:bold;font-size:14px;background-image:url(&quot;../images=
+/h3.jpg&quot;);background-color:rgb(204, 204, =
+204);background-position:0% 100%;background-repeat:no-repeat;"><a =
+name=3D"binaries" style=3D"text-decoration:none;"></a>binaries</h3><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">Contains configuration =
+options for including the binary files of a project module in an =
+assembly.</p><table border=3D"0" =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:10px;padding:0px;width:100%;margin-left:-2px;margin-right:-2px;"><t=
+r style=3D"background-color:rgb(221, 221, 221);"><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Element</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Type</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Description</th></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>outputDirectory</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+output directory relative to the root of the root directory of the =
+assembly. For example, &quot;log&quot; will put the specified files in =
+the log directory, directly beneath the root of the =
+archive.</td></tr><tr style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includes/include*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;include&gt; subelements =
+are present, they define a set of artifact coordinates to include. If =
+none is present, then &lt;includes&gt; represents all valid values. =
+Artifact coordinates may be given in simple groupId:artifactId form, or =
+they may be fully qualified in the form =
+groupId:artifactId:type[:classifier]:version. Additionally, wildcards =
+can be used, as in *:maven-*</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>excludes/exclude*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;exclude&gt; subelements =
+are present, they define a set of dependency artifact coordinates to =
+exclude. If none is present, then &lt;excludes&gt; represents no =
+exclusions. Artifact coordinates may be given in simple =
+groupId:artifactId form, or they may be fully qualified in the form =
+groupId:artifactId:type[:classifier]:version. Additionally, wildcards =
+can be used, as in *:maven-*</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>fileMode</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Similar to a =
+UNIX permission, sets the file mode of the files included. THIS IS AN =
+OCTAL VALUE. Format: (User)(Group)(Other) where each component is a sum =
+of Read =3D 4, Write =3D 2, and Execute =3D 1. For example, the value =
+0644 translates to User read-write, Group and Other read-only. The =
+default value is 0644 <a =
+href=3D"http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);padding-right:18px;background:url(&quot;../images/external.png&quot;=
+) 100% 50% no-repeat;">(more on unix-style permissions)</a></td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>directoryMode</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Similar to a =
+UNIX permission, sets the directory mode of the directories included. =
+THIS IS AN OCTAL VALUE. Format: (User)(Group)(Other) where each =
+component is a sum of Read =3D 4, Write =3D 2, and Execute =3D 1. For =
+example, the value 0755 translates to User read-write, Group and Other =
+read-only. The default value is 0755. <a =
+href=3D"http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);padding-right:18px;background:url(&quot;../images/external.png&quot;=
+) 100% 50% no-repeat;">(more on unix-style permissions)</a></td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>attachmentClassifier</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">When =
+specified, the attachmentClassifier will cause the assembler to look at =
+artifacts attached to the module instead of the main project artifact. =
+If it can find an attached artifact matching the specified classifier, =
+it will use it; otherwise, it will throw an exception. (Since =
+2.2-beta-1)</td></tr><tr style=3D"background-color:rgb(238, 238, =
+238);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includeDependencies</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">If set to =
+true, the plugin will include the direct and transitive dependencies of =
+of the project modules included here. Otherwise, it will only include =
+the module packages only.<br/><b>Default value is</b>: =
+<tt>true</tt>.</td></tr><tr style=3D"background-color:rgb(221, 221, =
+221);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>dependencySets/<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_dependencySet" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">dependencySet</a>*</tt></td><td style=3D"font-family:Verdana, =
+Helvetica, Arial, sans-serif;color:rgb(51, 51, =
+51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;DependencySet&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Specifies which dependencies of =
+the module to include in the assembly. A dependencySet is specified by =
+providing one or more of &lt;dependencySet&gt; subelements. (Since =
+2.2-beta-1)</td></tr><tr style=3D"background-color:rgb(238, 238, =
+238);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>unpack</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">If set to =
+true, this property will unpack all module packages into the specified =
+output directory. When set to false module packages will be included as =
+archives (jars).<br/><b>Default value is</b>: =
+<tt>true</tt>.</td></tr><tr style=3D"background-color:rgb(221, 221, =
+221);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt><a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_unpackOptions" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">unpackOptions</a></tt></td><td style=3D"font-family:Verdana, =
+Helvetica, Arial, sans-serif;color:rgb(51, 51, =
+51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>UnpackOptions</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Allows the =
+specification of includes and excludes, along with filtering options, =
+for items unpacked from a module artifact. (Since =
+2.2-beta-1)</td></tr><tr style=3D"background-color:rgb(238, 238, =
+238);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>outputFileNameMapping</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+mapping pattern for all NON-UNPACKED dependencies included in this =
+assembly. (Since 2.2-beta-2; 2.2-beta-1 uses =
+${artifactId}-${version}${dashClassifier?}.${extension} as default =
+value) NOTE: If the dependencySet specifies unpack =3D=3D true, =
+outputFileNameMapping WILL NOT BE USED; in these cases, use =
+outputDirectory. See the plugin FAQ for more details about entries =
+usable in the outputFileNameMapping parameter.<br/><b>Default value =
+is</b>: =
+<tt>${module.artifactId}-${module.version}${dashClassifier?}.${module.ext=
+ension}</tt>.</td></tr></table></div><a name=3D"class_dependencySet" =
+style=3D"text-decoration:none;"></a><div style=3D"padding:4px;"><h3 =
+style=3D"padding:4px 4px 4px 24px;color:rgb(102, 102, =
+102);font-weight:bold;font-size:14px;background-image:url(&quot;../images=
+/h3.jpg&quot;);background-color:rgb(204, 204, =
+204);background-position:0% 100%;background-repeat:no-repeat;"><a =
+name=3D"dependencySet" =
+style=3D"text-decoration:none;"></a>dependencySet</h3><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">A dependencySet allows =
+inclusion and exclusion of project dependencies in the =
+assembly.</p><table border=3D"0" =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:10px;padding:0px;width:100%;margin-left:-2px;margin-right:-2px;"><t=
+r style=3D"background-color:rgb(221, 221, 221);"><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Element</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Type</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Description</th></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>outputDirectory</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+output directory relative to the root of the root directory of the =
+assembly. For example, &quot;log&quot; will put the specified files in =
+the log directory, directly beneath the root of the =
+archive.</td></tr><tr style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includes/include*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;include&gt; subelements =
+are present, they define a set of artifact coordinates to include. If =
+none is present, then &lt;includes&gt; represents all valid values. =
+Artifact coordinates may be given in simple groupId:artifactId form, or =
+they may be fully qualified in the form =
+groupId:artifactId:type[:classifier]:version. Additionally, wildcards =
+can be used, as in *:maven-*</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>excludes/exclude*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;exclude&gt; subelements =
+are present, they define a set of dependency artifact coordinates to =
+exclude. If none is present, then &lt;excludes&gt; represents no =
+exclusions. Artifact coordinates may be given in simple =
+groupId:artifactId form, or they may be fully qualified in the form =
+groupId:artifactId:type[:classifier]:version. Additionally, wildcards =
+can be used, as in *:maven-*</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>fileMode</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Similar to a =
+UNIX permission, sets the file mode of the files included. THIS IS AN =
+OCTAL VALUE. Format: (User)(Group)(Other) where each component is a sum =
+of Read =3D 4, Write =3D 2, and Execute =3D 1. For example, the value =
+0644 translates to User read-write, Group and Other read-only. The =
+default value is 0644 <a =
+href=3D"http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);padding-right:18px;background:url(&quot;../images/external.png&quot;=
+) 100% 50% no-repeat;">(more on unix-style permissions)</a></td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>directoryMode</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Similar to a =
+UNIX permission, sets the directory mode of the directories included. =
+THIS IS AN OCTAL VALUE. Format: (User)(Group)(Other) where each =
+component is a sum of Read =3D 4, Write =3D 2, and Execute =3D 1. For =
+example, the value 0755 translates to User read-write, Group and Other =
+read-only. The default value is 0755. <a =
+href=3D"http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);padding-right:18px;background:url(&quot;../images/external.png&quot;=
+) 100% 50% no-repeat;">(more on unix-style permissions)</a></td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>useStrictFiltering</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">When =
+specified as true, any include/exclude patterns which aren't used to =
+filter an actual artifact during assembly creation will cause the build =
+to fail with an error. This is meant to highlight obsolete inclusions or =
+exclusions, or else signal that the assembly descriptor is incorrectly =
+configured. (Since 2.2)<br/><b>Default value is</b>: =
+<tt>false</tt>.</td></tr><tr style=3D"background-color:rgb(238, 238, =
+238);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>outputFileNameMapping</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+mapping pattern for all dependencies included in this assembly. (Since =
+2.2-beta-2; 2.2-beta-1 uses =
+${artifactId}-${version}${dashClassifier?}.${extension} as default =
+value). See the plugin FAQ for more details about entries usable in the =
+outputFileNameMapping parameter.<br/><b>Default value is</b>: =
+<tt>${artifact.artifactId}-${artifact.version}${dashClassifier?}.${artifa=
+ct.extension}</tt>.</td></tr><tr style=3D"background-color:rgb(221, 221, =
+221);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>unpack</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">If set to =
+true, this property will unpack all dependencies into the specified =
+output directory. When set to false dependencies will be includes as =
+archives (jars). Can only unpack jar, zip, tar.gz, and tar.bz =
+archives.<br/><b>Default value is</b>: <tt>false</tt>.</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;"><tt><a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_unpackOptions" style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">unpackOptions</a></tt></td><td style=3D"font-family:Verdana, =
+Helvetica, Arial, sans-serif;color:rgb(51, 51, =
+51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>UnpackOptions</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Allows the =
+specification of includes and excludes, along with filtering options, =
+for items unpacked from a dependency artifact. (Since =
+2.2-beta-1)</td></tr><tr style=3D"background-color:rgb(221, 221, =
+221);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>scope</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+dependency scope for this dependencySet.<br/><b>Default value is</b>: =
+<tt>runtime</tt>.</td></tr><tr style=3D"background-color:rgb(238, 238, =
+238);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>useProjectArtifact</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Determines =
+whether the artifact produced during the current project's build should =
+be included in this dependency set. (Since 2.2-beta-1)<br/><b>Default =
+value is</b>: <tt>true</tt>.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>useProjectAttachments</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Determines =
+whether the attached artifacts produced during the current project's =
+build should be included in this dependency set. (Since =
+2.2-beta-1)<br/><b>Default value is</b>: <tt>false</tt>.</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>useTransitiveDependencies</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Determines =
+whether transitive dependencies will be included in the processing of =
+the current dependency set. If true, =
+includes/excludes/useTransitiveFiltering will apply to transitive =
+dependency artifacts in addition to the main project dependency =
+artifacts. If false, useTransitiveFiltering is meaningless, and =
+includes/excludes only affect the immediate dependencies of the project. =
+By default, this value is true. (Since 2.2-beta-1)<br/><b>Default value =
+is</b>: <tt>true</tt>.</td></tr><tr style=3D"background-color:rgb(221, =
+221, 221);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>useTransitiveFiltering</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Determines =
+whether the include/exclude patterns in this dependency set will be =
+applied to the transitive path of a given artifact. If true, and the =
+current artifact is a transitive dependency brought in by another =
+artifact which matches an inclusion or exclusion pattern, then the =
+current artifact has the same inclusion/exclusion logic applied to it as =
+well. By default, this value is false, in order to preserve backward =
+compatibility with version 2.1. This means that includes/excludes only =
+apply directly to the current artifact, and not to the transitive set of =
+artifacts which brought it in. (Since 2.2-beta-1)<br/><b>Default value =
+is</b>: <tt>false</tt>.</td></tr></table></div><a =
+name=3D"class_unpackOptions" style=3D"text-decoration:none;"></a><div =
+style=3D"padding:4px;"><h3 style=3D"padding:4px 4px 4px =
+24px;color:rgb(102, 102, =
+102);font-weight:bold;font-size:14px;background-image:url(&quot;../images=
+/h3.jpg&quot;);background-color:rgb(204, 204, =
+204);background-position:0% 100%;background-repeat:no-repeat;"><a =
+name=3D"unpackOptions" =
+style=3D"text-decoration:none;"></a>unpackOptions</h3><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">Specifies options for =
+including/excluding/filtering items extracted from an archive. (Since =
+2.2-beta-1)</p><table border=3D"0" =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:10px;padding:0px;width:100%;margin-left:-2px;margin-right:-2px;"><t=
+body><tr style=3D"background-color:rgb(221, 221, 221);"><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Element</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Type</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Description</th></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includes/include*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Set of file and/or directory =
+patterns for matching items to be included from an archive as it is =
+unpacked. Each item is specified as =
+&lt;include&gt;some/path&lt;/include&gt; (Since 2.2-beta-1)</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>excludes/exclude*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Set of file and/or directory =
+patterns for matching items to be excluded from an archive as it is =
+unpacked. Each item is specified as =
+&lt;exclude&gt;some/path&lt;/exclude&gt; (Since 2.2-beta-1)</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>filtered</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Whether to =
+filter symbols in the files as they are unpacked from the archive, using =
+properties from the build configuration. (Since =
+2.2-beta-1)<br/><b>Default value is</b>: <tt>false</tt>.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>lineEnding</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+line-endings of the files. (Since 2.2) Valid values:=0A<ul><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;keep&quot;</b> - Preserve all line endings</li><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;unix&quot;</b> - Use Unix-style line endings</li><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, 51);"><b>&quot;lf&quot;</b> =
+- Use a single line-feed line endings</li><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, 51);"><b>&quot;dos&quot;</b> =
+- Use DOS-style line endings</li><li style=3D"font-family:Verdana, =
+Helvetica, Arial, sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;crlf&quot;</b> - Use Carraige-return, line-feed line =
+endings</li></ul></td></tr><tr style=3D"background-color:rgb(238, 238, =
+238);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>useDefaultExcludes</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Whether =
+standard exclusion patterns, such as those matching CVS and Subversion =
+metadata files, should be used when calculating the files affected by =
+this set. For backward compatibility, the default value is true. (Since =
+2.2)<br/><b>Default value is</b>: <tt>true</tt>.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>encoding</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Allows to =
+specify the encoding to use when unpacking archives, for unarchivers =
+that support specifying encoding. If unspecified, archiver default will =
+be used. Archiver defaults generally represent sane (modern) =
+values.</td></tr></tbody></table></div><a name=3D"class_file" =
+style=3D"text-decoration:none;"></a><div style=3D"padding:4px;"><h3 =
+style=3D"padding:4px 4px 4px 24px;color:rgb(102, 102, =
+102);font-weight:bold;font-size:14px;background-image:url(&quot;../images=
+/h3.jpg&quot;);background-color:rgb(204, 204, =
+204);background-position:0% 100%;background-repeat:no-repeat;"><a =
+name=3D"file" style=3D"text-decoration:none;"></a>file</h3><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">A file allows individual =
+file inclusion with the option to change the destination filename not =
+supported by fileSets.</p><table border=3D"0" =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:10px;padding:0px;width:100%;margin-left:-2px;margin-right:-2px;"><t=
+r style=3D"background-color:rgb(221, 221, 221);"><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Element</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Type</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Description</th></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>source</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+absolute or relative path from the module's directory of the file to be =
+included in the assembly.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>outputDirectory</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+output directory relative to the root of the root directory of the =
+assembly. For example, &quot;log&quot; will put the specified files in =
+the log directory.</td></tr><tr style=3D"background-color:rgb(238, 238, =
+238);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>destName</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+destination filename in the outputDirectory. Default is the same name as =
+the source's file.</td></tr><tr style=3D"background-color:rgb(221, 221, =
+221);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>fileMode</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Similar to a =
+UNIX permission, sets the file mode of the files included. THIS IS AN =
+OCTAL VALUE. Format: (User)(Group)(Other) where each component is a sum =
+of Read =3D 4, Write =3D 2, and Execute =3D 1. For example, the value =
+0644 translates to User read-write, Group and Other read-only. The =
+default value is 0644 <a =
+href=3D"http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);padding-right:18px;background:url(&quot;../images/external.png&quot;=
+) 100% 50% no-repeat;">(more on unix-style permissions)</a></td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>lineEnding</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+line-endings of the files in this file. Valid values are:=0A<ul><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;keep&quot;</b> - Preserve all line endings</li><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;unix&quot;</b> - Use Unix-style line endings (i.e. =
+&quot;\n&quot;)</li><li style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, 51);"><b>&quot;lf&quot;</b> =
+- Use a single line-feed line endings (i.e. &quot;\n&quot;)</li><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, 51);"><b>&quot;dos&quot;</b> =
+- Use DOS-/Windows-style line endings (i.e. &quot;\r\n&quot;)</li><li =
+style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;windows&quot;</b> - Use DOS-/Windows-style line endings =
+(i.e. &quot;\r\n&quot;)</li><li style=3D"font-family:Verdana, Helvetica, =
+Arial, sans-serif;font-size:12px;color:rgb(51, 51, =
+51);"><b>&quot;crlf&quot;</b> - Use carriage-return, line-feed line =
+endings (i.e. &quot;\r\n&quot;)</li></ul></td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>filtered</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets whether =
+to determine if the file is filtered.<br/><b>Default value is</b>: =
+<tt>false</tt>.</td></tr></table></div><a name=3D"class_repository" =
+style=3D"text-decoration:none;"></a><div style=3D"padding:4px;"><h3 =
+style=3D"padding:4px 4px 4px 24px;color:rgb(102, 102, =
+102);font-weight:bold;font-size:14px;background-image:url(&quot;../images=
+/h3.jpg&quot;);background-color:rgb(204, 204, =
+204);background-position:0% 100%;background-repeat:no-repeat;"><a =
+name=3D"repository" =
+style=3D"text-decoration:none;"></a>repository</h3><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">Defines a Maven repository =
+to be included in the assembly. The artifacts available to be included =
+in a repository are your project's dependency artifacts. The repository =
+created contains the needed metadata entries and also contains both sha1 =
+and md5 checksums. This is useful for creating archives which will be =
+deployed to internal repositories.<br/><b>NOTE:</b> Currently, only =
+artifacts from the central repository are allowed.</p><table =
+border=3D"0" =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:10px;padding:0px;width:100%;margin-left:-2px;margin-right:-2px;"><t=
+r style=3D"background-color:rgb(221, 221, 221);"><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Element</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Type</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Description</th></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>outputDirectory</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Sets the =
+output directory relative to the root of the root directory of the =
+assembly. For example, &quot;log&quot; will put the specified files in =
+the log directory, directly beneath the root of the =
+archive.</td></tr><tr style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includes/include*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;include&gt; subelements =
+are present, they define a set of artifact coordinates to include. If =
+none is present, then &lt;includes&gt; represents all valid values. =
+Artifact coordinates may be given in simple groupId:artifactId form, or =
+they may be fully qualified in the form =
+groupId:artifactId:type[:classifier]:version. Additionally, wildcards =
+can be used, as in *:maven-*</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>excludes/exclude*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;exclude&gt; subelements =
+are present, they define a set of dependency artifact coordinates to =
+exclude. If none is present, then &lt;excludes&gt; represents no =
+exclusions. Artifact coordinates may be given in simple =
+groupId:artifactId form, or they may be fully qualified in the form =
+groupId:artifactId:type[:classifier]:version. Additionally, wildcards =
+can be used, as in *:maven-*</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>fileMode</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Similar to a =
+UNIX permission, sets the file mode of the files included. THIS IS AN =
+OCTAL VALUE. Format: (User)(Group)(Other) where each component is a sum =
+of Read =3D 4, Write =3D 2, and Execute =3D 1. For example, the value =
+0644 translates to User read-write, Group and Other read-only. The =
+default value is 0644 <a =
+href=3D"http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);padding-right:18px;background:url(&quot;../images/external.png&quot;=
+) 100% 50% no-repeat;">(more on unix-style permissions)</a></td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>directoryMode</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Similar to a =
+UNIX permission, sets the directory mode of the directories included. =
+THIS IS AN OCTAL VALUE. Format: (User)(Group)(Other) where each =
+component is a sum of Read =3D 4, Write =3D 2, and Execute =3D 1. For =
+example, the value 0755 translates to User read-write, Group and Other =
+read-only. The default value is 0755. <a =
+href=3D"http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);padding-right:18px;background:url(&quot;../images/external.png&quot;=
+) 100% 50% no-repeat;">(more on unix-style permissions)</a></td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>includeMetadata</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>boolean</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">If set to =
+true, this property will trigger the creation of repository metadata =
+which will allow the repository to be used as a functional remote =
+repository.<br/><b>Default value is</b>: <tt>false</tt>.</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>groupVersionAlignments/<a =
+href=3D"http://maven.apache.org/plugins/maven-assembly-plugin/assembly.ht=
+ml#class_groupVersionAlignment" =
+style=3D"text-decoration:none;color:rgb(68, 119, =
+170);">groupVersionAlignment</a>*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;GroupVersionAlignment&gt;</tt></td><=
+td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> Specifies that you want to align =
+a group of artifacts to a specified version. A groupVersionAlignment is =
+specified by providing one or more of &lt;groupVersionAlignment&gt; =
+subelements.</td></tr><tr style=3D"background-color:rgb(221, 221, =
+221);"><td style=3D"font-family:Verdana, Helvetica, Arial, =
+sans-serif;color:rgb(51, 51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>scope</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">Specifies =
+the scope for artifacts included in this repository. (Since =
+2.2-beta-1)<br/><b>Default value is</b>: =
+<tt>runtime</tt>.</td></tr></table></div><a =
+name=3D"class_groupVersionAlignment" =
+style=3D"text-decoration:none;"></a><div style=3D"padding:4px;"><h3 =
+style=3D"padding:4px 4px 4px 24px;color:rgb(102, 102, =
+102);font-weight:bold;font-size:14px;background-image:url(&quot;../images=
+/h3.jpg&quot;);background-color:rgb(204, 204, =
+204);background-position:0% 100%;background-repeat:no-repeat;"><a =
+name=3D"groupVersionAlignment" =
+style=3D"text-decoration:none;"></a>groupVersionAlignment</h3><p =
+style=3D"font-size:12px;color:rgb(0, 0, 0);">Allows a group of artifacts =
+to be aligned to a specified version.</p><table border=3D"0" =
+style=3D"font-weight:inherit;font-style:inherit;font-variant:inherit;font=
+-size:10px;padding:0px;width:100%;margin-left:-2px;margin-right:-2px;"><t=
+body><tr style=3D"background-color:rgb(221, 221, 221);"><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Element</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Type</th><th =
+style=3D"padding:2px =
+4px;vertical-align:top;color:white;text-align:left;font-weight:bold;backg=
+round-color:rgb(187, 187, 187);font-size:11px;">Description</th></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>id</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">The groupId =
+of the artifacts for which you want to align the versions.</td></tr><tr =
+style=3D"background-color:rgb(221, 221, 221);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>version</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>String</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px 4px;vertical-align:top;">The version =
+you want to align this group to.</td></tr><tr =
+style=3D"background-color:rgb(238, 238, 238);"><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>excludes/exclude*</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><tt>List&lt;String&gt;</tt></td><td =
+style=3D"font-family:Verdana, Helvetica, Arial, sans-serif;color:rgb(51, =
+51, 51);font-size:11px;padding:2px =
+4px;vertical-align:top;"><b>(Many)</b> When &lt;exclude&gt; subelements =
+are present, they define the artifactIds of the artifacts to exclude. If =
+none is present, then &lt;excludes&gt; represents no exclusions. An =
+exclude is specified by providing one or more of &lt;exclude&gt; =
+subelements.</td></tr></tbody></table></div></div></div></div><br/></span=
+>=0A</div></body></html>
+ 

@@ -1,0 +1,35 @@
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-assembly-plugin</artifactId>
+  <version>2.4</version>
+  <executions>
+    <execution>
+      <id>assembly</id>
+      <phase>package</phase>
+      <goals>
+        <goal>single</goal>
+      </goals>
+      <configuration>
+        <descriptors>
+          <descriptor>src/main/descriptors/bin.xml</descriptor>
+        </descriptors>
+        <archiverConfig>
+          <encoding>${project.build.sourceEncoding}</encoding>
+        </archiverConfig>
+      </configuration>
+    </execution>
+  </executions>
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.plexus</groupId>
+      <artifactId>plexus-archiver</artifactId>
+      <version>2.4.4</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.codehaus.plexus</groupId>
+          <artifactId>plexus-component-api</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</plugin>
