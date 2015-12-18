@@ -49,8 +49,7 @@
       &#25152;&#26377;&#30340;&#31508;&#35760;&#36825;&#37324;&#26377;&#19968;&#20221;&#22791;&#20221;&#25991;&#20214;&#24335;&#31508;&#35760;&#24182;&#21152;&#20837;&#38142;&#25509;&#21040;freemind&#20013;&#21363;&#21487;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1449568355881" FOLDED="true" ID="ID_1178703008" MODIFIED="1450173107764" TEXT="12.8">
 <node CREATED="1449568363062" ID="ID_359556443" MODIFIED="1449568386065" TEXT="&#x865a;&#x62df;&#x673a;centos&#x5206;&#x8fa8;&#x7387;&#x53ef;&#x8c03;&#xff0c;ssh&#x670d;&#x52a1;&#x542f;&#x52a8;"/>
 <node CREATED="1449568388366" ID="ID_480112241" MODIFIED="1449568415127" TEXT="&#x4fee;&#x6b63;esbizcenter&#x7684;externaltool&#x548c;mybatis&#x7684;&#x914d;&#x7f6e;&#x6587;&#x4ef6;"/>
@@ -161,7 +160,7 @@
 </node>
 <node CREATED="1450256537310" ID="ID_1072834665" MODIFIED="1450256598297" TEXT="&#x660e;&#x5929;&#x5b8c;&#x6210;2.1&#x7684;&#x9700;&#x6c42;&#xff0c;&#x540e;&#x7eed;&#x4e13;&#x5fc3;&#x641e;&#x5b9a;notifyserver,&#x4ece;uml&#x5f00;&#x59cb;&#x6574;&#x7406;&#x4ee5;&#x53ca;&#x642d;&#x5efa;&#x672c;&#x5730;&#x5f00;&#x53d1;&#x73af;&#x5883;&#x5148;"/>
 </node>
-<node CREATED="1450343159895" FOLDED="true" ID="ID_1735339884" MODIFIED="1450344223495" TEXT="12.17">
+<node CREATED="1450343159895" FOLDED="true" ID="ID_1735339884" MODIFIED="1450432208273" TEXT="12.17">
 <node CREATED="1450343169032" ID="ID_870032921" MODIFIED="1450343250971" TEXT="&#x4e00;&#x4e2a;&#x6280;&#x672f;&#x70b9;">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -181,8 +180,7 @@
       &lt;/bean&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1450343257967" ID="ID_14621776" MODIFIED="1450343341590" TEXT="&#x901a;&#x8fc7;&#x914d;&#x7f6e;&#xff0c;&#x4f7f;spring&#x652f;&#x6301;&#x7528;serviceUrl&#x6765;&#x4e3a;&#x8fdc;&#x7aef;&#x63d0;&#x4f9b;serviceInterface&#x7684;remoting&#x670d;&#x52a1;&#xff0c;&#x7c7b;&#x4f3c;webservice"/>
 <node CREATED="1450343474377" ID="ID_880272090" MODIFIED="1450343607066" TEXT="&#x8fd9;&#x4e2a;bean&#x5b9e;&#x9645;&#x662f;&#x8981;&#x4e00;&#x4e2a;&#x901a;&#x8fc7;spring&#x7684;HttpInvokerProxyFactoryBean&#x521b;&#x5efa;&#x7684;serviceinterface&#x7684;serviceProxy&#x5b9e;&#x4f8b;&#xff0c;&#x5c31;&#x662f;&#x5b9e;&#x73b0;&#x4e86;serviceInterface&#x7684;&#x5b9e;&#x4f8b;"/>
 </node>
@@ -192,6 +190,43 @@
 <node CREATED="1450344166925" ID="ID_931596741" MODIFIED="1450344185337" TEXT="&#x53d6;&#x6d88;&#x4e86;&#xff0c;&#x5b89;&#x5b89;&#x5976;&#x5976;&#x8c8c;&#x4f3c;&#x611f;&#x5192;&#xff0c;&#x4e0d;&#x80fd;&#x65e9;&#x51fa;&#x95e8;"/>
 </node>
 <node CREATED="1450344192234" ID="ID_1495203672" MODIFIED="1450344213467" TEXT="&#x660e;&#x5929;&#x91cd;&#x70b9;&#x6574;&#x7406;&#x5b8c;&#x6210;Exchange&#x7684;start&#x548c;receive&#x90e8;&#x5206;"/>
+</node>
+<node CREATED="1450403715790" ID="ID_964337988" MODIFIED="1450403720633" TEXT="12.18">
+<node CREATED="1450403722176" FOLDED="true" ID="ID_1412402143" MODIFIED="1450432198329" TEXT="&#x7ee7;&#x7eed;&#x6574;&#x7406;notifyserver">
+<node CREATED="1450432171417" ID="ID_576800215" MODIFIED="1450432194487" TEXT="&#x4e0b;&#x5468;&#x641e;&#x5b9a;exchange&#x90e8;&#x5206;&#x7684;&#x6574;&#x7406;&#x5e76;&#x4e89;&#x53d6;&#x672c;&#x673a;&#x8d77;&#x6765;"/>
+</node>
+<node CREATED="1450403736350" FOLDED="true" ID="ID_1907836271" LINK="https://msdn.microsoft.com/en-us/library/dd409462.aspx" MODIFIED="1450432134706" TEXT="&#x53d1;&#x73b0;&#x4e00;&#x4e2a;&#x975e;&#x5e38;&#x597d;&#x7684;uml&#x6559;&#x7a0b;&#xff0c;&#x6765;&#x81ea;&#x5fae;&#x8f6f;!&#x5de6;&#x4fa7;&#x83dc;&#x5355;&#x6709;&#x5404;&#x79cd;uml&#x56fe;&#x7684;&#x8be6;&#x7ec6;&#x63cf;&#x8ff0;&#x548c;&#x793a;&#x4f8b;">
+<node CREATED="1450404225077" ID="ID_1236222243" LINK="https://msdn.microsoft.com/en-us/library/dd409360.aspx" MODIFIED="1450404346827" TEXT="&#x6d3b;&#x52a8;&#x56fe;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(42, 42, 42)" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif">An&#160;</font><font color="rgb(42, 42, 42)" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif" size="13px"><em style="color: rgb(42, 42, 42); font-family: Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><b>activity diagram</b>&#160;</em></font><font color="rgb(42, 42, 42)" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif">shows a </font><font color="#6633ff" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif">business process</font><font color="rgb(42, 42, 42)" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif">&#160;&#160;or a </font><font color="#6600cc" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif">software process as a flow of work through a series of actions</font><font color="rgb(42, 42, 42)" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif">.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1450407015020" ID="ID_409700490" LINK="https://msdn.microsoft.com/en-us/library/dd409377.aspx" MODIFIED="1450407399827" TEXT="&#x65f6;&#x5e8f;&#x56fe;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(42, 42, 42)" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif" size="13px">Use sequence diagrams to visualize<b>&#160;</b></font><b><font color="#6633ff" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif" size="13px">instances and events</font><font color="rgb(42, 42, 42)" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif" size="13px">, </font><font color="#993300" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif" size="13px">instead of classes and methods</font></b><font color="rgb(42, 42, 42)" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif" size="13px">. </font>
+    </p>
+    <p>
+      <font color="#003333" face="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif" size="13px"><b>More than one</b>&#160;instance of the same type can appear on the diagram. <b>More than one</b>&#160;occurrence of the same message can also appear.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1450432137578" ID="ID_887478120" MODIFIED="1450432161830" TEXT="&#x4f8b;&#x4f1a;&#xff0c;&#x540e;&#x7eed;&#x6625;&#x8282;&#x524d;&#x5fc5;&#x987b;&#x641e;&#x5b9a;notifyserver"/>
 </node>
 </node>
 </node>
