@@ -1,0 +1,556 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>2015</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+    span.foldopened { color: white; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: visible;
+    cursor:pointer; }
+
+
+    span.foldclosed { color: #666666; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: hidden;
+    cursor:pointer; }
+
+    span.foldspecial { color: #666666; font-size: xx-small; border-style: none solid solid none;
+    border-color: #CCCCCC; border-width: 1; font-family: sans-serif; padding: 0em 0.1em 0em 0.1em; background: #e0e0e0;
+    cursor:pointer; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+
+<script type="text/javascript">
+   // Here we implement folding. It works fine with MSIE5.5, MSIE6.0 and
+   // Mozilla 0.9.6.
+
+   if (document.layers) {
+      //Netscape 4 specific code
+      pre = 'document.';
+      post = ''; }
+   if (document.getElementById) {
+      //Netscape 6 specific code
+      pre = 'document.getElementById("';
+      post = '").style'; }
+   if (document.all) {
+      //IE4+ specific code
+      pre = 'document.all.';
+      post = '.style'; }
+
+function layer_exists(layer) {
+   try {
+      eval(pre + layer + post);
+      return true; }
+   catch (error) {
+      return false; }}
+
+function show_layer(layer) {
+   eval(pre + layer + post).position = 'relative'; 
+   eval(pre + layer + post).visibility = 'visible'; }
+
+function hide_layer(layer) {
+   eval(pre + layer + post).visibility = 'hidden';
+   eval(pre + layer + post).position = 'absolute'; }
+
+function hide_folder(folder) {
+    hide_folding_layer(folder)
+    show_layer('show'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function show_folder(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_layer('show'+folder+'_'+i); }
+}
+function show_folder_completely(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+
+
+function hide_folding_layer(folder) {
+   var i;
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folding_layer(folder+'_'+i); }
+
+   hide_layer('hide'+folder);
+   hide_layer('show'+folder);
+   hide_layer('fold'+folder);
+
+   scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function fold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folder(folder+'_'+i); }
+}
+
+function unfold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+</script>
+<SPAN class="foldspecial" onclick="fold_document()">All +</SPAN>
+<SPAN class="foldspecial" onclick="unfold_document()">All -</SPAN>
+<p>2015
+<ul><li>&#20845;&#26376;&#20221;
+<ul><li><a href="2015/06/vim&#x591a;&#x884c;&#x5339;&#x914d;.jpg" target="_blank"><span class=l>~</span>&nbsp;0626
+</a>
+
+</li>
+
+</ul>
+</li>
+<li>&#21313;&#19968;&#26376;
+
+</li>
+<li><a href="https://onedrive.live.com/edit.aspx/%e6%96%87%e6%a1%a3/Java%e5%8f%8a%e5%85%b6%e7%9b%b8%e5%85%b3%e5%bc%80%e6%ba%90%e9%a1%b9%e7%9b%ae?cid=8ac513b42dbffeab&id=documents&wd=target%28Java.one%7CC0E0B82E-C75B-49E0-8572-F5BE85B872BD%2FJava%E7%BD%91%E6%96%87%E6%94%B6%E9%9B%86%7CF3881B52-E8F7-47AF-B3B5-B9F1DAE85FC7%2F%29 onenote:https://d.docs.live.net/8ac513b42dbffeab/&#x6587;&#x6863;/Java&#x53ca;&#x5176;&#x76f8;&#x5173;&#x5f00;&#x6e90;&#x9879;&#x76ee;/Java.one#Java&#x7f51;&#x6587;&#x6536;&#x96c6;&section-id={C0E0B82E-C75B-49E0-8572-F5BE85B872BD}&page-id={F3881B52-E8F7-47AF-B3B5-B9F1DAE85FC7}&end" target="_blank"><span class=l>~</span>&nbsp;Java Link
+</a>
+
+</li>
+<li><span id="show1_1" class="foldclosed" onClick="show_folder('1_1')" style="POSITION: absolute">+</span> <span id="hide1_1" class="foldopened" onClick="hide_folder('1_1')">-</span>
+&#20843;&#26376;&#20221;
+<ul id="fold1_1" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; ">0818&#65306;%s/^[0-9 ]\{1,2\}//g &nbsp;&#21435;&#38500;&#34892;&#21495;&#30340;vim&#27491;&#21017;&#34920;&#36798;&#24335;</span>
+
+</li>
+<li>0824&#65306;&#35980;&#20284;&#29256;&#26412;&#25511;&#21046;&#23458;&#25143;&#31471;&#36719;&#20214;Tortoise&#24456;&#29275;&#36924;&#30340;&#26679;&#23376;&#65292;&#26377;TortoiseSVN,TortoiseHG,TortoiseGit...
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_2" class="foldclosed" onClick="show_folder('1_2')" style="POSITION: absolute">+</span> <span id="hide1_2" class="foldopened" onClick="hide_folder('1_2')">-</span>
+&#22235;&#26376;&#20221;
+<ul id="fold1_2" style="POSITION: relative; VISIBILITY: visible;"><li><a href="2015/04/&#x5173;&#x4e8e;&#x811a;&#x672c;&#x7684;&#x5f53;&#x524d;&#x76ee;&#x5f55;.jpg" target="_blank"><span class=l>~</span>&nbsp;0409&#65306;&#33050;&#26412;&#20013;&#24403;&#21069;&#30446;&#24405;&#30340;&#25552;&#21462;
+</a>
+
+</li>
+<li>0410&#65306;&#20960;&#24352;&#29031;&#29255;
+<ul><li><a href="2015/04/&#x6bd5;&#x4e1a;&#x8bc1;.jpg" target="_blank"><span class=l>~</span>&nbsp;&#27605;&#19994;&#35777;
+</a>
+
+</li>
+<li><a href="2015/04/&#x5b66;&#x58eb;&#x5b66;&#x4f4d;.jpg" target="_blank"><span class=l>~</span>&nbsp;&#23398;&#20301;&#35777;
+</a>
+
+</li>
+<li>&#20973;&#35777;&#29031;
+<ul><li><a href="2015/04/&#x5b66;&#x4f4d;&#x8ba4;&#x8bc1;&#x652f;&#x4ed8;&#x5feb;&#x7167;.jpg" target="_blank"><span class=l>~</span>&nbsp;&#23398;&#20301;&#25903;&#20184;&#29031;1
+</a>
+
+</li>
+<li><a href="2015/04/&#x5b66;&#x4f4d;&#x8ba4;&#x8bc1;&#x652f;&#x4ed8;&#x5feb;&#x7167;2.jpg" target="_blank"><span class=l>~</span>&nbsp;&#23398;&#20301;&#25903;&#20184;&#29031;2
+</a>
+
+</li>
+<li><a href="2015/04/&#x5b66;&#x5386;&#x8ba4;&#x8bc1;&#x5feb;&#x7167;.jpg" target="_blank"><span class=l>~</span>&nbsp;&#23398;&#21382;&#30003;&#35831;&#24555;&#29031;
+</a>
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="2015/04/tcp&#x66f2;&#x7ebf;&#x8bf4;&#x660e;.jpg" target="_blank"><span class=l>~</span>&nbsp;0415&#65306;&#26597;&#30475;&#23458;&#25143;&#31471;SAEA&#22797;&#29992;&#20195;&#30721;&#65292;&#30475;&#30475;&#20026;&#20309;&#26159;&#38497;&#22686;&#32780;&#19981;&#26159;&#32531;&#24930;&#22686;&#38271;
+</a>
+
+</li>
+
+</ul>
+</li>
+<li>&#21313;&#20108;&#26376;
+<ul><li><span id="show1_3" class="foldclosed" onClick="show_folder('1_3')" style="POSITION: absolute">+</span> <span id="hide1_3" class="foldopened" onClick="hide_folder('1_3')">-</span>
+work
+<ul id="fold1_3" style="POSITION: relative; VISIBILITY: visible;"><li>elasticsearch
+
+</li>
+<li>notifyserver
+
+</li>
+<li>jobcenter
+
+</li>
+
+</ul>
+</li>
+<li>other
+<ul><li>linux
+<ul><li><span id="show1_4" class="foldclosed" onClick="show_folder('1_4')" style="POSITION: absolute">+</span> <span id="hide1_4" class="foldopened" onClick="hide_folder('1_4')">-</span>
+app
+<ul id="fold1_4" style="POSITION: relative; VISIBILITY: visible;"><li>memcache
+
+</li>
+<li>... ...
+
+</li>
+<li>redis
+
+</li>
+<li>zookeeper
+
+</li>
+<li>elasticsearch
+
+</li>
+<li>mysql
+
+</li>
+<li>loadrunner
+
+</li>
+<li>jerkin
+
+</li>
+<li>ssh
+
+</li>
+<li>gitlab
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_5" class="foldclosed" onClick="show_folder('1_5')" style="POSITION: absolute">+</span> <span id="hide1_5" class="foldopened" onClick="hide_folder('1_5')">-</span>
+self
+<ul id="fold1_5" style="POSITION: relative; VISIBILITY: visible;"><li>&#26597;&#30475;&#30446;&#24405;&#26435;&#38480;
+
+</li>
+<li>&#20840;&#30424;&#27491;&#21017;&#25628;&#32034;
+
+</li>
+<li>&#26597;&#30475;&#25991;&#20214;&#22823;&#23567;
+
+</li>
+<li>&#25991;&#20214;&#65292;&#30446;&#24405;&#30340;&#22686;&#21024;&#25913;
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_6" class="foldclosed" onClick="show_folder('1_6')" style="POSITION: absolute">+</span> <span id="hide1_6" class="foldopened" onClick="hide_folder('1_6')">-</span>
+plan
+<ul id="fold1_6" style="POSITION: relative; VISIBILITY: visible;"><li>mac pro&#19978;&#34394;&#25311;&#26426;&#25645;&#24314;&#23436;&#25972;&#30340;gitlab,jenkin&#20197;&#21450;maven&#31169;&#24211;&#31561;
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>daily
+<ul><li><span id="show1_7" class="foldclosed" onClick="show_folder('1_7')" style="POSITION: absolute">+</span> <span id="hide1_7" class="foldopened" onClick="hide_folder('1_7')">-</span>
+&#31532;&#20108;&#21608;
+<ul id="fold1_7" style="POSITION: relative; VISIBILITY: visible;"><li><span id="show1_7_1" class="foldclosed" onClick="show_folder('1_7_1')" style="POSITION: absolute">+</span> <span id="hide1_7_1" class="foldopened" onClick="hide_folder('1_7_1')">-</span>
+12.8
+<ul id="fold1_7_1" style="POSITION: relative; VISIBILITY: visible;"><li>&#34394;&#25311;&#26426;centos&#20998;&#36776;&#29575;&#21487;&#35843;&#65292;ssh&#26381;&#21153;&#21551;&#21160;
+
+</li>
+<li>&#20462;&#27491;esbizcenter&#30340;externaltool&#21644;mybatis&#30340;&#37197;&#32622;&#25991;&#20214;
+
+</li>
+<li>... ...
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_7_2" class="foldclosed" onClick="show_folder('1_7_2')" style="POSITION: absolute">+</span> <span id="hide1_7_2" class="foldopened" onClick="hide_folder('1_7_2')">-</span>
+12.11
+<ul id="fold1_7_2" style="POSITION: relative; VISIBILITY: visible;"><li>http&#21152;&#23494;bug&#35299;&#20915;
+
+</li>
+<li>esbizcenter mybaits connection&#37197;&#32622;&#20462;&#25913;&#65292;&#25928;&#26524;&#24453;&#26597;&#65292;&#30446;&#21069;&#20250;&#20851;&#38381;&#36830;&#25509;
+
+</li>
+<li>esbizcenter &#33050;&#26412;windows \r&#31526;&#21495;&#30340;&#21076;&#38500;
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>&#31532;&#19977;&#21608;
+<ul><li><span id="show1_8" class="foldclosed" onClick="show_folder('1_8')" style="POSITION: absolute">+</span> <span id="hide1_8" class="foldopened" onClick="hide_folder('1_8')">-</span>
+12.14
+<ul id="fold1_8" style="POSITION: relative; VISIBILITY: visible;"><li>&#19978;&#21608;&#26411;&#22312;&#23478;&#23433;&#35013;linux&#65292;&#20294;&#26080;&#32447;&#32593;&#21345;&#21551;&#21160;&#33258;&#21160;&#36830;&#25509;&#27809;&#25630;&#23450;&#65292;&#26242;&#26102;&#25601;&#32622;&#20102;&#65292;&#36824;&#26159;&#34394;&#25311;&#26426;&#36208;&#36215;&#21543;&#65292;&#29087;&#24713;&#20102;&#20877;&#32487;&#32493;&#25630;&#31508;&#35760;&#26412;&#30340;&#29289;&#29702;&#26426;&#65292;&#19981;&#32829;&#35823;&#26102;&#38388;&#20102;
+
+</li>
+<li>&#20844;&#31215;&#37329;&#20107;&#23452;&#38393;&#24471;&#19981;&#29245;&#65292;&#19981;&#36807;&#21313;&#20108;&#26376;&#20250;&#34917;&#22238;&#26469;&#65292;&#19968;&#26376;&#33021;&#30475;&#21040;
+
+</li>
+<li>&#38376;&#24215;&#25628;&#32034;&#25552;&#20132;&#20102;&#21608;&#26399;&#20940;&#26216;&#20840;&#37327;&#26356;&#26032;&#27169;&#22359;&#20197;&#21450;&#25903;&#25345;&#21021;&#22987;&#21270;&#21644;&#32039;&#24613;&#21047;&#26032;&#27169;&#22359;
+
+</li>
+<li>&#32771;&#34385;&#26412;&#26376;&#21518;&#32493;&#38454;&#27573;&#30340;&#24037;&#20316;&#23398;&#20064;&#35745;&#21010;
+
+</li>
+<li>&#20026;&#25152;&#26377;&#30340;keepassX&#35774;&#32622;&#31105;&#27490;&#19978;&#32593;
+
+</li>
+<li>&#20080;&#20102;3&#20010;u&#30424;&#65292;&#20379;60&#20803;
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_9" class="foldclosed" onClick="show_folder('1_9')" style="POSITION: absolute">+</span> <span id="hide1_9" class="foldopened" onClick="hide_folder('1_9')">-</span>
+12.15
+<ul id="fold1_9" style="POSITION: relative; VISIBILITY: visible;"><li><p><a href="2015/12/What%20is%20an%20uber%20jar.mht" target="_blank"><span class=l>~</span>&nbsp;maven-shade-plugin &#25171;&#21253;&#19968;&#20010;uber jar&#20063;&#23601;&#26159;&#23558;simple jar&#21644;&#20854;&#25152;&#20381;&#36182;&#30340;&#25152;&#26377;jar&#25171;&#21253;&#21040;&#19968;&#20010;jar&#21253;&#20869;&#65292;&#25925;&#32780;&#19968;&#20010;uber jar&#26159;&#33021;&#30452;&#25509;&#36816;&#34892;&#32780;&#26080;&#38656;&#20219;&#20309;&#22810;&#20313;&#30340;dependencies&#37197;&#32622;&#20102;&#12290;
+</a>
+<p><span id="show1_9_1" class="foldclosed" onClick="show_folder('1_9_1')" style="POSITION: absolute">+</span> <span id="hide1_9_1" class="foldopened" onClick="hide_folder('1_9_1')">-</span>
+notifyserver
+<ul id="fold1_9_1" style="POSITION: relative; VISIBILITY: visible;"><li>&#36890;&#36807;intellij idea&#23548;&#20837;&#24182;&#26597;&#30475;&#26681;&#30446;&#24405;&#30340;pom&#21457;&#29616;&#32534;&#35793;&#37197;&#32622;&#25991;&#20214;&#22312;assembly&#27169;&#22359;&#20013;&#65292;&#24182;&#30475;&#21040;&#20102;&#26032;&#30340;maven&#25554;&#20214;shade&#25554;&#20214;&#65292;&#31616;&#21333;&#20102;&#35299;&#20102;&#19968;&#19979;
+
+</li>
+<li>&#28155;&#21152;first-clean,second-install-dev(-Denv=liantiao)&#32534;&#35793;&#25104;&#21151;&#65292;&#29616;&#22312;&#32771;&#34385;&#25645;&#24314;&#26412;&#22320;&#24320;&#21457;&#29615;&#22659;
+
+</li>
+<li>assembly&#27169;&#22359;
+<ul><li><a href="2015/12/assembly-plugin.xml.txt" target="_blank"><span class=l>~</span>&nbsp;&#21551;&#29992;&#20102;maven-assembly-plugin
+</a>
+<ul><li><a href="2015/12/bin-descriptor.xml.txt" target="_blank"><span class=l>~</span>&nbsp;descriptor
+</a>
+<ul><li><span id="show1_9_1_1" class="foldclosed" onClick="show_folder('1_9_1_1')" style="POSITION: absolute">+</span> <span id="hide1_9_1_1" class="foldopened" onClick="hide_folder('1_9_1_1')">-</span>
+<a href="2015/12/Apache%20Maven%20Assembly%20Plugin%20&#x2013;%20Assembly.mht" target="_blank"><span class=l>~</span>&nbsp;more info
+</a>
+<ul id="fold1_9_1_1" style="POSITION: relative; VISIBILITY: visible;"><li><span style="color: #ff3333;">fileMode </span>
+<ul><li><p>Similar to a UNIX permission, sets the file mode of the files included. 
+<p>THIS IS AN OCTAL VALUE. Format: (User)(Group)(Other) where each component is a sum of Read = 4, Write = 2, and Execute = 1. 
+<ul><li><p>For example, the value 0644 translates to User read-write, Group and Other read-only. The default value is 0644 (more on unix-style permissions) &nbsp;
+</li>
+</ul></li>
+</ul>
+</li>
+<li><span style="color: #9900cc;">directoryMode</span>
+<ul><li><p> Similar to a UNIX permission, sets the directory mode of the directories included.
+<p> THIS IS AN OCTAL VALUE. Format: (User)(Group)(Other) where each component is a sum of Read = 4, Write = 2, and Execute = 1.
+<ul><li><p> For example, the value 0755 translates to User read-write, Group and Other read-only. The default value is 0755. (more on unix-style permissions) &nbsp;
+</li>
+</ul></li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>&#25353;&#29031;descriptor&#35774;&#32622;&#26469;&#25171;&#21253;&#22788;&#29702;&#30456;&#24212;&#30340;&#25991;&#20214;&#25110;&#30446;&#24405;
+
+</li>
+<li><a href="http://maven.apache.org/plugins/maven-assembly-plugin/examples/index.html" target="_blank"><span class=l>~</span>&nbsp;example from apache
+</a>
+
+</li>
+
+</ul>
+</li>
+<li>&#36890;&#36807;&#24341;&#20837;notifyserver-core-run&#27169;&#22359;&#30340;&#20381;&#36182;&#65292;&#23558;&#25152;&#26377;&#30456;&#20851;&#26381;&#21153;&#31471;&#30340;&#27169;&#22359;&#37117;&#24341;&#20837;&#27492;&#32534;&#35793;&#25171;&#21253;&#27169;&#22359;&#20013;&#20102;
+
+</li>
+
+</ul>
+</li>
+<li>netty/jetty
+<ul><li>jetty&#26159;&#19968;&#20010;&#31867;&#20284;web&#30340;&#23481;&#22120;&#65292;servlet&#30340;&#19996;&#35199;
+
+</li>
+<li>netty&#21017;&#26159;&#24322;&#27493;socket&#36890;&#35759;&#26694;&#26550;&#65292;&#19982;jetty&#39118;&#39532;&#29275;&#19981;&#30456;&#21450;
+
+</li>
+
+</ul>
+</li>
+<li>&#25903;&#25345;&#19977;&#31181;&#23458;&#25143;&#31471;&#21644;&#26381;&#21153;&#31471;&#22788;&#29702;
+<ul><li>jetty
+
+</li>
+<li>netty
+
+</li>
+<li>rmi
+
+</li>
+
+</ul>
+</li>
+<li>&#20174;&#26377;&#36947;&#19979;&#36733;&#30456;&#20851;&#35774;&#35745;&#25991;&#26723;&#65292;&#26412;&#21608;&#24320;&#22987;&#25645;&#24314;&#26412;&#22320;&#24320;&#21457;&#29615;&#22659;&#24182;&#36816;&#34892;&#36215;&#26469;&#20026;&#20027;
+
+</li>
+
+</ul><p>&#21482;&#33021;&#35828;&#26159;&#35299;&#20915;freemind&#20013;&#25991;&#20081;&#30721;&#65292;&#20294;&#19981;&#33021;&#36991;&#20813;&#20877;&#27425;&#20986;&#29616;...&#65292;&#23558;&#20081;&#30721;&#25335;&#36125;&#21040;&#35760;&#20107;&#26412;&#65292;&#28982;&#21518;&#20877;&lt;head&gt;&lt;/head&gt;&#20043;&#38388;&#21152;&#20837;&lt;meta http-equiv="Content-Type" content="text/html"; charset="gb2312"&gt;&#21518;&#20445;&#23384;&#65292;&#29992;&#20219;&#19968;&#27983;&#35272;&#22120;&#30340;&#25171;&#24320;&#21518;&#20877;&#23558;&#27491;&#24120;&#26174;&#31034;&#30340;&#22791;&#27880;&#25335;&#36125;&#22238;freemind&#21363;&#21487;.
+<ul><li>&lt;meta http-equiv="Content-Type" content="text/html"; charset="gb2312"&gt;
+
+</li>
+
+</ul><p>&#20462;&#25913;getvendorcomments&#21327;&#35758;&#65292;&#30456;&#20851;&#20462;&#25913;httpclient&#31867;&#21644;auto.ini&#65292;httpserver
+<p>&#25910;&#21040;u&#30424;&#65292;&#26356;&#26032;&#36710;&#36733;&#26354;&#21333;
+</li>
+</ul>
+</li>
+<li><span id="show1_10" class="foldclosed" onClick="show_folder('1_10')" style="POSITION: absolute">+</span> <span id="hide1_10" class="foldopened" onClick="hide_folder('1_10')">-</span>
+12.16
+<ul id="fold1_10" style="POSITION: relative; VISIBILITY: visible;"><li>&#25240;&#33150;&#20102;&#22909;&#20037;&#30340;sandisk&#21152;&#23494;&#65292;&#21482;&#26159;&#23558;&#19968;&#20010;google&#39564;&#35777;&#30721;&#20445;&#23384;&#20102;&#36827;&#21435;&#65292;&#24863;&#35273;&#27809;&#21861;&#40479;&#29992;&#65292;&#38543;&#21518;&#20250;&#25918;&#21040;&#23478;&#37324;&#25991;&#20214;&#34955;&#20102;&#65292;&#20808;&#36825;&#26679;&#21543;&#12290;
+<br>
+
+
+</li>
+<li><span id="show1_10_1" class="foldclosed" onClick="show_folder('1_10_1')" style="POSITION: absolute">+</span> <span id="hide1_10_1" class="foldopened" onClick="hide_folder('1_10_1')">-</span>
+starUML2.5.1&#30340;&#30772;&#35299;
+<ul id="fold1_10_1" style="POSITION: relative; VISIBILITY: visible;"><li>&#23454;&#38469;&#19978;&#19981;&#30772;&#35299;&#20063;&#33021;&#27704;&#20037;&#29992;&#65292;&#19981;&#36807;&#23601;&#26159;&#32769;&#25552;&#31034;&#26410;&#27880;&#20876;&#21862;&#65292;&#25402;&#28902;&#30340;&#65292;&#25152;&#20197;&#36825;&#20010;&#25480;&#26435;&#22788;&#29702;&#20960;&#20046;&#27809;&#20219;&#20309;&#38590;&#24230;
+
+</li>
+<li><a href="2015/12/starUML&#x6ce8;&#x518c;.jpg" target="_blank"><span class=l>~</span>&nbsp;&#32534;&#36753;&#23433;&#35013;&#30446;&#24405;/www/license/node/LicenseManagerDomain.js&#25991;&#20214;
+</a>
+
+</li>
+<li>&#28982;&#21518;&#65292;&#20877;&#25171;&#24320;starUML&#22312;help-&gt;enter license&#20013;&#36755;&#20837;&#21018;&#25165;&#20462;&#25913;&#30340;name&#20026;rooneykang,key&#20026;unlimited&#21363;&#21487;
+
+</li>
+
+</ul>
+</li>
+<li>&#26126;&#22825;&#23436;&#25104;2.1&#30340;&#38656;&#27714;&#65292;&#21518;&#32493;&#19987;&#24515;&#25630;&#23450;notifyserver,&#20174;uml&#24320;&#22987;&#25972;&#29702;&#20197;&#21450;&#25645;&#24314;&#26412;&#22320;&#24320;&#21457;&#29615;&#22659;&#20808;
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_11" class="foldclosed" onClick="show_folder('1_11')" style="POSITION: absolute">+</span> <span id="hide1_11" class="foldopened" onClick="hide_folder('1_11')">-</span>
+12.17
+<ul id="fold1_11" style="POSITION: relative; VISIBILITY: visible;"><li>&#19968;&#20010;&#25216;&#26415;&#28857;
+<ul><li><p>&#36890;&#36807;&#37197;&#32622;&#65292;&#20351;spring&#25903;&#25345;&#29992;serviceUrl&#26469;&#20026;&#36828;&#31471;&#25552;&#20379;serviceInterface&#30340;remoting&#26381;&#21153;&#65292;&#31867;&#20284;webservice
+<p>&#36825;&#20010;bean&#23454;&#38469;&#26159;&#35201;&#19968;&#20010;&#36890;&#36807;spring&#30340;HttpInvokerProxyFactoryBean&#21019;&#24314;&#30340;serviceinterface&#30340;serviceProxy&#23454;&#20363;&#65292;&#23601;&#26159;&#23454;&#29616;&#20102;serviceInterface&#30340;&#23454;&#20363;
+</li>
+</ul>
+</li>
+<li>&#19979;&#21320;&#25972;&#29702;notifyserver&#65292;&#21457;&#29616;&#27604;&#36739;&#31528;&#65292;&#21518;&#32493;&#19981;&#22312;&#19968;&#19968;&#24405;&#20837;&#26041;&#27861;&#23646;&#24615;&#65292;&#21482;&#35760;&#20010;&#31867;&#21517;&#25630;&#28165;&#26102;&#24207;&#21644;&#20381;&#36182;&#20851;&#31995;&#21363;&#21487;
+
+</li>
+<li>&#19978;&#21320;&#23436;&#25104;&#20102;&#36317;&#31163;&#30340;&#20108;&#32423;&#25490;&#24207;
+
+</li>
+<li><span id="show1_11_1" class="foldclosed" onClick="show_folder('1_11_1')" style="POSITION: absolute">+</span> <span id="hide1_11_1" class="foldopened" onClick="hide_folder('1_11_1')">-</span>
+&#32422;&#22909;&#20102;&#26126;&#22825;&#25289;&#23567;&#26519;&#21435;&#21271;&#22823;&#22269;&#38469;
+<ul id="fold1_11_1" style="POSITION: relative; VISIBILITY: visible;"><li>&#21462;&#28040;&#20102;&#65292;&#23433;&#23433;&#22902;&#22902;&#35980;&#20284;&#24863;&#20882;&#65292;&#19981;&#33021;&#26089;&#20986;&#38376;
+
+</li>
+
+</ul>
+</li>
+<li>&#26126;&#22825;&#37325;&#28857;&#25972;&#29702;&#23436;&#25104;Exchange&#30340;start&#21644;receive&#37096;&#20998;
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_12" class="foldclosed" onClick="show_folder('1_12')" style="POSITION: absolute">+</span> <span id="hide1_12" class="foldopened" onClick="hide_folder('1_12')">-</span>
+12.18
+<ul id="fold1_12" style="POSITION: relative; VISIBILITY: visible;"><li><span id="show1_12_1" class="foldclosed" onClick="show_folder('1_12_1')" style="POSITION: absolute">+</span> <span id="hide1_12_1" class="foldopened" onClick="hide_folder('1_12_1')">-</span>
+&#32487;&#32493;&#25972;&#29702;notifyserver
+<ul id="fold1_12_1" style="POSITION: relative; VISIBILITY: visible;"><li>&#19979;&#21608;&#25630;&#23450;exchange&#37096;&#20998;&#30340;&#25972;&#29702;&#24182;&#20105;&#21462;&#26412;&#26426;&#36215;&#26469;
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_12_2" class="foldclosed" onClick="show_folder('1_12_2')" style="POSITION: absolute">+</span> <span id="hide1_12_2" class="foldopened" onClick="hide_folder('1_12_2')">-</span>
+<a href="https://msdn.microsoft.com/en-us/library/dd409462.aspx" target="_blank"><span class=l>~</span>&nbsp;&#21457;&#29616;&#19968;&#20010;&#38750;&#24120;&#22909;&#30340;uml&#25945;&#31243;&#65292;&#26469;&#33258;&#24494;&#36719;!&#24038;&#20391;&#33756;&#21333;&#26377;&#21508;&#31181;uml&#22270;&#30340;&#35814;&#32454;&#25551;&#36848;&#21644;&#31034;&#20363;
+</a>
+<ul id="fold1_12_2" style="POSITION: relative; VISIBILITY: visible;"><li><a href="https://msdn.microsoft.com/en-us/library/dd409360.aspx" target="_blank"><span class=l>~</span>&nbsp;&#27963;&#21160;&#22270;
+</a>
+
+</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/dd409377.aspx" target="_blank"><span class=l>~</span>&nbsp;&#26102;&#24207;&#22270;
+</a>
+
+</li>
+
+</ul>
+</li>
+<li>&#20363;&#20250;&#65292;&#21518;&#32493;&#26149;&#33410;&#21069;&#24517;&#39035;&#25630;&#23450;notifyserver
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>&#31532;&#22235;&#21608;
+<ul><li>12.21
+<ul><li>&#26412;&#21608;&#35753;notifyserver&#26412;&#22320;&#36305;&#36215;&#26469;&#65292;&#28982;&#21518;&#25165;&#26159;&#32487;&#32493;&#30475;&#26550;&#26500;&#30340;&#20107;
+
+</li>
+<li>&#25490;&#26597;&#22352;&#26631;&#25490;&#24207;&#19981;&#23545;&#38382;&#39064;&#65292;&#26368;&#32456;&#24212;&#35813;&#26159;&#22352;&#26631;&#21462;&#30340;&#19981;&#19968;&#33268;&#23548;&#33268;&#65292;&#20855;&#20307;&#21407;&#22240;&#19981;&#26126;&#65292;&#21453;&#27491;&#25105;&#36825;&#36793;&#27809;&#38169;&#26242;&#26102;&#36825;&#26679;&#20102;&#21543;&#65292;&#19981;&#28010;&#36153;&#26102;&#38388;&#20102;&#12290;
+<ul><li><p>&#21407;&#22240;&#35980;&#20284;&#26597;&#26126;&#65292;&#22240;&#20013;&#22269;&#26412;&#22320;&#21508;&#32593;&#31449;&#20840;&#37319;&#29992;&#30340;&#26159;&#20559;&#31227;&#20102;&#20960;&#30334;&#31859;&#30340;&#8220;&#28779;&#26143;&#22352;&#26631;&#8221;&#65292;&#21621;&#21621;&#65292;&#32780;Android&#26222;&#36941;&#37319;&#29992;&#20102;&#26412;&#22320;&#22320;&#22270;&#65292;&#20854;&#19978;&#20256;&#30340;&#26159;&#28779;&#26143;&#22352;&#26631;&#65292;Iphone&#20043;&#21069;&#26410;&#37319;&#29992;&#39640;&#24503;&#22320;&#22270;&#21069;&#19978;&#20256;&#30340;&#26159;&#30495;&#23454;&#22352;&#26631;&#65292;&#24815;&#20363;&#25105;&#20204;&#20250;&#36716;&#20026;&#28779;&#26143;&#22352;&#26631;&#25165;&#33021;&#27491;&#24120;&#35745;&#31639;&#36317;&#31163;&#65292;&#20294;Iphone&#37319;&#29992;&#39640;&#24503;&#22320;&#22270;&#21518;&#23601;&#19981;&#33021;&#20877;&#20570;&#36825;&#20010;&#36716;&#25442;&#20102;&#65292;&#20250;&#23548;&#33268;&#20559;&#24046;&#65292;&#22240;&#39640;&#24503;&#22320;&#22270;&#24212;&#35813;&#23601;&#26159;&#28779;&#26143;&#22352;&#26631;&#20102;&#65292;&#19968;&#20999;&#24453;&#26597;&#24453;&#30830;&#23450;&#12290;
+</li>
+</ul>
+</li>
+<li><a href="2015/12/Main-Diagram.jpg" target="_blank"><span class=l>~</span>&nbsp;notifyserver - run &#30340;&#31867;&#22270;
+</a>
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul><SCRIPT type="text/javascript">
+fold_document();
+</SCRIPT>
+</body>
+</html>
