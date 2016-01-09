@@ -60,7 +60,7 @@
 </node>
 <node CREATED="1452163023365" ID="ID_1145457004" MODIFIED="1452163059668" TEXT="&#x4e0d;&#x770b;notifyserver&#x4ee3;&#x7801;&#x4e86;&#xff0c;&#x6539;&#x5168;&#x529b;&#x642d;&#x5efa;&#x672c;&#x5730;&#x73af;&#x5883;&#x5427;&#xff0c;&#x4e89;&#x53d6;&#x672c;&#x5468;&#x641e;&#x5b9a;&#x5427;"/>
 </node>
-<node CREATED="1452237389721" ID="ID_1642886528" MODIFIED="1452244477268" TEXT="1.8">
+<node CREATED="1452237389721" FOLDED="true" ID="ID_1642886528" MODIFIED="1452320269937" TEXT="1.8">
 <node CREATED="1452237395726" ID="ID_634218149" MODIFIED="1452237439018" TEXT="&#x641e;&#x5b9a;&#x4e86;&#x865a;&#x673a;&#x548c;host&#x4e92;&#x8bbf;&#x95ee;&#x9898;&#xff0c;&#x4e3b;&#x8981;&#x662f;centos&#x7684;&#x9632;&#x706b;&#x5899;&#x5bfc;&#x81f4;&#x5427;&#xff0c;&#x5176;&#x4f59;&#x7684;&#x95ee;&#x9898;&#x5f85;&#x6574;&#x7406;&#xff0c;&#x5728;onenote/java&#x4e2d;&#x6709;"/>
 <node CREATED="1452237442328" ID="ID_1537834887" MODIFIED="1452237544874" TEXT="&#x5e74;&#x524d;&#xff0c;&#x4fee;&#x6539;esbizcenter-shop&#xff0c;&#x652f;&#x6301;&#x6839;&#x636e;&#x95e8;&#x5e97;id&#x67e5;&#x8be2;&#x76f8;&#x5173;&#x8bb0;&#x5f55;&#xff0c;&#x53e6;&#x5916;&#xff0c;&#x8003;&#x8651;&#x505a;&#x81ea;&#x52a8;&#x5316;&#x811a;&#x672c;&#x6765;&#x4e00;&#x6b21;&#x6027;&#x5b89;&#x88c5;&#x542f;&#x52a8;ssh,resin,mysql,redis,mongo&#x7b49;&#x7b49;&#x5de5;&#x4f5c;&#xff0c;&#x4fbf;&#x4e8e;&#x540e;&#x7eed;&#x53cd;&#x590d;&#x5feb;&#x901f;&#x642d;&#x5efa;&#x672c;&#x5730;&#x5f00;&#x53d1;&#x73af;&#x5883;"/>
 <node CREATED="1452243289458" ID="ID_283351742" MODIFIED="1452243312801" TEXT="&#x7528;nc -v  ip port&#x6765;&#x6d4b;&#x8bd5;&#x662f;&#x5426;&#x8fde;&#x63a5;&#x901a;">
@@ -69,6 +69,28 @@
 <node CREATED="1452244312232" ID="ID_895622435" MODIFIED="1452244484214" TEXT="df -h&#x6307;&#x4ee4;&#x67e5;&#x8be2;&#x78c1;&#x76d8;&#x4f7f;&#x7528;&#x72b6;&#x51b5;&#xff0c;disk filesystem"/>
 <node CREATED="1452244333660" ID="ID_775993514" MODIFIED="1452244405592" TEXT="du -sh &#x6307;&#x4ee4;&#x67e5;&#x8be2;&#x5f53;&#x524d;&#x76ee;&#x5f55;&#x78c1;&#x76d8;&#x4f7f;&#x7528;&#x7387;,disk usage"/>
 <node CREATED="1452250447181" ID="ID_1856591550" MODIFIED="1452250466224" TEXT="&#x5b89;&#x88c5;&#x4e86;redis&#xff0c;&#x660e;&#x5929;&#x7ee7;&#x7eed;&#x6d4b;&#xff0c;&#x540c;&#x65f6;&#x88c5;&#x4e0a;mysql"/>
+</node>
+<node CREATED="1452320276339" FOLDED="true" ID="ID_368578008" MODIFIED="1452329837569" TEXT="1.9">
+<node CREATED="1452320282867" ID="ID_810329020" LINK="2016/01/bash%20-%20if%20-square.jpg" MODIFIED="1452320441149" TEXT="sh&#x811a;&#x672c;&#x7684;&#x975e;&#x5e38;&#x7b80;&#x5355;&#x7684;if/elif/fi&#x6761;&#x4ef6;&#x5224;&#x65ad;&#xff0c;&#x88ab;[]&#x5751;&#x4e86;&#x4e00;&#x5929;&#xff0c;&#x539f;&#x56e0;&#x5c31;&#x662f;&#x56e0;&#x4e3a;[]&#x7528;&#x4e8e;&#x6b63;&#x5219;&#x7b49;&#x5f88;&#x591a;&#x5730;&#x65b9;&#xff0c;&#xa;&#x4f5c;&#x4e3a;&#x5224;&#x65ad;&#x5f0f;&#x5219;&#x5fc5;&#x987b;&#x8981;&#x5728;&#x6240;&#x6709;&#x76f8;&#x5173;&#x5730;&#x65b9;&#x52a0;&#x7a7a;&#x683c;&#xff0c;&#x53c2;&#x8003;&#x56fe;&#x793a;&#xa;&#xa;&#x5c24;&#x5176;&#x662f;&#x201c;&#x7b49;&#x53f7;&#x201d;&#x4e24;&#x8fb9;&#x7684;&#x7a7a;&#x683c;&#xff0c;&#x65e5;&#x4e86;&#x72d7;&#x4e86;&#xff01;"/>
+<node CREATED="1452324050713" FOLDED="true" ID="ID_1145696836" MODIFIED="1452329827512" TEXT="&#x5c06;redis&#x7684;conf&#x6587;&#x4ef6;&#x4e2d;daemon&#x6a21;&#x5f0f;&#x8c03;&#x4e3a;yes&#x540e;&#xff0c;&#x5c31;&#x80fd;&#x6b63;&#x5e38;&#x7528;./redis-cli &#x6765;&#x6d4b;&#x8bd5;&#x4e86;&#xff0c;&#x4ea4;&#x4e92;&#x6a21;&#x5f0f;&#x4e2d;&#x8f93;&#x5165;shutdown&#x53ef;&#x5173;&#x95ed;daemon&#x6a21;&#x5f0f;&#x4e0b;&#x7684;redis server&#xff0c;&#x5728;redis server&#x524d;&#x7aef;&#x6a21;&#x5f0f;&#x4e0b;&#x5219;&#x7528;ctrl -C &#x6765;&#x5173;&#x95ed;&#x670d;&#x52a1;,&#x5176;&#x4f59;&#x914d;&#x7f6e;&#x67e5;&#x770b;evernote&#x7b14;&#x8bb0;&#x5373;&#x53ef;">
+<node CREATED="1452325044477" ID="ID_472400908" MODIFIED="1452325211560">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#cc3300">./redis-cli </font></b>-h 127.0.0.1 -p 6379&#160;&#160;get foo<br /><br /><font color="#660099">-h:&#20195;&#34920;host&#65292;&#36830;&#25509;&#36828;&#31243;&#25165;&#29992;<br color="#660099" />-p:&#20195;&#34920;port&#65292;&#33258;&#23450;&#20041;&#31471;&#21475;&#25165;&#29992;<br color="#660099" />get foo:&#20855;&#20307;&#21521;redis server&#21457;&#36865;&#30340;&#25351;&#20196;&#25968;&#25454;</font><br /><br />
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1452329154161" ID="ID_57735707" MODIFIED="1452329162790" TEXT="&#x4e24;&#x6bb5;&#x811a;&#x672c;">
+<node CREATED="1452329164495" ID="ID_1848298498" LINK="2016/01/chk-ps-list-sh.jpg" MODIFIED="1452329801193" TEXT="&#x67e5;&#x8be2;&#x6307;&#x5b9a;&#x540d;&#x79f0;&#x7684;&#x8fdb;&#x7a0b;&#x7684;PID"/>
+<node CREATED="1452329194036" ID="ID_1372812509" LINK="2016/01/start-local-env-sh.jpg" MODIFIED="1452329793520" TEXT="&#x542f;&#x52a8;&#x5173;&#x95ed;&#x4e00;&#x7cfb;&#x5217;&#x76f8;&#x5173;&#x670d;&#x52a1;&#xff0c;&#x8fd9;&#x91cc;&#x662f;redis&#x548c;resin"/>
+</node>
 </node>
 </node>
 </node>
