@@ -14,8 +14,7 @@
       &#23450;&#20041;&#20102;&#32479;&#19968;&#30340;&#22788;&#29702;&#32467;&#26524;&#36820;&#22238;&#27169;&#24335;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1469502327021" ID="ID_1259347602" MODIFIED="1469502354647" TEXT="interface">
 <node CREATED="1469502334885" ID="ID_260791813" LINK="https://gist.github.com/herotony/848f9b5841bbdb113d8e4894af48d562/#file-servicetemplate-java" MODIFIED="1469503678816" TEXT="ServiceTemplate">
@@ -28,10 +27,9 @@
       &#35774;&#23450;&#20102;&#25968;&#25454;&#24211;&#25191;&#34892;&#30340;&#25968;&#25454;&#28304;&#21644;&#26159;&#21542;&#25903;&#25345;&#20107;&#21153;&#65292;&#26412;&#25509;&#21475;&#26356;&#24212;&#35813;&#21483;databaseTemplate
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1469502356552" ID="ID_1683216815" LINK="https://gist.github.com/herotony/848f9b5841bbdb113d8e4894af48d562/#file-templateaction-java" MODIFIED="1469503654753" TEXT="TemplateAction">
+<node CREATED="1469502356552" ID="ID_1683216815" LINK="https://gist.github.com/herotony/848f9b5841bbdb113d8e4894af48d562/#file-templateaction-java" MODIFIED="1469608086172" TEXT="TemplateAction">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -45,21 +43,32 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1469502480037" ID="ID_1294473970" LINK="https://gist.github.com/herotony/848f9b5841bbdb113d8e4894af48d562/#file-codeutil-java" MODIFIED="1469503705303" TEXT="CodeUtil">
+<node CREATED="1469502480037" ID="ID_1294473970" LINK="https://gist.github.com/herotony/848f9b5841bbdb113d8e4894af48d562/#file-codeutil-java" MODIFIED="1469520079149" TEXT="CodeUtil">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#35828;&#26159;&#35299;&#26512;CallResult&#30340;code
+      &#35828;&#26159;&#35299;&#26512;CallResult&#30340;code&#65292;&#36825;&#20010;&#22788;&#29702;&#22810;&#20313;&#20102;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1469503309520" ID="ID_551569564" MODIFIED="1469503319533" TEXT="abstract class">
 <node CREATED="1469503321632" ID="ID_1422580002" LINK="https://gist.github.com/herotony/848f9b5841bbdb113d8e4894af48d562/#file-abstracttemplateaction-java" MODIFIED="1469503349657" TEXT="AbstractTemplateAction"/>
+</node>
+<node CREATED="1469520491824" ID="ID_367615232" LINK="https://gist.github.com/herotony/848f9b5841bbdb113d8e4894af48d562/#file-servicetemplateimpl-java" MODIFIED="1469525964964" TEXT="ServiceTemplateImpl">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#27604;&#36739;&#23436;&#21892;&#20102;&#65292;&#32771;&#34385;&#22797;&#29992;
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
