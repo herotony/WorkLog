@@ -57,7 +57,7 @@
 <node CREATED="1469503309520" ID="ID_551569564" MODIFIED="1469503319533" TEXT="abstract class">
 <node CREATED="1469503321632" ID="ID_1422580002" LINK="https://gist.github.com/herotony/848f9b5841bbdb113d8e4894af48d562/#file-abstracttemplateaction-java" MODIFIED="1469503349657" TEXT="AbstractTemplateAction"/>
 </node>
-<node CREATED="1469520491824" ID="ID_367615232" LINK="https://gist.github.com/herotony/848f9b5841bbdb113d8e4894af48d562/#file-servicetemplateimpl-java" MODIFIED="1470266913702" TEXT="ServiceTemplateImpl">
+<node CREATED="1469520491824" ID="ID_367615232" LINK="https://gist.github.com/herotony/848f9b5841bbdb113d8e4894af48d562/#file-servicetemplateimpl-java" MODIFIED="1470617961080" TEXT="ServiceTemplateImpl">
 <richcontent TYPE="NOTE"><html>
   <head>
     
