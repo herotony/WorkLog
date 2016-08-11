@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1469608101625" ID="ID_1514670679" MODIFIED="1470626310335" TEXT="NotifyServer">
+<node CREATED="1469608101625" ID="ID_1514670679" MODIFIED="1470882052152" TEXT="NotifyServer">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -18,10 +18,10 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1469608227714" FOLDED="true" ID="ID_928773600" MODIFIED="1470620766018" POSITION="right" TEXT="core">
+<node CREATED="1469608227714" ID="ID_928773600" MODIFIED="1470899768441" POSITION="right" TEXT="core">
 <node CREATED="1469608274882" ID="ID_1288985491" MODIFIED="1470620744677" TEXT="distribute">
 <node CREATED="1469608287752" ID="ID_1211567719" MODIFIED="1469608292473" TEXT="Distribute"/>
-<node CREATED="1469608294381" ID="ID_530536870" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-distributeget-java" MODIFIED="1470303376306" TEXT="DistributeGet">
+<node CREATED="1469608294381" FOLDED="true" ID="ID_530536870" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-distributeget-java" MODIFIED="1470879455778" TEXT="DistributeGet">
 <node CREATED="1469608886379" ID="ID_159199625" MODIFIED="1469608895770" TEXT="start"/>
 <node CREATED="1469608897927" ID="ID_272696881" MODIFIED="1469608902443" TEXT="destroy"/>
 <node CREATED="1469608904059" ID="ID_1686490845" MODIFIED="1469608928434" TEXT="DistributeGet &#x6784;&#x9020;&#x51fd;&#x6570;"/>
@@ -339,12 +339,217 @@
 </node>
 </node>
 </node>
+<node CREATED="1470896519472" ID="ID_624560176" MODIFIED="1470899780096">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cclient <font color="#339900">[consumer client]</font>&#160;&#28040;&#36153;&#32773;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1470896572299" ID="ID_575731410" LINK="#ID_1804729000" MODIFIED="1470901670000" TEXT="ConsumerClient">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26159;&#19968;&#20010;&#23454;&#29616;&#20102;NetConnectReceiver&#25509;&#21475;&#30340;&#28040;&#36153;&#32773;&#29992;&#30340;&#30417;&#21548;&#22788;&#29702;&#25509;&#21475;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#009900"><b>&#19968;&#33324;&#20316;&#20026;&#21508;&#31181;&#26381;&#21153;&#30417;&#21548;&#30340;servletHandler&#26469;&#20351;&#29992;</b></font>&#12290;&#27604;&#22914;&#65306;JettyNetConnectServer,NettyNetConnectServer...
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1470899995525" ID="ID_1258353011" MODIFIED="1470900002869" TEXT="start&#x65b9;&#x6cd5;&#x542f;&#x52a8;">
+<node CREATED="1470899665276" ID="ID_1855073992" MODIFIED="1470900125667" TEXT="&#x4ec5;&#x4ec5;&#x662f;&#x5411;console&#x53d1;&#x8d77;&#x201c;&#x6d88;&#x8d39;&#x8005;&#x201d;&#x6ce8;&#x518c;&#x8bf7;&#x6c42;"/>
 </node>
-<node CREATED="1470305248727" ID="ID_1148778242" MODIFIED="1470636768601" POSITION="left" TEXT="console">
-<node CREATED="1470305264060" ID="ID_1361829475" MODIFIED="1470305267968" TEXT="vo">
+</node>
+<node CREATED="1470899726641" ID="ID_1566103157" MODIFIED="1470899858681" TEXT="ConsumerReceiver">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public interface ConsumerReceiver{
+    </p>
+    <p>
+      &#160;&#160;&#160;public boolean <b><font color="#3333ff">receive</font></b>(<font color="#009999">Message</font>&#160;message);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1470899914538" ID="ID_839770239" MODIFIED="1470899920450" TEXT="connect">
+<node CREATED="1470899922357" ID="ID_49049672" MODIFIED="1470899925124" TEXT="net">
+<node CREATED="1470899929089" ID="ID_1804729000" MODIFIED="1470899968996" TEXT="NetConnectReceiver">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public interface NetConnectReceiver {
+    </p>
+    <p>
+      public void <font color="#3333ff">start</font>() throws Exception;
+    </p>
+    <p>
+      public void <font color="#3333ff">destroy</font>() throws Exception;
+    </p>
+    <p>
+      public void <font color="#3333ff">receive</font>(<font color="#009999">Message</font>&#160;message) throws Exception;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1470900729660" ID="ID_1149616642" MODIFIED="1470900735071" TEXT="jetty">
+<node CREATED="1470900736976" ID="ID_993661726" MODIFIED="1470900741795" TEXT="server">
+<node CREATED="1470900746183" ID="ID_1412266649" MODIFIED="1470900757107" TEXT="JettyNetConnectServer">
+<node CREATED="1470905848240" ID="ID_1484435138" MODIFIED="1470908165041" TEXT="&#x5173;&#x4e8e;abstract bean">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
+    
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      &amp;lt;bean id=&amp;quot;&lt;font color=&quot;#cc00cc&quot;&gt;consumerClientAbstract&lt;/font&gt;&amp;quot; &lt;font color=&quot;#cc0000&quot;&gt;abstract=&amp;quot;true&amp;quot;&lt;/font&gt;/&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;lt;bean id=&amp;quot;&lt;font color=&quot;#cc00cc&quot;&gt;consumerClientPortCommonAbstract&lt;/font&gt;&amp;quot; &lt;font color=&quot;#cc0000&quot;&gt;abstract=&amp;quot;true&amp;quot;&lt;/font&gt;&amp;#160; 
+      &lt;font color=&quot;#cc00cc&quot;&gt;parent=&amp;quot;consumerClientAbstract&amp;quot;&lt;/font&gt;&amp;#160;&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;font color=&quot;#993300&quot;&gt;&amp;lt;property name=&amp;quot;localPort&amp;quot; 
+      value=&amp;quot;${cclient.local.port}&amp;quot; /&amp;gt; &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font color=&quot;#993300&quot;&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;lt;property name=&amp;quot;checkPort&amp;quot; value=&amp;quot;${cclient.local.port}&amp;quot;/&amp;gt;&lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;lt;/bean&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;lt;bean id=&amp;quot;&lt;font color=&quot;#cc00cc&quot;&gt;consumerClientPortAbstract&lt;/font&gt;&amp;quot; &lt;font color=&quot;#cc0000&quot;&gt;abstract=&amp;quot;true&amp;quot;&lt;/font&gt;&amp;#160; 
+      parent=&amp;quot;&lt;font color=&quot;#cc00cc&quot;&gt;consumerClientPortCommonAbstract&lt;/font&gt;&amp;quot; /&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;lt;bean id=&amp;quot;consumerClient&amp;quot; 
+      class=&amp;quot;com.tuan.notifyserver.core.cclient.ConsumerClient&amp;quot;
+    &lt;/p&gt;
+    &lt;p&gt;
+      init-method=&amp;quot;start&amp;quot; destroy-method=&amp;quot;destroy&amp;quot;
+    &lt;/p&gt;
+    &lt;p&gt;
+      depends-on=&amp;quot;consumerJettyNetConnectReceiveServer&amp;quot;
+    &lt;/p&gt;
+    &lt;p&gt;
+      parent=&amp;quot;&lt;font color=&quot;#cc00cc&quot;&gt;consumerClientPortAbstract&lt;/font&gt;&amp;quot;&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;lt;property name=&amp;quot;url&amp;quot; value=&amp;quot;${cclient.local.url}&amp;quot;/&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;lt;property name=&amp;quot;type&amp;quot; value=&amp;quot;HTTP&amp;quot;/&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;lt;property name=&amp;quot;checkUrl&amp;quot; value=&amp;quot;${cclient.check.url}&amp;quot;/&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;lt;property name=&amp;quot;checkType&amp;quot; value=&amp;quot;HTTP&amp;quot;/&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;lt;property name=&amp;quot;consoleRemotingInvoke&amp;quot; ref=&amp;quot;consoleRemotingInvoke&amp;quot; /&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;lt;/bean&amp;gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;&amp;#36825;&amp;#31181;bean&amp;#26159;&amp;#19981;&amp;#23545;&amp;#24212;&amp;#20219;&amp;#20309;&amp;#23454;&amp;#38469;&lt;content ename=&quot;content&quot; color=&quot;#3333ff&quot;&gt;&amp;#31867;&amp;#30340;&amp;#65292;&amp;#26159;&amp;#25277;&amp;#35937;&amp;#32423;&amp;#30340;&amp;#65292;&amp;#21487;&amp;#20197;&amp;#22312;xml&amp;#37324;&amp;#38543;&amp;#24847;&amp;#28155;&amp;#21152;&amp;#19981;&amp;#23384;&amp;#22312;&amp;#30340;&amp;#23646;&amp;#24615;&amp;#65292;&amp;#26159;&amp;#20854;&amp;#23384;&amp;#22312;&amp;#30340;&amp;#24517;&amp;#35201;&lt;/font&gt;&lt;/b&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</richcontent>
+</node>
+<node CREATED="1470910357574" ID="ID_567945258" MODIFIED="1470910386688" TEXT="mdtask&#x9879;&#x76ee;&#x4e2d;&#x6709;&#x8be6;&#x7ec6;&#x7684;&#x6d88;&#x8d39;&#x8005;&#x548c;&#x751f;&#x4ea7;&#x8005;&#x914d;&#x7f6e;&#x5e94;&#x7528;&#xff0c;&#x660e;&#x5929;&#x8865;&#x9f50;"/>
+</node>
+</node>
+</node>
+<node CREATED="1470901442399" ID="ID_745802809" MODIFIED="1470901449142" TEXT="netty">
+<node CREATED="1470901451299" ID="ID_523098104" MODIFIED="1470901455022" TEXT="server">
+<node CREATED="1470901458508" ID="ID_632108160" MODIFIED="1470901489158" TEXT="NettyNetConnectServer"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1470305248727" ID="ID_1148778242" MODIFIED="1470879998770" POSITION="left" TEXT="console">
+<node CREATED="1470305264060" ID="ID_1361829475" MODIFIED="1470896350752" TEXT="vo">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39318;&#20808;&#65292;java&#26377;&#20960;&#31181;&#23545;&#35937;(PO,VO,DAO,BO,POJO)&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#19968;&#12289;<font color="#3333ff">PO</font>:persistant object &#25345;&#20037;&#23545;&#35937;,&#21487;&#20197;<font color="#3333ff">&#30475;&#25104;&#26159;&#19982;&#25968;&#25454;&#24211;&#20013;&#30340;&#34920;&#30456;&#26144;&#23556;&#30340;java&#23545;&#35937;</font>&#12290;&#20351;&#29992;Hibernate&#26469;&#29983;&#25104;PO&#26159;&#19981;&#38169;&#30340;&#36873;&#25321;&#12290;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#20108;&#12289;<font color="#cc0000">VO</font>:value object&#20540;&#23545;&#35937;&#12290;&#36890;&#24120;&#29992;&#20110;&#19994;&#21153;&#23618;&#20043;&#38388;&#30340;&#25968;&#25454;&#20256;&#36882;&#65292;&#21644;PO&#19968;&#26679;&#20063;&#26159;<font color="#cc0000">&#20165;&#20165;&#21253;&#21547;&#25968;&#25454;</font>&#32780;&#24050;&#12290;&#20294;&#24212;&#26159;&#25277;&#35937;&#20986;&#30340;&#19994;&#21153;&#23545;&#35937;,&#21487;&#20197;&#21644;&#34920;&#23545;&#24212;,&#20063;&#21487;&#20197;&#19981;,&#36825;&#26681;&#25454;&#19994;&#21153;&#30340;&#38656;&#35201;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PO&#21482;&#33021;&#29992;&#22312;&#25968;&#25454;&#23618;&#65292;VO&#29992;&#22312;&#21830;&#19994;&#36923;&#36753;&#23618;&#21644;&#34920;&#31034;&#23618;&#12290;<font color="#009966">&#21508;&#23618;&#25805;&#20316;&#23646;&#20110;&#35813;&#23618;&#33258;&#24049;&#30340;&#25968;&#25454;&#23545;&#35937;&#65292;&#36825;&#26679;&#23601;&#21487;&#20197;&#38477;&#20302;&#21508;&#23618;&#20043;&#38388;&#30340;&#32806;&#21512;</font>&#65292;&#20415;&#20110;&#20197;&#21518;&#31995;&#32479;&#30340;&#32500;&#25252;&#21644;&#25193;&#23637;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22909;&#22788;&#65306;&#36825;&#26679;&#21487;&#20197;&#20943;&#23569;&#22823;&#37327;&#30340;&#24037;&#20316;&#37327;&#65288;&#20063;&#23601;&#24847;&#21619;&#30528;&#20943;&#23569;bug&#65292;&#20943;&#23569;&#39118;&#38505;&#65289;&#65292;&#20063;&#19981;&#38656;&#35201;&#25285;&#24515;&#26410;&#26469;&#30340;&#32500;&#25252;&#24037;&#20316;&#65281;
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1470305270957" ID="ID_1857442554" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-queuedistributervo-java" MODIFIED="1470305383603" TEXT="QueueDistributeVo"/>
 </node>
-<node CREATED="1470305610426" FOLDED="true" ID="ID_1331409421" MODIFIED="1470626365492" TEXT="dao">
+<node CREATED="1470305610426" FOLDED="true" ID="ID_1331409421" MODIFIED="1470879526339" TEXT="dao">
 <node CREATED="1470305620318" ID="ID_754826342" MODIFIED="1470305625537" TEXT="impl">
 <node CREATED="1470305636144" ID="ID_724713266" MODIFIED="1470305651344" TEXT="QueueDistributerDaoImpl"/>
 </node>
@@ -381,7 +586,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1470305711692" FOLDED="true" ID="ID_915538262" MODIFIED="1470626350843" TEXT="persistence">
+<node CREATED="1470305711692" FOLDED="true" ID="ID_915538262" MODIFIED="1470879521794" TEXT="persistence">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -457,7 +662,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1470359698962" FOLDED="true" ID="ID_655844904" MODIFIED="1470636770123" TEXT="domain">
+<node CREATED="1470359698962" ID="ID_655844904" MODIFIED="1470879532028" TEXT="domain">
 <node CREATED="1470359860844" FOLDED="true" ID="ID_1560190144" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-failedmsgmd-java" MODIFIED="1470388606532" TEXT="FailedMsgMd.java">
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1470360353940" ID="ID_221160667" MODIFIED="1470360833233" TEXT="&#x4e00;&#x4e2a;&#x53ef;&#x53d1;&#x9001;&#x6d88;&#x606f;&#x5fc5;&#x987b;&#x6709;&#x7684;&#x51e0;&#x4e2a;&#x5916;&#x90e8;&#x5b57;&#x6bb5;">
 <node CREATED="1470360372650" ID="ID_851095552" MODIFIED="1470360770358">
@@ -542,8 +747,7 @@
       &#36825;&#37324;&#25152;&#26377;&#34920;&#30340;&#21508;&#23383;&#27573;&#35828;&#26126;&#37117;&#33021;&#22312;domain&#19979;&#30340;&#21508;***Md.java&#20013;&#25214;&#21040;&#23545;&#24212;&#35828;&#26126;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#9900cc" CREATED="1470363941704" ID="ID_287506335" MODIFIED="1470624406412" TEXT="CSL_CUSTOMER_GROUP">
 <node CREATED="1470364070670" ID="ID_716769071" MODIFIED="1470364107301" TEXT="&#x6d88;&#x8d39;&#x8005;&#x7ec4;&#x4e3b;&#x8981;&#x662f;&#x6d89;&#x53ca;&#x5177;&#x4f53;&#x7684;&#x8d1f;&#x8d23;&#x4eba;&#xff0c;&#x7528;&#x4e8e;&#x62a5;&#x8b66;&#x901a;&#x77e5;&#x76f8;&#x5173;&#x4eba;&#x5458;"/>
 </node>
@@ -661,12 +865,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1470624231227" ID="ID_126198473" MODIFIED="1470624251133" TEXT="alarm.conf">
+<node CREATED="1470624231227" FOLDED="true" ID="ID_126198473" MODIFIED="1470879417620" TEXT="alarm.conf">
 <node COLOR="#9900cc" CREATED="1470624259152" ID="ID_1440718647" MODIFIED="1470624493188" TEXT="ConsumerGroupAlarmParam">
 <node COLOR="#338800" CREATED="1470624276577" ID="ID_186123519" MODIFIED="1470624971630" TEXT="&#x6211;&#x4eec;&#x786e;&#x8ba4;&#x4e86;&#x6d88;&#x8d39;&#x8005;&#x7ec4;&#x662f;&#x7528;&#x4e8e;&#x62a5;&#x8b66;&#x7684;&#xff0c;&#x5fc5;&#x987b;&#x6709;&#x7684;&#xff0c;&#xa;&#x6539;&#x7ec4;&#x8d1f;&#x8d23;&#x7ba1;&#x7406;&#x76f8;&#x5173;&#x7684;&#x6d88;&#x8d39;&#x8005;&#xff0c;&#x8fd9;&#x91cc;&#x8bbe;&#x7f6e;&#x5404;&#x7c7b;&#x62a5;&#x8b66;&#x53c2;&#x6570;&#x7684;&#x9608;&#x503c;"/>
 </node>
 </node>
-<node CREATED="1470626561257" FOLDED="true" ID="ID_1677285771" MODIFIED="1470636772548" TEXT="init">
+<node CREATED="1470626561257" FOLDED="true" ID="ID_1677285771" MODIFIED="1470879570170" TEXT="init">
 <node CREATED="1470636668635" ID="ID_87120954" MODIFIED="1470636739958" TEXT="ConsoleInitExecuter">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -677,8 +881,7 @@
       &#21021;&#22987;&#21270;&#65292;&#21482;&#25191;&#34892;&#19968;&#27425;&#65292;&#30446;&#21069;&#20063;&#21482;&#25191;&#34892;&#20102;GroupAuxiliaryConsoleInit&#30340;initialize&#26041;&#27861;&#19968;&#27425;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1470626582023" ID="ID_688615701" MODIFIED="1470636465401" TEXT="GroupAuxiliaryConsoleInit">
 <richcontent TYPE="NOTE"><html>
@@ -690,8 +893,7 @@
       &#22914;&#26524;CSL_AXL_GROUP_NUM<font color="#cc0000">&#20026;&#31354;</font>&#65292;&#21017;&#28155;&#21152;63&#26465;&#35760;&#24405;&#65292;&#20381;&#27425;&#26159;2&#30340;i&#27425;&#26041;&#30340;&#32467;&#26524;&#20540;&#23384;&#20837;group_num&#23383;&#27573;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1470635751465" ID="ID_336618729" MODIFIED="1470636125147">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -705,8 +907,7 @@
       &#30456;&#24403;&#20110;2&#30340;i&#27425;&#26041;&#22788;&#29702;&#65292;&#20027;&#35201;&#29992;&#20110;&#21518;&#32493;&#30340;&quot;&#20301;&#19982;&quot;&#36816;&#31639;&#65292;&#27599;&#20010;group_num&#23545;&#24212;&#19968;&#20010;customergroup? or queue_Nm?
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -720,10 +921,248 @@
       &#20379;spring&#28608;&#27963;notify console&#30340;bean,&#36825;&#26159;<font color="#3333ff">&#21551;&#21160;notify console&#30340;&#21807;&#19968;&#20837;&#21475;&#22788;</font>&#65281;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="idea"/>
 <node CREATED="1470636849585" ID="ID_994318406" MODIFIED="1470636849585" TEXT=""/>
+</node>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1470880000691" ID="ID_1286950133" MODIFIED="1470880025286" TEXT="web">
+<icon BUILTIN="yes"/>
+<node CREATED="1470880057358" ID="ID_267989280" MODIFIED="1470880074858" TEXT="web.xml">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1470880077099" ID="ID_874692754" MODIFIED="1470881563797">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff3333">servlet</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1470880090514" ID="ID_1828462243" MODIFIED="1470880102893" TEXT="action">
+<node CREATED="1470880317381" ID="ID_480297718" MODIFIED="1470880331969" TEXT="contextConfigLocation">
+<node BACKGROUND_COLOR="#ffffcc" COLOR="#006666" CREATED="1470880333859" ID="ID_1832096188" MODIFIED="1470880396345">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      classpath:bean/notifyserver-console-web-<font color="#660066">servlet</font>.xml
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffccff" CREATED="1470880426851" ID="ID_882317387" MODIFIED="1470881638900">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30417;&#21548;url&#20026; <font color="#006633"><b>/</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1470880768914" ID="ID_1126992779" MODIFIED="1470880924712">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#30340;&#26159;org.springframework.web.<font color="#009999"><b>servlet.DispatchServlet</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1470880729695" ID="ID_580984754" MODIFIED="1470880737251" TEXT="&#x5bf9;&#x5e94;&#x6709;&#x7684;controller"/>
+</node>
+<node CREATED="1470880105127" ID="ID_1955579598" MODIFIED="1470884248014" TEXT="consoleRemotingInvokeExporter">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35813; Servlet&#25552;&#20379;remoting&#25509;&#21475;&#20379;&#20854;&#23427;&#27169;&#22359;&#20351;&#29992;&#65292;&#27604;&#22914;&#65306;exchanger,distributer,customer,producer
+    </p>
+    <p>
+      &#32780;action&#37096;&#20998;&#21017;&#21482;&#26159;&#32473;console&#32593;&#31449;&#33258;&#24049;&#30340;&#35775;&#38382;&#39029;&#38754;&#20351;&#29992;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node BACKGROUND_COLOR="#ffccff" CREATED="1470880807081" FOLDED="true" ID="ID_1036299868" MODIFIED="1470896103549">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30417;&#21548;url&#160;&#160;<font color="#006633"><b>/remoting/ConsoleRemotingInvokeService</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;url &#24517;&#39035; &#30446;&#21069;&#37197;&#30340;&#26159;/remoting/ConsoleRemotingInvokeService&#65292;
+    </p>
+    <p>
+      &#32780;&#25152;&#26377;&#30340;&#23458;&#25143;&#31471;&#30340;ServiceUrl&#37117;&#37197;&#32622;&#25104;&#20102;&#20197;/remoting/ConsoleRemotingInvokeService&#32467;&#23614;&#30340;Url
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19988;&#22266;&#23450;&#26684;&#24335;&#20026;:
+    </p>
+    <p>
+      http://${console.remoting.ip}:${console.remoting.port}/$console.remoting.url}/remoting/ConsoleRemotingInvokeService
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1470880853240" ID="ID_167967505" MODIFIED="1470881478886">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#30340;&#26159;org.springframework.web.<font color="#009999"><b>context.support.HttpRequestHandlerServlet</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19987;&#38376;<font color="#009999">&#29992;&#20110;remoting&#30340;&#65292;&#22522;&#20110;http&#30340;&#36828;&#31243;&#35843;&#29992;&#26426;&#21046;</font>
+    </p>
+    <p>
+      &#35201;&#27714;&#21508;&#26041;&#27861;&#21442;&#25968;&#37117;&#25903;&#25345;&#24207;&#21015;&#21270;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1470881000056" ID="ID_75697125" MODIFIED="1470881006538" TEXT="&#x5bf9;&#x5e94;&#x6709;&#x7684;controller"/>
+</node>
+<node CREATED="1470880133548" ID="ID_1694771244" MODIFIED="1470880136305" TEXT="job">
+<node BACKGROUND_COLOR="#ffccff" CREATED="1470881008704" ID="ID_502988621" MODIFIED="1470881656252">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30417;&#21548;url&#160;&#160;&#160;<b><font color="#009999">/job/*</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1470881051388" ID="ID_822767726" MODIFIED="1470881099087">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#30340;&#26159;org.springframework.web<b>.<font color="#009999">servlet.DispatchServlet</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1470881127000" ID="ID_1872501816" MODIFIED="1470881140564" TEXT="&#x5bf9;&#x5e94;&#x6709;&#x7684;controller"/>
+</node>
+</node>
+<node CREATED="1470880165113" ID="ID_873383713" MODIFIED="1470880280156" TEXT="contextConfigLocation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      web&#31449;&#28857;&#21021;&#22987;&#21270;&#20837;&#21475;&#28857;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1470880178191" ID="ID_1505888890" MODIFIED="1470880413542">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21021;&#22987;&#21270;&#37319;&#29992;&#20102;<font color="#ff3300">classpath:bean/notifyserver-console-web-</font><font color="#339900">bean</font><font color="#ff3300">.xml</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1470882053521" ID="ID_1499820878" MODIFIED="1470899741450" POSITION="right" TEXT="&#x90e8;&#x7f72;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#36335;&#24452;&#35980;&#20284;&#26631;&#20934;&#20889;&#27861;&#23601;&#26159; &#65306; /remoting/SomeInterface
+    </p>
+    <p>
+      &#20851;&#38190;&#22312;&#36825;&#20010;SomeInterface&#19978;&#65292;&#35831;&#27714;&#36335;&#24452;&#24517;&#39035;&#21253;&#21547;/remoting/SomeInterface_someMethod
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1470882065000" FOLDED="true" ID="ID_751652242" MODIFIED="1470899778118" TEXT="&#x5b8c;&#x6574;&#x90e8;&#x7f72;&#x670d;&#x52a1;&#x7aef;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      web&#32593;&#31449;&#26159;&#20013;&#26530;&#65292;&#36127;&#36131;&#20445;&#23384;&#28040;&#24687;&#65292;&#24615;&#33021;&#30417;&#25511;&#21644;&#38431;&#21015;&#37197;&#32622;&#31561;&#12290;
+    </p>
+    <p>
+      exchanger&#36127;&#36131;&#25509;&#25910;&#28040;&#24687;&#24182;&#21487;&#25193;&#23637;&#65311;
+    </p>
+    <p>
+      distributer&#36127;&#36131;&#20998;&#21457;&#28040;&#24687;&#24182;&#21487;&#25193;&#23637;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1470882085697" ID="ID_384876806" MODIFIED="1470882099550" TEXT="&#x7b2c;&#x4e00;&#x4e2a;&#x5fc5;&#x987b;&#x662f;web&#x7f51;&#x7ad9;&#xff0c;&#x5e76;&#x5148;&#x542f;&#x52a8;"/>
+<node CREATED="1470882101881" ID="ID_1059504973" MODIFIED="1470882126477" TEXT="&#x7136;&#x540e;&#x662f;&#x811a;&#x672c;&#x542f;&#x52a8;distributer"/>
+<node CREATED="1470882128305" ID="ID_1043907894" MODIFIED="1470882139345" TEXT="&#x6700;&#x540e;&#x662f;&#x811a;&#x672c;&#x542f;&#x52a8;exchanger"/>
+</node>
+<node CREATED="1470882254239" ID="ID_1748206624" MODIFIED="1470882260341" TEXT="&#x5ba2;&#x6237;&#x7aef;">
+<node CREATED="1470882265923" ID="ID_303926807" MODIFIED="1470882271536" TEXT="&#x751f;&#x4ea7;&#x8005;"/>
+<node CREATED="1470882261612" ID="ID_1778658201" LINK="#ID_624560176" MODIFIED="1470899760840" TEXT="&#x6d88;&#x8d39;&#x8005;"/>
 </node>
 </node>
 </node>
