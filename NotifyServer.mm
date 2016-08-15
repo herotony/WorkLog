@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1469608101625" ID="ID_1514670679" MODIFIED="1470965506138" TEXT="NotifyServer">
+<node CREATED="1469608101625" ID="ID_1514670679" MODIFIED="1471223967305" TEXT="NotifyServer">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -14,6 +14,18 @@
     </p>
     <p>
       CTRL+G&#21487;&#20197;&#25628;&#32034;&#19979;&#19968;&#20010;&#21305;&#37197;&#39033;&#12290;&#65288;CTRL+F&#65289;&#30340;&#21518;&#32493;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#006633">&#26412;&#39033;&#30446;&#20013;&#32467;&#26500;&#65292;&#22810;&#37319;&#29992;interface + abstract + realimpl&#30340;&#26550;&#26500; </font>
+    </p>
+    <p>
+      <font color="#006633">&#21363;interface&#23450;&#20041;&#25509;&#21475; </font>
+    </p>
+    <p>
+      <font color="#006633">abstract&#23450;&#20041;&#19994;&#21153;&#27969;&#31243;&#65292;&#24182;&#30041;&#19979;&#33509;&#24178;&#20851;&#38190;&#30340;abstract&#26680;&#24515;&#22788;&#29702;&#20379;realimpl&#21435;&#32487;&#25215;&#24182;&#23454;&#29616;&#12290;</font>
     </p>
   </body>
 </html>
@@ -32,8 +44,7 @@
       db<font color="#ff6600">ConnectManager</font>&#160;mysql&#25968;&#25454;&#24211;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1470990298172" ID="ID_971160215" MODIFIED="1470990394902">
 <richcontent TYPE="NODE"><html>
@@ -45,8 +56,7 @@
       bodyCache<font color="#ff6600">ConnectManager</font>&#160;&#160;redis&#23384;&#20648;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1470990319714" ID="ID_375376634" MODIFIED="1470990407390">
 <richcontent TYPE="NODE"><html>
@@ -58,8 +68,7 @@
       traceCache<font color="#ff6600">ConnectManager</font>&#160;&#160;&#29992;&#20110;trace&#30340;redis&#23384;&#20648;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -74,8 +83,7 @@
       &#34987;notifyserver-core-exchange-jetty.xml&#160;&#160;,&#160; notifyserver-core-exchange-netty.xml&#25152;&#24341;&#29992;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -395,8 +403,7 @@
       &#26680;&#24515;&#31867; &#28040;&#24687;&#20307;&#160;messagedm
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -427,8 +434,7 @@
       <font color="#009900"><b>&#19968;&#33324;&#20316;&#20026;&#21508;&#31181;&#26381;&#21153;&#30417;&#21548;&#30340;servletHandler&#26469;&#20351;&#29992;</b></font>&#12290;&#27604;&#22914;&#65306;JettyNetConnectServer,NettyNetConnectServer...
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1470899995525" ID="ID_1258353011" MODIFIED="1470900002869" TEXT="start&#x65b9;&#x6cd5;&#x542f;&#x52a8;">
 <node CREATED="1470899665276" ID="ID_1855073992" MODIFIED="1470900125667" TEXT="&#x4ec5;&#x4ec5;&#x662f;&#x5411;console&#x53d1;&#x8d77;&#x201c;&#x6d88;&#x8d39;&#x8005;&#x201d;&#x6ce8;&#x518c;&#x8bf7;&#x6c42;"/>
 </node>
@@ -449,8 +455,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1470899914538" ID="ID_839770239" MODIFIED="1470990951732" TEXT="connect">
@@ -477,8 +482,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1470900729660" ID="ID_1149616642" MODIFIED="1470900735071" TEXT="jetty">
 <node CREATED="1470900736976" ID="ID_993661726" MODIFIED="1470900741795" TEXT="server">
@@ -553,8 +557,7 @@
       <b><font color="#3333ff">&#36825;&#31181;bean&#26159;&#19981;&#23545;&#24212;&#20219;&#20309;&#23454;&#38469;<content ename="content" color="#3333ff">&#31867;&#30340;&#65292;&#26159;&#25277;&#35937;&#32423;&#30340;&#65292;&#21487;&#20197;&#22312;xml&#37324;&#38543;&#24847;&#28155;&#21152;&#19981;&#23384;&#22312;&#30340;&#23646;&#24615;&#65292;&#26159;&#20854;&#23384;&#22312;&#30340;&#24517;&#35201;</content></font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1470910357574" ID="ID_567945258" MODIFIED="1470910386688" TEXT="mdtask&#x9879;&#x76ee;&#x4e2d;&#x6709;&#x8be6;&#x7ec6;&#x7684;&#x6d88;&#x8d39;&#x8005;&#x548c;&#x751f;&#x4ea7;&#x8005;&#x914d;&#x7f6e;&#x5e94;&#x7528;&#xff0c;&#x660e;&#x5929;&#x8865;&#x9f50;"/>
 </node>
@@ -599,8 +602,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ccffff" CREATED="1470991814867" ID="ID_1883863825" MODIFIED="1470993210010" TEXT="ConnectManagerAbstract&#xff0c;&#x5173;&#x952e;&#x7c7b;!&#xa;&#x5b9e;&#x73b0;&#x4e86;ConnectManger&#x63a5;&#x53e3;&#xff0c;&#x66f4;&#x4e3b;&#x8981;&#x7684;&#x662f;&#x4e3a;&#x540e;&#x7eed;&#x6240;&#x6709;&#x7684;&#xa;ConnectManager&#x5b9a;&#x4e49;&#x4e86;start&#x65b9;&#x6cd5;&#xff0c;&#x4e5f;&#x5c31;&#x662f;&#x6bcf;5&#x5206;&#x949f;&#x66f4;&#x65b0;&#xa;&#x4e00;&#x6b21;connectAgent">
@@ -931,8 +933,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1470995103267" ID="ID_294416777" MODIFIED="1470995107156" TEXT="Exchange">
 <node CREATED="1470995065246" ID="ID_916310221" MODIFIED="1470995086420" TEXT="ExchangeBodyCacheConnectManager"/>
 <node CREATED="1470995017459" ID="ID_48612275" MODIFIED="1470995031172" TEXT="ExchangeDbConnectManager"/>
@@ -941,6 +942,208 @@
 <node CREATED="1470995120460" ID="ID_400003635" MODIFIED="1470995125068" TEXT="Customer"/>
 <node CREATED="1470995126920" ID="ID_55563066" MODIFIED="1470995131819" TEXT="Producer"/>
 <node CREATED="1470995133672" ID="ID_1242189233" MODIFIED="1470995136611" TEXT="Console"/>
+</node>
+<node CREATED="1471223597452" ID="ID_1644011493" MODIFIED="1471223622932" TEXT="ConnectAgent">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public interface ConnectAgent {
+    </p>
+    <p>
+      public void connect() throws Exception;
+    </p>
+    <p>
+      public void reconnect() throws Exception;
+    </p>
+    <p>
+      public void close();
+    </p>
+    <p>
+      public long getConnectId();
+    </p>
+    <p>
+      public boolean getConnectStatus();
+    </p>
+    <p>
+      public void setConnectStatus(boolean status);
+    </p>
+    <p>
+      public String getIp();
+    </p>
+    <p>
+      public int getPort();
+    </p>
+    <p>
+      public String getUrl();
+    </p>
+    <p>
+      public String getType();
+    </p>
+    <p>
+      public int getTimeout();
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1471223713271" ID="ID_212493508" MODIFIED="1471226345418" TEXT="ConnectAgentAbstract">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20851;&#38190;&#30340;&#20004;&#20010;abstract&#26041;&#27861;&#65292;&#38656;&#35201;&#23376;&#31867;&#37325;&#36733;
+    </p>
+    <p>
+      connectActual()
+    </p>
+    <p>
+      reconnectActual()
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1471225192691" ID="ID_1701977328" MODIFIED="1471225202142" TEXT="JettyNetConnectAgent">
+<node CREATED="1471225260277" FOLDED="true" ID="ID_1073759207" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-jettyconnect-java" MODIFIED="1471226632189" TEXT="JettyNetConnect">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21033;&#29992;java.net.HttpURLConnection&#21521;&#20132;&#25442;&#20013;&#24515;exchanger&#21457;&#36865;&#28040;&#24687;
+    </p>
+    <p>
+      &#28040;&#24687;&#24517;&#39035;&#25351;&#23450;&#28040;&#24687;&#25152;&#23646;&#38431;&#21015;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1471225870160" ID="ID_1095722056" MODIFIED="1471226095122">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35813;&#31867;&#30340;connect&#26041;&#27861;&#26681;&#26412;&#27809;&#29992;&#20102;&#65292;&#21482;&#26377;send&#26041;&#27861;&#26377;&#29992;
+    </p>
+    <p>
+      &#34987;&#20462;&#25913;&#30340;&#65292;&#26080;&#35770;&#22914;&#20309;&#65292;JettyNetConnectAgent&#37117;&#19981;&#20250;&#25253;&#38169;...&#21621;&#21621;&#21714;
+    </p>
+    <p>
+      &#22833;&#21435;&#20102;&#21028;&#26029;&#24847;&#20041;&#65292;send&#26041;&#27861;&#30452;&#25509;&#21457;&#36865;&#28040;&#24687;&#26102;&#25165;&#20855;&#20307;&#36830;&#25509;&#20570;&#24322;&#24120;&#22788;&#29702;&#20102;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1471226346957" ID="ID_305428276" MODIFIED="1471226396713">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DbConnectAgent<font color="#006666">Abstract</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1471226363679" ID="ID_1956293312" MODIFIED="1471229197505">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CacheConnectAgent<font color="#006666">Abstract</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      protected abstract void connectCacheActual() throws Exception; <font color="#006666"><b>//&#26368;&#32456;&#37117;&#26159;jedisPool.getResource();jedisPool.returnResource(jedis);&#21363;&#30830;&#35748;redis&#27744;&#26159;&#21542;&#26377;&#31354;&#38386;&#30340;&#36830;&#25509;&#20379;&#20351;&#29992;...</b></font>
+    </p>
+    <p>
+      protected abstract void reconnectCacheActual() throws Exception;
+    </p>
+    <p>
+      protected abstract void closeCacheActual();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      protected abstract void setActual(List&lt;MessageDm&gt; messageDmList); <font color="#009999">//&#22788;&#29702;&#20174;&#38431;&#21015;&#19981;&#26029;&#24490;&#29615;&#25552;&#21462;&#30340;&#28040;&#24687;&#65288;&#21551;&#21160;&#20102;&#21313;&#20010;&#32447;&#31243;&#24490;&#29615;&#22788;&#29702;&#65289;&#65292;&#20889;&#20837;redis</font>
+    </p>
+    <p>
+      protected abstract void removeActual(List&lt;MessageDm&gt; messageDmList);<font color="#cc0033">//&#22788;&#29702;&#20174;&#38431;&#21015;&#19981;&#26029;&#24490;&#29615;&#25552;&#21462;&#30340;&#28040;&#24687;(&#21551;&#21160;&#20102;&#21313;&#20010;&#32447;&#31243;&#24490;&#29615;&#22788;&#29702;)&#65292;&#20174;redis&#20013;&#21024;&#38500;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;<font color="#660066">CacheConnectAgentConfParam</font>&#20013;&#23450;&#20041;&#20102;&#22788;&#29702;<font color="#006633">&#28155;&#21152;&#25968;&#25454;</font>&#21644;<font color="#cc0000">&#31227;&#38500;&#25968;&#25454;</font>&#30340;&#32447;&#31243;&#25968;&#21508;&#20026;10&#65292;&#25209;&#22788;&#29702;&#25968;&#37327;&#20026;1000&#65292;&#36229;&#26102;3&#31186;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1471226519254" ID="ID_82415105" MODIFIED="1471226579513">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Redis<font color="#ff3300">BodyCache</font>ConnectAgent
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1471226535276" ID="ID_1093490856" MODIFIED="1471226597632">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Redis<font color="#990099">QueueCache</font>ConnectAgent
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1471226437906" ID="ID_530080078" MODIFIED="1471226467305">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TraceCacheConnectAgent<font color="#006666">Abstract</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -976,8 +1179,7 @@
       &#22909;&#22788;&#65306;&#36825;&#26679;&#21487;&#20197;&#20943;&#23569;&#22823;&#37327;&#30340;&#24037;&#20316;&#37327;&#65288;&#20063;&#23601;&#24847;&#21619;&#30528;&#20943;&#23569;bug&#65292;&#20943;&#23569;&#39118;&#38505;&#65289;&#65292;&#20063;&#19981;&#38656;&#35201;&#25285;&#24515;&#26410;&#26469;&#30340;&#32500;&#25252;&#24037;&#20316;&#65281;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1470305270957" ID="ID_1857442554" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-queuedistributervo-java" MODIFIED="1470305383603" TEXT="QueueDistributeVo"/>
 </node>
 <node CREATED="1470305610426" FOLDED="true" ID="ID_1331409421" MODIFIED="1470879526339" TEXT="dao">
@@ -1027,8 +1229,7 @@
       &#29992;&#21040;&#20102;hibernate-jpa-2.0-api.jar
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node BACKGROUND_COLOR="#ccffcc" COLOR="#000000" CREATED="1470305726523" ID="ID_1887032770" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-dynamicsqltemplate-java" MODIFIED="1470305932562" TEXT="DynamicSqlTemplate">
 <node CREATED="1470305948662" ID="ID_788936059" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-dynamicsqltemplateimpl-java" MODIFIED="1470362996515" TEXT="DynamicSqlTemplateImpl">
 <richcontent TYPE="NOTE"><html>
@@ -1179,8 +1380,7 @@
       &#36825;&#37324;&#25152;&#26377;&#34920;&#30340;&#21508;&#23383;&#27573;&#35828;&#26126;&#37117;&#33021;&#22312;domain&#19979;&#30340;&#21508;***Md.java&#20013;&#25214;&#21040;&#23545;&#24212;&#35828;&#26126;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#9900cc" CREATED="1470363941704" ID="ID_287506335" MODIFIED="1470624406412" TEXT="CSL_CUSTOMER_GROUP">
 <node CREATED="1470364070670" ID="ID_716769071" MODIFIED="1470364107301" TEXT="&#x6d88;&#x8d39;&#x8005;&#x7ec4;&#x4e3b;&#x8981;&#x662f;&#x6d89;&#x53ca;&#x5177;&#x4f53;&#x7684;&#x8d1f;&#x8d23;&#x4eba;&#xff0c;&#x7528;&#x4e8e;&#x62a5;&#x8b66;&#x901a;&#x77e5;&#x76f8;&#x5173;&#x4eba;&#x5458;"/>
 </node>
@@ -1206,8 +1406,7 @@
       &#19968;&#33324;&#37117;&#26377;&#20010;system_Status,manual_Status&#26631;&#24535;&#20195;&#34920;&#35813;&#26381;&#21153;&#30446;&#21069;&#29366;&#24577;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1470364641044" ID="ID_84664787" MODIFIED="1470364660900" TEXT="CSL_MSG_BODY_CACHE">
 <node CREATED="1470364720320" ID="ID_874601357" MODIFIED="1470364793838" TEXT="&#x5b57;&#x6bb5;&#x4ec5;&#x6709;ip,port,system_status,manual_status,size&#xff0c;&#x540c;&#x4e8e;distributer,exchanger,&#x662f;&#x4e2a;&#x5355;&#x72ec;&#x670d;&#x52a1;&#x5e94;&#x7528;&#x7684;&#x914d;&#x7f6e;"/>
 <node CREATED="1470364894181" ID="ID_841735833" MODIFIED="1470364903412" TEXT="redis&#x670d;&#x52a1;&#x5668;?"/>
@@ -1355,8 +1554,7 @@
       &#20379;spring&#28608;&#27963;notify console&#30340;bean,&#36825;&#26159;<font color="#3333ff">&#21551;&#21160;notify console&#30340;&#21807;&#19968;&#20837;&#21475;&#22788;</font>&#65281;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="idea"/>
 <node CREATED="1470636849585" ID="ID_994318406" MODIFIED="1470636849585" TEXT=""/>
 </node>
@@ -1428,8 +1626,7 @@
       &#32780;action&#37096;&#20998;&#21017;&#21482;&#26159;&#32473;console&#32593;&#31449;&#33258;&#24049;&#30340;&#35775;&#38382;&#39029;&#38754;&#20351;&#29992;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="messagebox_warning"/>
 <node BACKGROUND_COLOR="#ffccff" CREATED="1470880807081" FOLDED="true" ID="ID_1036299868" MODIFIED="1470965506105">
 <richcontent TYPE="NODE"><html>
@@ -1463,8 +1660,7 @@
       http://${console.remoting.ip}:${console.remoting.port}/$console.remoting.url}/remoting/ConsoleRemotingInvokeService
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1470880853240" ID="ID_167967505" MODIFIED="1470881478886">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1531,8 +1727,7 @@
       web&#31449;&#28857;&#21021;&#22987;&#21270;&#20837;&#21475;&#28857;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1470880178191" ID="ID_1505888890" MODIFIED="1470880413542">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1563,8 +1758,7 @@
       exchanger,distributer,java&#39033;&#30446;&#29992;&#30340;producer,customer&#37117;&#26159;&#36208;&#35813;spring &#25903;&#25345;&#30340;http remoting&#24207;&#21015;&#21270;&#25509;&#21475;&#65292;&#23454;&#29616;&#19982;console&#20013;&#24515;&#25511;&#21046;&#21488;&#30340;&#20132;&#20114;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1470970352577" FOLDED="true" ID="ID_796744912" MODIFIED="1470982282133" TEXT="&#x5728;java&#x7684;&#x5404;&#x6a21;&#x5757;&#x4e2d;&#x901a;&#x8fc7;bean&#x6765;&#x914d;&#x7f6e;">
 <node CREATED="1470970529231" ID="ID_1483565590" MODIFIED="1470970794005">
@@ -1583,8 +1777,7 @@
       &lt;bean id=&quot;consoleRemotingInvoke&quot; class=&quot;com.tuan.notifyserver.console.remoting.impl.<font color="#000099">ConsoleRemotingInvoke</font><font color="#cc0000">Impl</font>&quot; /&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1470970617191" ID="ID_422261001" MODIFIED="1470970646058" TEXT="&#x5ba2;&#x6237;&#x7aef;&#xff0c;&#x4e5f;&#x5c31;&#x662f;&#x5404;&#x4e2a;&#x4e0e;console&#x4ea4;&#x4e92;&#x7684;&#x6a21;&#x5757;&#xff1a;exchagner,distributer,customer,producer...">
 <node CREATED="1470970691180" ID="ID_1355371847" MODIFIED="1470970861263">
@@ -1606,8 +1799,7 @@
       &lt;/bean&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1617,8 +1809,7 @@
       console.remoting.url&#19968;&#33324;&#37197;&#32622;&#20026;notifyserver
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1642,9 +1833,8 @@
       distributer&#36127;&#36131;&#20998;&#21457;&#28040;&#24687;&#24182;&#21487;&#25193;&#23637;&#65311;
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1470882085697" ID="ID_384876806" MODIFIED="1470996074363" TEXT="&#x7b2c;&#x4e00;&#x4e2a;&#x5fc5;&#x987b;&#x662f;web&#x7f51;&#x7ad9;&#xff0c;&#x5e76;&#x5148;&#x542f;&#x52a8;">
+</html></richcontent>
+<node CREATED="1470882085697" ID="ID_384876806" MODIFIED="1471220901692" TEXT="&#x7b2c;&#x4e00;&#x4e2a;&#x5fc5;&#x987b;&#x662f;web&#x7f51;&#x7ad9;&#xff0c;&#x5e76;&#x5148;&#x542f;&#x52a8;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1667,8 +1857,7 @@
       &#36127;&#36131;&#20174;&#23384;&#20648;&#20013;&#25552;&#21462;&#28040;&#24687;&#24182;&#21457;&#36865;&#32473;&#28040;&#36153;&#32773;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1470882128305" ID="ID_1043907894" MODIFIED="1470996047681" TEXT="&#x6700;&#x540e;&#x662f;&#x811a;&#x672c;&#x542f;&#x52a8;exchanger">
 <richcontent TYPE="NOTE"><html>
@@ -1680,8 +1869,7 @@
       &#24212;&#35813;&#26159;&#36127;&#36131;&#20174;&#29983;&#20135;&#32773;&#25509;&#25910;&#28040;&#24687;&#24182;&#23384;&#20648;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1470882254239" ID="ID_1748206624" MODIFIED="1470882260341" TEXT="&#x5ba2;&#x6237;&#x7aef;">
