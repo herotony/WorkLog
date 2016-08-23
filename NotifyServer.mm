@@ -1,36 +1,42 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1469608101625" ID="ID_1514670679" MODIFIED="1471223967305" TEXT="NotifyServer">
-<richcontent TYPE="NOTE"><html>
-  <head>
+<node CREATED="1469608101625" ID="ID_1514670679" LINK="FreemindEncode.exe" MODIFIED="1471486982294" TEXT="NotifyServer">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
     
-  </head>
-  <body>
-    <p>
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
       com.tuan.notifyserver
-    </p>
-    <p>
+    &lt;/p&gt;
+    &lt;p&gt;
       
-    </p>
-    <p>
-      CTRL+G&#21487;&#20197;&#25628;&#32034;&#19979;&#19968;&#20010;&#21305;&#37197;&#39033;&#12290;&#65288;CTRL+F&#65289;&#30340;&#21518;&#32493;
-    </p>
-    <p>
+    &lt;/p&gt;
+    &lt;p&gt;
+      CTRL+G&amp;#21487;&amp;#20197;&amp;#25628;&amp;#32034;&amp;#19979;&amp;#19968;&amp;#20010;&amp;#21305;&amp;#37197;&amp;#39033;&amp;#12290;&amp;#65288;CTRL+F&amp;#65289;&amp;#30340;&amp;#21518;&amp;#32493;
+    &lt;/p&gt;
+    &lt;p&gt;
       
-    </p>
-    <p>
-      <font color="#006633">&#26412;&#39033;&#30446;&#20013;&#32467;&#26500;&#65292;&#22810;&#37319;&#29992;interface + abstract + realimpl&#30340;&#26550;&#26500; </font>
-    </p>
-    <p>
-      <font color="#006633">&#21363;interface&#23450;&#20041;&#25509;&#21475; </font>
-    </p>
-    <p>
-      <font color="#006633">abstract&#23450;&#20041;&#19994;&#21153;&#27969;&#31243;&#65292;&#24182;&#30041;&#19979;&#33509;&#24178;&#20851;&#38190;&#30340;abstract&#26680;&#24515;&#22788;&#29702;&#20379;realimpl&#21435;&#32487;&#25215;&#24182;&#23454;&#29616;&#12290;</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<node CREATED="1469608227714" ID="ID_928773600" MODIFIED="1470899768441" POSITION="right" TEXT="core">
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font color=&quot;#006633&quot;&gt;&amp;#26412;&amp;#39033;&amp;#30446;&amp;#20013;&amp;#32467;&amp;#26500;&amp;#65292;&amp;#22810;&amp;#37319;&amp;#29992;interface + abstract + realimpl&amp;#30340;&amp;#26550;&amp;#26500; &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font color=&quot;#006633&quot;&gt;&amp;#21363;interface&amp;#23450;&amp;#20041;&amp;#25509;&amp;#21475; &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font color=&quot;#006633&quot;&gt;abstract&amp;#23450;&amp;#20041;&amp;#19994;&amp;#21153;&amp;#27969;&amp;#31243;&amp;#65292;&amp;#24182;&amp;#30041;&amp;#19979;&amp;#33509;&amp;#24178;&amp;#20851;&amp;#38190;&amp;#30340;abstract&amp;#26680;&amp;#24515;&amp;#22788;&amp;#29702;&amp;#20379;realimpl&amp;#21435;&amp;#32487;&amp;#25215;&amp;#24182;&amp;#23454;&amp;#29616;&amp;#12290; &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font color=&quot;#000099&quot;&gt;&amp;#28857;&amp;#20987;&amp;#32418;&amp;#33394;&amp;#38142;&amp;#25509;&amp;#21551;&amp;#21160;&amp;#24037;&amp;#20855;&amp;#29992;&amp;#26469;&amp;#30699;&amp;#27491;&amp;#8220;&lt;content ename=&quot;content&quot; color=&quot;#000099&quot;&gt;&amp;#22791;&amp;#27880;&amp;#20081;&amp;#30721;&amp;#8221;&amp;#65292;&amp;#26041;&amp;#24335;&amp;#24456;&amp;#31616;&amp;#21333;&amp;#65292;&amp;#23558;&amp;#20081;&amp;#30721;&amp;#25335;&amp;#36125;&amp;#36827;&amp;#36755;&amp;#20837;&amp;#26694;&amp;#65292;&amp;#28857;&amp;#20987;&amp;#22788;&amp;#29702;&amp;#25353;&amp;#38062;&amp;#65292;&amp;#19979;&amp;#26041;&amp;#27983;&amp;#35272;&amp;#22120;&amp;#21487;&amp;#30475;&amp;#21040;&amp;#27491;&amp;#24120;&amp;#20869;&amp;#23481;&amp;#65292;&amp;#25335;&amp;#36125;&amp;#22238;&amp;#26469;&amp;#21363;&amp;#21487;&lt;/font&gt;&amp;#12290;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</richcontent>
+<node CREATED="1469608227714" ID="ID_928773600" MODIFIED="1471488581546" POSITION="right" TEXT="core">
 <node CREATED="1470987412678" ID="ID_1631129323" MODIFIED="1470990437091" TEXT="exchange">
 <node CREATED="1470987425380" ID="ID_578277082" MODIFIED="1470987430311" TEXT="Exchange">
 <node CREATED="1470989174358" ID="ID_1586715650" MODIFIED="1470989243065" TEXT="&#x5c31;&#x4e00;&#x4e2a;start&#x65b9;&#x6cd5;&#xff0c;&#x542f;&#x52a8;">
@@ -935,7 +941,24 @@
   </body>
 </html></richcontent>
 <node CREATED="1470995103267" ID="ID_294416777" MODIFIED="1470995107156" TEXT="Exchange">
-<node CREATED="1470995065246" ID="ID_916310221" MODIFIED="1470995086420" TEXT="ExchangeBodyCacheConnectManager"/>
+<node CREATED="1470995065246" ID="ID_916310221" MODIFIED="1471489546103" TEXT="ExchangeBodyCacheConnectManager">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21021;&#27493;&#24863;&#35273;&#25152;&#35859;updateConnectAgent&#23601;&#26159;&#25214;&#21040;&#21046;&#23450;&#30340;ip,port&#30340;redis&#65292;
+    </p>
+    <p>
+      &#22914;&#26524;redis&#24050;&#23384;&#22312;&#65292;&#21017;&#31616;&#21333;&#21152;&#20837;connectlist&#21363;&#21487;&#65292;&#21542;&#21017;&#65292;connect&#20043;&#21518;&#24182;&#21551;&#21160;&#32447;&#31243;&#22788;&#29702;&#30456;&#20851;&#38431;&#21015;&#31561;&#31561;&#12290;
+    </p>
+    <p>
+      &#24453;&#21518;&#32493;&#20180;&#32454;&#25972;&#29702;...
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1470995017459" ID="ID_48612275" MODIFIED="1470995031172" TEXT="ExchangeDbConnectManager"/>
 </node>
 <node CREATED="1470995112302" ID="ID_1015331627" MODIFIED="1470995118428" TEXT="Distributer"/>
@@ -989,9 +1012,8 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1471223713271" ID="ID_212493508" MODIFIED="1471226345418" TEXT="ConnectAgentAbstract">
+</html></richcontent>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1471223713271" ID="ID_212493508" MODIFIED="1471396718489" TEXT="ConnectAgentAbstract">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1006,9 +1028,26 @@
     <p>
       reconnectActual()
     </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26356;&#20851;&#38190;&#30340;&#26159;<font color="#6600cc">getConnectStatus(),</font>&#29992;&#20110;&#21028;&#26029;&#24403;&#21069;&#36830;&#25509;&#26159;&#21542;&#26377;&#25928;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#006666">connect()/reconnect()&#25104;&#21151;&#23601;set status=true,&#20869;&#37096;&#35843;&#29992;connectActual/reconnectActual</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#6600cc">&#23376;&#31867;&#32487;&#25215;&#30340;&#21442;&#25968;&#65306;</font><font color="#006600">ip,port,connectId</font><font color="#6600cc">,</font><font color="#ff3300">url</font><font color="#6600cc">,timeout,</font><font color="#ff3300">type</font>
+    </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1471225192691" ID="ID_1701977328" MODIFIED="1471225202142" TEXT="JettyNetConnectAgent">
 <node CREATED="1471225260277" FOLDED="true" ID="ID_1073759207" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-jettyconnect-java" MODIFIED="1471226632189" TEXT="JettyNetConnect">
 <richcontent TYPE="NOTE"><html>
@@ -1023,8 +1062,7 @@
       &#28040;&#24687;&#24517;&#39035;&#25351;&#23450;&#28040;&#24687;&#25152;&#23646;&#38431;&#21015;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1471225870160" ID="ID_1095722056" MODIFIED="1471226095122">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1041,8 +1079,7 @@
       &#22833;&#21435;&#20102;&#21028;&#26029;&#24847;&#20041;&#65292;send&#26041;&#27861;&#30452;&#25509;&#21457;&#36865;&#28040;&#24687;&#26102;&#25165;&#20855;&#20307;&#36830;&#25509;&#20570;&#24322;&#24120;&#22788;&#29702;&#20102;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1056,10 +1093,9 @@
       DbConnectAgent<font color="#006666">Abstract</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1471226363679" ID="ID_1956293312" MODIFIED="1471229197505">
+<node CREATED="1471226363679" ID="ID_1956293312" MODIFIED="1471397196309">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1069,15 +1105,14 @@
       CacheConnectAgent<font color="#006666">Abstract</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      protected abstract void connectCacheActual() throws Exception; <font color="#006666"><b>//&#26368;&#32456;&#37117;&#26159;jedisPool.getResource();jedisPool.returnResource(jedis);&#21363;&#30830;&#35748;redis&#27744;&#26159;&#21542;&#26377;&#31354;&#38386;&#30340;&#36830;&#25509;&#20379;&#20351;&#29992;...</b></font>
+      protected abstract void connectCacheActual() throws Exception; <font color="#006666"><b>//&#26368;&#32456;&#37117;&#26159;jedisPool.getResource();jedisPool.returnResource(jedis);&#21363;&#30830;&#35748;redis&#27744;&#26159;&#21542;&#26377;&#31354;&#38386;&#30340;&#36830;&#25509;&#20379;&#20351;&#29992;...&#65292;</b></font><b><font color="#006600">&#35813;&#26041;&#27861;&#21551;&#21160;&#20102;&#20004;&#31867;&#21508;10&#20010;&#32447;&#31243;&#20998;&#21035;&#25209;&#37327;&#25552;&#21462;setBlockingQueue&#21644;removeBlockingQueue&#20013;&#30340;&#28040;&#24687;&#20307;&#65292;</font><font color="#ff3300">&#19968;&#27425;&#38598;&#20013;</font><font color="#006600">&#20998;&#21035;&#20132;&#32473;setActual&#21644;removeActual&#21435;&#22788;&#29702;</font><font color="#006666">&#12290;</font></b>
     </p>
     <p>
       protected abstract void reconnectCacheActual() throws Exception;
@@ -1101,9 +1136,8 @@
       &#22312;<font color="#660066">CacheConnectAgentConfParam</font>&#20013;&#23450;&#20041;&#20102;&#22788;&#29702;<font color="#006633">&#28155;&#21152;&#25968;&#25454;</font>&#21644;<font color="#cc0000">&#31227;&#38500;&#25968;&#25454;</font>&#30340;&#32447;&#31243;&#25968;&#21508;&#20026;10&#65292;&#25209;&#22788;&#29702;&#25968;&#37327;&#20026;1000&#65292;&#36229;&#26102;3&#31186;
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1471226519254" ID="ID_82415105" MODIFIED="1471226579513">
+</html></richcontent>
+<node CREATED="1471226519254" ID="ID_82415105" MODIFIED="1471912542557">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1113,10 +1147,38 @@
       Redis<font color="#ff3300">BodyCache</font>ConnectAgent
     </p>
   </body>
+</html></richcontent>
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20445;&#23384;/&#21024;&#38500;&#22312;redis&#20013;&#30340;&#28040;&#24687;&#20307;&#12290;
+    </p>
+  </body>
 </html>
 </richcontent>
+<node CREATED="1471397313203" ID="ID_749402508" MODIFIED="1471399511984" TEXT="setActual">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23558;&#28040;&#24687;&#38598;&#21512;&#20889;&#20837;redis&#24182;&#35760;&#24405;&#30456;&#24212;&#30340;&#24615;&#33021;&#32479;&#35745;&#20449;&#24687;&#31561;&#12290;key&#20540;&#20026;uuid
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35760;&#24405;&#21333;&#26465;&#28040;&#24687;&#20307;&#20889;&#20837;redis&#32791;&#26102;&#24773;&#20917;,&#40664;&#35748;&#22312;redis&#20013;10&#31186;&#24038;&#21491;&#36229;&#26102;&#33258;&#21160;&#21024;&#38500;&#65292;&#35760;&#24405;&#21333;&#26465;&#28040;&#24687;&#20889;&#20837;redis&#26159;&#21542;&#25104;&#21151;&#12290;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1471226535276" ID="ID_1093490856" MODIFIED="1471226597632">
+</node>
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1471226535276" ID="ID_1093490856" MODIFIED="1471400779372">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1126,8 +1188,65 @@
       Redis<font color="#990099">QueueCache</font>ConnectAgent
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<node CREATED="1471400153581" ID="ID_436246170" MODIFIED="1471832656051" TEXT="setActual">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
+    
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      messageDm.getBool()&amp;#26469;&amp;#21028;&amp;#26029;&amp;#26159;&amp;#21542;&amp;#20449;&amp;#24687;&lt;content ename=&quot;content&quot;&gt;&amp;#28040;&amp;#24687;&amp;#65292;true&amp;#20026;&amp;#26032;&amp;#28040;&amp;#24687;&amp;#65292;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#21017;&amp;#26681;&amp;#25454;messageDm&amp;#30340;queueName&amp;#65292;&amp;#20026;&amp;#20854;&amp;#29983;&amp;#25104;queueName&lt;font color=&quot;#006600&quot;&gt;-Queue-New&lt;/font&gt;&amp;#21644;queueName&lt;font color=&quot;#6600cc&quot;&gt;-hash-New&lt;/font&gt;&amp;#30340;key&amp;#20540;&amp;#12290;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#33509;&amp;#20026;false&amp;#65292;&amp;#21017;&amp;#29983;&amp;#25104;queueName&lt;font color=&quot;#ff3300&quot;&gt;-Queue-Portion&lt;/font&gt;&amp;#21644;queueName&lt;font color=&quot;#006666&quot;&gt;-Hash-Portion&lt;/font&gt;&amp;#30340;key&amp;#20540;&amp;#12290;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#26080;&amp;#35770;true or false&amp;#65292;&amp;#37117;&amp;#29983;&amp;#25104;&amp;#19968;&amp;#20010;queueName&lt;font color=&quot;#006600&quot;&gt;-isActive&lt;/font&gt;&amp;#30340;key&amp;#20540;&amp;#12290;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#27880;&amp;#24847;&amp;#36825;&amp;#37324;&amp;#37117;&amp;#21482;&amp;#26159;&amp;#38024;&amp;#23545;queueName&amp;#21734;&amp;#65292;&amp;#20063;&amp;#23601;&amp;#26159;&amp;#35828;&amp;#65292;&amp;#26159;&amp;#38024;&amp;#23545;queue&amp;#21517;&amp;#31216;&amp;#30340;&amp;#22788;&amp;#29702;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#33509;redis&amp;#19981;&amp;#23384;&amp;#22312;queueName-isActive&amp;#38190;&amp;#65292;&amp;#20195;&amp;#34920;&amp;#35813;queue&amp;#20026;&amp;#22788;&amp;#20110;&amp;#31163;&amp;#32447;&amp;#65292;&amp;#20854;&amp;#30456;&amp;#24212;&amp;#30340;&amp;#21518;&amp;#32493;&amp;#22788;&amp;#29702;&amp;#24573;&amp;#30053;&amp;#12290;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#33509;redis&amp;#20013;&amp;#24050;&amp;#32463;&amp;#23384;&amp;#22312;&amp;#35813;&amp;#28040;&amp;#24687;&amp;#65292;&amp;#21017;&amp;#30456;&amp;#24212;&amp;#30340;queueName&amp;#21482;&amp;#26159;&amp;#35760;&amp;#24405;&amp;#22788;&amp;#29702;&amp;#22833;&amp;#36133;&amp;#65292;&amp;#19981;&amp;#36827;&amp;#34892;&amp;#21518;&amp;#32493;&amp;#22788;&amp;#29702;&amp;#12290;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#22914;&amp;#26524;redis&amp;#20013;&amp;#24050;&amp;#32463;&lt;content ename=&quot;content&quot;&gt;&amp;#23384;&amp;#22312;&amp;#35813;&amp;#28040;&amp;#24687;&amp;#30340;hash&amp;#36807;&amp;#26399;&amp;#26102;&amp;#38388;&amp;#65292;&amp;#21017;&amp;#24573;&amp;#30053;&amp;#21518;&amp;#32493;&amp;#22788;&amp;#29702;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#22914;&amp;#26524;redis&amp;#20013;&amp;#24050;&amp;#32463;&amp;#23384;&amp;#22312;&amp;#35813;&amp;#28040;&amp;#24687;&amp;#65292;&amp;#21017;&amp;#21024;&amp;#38500;&amp;#35813;&amp;#28040;&amp;#24687;&amp;#30340;hash&amp;#36807;&amp;#26399;&amp;#26102;&amp;#38388;&amp;#24182;&amp;#24573;&amp;#30053;&amp;#21518;&amp;#32493;&amp;#22788;&amp;#29702;&amp;#12290;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font color=&quot;#ff3300&quot;&gt;&amp;#20026;&amp;#35813;&amp;#28040;&amp;#24687;&amp;#21019;&amp;#24314;&amp;#28040;&amp;#24687;&amp;#23545;&amp;#24212;&amp;#30340;&amp;#38431;&amp;#21015;&amp;#23454;&amp;#20363;:messageQueueDm&amp;#65292;&amp;#24182;&amp;#23384;&amp;#20837;redis&lt;/font&gt;&amp;#12290;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1471226437906" ID="ID_530080078" MODIFIED="1471226467305">
@@ -1140,14 +1259,13 @@
       TraceCacheConnectAgent<font color="#006666">Abstract</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1470305248727" ID="ID_1148778242" MODIFIED="1470879998770" POSITION="left" TEXT="console">
+<node CREATED="1470305248727" FOLDED="true" ID="ID_1148778242" MODIFIED="1471487055174" POSITION="left" TEXT="console">
 <node CREATED="1470305264060" ID="ID_1361829475" MODIFIED="1470965506122" TEXT="vo">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1182,7 +1300,7 @@
 </html></richcontent>
 <node CREATED="1470305270957" ID="ID_1857442554" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-queuedistributervo-java" MODIFIED="1470305383603" TEXT="QueueDistributeVo"/>
 </node>
-<node CREATED="1470305610426" FOLDED="true" ID="ID_1331409421" MODIFIED="1470879526339" TEXT="dao">
+<node CREATED="1470305610426" FOLDED="true" ID="ID_1331409421" MODIFIED="1471487053118" TEXT="dao">
 <node CREATED="1470305620318" ID="ID_754826342" MODIFIED="1470305625537" TEXT="impl">
 <node CREATED="1470305636144" ID="ID_724713266" MODIFIED="1470305651344" TEXT="QueueDistributerDaoImpl"/>
 </node>
@@ -1219,7 +1337,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1470305711692" FOLDED="true" ID="ID_915538262" MODIFIED="1470965506118" TEXT="persistence">
+<node CREATED="1470305711692" ID="ID_915538262" MODIFIED="1471487041011" TEXT="persistence">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1230,7 +1348,7 @@
     </p>
   </body>
 </html></richcontent>
-<node BACKGROUND_COLOR="#ccffcc" COLOR="#000000" CREATED="1470305726523" ID="ID_1887032770" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-dynamicsqltemplate-java" MODIFIED="1470305932562" TEXT="DynamicSqlTemplate">
+<node BACKGROUND_COLOR="#ccffcc" COLOR="#000000" CREATED="1470305726523" FOLDED="true" ID="ID_1887032770" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-dynamicsqltemplate-java" MODIFIED="1471487046293" TEXT="DynamicSqlTemplate">
 <node CREATED="1470305948662" ID="ID_788936059" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-dynamicsqltemplateimpl-java" MODIFIED="1470362996515" TEXT="DynamicSqlTemplateImpl">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1296,7 +1414,7 @@
 </node>
 </node>
 <node CREATED="1470359698962" ID="ID_655844904" MODIFIED="1470879532028" TEXT="domain">
-<node CREATED="1470359860844" FOLDED="true" ID="ID_1560190144" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-failedmsgmd-java" MODIFIED="1470388606532" TEXT="FailedMsgMd.java">
+<node CREATED="1470359860844" FOLDED="true" ID="ID_1560190144" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-failedmsgmd-java" MODIFIED="1471487039326" TEXT="FailedMsgMd.java">
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1470360353940" ID="ID_221160667" MODIFIED="1470360833233" TEXT="&#x4e00;&#x4e2a;&#x53ef;&#x53d1;&#x9001;&#x6d88;&#x606f;&#x5fc5;&#x987b;&#x6709;&#x7684;&#x51e0;&#x4e2a;&#x5916;&#x90e8;&#x5b57;&#x6bb5;">
 <node CREATED="1470360372650" ID="ID_851095552" MODIFIED="1470360770358">
 <richcontent TYPE="NODE"><html>
@@ -1349,7 +1467,7 @@
 <node CREATED="1470360664567" ID="ID_812274470" MODIFIED="1470360671864" TEXT="&#x5206;&#x914d;&#x4e2d;&#x5fc3;Id"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff99" CREATED="1470388449124" FOLDED="true" ID="ID_1451792036" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-queuemd-java" MODIFIED="1470968471223" TEXT="QueueMd.java">
+<node BACKGROUND_COLOR="#ffff99" CREATED="1470388449124" ID="ID_1451792036" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-queuemd-java" MODIFIED="1471487026574" TEXT="QueueMd.java">
 <node CREATED="1470388651246" ID="ID_1589122672" MODIFIED="1470388721591">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1370,7 +1488,7 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1470388860748" ID="ID_1880357937" MODIFIED="1470388892188" TEXT="&#x6545;&#x800c;&#x8981;&#x91cd;&#x70b9;&#x7814;&#x7a76;&#x8be5;&#x7c7b;&#x4ee5;&#x53ca;&#x4e0e;&#x4e4b;&#x76f8;&#x5173;&#x7c7b;&#x7684;&#x5904;&#x7406;&#x903b;&#x8f91;"/>
 </node>
 </node>
-<node CREATED="1470363835755" FOLDED="true" ID="ID_134193828" MODIFIED="1470995000590" TEXT="&#x6d89;&#x53ca;&#x8868;">
+<node CREATED="1470363835755" ID="ID_134193828" MODIFIED="1471487028757" TEXT="&#x6d89;&#x53ca;&#x8868;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1390,7 +1508,7 @@
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1470365429962" ID="ID_244207119" MODIFIED="1470388171447" TEXT="CSL_PERF_MONITOR_RECORD">
 <node CREATED="1470365466808" ID="ID_732089122" MODIFIED="1470365615416" TEXT="&#x6027;&#x80fd;&#x76d1;&#x63a7;&#xff0c;&#x76d1;&#x63a7;&#x67d0;&#x4e2a;&#x961f;&#x5217;&#x6240;&#x53d1;&#x9001;&#x6d88;&#x606f;&#x7684;&#x7edf;&#x8ba1;&#x60c5;&#x51b5;&#xff0c;&#xa;&#x6bd4;&#x5982;&#xff0c;&#x5c0f;&#x4e8e;50&#x6beb;&#x79d2;&#x7684;&#x6570;&#x91cf;&#xff0c;&#x5927;&#x4e8e;1&#x79d2;&#x7684;&#x6d88;&#x606f;&#x6570;&#x91cf;&#x7b49;&#x7b49;"/>
 </node>
-<node CREATED="1470365263940" FOLDED="true" ID="ID_194915920" MODIFIED="1470971558387" TEXT="&#x76d1;&#x542c;&#x670d;&#x52a1;&#x7c7b;">
+<node CREATED="1470365263940" FOLDED="true" ID="ID_194915920" MODIFIED="1471487033758" TEXT="&#x76d1;&#x542c;&#x670d;&#x52a1;&#x7c7b;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1435,7 +1553,7 @@
 <node CREATED="1470391653070" ID="ID_1935624464" MODIFIED="1470391664071" TEXT="ip ,port &#x76d1;&#x542c;&#x670d;&#x52a1;&#x5668;&#x914d;&#x7f6e;"/>
 </node>
 </node>
-<node CREATED="1470388204841" ID="ID_1847773264" MODIFIED="1470994922547" TEXT="Queue&#x7c7b;&#x76f8;&#x5173;">
+<node CREATED="1470388204841" FOLDED="true" ID="ID_1847773264" MODIFIED="1471487035941" TEXT="Queue&#x7c7b;&#x76f8;&#x5173;">
 <node CREATED="1470388294816" ID="ID_1318050642" MODIFIED="1470388304315" TEXT="CSL_QUEUE"/>
 <node CREATED="1470389365887" ID="ID_984740154" MODIFIED="1470389495254" TEXT="CSL_QUEUE_CUSTOMER">
 <node CREATED="1470389381192" ID="ID_1963097487" MODIFIED="1470389491936">
@@ -1816,7 +1934,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1470882053521" ID="ID_1499820878" MODIFIED="1470995984475" POSITION="right" TEXT="&#x90e8;&#x7f72;">
+<node CREATED="1470882053521" FOLDED="true" ID="ID_1499820878" MODIFIED="1471397437335" POSITION="right" TEXT="&#x90e8;&#x7f72;">
 <node CREATED="1470882065000" ID="ID_751652242" MODIFIED="1470995986903" TEXT="&#x5b8c;&#x6574;&#x90e8;&#x7f72;&#x670d;&#x52a1;&#x7aef;">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1844,8 +1962,7 @@
       &#36127;&#36131;&#28608;&#27963;&#37197;&#32622;&#30456;&#24212;&#30340;&#28040;&#36153;&#32773;&#65292;&#29983;&#20135;&#32773;&#65292;exchanger,distributer
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1470882101881" ID="ID_1059504973" MODIFIED="1470996035153" TEXT="&#x7136;&#x540e;&#x662f;&#x811a;&#x672c;&#x542f;&#x52a8;distributer">
 <richcontent TYPE="NOTE"><html>
@@ -1878,6 +1995,196 @@
 <node CREATED="1470963266878" ID="ID_1260204015" MODIFIED="1470963291975" TEXT="&#x5bf9;&#x4e8e;Java&#x9879;&#x76ee;&#xff0c;&#x6709;&#x63d0;&#x4f9b;&#x5c01;&#x88c5;&#x597d;&#x7684;&#x5ba2;&#x6237;&#x7aef;&#x7ec4;&#x4ef6;&#x4f9b;&#x4f7f;&#x7528;"/>
 <node COLOR="#009933" CREATED="1470963294749" ID="ID_1085094727" MODIFIED="1470968511742" TEXT="&#x5bf9;&#x4e8e;&#x975e;Java&#x9879;&#x76ee;&#xff0c;&#x53ef;&#x901a;&#x8fc7;web console&#x5e73;&#x53f0;&#x8bbe;&#x7f6e;&#x6dfb;&#x52a0;&#x6765;&#x652f;&#x6301;&#x76f8;&#x5e94;&#x7684;&#x6d88;&#x8d39;&#x8005;"/>
 <node CREATED="1470963327415" ID="ID_1849429505" MODIFIED="1470963337610" TEXT="&#x751f;&#x4ea7;&#x8005;&#x4e5f;&#x5e94;&#x6709;&#x540c;&#x6837;&#x7684;&#x5904;&#x7406;"/>
+</node>
+</node>
+</node>
+<node CREATED="1471397445225" FOLDED="true" ID="ID_628470107" MODIFIED="1471487019541" POSITION="right" TEXT="monitor">
+<node CREATED="1471397465302" ID="ID_1485347373" MODIFIED="1471397498641" TEXT="performance.executer.service.impl">
+<node CREATED="1471397501859" ID="ID_871748424" MODIFIED="1471397517751" TEXT="SuccessPerformanceExecuterService"/>
+<node CREATED="1471397536636" ID="ID_269425938" MODIFIED="1471397549336" TEXT="OvertimePerformanceExecuterService"/>
+</node>
+<node CREATED="1471397643627" ID="ID_213182874" MODIFIED="1471398460905" TEXT="performance.storage">
+<node CREATED="1471397658581" ID="ID_662991863" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-threadlocalstorage-java" MODIFIED="1471398456123" TEXT="ThreadLocalStorage">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;&#22823;&#22823;&#30340;&#31867;&#20284;&#22810;&#23618;&#23884;&#22871;&#23383;&#20856;&#30340;&#38598;&#21512;&#65292;&#22312;&#35843;&#29992;get&#26041;&#27861;&#26102;&#65292;&#20250;&#33258;&#21160;&#28155;&#21152;&#30456;&#20851;&#20803;&#32032;&#65292;&#25972;&#20010;&#31867;&#21482;&#26377;&#19968;&#20010;get&#26041;&#27861;
+    </p>
+    <p>
+      <font color="#006600">executerName:&#25191;&#34892;&#22120;&#21517;&#31216; </font>
+    </p>
+    <p>
+      <font color="#006600">monitorModuleName&#65306;&#30417;&#25511;&#27169;&#22359;&#21517;&#31216; </font>
+    </p>
+    <p>
+      <font color="#006600">monitorModuleId:&#30417;&#25511;&#27169;&#22359;id </font>
+    </p>
+    <p>
+      <font color="#006600">queueName:&#38431;&#21015;&#21517;&#31216; </font>
+    </p>
+    <p>
+      <font color="#006600">monitorName:&#30417;&#25511;&#21517;&#31216; </font>
+    </p>
+    <p>
+      <font color="#ff3300">class T:&#25968;&#25454;&#23454;&#20307;&#31867;&#65292;&#21482;&#29992;&#21040;&#20102;OvertimePerformanceVo</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1471398883440" ID="ID_1625286221" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-memorystorage-java" MODIFIED="1471399114414" TEXT="MemoryStorage">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ConcurrentMap&#30340;&#24212;&#29992;&#65292;&#24453;&#21518;&#32493;&#30475;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1471399140315" ID="ID_1938404576" MODIFIED="1471399153590" TEXT="performance.executer.note">
+<node CREATED="1471399156275" ID="ID_199736605" MODIFIED="1471399293579" TEXT="OvertimeNote">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      package com.tuan.notifyserver.monitor.performance.executer.note;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      import java.util.concurrent.atomic.AtomicLong;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public class OvertimeNote {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#6600cc">private AtomicLong totalCount = new AtomicLong(0); //&#24635;&#25968;&#37327; </font>
+    </p>
+    <p>
+      <font color="#6600cc">private AtomicLong overtimeCount = new AtomicLong(0);//&#36229;&#26102;&#24635;&#25968;&#37327; </font>
+    </p>
+    <p>
+      <font color="#6600cc">private AtomicLong totalTime = new AtomicLong(0);//&#24635;&#32791;&#26102; </font>
+    </p>
+    <p>
+      <font color="#6600cc">private AtomicLong overtimeTime = new AtomicLong(0);//&#36229;&#26102;&#24635;&#32791;&#26102;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public void totalCountAdd() {
+    </p>
+    <p>
+      totalCount.incrementAndGet();
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public long totalCountReset() {
+    </p>
+    <p>
+      return totalCount.getAndSet(0);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public void overtimeCountAdd() {
+    </p>
+    <p>
+      overtimeCount.incrementAndGet();
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public long overtimeCountReset() {
+    </p>
+    <p>
+      return overtimeCount.getAndSet(0);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public void totalTimeAdd(long time) {
+    </p>
+    <p>
+      totalTime.addAndGet(time);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public long totalTimeReset() {
+    </p>
+    <p>
+      return totalTime.getAndSet(0);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public void overtimeTimeAdd(long time) {
+    </p>
+    <p>
+      overtimeTime.addAndGet(time);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public long overtimeTimeReset() {
+    </p>
+    <p>
+      return overtimeTime.getAndSet(0);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
