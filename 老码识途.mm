@@ -1,9 +1,9 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1471912547786" ID="ID_1242179974" MODIFIED="1471912571760" TEXT="&#x8001;&#x7801;&#x8bc6;&#x9014;">
+<node CREATED="1471912547786" ID="ID_1242179974" LINK="FreemindEncode.exe" MODIFIED="1471920471562" TEXT="&#x8001;&#x7801;&#x8bc6;&#x9014;">
 <node CREATED="1471912576381" ID="ID_846179475" MODIFIED="1471912585439" POSITION="right" TEXT="&#x7b2c;&#x4e00;&#x7ae0;">
-<node CREATED="1471912586953" ID="ID_300274624" MODIFIED="1471912596439" TEXT="call&#x6307;&#x4ee4;">
-<node CREATED="1471912604297" FOLDED="true" ID="ID_1497289408" MODIFIED="1471914351965" TEXT="&#x56fe;&#x793a;">
+<node CREATED="1471912586953" FOLDED="true" ID="ID_300274624" MODIFIED="1471935087436" TEXT="call&#x6307;&#x4ee4;">
+<node CREATED="1471912604297" FOLDED="true" ID="ID_1497289408" MODIFIED="1471920443842" TEXT="&#x56fe;&#x793a;">
 <node CREATED="1471912612006" ID="ID_1051601143" MODIFIED="1471912681266">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -60,6 +60,7 @@
 </richcontent>
 <node CREATED="1471914111496" ID="ID_1706925426" MODIFIED="1471914148277" TEXT="call&#x8981;&#x8f6c;&#x8df3;&#x51fd;&#x6570;&#x7684;&#x5730;&#x5740; - call&#x6307;&#x4ee4;&#x5b8c;&#x6210;&#x540e;&#x7684;&#x4e0b;&#x4e00;&#x6761;&#x6307;&#x4ee4;&#x7684;&#x5730;&#x5740;"/>
 </node>
+<node CREATED="1471934972097" ID="ID_740688321" MODIFIED="1471935074131" TEXT="call&#x6307;&#x4ee4;&#x8df3;&#x8f6c;&#x5230;&#x6307;&#x5b9a;&#x7684;&#x5730;&#x5740;&#x540e;&#xff0c;&#x6267;&#x884c;&#x5b8c;&#x5fc5;&#x987b;&#x8fd4;&#x56de;&#x8df3;&#x8f6c;&#x5230;&#x67d0;&#x4e2a;&#x5730;&#x5740;&#xff0c;&#x8be5;&#x5730;&#x5740;&#x4fdd;&#x5b58;&#x5728;ESP&#x6240;&#x6307;&#x5185;&#x5b58;&#x5730;&#x5740;&#x7684;&#x5730;&#x65b9;&#x5b58;&#x50a8;&#x3002; "/>
 </node>
 </node>
 </node>

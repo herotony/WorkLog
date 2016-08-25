@@ -1,63 +1,53 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1469608101625" ID="ID_1514670679" LINK="FreemindEncode.exe" MODIFIED="1472082378157" TEXT="NotifyServer">
-<richcontent TYPE="NOTE"><html>
-  <head>
+<node CREATED="1469608101625" ID="ID_1514670679" LINK="FreemindEncode.exe" MODIFIED="1472009319548" TEXT="NotifyServer">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
     
-  </head>
-  <body>
-    <p>
-      
-    </p>
-    <p type="text/css">
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
       com.tuan.notifyserver
-    </p>
-    <p>
+    &lt;/p&gt;
+    &lt;p&gt;
       
-    </p>
-    <p>
-      CTRL+G&#21487;&#20197;&#25628;&#32034;&#19979;&#19968;&#20010;&#21305;&#37197;&#39033;&#12290;&#65288;CTRL+F&#65289;&#30340;&#21518;&#32493;
-    </p>
-    <p>
+    &lt;/p&gt;
+    &lt;p&gt;
+      CTRL+G&amp;#21487;&amp;#20197;&amp;#25628;&amp;#32034;&amp;#19979;&amp;#19968;&amp;#20010;&amp;#21305;&amp;#37197;&amp;#39033;&amp;#12290;&amp;#65288;CTRL+F&amp;#65289;&amp;#30340;&amp;#21518;&amp;#32493;
+    &lt;/p&gt;
+    &lt;p&gt;
       
-    </p>
-    <p>
-      <font color="#009933">&#26412;&#39033;&#30446;&#20013;&#32467;&#26500;&#65292;&#22810;&#37319;&#29992;interface + abstract + realimpl&#30340;&#26550;&#26500; </font>
-    </p>
-    <p>
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font color=&quot;#006633&quot;&gt;&amp;#26412;&amp;#39033;&amp;#30446;&amp;#20013;&amp;#32467;&amp;#26500;&amp;#65292;&amp;#22810;&amp;#37319;&amp;#29992;interface + abstract + realimpl&amp;#30340;&amp;#26550;&amp;#26500; &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font color=&quot;#006633&quot;&gt;&amp;#21363;interface&amp;#23450;&amp;#20041;&amp;#25509;&amp;#21475; &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font color=&quot;#006633&quot;&gt;abstract&amp;#23450;&amp;#20041;&amp;#19994;&amp;#21153;&amp;#27969;&amp;#31243;&amp;#65292;&amp;#24182;&amp;#30041;&amp;#19979;&amp;#33509;&amp;#24178;&amp;#20851;&amp;#38190;&amp;#30340;abstract&amp;#26680;&amp;#24515;&amp;#22788;&amp;#29702;&amp;#20379;realimpl&amp;#21435;&amp;#32487;&amp;#25215;&amp;#24182;&amp;#23454;&amp;#29616;&amp;#12290; &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
       
-    </p>
-    <p>
-      <font color="#009933">&#21363;interface&#23450;&#20041;&#25509;&#21475; </font>
-    </p>
-    <p>
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font color=&quot;#006600&quot;&gt;&amp;#28857;&amp;#20987;&amp;#32418;&amp;#33394;&amp;#38142;&amp;#25509;&amp;#21551;&amp;#21160;&amp;#24037;&amp;#20855;&amp;#29992;&amp;#26469;&amp;#30699;&amp;#27491;&amp;#8220;&lt;content ename=&quot;content&quot; color=&quot;#006600&quot;&gt;&amp;#22791;&amp;#27880;&amp;#20081;&amp;#30721;&amp;#8221;&amp;#65292;&amp;#26041;&amp;#24335;&amp;#24456;&amp;#31616;&amp;#21333;&amp;#65292;&amp;#23558;&amp;#20081;&amp;#30721;&amp;#25335;&amp;#36125;&amp;#36827;&amp;#36755;&amp;#20837;&amp;#26694;&amp;#65292;&amp;#28857;&amp;#20987;&amp;#22788;&amp;#29702;&amp;#25353;&amp;#38062;&amp;#65292;&amp;#19979;&amp;#26041;&amp;#27983;&amp;#35272;&amp;#22120;&amp;#21487;&amp;#30475;&amp;#21040;&amp;#27491;&amp;#24120;&amp;#20869;&amp;#23481;&amp;#65292;&amp;#25335;&amp;#36125;&amp;#22238;&amp;#26469;&amp;#21363;&amp;#21487;&amp;#12290; 
+      &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
       
-    </p>
-    <p>
-      <font color="#009933">abstract&#23450;&#20041;&#19994;&#21153;&#27969;&#31243;&#65292;&#24182;&#30041;&#19979;&#33509;&#24178;&#20851;&#38190;&#30340;abstract&#26680;&#24515;&#22788;&#29702;&#20379;realimpl&#21435;&#32487;&#25215;&#24182;&#23454;&#29616;&#12290;&#160;</font><font color="#006633">&#160;</font>
-    </p>
-    <p>
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#30830;&amp;#23450;&amp;#20102;&amp;quot;&amp;#38271;&amp;#33410;&amp;#28857;&amp;quot;&amp;#21487;&amp;#20197;&amp;#26367;&amp;#20195;&amp;#22791;&amp;#27880;&amp;#65292;&amp;#20294;&amp;#29992;&amp;#38271;&amp;#33410;&amp;#28857;&amp;#21069;&amp;#65292;&amp;#35831;&amp;#21153;&amp;#24517;&amp;#36755;&amp;#20837;&amp;#36739;&amp;#23569;&amp;#23383;&amp;#31526;&amp;#65292;&amp;#20445;&amp;#23384;&amp;#21518;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#20877;&amp;#28857;&amp;#24320;&amp;#8220;&amp;#38271;&amp;#33410;&amp;#28857;&amp;quot;&amp;#25165;&amp;#33021;&amp;#36827;&amp;#34892;html&amp;#31561;&amp;#39068;&amp;#33394;&amp;#26631;&amp;#27880;
+    &lt;/p&gt;
+    &lt;p&gt;
       
-    </p>
-    <p>
-      &#28857;&#20987;&#32418;&#33394;&#38142;&#25509;&#21551;&#21160;&#24037;&#20855;&#29992;&#26469;&#30699;&#27491;&#65292;&#26041;&#24335;&#24456;&#31616;&#21333;&#65292;&#23558;&#20081;&#30721;&#25335;&#36125;&#36827;&#36755;&#20837;&#26694;&#65292;&#28857;&#20987;&#22788;&#29702;&#25353;&#38062;&#65292;&#19979;&#26041;&#27983;&#35272;&#22120;&#21487;&#30475;&#21040;&#27491;&#24120;&#20869;&#23481;&#65292;&#25335;&#36125;&#22238;&#26469;&#21363;&#21487;&#12290;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#30830;&#23450;&#20102;&quot;&#38271;&#33410;&#28857;&quot;&#21487;&#20197;&#26367;&#20195;&#22791;&#27880;&#65292;&#20294;&#29992;&#38271;&#33410;&#28857;&#21069;&#65292;&#35831;&#21153;&#24517;&#36755;&#20837;&#36739;&#23569;&#23383;&#31526;&#65292;&#20445;&#23384;&#21518;&#65292;&#28982;&#21518;&#20877;&#28857;&#24320;&#8220;&#38271;&#33410;&#28857;&quot;&#25165;&#33021;&#36827;&#34892;html&#31561;&#39068;&#33394;&#26631;&#27880;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font color="#ff0000">&#25214;&#21040;&#21407;&#22240;&#20102;&#65306;&#22791;&#27880;&#25110;&#32773;&#21482;&#35201;&#29992;&#21040;&#20102;html&#30340;&#22320;&#26041;&#19968;&#23450;&#19981;&#35201;&#29992;&#33521;&#25991;&#24341;&#21495;&#65292;&#20882;&#21495;&#31561;&#29305;&#27530;&#23383;&#31526;&#21543;&#65292;&#21542;&#21017;&#24517;&#23450;&#20081;&#30721;&#20102;&#12290;</font>
-    </p>
-  </body>
-</html>
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 </richcontent>
-<node CREATED="1469608227714" ID="ID_928773600" MODIFIED="1472022439714" POSITION="right" TEXT="core">
+<node CREATED="1469608227714" FOLDED="true" ID="ID_928773600" MODIFIED="1472008910182" POSITION="right" TEXT="core">
 <node CREATED="1470987412678" ID="ID_1631129323" MODIFIED="1470990437091" TEXT="exchange">
 <node CREATED="1470987425380" ID="ID_578277082" MODIFIED="1470987430311" TEXT="Exchange">
 <node CREATED="1470989174358" ID="ID_1586715650" MODIFIED="1470989243065" TEXT="&#x5c31;&#x4e00;&#x4e2a;start&#x65b9;&#x6cd5;&#xff0c;&#x542f;&#x52a8;">
@@ -1069,8 +1059,8 @@
     </p>
   </body>
 </html></richcontent>
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1471999693759" FOLDED="true" ID="ID_666301838" MODIFIED="1472082517993" TEXT="key method description">
-<node CREATED="1472007674778" ID="ID_1695233970" MODIFIED="1472082487198" TEXT="&#x5c40;&#x90e8;&#x53d8;&#x91cf;">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1471999693759" FOLDED="true" ID="ID_666301838" MODIFIED="1472008448916" TEXT="key method description">
+<node CREATED="1472007674778" FOLDED="true" ID="ID_1695233970" MODIFIED="1472007916301" TEXT="&#x5c40;&#x90e8;&#x53d8;&#x91cf;">
 <node CREATED="1472007690012" ID="ID_433065572" MODIFIED="1472007749975">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1120,7 +1110,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1472007932035" FOLDED="true" ID="ID_1969384954" MODIFIED="1472082507384" TEXT="connect()">
+<node CREATED="1472007932035" FOLDED="true" ID="ID_1969384954" MODIFIED="1472008447692" TEXT="connect()">
 <node CREATED="1472007962610" ID="ID_129843310" MODIFIED="1472008049759">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1164,7 +1154,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1472008070698" FOLDED="true" ID="ID_801811528" MODIFIED="1472082510105" TEXT="reconnect()">
+<node CREATED="1472008070698" FOLDED="true" ID="ID_801811528" MODIFIED="1472008445260" TEXT="reconnect()">
 <node CREATED="1472008098522" ID="ID_518606006" MODIFIED="1472008152111">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1202,7 +1192,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1472008185715" FOLDED="true" ID="ID_1039935393" MODIFIED="1472082513074" TEXT="close()">
+<node CREATED="1472008185715" FOLDED="true" ID="ID_1039935393" MODIFIED="1472008439908" TEXT="close()">
 <node CREATED="1472008205760" ID="ID_584147246" MODIFIED="1472008233958">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1250,7 +1240,19 @@
 </node>
 </node>
 <node CREATED="1472007409267" ID="ID_1800458988" MODIFIED="1472008497233" TEXT="&#x5b50;&#x7c7b;">
-<node CREATED="1471226363679" ID="ID_1956293312" MODIFIED="1472024291651">
+<node CREATED="1471226437906" ID="ID_530080078" MODIFIED="1471226467305">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TraceCacheConnectAgent<font color="#006666">Abstract</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1471226363679" ID="ID_1956293312" MODIFIED="1472007448360">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1292,541 +1294,6 @@
     </p>
   </body>
 </html></richcontent>
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1472024293281" ID="ID_73426899" MODIFIED="1472024317137" TEXT="key method description">
-<node CREATED="1472085781873" ID="ID_1758421687" MODIFIED="1472085789312" TEXT="&#x5c40;&#x90e8;&#x53d8;&#x91cf;">
-<node CREATED="1472085794249" ID="ID_1564632611" MODIFIED="1472086004566">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#990099">BlockingQueue</font>&lt;MessageDm&gt; <font color="#990099">set</font>BlockingQueue
-    </p>
-  </body>
-</html>
-</richcontent>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1472086936254" ID="ID_1988841753" MODIFIED="1472092843714" TEXT="BlockingQueue">
-<node CREATED="1472087205407" FOLDED="true" ID="ID_1281525860" MODIFIED="1472092848637" TEXT="BlockingQueue&#x6ce8;&#x91ca;">
-<node CREATED="1472087159189" ID="ID_1877213390" MODIFIED="1472087168752">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="2016/08/BlockingQueue.png" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1472087245369" ID="ID_1281777351" MODIFIED="1472087294091">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#26368;&#24120;&#29992;&#30340;&#26159;&#20854;&#23376;&#31867;: <font color="#990099"><b>LinkedBlockingQueue</b></font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1472085822806" ID="ID_1781933608" MODIFIED="1472086024914">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#990099">Blocking</font>Queue&lt;MessageDm&gt; <font color="#990099">remove</font>BlockingQueue
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1472085846718" ID="ID_257184373" MODIFIED="1472086054403">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009933">ExecutorService</font>&#160;executorService = <font color="#990099"><b>Executors</b></font>.<font color="#009933">newCachedThreadPool()</font>;
-    </p>
-  </body>
-</html>
-</richcontent>
-<node CREATED="1472092490723" FOLDED="true" ID="ID_1247187966" MODIFIED="1472092853693" TEXT="Java&#x7ebf;&#x7a0b;&#x6c60;&#x8bf4;&#x660e;">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      ThreadPool
-    </p>
-  </body>
-</html>
-</richcontent>
-<node CREATED="1472092512727" ID="ID_1986918958" MODIFIED="1472092521870">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="2016/08/JavaThreadPool.png" />
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1472093177693" ID="ID_1681411888" MODIFIED="1472093204172" TEXT="JDK1.5&#x540e;&#x52a0;&#x5165;&#x4e86;&#x5f3a;&#x5927;&#x7684;concurrente&#x5305;&#xff0c;&#x5176;&#x5185;&#x5305;&#x542b;&#x652f;&#x6301;&#x7ebf;&#x7a0b;&#x6c60;"/>
-</node>
-<node CREATED="1472085893569" ID="ID_91778763" MODIFIED="1472086070978">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#ff0000"><b>volatile</b></font>&#160;boolean stopSign = false;
-    </p>
-  </body>
-</html>
-</richcontent>
-<node CREATED="1472092774299" FOLDED="true" ID="ID_1456488598" MODIFIED="1472092832373" TEXT="volatile&#x5173;&#x952e;&#x5b57;&#x8bf4;&#x660e;">
-<node CREATED="1472092787711" ID="ID_324477250" MODIFIED="1472092797519">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="2016/08/JavaVolatile.png" />
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1472085912372" ID="ID_1173907415" MODIFIED="1472086082330">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#ff6633"><b>CountDownLatch</b></font>&#160;stopCountDownLatch;
-    </p>
-  </body>
-</html>
-</richcontent>
-<node CREATED="1472093227920" FOLDED="true" ID="ID_968771707" MODIFIED="1472094625861">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      CountDownLatch&#26159;&#19968;&#20010;<font color="#990099">&#21407;&#23376;&#35745;&#25968;&#22120;</font>&#65292;
-    </p>
-    <p>
-      <font color="#ff0000">&#21516;&#19968;&#26102;&#21051;</font>&#21482;&#33021;&#26377;&#19968;&#20010;&#32447;&#31243;&#20462;&#25913;&#35813;&#35745;&#25968;&#22120;&#65281;
-    </p>
-  </body>
-</html>
-</richcontent>
-<node CREATED="1472093534205" ID="ID_493083495" MODIFIED="1472093561740" TEXT="&#x5178;&#x578b;&#x5e94;&#x7528;&#x4e00;&#x4e2a;&#x4efb;&#x52a1;&#x9700;&#x8981;&#x7b49;&#x5f85;&#x5176;&#x4ed6;&#x4efb;&#x52a1;&#x5b8c;&#x6210;&#x7684;&#x573a;&#x666f;"/>
-<node CREATED="1472093565682" ID="ID_1875596356" MODIFIED="1472093976330">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#36825;&#20010;<font color="#009933">&#38656;&#35201;&#25345;&#32493;&#31561;&#24453;&#30340;&#20219;&#21153;</font>&#65292;&#20250;&#29992;<font color="#990099"><b>countDownLatch.await()&#65307;</b></font>
-    </p>
-    <p>
-      <font color="#ff0000">&#38459;&#22622;&#30452;&#33267;</font>countDownLatch<font color="#ff0000">&#20943;&#23569;&#20026;0</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1472093687650" ID="ID_1135844796" MODIFIED="1472093987232">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#32780;<font color="#009933">&#20854;&#20182;&#22810;&#20010;&#20219;&#21153;</font>&#37117;&#20250;&#22312;&#32467;&#26463;&#26102;&#35843;&#29992;<b><font color="#990099">countDownLatch.countDown()</font></b>&#26469;&#20943;&#19968;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1472093990998" ID="ID_521183835" MODIFIED="1472094137976">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#19968;&#33324;<font color="#990099">&#25345;&#32493;&#31561;&#24453;&#30340;&#20219;&#21153;</font>&#21644;<font color="#009933">&#20854;&#20182;&#22810;&#20010;&#20219;&#21153;</font>&#65292;&#37117;&#26159;&#36890;&#36807;<font color="#ff6633"><b>&#26500;&#36896;&#20989;&#25968;</b></font>&#20256;&#20837;<font color="#0000cc">&#21516;&#19968;&#20010;countDownLatch&#23454;&#20363;</font>&#65292;&#19968;&#33324;<b><font color="#0000cc">countDownLatch = new CountDownLatch(n)</font></b>&#65292;&#36825;&#20010;n&#20026;&#20854;&#20182;&#20219;&#21153;&#30340;&#25968;&#37327;&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1472094153462" ID="ID_1948279508" MODIFIED="1472094160353" TEXT="&#x5b9e;&#x4f8b;">
-<node CREATED="1472094273455" FOLDED="true" ID="ID_1024610720" MODIFIED="1472094479893" TEXT="&#x5176;&#x4ed6;&#x591a;&#x4e2a;&#x4efb;&#x52a1;">
-<node CREATED="1472094285942" ID="ID_1350983818" MODIFIED="1472094473657">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div style="border-top-width: 100%; border-right-width: 100%; border-bottom-width: 100%; border-left-width: 100%">
-      <div style="margin-top: 0in; margin-left: 0in; width: 5.0194in">
-        <div style="margin-top: 0in; margin-left: 0in; width: 5.0194in">
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            package org.zapldy.concurrent;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            import java.util.Random;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            import java.util.concurrent.CountDownLatch;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            import java.util.concurrent.TimeUnit;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            public class <font color="#6600CC">Worker </font><b><font color="blue">implements Runnable</font></b>{
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            private CountDownLatch <font color="#C00000">downLatch</font>;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            private String name;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            public Worker(CountDownLatch <font color="blue">downLatch</font>, String name){
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            this.<font color="#C00000">downLatch</font>&#160;= <font color="blue">downLatch</font>;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            this.name = name;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            }
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            public void <b><font color="blue">run()</font></b>&#160;{
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            <b>this.doWork();</b>
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            try{
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 1.125in; font-family: Calibri; font-size: 11.0pt">
-            TimeUnit.SECONDS.sleep(new Random().nextInt(10));
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            }catch(InterruptedException ie){
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            }
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-size: 11.0pt">
-            <font face="Calibri">System.out.println(this.name + &quot;</font><font face="Microsoft YaHei">&#27963;&#24178;&#23436;&#20102;&#65281;</font><font face="Calibri">&quot;);</font>
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            this.<font color="red">downLatch</font>.<font color="blue">countDown()</font>;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            }
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            private void doWork(){
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-size: 11.0pt">
-            <font face="Calibri">System.out.println(this.name + &quot;</font><font face="Microsoft YaHei">&#27491;&#22312;&#24178;&#27963;</font><font face="Calibri">!&quot;);</font>
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            }
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            }
-          </p>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1472094307466" FOLDED="true" ID="ID_580826418" MODIFIED="1472094446485" TEXT="&#x6301;&#x7eed;&#x7b49;&#x5f85;&#x4efb;&#x52a1;">
-<node CREATED="1472094431874" ID="ID_1037297925" MODIFIED="1472094441575">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div style="border-top-width: 100%; border-right-width: 100%; border-bottom-width: 100%; border-left-width: 100%">
-      <div style="margin-top: 0in; margin-left: 0in; width: 3.8472in">
-        <div style="margin-top: 0in; margin-left: 0in; width: 3.8472in">
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            package org.zapldy.concurrent;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            import java.util.concurrent.CountDownLatch;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            public class <font color="#6600CC">Boss</font><b><font color="blue">implements Runnable</font></b>&#160;{
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            private CountDownLatch <font color="red">downLatch</font>;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            public Boss(CountDownLatch <font color="blue">downLatch</font>){
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            this.<font color="red">downLatch</font>&#160;= <font color="blue">downLatch</font>;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            }
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            public void <b><font color="blue">run()</font></b>&#160;{
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-size: 11.0pt">
-            <font face="Calibri">System.out.println(&quot;</font><font face="Microsoft YaHei">&#32769;&#26495;&#27491;&#22312;&#31561;&#25152;&#26377;&#30340;&#24037;&#20154;&#24178;&#23436;&#27963;</font><font face="Calibri">......&quot;);</font>
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            try {
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 1.125in; font-family: Calibri; font-size: 11.0pt">
-            this.<font color="red">downLatch</font><b><font color="blue">.await();</font></b>
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            } catch (InterruptedException e) {
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            }
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-size: 11.0pt">
-            <font face="Calibri">System.out.println(&quot;</font><font face="Microsoft YaHei">&#24037;&#20154;&#27963;&#37117;&#24178;&#23436;&#20102;&#65292;&#32769;&#26495;&#24320;&#22987;&#26816;&#26597;&#20102;&#65281;</font><font face="Calibri">&quot;);</font>
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            }
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            }
-          </p>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1472094483535" FOLDED="true" ID="ID_1817369148" MODIFIED="1472094616052" TEXT="&#x6253;&#x5305;&#x5230;&#x6d4b;&#x8bd5;&#x7a0b;&#x5e8f;&#x4e2d;">
-<node CREATED="1472094602211" ID="ID_1964339837" MODIFIED="1472094612208">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div style="border-top-width: 100%; border-right-width: 100%; border-bottom-width: 100%; border-left-width: 100%">
-      <div style="margin-top: 0in; margin-left: 0in; width: 3.75in">
-        <div style="margin-top: 0in; margin-left: 0in; width: 3.75in">
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            package org.zapldy.concurrent;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            import java.util.concurrent.CountDownLatch;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            import java.util.concurrent.ExecutorService;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            import java.util.concurrent.Executors;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            public class CountDownLatchDemo {
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            public static void main(String[] args) {
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            ExecutorService <font color="#6600CC">executor</font>&#160;= Executors.<font color="#6600CC">newCachedThreadPool</font>();
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            CountDownLatch <b><font color="blue">latch</font></b>&#160;= <b><font color="blue">new CountDownLatch(</font><font color="#C00000">3</font><font color="blue">);</font></b>
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-size: 11.0pt">
-            <font face="Calibri">Worker </font><font face="Calibri" color="#6600CC">w1</font><font face="Calibri">&#160;= new Worker(</font><b><font face="Calibri" color="blue">latch</font></b><font face="Calibri">,&quot;</font><font face="Microsoft YaHei">&#24352;&#19977;</font><font face="Calibri">&quot;);</font>
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-size: 11.0pt">
-            <font face="Calibri">Worker </font><font face="Calibri" color="#6600CC">w2</font><font face="Calibri">&#160;= new Worker(</font><b><font face="Calibri" color="blue">latch</font></b><font face="Calibri">,&quot;</font><font face="Microsoft YaHei">&#26446;&#22235;</font><font face="Calibri">&quot;);</font>
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-size: 11.0pt">
-            <font face="Calibri">Worker </font><font face="Calibri" color="#6600CC">w3</font><font face="Calibri">&#160;= new Worker(</font><b><font face="Calibri" color="blue">latch</font></b><font face="Calibri">,&quot;</font><font face="Microsoft YaHei">&#29579;&#20108;</font><font face="Calibri">&quot;);</font>
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            Boss <font color="#6600CC">boss</font>&#160;= new Boss(<b><font color="blue">latch</font></b>);
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            executor.execute(<font color="#6600CC">w3</font>);
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            executor.execute(<font color="#6600CC">w2</font>);
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            executor.execute(<font color="#6600CC">w1</font>);
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            executor.execute(<font color="#6600CC">boss</font>);
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .75in; font-family: Calibri; font-size: 11.0pt; color: #6600CC">
-            <b>executor.shutdown();</b>
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: .375in; font-family: Calibri; font-size: 11.0pt">
-            }
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            &#160;
-          </p>
-          <p style="margin-top: 0in; margin-right: 0in; margin-bottom: 0in; margin-left: 0in; font-family: Calibri; font-size: 11.0pt">
-            }
-          </p>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1472085936593" ID="ID_255185401" MODIFIED="1472086101036">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b><font color="#ff6633">AtomicInteger </font></b>stopCountDownLatchCount;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1472085955635" ID="ID_1003433486" MODIFIED="1472086112689">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#990099">CacheConnectAgentParam</font>&#160;cacheConnectAgentConfParam;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1472024321426" ID="ID_869190386" MODIFIED="1472024326392" TEXT="&#x5b50;&#x7c7b;">
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1471226535276" ID="ID_1093490856" MODIFIED="1471400779372">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Redis<font color="#990099">QueueCache</font>ConnectAgent
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1471400153581" ID="ID_436246170" MODIFIED="1472008746440" TEXT="setActual"/>
-</node>
 <node CREATED="1471226519254" ID="ID_82415105" MODIFIED="1471995680334">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1867,19 +1334,19 @@
 </html></richcontent>
 </node>
 </node>
-</node>
-</node>
-<node CREATED="1471226437906" ID="ID_530080078" MODIFIED="1471226467305">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1471226535276" ID="ID_1093490856" MODIFIED="1471400779372">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      TraceCacheConnectAgent<font color="#006666">Abstract</font>
+      Redis<font color="#990099">QueueCache</font>ConnectAgent
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1471400153581" ID="ID_436246170" MODIFIED="1472008746440" TEXT="setActual"/>
+</node>
 </node>
 <node CREATED="1471226346957" ID="ID_305428276" MODIFIED="1471226396713">
 <richcontent TYPE="NODE"><html>
@@ -1894,7 +1361,7 @@
 </html></richcontent>
 </node>
 <node CREATED="1471225192691" ID="ID_1701977328" MODIFIED="1471225202142" TEXT="JettyNetConnectAgent">
-<node CREATED="1471225260277" FOLDED="true" ID="ID_1073759207" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-jettyconnect-java" MODIFIED="1472022914670" TEXT="JettyNetConnect">
+<node CREATED="1471225260277" FOLDED="true" ID="ID_1073759207" LINK="https://gist.github.com/herotony/f93492ef8b3fa60f77922d69c86ef7c4/#file-jettyconnect-java" MODIFIED="1471226632189" TEXT="JettyNetConnect">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1979,7 +1446,7 @@
   </body>
 </html></richcontent>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1471998372793" ID="ID_1812172997" MODIFIED="1472007496706" TEXT="QueueAgentAbstract">
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1471999669074" FOLDED="true" ID="ID_1740580200" MODIFIED="1472022894084" TEXT="key method description">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1471999669074" FOLDED="true" ID="ID_1740580200" MODIFIED="1472007671246" TEXT="key method description">
 <node CREATED="1471999787854" ID="ID_690259965" MODIFIED="1471999804811" TEXT="&#x4e09;&#x4e2a;&#x5173;&#x952e;&#x5c40;&#x90e8;&#x53d8;&#x91cf;">
 <node CREATED="1471999812256" ID="ID_1243134947" MODIFIED="1471999819438" TEXT="queueName"/>
 <node CREATED="1471999820820" ID="ID_1518224833" MODIFIED="1471999870337">
