@@ -1259,8 +1259,7 @@
       <b><font color="#cc00cc">Cache</font></b>ConnectAgent<font color="#006666">Abstract</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2591,8 +2590,7 @@
       &#35813;abstract&#31867;&#30340;&#26680;&#24515;&#65306;&#36127;&#36131;&#36830;&#25509;&#26381;&#21153;&#22120;&#65292;&#21551;&#21160;&#21644;&#20851;&#38381;&#22788;&#29702;&#32447;&#31243;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472168735072" ID="ID_1569168612" MODIFIED="1472169713764">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2603,8 +2601,7 @@
       1&#65292;&#35843;&#29992;&#23376;&#31867;&#30340;<font color="#cc0000">connectCacheActual</font>&#30830;&#23450;&#21487;&#20197;&#27491;&#30830;&#36830;&#25509;&#21040;&#30456;&#20851;&#26381;&#21153;&#22120;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1472168785246" ID="ID_7588462" MODIFIED="1472168892533">
 <richcontent TYPE="NODE"><html>
@@ -2616,8 +2613,7 @@
       2&#65292;&#26681;&#25454;cacheConnectAgentConfParam&#65292;&#21021;&#22987;&#21270;&#25351;&#23450;&#23481;&#37327;&#30340;&#65292;&#20998;&#21035;&#29992;&#20110;&#28155;&#21152;/&#21024;&#38500;&#30340;LinkedBlockingQueue&lt;<font color="#0000cc">MessageDm</font>&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1472170474469" ID="ID_760017383" MODIFIED="1472178483832">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2634,8 +2630,7 @@
       <font color="#009900"><b>&#24471;&#21040;&#20102;&#35777;&#23454;&#65281;&#30340;&#30830;&#37117;&#22312;&#23376;&#31867;&#30340;push&#26041;&#27861;&#20013;&#20889;&#20837;</b></font>&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1472169612480" ID="ID_691181662" MODIFIED="1472169688300">
@@ -2648,8 +2643,7 @@
       3&#65292;&#26681;&#25454;cacheConnectAgentConfParam&#35774;&#23450;&#30340;&#28155;&#21152;/&#21024;&#38500;&#22788;&#29702;&#32447;&#31243;&#25968;&#65292;&#21021;&#22987;&#21270;<font color="#0000cc">stopCountDownLatch</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1472169722940" ID="ID_1047540679" MODIFIED="1472169750031" TEXT="4&#xff0c;&#x542f;&#x52a8;&#x6240;&#x6709;&#x6dfb;&#x52a0;&#x7ebf;&#x7a0b;">
 <node CREATED="1472169800821" ID="ID_431849730" MODIFIED="1472169808088" TEXT="&#x7ebf;&#x7a0b;&#x5904;&#x7406;&#x903b;&#x8f91;">
@@ -2663,8 +2657,7 @@
       1&#65292;&#24490;&#29615;&#20174;&#28155;&#21152;&#38431;&#21015;&#20013;&#25552;&#21462;messageDm&#30452;&#33267;&#36798;&#21040;<font color="#006600">BatchSize</font>&#65288;&#33509;&#38431;&#21015;&#27809;&#36825;&#20040;&#22810;&#25968;&#25454;&#65292;&#21017;&#25552;&#21462;&#23436;&#25104;&#21518;&#36339;&#20986;&#65289;,&#24182;&#21152;&#20837;<font color="#003333">messageDmList</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1472170141066" ID="ID_1517338324" MODIFIED="1472170207659">
 <richcontent TYPE="NODE"><html>
@@ -2676,8 +2669,7 @@
       2&#65292;&#35843;&#29992;<font color="#0000cc">setActual</font>&#22788;&#29702;&#25152;&#26377;&#30340;messageDmlist&#20013;&#30340;&#28040;&#24687;&#25968;&#25454;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1472170255163" ID="ID_67699879" MODIFIED="1472170267967" TEXT="3&#xff0c;&#x6e05;&#x7a7a;messageDmlist"/>
 </node>
@@ -2707,8 +2699,7 @@
       2&#65292;&#26681;&#25454;cacheConnectAgentConfParam&#35774;&#32622;&#30340;<font color="#ff3300">&#24310;&#36831;&#21024;&#38500;&#26102;&#38388;</font>&#65292;await&#20241;&#30496;&#24403;&#21069;&#32447;&#31243;&#19968;&#23450;&#26102;&#38388;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1472170390151" ID="ID_1781787149" MODIFIED="1472170434563">
 <richcontent TYPE="NODE"><html>
@@ -2720,8 +2711,7 @@
       3&#65292;&#35843;&#29992;<font color="#cc0033">removeActual</font>&#22788;&#29702;messageDmlist&#20013;&#30340;&#28040;&#24687;&#25968;&#25454;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1472170414086" ID="ID_112232267" MODIFIED="1472170423751" TEXT="4&#xff0c;&#x6e05;&#x7a7a;messageDmlist"/>
 </node>
@@ -2802,8 +2792,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff99" CREATED="1472170611999" FOLDED="true" ID="ID_1080245712" MODIFIED="1472172606312">
@@ -2816,8 +2805,7 @@
       &#20116;&#20010;<font color="#cc00cc"><b>abstract</b></font>&#26041;&#27861;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472170704187" ID="ID_887157673" MODIFIED="1472170711288" TEXT="&#x8fde;&#x63a5;&#x670d;&#x52a1;&#x5668;">
 <node CREATED="1472170641827" ID="ID_760680973" MODIFIED="1472170719349" TEXT="connectCacheActual"/>
 <node CREATED="1472170651774" ID="ID_1492058892" MODIFIED="1472170721072" TEXT="reconnectCacheActual"/>
@@ -2842,14 +2830,152 @@
   </body>
 </html></richcontent>
 <node BACKGROUND_COLOR="#ffff99" CREATED="1472172742601" ID="ID_1408132403" MODIFIED="1472172760559" TEXT="key method description">
-<node CREATED="1472177965973" FOLDED="true" ID="ID_1537747861" MODIFIED="1472178354749">
+<node CREATED="1472194904743" ID="ID_724759567" MODIFIED="1472194956212">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#36830;&#25509;&#26381;&#21153;&#22120;
+      <b><font color="#000099">&#23616;&#37096;&#21464;&#37327;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1472194964899" ID="ID_1949571460" MODIFIED="1472195066374">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      JeidsPool <font color="#000099">jedisPool</font>;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1472195012225" ID="ID_1723779944" MODIFIED="1472195051686" TEXT="connectActual&#x65f6;&#x521b;&#x5efa;"/>
+</node>
+<node CREATED="1472194993159" ID="ID_1761918954" MODIFIED="1472195074306">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      final int <font color="#000099">lockerOvertime</font>&#160;= 5;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1472195118324" ID="ID_1212453144" MODIFIED="1472195163116">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      QueueCacheConnectAgentConfParam&#160;&#160;<font color="#000099">queueCacheConnectAgentConfParam</font>;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1472195172205" ID="ID_806950011" MODIFIED="1472195581979">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      spring-bean &#28608;&#27963;&#24182;&#20256;&#20837;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21442;&#25968;&#28041;&#21450;<font color="#000099">jedisPool&#30340;&#37197;&#32622;</font>&#65292;<font color="#000099">&#22788;&#29702;&#28040;&#24687;&#30340;&#32447;&#31243;&#25968;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1472195588999" ID="ID_1214774748" MODIFIED="1472197840807">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000099">ConcurrentMap&lt;String,String&gt;</font>&#38598;&#21512;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#006600">ConcurrentHashMap</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1472197588770" ID="ID_1886607365" MODIFIED="1472197602613" TEXT="queueNewFullMap"/>
+<node CREATED="1472197603835" ID="ID_1287712730" MODIFIED="1472197613262" TEXT="hashNewFullMap"/>
+<node CREATED="1472197614691" ID="ID_661094368" MODIFIED="1472197624333" TEXT="queuePortionFullMap"/>
+<node CREATED="1472197625618" ID="ID_1245051966" MODIFIED="1472197636959" TEXT="hashPortionFullMap"/>
+<node CREATED="1472197638388" ID="ID_1066892441" MODIFIED="1472197645351" TEXT="activeFullMap"/>
+<node CREATED="1472197646317" ID="ID_439819824" MODIFIED="1472197652783" TEXT="lockerFullMap"/>
+</node>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1472197661127" ID="ID_423866170" MODIFIED="1472197848262">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ConcurrentMap&lt;String,<font color="#000099">Boolean</font>&gt; queueIsActiveMap
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1472197705942" ID="ID_388806923" MODIFIED="1472197715213" TEXT="&#x76d1;&#x63a7;&#x7cfb;&#x5217;">
+<node CREATED="1472197716991" ID="ID_141310358" MODIFIED="1472197786970">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OvertimePerformanceExecuterService&#160;&#160;<font color="#000099">overtime</font>PerformanceExecuterService;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1472197749896" ID="ID_525061130" MODIFIED="1472197797585">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SuccessPerformanceExecuterService <font color="#000099">success</font>PerformanceExecuterService;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1472177965973" FOLDED="true" ID="ID_1537747861" MODIFIED="1472195090888">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#000099">&#36830;&#25509;&#26381;&#21153;&#22120;</font></b>
     </p>
     <p>
       
@@ -3158,13 +3284,120 @@
       jedisPool.destroy();
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1472178508955" ID="ID_497646132" MODIFIED="1472194943163">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#000099">&#19994;&#21153;&#22788;&#29702;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1471400153581" ID="ID_436246170" MODIFIED="1472199768429">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      setActual&#160;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1472198688634" FOLDED="true" ID="ID_1067190265" MODIFIED="1472199702245" TEXT="1&#x3001;&#x4ece;jedisPool&#x4e2d;&#x83b7;&#x53d6;&#x4e00;&#x4e2a;jedis&#x8fde;&#x63a5;&#x5bf9;&#x8c61;">
+<node CREATED="1472198752536" ID="ID_1959367572" MODIFIED="1472198955075">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;<font color="#ff0000">&#33719;&#21462;jedis&#36830;&#25509;&#22833;&#36133;</font>&#65292;&#21017;&#65306;
+    </p>
+    <p>
+      &#23558;&#38024;&#23545;List&lt;MessageDm&gt;&#20013;&#25152;&#26377;&#30340;<font color="#000099">messageDm</font>&#22788;&#29702;&#20854;<font color="#000099">ObjectOne</font>&#23646;&#24615;
+    </p>
+    <p>
+      &#23454;&#38469;<font color="#000099"><b>&#35813;&#23646;&#24615;&#20445;&#23384;&#20102;CountDownLatch&#35745;&#25968;&#22120;</b></font>&#65292;&#21462;&#20986;&#35813;&#35745;&#25968;&#22120;&#24182;&#35843;&#29992;&#26041;&#27861;<font color="#006600">countDown</font>&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">&#36941;&#21382;</font>&#22788;&#29702;&#23436;&#25104;&#21518;<font color="#ff0000">&#36864;&#20986;setActual</font>&#26041;&#27861;
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
+<node CREATED="1472199535161" ID="ID_1874285645" MODIFIED="1472199698127" TEXT="2&#x3001;&#x904d;&#x5386;&#x5904;&#x7406;List&lt;MessageDm&gt;&#x4e2d;&#x7684;&#x6240;&#x6709;&#x6d88;&#x606f;messageDm">
+<node CREATED="1472199718637" ID="ID_1973552968" MODIFIED="1472199752644" TEXT="1&#x3001;&#x5b9a;&#x4e49;queueFullName,hashFullName"/>
+<node CREATED="1472200815038" ID="ID_1287483608" MODIFIED="1472200891729">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2&#12289;&#26681;&#25454;message<font color="#000099">.getBool()</font>&#26159;&#21542;&#26032;&#28040;&#24687;&#20570;&#30456;&#24212;&#22788;&#29702;
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
+<node CREATED="1472200896040" ID="ID_634878969" MODIFIED="1472200903891" TEXT="true&#xff0c;&#x65b0;&#x6d88;&#x606f;"/>
+<node CREATED="1472200904943" ID="ID_491850022" MODIFIED="1472200914195" TEXT="false&#xff0c;&#x91cd;&#x53d1;&#x6d88;&#x606f;"/>
 </node>
-<node CREATED="1472178508955" ID="ID_497646132" MODIFIED="1472178514643" TEXT="&#x4e1a;&#x52a1;&#x5904;&#x7406;">
-<node CREATED="1471400153581" ID="ID_436246170" MODIFIED="1472177961591" TEXT="setActual"/>
+</node>
+<node CREATED="1472199770456" FOLDED="true" ID="ID_1404526274" MODIFIED="1472199781982" TEXT="3&#x3001;&#x6e05;&#x7406;&#x626b;&#x5c3e;">
+<node CREATED="1472199497558" ID="ID_683562257" MODIFIED="1472199526546">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26368;&#21518;&#65292;
+    </p>
+    <p>
+      &#23558;&#38024;&#23545;List&lt;MessageDm&gt;&#20013;&#25152;&#26377;&#30340;<font color="#000099">messageDm</font>&#22788;&#29702;&#20854;<font color="#000099">ObjectOne</font>&#23646;&#24615;
+    </p>
+    <p>
+      &#23454;&#38469;<font color="#000099"><b>&#35813;&#23646;&#24615;&#20445;&#23384;&#20102;CountDownLatch&#35745;&#25968;&#22120;</b></font>&#65292;&#21462;&#20986;&#35813;&#35745;&#25968;&#22120;&#24182;&#35843;&#29992;&#26041;&#27861;<font color="#006600">countDown</font>&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">&#36941;&#21382;</font>&#22788;&#29702;&#23436;&#25104;&#21518;<font color="#ff0000">&#36864;&#20986;setActual</font>&#26041;&#27861;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1472205156371" ID="ID_697545255" MODIFIED="1472205192812">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19979;&#21608;&#20174;push,pop&#26469;&#29702;&#35299;setActual&#30340;&#22788;&#29702;&#21543;&#65292;&#23588;&#20854;&#26159;pop
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
