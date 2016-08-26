@@ -1068,7 +1068,7 @@
     </p>
   </body>
 </html></richcontent>
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1471999693759" FOLDED="true" ID="ID_666301838" MODIFIED="1472082517993" TEXT="key method description">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1471999693759" FOLDED="true" ID="ID_666301838" MODIFIED="1472170910856" TEXT="key method description">
 <node CREATED="1472007674778" ID="ID_1695233970" MODIFIED="1472082487198" TEXT="&#x5c40;&#x90e8;&#x53d8;&#x91cf;">
 <node CREATED="1472007690012" ID="ID_433065572" MODIFIED="1472007749975">
 <richcontent TYPE="NODE"><html>
@@ -1119,7 +1119,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1472007932035" FOLDED="true" ID="ID_1969384954" MODIFIED="1472082507384" TEXT="connect()">
+<node CREATED="1472007932035" FOLDED="true" ID="ID_1969384954" MODIFIED="1472170909768" TEXT="connect()">
 <node CREATED="1472007962610" ID="ID_129843310" MODIFIED="1472008049759">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1249,17 +1249,18 @@
 </node>
 </node>
 <node CREATED="1472007409267" ID="ID_1800458988" MODIFIED="1472008497233" TEXT="&#x5b50;&#x7c7b;">
-<node CREATED="1471226363679" ID="ID_1956293312" MODIFIED="1472024291651">
+<node CREATED="1471226363679" ID="ID_1956293312" MODIFIED="1472170669884">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      CacheConnectAgent<font color="#006666">Abstract</font>
+      <b><font color="#cc00cc">Cache</font></b>ConnectAgent<font color="#006666">Abstract</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1291,9 +1292,9 @@
     </p>
   </body>
 </html></richcontent>
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1472024293281" ID="ID_73426899" MODIFIED="1472024317137" TEXT="key method description">
-<node CREATED="1472085781873" FOLDED="true" ID="ID_1758421687" MODIFIED="1472110056928" TEXT="&#x5c40;&#x90e8;&#x53d8;&#x91cf;">
-<node CREATED="1472085794249" FOLDED="true" ID="ID_1564632611" MODIFIED="1472108973936">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1472024293281" ID="ID_73426899" MODIFIED="1472178419695" TEXT="key method description">
+<node CREATED="1472085781873" FOLDED="true" ID="ID_1758421687" MODIFIED="1472178440406" TEXT="&#x5c40;&#x90e8;&#x53d8;&#x91cf;">
+<node CREATED="1472085794249" ID="ID_1564632611" MODIFIED="1472178436125">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1343,7 +1344,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1472085846718" FOLDED="true" ID="ID_257184373" MODIFIED="1472108972239">
+<node CREATED="1472085846718" FOLDED="true" ID="ID_257184373" MODIFIED="1472168007105">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1354,7 +1355,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1472092490723" FOLDED="true" ID="ID_1247187966" MODIFIED="1472092853693" TEXT="Java&#x7ebf;&#x7a0b;&#x6c60;&#x8bf4;&#x660e;">
+<node CREATED="1472092490723" FOLDED="true" ID="ID_1247187966" MODIFIED="1472168004057" TEXT="Java&#x7ebf;&#x7a0b;&#x6c60;&#x8bf4;&#x660e;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1378,7 +1379,7 @@
 </node>
 <node CREATED="1472093177693" ID="ID_1681411888" MODIFIED="1472093204172" TEXT="JDK1.5&#x540e;&#x52a0;&#x5165;&#x4e86;&#x5f3a;&#x5927;&#x7684;concurrente&#x5305;&#xff0c;&#x5176;&#x5185;&#x5305;&#x542b;&#x652f;&#x6301;&#x7ebf;&#x7a0b;&#x6c60;"/>
 </node>
-<node CREATED="1472085893569" FOLDED="true" ID="ID_91778763" MODIFIED="1472108976552">
+<node CREATED="1472085893569" FOLDED="true" ID="ID_91778763" MODIFIED="1472167978153">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1389,7 +1390,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1472092774299" FOLDED="true" ID="ID_1456488598" MODIFIED="1472092832373" TEXT="volatile&#x5173;&#x952e;&#x5b57;&#x8bf4;&#x660e;">
+<node CREATED="1472092774299" FOLDED="true" ID="ID_1456488598" MODIFIED="1472167976452" TEXT="volatile&#x5173;&#x952e;&#x5b57;&#x8bf4;&#x660e;">
 <node CREATED="1472092787711" ID="ID_324477250" MODIFIED="1472092797519">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1402,7 +1403,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1472085912372" FOLDED="true" ID="ID_1173907415" MODIFIED="1472108970464">
+<node CREATED="1472085912372" FOLDED="true" ID="ID_1173907415" MODIFIED="1472168043721">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1467,7 +1468,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1472094153462" FOLDED="true" ID="ID_1948279508" MODIFIED="1472094871974" TEXT="&#x5b9e;&#x4f8b;">
+<node CREATED="1472094153462" ID="ID_1948279508" MODIFIED="1472168034793" TEXT="&#x5b9e;&#x4f8b;">
 <node CREATED="1472094273455" FOLDED="true" ID="ID_1024610720" MODIFIED="1472094862460" TEXT="&#x5176;&#x4ed6;&#x591a;&#x4e2a;&#x4efb;&#x52a1;">
 <node CREATED="1472094285942" ID="ID_1350983818" MODIFIED="1472094473657">
 <richcontent TYPE="NODE"><html>
@@ -1581,7 +1582,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1472094307466" FOLDED="true" ID="ID_580826418" MODIFIED="1472094865253" TEXT="&#x6301;&#x7eed;&#x7b49;&#x5f85;&#x4efb;&#x52a1;">
+<node CREATED="1472094307466" FOLDED="true" ID="ID_580826418" MODIFIED="1472168041377" TEXT="&#x6301;&#x7eed;&#x7b49;&#x5f85;&#x4efb;&#x52a1;">
 <node CREATED="1472094431874" ID="ID_1037297925" MODIFIED="1472094441575">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1792,8 +1793,7 @@
       &#30830;&#20445;&#22810;&#32447;&#31243;&#19979;&#30340;&#27491;&#30830;&#26356;&#26032;&#65292;&#24615;&#33021;&#26497;&#39640;&#65281;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472109583306" FOLDED="true" ID="ID_1873306290" MODIFIED="1472109959791" TEXT="&#x6e90;&#x7801;">
 <node CREATED="1472109590845" ID="ID_1603491773" MODIFIED="1472109603580">
 <richcontent TYPE="NODE"><html>
@@ -1803,8 +1803,7 @@
   <body>
     <img src="2016/08/AtomicInteger-SourceCode.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1472109612533" ID="ID_714925989" MODIFIED="1472109894493">
@@ -1820,8 +1819,7 @@
       &#22810;&#32447;&#31243;&#19979;&#36890;&#36807;<font color="#660099">&#30828;&#20214;&#32423;&#21035;</font>&#30340;&#23545;&#27604;&#65292;&#30830;&#20445;&#39640;&#25928;&#24615;&#65281;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#99ffcc" CREATED="1472110017093" ID="ID_1572886552" MODIFIED="1472110046112" TEXT="&#x8be5;&#x53d8;&#x91cf;&#x76ee;&#x524d;&#x53ea;&#x662f;&#x7528;&#x6765;&#x8bb0;&#x65e5;&#x5fd7;&#xff01;"/>
@@ -1839,7 +1837,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1472110060515" FOLDED="true" ID="ID_893008662" MODIFIED="1472118506670">
+<node CREATED="1472110060515" FOLDED="true" ID="ID_893008662" MODIFIED="1472168407600">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1849,8 +1847,7 @@
       <font color="#ff0000">synchronized</font>&#160;void notifySleep()&#65292;&#20869;&#37096;&#31616;&#21333;&#35843;&#29992;notifyAll()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472111262135" ID="ID_1253569735" MODIFIED="1472112474693">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1861,8 +1858,7 @@
       &#20851;&#20110;<font color="#660099">Java Object</font>&#30340;wait(),notify(),notifyAll()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472112438669" FOLDED="true" ID="ID_1604396408" MODIFIED="1472118277076">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1895,8 +1891,7 @@
       &#19981;&#38145;&#23450;&#65292;&#21017;&#20250;&#25243;java.lang.Illegal<font color="#009933">MointorState</font>Exception
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472112642080" ID="ID_1060343280" MODIFIED="1472118134044" TEXT="&#x4e3e;&#x4f8b;">
 <node CREATED="1472113272685" FOLDED="true" ID="ID_1366177615" MODIFIED="1472113568158">
 <richcontent TYPE="NODE"><html>
@@ -1911,8 +1906,7 @@
       &#20250;&#25243;&#20986;MonitorState&#24322;&#24120;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472113325525" ID="ID_70940148" MODIFIED="1472113357096">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1924,8 +1918,7 @@
         obj.wait();
         obj.notifyAll();<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; line-height: 1.5 !important" />}</font></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1472113409761" FOLDED="true" ID="ID_1370850184" MODIFIED="1472114920918">
@@ -1941,8 +1934,7 @@
       &#21516;&#26679;&#25243;&#20986;MonitorState&#24322;&#24120;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472113493419" ID="ID_1862699626" MODIFIED="1472113558445">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1974,8 +1966,7 @@
       &#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1472113582139" FOLDED="true" ID="ID_396917186" MODIFIED="1472118153621" TEXT="&#x4e3a;&#x4ec0;&#x4e48;&#x5fc5;&#x987b;&#x83b7;&#x53d6;&#x5f53;&#x524d;&#x5bf9;&#x8c61;&#x7684;&#x9501;&#xff0c;&#x624d;&#x80fd;&#x5408;&#x6cd5;&#x6267;&#x884c;wait,notify">
@@ -2004,8 +1995,7 @@
       &#25152;&#20197;&#65292;&#35201;&#35299;&#20915;&#36825;&#20010;&#38382;&#39064;&#65292;<b>&#24517;&#39035;&#22312;wait&#21644;notifyAll&#30340;&#26102;&#20505;&#65292;&#33719;&#24471;&#35813;<font color="#660099">&#23545;&#35937;&#30340;&#38145;</font></b>&#65292;&#20197;&#20445;&#35777;&#21516;&#27493;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2019,8 +2009,7 @@
       &#19968;&#20010;<font color="#660099">&#29983;&#20135;&#32773;</font>&#65292;&#19968;&#20010;<font color="#009933">&#28040;&#36153;&#32773;</font>&#65292;&#19968;&#20010;<font color="#ff0000">&#21333;&#20301;&#32531;&#23384;</font>&#30340;&#31616;&#21333;&#27169;&#22411;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472117175906" FOLDED="true" ID="ID_953215088" MODIFIED="1472117850532">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2031,8 +2020,7 @@
       <font color="#660099">&#29983;&#20135;&#32773;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472117212257" ID="ID_449372870" MODIFIED="1472117328456">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2091,8 +2079,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1472116852087" FOLDED="true" ID="ID_270593976" MODIFIED="1472118372725">
@@ -2105,8 +2092,7 @@
       <font color="#ff0000">&#31616;&#21333;&#32531;&#23384;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472116870215" ID="ID_44674667" MODIFIED="1472117380369">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2207,8 +2193,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1472117401677" FOLDED="true" ID="ID_752912746" MODIFIED="1472118191804">
@@ -2221,8 +2206,7 @@
       <font color="#009933">&#28040;&#36153;&#32773;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472117769175" ID="ID_712798868" MODIFIED="1472117839577">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2278,8 +2262,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1472117921256" FOLDED="true" ID="ID_802331684" MODIFIED="1472118180580" TEXT="Main">
@@ -2320,8 +2303,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1472118379069" ID="ID_1493352039" MODIFIED="1472118435847">
@@ -2334,8 +2316,7 @@
       &#26412;&#27169;&#22411;&#20013;&#30001;&#20110;<font color="#ff0000">&#21333;&#20301;&#32531;&#23384;</font>&#20013;<font color="#000099"><b>valueSet</b></font>&#30340;&#23384;&#22312;&#65292;&#30830;&#20445;&#20102;&#19981;&#20250;&#37117;&#36827;&#20837;wait&#30340;&#20551;&#27515;&#29366;&#24577;&#65281;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2349,8 +2330,7 @@
       wait:&#38459;&#22622;&#24403;&#21069;&#32447;&#31243;&#65292;&#30452;&#21040;&#20854;&#20182;&#32447;&#31243;&#35843;&#29992;notify or notifyAll
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1472113961457" FOLDED="true" ID="ID_1921139757" MODIFIED="1472116354622">
@@ -2363,8 +2343,7 @@
       synchronized<font color="#660099">&#26041;&#27861;</font>&#21644;synchronized<font color="#009933">&#22359;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472114622713" FOLDED="true" ID="ID_1139318918" MODIFIED="1472115196206">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2375,8 +2354,7 @@
       synchronized<font color="#660066">&#26041;&#27861;</font>&#65292;&#36890;&#36807;<font color="#ff3333">this&#25351;&#38024;</font><font color="#000000">&#25214;&#21040;</font><font color="#660099">&#24403;&#21069;&#23545;&#35937;</font>&#24182;&#38145;&#23450;&#20043;&#65281;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472114804519" ID="ID_188128799" MODIFIED="1472114870281">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2399,8 +2377,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1472114702420" FOLDED="true" ID="ID_760077081" MODIFIED="1472115195221">
@@ -2413,8 +2390,7 @@
       synchronized<font color="#006600">&#22359;</font>&#65292;&#21487;&#20197;&#38145;&#23450;<font color="#006666">&#20219;&#24847;&#30340;&#23545;&#35937;</font>&#65292;&#25511;&#21046;&#26356;&#28789;&#27963;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1472114924184" ID="ID_610290987" MODIFIED="1472114996923">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2440,8 +2416,7 @@
       <font color="#ff0000">lockObject</font>&#21487;&#20197;&#26159;&#20219;&#24847;<b><font color="#ff0000">&#19981;&#20026;null</font></b>&#30340;&#23545;&#35937;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1472115199901" ID="ID_1444707585" MODIFIED="1472115565421" TEXT="&#x66f4;&#x6e05;&#x6670;&#x7684;&#x4f8b;&#x5b50;">
@@ -2540,59 +2515,11 @@
       <font size="5">}&#160;&#160; </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1472115606990" FOLDED="true" ID="ID_238012432" MODIFIED="1472116322854" TEXT="&#x8c03;&#x7528;Foo&#x7c7b;&#x7684;Main&#x65b9;&#x6cd5;">
-<node CREATED="1472115631081" ID="ID_1745529156" MODIFIED="1472115924703">
-<richcontent TYPE="NODE">&lt;html&gt;
-  &lt;body&gt;
-    &lt;ol style=&quot;color: rgb(64, 64, 64); font-family: simsun; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: none; background-color: rgb(255, 255, 255)&quot;&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;public&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;class&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;ThreadTest&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;{&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;public&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;static&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;void&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;main(String[]&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;args)&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;{&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0; 
-        &lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;Foo&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;f1=new&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;Foo();&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0; 
-        &lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;Foo&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;f2=new&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;Foo();&lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;new&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;Thread(f1).start();&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0; 
-        &lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;new&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;Thread(f2).start();&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0; 
-        &lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;}&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;}&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0; &lt;/font&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;
-      
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</richcontent>
+<node CREATED="1472115631081" ID="ID_1745529156" MODIFIED="1472115924703" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;ol style=&amp;quot;color: rgb(64, 64, 64); font-family: simsun; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: none; background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;public&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;class&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;ThreadTest&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;{&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;public&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;static&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;void&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;main(String[]&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;args)&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;{&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0; &#xa;        &amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;Foo&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;f1=new&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;Foo();&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0; &#xa;        &amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;Foo&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;f2=new&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;Foo();&amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;new&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;Thread(f1).start();&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0; &#xa;        &amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;new&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;Thread(f2).start();&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0; &#xa;        &amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;}&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;}&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0; &amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;    &amp;lt;/ol&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
 <node CREATED="1472115955794" ID="ID_761195398" MODIFIED="1472116157472">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2615,61 +2542,10 @@
       &#36825;&#31181;&#24773;&#20917;&#65292;&#21482;&#26377;<font color="#000099">MethodC</font>&#25165;&#36215;&#21040;&#21516;&#27493;&#20114;&#26021;&#20316;&#29992;&#65292;&#22240;&#20026;&#38145;&#23450;&#30340;lock&#20026;<font color="#660066">static&#31867;&#22411;</font>&#65292;&#35841;&#21462;&#21040;&#35841;&#25191;&#34892;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1472116178716" ID="ID_329618006" MODIFIED="1472116208552">
-<richcontent TYPE="NODE">&lt;html&gt;
-  &lt;body&gt;
-    &lt;ol style=&quot;color: rgb(64, 64, 64); font-family: simsun; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: none; background-color: rgb(255, 255, 255)&quot;&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;public&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;class&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;ThreadTest&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;{&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;public&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;static&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;void&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;main(String[]&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;args)&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;{&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0; 
-        &lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;Foo&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#ff0000&quot;&gt;f1&lt;/font&gt;&lt;font size=&quot;4&quot;&gt;=new&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;Foo();&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0; 
-        &lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;Foo&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#009933&quot;&gt;f2&lt;/font&gt;&lt;font size=&quot;4&quot;&gt;=new&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;Foo();&lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;new&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;Thread(&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#ff0000&quot;&gt;f1&lt;/font&gt;&lt;font size=&quot;4&quot;&gt;).start();&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0; 
-        &lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;new&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;Thread(&lt;/font&gt;&lt;font size=&quot;4&quot; color=&quot;#ff0000&quot;&gt;f1&lt;/font&gt;&lt;font size=&quot;4&quot;&gt;).start();&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0; 
-        &lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;}&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0;&lt;/font&gt;
-      &lt;/li&gt;
-      &lt;li style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&quot;&gt;
-        &lt;font size=&quot;4&quot;&gt;}&#xa0;&lt;wbr size=&quot;4&quot; style=&quot;background-color: rgb(255, 255, 255)&quot;&gt;&#xa0; &lt;/font&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;
-      
-    &lt;/p&gt;
-    &lt;p&gt;
-      
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</richcontent>
+<node CREATED="1472116178716" ID="ID_329618006" MODIFIED="1472116208552" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;ol style=&amp;quot;color: rgb(64, 64, 64); font-family: simsun; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: none; background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;public&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;class&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;ThreadTest&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;{&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;public&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;static&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;void&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;main(String[]&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;args)&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;{&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0; &#xa;        &amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;Foo&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;font size=&amp;quot;4&amp;quot; color=&amp;quot;#ff0000&amp;quot;&amp;gt;f1&amp;lt;/font&amp;gt;&amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;=new&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;Foo();&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0; &#xa;        &amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;Foo&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;font size=&amp;quot;4&amp;quot; color=&amp;quot;#009933&amp;quot;&amp;gt;f2&amp;lt;/font&amp;gt;&amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;=new&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;Foo();&amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;new&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;Thread(&amp;lt;/font&amp;gt;&amp;lt;font size=&amp;quot;4&amp;quot; color=&amp;quot;#ff0000&amp;quot;&amp;gt;f1&amp;lt;/font&amp;gt;&amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;).start();&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0; &#xa;        &amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;new&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;Thread(&amp;lt;/font&amp;gt;&amp;lt;font size=&amp;quot;4&amp;quot; color=&amp;quot;#ff0000&amp;quot;&amp;gt;f1&amp;lt;/font&amp;gt;&amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;).start();&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0; &#xa;        &amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;}&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0;&amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;      &amp;lt;li style=&amp;quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; list-style: decimal&amp;quot;&amp;gt;&#xa;        &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;}&amp;#xa0;&amp;lt;wbr size=&amp;quot;4&amp;quot; style=&amp;quot;background-color: rgb(255, 255, 255)&amp;quot;&amp;gt;&amp;#xa0; &amp;lt;/font&amp;gt;&#xa;      &amp;lt;/li&amp;gt;&#xa;    &amp;lt;/ol&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
 <node CREATED="1472116221239" ID="ID_1865164631" MODIFIED="1472116308872">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2680,8 +2556,7 @@
       &#36825;&#31181;&#24773;&#20917;&#19979;&#65292;&#30001;&#20110;&#21551;&#21160;&#30340;&#32447;&#31243;&#37117;&#26159;&#37319;&#29992;&#20102;<font color="#006666">&#21516;&#19968;&#20010;&#23454;&#20363;</font><font color="#ff0000">f1</font>&#65292;&#37027;&#20040;<font color="#006666">MethodA</font>&#21644;<font color="#006666">MethodB</font>&#30340;<font color="#000099">synchronized</font>&#25165;&#33021;&#21551;&#21160;&#21516;&#27493;&#20114;&#26021;&#30340;&#20316;&#29992;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2698,13 +2573,264 @@
       <font color="#ff0000">synchronized</font>&#160;void startSleep&#65292;&#33509;suspendTime&gt;0&#65292;&#21017;&#38459;&#22622;&#25351;&#23450;&#30340;&#26102;&#38271;
     </p>
   </body>
+</html></richcontent>
+</node>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1472118584714" FOLDED="true" ID="ID_71936739" MODIFIED="1472178490894">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      connectActual()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;abstract&#31867;&#30340;&#26680;&#24515;&#65306;&#36127;&#36131;&#36830;&#25509;&#26381;&#21153;&#22120;&#65292;&#21551;&#21160;&#21644;&#20851;&#38381;&#22788;&#29702;&#32447;&#31243;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1472168735072" ID="ID_1569168612" MODIFIED="1472169713764">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;&#35843;&#29992;&#23376;&#31867;&#30340;<font color="#cc0000">connectCacheActual</font>&#30830;&#23450;&#21487;&#20197;&#27491;&#30830;&#36830;&#25509;&#21040;&#30456;&#20851;&#26381;&#21153;&#22120;
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1472118584714" ID="ID_71936739" MODIFIED="1472118602259" TEXT="connectActual()"/>
+<node CREATED="1472168785246" ID="ID_7588462" MODIFIED="1472168892533">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2&#65292;&#26681;&#25454;cacheConnectAgentConfParam&#65292;&#21021;&#22987;&#21270;&#25351;&#23450;&#23481;&#37327;&#30340;&#65292;&#20998;&#21035;&#29992;&#20110;&#28155;&#21152;/&#21024;&#38500;&#30340;LinkedBlockingQueue&lt;<font color="#0000cc">MessageDm</font>&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1472170474469" ID="ID_760017383" MODIFIED="1472178483832">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38382;&#39064;&#28857;&#65306;&#35841;&#36127;&#36131;&#24448;&#36825;&#20004;&#20010;&#38431;&#21015;&#20013;<b><font color="#cc00cc">&#20889;&#20837;</font></b>&#25968;&#25454;&#65311;&#24863;&#35273;&#24212;&#35813;&#22312;&#23376;&#31867;&#20013;&#30340;&#26576;&#20010;&#26041;&#27861;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#009900"><b>&#24471;&#21040;&#20102;&#35777;&#23454;&#65281;&#30340;&#30830;&#37117;&#22312;&#23376;&#31867;&#30340;push&#26041;&#27861;&#20013;&#20889;&#20837;</b></font>&#30340;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1472169612480" ID="ID_691181662" MODIFIED="1472169688300">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3&#65292;&#26681;&#25454;cacheConnectAgentConfParam&#35774;&#23450;&#30340;&#28155;&#21152;/&#21024;&#38500;&#22788;&#29702;&#32447;&#31243;&#25968;&#65292;&#21021;&#22987;&#21270;<font color="#0000cc">stopCountDownLatch</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1472169722940" ID="ID_1047540679" MODIFIED="1472169750031" TEXT="4&#xff0c;&#x542f;&#x52a8;&#x6240;&#x6709;&#x6dfb;&#x52a0;&#x7ebf;&#x7a0b;">
+<node CREATED="1472169800821" ID="ID_431849730" MODIFIED="1472169808088" TEXT="&#x7ebf;&#x7a0b;&#x5904;&#x7406;&#x903b;&#x8f91;">
+<node CREATED="1472170007251" ID="ID_1591175874" MODIFIED="1472170136956">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;&#24490;&#29615;&#20174;&#28155;&#21152;&#38431;&#21015;&#20013;&#25552;&#21462;messageDm&#30452;&#33267;&#36798;&#21040;<font color="#006600">BatchSize</font>&#65288;&#33509;&#38431;&#21015;&#27809;&#36825;&#20040;&#22810;&#25968;&#25454;&#65292;&#21017;&#25552;&#21462;&#23436;&#25104;&#21518;&#36339;&#20986;&#65289;,&#24182;&#21152;&#20837;<font color="#003333">messageDmList</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1472170141066" ID="ID_1517338324" MODIFIED="1472170207659">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2&#65292;&#35843;&#29992;<font color="#0000cc">setActual</font>&#22788;&#29702;&#25152;&#26377;&#30340;messageDmlist&#20013;&#30340;&#28040;&#24687;&#25968;&#25454;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1472170255163" ID="ID_67699879" MODIFIED="1472170267967" TEXT="3&#xff0c;&#x6e05;&#x7a7a;messageDmlist"/>
+</node>
+<node CREATED="1472170290829" ID="ID_540897353" MODIFIED="1472170311743" TEXT="&#x4f1a;&#x6839;&#x636e;cacheConnectAgentConfParam&#x8bbe;&#x7f6e;&#x7ebf;&#x7a0b;&#x4f18;&#x5148;&#x7ea7;"/>
+</node>
+<node CREATED="1472169775374" ID="ID_1397393496" MODIFIED="1472169785206" TEXT="5&#xff0c;&#x542f;&#x52a8;&#x6240;&#x6709;&#x5220;&#x9664;&#x7ebf;&#x7a0b;">
+<node CREATED="1472169812400" ID="ID_154760057" MODIFIED="1472169825342" TEXT="&#x7ebf;&#x7a0b;&#x5904;&#x7406;&#x903b;&#x8f91;">
+<node CREATED="1472170007251" ID="ID_1338283703" MODIFIED="1472170136956">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;&#24490;&#29615;&#20174;&#28155;&#21152;&#38431;&#21015;&#20013;&#25552;&#21462;messageDm&#30452;&#33267;&#36798;&#21040;<font color="#006600">BatchSize</font>&#65288;&#33509;&#38431;&#21015;&#27809;&#36825;&#20040;&#22810;&#25968;&#25454;&#65292;&#21017;&#25552;&#21462;&#23436;&#25104;&#21518;&#36339;&#20986;&#65289;,&#24182;&#21152;&#20837;<font color="#003333">messageDmList</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1472170336482" ID="ID_1508532284" MODIFIED="1472170458235">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2&#65292;&#26681;&#25454;cacheConnectAgentConfParam&#35774;&#32622;&#30340;<font color="#ff3300">&#24310;&#36831;&#21024;&#38500;&#26102;&#38388;</font>&#65292;await&#20241;&#30496;&#24403;&#21069;&#32447;&#31243;&#19968;&#23450;&#26102;&#38388;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1472170390151" ID="ID_1781787149" MODIFIED="1472170434563">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3&#65292;&#35843;&#29992;<font color="#cc0033">removeActual</font>&#22788;&#29702;messageDmlist&#20013;&#30340;&#28040;&#24687;&#25968;&#25454;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1472170414086" ID="ID_112232267" MODIFIED="1472170423751" TEXT="4&#xff0c;&#x6e05;&#x7a7a;messageDmlist"/>
+</node>
+<node CREATED="1472170290829" ID="ID_1415708811" MODIFIED="1472170311743" TEXT="&#x4f1a;&#x6839;&#x636e;cacheConnectAgentConfParam&#x8bbe;&#x7f6e;&#x7ebf;&#x7a0b;&#x4f18;&#x5148;&#x7ea7;"/>
+</node>
+</node>
+<node CREATED="1472168094842" FOLDED="true" ID="ID_516309139" MODIFIED="1472170623457" TEXT="closeActual()">
+<node CREATED="1472168163547" ID="ID_208121616" MODIFIED="1472168713714">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @Override
+    </p>
+    <p>
+      protected void closeActual() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;stopSign = true;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;notify<b><font color="#0000cc">Sleep</font></b>(); <font color="#006600">//notifyAll&#21796;&#37266;&#25152;&#26377;&#22788;&#20110;await&#29366;&#24577;&#19979;&#30340;&#32447;&#31243;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;try {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160; <b><font color="#0000cc">&#160;stopCountDownLatch.await(); //&#20851;&#38190;&#28857;&#65292;&#31561;&#24453;&#25152;&#26377;&#32447;&#31243;&#32467;&#26463;&#65292;&#36825;&#37324;&#23601;&#21482;&#26159;&#38024;&#23545;remove&#32447;&#31243;&#30340;await</font></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;} catch (InterruptedException e) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;if (logger.isErrorEnabled()) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;logger.error(&quot;CloseActual -&gt; &quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+ &quot;ConnectId: &quot; + connectId
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+ &quot;, Ip: &quot; + ip
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+ &quot;, Port: &quot; + port
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+ &quot;, CountDownLatch Await -&gt; &quot; ,e
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160; <font color="#ff3300"><b>closeCacheActual();</b></font>
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff99" CREATED="1472170611999" FOLDED="true" ID="ID_1080245712" MODIFIED="1472172606312">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20116;&#20010;<font color="#cc00cc"><b>abstract</b></font>&#26041;&#27861;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1472170704187" ID="ID_887157673" MODIFIED="1472170711288" TEXT="&#x8fde;&#x63a5;&#x670d;&#x52a1;&#x5668;">
+<node CREATED="1472170641827" ID="ID_760680973" MODIFIED="1472170719349" TEXT="connectCacheActual"/>
+<node CREATED="1472170651774" ID="ID_1492058892" MODIFIED="1472170721072" TEXT="reconnectCacheActual"/>
+<node CREATED="1472170676686" ID="ID_365776081" MODIFIED="1472170682575" TEXT="closeCacheActual"/>
+</node>
+<node CREATED="1472170723878" ID="ID_615713234" MODIFIED="1472170727942" TEXT="&#x5904;&#x7406;&#x6d88;&#x606f;">
+<node CREATED="1472170685913" ID="ID_336431140" MODIFIED="1472170732818" TEXT="setActual"/>
+<node CREATED="1472170696530" ID="ID_1958782755" MODIFIED="1472170702046" TEXT="removeActual"/>
+</node>
+</node>
 </node>
 <node CREATED="1472024321426" ID="ID_869190386" MODIFIED="1472024326392" TEXT="&#x5b50;&#x7c7b;">
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1471226535276" ID="ID_1093490856" MODIFIED="1471400779372">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1471226535276" ID="ID_1093490856" MODIFIED="1472172736291">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2715,9 +2841,334 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1471400153581" ID="ID_436246170" MODIFIED="1472008746440" TEXT="setActual"/>
+<node BACKGROUND_COLOR="#ffff99" CREATED="1472172742601" ID="ID_1408132403" MODIFIED="1472172760559" TEXT="key method description">
+<node CREATED="1472177965973" FOLDED="true" ID="ID_1537747861" MODIFIED="1472178354749">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36830;&#25509;&#26381;&#21153;&#22120;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20851;&#38190;&#28857;&#26159;<font color="#ff3300">&#20004;&#20010;connect&#20570;&#25243;&#24322;&#24120;&#22788;&#29702;</font><font color="#003333">&#65292;&#19981;&#33021;&#27491;&#24120;&#25552;&#21462;redis&#36830;&#25509;&#37117;&#25243;&#24322;&#24120;&#32456;&#27490;&#21551;&#21160;</font>&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1472173289298" ID="ID_907046487" MODIFIED="1472173303197" TEXT="connectCacheActual()">
+<node CREATED="1472173306871" FOLDED="true" ID="ID_250627299" MODIFIED="1472177944439" TEXT="&#x6e90;&#x7801;">
+<node CREATED="1472173370833" FOLDED="true" ID="ID_1976166114" MODIFIED="1472173902406" TEXT="import">
+<node CREATED="1472173385567" ID="ID_923529890" MODIFIED="1472173412396">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000cc">import org.slf4j.Logger; </font>
+    </p>
+    <p>
+      <font color="#0000cc">import org.slf4j.LoggerFactory;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#003333">import redis.clients.jedis.Jedis; </font>
+    </p>
+    <p>
+      <font color="#003333">import redis.clients.jedis.JedisPool; </font>
+    </p>
+    <p>
+      <font color="#003333">import redis.clients.jedis.Transaction; </font>
+    </p>
+    <p>
+      <font color="#003333">import redis.clients.jedis.exceptions.JedisConnectionException;</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1471226519254" ID="ID_82415105" MODIFIED="1471995680334">
+</node>
+<node CREATED="1472173336935" ID="ID_553120634" MODIFIED="1472173865358">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @Override
+    </p>
+    <p>
+      protected void connectCacheActual() throws Exception {
+    </p>
+    <p>
+      &#160;&#160; <b><font color="#009900">//connectCacheActual&#30340;&#20851;&#38190;&#23601;&#26159;&#21019;&#24314;&#20840;&#23616;JedisPool</font></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;jedisPool = new <font color="#0000cc">JedisPool</font>(<font color="#ff3300">cacheConnectAgentConfParam</font>, ip, port,cacheConnectAgentConfParam.getTimeout()); <font color="#006600">//JedisPool&#30340;&#31532;&#19968;&#20010;&#21442;&#25968;&#26377;&#28857;&#24847;&#24605;&#65292;&#36825;&#20010;&#22788;&#29702;&#26041;&#24335;&#24471;&#30475;&#30475;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;try {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;Jedis <font color="#cc00cc">jedis</font>&#160;= <font color="#0000cc">jedisPool.getResource</font>();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;jedisPool.<font color="#006633">returnResource(</font><font color="#cc00cc">jedis</font><font color="#006633">)</font>; <font color="#ff3300">//&#20805;&#20998;&#35828;&#26126;&#21482;&#26159;&#31616;&#21333;&#27979;&#35797;&#26159;&#21542;&#36890;&#30021;&#65292;getResource&#21518;&#39532;&#19978;&#20002;&#22238;&#21435;returnResource&#12290;</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;} catch (JedisConnectionException e) {
+    </p>
+    <p>
+      &#160;&#160;&#160;if (logger.isErrorEnabled()) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;logger.error(&quot;ConnectCacheActual -&gt; &quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+ &quot;ConnectId: &quot; + connectId
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+ &quot;, Ip: &quot; + ip
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+ &quot;, Port: &quot; + port
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+ &quot;, Get Resource -&gt; &quot; , e);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;jedisPool.<font color="#cc00cc">destroy();//&#24322;&#24120;&#21017;&#38144;&#27585;&#35813;pool&#65281;</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;throw new ConnectionRefusedException(&quot;Connection refused for queue redis connect agent&quot;);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff99" CREATED="1472174014472" FOLDED="true" ID="ID_645874223" MODIFIED="1472177605908" TEXT="Jredis/JredisPool">
+<node CREATED="1472174039717" FOLDED="true" ID="ID_222620301" MODIFIED="1472174107983" TEXT="maven&#x914d;&#x7f6e;">
+<node CREATED="1472174047443" ID="ID_253031647" MODIFIED="1472174101306">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;dependency&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;groupId&gt;<font color="#0000cc">redis.clients</font>&lt;/groupId&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;artifactId&gt;<font color="#006666">jedis</font>&lt;/artifactId&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;version&gt;2.8.0&lt;/version&gt;
+    </p>
+    <p>
+      &lt;/dependency&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1472174608700" FOLDED="true" ID="ID_1069379418" MODIFIED="1472177267253" TEXT="JredisPool&#x7684;&#x914d;&#x7f6e;&#x53c2;&#x6570;">
+<node CREATED="1472174630273" ID="ID_579223528" MODIFIED="1472174792667">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public GenericObjectPool(PoolableObjectFactory factory, <font color="#006666">GenericObjectPool.Config</font>&#160; <font color="#0000cc">config</font>) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<font color="#0000cc">this</font>(factory, config<font color="#0000cc">.maxActive</font>, config<font color="#0000cc">.whenExhaustedAction</font>, config<font color="#0000cc">.maxWait</font>, config<font color="#0000cc">.maxIdle</font>, config<font color="#0000cc">.minIdle</font>,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;config<font color="#0000cc">.testOnBorrow</font>, config<font color="#0000cc">.testOnReturn</font>, config<font color="#0000cc">.timeBetweenEvictionRunsMillis</font>,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;config<font color="#0000cc">.numTestsPerEvictionRun</font>, config<font color="#0000cc">.minEvictableIdleTimeMillis</font>, config<font color="#0000cc">.testWhileIdle</font>,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;config<font color="#0000cc">.softMinEvictableIdleTimeMillis</font>, config<font color="#0000cc">.lifo</font>);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1472175359570" FOLDED="true" ID="ID_1880943319" MODIFIED="1472177262847">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CacheConnectAgentConfParam<font color="#0000cc">&#32487;&#25215;&#33258;</font><b><font color="#009900">JedisPoolConfig</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1472175418231" ID="ID_1377193101" MODIFIED="1472176154203">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CacheConnectAgentConfParam&#40664;&#35748;&#35774;&#32622;&#22914;&#19979;redis pool&#37197;&#32622;
+    </p>
+    <ul>
+      <li>
+        <font color="#0000cc">maxActive = 3000&#65307; </font><font color="#009900">&#36830;&#25509;&#27744;&#26368;&#22823;&#36830;&#25509;&#25968;&#65292;&#40664;&#35748;&#26159;8</font>
+      </li>
+      <li>
+        <font color="#0000cc">minIdle = 8&#65307; </font><font color="#009900">&#36830;&#25509;&#27744;&#26368;&#23567;&#31354;&#38386;&#36830;&#25509;&#25968;&#65292;&#40664;&#35748;&#26159;0</font>
+      </li>
+      <li>
+        <font color="#0000cc">maxIdle = 40&#65307; </font><font color="#009900">&#36830;&#25509;&#27744;&#26368;&#22823;&#31354;&#38386;&#36830;&#25509;&#25968;&#65292;&#40664;&#35748;&#26159;8</font>
+      </li>
+      <li>
+        <font color="#0000cc">minEvictableIdleTimeMillis = 600000&#65307;</font><font color="#009900">&#160; &#36830;&#25509;&#31354;&#38386;&#30340;&#26368;&#23567;&#26102;&#38388;&#65292;&#21040;&#36798;&#27492;&#20540;&#21518;&#31354;&#38386;&#36830;&#25509;&#23558;&#21487;&#33021;&#34987;&#31227;&#38500;&#65292;&#36127;&#20540;-1&#34920;&#31034;&#19981;&#31227;&#38500;&#12290;</font>
+      </li>
+      <li>
+        <font color="#0000cc">timeBetweenEvictionRunsMillis = 60000&#65307;</font><font color="#009900">&#31354;&#38386;&#36830;&#25509;&#30340;&#26816;&#27979;&#32447;&#31243;&#30340;&#26816;&#27979;&#21608;&#26399;&#65292;&#36127;&#20540;-1&#34920;&#31034;&#19981;&#36816;&#34892;&#26816;&#27979;&#32447;&#31243;&#12290;</font>
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1472176129639" ID="ID_1852493449" MODIFIED="1472177195505">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20854;&#20313;redis pool&#37197;&#32622;
+    </p>
+    <ul>
+      <li>
+        <font color="#0000cc">whenExhaustedAction</font>&#160;&#36830;&#25509;&#27744;&#20013;active&#25968;&#37327;&#36798;&#21040;&#38408;&#20540;&#26102;&#65292;&#37319;&#29992;&#30340;&#25163;&#27573;&#65292;0&#25243;&#24322;&#24120;&#65307;1&#38459;&#22622;&#65307;2&#24378;&#21046;&#21019;&#24314;&#26032;&#30340;&#36830;&#25509;&#36164;&#28304;&#65292;&#40664;&#35748;&#20026;1
+      </li>
+      <li>
+        <font color="#0000cc">maxWait</font>&#160;&#24403;&#36830;&#25509;&#27744;&#36164;&#28304;&#32791;&#23613;&#65292;&#35843;&#29992;&#32773;&#26368;&#22823;&#30340;&#38459;&#22622;&#26102;&#38388;&#65292;&#36229;&#26102;&#21017;&#25243;&#24322;&#24120;&#22788;&#29702;&#65292;&#21333;&#20301;&#26159;&#27627;&#31186;&#65292;-1&#34920;&#31034;&#27704;&#19981;&#36229;&#26102;
+      </li>
+      <li>
+        <font color="#0000cc">softMinEvictableIdleTimeMillis</font>&#160;&#36830;&#25509;&#31354;&#38386;&#30340;&#26368;&#23567;&#26102;&#38388;&#65292;&#36798;&#21040;&#27492;&#20540;&#21518;&#31354;&#38386;&#36830;&#25509;&#23558;&#20250;&#31227;&#38500;&#65292;&#19988;&#20445;&#30041;minIdle&#20010;&#31354;&#38386;&#36830;&#25509;&#25968;&#65292;&#40664;&#35748;&#20026;-1
+      </li>
+      <li>
+        <font color="#0000cc">numTestsPerEvictionRun</font>&#160;&#31354;&#38386;&#36830;&#25509;&#26816;&#27979;&#32447;&#31243;&#27599;&#27425;&#26816;&#27979;&#30340;&#36830;&#25509;&#36164;&#28304;&#25968;&#37327;&#65292;&#40664;&#35748;&#20026;3
+      </li>
+      <li>
+        <font color="#0000cc">testOnBorrow</font>&#160;&#21521;&#35843;&#29992;&#32773;&#36755;&#20986; &#36830;&#25509;&#36164;&#28304; &#26102;&#65292;&#26159;&#21542;&#26816;&#27979;&#36830;&#25509;&#26159;&#21542;&#26377;&#25928;&#65292;&#22914;&#26524;&#26080;&#25928;&#20250;&#34987;&#31227;&#38500;&#65292;&#40664;&#35748;false
+      </li>
+      <li>
+        <font color="#0000cc">testWhileIdle</font>&#160;&#21521;&#35843;&#29992;&#32773;&#36755;&#20986; &#36830;&#25509;&#36164;&#28304; &#26102;&#65292;&#26159;&#21542;&#26816;&#27979;&#20854;&#31354;&#38386;&#26102;&#38388;&#26159;&#21542;&#36229;&#26102;&#65292;&#40664;&#35748;&#20026;false
+      </li>
+      <li>
+        <font color="#0000cc">testOnReturn</font>&#160;&#21521;&#36830;&#25509;&#27744;&#36820;&#36824;&#36830;&#25509;&#36164;&#28304;&#26102;&#65292;&#26159;&#21542;&#26816;&#27979;&#20854;&#26159;&#21542;&#26377;&#25928;&#65292;&#22914;&#26524;&#36229;&#26102;&#20250;&#34987;&#31227;&#38500;&#65292;&#40664;&#35748;&#20026;false
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1472177269794" FOLDED="true" ID="ID_1979941724" MODIFIED="1472177582511" TEXT="JredisPool&#x7684;&#x51e0;&#x4e2a;&#x4f7f;&#x7528;&#x6b65;&#x9aa4;">
+<node CREATED="1472177283738" ID="ID_777455683" MODIFIED="1472177319395" TEXT="1&#xff0c;&#x5b9e;&#x4f8b;&#x5316;&#x5e76;&#x914d;&#x7f6e;&#x76f8;&#x5173;pool&#x5bf9;&#x8c61;">
+<node CREATED="1472177321510" ID="ID_1290462152" MODIFIED="1472177405227" TEXT="JedisPool pool = new JedisPool(config,&quot;127.0.0.1&quot;,6379,15000,&quot;user&quot;,&quot;pwd&quot;);"/>
+</node>
+<node CREATED="1472177409357" ID="ID_1017059059" MODIFIED="1472177429884" TEXT="2&#xff0c;&#x4ece;pool&#x4e2d;&#x63d0;&#x53d6;jedis&#x8fde;&#x63a5;">
+<node CREATED="1472177431708" ID="ID_656099828" MODIFIED="1472177572175">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jedis client = pool.<font color="#0000cc">getResource</font>();
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1472177451090" ID="ID_135893423" MODIFIED="1472177457498" TEXT="3&#xff0c;&#x4e1a;&#x52a1;&#x5904;&#x7406;">
+<node CREATED="1472177458677" ID="ID_1453306190" MODIFIED="1472177490363" TEXT="client.select(key); or client.set(key,value);..."/>
+</node>
+<node CREATED="1472177491982" ID="ID_1999586744" MODIFIED="1472177527936">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4&#65292;<font color="#cc0000">&#24517;&#39035;&#19981;&#33021;&#24536;&#65281;</font>&#23558;jedis&#36830;&#25509;&#36820;&#36824;pool
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1472177530581" ID="ID_283139072" MODIFIED="1472177561008">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pool.<font color="#0000cc">returnResource</font>(client);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1472178013841" ID="ID_1237785208" MODIFIED="1472178031093" TEXT="reconnectCacheActual()">
+<node CREATED="1472178033672" ID="ID_812082279" MODIFIED="1472178062284" TEXT="&#x518d;&#x6b21;&#x7528;jedisPool&#x8fdb;&#x884c;&#x4e00;&#x6b21;getResource/returnResource&#x6d4b;&#x8bd5;"/>
+</node>
+<node CREATED="1472177977014" ID="ID_1191285667" MODIFIED="1472177989636" TEXT="closeCacheActual()">
+<node CREATED="1472177990926" ID="ID_1259201906" MODIFIED="1472178011096">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      jedisPool.destroy();
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1472178508955" ID="ID_497646132" MODIFIED="1472178514643" TEXT="&#x4e1a;&#x52a1;&#x5904;&#x7406;">
+<node CREATED="1471400153581" ID="ID_436246170" MODIFIED="1472177961591" TEXT="setActual"/>
+</node>
+</node>
+</node>
+<node CREATED="1471226519254" FOLDED="true" ID="ID_82415105" MODIFIED="1472168781873">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2869,7 +3320,7 @@
   </body>
 </html></richcontent>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1471998372793" ID="ID_1812172997" MODIFIED="1472007496706" TEXT="QueueAgentAbstract">
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1471999669074" FOLDED="true" ID="ID_1740580200" MODIFIED="1472022894084" TEXT="key method description">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1471999669074" FOLDED="true" ID="ID_1740580200" MODIFIED="1472179147389" TEXT="key method description">
 <node CREATED="1471999787854" ID="ID_690259965" MODIFIED="1471999804811" TEXT="&#x4e09;&#x4e2a;&#x5173;&#x952e;&#x5c40;&#x90e8;&#x53d8;&#x91cf;">
 <node CREATED="1471999812256" ID="ID_1243134947" MODIFIED="1471999819438" TEXT="queueName"/>
 <node CREATED="1471999820820" ID="ID_1518224833" MODIFIED="1471999870337">
@@ -3044,7 +3495,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1472005878421" FOLDED="true" ID="ID_1747651772" MODIFIED="1472007217398" TEXT="&#x5b50;&#x7c7b;">
+<node CREATED="1472005878421" FOLDED="true" ID="ID_1747651772" MODIFIED="1472179120949" TEXT="&#x5b50;&#x7c7b;">
 <node CREATED="1472005885517" ID="ID_1889781249" MODIFIED="1472006021388">
 <richcontent TYPE="NODE"><html>
   <head>
