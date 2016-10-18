@@ -476,8 +476,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1476067211508" ID="ID_1054888844" MODIFIED="1476068164146" TEXT="2016.10.10 restart...">
-<node CREATED="1476067229031" ID="ID_611800187" MODIFIED="1476068771473">
+<node CREATED="1476067211508" FOLDED="true" ID="ID_1054888844" MODIFIED="1476780802133" TEXT="2016.10.10 restart...">
+<font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
+<node CREATED="1476067229031" FOLDED="true" ID="ID_611800187" MODIFIED="1476780800151">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -542,7 +543,7 @@
 </html></richcontent>
 </node>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1476069204359" ID="ID_1665307384" MODIFIED="1476069266428" TEXT="&#x5176;&#x4f59;&#x7684;&#x7528;&#x4e4b;&#x524d;&#x7684;&#x6574;&#x7406;&#x53ef;&#x7528;ctrl+f&#x6765;&#x67e5;">
-<node CREATED="1473836256883" ID="ID_289967887" MODIFIED="1476069282298">
+<node CREATED="1473836256883" FOLDED="true" ID="ID_289967887" MODIFIED="1476780798319">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -590,7 +591,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1473838052473" FOLDED="true" ID="ID_1358979736" MODIFIED="1476092390814">
+<node CREATED="1473838052473" FOLDED="true" ID="ID_1358979736" MODIFIED="1476754192485">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -603,12 +604,18 @@
       
     </p>
     <p>
+      <font color="#336600">&#23601;&#26159;&#22312;md_order_info,md_order_action&#34920;&#25554;&#20837;&#30456;&#20851;&#26032;&#35760;&#24405;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
       <font color="#cc0000"><b>&#21019;&#24314;&#35746;&#21333;&#33509;&#22833;&#36133;&#65292;&#21017;&#36864;&#20986;</b></font>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1474270103625" ID="ID_797375467" MODIFIED="1474357845763" TEXT="OrderGenerateServiceImpl">
-<node CREATED="1473839398965" FOLDED="true" ID="ID_453502703" MODIFIED="1476092387179">
+<node CREATED="1474270103625" ID="ID_797375467" MODIFIED="1476238282922" TEXT="OrderGenerateServiceImpl">
+<node CREATED="1473839398965" ID="ID_453502703" MODIFIED="1476237009290">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -619,7 +626,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1474270150134" ID="ID_1985972573" MODIFIED="1474270204917">
+<node CREATED="1474270150134" FOLDED="true" ID="ID_1985972573" MODIFIED="1476344475319">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -656,7 +663,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1474270370176" ID="ID_170003178" MODIFIED="1476068116593">
+<node CREATED="1474270370176" FOLDED="true" ID="ID_170003178" MODIFIED="1476344613946">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -708,7 +715,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1473839809420" ID="ID_1289375909" MODIFIED="1473843999525">
+<node CREATED="1473839809420" FOLDED="true" ID="ID_1289375909" MODIFIED="1476344014638">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -733,6 +740,9 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1476238309963" ID="ID_787929270" MODIFIED="1476238320531" TEXT="&#x8fd4;&#x56de;&#x8282;&#x70b9;">
+<node CREATED="1476238290097" ID="ID_1589802964" LINK="#ID_1720308229" MODIFIED="1476238335426" TEXT="&#x8fd4;&#x56de;wftPay&#x8282;&#x70b9;"/>
 </node>
 </node>
 <node CREATED="1473840028385" ID="ID_1447184236" MODIFIED="1473840045635" TEXT="2&#x3001;result == null &#x5219;&#x62a5;&#x9519;"/>
@@ -1276,8 +1286,9 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1476259179988" ID="ID_1697886946" MODIFIED="1476344516586" TEXT="fillParam(orderCreateParam,paycodeGenerateResult,ShopForQuery)"/>
 </node>
-<node BACKGROUND_COLOR="#ffff99" CREATED="1474339144249" ID="ID_636805778" MODIFIED="1474357831991">
+<node BACKGROUND_COLOR="#ffff99" CREATED="1474339144249" ID="ID_636805778" MODIFIED="1476344599106">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1358,8 +1369,7 @@
       2&#12289;createOrder() (in doAction)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1476087362874" ID="ID_1815866790" MODIFIED="1476087401038" TEXT="1&#x3001;orderCreateDomainRepository.insertOrderInfo(fillOrderInfoDo())">
 <node CREATED="1476087422541" ID="ID_1144210544" LINK="2016/10/OrderCreateDomain.fillOrderInfoDo.java" MODIFIED="1476087704721" TEXT="fillOrderInfoDo()"/>
 <node CREATED="1476087767140" ID="ID_518444844" LINK="2016/10/OrderInfoDAOImpl.insert.java" MODIFIED="1476087869596" TEXT="OrderInfoDAOImpl.insert(orderInfoDo)">
@@ -1373,8 +1383,7 @@
       &#20855;&#20307;&#21442;&#32771;mdtradecenter.dao&#19979;&#30340;mybatis&#30340;md-order-info-sqlmap.xml&#20013;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1476089009723" ID="ID_554172526" MODIFIED="1476089037613">
 <richcontent TYPE="NODE"><html>
@@ -1386,8 +1395,7 @@
       &#23601;&#26159;&#22312;md_order_info&#34920;&#20013;&#25554;&#20837;&#19968;&#26465;&#26032;&#35760;&#24405;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1476089220775" ID="ID_1637716732" MODIFIED="1476089254384" TEXT="&#x6392;&#x67e5;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;&#xff1a;insertOrderInfo&#xff0c;&#x53ef;&#x67e5;&#x65b0;&#x63d2;&#x5165;&#x8bb0;&#x5f55;&#x7684;id"/>
 </node>
@@ -1406,8 +1414,7 @@
       &#21017;&#20250;&#29992;&quot;__&#29305;&#27530;&#23383;&#31526;__&quot;&#20316;&#20026;username&#32487;&#32493;&#20889;&#20837;&#25805;&#20316;&#26085;&#24535;&#34920;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1476089588974" ID="ID_1542935685" MODIFIED="1476092123944">
@@ -1426,11 +1433,11 @@
       &#24182;&#23553;&#35013;&#21040;callresult&#20013;&#36820;&#22238;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1476089856555" ID="ID_1563528633" MODIFIED="1476089914626" TEXT="then,&#x5229;&#x7528;cglib-nodep-2.1.3.jar&#x5f00;&#x6e90;&#x5305;&#x62f7;&#x8d1d;detailinfo&#x5230;OrderInfoModel&#x4e2d;"/>
 <node CREATED="1476089956104" ID="ID_467049524" LINK="2016/10/OrderInfoModel.java" MODIFIED="1476092050997" TEXT="OrderInfoModel"/>
-<node CREATED="1476089971121" ID="ID_515900600" LINK="2016/10/OrderInfoDO.java" MODIFIED="1476092040302" TEXT="OrderInfoDO"/>
+<node CREATED="1476089971121" ID="ID_515900600" LINK="2016/10/OrderInfoDO.java" MODIFIED="1476092040302" TEXT="OrderInfoDO">
+<node CREATED="1476237743491" ID="ID_535480920" MODIFIED="1476237765843" TEXT="md_order_info ,&#x8ba2;&#x5355;&#x8be6;&#x60c5;&#xff0c;&#x7528;&#x4e8e;&#x67e5;&#x8be2;&#x63cf;&#x8ff0;&#x8282;&#x70b9;"/>
 </node>
 </node>
 </node>
@@ -1442,7 +1449,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1474339633320" FOLDED="true" ID="ID_1705248764" MODIFIED="1476069286839">
+</node>
+<node CREATED="1474339633320" ID="ID_1705248764" MODIFIED="1476754195990">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1451,22 +1459,64 @@
     <p>
       <b><font color="#006633">5&#12289;</font></b>orderFsService.wftPayOrder(...)
     </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20027;&#35201;&#26159;createMobileParams&#29992;&#20110;&#25163;&#26426;&#25903;&#20184;&#65311;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23454;&#38469;&#20851;&#38190;&#21442;&#25968;&#23601;&#26159;&#20808;&#33719;&#21462;&#21040;orderId
+    </p>
   </body>
 </html></richcontent>
-<node CREATED="1474357339993" ID="ID_1885628025" MODIFIED="1474358104391">
+<node CREATED="1474357339993" ID="ID_1885628025" MODIFIED="1476236239706">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      1&#12289;new <font color="#006633">OrderPayDomain</font>
+      1&#12289;new <font color="#006633">OrderPayDomain </font>
     </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25414;&#32465;&#36755;&#20837;&#21442;&#25968;order<font color="#006666">PayParam</font>,&#33509;&#24178;&#19994;&#21153;&#23545;&#35937;
+    </p>
+    <ul>
+      <li>
+        <font color="#660099">tradeExtService</font>
+      </li>
+      <li>
+        youhuiExtService
+      </li>
+      <li>
+        orderBindDomain<font color="#336600">Repository</font>
+      </li>
+      <li>
+        orderCreateExtService
+      </li>
+      <li>
+        orderRefresh<font color="#336600">DomainRepository</font>
+      </li>
+      <li>
+        mobileMsg
+      </li>
+      <li>
+        publicConfig.<font color="#990099">getMdtKey()&#65292;&#22403;&#22334;&#21442;&#25968;</font>
+      </li>
+    </ul>
   </body>
 </html></richcontent>
+<node BACKGROUND_COLOR="#ffff99" CREATED="1476236299252" ID="ID_1503303983" LINK="#ID_500500888" MODIFIED="1476236630589" TEXT="&#x5173;&#x952e;&#x65b9;&#x6cd5;&#xff1a;wftPayOrder()"/>
 </node>
-<node CREATED="1474357727469" ID="ID_1252319875" MODIFIED="1474361977415" TEXT="2&#x3001;mdServiceTemplate.exeWithoutDB(new TemplateAction&lt;OrderPayModel&gt;{checkParam;doAction;checkBiz;finishUp})">
-<node CREATED="1474357907795" FOLDED="true" ID="ID_1471057743" MODIFIED="1475031304949">
+<node CREATED="1474357727469" FOLDED="true" ID="ID_1252319875" MODIFIED="1476780795990" TEXT="2&#x3001;mdServiceTemplate.exeWithoutDB(new TemplateAction&lt;OrderPayModel&gt;{checkParam;doAction;checkBiz;finishUp})">
+<node CREATED="1474357907795" FOLDED="true" ID="ID_1471057743" MODIFIED="1476236616500">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1488,7 +1538,7 @@
 <node CREATED="1474357990299" ID="ID_850144423" MODIFIED="1474357999796" TEXT="orderPayParam.getPayType()"/>
 <node CREATED="1474358034540" ID="ID_1193893571" MODIFIED="1474358056114" TEXT="ip,lat,lng,deviceid,devicestr"/>
 </node>
-<node CREATED="1474358075084" ID="ID_500500888" MODIFIED="1476069174578">
+<node CREATED="1474358075084" ID="ID_500500888" MODIFIED="1476344631160">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1499,7 +1549,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1474358504179" ID="ID_1982053368" MODIFIED="1474426177825">
+<node CREATED="1474358504179" ID="ID_1982053368" MODIFIED="1476236998599">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1527,9 +1577,51 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1476170784388" ID="ID_1873643515" MODIFIED="1476170905792">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OrderQueryServiceImpl.queryOrderDetailInfo<font color="#cc0000">FromMaster </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23454;&#38469;&#35835;&#30340;&#26159;&#20174;&#24211;&#65292;&#22240;&#20026;&#21442;&#25968;isMaster&#35774;&#32622;&#20026;false&#20102;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1476172461791" ID="ID_1719651832" LINK="#ID_1542935685" MODIFIED="1476172713004">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#37319;&#29992;orderQueryDomainRepository
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35843;&#29992;&#20854;&#26041;&#27861;queryOrderDetailInfo(...)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#37096;&#20998;&#22788;&#29702;&#23436;&#20840;&#21516;&#20110;createOrder(&#32511;&#33394;&#31661;&#22836;&#25152;&#25351;&#20998;&#25903;)
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1474359828598" ID="ID_1237226781" MODIFIED="1475029831378">
+</node>
+</node>
+<node CREATED="1474359828598" FOLDED="true" ID="ID_1237226781" MODIFIED="1476238026536">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1543,10 +1635,10 @@
     </p>
     <ol>
       <li>
-        <font color="#006666">orderAmount</font>&#160;= data.getOrderAmount();
+        <font color="#006666">orderAmount</font>&#160;= data.getOrderAmount(); <b><font color="#006633">//orderAmount&#24212;&#20184;&#27454;&#37329;&#39069;&#12290;</font></b>
       </li>
       <li>
-        <font color="#990099">lessPayAmount</font>&#160;= <font color="#006666">orderAmount</font>.setScale(2,BigDecimal.ROUND_HALF_UP);
+        <font color="#990099">lessPayAmount</font>&#160;= <font color="#006666">orderAmount</font>.setScale(2,BigDecimal.ROUND_HALF_UP);<font color="#990000">//&#22235;&#33293;&#20116;&#20837;&#21518;&#23567;&#20110;&#38646;&#21017;&#36864;&#20986;</font>
       </li>
       <li>
         if(<font color="#990099">lessPayAmount</font>.compareTo(BigDecimal.ZERO)&lt;=0 then <font color="#cc0000">needContinuePay</font>= false;
@@ -1589,7 +1681,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1474361990494" ID="ID_691112575" MODIFIED="1474362099903">
+<node CREATED="1474361990494" ID="ID_691112575" LINK="#ID_1289375909" MODIFIED="1476238233493">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1600,15 +1692,22 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1476238272149" ID="ID_1720308229" MODIFIED="1476238279196" TEXT="&#x8fd4;&#x56de;&#x8282;&#x70b9;&#x800c;&#x5df2;"/>
 </node>
-<node CREATED="1474362382841" FOLDED="true" ID="ID_1607371615" MODIFIED="1475031448869">
+<node CREATED="1474362382841" FOLDED="true" ID="ID_1607371615" MODIFIED="1476780794047">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      4&#12289;&#22914;&#26524;<font color="#006633">needContinuePay = true</font>&#65292;&#21017;&#25171;&#21253;<font color="#006633">orderPayModel&#30456;&#20851;&#24517;&#35201;&#21442;&#25968;</font><font color="#990099">&#20934;&#22791;&#36208;</font>&#31532;&#19977;&#26041;&#25903;&#20184;&#65292;<font color="#006600">&#21542;&#21017;&#65292;&#30452;&#25509;&#26174;&#31034;&#25903;&#20184;&#25104;&#21151;</font>
+      4&#12289;&#22914;&#26524;<font color="#006633">needContinuePay = true</font>&#65292;&#21017;&#25171;&#21253;<font color="#006633">orderPayModel&#30456;&#20851;&#24517;&#35201;&#21442;&#25968;</font><font color="#990099">&#20934;&#22791;&#36208;</font>&#31532;&#19977;&#26041;&#25903;&#20184;&#65292;<font color="#006600">&#21542;&#21017;&#65292;&#30452;&#25509;&#26174;&#31034;&#25903;&#20184;&#25104;&#21151; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0066cc">&#23454;&#38469;&#23601;&#26159;&#35201;&#20040;&#24050;&#25903;&#20184;&#65292;&#35201;&#20040;&#23601;&#26159;&#25903;&#20184;&#37329;&#39069;&#20026;0&#65292;&#21542;&#21017;&#37117;&#35201;&#32487;&#32493;&#36208;&#25903;&#20184;&#27969;&#31243; </font>
     </p>
     <p>
       
@@ -1636,39 +1735,45 @@
   </body>
 </html></richcontent>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1474363013851" ID="ID_1634933514" MODIFIED="1474365703213">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1474363013851" ID="ID_1634933514" MODIFIED="1476239902232">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      2&#12289;<b><font color="#990099">tradeExtService</font></b>.<b><font color="#000099">createMobileParam</font></b>(orderPayParam,data,lessPayAmount,mobileKey)
+      2&#12289;<b><font color="#990099">tradeExtService</font></b>.<b><font color="#000099">createMobileParam</font></b>(orderPayParam,data,lessPayAmount,<font color="#ff3333">mobileKey</font>)
     </p>
     <p>
       
     </p>
     <p>
-      <font color="#cc0000">&#33719;&#21462;&#31532;&#19977;&#26041;&#25903;&#20184;&#21442;&#25968;&#22833;&#36133;&#65292;&#21017;&#36864;&#20986;</font>
+      <font color="#cc0000">&#33719;&#21462;&#31532;&#19977;&#26041;&#25903;&#20184;&#21442;&#25968;&#22833;&#36133;&#65292;&#21017;&#36864;&#20986; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25630;&#28165;&#26970;&#36825;&#20010;mobileKey&#30340;&#36755;&#20837;&#28857;&#65292;&#35813;&#20540;&#29992;&#20110;<font color="#660099">&#21019;&#24314;&#31614;&#21517;</font>
     </p>
   </body>
 </html></richcontent>
 <arrowlink DESTINATION="ID_1634933514" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1818610020" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1634933514" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1818610020" SOURCE="ID_1634933514" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1474363488015" ID="ID_1271390045" MODIFIED="1474363587254">
+<node CREATED="1474363488015" ID="ID_1271390045" MODIFIED="1476174005012">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      1&#12289;&#26681;&#25454;(orderInfoModel.getPayLimitTime() - currTime&#160;)/1000/60&#33719;&#21462;&#21333;&#20301;&#20026;&#20998;&#38047;&#30340;&#36807;&#26399;&#26102;&#38388;
+      1&#12289;&#26681;&#25454;(orderInfoModel.<font color="#cc0000">getPayLimitTime()</font>&#160;- currTime&#160;)/1000/60&#33719;&#21462;&#21333;&#20301;&#20026;&#20998;&#38047;&#30340;&#36807;&#26399;&#26102;&#38388;
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1474364611449" ID="ID_1140826665" MODIFIED="1474364747856">
+<node CREATED="1474364611449" ID="ID_1140826665" LINK="2016/10/TradeVo.java" MODIFIED="1476668539263">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1676,6 +1781,12 @@
   <body>
     <p>
       2&#12289;new <b><font color="#006666">TradVo</font></b>&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      tradeVo&#30340;tradeid&#37319;&#29992;&#30340;&#23601;&#26159;<font color="#990099"><b>orderId</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -1751,7 +1862,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1474943154152" ID="ID_709845415" MODIFIED="1474943203642">
+<node CREATED="1474943154152" FOLDED="true" ID="ID_709845415" MODIFIED="1476780790665">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1762,7 +1873,8 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1474943212199" ID="ID_289731078" MODIFIED="1474943225756" TEXT="&#x5b9e;&#x73b0;doAction&#x65b9;&#x6cd5;">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1474943212199" ID="ID_289731078" MODIFIED="1476693174995" TEXT="&#x5b9e;&#x73b0;doAction&#x65b9;&#x6cd5;">
+<icon BUILTIN="messagebox_warning"/>
 <node CREATED="1474944030269" ID="ID_98790767" MODIFIED="1474944118274">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1774,6 +1886,282 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1476671245122" FOLDED="true" ID="ID_1934980311" MODIFIED="1476693400364">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2&#12289;&#26681;&#25454;tradeid(&#23454;&#38469;&#23601;&#26159;orderid&#65292;<font color="#0033cc">&#36825;&#37324;tradeid&#36739;&#20043;tradeno&#23569;&#20102;&#26368;&#21518;&#22235;&#20301;&#25968;</font>)&#65292;&#20174;md_pay_trade&#25552;&#21462;<font color="#006666">lastDomin&#35760;&#24405;(&#20134;&#21363;tradeid&#21487;&#23545;&#24212;&#22810;&#20010;tradeno,&#21407;&#22240;&#30475;&#21518;&#38754;&#65292;&#25552;&#21462;&#26368;&#21518;&#30340;&#19968;&#27425;)</font>&#65292;<font color="#ff3300">&#33509;&#20026;&#31354;</font>&#65292;&#21017;&#35843;&#29992;tradeDomainRepository.<font color="#990099"><b>createTradeDomain</b></font>(tradeVO)&#21019;&#24314;&#26032;&#35760;&#24405;,&#24182;&#29983;&#25104;&#20132;&#26131;&#21495;tradeno:
+    </p>
+    <p>
+      tradeno&#32452;&#25104;&#20026;&#65306;z&#26085;&#26399;+&#39034;&#24207;&#20998;&#37197;&#30340;&#25972;&#25968;&#24207;&#21495;+0000&#65292;&#36215;&#22987;&#25968;&#20026;0&#65292;&#21363;z&#26085;&#26399;+&#39034;&#24207;&#20998;&#37197;&#25972;&#25968;&#24207;&#21495;&#30340;&#35746;&#21333;&#65292;&#26368;&#22810;&#21487;&#23581;&#35797;10000&#27425;&#65292;&#20294;&#31243;&#24207;&#37324;&#20889;&#27515;&#20026;1000&#27425;&#23601;&#20316;&#24223;&#20102;&#25913;&#35746;&#21333;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1476672056020" ID="ID_290827936" MODIFIED="1476672243356">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#006600">&#33509;&#19981;&#20026;&#31354;</font>&#65292;&#21363;&#23384;&#22312;&#20132;&#26131;&#35760;&#24405;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1476672723252" ID="ID_865066156" MODIFIED="1476672789893">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33509;&#35746;&#21333;&#29366;&#24577;&#20026;<font color="#006600">&#20132;&#26131;&#25104;&#21151;</font>&#25110;<font color="#ff3300">&#20851;&#38381;</font>&#65292;&#21017;<font color="#0033cc">&#30452;&#25509;&#20197;&#22833;&#36133;&#29366;&#24577;&#36864;&#20986;</font>&#65292;&#21578;&#30693;&#24050;&#32463;&#32467;&#26463;&#35813;&#20132;&#26131;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1476672946720" ID="ID_258883582" MODIFIED="1476673013396" TEXT="&#x5426;&#x5219;">
+<node CREATED="1476672867052" ID="ID_1626557597" MODIFIED="1476672965461">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;tradeVo&#33509;&#26377;externToken&#65292;&#21017;&#22312;tradeDomain&#24050;&#23384;&#35760;&#24405;&#20013;&#36861;&#21152;externToken
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1476672971493" ID="ID_1422594831" MODIFIED="1476672991144" TEXT="2&#x3001;&#x4e3a;tradeDomain&#x8bbe;&#x7f6e;payBank"/>
+<node CREATED="1476673015549" FOLDED="true" ID="ID_1862400954" MODIFIED="1476691407202">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3&#12289;&#33509;tradeVo&#20013;tradeNo<font color="#006600">&#19981;&#20026;&#31354;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1476673168671" FOLDED="true" ID="ID_951868515" MODIFIED="1476691384835">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33509;tradVo&#30340;tradeNo<font color="#ff3300">&#19981;&#31561;&#20110;</font>lastDomain&#30340;tradeNo
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1476673500419" ID="ID_1581461684" MODIFIED="1476674330303">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23581;&#35797;&#20851;&#38381;lastDomain&#23545;&#24212;&#30340;&#20132;&#26131;&#35760;&#24405;&#65292;&#27880;&#24847;&#26159;&#35760;&#24405;&#65292;&#19981;&#26159;&#20132;&#26131;&#65281;
+    </p>
+    <p>
+      <font color="#009999">boolClose = lastDomain.close(); </font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1476674307368" ID="ID_369352062" MODIFIED="1476674600126">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;tradeVo&#30340;tradeNo<font color="#006600">&#20877;&#27425;&#25552;&#21462;</font>tradeDomin&#65292;<font color="#ff3300">&#33509;&#19981;&#23384;&#22312;</font>&#65292;&#21017;<font color="#0033cc">&#21019;&#24314;&#26032;&#30340;&#20132;&#26131;&#35760;&#24405;</font>&#65292;&#24182;&#36820;&#22238;tradeDomin
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1476674413765" ID="ID_1865340884" MODIFIED="1476674560423">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33509; tradeVo.tradeNo == lastDomin.tradeNo
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26356;&#26032;lastDomain&#30340;<font color="#0033cc">payType</font>&#20026;tradeVo.getPayType()
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1476674504540" ID="ID_403896041" MODIFIED="1476674546133">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3.1&#12289;&#33509;tradeVo.tradeNo<font color="#ff3300">&#20026;&#31354;&#65281;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1476691253559" ID="ID_912905032" LINK="#ID_369352062" MODIFIED="1476691290196" TEXT="&#x5224;&#x65ad;&#x5176;&#x662f;&#x5426;&#x53ef;&#x7528;&#xff0c;&#x82e5;&#x4e0d;&#x53ef;&#x7528;&#xff0c;&#x5219;&#x5173;&#x95ed;&#x8ba2;&#x5355;&#xff0c;&#x521b;&#x5efa;&#x65b0;&#x7684;&#x4ea4;&#x6613;&#x8bb0;&#x5f55;"/>
+<node CREATED="1476691394531" ID="ID_173675887" MODIFIED="1476693087881">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19981;&#21487;&#29992;&#26465;&#20214;&#20026;&#65306;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1476692257492" ID="ID_765264758" MODIFIED="1476692431144" TEXT="businessType&#x4e0e;tradeVo.businessType&#x4e0d;&#x7b26;"/>
+<node CREATED="1476692433215" ID="ID_307419248" MODIFIED="1476692481562" TEXT="tradeMoney&#x4e0e;tradeVo.payMoney&#x4e0d;&#x7b26;"/>
+<node CREATED="1476692496267" ID="ID_1684018336" MODIFIED="1476692545705" TEXT="payType&#x4e0d;&#x7b26;&#xff0c;&#x65f6;&#x95f4;&#x8fc7;&#x671f;&#xff0c;&#x4e0d;&#x662f;&#x65b0;&#x521b;&#x5efa;&#x72b6;&#x6001;&#xff0c;&#x90fd;&#x5c06;&#x89c6;&#x4e3a;&#x4e0d;&#x53ef;&#x7528;"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1476693177315" ID="ID_137567886" MODIFIED="1476693282774">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3&#12289;partnerId,alipayId,privateRSAKey&#26377;&#19968;&#20010;&#20026;&#31354;&#65292;&#21363;&#20197;&#22833;&#36133;&#29366;&#24577;&#36864;&#20986;&#22788;&#29702;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1476693292766" ID="ID_87125214" MODIFIED="1476693373679">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4&#12289;&#35774;&#32622;tradeDomain.setSellerAccountName(alipayId)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;tradeDomain.setOpenId(tradeVo.getOpenId())
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1476675180967" ID="ID_1749462268" MODIFIED="1476693382285">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      5&#12289;tradeDomain.getMobileResult
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1476777385928" ID="ID_642623755" MODIFIED="1476777530115">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26680;&#24515;&#23601;&#19968;&#21477;&#65306;String url = createMobileParam(clientIp,imei,<font color="#006600">partnerid</font>,<font color="#990099">sellerid</font>,<font color="#660066">privateRSAKey</font>)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26500;&#36896;&#29992;&#20110;&#25163;&#26426;&#31471;&#35831;&#27714;&#31532;&#19977;&#26041;&#25903;&#20184;&#30340;url&#25110;&#32773;&#34920;&#21333;form&#20449;&#24687;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node BACKGROUND_COLOR="#ffff99" CREATED="1476777875382" ID="ID_1059146717" MODIFIED="1476779680512">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#12289;TradePayManager <font color="#660066">tradePayManager</font>&#160;= getTradePayManager();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#37117;&#26159;&#38582;&#23646;&#20110;tradeDomain&#23545;&#35937;&#20869;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#006600">&#36825;&#37324;tradePayManager&#26377;N&#22810;&#20010;&#23454;&#29616;&#23545;&#24212;N&#22810;&#20010;&#21512;&#20316;&#25903;&#20184;&#31532;&#19977;&#26041;,</font><font color="#000099">&#26681;&#25454;paytype&#20174;&#23383;&#20856;&#37324;&#25552;&#21462;&#30456;&#24212;&#30340;tradepaymananger&#23454;&#20363;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1476779688228" ID="ID_399079718" MODIFIED="1476780726139">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2&#12289;String requestUrl =&#160;<font color="#000099">tradePayManager</font>.<font color="#990099">createMobileParam</font>(...)&#21516;&#20110;&#36755;&#20837;&#21442;&#25968;&#21015;&#34920;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#cc0000">&#21508;&#31867;&#20855;&#20307;&#23454;&#29616;&#65281;&#32780;&#23454;&#38469;&#20013;</font><font color="#006666">&#24456;&#22810;(&#19981;&#26159;&#20840;&#37096;,alipay&#23601;&#26159;&#26500;&#24314;url)</font><font color="#cc0000">&#24050;&#32463;&#23454;&#38469;</font><font color="#000099">&#35843;&#29992;&#20102;&#31532;&#19977;&#26041;&#25903;&#20184;&#25509;&#21475;&#23436;&#25104;&#20102;&#25903;&#20184;&#21834;</font><font color="#cc0000">&#65281; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#cc0000">&#32780;&#36820;&#22238;&#30340;&#19981;&#26159;&#20160;&#20040;&#29399;&#23617;url&#65292;&#32780;&#26159;&#21508;&#31867;</font><font color="#006600">xml,json&#31561;&#25903;&#20184;&#32467;&#26524;</font><font color="#cc0000">&#30340;&#25968;&#25454;&#26684;&#24335;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1476780538602" ID="ID_83680463" MODIFIED="1476780643095">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      6&#12289;&#30446;&#21069;&#30475;&#26469;<b><font color="#cc0000">&#27492;&#27493;&#39588;&#22810;&#20313;</font></b>&#65292;tradeDomainRepository.storageNewTradeDomain(tradeDomain) &#160;or&#160;&#160;tradeDomainRepository.storageUpdateTradeDomain(tradeDomain)
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 <node CREATED="1474944144806" ID="ID_1182645934" MODIFIED="1474944407338">
 <richcontent TYPE="NODE"><html>
@@ -1788,13 +2176,28 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1476348112185" ID="ID_785734793" LINK="2016/10/TradeServiceImpl.createMobileParams%5BcheckParams%5D.java" MODIFIED="1476348278802" TEXT="checkParam"/>
+<node CREATED="1476348125349" ID="ID_566806444" LINK="2016/10/TradeServiceImpl.createMobileParams%5BdoAction%5D.java" MODIFIED="1476348213603" TEXT="doAction"/>
 </node>
 </node>
 </node>
 <node CREATED="1474365721529" ID="ID_1218791231" MODIFIED="1474365770619" TEXT="3&#x3001;&#x6839;&#x636e;&#x8fd4;&#x56de;&#x7684;Map&lt;String,String&gt;&#x6253;&#x5305;&#x8fdb;orderPayModel&#x540e;&#x8fd4;&#x56de;"/>
 </node>
+<node CREATED="1476238725883" ID="ID_1309531412" MODIFIED="1476238742292" TEXT="&#x6700;&#x7ec8;&#x8fd4;&#x56de;OrderPayModel"/>
 </node>
 </node>
+</node>
+<node CREATED="1476236684044" ID="ID_626171637" MODIFIED="1476236792433">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#336600">6&#12289;</font></b>getAdapterResultFromSuccess(shOrderCreateParam,<font color="#660099">bindOrderResult</font>,<font color="#336600">payOrderResult</font>)
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
