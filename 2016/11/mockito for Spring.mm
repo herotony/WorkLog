@@ -519,7 +519,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1478594123662" FOLDED="true" ID="ID_35442974" MODIFIED="1478595285348" TEXT="Spring&#x4e0b;&#x7684;Ioc&#x548c;DI">
+<node CREATED="1478594123662" ID="ID_35442974" MODIFIED="1478599131195" TEXT="Spring&#x4e0b;&#x7684;Ioc&#x548c;DI">
 <node CREATED="1478594144023" FOLDED="true" ID="ID_1468111656" MODIFIED="1478595246962">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -631,7 +631,26 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1478595175495" ID="ID_114968834" MODIFIED="1478595184234" TEXT="bean xml&#x914d;&#x7f6e;&#x6587;&#x4ef6;"/>
+<node CREATED="1478595175495" ID="ID_114968834" MODIFIED="1478595184234" TEXT="bean xml&#x914d;&#x7f6e;&#x6587;&#x4ef6;">
+<node CREATED="1478599134314" ID="ID_631419818" LINK="bean-xml-property.jpg" MODIFIED="1478599153991" TEXT="Property"/>
+<node CREATED="1478599141197" ID="ID_1759835868" LINK="bean-xml-life.jpg" MODIFIED="1478599163348" TEXT="Scope"/>
+</node>
+<node CREATED="1478599188477" ID="ID_808143526" MODIFIED="1478599196262" TEXT="bean&#x7684;&#x521b;&#x5efa;&#x8fc7;&#x7a0b;">
+<node CREATED="1478599207274" FOLDED="true" ID="ID_1175677418" MODIFIED="1478599350671" TEXT="&#x6d41;&#x7a0b;&#x56fe;">
+<node CREATED="1478599324526" ID="ID_1897703897" MODIFIED="1478599335246">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="bean-new.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1478599354522" ID="ID_1120785863" MODIFIED="1478599360005" TEXT="&#x8bf4;&#x660e;"/>
+</node>
 </node>
 </node>
 </node>
