@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1478080139555" ID="ID_411859334" MODIFIED="1478080160654" TEXT="mockito for Spring">
 <node CREATED="1478572510316" ID="ID_98151069" MODIFIED="1478573980610" POSITION="right" TEXT="Spring">
-<node CREATED="1478573983205" FOLDED="true" ID="ID_1462334804" MODIFIED="1478590242785" TEXT="&#x7b80;&#x8981;&#x8bf4;&#x660e;">
+<node CREATED="1478573983205" FOLDED="true" ID="ID_1462334804" MODIFIED="1478683839948" TEXT="&#x7b80;&#x8981;&#x8bf4;&#x660e;">
 <node CREATED="1478574002137" FOLDED="true" ID="ID_1767966821" MODIFIED="1478590012970">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -28,13 +28,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1478590033831" FOLDED="true" ID="ID_1903244076" MODIFIED="1478592302150" TEXT="Spring&#x67b6;&#x6784;">
+<node CREATED="1478590033831" FOLDED="true" ID="ID_1903244076" MODIFIED="1478683846490" TEXT="Spring&#x67b6;&#x6784;">
 <node CREATED="1478590051764" ID="ID_314930601" MODIFIED="1478590063624" TEXT="Core Container">
 <node CREATED="1478590146487" ID="ID_210846623" MODIFIED="1478590156472" TEXT="Core and Beans"/>
 <node CREATED="1478590157829" ID="ID_590636983" MODIFIED="1478590161879" TEXT="Context"/>
 <node CREATED="1478590166033" ID="ID_1135701916" MODIFIED="1478590180560" TEXT="Expression Language"/>
 </node>
-<node CREATED="1478080329086" FOLDED="true" ID="ID_447574711" MODIFIED="1478572527391">
+<node CREATED="1478080329086" ID="ID_447574711" MODIFIED="1478658922937">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -273,7 +273,7 @@
 </node>
 <node CREATED="1478590233684" ID="ID_1511491930" MODIFIED="1478590238086" TEXT="... ..."/>
 </node>
-<node CREATED="1478593848438" FOLDED="true" ID="ID_1619115491" MODIFIED="1478595286219" TEXT="&#x5173;&#x4e8e;Ioc&#x548c;DI&#x6a21;&#x5f0f;">
+<node CREATED="1478593848438" FOLDED="true" ID="ID_1619115491" MODIFIED="1478658918785" TEXT="&#x5173;&#x4e8e;Ioc&#x548c;DI&#x6a21;&#x5f0f;">
 <node CREATED="1478590244957" ID="ID_1605795523" MODIFIED="1478595256213">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -288,7 +288,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1478592312835" FOLDED="true" ID="ID_770233093" MODIFIED="1478595260947">
+<node CREATED="1478592312835" FOLDED="true" ID="ID_770233093" MODIFIED="1478658904039">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -327,7 +327,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1478592343785" FOLDED="true" ID="ID_733024338" MODIFIED="1478595264754">
+<node CREATED="1478592343785" ID="ID_733024338" MODIFIED="1478658905111">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -364,7 +364,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1478592547022" FOLDED="true" ID="ID_620523506" MODIFIED="1478593996956" TEXT="&#x5e94;&#x7528;">
+<node CREATED="1478592547022" FOLDED="true" ID="ID_620523506" MODIFIED="1478658914937" TEXT="&#x5e94;&#x7528;">
 <node CREATED="1478592572982" ID="ID_1722309145" MODIFIED="1478592802703">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -519,8 +519,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1478594123662" ID="ID_35442974" MODIFIED="1478599131195" TEXT="Spring&#x4e0b;&#x7684;Ioc&#x548c;DI">
-<node CREATED="1478594144023" FOLDED="true" ID="ID_1468111656" MODIFIED="1478595246962">
+<node CREATED="1478594123662" ID="ID_35442974" MODIFIED="1478683847969" TEXT="Spring&#x4e0b;&#x7684;Ioc&#x548c;DI">
+<node CREATED="1478594144023" FOLDED="true" ID="ID_1468111656" MODIFIED="1478658872728">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -631,12 +631,26 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1478595175495" ID="ID_114968834" MODIFIED="1478595184234" TEXT="bean xml&#x914d;&#x7f6e;&#x6587;&#x4ef6;">
-<node CREATED="1478599134314" ID="ID_631419818" LINK="bean-xml-property.jpg" MODIFIED="1478599153991" TEXT="Property"/>
+<node CREATED="1478595175495" FOLDED="true" ID="ID_114968834" MODIFIED="1478683918459" TEXT="bean xml&#x914d;&#x7f6e;&#x6587;&#x4ef6;">
+<node CREATED="1478599134314" ID="ID_631419818" LINK="bean-xml-property.jpg" MODIFIED="1478599153991" TEXT="Property">
+<node CREATED="1478683868579" ID="ID_1328478712" MODIFIED="1478683894482">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>lazy-init</b><font color="#ff0000">&#19981;&#25512;&#33616;&#65281;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node CREATED="1478599141197" ID="ID_1759835868" LINK="bean-xml-life.jpg" MODIFIED="1478599163348" TEXT="Scope"/>
 </node>
 <node CREATED="1478599188477" ID="ID_808143526" MODIFIED="1478599196262" TEXT="bean&#x7684;&#x521b;&#x5efa;&#x8fc7;&#x7a0b;">
-<node CREATED="1478599207274" FOLDED="true" ID="ID_1175677418" MODIFIED="1478599350671" TEXT="&#x6d41;&#x7a0b;&#x56fe;">
+<node CREATED="1478599207274" FOLDED="true" ID="ID_1175677418" MODIFIED="1478658881520" TEXT="&#x6d41;&#x7a0b;&#x56fe;">
 <node CREATED="1478599324526" ID="ID_1897703897" MODIFIED="1478599335246">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -645,11 +659,127 @@
   <body>
     <img src="bean-new.jpg" />
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1478599354522" FOLDED="true" ID="ID_1120785863" MODIFIED="1478658826409">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21019;&#24314;&#19971;&#27493;&#39588;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1478656932392" ID="ID_1624605509" MODIFIED="1478658774798">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        <font color="#0033ff">Spring IoC container read the bean definitions from XML and then instantiates them </font>
+      </li>
+      <li>
+        <font color="#0033ff">&#20026;&#25152;&#26377;bean&#22635;&#20805;&#23646;&#24615;&#20540;&#20197;&#21450;&#36827;&#34892;<b>&#20381;&#36182;&#27880;&#20837;&#22788;&#29702;</b></font>
+      </li>
+      <li>
+        &#19978;&#20004;&#27493;&#23436;&#25104;&#20043;&#21518;&#65292;&#35843;&#29992;bean&#30340;setBeanName&#26041;&#27861;&#65307;<font color="#990033"><b>&#22914;&#26524;</b>&#20320;&#23454;&#29616;&#20102;<b>BeanNameAware&#25509;&#21475;</b>&#65292;&#21017;&#32473;bean&#20256;ID&#26102;</font><font color="#ff0000"><b>&#25165;&#20250;</b></font><b><font color="#990033">&#38543;&#20043;&#35843;&#29992;setBeanName</font></b>
+      </li>
+      <li>
+        &#20877;&#28982;&#21518;&#65292;<b><font color="#990033">&#22914;&#26524;</font></b>&#20320;&#23454;&#29616;&#20102;<font color="#990033">BeanFactoryAware&#25509;&#21475;</font>&#65292;&#37027;&#20040;<b><font color="#990033">setBeanFactory</font></b>&#26041;&#27861;&#20250;&#34987;&#33258;&#21160;&#35843;&#29992;
+      </li>
+      <li>
+        BeanPostProcessor&#30340;pre-initialization&#26041;&#27861;&#25191;&#34892;&#23436;&#27605;&#21518;&#65292;&#33509;&#19968;&#20010;bean&#23454;&#29616;<b><font color="#009999">BeanPostProcessor&#25509;&#21475;</font></b>&#65292;&#37027;&#20040;post processor<font color="#009999">&#30340;<b>process</b></font><b><font color="#009900">Before</font><font color="#009999">Initialization()&#26041;&#27861;</font></b>&#20250;&#34987;&#35843;&#29992;&#12290;&#21363;&#20171;&#20110;pre-initialization&#20043;&#21518;&#65292;initialization()&#20043;&#38388;&#34987;&#35843;&#29992;
+      </li>
+      <li>
+        &#35843;&#29992;init()&#26041;&#27861;&#20043;&#21518;&#65292;&#33509;bean&#35774;&#32622;&#20102;init-method&#26041;&#27861;&#65292;&#20250;&#38543;&#21518;&#39532;&#19978;&#35843;&#29992;&#12290;
+      </li>
+      <li>
+        &#26368;&#32456;&#65292;post-initialization&#25191;&#34892;&#23436;&#27605;&#65292;&#27492;&#21069;&#22914;&#26524;bean&#26377;&#23454;&#29616;<b><font color="#009999">BeanPostProcessor&#25509;&#21475;</font></b>&#65292;&#21017;&#27492;&#21518;&#65292;<b><font color="#009999">postProcess</font><font color="#009900">After</font><font color="#009999">Initalization&#26041;&#27861;</font></b>&#20250;&#34987;&#35843;&#29992;
+      </li>
+    </ol>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node CREATED="1478599354522" ID="ID_1120785863" MODIFIED="1478599360005" TEXT="&#x8bf4;&#x660e;"/>
+</node>
+</node>
+<node CREATED="1478660827778" ID="ID_739170081" MODIFIED="1478660850996" TEXT="autowire/annotaion">
+<node CREATED="1478660873627" FOLDED="true" ID="ID_684698841" MODIFIED="1478683463653" TEXT="&#x4f5c;&#x7528;">
+<node CREATED="1478660884589" ID="ID_377885886" MODIFIED="1478660969645">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">&#19981;&#29992;</font></b>&#22312;xml&#20013;&#37197;&#32622;<b>constructor-arg</b>&#160; or <b>property</b>&#26469;&#35774;&#23450;&#20381;&#36182;&#27880;&#20837;&#20851;&#31995;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1478683416667" ID="ID_452007257" MODIFIED="1478683459258" TEXT="autowire&#x548c;annotation&#x5fc5;&#x987b;&#x662f;&#x6210;&#x5bf9;&#x4f7f;&#x7528;"/>
+</node>
+<node CREATED="1478683353591" FOLDED="true" ID="ID_718336665" MODIFIED="1478684538699" TEXT="&#x56db;&#x79cd;&#x65b9;&#x5f0f;autowire">
+<node CREATED="1478683476250" ID="ID_905728529" MODIFIED="1478683617948">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>byName</b>&#160;: Spring IoC container&#23558;&#33258;&#21160;&#26681;&#25454;xml&#37197;&#32622;&#25991;&#20214;&#20013;&#30340;<b><font color="#009999">&#30456;&#21516;&#21517;&#31216;&#30340;beans</font></b>&#27880;&#20837;&#26576;&#20010;<b>bean&#30340;<font color="#009900">property</font></b>(<font color="#ff0000">&#27880;&#24847;&#65292;&#19981;&#26159;constructor</font>)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1478683687592" ID="ID_715246355" MODIFIED="1478684328957">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>byType</b>&#65306;Spring IoC container&#26681;&#25454;<b><font color="#0033ff">&#31867;&#22411;</font></b>&#21305;&#37197;xml&#20013;&#20247;&#22810;bean&#31867;&#22411;&#20013;&#19968;&#20010;&#24182;<b><font color="#009900">&#27880;&#20837;&#21040;property</font></b>&#65292;&#20294;<font color="#ff0000">&#22914;&#26524;&#23384;&#22312;&#22810;&#20010;&#30456;&#21516;&#31867;&#22411;&#30340;bean,&#35813;&#31181;&#27169;&#24335;&#20250;&#25243;&#20986;&#24322;&#24120;&#65292;&#25925;&#32780;&#24182;&#19981;&#25512;&#33616;&#65281;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1478684332543" ID="ID_440875003" MODIFIED="1478684413741">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>constructor</b>&#65306;&#23436;&#20840;&#31561;&#21516;&#20110;byType,&#19981;&#36807;&#26159;<b><font color="#009999">&#27880;&#20837;&#21040;constructor&#21442;&#25968;&#20013;</font></b>&#65292;&#20294;<font color="#ff0000">&#21516;&#26679;&#26131;&#25243;&#24322;&#24120;&#65292;&#19981;&#25512;&#33616;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1478684434357" ID="ID_117618252" MODIFIED="1478684528549">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>default</b>&#65306;&#20808;&#23581;&#35797;constructor&#65292;&#19981;&#34892;&#30340;&#35805;&#65292;&#23581;&#35797;byType,<b>&#21363;&#20808;<font color="#009999">&#23581;&#35797;&#27880;&#20837;constructor</font>,<font color="#ff0000">&#19981;&#34892;</font>&#65292;&#23581;&#35797;<font color="#009900">&#27880;&#20837;property</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
