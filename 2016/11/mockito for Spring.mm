@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1478080139555" ID="ID_411859334" MODIFIED="1478080160654" TEXT="mockito for Spring">
-<node CREATED="1478572510316" ID="ID_98151069" MODIFIED="1478573980610" POSITION="right" TEXT="Spring">
+<node CREATED="1478572510316" FOLDED="true" ID="ID_98151069" MODIFIED="1479710948202" POSITION="right" TEXT="Spring">
 <node CREATED="1478573983205" FOLDED="true" ID="ID_1462334804" MODIFIED="1478683839948" TEXT="&#x7b80;&#x8981;&#x8bf4;&#x660e;">
 <node CREATED="1478574002137" FOLDED="true" ID="ID_1767966821" MODIFIED="1478590012970">
 <richcontent TYPE="NODE"><html>
@@ -28,13 +28,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1478590033831" FOLDED="true" ID="ID_1903244076" MODIFIED="1478683846490" TEXT="Spring&#x67b6;&#x6784;">
+<node CREATED="1478590033831" ID="ID_1903244076" MODIFIED="1479191639038" TEXT="Spring&#x67b6;&#x6784;">
 <node CREATED="1478590051764" ID="ID_314930601" MODIFIED="1478590063624" TEXT="Core Container">
 <node CREATED="1478590146487" ID="ID_210846623" MODIFIED="1478590156472" TEXT="Core and Beans"/>
 <node CREATED="1478590157829" ID="ID_590636983" MODIFIED="1478590161879" TEXT="Context"/>
 <node CREATED="1478590166033" ID="ID_1135701916" MODIFIED="1478590180560" TEXT="Expression Language"/>
 </node>
-<node CREATED="1478080329086" ID="ID_447574711" MODIFIED="1478658922937">
+<node CREATED="1478080329086" FOLDED="true" ID="ID_447574711" MODIFIED="1479191663022">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -229,7 +229,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1478140459304" FOLDED="true" ID="ID_718195845" MODIFIED="1478568010508">
+<node CREATED="1478140459304" FOLDED="true" ID="ID_718195845" MODIFIED="1479191659420">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -253,7 +253,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1478143229842" FOLDED="true" ID="ID_1573008991" MODIFIED="1478571751503" TEXT="AOP&#x4ecb;&#x5165;&#x5b8c;&#x6574;&#x5b9e;&#x4f8b;">
+<node CREATED="1478143229842" FOLDED="true" ID="ID_1573008991" MODIFIED="1479191655645" TEXT="AOP&#x4ecb;&#x5165;&#x5b8c;&#x6574;&#x5b9e;&#x4f8b;">
 <node CREATED="1478143434410" ID="ID_846375255" MODIFIED="1478143782921">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -273,7 +273,7 @@
 </node>
 <node CREATED="1478590233684" ID="ID_1511491930" MODIFIED="1478590238086" TEXT="... ..."/>
 </node>
-<node CREATED="1478593848438" FOLDED="true" ID="ID_1619115491" MODIFIED="1478658918785" TEXT="&#x5173;&#x4e8e;Ioc&#x548c;DI&#x6a21;&#x5f0f;">
+<node CREATED="1478593848438" FOLDED="true" ID="ID_1619115491" MODIFIED="1479191637542" TEXT="&#x5173;&#x4e8e;Ioc&#x548c;DI&#x6a21;&#x5f0f;">
 <node CREATED="1478590244957" ID="ID_1605795523" MODIFIED="1478595256213">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -643,8 +643,7 @@
       <b>lazy-init</b><font color="#ff0000">&#19981;&#25512;&#33616;&#65281;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1478599141197" ID="ID_1759835868" LINK="bean-xml-life.jpg" MODIFIED="1478599163348" TEXT="Scope"/>
@@ -672,8 +671,7 @@
       &#21019;&#24314;&#19971;&#27493;&#39588;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1478656932392" ID="ID_1624605509" MODIFIED="1478658774798">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -704,14 +702,13 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 <node CREATED="1478660827778" ID="ID_739170081" MODIFIED="1478660850996" TEXT="autowire/annotaion">
-<node CREATED="1478660873627" FOLDED="true" ID="ID_684698841" MODIFIED="1478683463653" TEXT="&#x4f5c;&#x7528;">
+<node CREATED="1478660873627" FOLDED="true" ID="ID_684698841" MODIFIED="1479191244157" TEXT="&#x4f5c;&#x7528;">
 <node CREATED="1478660884589" ID="ID_377885886" MODIFIED="1478660969645">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -722,12 +719,11 @@
       <b><font color="#ff0000">&#19981;&#29992;</font></b>&#22312;xml&#20013;&#37197;&#32622;<b>constructor-arg</b>&#160; or <b>property</b>&#26469;&#35774;&#23450;&#20381;&#36182;&#27880;&#20837;&#20851;&#31995;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1478683416667" ID="ID_452007257" MODIFIED="1478683459258" TEXT="autowire&#x548c;annotation&#x5fc5;&#x987b;&#x662f;&#x6210;&#x5bf9;&#x4f7f;&#x7528;"/>
 </node>
-<node CREATED="1478683353591" FOLDED="true" ID="ID_718336665" MODIFIED="1478684538699" TEXT="&#x56db;&#x79cd;&#x65b9;&#x5f0f;autowire">
+<node CREATED="1478683353591" FOLDED="true" ID="ID_718336665" MODIFIED="1479191241308" TEXT="&#x56db;&#x79cd;&#x65b9;&#x5f0f;autowire">
 <node CREATED="1478683476250" ID="ID_905728529" MODIFIED="1478683617948">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -738,8 +734,7 @@
       <b>byName</b>&#160;: Spring IoC container&#23558;&#33258;&#21160;&#26681;&#25454;xml&#37197;&#32622;&#25991;&#20214;&#20013;&#30340;<b><font color="#009999">&#30456;&#21516;&#21517;&#31216;&#30340;beans</font></b>&#27880;&#20837;&#26576;&#20010;<b>bean&#30340;<font color="#009900">property</font></b>(<font color="#ff0000">&#27880;&#24847;&#65292;&#19981;&#26159;constructor</font>)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1478683687592" ID="ID_715246355" MODIFIED="1478684328957">
 <richcontent TYPE="NODE"><html>
@@ -751,8 +746,7 @@
       <b>byType</b>&#65306;Spring IoC container&#26681;&#25454;<b><font color="#0033ff">&#31867;&#22411;</font></b>&#21305;&#37197;xml&#20013;&#20247;&#22810;bean&#31867;&#22411;&#20013;&#19968;&#20010;&#24182;<b><font color="#009900">&#27880;&#20837;&#21040;property</font></b>&#65292;&#20294;<font color="#ff0000">&#22914;&#26524;&#23384;&#22312;&#22810;&#20010;&#30456;&#21516;&#31867;&#22411;&#30340;bean,&#35813;&#31181;&#27169;&#24335;&#20250;&#25243;&#20986;&#24322;&#24120;&#65292;&#25925;&#32780;&#24182;&#19981;&#25512;&#33616;&#65281;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1478684332543" ID="ID_440875003" MODIFIED="1478684413741">
 <richcontent TYPE="NODE"><html>
@@ -764,8 +758,7 @@
       <b>constructor</b>&#65306;&#23436;&#20840;&#31561;&#21516;&#20110;byType,&#19981;&#36807;&#26159;<b><font color="#009999">&#27880;&#20837;&#21040;constructor&#21442;&#25968;&#20013;</font></b>&#65292;&#20294;<font color="#ff0000">&#21516;&#26679;&#26131;&#25243;&#24322;&#24120;&#65292;&#19981;&#25512;&#33616;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1478684434357" ID="ID_117618252" MODIFIED="1478684528549">
 <richcontent TYPE="NODE"><html>
@@ -777,8 +770,7 @@
       <b>default</b>&#65306;&#20808;&#23581;&#35797;constructor&#65292;&#19981;&#34892;&#30340;&#35805;&#65292;&#23581;&#35797;byType,<b>&#21363;&#20808;<font color="#009999">&#23581;&#35797;&#27880;&#20837;constructor</font>,<font color="#ff0000">&#19981;&#34892;</font>&#65292;&#23581;&#35797;<font color="#009900">&#27880;&#20837;property</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
