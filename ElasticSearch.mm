@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1479710963346" ID="ID_598327511" MODIFIED="1479710975849" TEXT="ElasticSearch">
-<node CREATED="1479710988469" ID="ID_233598695" MODIFIED="1479714792460" POSITION="right" TEXT="&#x865a;&#x673a;&#x73af;&#x5883;&#x642d;&#x5efa;">
-<node CREATED="1479710999308" ID="ID_1714509235" MODIFIED="1479715894877">
+<node CREATED="1479710988469" FOLDED="true" ID="ID_233598695" MODIFIED="1479805454569" POSITION="right" TEXT="&#x865a;&#x673a;&#x73af;&#x5883;&#x642d;&#x5efa;">
+<node CREATED="1479710999308" FOLDED="true" ID="ID_1714509235" MODIFIED="1479784757052">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -95,7 +95,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1479714792465" ID="ID_1201923931" MODIFIED="1479714872121" TEXT="&#x521b;&#x5efa;&#x65b0;&#x7684;&#x865a;&#x673a;CentOS(pure for elasticsearch).vdi on &#xa;D:\CentOS&#x76ee;&#x5f55;&#xff0c;&#x91c7;&#x7528;red hat linux 64-bit">
+<node CREATED="1479714792465" FOLDED="true" ID="ID_1201923931" MODIFIED="1479784755843" TEXT="&#x521b;&#x5efa;&#x65b0;&#x7684;&#x865a;&#x673a;CentOS(pure for elasticsearch).vdi on &#xa;D:\CentOS&#x76ee;&#x5f55;&#xff0c;&#x91c7;&#x7528;red hat linux 64-bit">
 <node CREATED="1479714971923" ID="ID_649223119" MODIFIED="1479715032572">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -186,7 +186,7 @@
     </ul>
   </body>
 </html></richcontent>
-<node CREATED="1479718021293" FOLDED="true" ID="ID_1927687607" MODIFIED="1479784066541">
+<node CREATED="1479718021293" FOLDED="true" ID="ID_1927687607" MODIFIED="1479805001793">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -268,7 +268,7 @@
 </html>
 </richcontent>
 </node>
-<node CREATED="1479779328176" FOLDED="true" ID="ID_251423195" MODIFIED="1479784042172" TEXT="&#x8bbe;&#x7f6e;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x81ea;&#x52a8;&#x6302;&#x8f7d;&#x5171;&#x4eab;&#x76ee;&#x5f55;">
+<node CREATED="1479779328176" FOLDED="true" ID="ID_251423195" MODIFIED="1479785137393" TEXT="&#x8bbe;&#x7f6e;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x81ea;&#x52a8;&#x6302;&#x8f7d;&#x5171;&#x4eab;&#x76ee;&#x5f55;">
 <node CREATED="1479780922250" ID="ID_1696348473" MODIFIED="1479784032790">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -340,6 +340,199 @@
 </richcontent>
 </node>
 </node>
+</node>
+<node CREATED="1479784738977" FOLDED="true" ID="ID_1734092903" MODIFIED="1479805446088" TEXT="&#x5b89;&#x88c5;ElasticSearch5.0">
+<node CREATED="1479785079359" ID="ID_1817835972" MODIFIED="1479785114623" TEXT="&#x62f7;&#x8d1d;elasticsearch-5.0.0.tar.gz&#x538b;&#x7f29;&#x5305;host&#x4e3b;&#x673a;&#x5171;&#x4eab;&#x76ee;&#x5f55;D:\Tool&#x4e2d;"/>
+<node CREATED="1479796471237" ID="ID_14126141" MODIFIED="1479805430740">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        &#22312;&#26681;&#30446;&#24405;&#19979;&#21019;&#24314;data&#30446;&#24405;&#65292;mkdir /data
+      </li>
+      <li>
+        cd /data
+      </li>
+      <li>
+        <b><font color="#009999">tar -zxvf /mnt/Tool/elasticsearch-5.0.0.tar.gz</font></b>
+      </li>
+      <li>
+        cd elasticsearch-5.0.0
+      </li>
+      <li>
+        &#25191;&#34892; <b><font color="#009999">./bin/elasticsearch</font></b>&#160;&#25253;&#38169;&#65292;<font color="#ff3333">&#20063;&#23601;&#26159;&#36824;&#27809;&#35013;jdk</font>
+      </li>
+      <li>
+        &#23433;&#35013;&#23436;&#25104;jdk&#21518;&#65292;&#32487;&#32493;./bin/elasticsearch&#65292;<font color="#ff3333">&#25253;&#38169;&#19981;&#33021;&#29992;root&#36523;&#20221;&#25191;&#34892;</font>
+      </li>
+      <li>
+        &#20107;&#23454;&#35777;&#26126;&#33267;&#23569;&#25105;&#19979;&#36733;&#30340;5.0.0&#32477;&#23545;&#26377;&#38382;&#39064;&#65292;&#26242;&#26102;&#29992;&#32769;&#29256;&#30340;1.7.2&#26367;&#20195;&#24320;&#21457;&#20102;&#65292;&#21033;&#29992;<b><font color="#009999">cd ~</font></b>&#21644;<b><font color="#009999">cp /mnt/elasticsearch-1.7.2/ . </font></b>&#23558;1.7.2&#25335;&#36125;&#21040;&#24403;&#21069;elas home&#30446;&#24405;,&#21516;&#26679;&#29992;./bin/elasticsearch&#21487;&#27491;&#24120;&#21551;&#21160;&#65292;<font color="#ff3333"><b>&#20294;&#38450;&#28779;&#22681;&#31471;&#21475;9200&#26410;&#24320;</b></font>
+      </li>
+      <li>
+        &#37325;&#26032;&#24320;&#21551;&#31471;&#21475;&#21518;&#65292;./..../bin/elasticsearch -d -p pid&#23436;&#25104;&#21551;&#21160;
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1479796631053" FOLDED="true" ID="ID_997053608" MODIFIED="1479804976777" TEXT="&#x5b89;&#x88c5;jdk">
+<node CREATED="1479798681273" FOLDED="true" ID="ID_673456907" MODIFIED="1479798736828" TEXT="&#x901a;&#x8fc7;&#x73b0;&#x6709;rpm&#x5305;&#x5b89;&#x88c5;">
+<node CREATED="1479798698063" ID="ID_1783017720" MODIFIED="1479798719829">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="2016/11/install_jdk_on_centos.jpg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1479798739072" ID="ID_1265731265" MODIFIED="1479798752138" TEXT="&#x4fee;&#x6539;&#x73af;&#x5883;&#x53d8;&#x91cf;">
+<node CREATED="1479798754030" FOLDED="true" ID="ID_114976027" MODIFIED="1479798932723" TEXT="&#x4fee;&#x6539;profile&#x5185;&#x5bb9;">
+<node CREATED="1479798769728" ID="ID_1236946000" MODIFIED="1479798782784">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="2016/11/install_jdk_on_centos3.jpg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1479798790463" FOLDED="true" ID="ID_1310003071" MODIFIED="1479798931597">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        &#20063;&#23601;&#26159;&#20462;&#25913;<b><font color="#cc00ff">/etc/profile</font></b>&#25991;&#20214;
+      </li>
+      <li>
+        &#36890;&#36807;<b><font color="#cc00ff">java -version</font></b>&#39564;&#35777;
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+<node CREATED="1479798861850" ID="ID_290817184" MODIFIED="1479798871209">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="2016/11/install_jdk_on_centos2.jpg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1479799920377" FOLDED="true" ID="ID_745020079" MODIFIED="1479804979721" TEXT="&#x521b;&#x5efa;&#x7528;&#x6237;">
+<node CREATED="1479799939393" ID="ID_1992320473" MODIFIED="1479800280302">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        <b><font color="#006633">useradd</font><font color="#000000">&#160;elas</font></b>
+      </li>
+      <li>
+        <b><font color="#009999">passwd</font>&#160;&#160;elas (&#26681;&#25454;&#25552;&#31034;&#36755;&#20837; forlas12)</b>
+      </li>
+      <li>
+        &#22914;&#26524;&#21024;&#38500;<b><font color="#ff3333">userdel</font>&#160;elas</b>,&#22914;&#26524;&#36830;&#21516;&#35813;&#29992;&#25143;&#25968;&#25454;&#19968;&#36215;&#21024;&#38500; <b><font color="#ff3333">userdel -f</font>&#160;elas</b>
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1479803607858" FOLDED="true" ID="ID_911500608" MODIFIED="1479805010553" TEXT="&#x8d4b;&#x4e88;elas root&#x6743;&#x9650;">
+<node CREATED="1479803627159" ID="ID_1768353291" MODIFIED="1479804149793">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        &#20197;<b><font color="#006633">root&#36523;&#20221;</font></b>&#36827;&#20837;/etc&#30446;&#24405;
+      </li>
+      <li>
+        &#25191;&#34892;<b><font color="#006633">ll sudoers</font></b>&#65292;&#26597;&#30475;&#20854;&#26435;&#38480;
+      </li>
+      <li>
+        &#25191;&#34892;<b><font color="#006633">chmod 755 sudoers</font></b>
+      </li>
+      <li>
+        &#25191;&#34892;<b><font color="#006633">chmod 440 sudoers</font></b>&#65292;<b><font color="#cc00ff">&#36825;&#20010;&#29275;&#36924;&#20102;&#65292;&#25171;&#24320;&#20462;&#25913;&#21518;&#33258;&#21160;&#36824;&#21407;&#26435;&#38480;&#65281;</font></b>
+      </li>
+      <li>
+        vi sudoers
+      </li>
+      <li>
+        &#28155;&#21152; <b><font color="#3300cc">elas ALL=(ALL) ALL</font></b>
+      </li>
+      <li>
+        &#21518;&#32493;elas<b><font color="#009999">&#21487;&#29992;sudo </font></b>&#25191;&#34892;&#30456;&#20851;root&#25165;&#33021;&#25191;&#34892;&#30340;&#25351;&#20196;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1479803915369" ID="ID_113210823" MODIFIED="1479804157849">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="2016/11/set-root.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1479805015602" FOLDED="true" ID="ID_1661815843" MODIFIED="1479805243769" TEXT="&#x5f00;&#x542f;&#x7aef;&#x53e3;">
+<node CREATED="1479805168362" ID="ID_1380142920" MODIFIED="1479805223172">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;<b><font color="#009999">systemctl stauts firewalld.service</font></b>&#26597;&#38405;&#24403;&#21069;&#38450;&#28779;&#22681;&#26159;&#21542;&#24050;&#25171;&#24320;
+    </p>
+    <p>
+      &#23545;&#20110;&#22522;&#30784;&#26381;&#21153;&#23433;&#35013;&#29256;&#65292;&#26159;&#40664;&#35748;&#25171;&#24320;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1479805229866" ID="ID_1109193650" MODIFIED="1479805238089">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="2016/11/open9200.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1479805352960" ID="ID_1783561529" MODIFIED="1479805394654" TEXT="&#x901a;&#x8fc7;host&#x673a;google&#x6d4f;&#x89c8;&#x5668;&#x8bbf;&#x95ee;http://192.168.56.3:9200&#x5f97;&#x5230;&#x6b63;&#x5e38;json&#x8f93;&#x51fa;&#xff0c;&#x81f3;&#x6b64;es&#x672c;&#x673a;&#x865a;&#x673a;&#x5b89;&#x88c5;&#x5b8c;&#x6210;"/>
 </node>
 </node>
 </node>
