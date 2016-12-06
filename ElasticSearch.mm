@@ -551,7 +551,7 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1479868403147" FOLDED="true" ID="ID_1562337421" MODIFIED="1481002517612" POSITION="right" TEXT="&#x642d;&#x5efa;&#x57fa;&#x4e8e;SpringMVC&#x7684;&#x5f00;&#x53d1;&#x73af;&#x5883;">
+<node CREATED="1479868403147" ID="ID_1562337421" MODIFIED="1481004235754" POSITION="right" TEXT="&#x642d;&#x5efa;&#x57fa;&#x4e8e;SpringMVC&#x7684;&#x5f00;&#x53d1;&#x73af;&#x5883;">
 <node CREATED="1479868867991" ID="ID_263797783" MODIFIED="1481000015897">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1551,7 +1551,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1479882450444" FOLDED="true" ID="ID_327590897" MODIFIED="1481002461540" TEXT="maven&#x9879;&#x76ee;">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1479882450444" FOLDED="true" ID="ID_327590897" MODIFIED="1481004241202" TEXT="maven&#x9879;&#x76ee;">
 <icon BUILTIN="messagebox_warning"/>
 <node BACKGROUND_COLOR="#99ffff" CREATED="1479882457433" ID="ID_985243025" MODIFIED="1479883211988">
 <richcontent TYPE="NODE"><html>
@@ -2040,6 +2040,7 @@
 </node>
 </node>
 </node>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1481004244338" ID="ID_660988666" LINK="2016/12/&#x4f7f;&#x7528;maven&#x6784;&#x5efa;&#x57fa;&#x672c;&#x7684;web&#x9879;&#x76ee;&#x7ed3;&#x6784;.mht" MODIFIED="1481013066579" TEXT="maven&#x6784;&#x5efa;web&#x9879;&#x76ee;&#x7ed3;&#x6784;&#x89e3;&#x6790;"/>
 </node>
 <node CREATED="1479870829534" FOLDED="true" ID="ID_190608876" MODIFIED="1480990774914" POSITION="left" TEXT="maven&#x63d2;&#x4ef6;&#x67e5;&#x8be2;">
 <node CREATED="1479870838851" ID="ID_932756220" MODIFIED="1479870902830">
