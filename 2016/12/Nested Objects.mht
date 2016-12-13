@@ -1,0 +1,820 @@
+Date: Wed, 7 Dec 2016 11:34:06 +0800
+Message-ID: <00023300$2b561b60$696558aa$EverNote>
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_NextPart_0002_3300_C252D20A.5558B712"
+X-Mailer: Evernote® v6.04.2.3788
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_0002_3300_C252D20A.5558B712
+Content-Type: text/html; 
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+  <title>Evernote Export</title>
+  <basefont face=3D"=E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91" size=3D"2" />
+  <meta http-equiv=3D"Content-Type" =
+content=3D"text/html;charset=3Dutf-8" />
+  <meta name=3D"exporter-version" content=3D"Evernote Windows/303788 =
+(zh-CN, DDL); Windows/10.0.10586 (Win64);"/>
+  <style>
+    body, td {
+      font-family: =E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+<a name=3D"4562"/>
+
+<div><span><div style=3D"-evernote-webclip:true"><br/><div =
+style=3D"font-size: 16px; display: =
+inline-block;"><div><div><div><div><div><div><div><div><div><div><div><di=
+v><div><h2 style=3D"position:relative;"><a></a>Nested Objects<a =
+href=3D"https://github.com/elastic/elasticsearch-definitive-guide/edit/2.=
+x/402_Nested/30_Nested_objects.asciidoc" rel=3D"nofollow" =
+style=3D"position:absolute;font-size:14px;right:-15px;top:0px;z-index:100=
+0;padding-top:26px;line-height:1;opacity:0.3;background-image:url(data:im=
+age/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICA=
+gIfAhkiAAAAAlwSFlzAAAArgAAAK4B+ff3XQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXB=
+lLm9yZ5vuPBoAAAKySURBVEiJrZVLbExRGMd/3713qkJZaBeIhIUIC2FBhOpjxHRaNkhTERZe=
+C5EQ2pmSsBikMaYVj4h0Q4pERNKNMlMVnZZ4lIUuxYqFaLqRNNXHzJzPYm6FPmc6zuqenPP//=
+c53v5tzRVXJZQSiZUcFqsUy58IV3T3j161c4HVt5YWIfFFhjVHrfSBW1vBfBeIxbYgGPR7HCz=
+wBzgZjZc2hkPzhzloQjHq32NiHMSxLJJJdanETOKmwY2Tj1kU5CYLPy3eqmNcpNRfzLOMDWsU=
+QU2VpamB0ZUNld/+sBfUdxUvU6F13WpxQu0KRh4i1Gxi8Wv1m6O/9WQlCIbFMyrkPFAKKUK/o=
+dUHjaKqwsTJ+YXwmK8HAptIzgDc9kyaUY8ACYEhsuifLZCyojZZvEiUEIPBOUBvY4MqOXdne9=
+WWynJMJ/MyL7QtF9CHgIPxEpVnROy68JeLvfDBVNiNBMpVsFlgOgGqdwpV0IXzGyjs+XXZGQT=
+BaekhEatKH5TYq+4AiYNiIVdPkax+cLj9tD+pj3lUqcsOd9qLah9tkhdqmipe9Mx1QprrsTkS=
+r5syxfr1DWQcMChxVuA/YQGvEH98zE3zaCvIZCrtwRAmoctmFf3VSqSOZwKesINDu3YGatvQO=
+7qEUALuAJFAS8cffZiqYUMGp9pLFqBm7Cj6L8smFI8j5bOCTChy19gMFwLCB8woNAKJ0RPzxc=
+DZwGPeZ1j8tXW2J1Zmw1ScmmbDEuQXki9I3muccULL//f1TgbHVE67q/Hi1Iv5KxOOo8ghQY3=
+Pg2rYXfdnCJwrEkbHnbwNFbxXpVvRgoy/eMRv4BIGo7g3EStYCrJjXv95Whhv9XS2zhbvM9Gs=
+9/XjzXLsg7xvwXZHjozr3w43KZyO5wOGvJjvz8zcaUo8sM3QpUtXzI1fw2PgNtmkFbbGhF10A=
+AAAASUVORK5CYII=3D&quot;);background-repeat:no-repeat;" title=3D"Edit =
+this page on GitHub">edit</a></h2></div></div></div><p>Given the fact =
+that creating, deleting, and updating a single document =
+in=0AElasticsearch is atomic, it makes sense to store closely related =
+entities=0Awithin the same document.<a></a><a></a>=0A<a></a>  For =
+instance, we could store an order and all of=0Aits order lines in one =
+document, or we could store a blog post and all of its=0Acomments =
+together, by passing an array of <code style=3D"padding:0px =
+3px;font-family:Consolas, Menlo, &quot;DejaVu Sans Mono&quot;, =
+&quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;font-size:0.9em;background:rgb(248, 248, =
+248);">comments</code>:</p><div =
+style=3D"overflow-x:auto;position:relative;width:100%;margin:0px 0px =
+15px;border-left:3px solid rgb(0, 169, =
+229);display:inline-flex;background-color:rgb(240, 240, 240);"><pre =
+style=3D"overflow:auto;font-family:Consolas, Menlo, &quot;DejaVu Sans =
+Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;margin:0px;padding:8px 0px 8px =
+18px;border:none;line-height:1.5em;font-size:16px;white-space:pre;border-=
+top-right-radius:5px;border-bottom-right-radius:5px;width:auto;max-width:=
+10000px;background-color:rgb(240, 240, 240);"><span =
+style=3D"color:rgb(0, 0, 0);">PUT </span><span style=3D"color:rgb(102, =
+102, 0);">/</span><span style=3D"color:rgb(0, 0, =
+0);">my_index</span><span style=3D"color:rgb(102, 102, =
+0);">/</span><span style=3D"color:rgb(0, 0, 0);">blogpost</span><span =
+style=3D"color:rgb(102, 102, 0);">/</span><span style=3D"color:rgb(0, =
+102, 102);">1</span><span style=3D"color:rgb(0, 0, 0);">=0A</span><span =
+style=3D"color:rgb(102, 102, 0);">{</span><span style=3D"color:rgb(0, 0, =
+0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;title&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);"> </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;Nest eggs&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">,</span><span style=3D"color:rgb(0, 0, =
+0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;body&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">  </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;Making your money =
+work...&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">,</span><span style=3D"color:rgb(0, 0, 0);">=0A  </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;tags&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);">  </span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;cash&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">,</span><span style=3D"color:rgb(0, 0, 0);"> </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;shares&quot;</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(102, 102, =
+0);">],</span><span style=3D"color:rgb(0, 0, 0);">=0A  </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;comments&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><a></a><span><img src=3D"Nested =
+Objects_files/Image.png" type=3D"image/png" alt=3D"" height=3D"15" =
+width=3D"14"/></span><span style=3D"color:rgb(0, 0, 0);">=0A    =
+</span><span style=3D"color:rgb(102, 102, 0);">{</span><span =
+style=3D"color:rgb(0, 0, 0);">=0A      </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;name&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);">    </span><span style=3D"color:rgb(0, 136, 0);">&quot;John =
+Smith&quot;</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);">=0A      </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;comment&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(0, 136, 0);">&quot;Great =
+article&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">,</span><span style=3D"color:rgb(0, 0, 0);">=0A      </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;age&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);">     </span><span style=3D"color:rgb(0, 102, 102);">28</span><span =
+style=3D"color:rgb(102, 102, 0);">,</span><span style=3D"color:rgb(0, 0, =
+0);">=0A      </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;stars&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">   </span><span =
+style=3D"color:rgb(0, 102, 102);">4</span><span style=3D"color:rgb(102, =
+102, 0);">,</span><span style=3D"color:rgb(0, 0, 0);">=0A      =
+</span><span style=3D"color:rgb(0, 136, =
+0);">&quot;date&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">    </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;2014-09-01&quot;</span><span =
+style=3D"color:rgb(0, 0, 0);">=0A    </span><span =
+style=3D"color:rgb(102, 102, 0);">},</span><span style=3D"color:rgb(0, =
+0, 0);">=0A    </span><span style=3D"color:rgb(102, 102, =
+0);">{</span><span style=3D"color:rgb(0, 0, 0);">=0A      </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;name&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);">    </span><span style=3D"color:rgb(0, 136, 0);">&quot;Alice =
+White&quot;</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);">=0A      </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;comment&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(0, 136, 0);">&quot;More like this =
+please&quot;</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);">=0A      </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;age&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);">     </span><span style=3D"color:rgb(0, 102, 102);">31</span><span =
+style=3D"color:rgb(102, 102, 0);">,</span><span style=3D"color:rgb(0, 0, =
+0);">=0A      </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;stars&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">   </span><span =
+style=3D"color:rgb(0, 102, 102);">5</span><span style=3D"color:rgb(102, =
+102, 0);">,</span><span style=3D"color:rgb(0, 0, 0);">=0A      =
+</span><span style=3D"color:rgb(0, 136, =
+0);">&quot;date&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">    </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;2014-10-22&quot;</span><span =
+style=3D"color:rgb(0, 0, 0);">=0A    </span><span =
+style=3D"color:rgb(102, 102, 0);">}</span><span style=3D"color:rgb(0, 0, =
+0);">=0A  </span><span style=3D"color:rgb(102, 102, 0);">]</span><span =
+style=3D"color:rgb(0, 0, 0);">=0A</span><span style=3D"color:rgb(102, =
+102, 0);">}</span></pre></div><div><table border=3D"0" =
+style=3D"font-size:inherit;font-weight:inherit;font-style:inherit;font-va=
+riant:inherit;margin-bottom:1em;border:none;width:100%;" =
+summary=3D"Callout list"><tbody =
+style=3D"text-align:left;vertical-align:top;"><tr><td align=3D"left" =
+style=3D"vertical-align:top;padding:0.75em 0.2em =
+0px;border-top:none;border-right:none;border-left:none;border-bottom:1px =
+solid rgb(229, 234, 228);border:none;" valign=3D"top" width=3D"5%"><p =
+style=3D"margin-top:0px;"><a =
+href=3D"https://www.elastic.co/guide/en/elasticsearch/guide/current/neste=
+d-objects.html#CO268-1"><span><img src=3D"Nested Objects_files/Image =
+[1].png" type=3D"image/png" alt=3D"" height=3D"15" =
+width=3D"14"/></span></a> </p></td><td align=3D"left" =
+style=3D"vertical-align:top;padding:0.75em 0.2em =
+0px;border-top:none;border-right:none;border-left:none;border-bottom:1px =
+solid rgb(229, 234, 228);padding-right:0px;border:none;" =
+valign=3D"top"><p style=3D"margin-top:0px;">=0AIf we rely on <a =
+href=3D"https://www.elastic.co/guide/en/elasticsearch/guide/current/dynam=
+ic-mapping.html" title=3D"Dynamic Mapping">dynamic mapping</a>, the =
+<code style=3D"padding:0px 3px;font-family:Consolas, Menlo, &quot;DejaVu =
+Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;font-size:0.9em;background:rgb(248, 248, =
+248);">comments</code>=0A    field will be autocreated as an <code =
+style=3D"padding:0px 3px;font-family:Consolas, Menlo, &quot;DejaVu Sans =
+Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;font-size:0.9em;background:rgb(248, 248, =
+248);">object</code> =
+field.=0A</p></td></tr></tbody></table></div><p>Because all of the =
+content is in the same document, there is no need to join=0Ablog posts =
+and comments at query time, so searches perform well.</p><p>The problem =
+is that the preceding document would match a query like this:</p><div =
+style=3D"overflow-x:auto;position:relative;width:100%;margin:0px 0px =
+15px;border-left:3px solid rgb(0, 169, =
+229);display:inline-flex;background-color:rgb(240, 240, 240);"><pre =
+style=3D"overflow:auto;font-family:Consolas, Menlo, &quot;DejaVu Sans =
+Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;margin:0px;padding:8px 0px 8px =
+18px;border:none;line-height:1.5em;font-size:16px;white-space:pre;border-=
+top-right-radius:5px;border-bottom-right-radius:5px;width:auto;max-width:=
+10000px;background-color:rgb(240, 240, 240);"><span =
+style=3D"color:rgb(0, 0, 0);">GET </span><span style=3D"color:rgb(102, =
+102, 0);">/</span><span style=3D"color:rgb(0, 0, =
+0);">_search=0A</span><span style=3D"color:rgb(102, 102, =
+0);">{</span><span style=3D"color:rgb(0, 0, 0);">=0A  </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;query&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(102, 102, 0);">{</span><span =
+style=3D"color:rgb(0, 0, 0);">=0A    </span><span style=3D"color:rgb(0, =
+136, 0);">&quot;bool&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);"> </span><span =
+style=3D"color:rgb(102, 102, 0);">{</span><span style=3D"color:rgb(0, 0, =
+0);">=0A      </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;must&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);"> </span><span =
+style=3D"color:rgb(102, 102, 0);">[</span><span style=3D"color:rgb(0, 0, =
+0);">=0A        </span><span style=3D"color:rgb(102, 102, =
+0);">{</span><span style=3D"color:rgb(0, 0, 0);"> </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;match&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(102, 102, 0);">{</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;comments.name&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);"> </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;Alice&quot;</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(102, 102, =
+0);">}},</span><span style=3D"color:rgb(0, 0, 0);">=0A        =
+</span><span style=3D"color:rgb(102, 102, 0);">{</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;match&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);"> </span><span =
+style=3D"color:rgb(102, 102, 0);">{</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;comments.age&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">  </span><span =
+style=3D"color:rgb(0, 102, 102);">28</span><span style=3D"color:rgb(0, =
+0, 0);">      </span><span style=3D"color:rgb(102, 102, =
+0);">}}</span><span style=3D"color:rgb(0, 0, 0);"> =
+</span><a></a><span><img src=3D"Nested Objects_files/Image [2].png" =
+type=3D"image/png" alt=3D"" height=3D"15" width=3D"14"/></span><span =
+style=3D"color:rgb(0, 0, 0);">=0A      </span><span =
+style=3D"color:rgb(102, 102, 0);">]</span><span style=3D"color:rgb(0, 0, =
+0);">=0A    </span><span style=3D"color:rgb(102, 102, 0);">}</span><span =
+style=3D"color:rgb(0, 0, 0);">=0A  </span><span style=3D"color:rgb(102, =
+102, 0);">}</span><span style=3D"color:rgb(0, 0, 0);">=0A</span><span =
+style=3D"color:rgb(102, 102, 0);">}</span></pre></div><div><table =
+border=3D"0" =
+style=3D"font-size:inherit;font-weight:inherit;font-style:inherit;font-va=
+riant:inherit;margin-bottom:1em;border:none;width:100%;" =
+summary=3D"Callout list"><tbody =
+style=3D"text-align:left;vertical-align:top;"><tr><td align=3D"left" =
+style=3D"vertical-align:top;padding:0.75em 0.2em =
+0px;border-top:none;border-right:none;border-left:none;border-bottom:1px =
+solid rgb(229, 234, 228);border:none;" valign=3D"top" width=3D"5%"><p =
+style=3D"margin-top:0px;"><a =
+href=3D"https://www.elastic.co/guide/en/elasticsearch/guide/current/neste=
+d-objects.html#CO269-1"><span><img src=3D"Nested Objects_files/Image =
+[3].png" type=3D"image/png" alt=3D"" height=3D"15" =
+width=3D"14"/></span></a> </p></td><td align=3D"left" =
+style=3D"vertical-align:top;padding:0.75em 0.2em =
+0px;border-top:none;border-right:none;border-left:none;border-bottom:1px =
+solid rgb(229, 234, 228);padding-right:0px;border:none;" =
+valign=3D"top"><p style=3D"margin-top:0px;">=0AAlice is 31, not =
+28!=0A</p></td></tr></tbody></table></div><p>The reason for this =
+cross-object matching, as discussed in <a =
+href=3D"https://www.elastic.co/guide/en/elasticsearch/guide/current/compl=
+ex-core-fields.html#object-arrays" title=3D"Arrays of Inner =
+Objects">Arrays of Inner Objects</a>,=0Ais that our beautifully =
+structured JSON document<a></a><a></a> is flattened into a =
+simple=0Akey-value format in the index that looks like this:</p><div =
+style=3D"overflow-x:auto;position:relative;width:100%;margin:0px 0px =
+15px;border-left:3px solid rgb(0, 169, =
+229);display:inline-flex;background-color:rgb(240, 240, 240);"><pre =
+style=3D"overflow:auto;font-family:Consolas, Menlo, &quot;DejaVu Sans =
+Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;margin:0px;padding:8px 0px 8px =
+18px;border:none;line-height:1.5em;font-size:16px;white-space:pre;border-=
+top-right-radius:5px;border-bottom-right-radius:5px;width:auto;max-width:=
+10000px;background-color:rgb(240, 240, 240);"><span =
+style=3D"color:rgb(102, 102, 0);">{</span><span style=3D"color:rgb(0, 0, =
+0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;title&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">            =
+</span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> eggs</span><span style=3D"color:rgb(102, =
+102, 0);">,</span><span style=3D"color:rgb(0, 0, 0);"> nest </span><span =
+style=3D"color:rgb(102, 102, 0);">],</span><span style=3D"color:rgb(0, =
+0, 0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;body&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">             =
+</span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> making</span><span =
+style=3D"color:rgb(102, 102, 0);">,</span><span style=3D"color:rgb(0, 0, =
+0);"> money</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);"> work</span><span style=3D"color:rgb(102, =
+102, 0);">,</span><span style=3D"color:rgb(0, 0, 0);"> your </span><span =
+style=3D"color:rgb(102, 102, 0);">],</span><span style=3D"color:rgb(0, =
+0, 0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;tags&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">             =
+</span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> cash</span><span style=3D"color:rgb(102, =
+102, 0);">,</span><span style=3D"color:rgb(0, 0, 0);"> shares =
+</span><span style=3D"color:rgb(102, 102, 0);">],</span><span =
+style=3D"color:rgb(0, 0, 0);">=0A  </span><span style=3D"color:rgb(0, =
+136, 0);">&quot;comments.name&quot;</span><span style=3D"color:rgb(102, =
+102, 0);">:</span><span style=3D"color:rgb(0, 0, 0);">    </span><span =
+style=3D"color:rgb(102, 102, 0);">[</span><span style=3D"color:rgb(0, 0, =
+0);"> alice</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);"> john</span><span style=3D"color:rgb(102, =
+102, 0);">,</span><span style=3D"color:rgb(0, 0, 0);"> smith</span><span =
+style=3D"color:rgb(102, 102, 0);">,</span><span style=3D"color:rgb(0, 0, =
+0);"> white </span><span style=3D"color:rgb(102, 102, =
+0);">],</span><span style=3D"color:rgb(0, 0, 0);">=0A  </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;comments.comment&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> article</span><span =
+style=3D"color:rgb(102, 102, 0);">,</span><span style=3D"color:rgb(0, 0, =
+0);"> great</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);"> like</span><span style=3D"color:rgb(102, =
+102, 0);">,</span><span style=3D"color:rgb(0, 0, 0);"> more</span><span =
+style=3D"color:rgb(102, 102, 0);">,</span><span style=3D"color:rgb(0, 0, =
+0);"> please</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);"> this </span><span style=3D"color:rgb(102, =
+102, 0);">],</span><span style=3D"color:rgb(0, 0, 0);">=0A  </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;comments.age&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);">     </span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(0, 102, =
+102);">28</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(0, 102, =
+102);">31</span><span style=3D"color:rgb(0, 0, 0);"> </span><span =
+style=3D"color:rgb(102, 102, 0);">],</span><span style=3D"color:rgb(0, =
+0, 0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;comments.stars&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">   </span><span =
+style=3D"color:rgb(102, 102, 0);">[</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(0, 102, 102);">4</span><span =
+style=3D"color:rgb(102, 102, 0);">,</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(0, 102, 102);">5</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(102, 102, =
+0);">],</span><span style=3D"color:rgb(0, 0, 0);">=0A  </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;comments.date&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);">    </span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(0, 102, =
+102);">2014</span><span style=3D"color:rgb(102, 102, 0);">-</span><span =
+style=3D"color:rgb(0, 102, 102);">09</span><span style=3D"color:rgb(102, =
+102, 0);">-</span><span style=3D"color:rgb(0, 102, 102);">01</span><span =
+style=3D"color:rgb(102, 102, 0);">,</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(0, 102, 102);">2014</span><span =
+style=3D"color:rgb(102, 102, 0);">-</span><span style=3D"color:rgb(0, =
+102, 102);">10</span><span style=3D"color:rgb(102, 102, =
+0);">-</span><span style=3D"color:rgb(0, 102, 102);">22</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(102, 102, =
+0);">]</span><span style=3D"color:rgb(0, 0, 0);">=0A</span><span =
+style=3D"color:rgb(102, 102, 0);">}</span></pre></div><p>The correlation =
+between <code style=3D"padding:0px 3px;font-family:Consolas, Menlo, =
+&quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, =
+&quot;Lucida Console&quot;;font-size:0.9em;background:rgb(248, 248, =
+248);">Alice</code> and <code style=3D"padding:0px =
+3px;font-family:Consolas, Menlo, &quot;DejaVu Sans Mono&quot;, =
+&quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;font-size:0.9em;background:rgb(248, 248, 248);">31</code>, =
+or between <code style=3D"padding:0px 3px;font-family:Consolas, Menlo, =
+&quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, =
+&quot;Lucida Console&quot;;font-size:0.9em;background:rgb(248, 248, =
+248);">John</code> and <code style=3D"padding:0px =
+3px;font-family:Consolas, Menlo, &quot;DejaVu Sans Mono&quot;, =
+&quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;font-size:0.9em;background:rgb(248, 248, =
+248);">2014-09-01</code>, has been irretrievably lost.  While fields of =
+type <code style=3D"padding:0px 3px;font-family:Consolas, Menlo, =
+&quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, =
+&quot;Lucida Console&quot;;font-size:0.9em;background:rgb(248, 248, =
+248);">object</code> (see=0A<a =
+href=3D"https://www.elastic.co/guide/en/elasticsearch/guide/current/compl=
+ex-core-fields.html#inner-objects" title=3D"Multilevel =
+Objects">Multilevel Objects</a>) are useful for storing a =
+<span><em>single</em></span> object, they are useless,=0Afrom a search =
+point of view, for storing an array of objects.</p><p>This is the =
+problem that <span><em>nested objects</em></span> are designed to solve. =
+ By mapping=0Athe <code style=3D"padding:0px 3px;font-family:Consolas, =
+Menlo, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans =
+Mono&quot;, &quot;Lucida =
+Console&quot;;font-size:0.9em;background:rgb(248, 248, =
+248);">comments</code> field as type <code style=3D"padding:0px =
+3px;font-family:Consolas, Menlo, &quot;DejaVu Sans Mono&quot;, =
+&quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;font-size:0.9em;background:rgb(248, 248, =
+248);">nested</code> instead of type <code style=3D"padding:0px =
+3px;font-family:Consolas, Menlo, &quot;DejaVu Sans Mono&quot;, =
+&quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;font-size:0.9em;background:rgb(248, 248, =
+248);">object</code>, each nested=0Aobject is indexed as a =
+<span><em>hidden separate document</em></span>, something like =
+this:</p><div =
+style=3D"overflow-x:auto;position:relative;width:100%;margin:0px 0px =
+15px;border-left:3px solid rgb(0, 169, =
+229);display:inline-flex;background-color:rgb(240, 240, 240);"><pre =
+style=3D"overflow:auto;font-family:Consolas, Menlo, &quot;DejaVu Sans =
+Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;margin:0px;padding:8px 0px 8px =
+18px;border:none;line-height:1.5em;font-size:16px;white-space:pre;border-=
+top-right-radius:5px;border-bottom-right-radius:5px;width:auto;max-width:=
+10000px;background-color:rgb(240, 240, 240);"><span =
+style=3D"color:rgb(102, 102, 0);">{</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><a></a><span><img src=3D"Nested Objects_files/Image =
+[4].png" type=3D"image/png" alt=3D"" height=3D"15" =
+width=3D"14"/></span><span style=3D"color:rgb(0, 0, 0);">=0A  =
+</span><span style=3D"color:rgb(0, 136, =
+0);">&quot;comments.name&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">    </span><span =
+style=3D"color:rgb(102, 102, 0);">[</span><span style=3D"color:rgb(0, 0, =
+0);"> john</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);"> smith </span><span =
+style=3D"color:rgb(102, 102, 0);">],</span><span style=3D"color:rgb(0, =
+0, 0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;comments.comment&quot;</span><span style=3D"color:rgb(102, =
+102, 0);">:</span><span style=3D"color:rgb(0, 0, 0);"> </span><span =
+style=3D"color:rgb(102, 102, 0);">[</span><span style=3D"color:rgb(0, 0, =
+0);"> article</span><span style=3D"color:rgb(102, 102, =
+0);">,</span><span style=3D"color:rgb(0, 0, 0);"> great </span><span =
+style=3D"color:rgb(102, 102, 0);">],</span><span style=3D"color:rgb(0, =
+0, 0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;comments.age&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">     </span><span =
+style=3D"color:rgb(102, 102, 0);">[</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(0, 102, 102);">28</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(102, 102, =
+0);">],</span><span style=3D"color:rgb(0, 0, 0);">=0A  </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;comments.stars&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);">   </span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(0, 102, =
+102);">4</span><span style=3D"color:rgb(0, 0, 0);"> </span><span =
+style=3D"color:rgb(102, 102, 0);">],</span><span style=3D"color:rgb(0, =
+0, 0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;comments.date&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">    </span><span =
+style=3D"color:rgb(102, 102, 0);">[</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(0, 102, 102);">2014</span><span =
+style=3D"color:rgb(102, 102, 0);">-</span><span style=3D"color:rgb(0, =
+102, 102);">09</span><span style=3D"color:rgb(102, 102, =
+0);">-</span><span style=3D"color:rgb(0, 102, 102);">01</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(102, 102, =
+0);">]</span><span style=3D"color:rgb(0, 0, 0);">=0A</span><span =
+style=3D"color:rgb(102, 102, 0);">}</span><span style=3D"color:rgb(0, 0, =
+0);">=0A</span><span style=3D"color:rgb(102, 102, 0);">{</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><a></a><span><img src=3D"Nested =
+Objects_files/Image [5].png" type=3D"image/png" alt=3D"" height=3D"15" =
+width=3D"14"/></span><span style=3D"color:rgb(0, 0, 0);">=0A  =
+</span><span style=3D"color:rgb(0, 136, =
+0);">&quot;comments.name&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">    </span><span =
+style=3D"color:rgb(102, 102, 0);">[</span><span style=3D"color:rgb(0, 0, =
+0);"> alice</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);"> white </span><span =
+style=3D"color:rgb(102, 102, 0);">],</span><span style=3D"color:rgb(0, =
+0, 0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;comments.comment&quot;</span><span style=3D"color:rgb(102, =
+102, 0);">:</span><span style=3D"color:rgb(0, 0, 0);"> </span><span =
+style=3D"color:rgb(102, 102, 0);">[</span><span style=3D"color:rgb(0, 0, =
+0);"> like</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);"> more</span><span style=3D"color:rgb(102, =
+102, 0);">,</span><span style=3D"color:rgb(0, 0, 0);"> =
+please</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);"> this </span><span style=3D"color:rgb(102, =
+102, 0);">],</span><span style=3D"color:rgb(0, 0, 0);">=0A  </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;comments.age&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);">     </span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(0, 102, =
+102);">31</span><span style=3D"color:rgb(0, 0, 0);"> </span><span =
+style=3D"color:rgb(102, 102, 0);">],</span><span style=3D"color:rgb(0, =
+0, 0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;comments.stars&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">   </span><span =
+style=3D"color:rgb(102, 102, 0);">[</span><span style=3D"color:rgb(0, 0, =
+0);"> </span><span style=3D"color:rgb(0, 102, 102);">5</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(102, 102, =
+0);">],</span><span style=3D"color:rgb(0, 0, 0);">=0A  </span><span =
+style=3D"color:rgb(0, 136, 0);">&quot;comments.date&quot;</span><span =
+style=3D"color:rgb(102, 102, 0);">:</span><span style=3D"color:rgb(0, 0, =
+0);">    </span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(0, 102, =
+102);">2014</span><span style=3D"color:rgb(102, 102, 0);">-</span><span =
+style=3D"color:rgb(0, 102, 102);">10</span><span style=3D"color:rgb(102, =
+102, 0);">-</span><span style=3D"color:rgb(0, 102, 102);">22</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><span style=3D"color:rgb(102, 102, =
+0);">]</span><span style=3D"color:rgb(0, 0, 0);">=0A</span><span =
+style=3D"color:rgb(102, 102, 0);">}</span><span style=3D"color:rgb(0, 0, =
+0);">=0A</span><span style=3D"color:rgb(102, 102, 0);">{</span><span =
+style=3D"color:rgb(0, 0, 0);"> </span><a></a><span><img src=3D"Nested =
+Objects_files/Image [6].png" type=3D"image/png" alt=3D"" height=3D"15" =
+width=3D"14"/></span><span style=3D"color:rgb(0, 0, 0);">=0A  =
+</span><span style=3D"color:rgb(0, 136, =
+0);">&quot;title&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">            =
+</span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> eggs</span><span style=3D"color:rgb(102, =
+102, 0);">,</span><span style=3D"color:rgb(0, 0, 0);"> nest </span><span =
+style=3D"color:rgb(102, 102, 0);">],</span><span style=3D"color:rgb(0, =
+0, 0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;body&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">             =
+</span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> making</span><span =
+style=3D"color:rgb(102, 102, 0);">,</span><span style=3D"color:rgb(0, 0, =
+0);"> money</span><span style=3D"color:rgb(102, 102, 0);">,</span><span =
+style=3D"color:rgb(0, 0, 0);"> work</span><span style=3D"color:rgb(102, =
+102, 0);">,</span><span style=3D"color:rgb(0, 0, 0);"> your </span><span =
+style=3D"color:rgb(102, 102, 0);">],</span><span style=3D"color:rgb(0, =
+0, 0);">=0A  </span><span style=3D"color:rgb(0, 136, =
+0);">&quot;tags&quot;</span><span style=3D"color:rgb(102, 102, =
+0);">:</span><span style=3D"color:rgb(0, 0, 0);">             =
+</span><span style=3D"color:rgb(102, 102, 0);">[</span><span =
+style=3D"color:rgb(0, 0, 0);"> cash</span><span style=3D"color:rgb(102, =
+102, 0);">,</span><span style=3D"color:rgb(0, 0, 0);"> shares =
+</span><span style=3D"color:rgb(102, 102, 0);">]</span><span =
+style=3D"color:rgb(0, 0, 0);">=0A</span><span style=3D"color:rgb(102, =
+102, 0);">}</span></pre></div><div><table border=3D"0" =
+style=3D"font-size:inherit;font-weight:inherit;font-style:inherit;font-va=
+riant:inherit;margin-bottom:1em;border:none;width:100%;" =
+summary=3D"Callout list"><tbody =
+style=3D"text-align:left;vertical-align:top;"><tr><td align=3D"left" =
+style=3D"vertical-align:top;padding:0.75em 0.2em =
+0px;border-top:none;border-right:none;border-left:none;border-bottom:1px =
+solid rgb(229, 234, 228);" valign=3D"top" width=3D"5%"><p =
+style=3D"margin-top:0px;"><a =
+href=3D"https://www.elastic.co/guide/en/elasticsearch/guide/current/neste=
+d-objects.html#CO270-1"><span><img src=3D"Nested Objects_files/Image =
+[7].png" type=3D"image/png" alt=3D"" height=3D"15" =
+width=3D"14"/></span></a> </p></td><td align=3D"left" =
+style=3D"vertical-align:top;padding:0.75em 0.2em =
+0px;border-top:none;border-right:none;border-left:none;border-bottom:1px =
+solid rgb(229, 234, 228);padding-right:0px;" valign=3D"top"><p =
+style=3D"margin-top:0px;">=0AFirst <code style=3D"padding:0px =
+3px;font-family:Consolas, Menlo, &quot;DejaVu Sans Mono&quot;, =
+&quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;font-size:0.9em;background:rgb(248, 248, =
+248);">nested</code> object=0A</p></td></tr><tr><td align=3D"left" =
+style=3D"vertical-align:top;padding:0.75em 0.2em =
+0px;border-top:none;border-right:none;border-left:none;border-bottom:1px =
+solid rgb(229, 234, 228);" valign=3D"top" width=3D"5%"><p =
+style=3D"margin-top:0px;"><a =
+href=3D"https://www.elastic.co/guide/en/elasticsearch/guide/current/neste=
+d-objects.html#CO270-2"><span><img src=3D"Nested Objects_files/Image =
+[8].png" type=3D"image/png" alt=3D"" height=3D"15" =
+width=3D"14"/></span></a> </p></td><td align=3D"left" =
+style=3D"vertical-align:top;padding:0.75em 0.2em =
+0px;border-top:none;border-right:none;border-left:none;border-bottom:1px =
+solid rgb(229, 234, 228);padding-right:0px;" valign=3D"top"><p =
+style=3D"margin-top:0px;">=0ASecond <code style=3D"padding:0px =
+3px;font-family:Consolas, Menlo, &quot;DejaVu Sans Mono&quot;, =
+&quot;Bitstream Vera Sans Mono&quot;, &quot;Lucida =
+Console&quot;;font-size:0.9em;background:rgb(248, 248, =
+248);">nested</code> object=0A</p></td></tr><tr><td align=3D"left" =
+style=3D"vertical-align:top;padding:0.75em 0.2em =
+0px;border-top:none;border-right:none;border-left:none;border-bottom:1px =
+solid rgb(229, 234, 228);border:none;" valign=3D"top" width=3D"5%"><p =
+style=3D"margin-top:0px;"><a =
+href=3D"https://www.elastic.co/guide/en/elasticsearch/guide/current/neste=
+d-objects.html#CO270-3"><span><img src=3D"Nested Objects_files/Image =
+[9].png" type=3D"image/png" alt=3D"" height=3D"15" =
+width=3D"14"/></span></a> </p></td><td align=3D"left" =
+style=3D"vertical-align:top;padding:0.75em 0.2em =
+0px;border-top:none;border-right:none;border-left:none;border-bottom:1px =
+solid rgb(229, 234, 228);padding-right:0px;border:none;" =
+valign=3D"top"><p style=3D"margin-top:0px;">=0AThe =
+<span><em>root</em></span>  or parent =
+document=0A</p></td></tr></tbody></table></div><p>By indexing each =
+nested object separately, the fields within the object=0Amaintain their =
+relationships. We can run queries that will match only if the=0Amatch =
+occurs within the same nested object.</p><p>Not only that, because of =
+the way that nested objects are indexed, joining the=0Anested documents =
+to the root document at query time is fast=E2=80=94almost as fast=0Aas =
+if they were a single document.</p><p>These extra nested documents are =
+hidden; we can=E2=80=99t access them directly.  To=0Aupdate, add, or =
+remove a nested object, we have to reindex the whole =
+document.=0AIt=E2=80=99s important to note that, the result returned by =
+a search request is not the nested object=0Aalone; it is the whole =
+document.</p></div></div></div></div></div></div></div></div></div></div>=
+</div><br/></div></span>=0A</div></body></html>
+
+------=_NextPart_0002_3300_C252D20A.5558B712
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: Nested Objects_files/Image [1].png
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAABcElEQVQoU5WSzyvDcRjHX882M2Ga
+Fm2cmMJFSjk7aiHUJikHOShuLvKjlP/AxcHBQTM7qMnFXyCRyE2c9F2TlQ1psX0/+pjNTFb7HJ/e
+r8/zeuotFL/QQzOW7AKi/EAHoIAbFEeYssmkN5GPS4GLGEFRbA96HHV9riq6nDZeM4rZ8+R3RFIo
+Nc1ES1QPcmDECKLYswryNu7hOpXBJuCpsdIcjRc7mQijBFoOBa1nzdwCdTphtwjvpmK1u575jtpS
+UEeeENMnhGMbiFr+dSuUA0HUirBvXAI9lYGcavAlr1kMl1HVsYQGn4H6ijbCoxAxLlD0VgieCGFj
+HWGtIlBkSQjF3Fi5BdWg4bFWB267Bb/XwUBTNYuXqa8/D2Np4mnz6z4k7csVIGyMIBwAlt1+F51O
+W6kAM2dJrpIfWRA/Qe9xceWGUewArj9UbpAAmdLQT+Xyych9I8gcyBCKtu+S3wFRJL1FoD3nXejq
+PyvKjT8B+byB8he8CDkAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+------=_NextPart_0002_3300_C252D20A.5558B712
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: Nested Objects_files/Image [2].png
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAABcElEQVQoU5WSzyvDcRjHX882M2Ga
+Fm2cmMJFSjk7aiHUJikHOShuLvKjlP/AxcHBQTM7qMnFXyCRyE2c9F2TlQ1psX0/+pjNTFb7HJ/e
+r8/zeuotFL/QQzOW7AKi/EAHoIAbFEeYssmkN5GPS4GLGEFRbA96HHV9riq6nDZeM4rZ8+R3RFIo
+Nc1ES1QPcmDECKLYswryNu7hOpXBJuCpsdIcjRc7mQijBFoOBa1nzdwCdTphtwjvpmK1u575jtpS
+UEeeENMnhGMbiFr+dSuUA0HUirBvXAI9lYGcavAlr1kMl1HVsYQGn4H6ijbCoxAxLlD0VgieCGFj
+HWGtIlBkSQjF3Fi5BdWg4bFWB267Bb/XwUBTNYuXqa8/D2Np4mnz6z4k7csVIGyMIBwAlt1+F51O
+W6kAM2dJrpIfWRA/Qe9xceWGUewArj9UbpAAmdLQT+Xyych9I8gcyBCKtu+S3wFRJL1FoD3nXejq
+PyvKjT8B+byB8he8CDkAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+------=_NextPart_0002_3300_C252D20A.5558B712
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: Nested Objects_files/Image [3].png
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAABcElEQVQoU5WSzyvDcRjHX882M2Ga
+Fm2cmMJFSjk7aiHUJikHOShuLvKjlP/AxcHBQTM7qMnFXyCRyE2c9F2TlQ1psX0/+pjNTFb7HJ/e
+r8/zeuotFL/QQzOW7AKi/EAHoIAbFEeYssmkN5GPS4GLGEFRbA96HHV9riq6nDZeM4rZ8+R3RFIo
+Nc1ES1QPcmDECKLYswryNu7hOpXBJuCpsdIcjRc7mQijBFoOBa1nzdwCdTphtwjvpmK1u575jtpS
+UEeeENMnhGMbiFr+dSuUA0HUirBvXAI9lYGcavAlr1kMl1HVsYQGn4H6ijbCoxAxLlD0VgieCGFj
+HWGtIlBkSQjF3Fi5BdWg4bFWB267Bb/XwUBTNYuXqa8/D2Np4mnz6z4k7csVIGyMIBwAlt1+F51O
+W6kAM2dJrpIfWRA/Qe9xceWGUewArj9UbpAAmdLQT+Xyych9I8gcyBCKtu+S3wFRJL1FoD3nXejq
+PyvKjT8B+byB8he8CDkAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+------=_NextPart_0002_3300_C252D20A.5558B712
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: Nested Objects_files/Image [4].png
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAABcElEQVQoU5WSzyvDcRjHX882M2Ga
+Fm2cmMJFSjk7aiHUJikHOShuLvKjlP/AxcHBQTM7qMnFXyCRyE2c9F2TlQ1psX0/+pjNTFb7HJ/e
+r8/zeuotFL/QQzOW7AKi/EAHoIAbFEeYssmkN5GPS4GLGEFRbA96HHV9riq6nDZeM4rZ8+R3RFIo
+Nc1ES1QPcmDECKLYswryNu7hOpXBJuCpsdIcjRc7mQijBFoOBa1nzdwCdTphtwjvpmK1u575jtpS
+UEeeENMnhGMbiFr+dSuUA0HUirBvXAI9lYGcavAlr1kMl1HVsYQGn4H6ijbCoxAxLlD0VgieCGFj
+HWGtIlBkSQjF3Fi5BdWg4bFWB267Bb/XwUBTNYuXqa8/D2Np4mnz6z4k7csVIGyMIBwAlt1+F51O
+W6kAM2dJrpIfWRA/Qe9xceWGUewArj9UbpAAmdLQT+Xyych9I8gcyBCKtu+S3wFRJL1FoD3nXejq
+PyvKjT8B+byB8he8CDkAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+------=_NextPart_0002_3300_C252D20A.5558B712
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: Nested Objects_files/Image [5].png
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAAB3UlEQVQoU3WSTWgTQRiGn2+D1iS7
+LSlFsYUatfEPtdWLVw/iJf5QD00VpeLNQ1H0IKVFEIsX8SSCF1E8xBixUhHBnpRSSi8ieFIqFeO2
+0SYNVdOspbsjaxq7qZu5zbzvw7zzzSt4V/LbBjS7F1FxIAYo4COKFzhym1PNuYpd/nFpMxENBe6d
+jYbCB9fXsXGdhlmySX4pcX9qAVvJPEr10N0y7DJlMG0mUDy6skOX7tYgTzIlPhdtOiJruBgLc/ND
+kf73P1yng9BJV8tzwY0XWJoE9MhajcKiU5X+Vkc95zaHaHyW/ZsbKCBOm5CaHkRUf5Xbs7m8Xef6
+boP6oRmWlklEDQiPzXdAux9YpwkTh5qYKtp0js2tWIQJF/zpxvQD7+xv4GRrkPaRWTILtteSc0H3
+1cZqcHCPwYWYzuE3ecbzi6vlWSFtvkWxz6sM7DLo26kTH53j9ffffmHGhZR5DeFqRb20TefGXoMT
+YwVezlj+MxPpE5LTTQSYBNVwZlOQhwciPP1qMZKthtwi/CqPNYdYbeUCpMzjCEO9sbDWEw353nJk
+NE/WcmyQOInmV97KHUPxAIjU+NMcyGkXWqlcxZnONIKcBzmKYstyyT8Bw4h1l66t8/+XvFZ1apz/
+AQX8oPLRcranAAAAAElFTkSuQmCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+------=_NextPart_0002_3300_C252D20A.5558B712
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: Nested Objects_files/Image [6].png
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAAB90lEQVQoU3WSz0vTYRzHX599N0bb
+d85FbeIO1XQoaZQI/QH9PEiFFxdheIgOHYygQ0VRCnUIukXgJfCSrR2CRSDVIekigoiXKEIPIpNt
+Tr44tfbD7/eJr/rNVe65PQ/v18Pr8zxvoXaN5SK4zEFE9QBxQAE/ULzHkudcaS44cfnDpTKJsNf1
+8tHRgL8r5CHsdZEvW3zKlXn2fZ21TVZRaoDL0bTNbIOpTALF67julqHOAJOFCrmyRYtf43abzoxR
+5fyXFTtpIfTSF30n2Hra5hyg/6W9sxk47GP0ZCORdHbLADAQq1VILj1G1P29IPvs2hEfL7qDhNNZ
+ilV7ZNtTPRDeZGaB47XguSYvMb+bmK5x9ZCP4a9rjMxv7EaEKRtc+1dzqCPA6YiXuO4mWzK5NVtk
+Il+uvbtgg0UgsJeqJvDkWAM3437axvMs/jSd2LKQysyg6Ko3Y6PHhdHbRP+UwauFX05sUkhmhhEe
+1gO7Qx6mzx7k1MQKnx1dkXvC2NIBNOZABa/HfET3aUwbVYyKRWfQzZ32ABVLceLjMiVz61ULSKl1
+uwDJzCWEt2ciXtfddp2OoIcGj7CwYTKeLfH027rzhyZID4nmD7WVu4hiFAjV0S6A9NvQbuWcZGpx
+P8gNkAsoYjslnwfSSGmEvpbV/0te73XqnP8G1Rms8qKr4pcAAAAASUVORK5CYIIAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+------=_NextPart_0002_3300_C252D20A.5558B712
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: Nested Objects_files/Image [7].png
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAABcElEQVQoU5WSzyvDcRjHX882M2Ga
+Fm2cmMJFSjk7aiHUJikHOShuLvKjlP/AxcHBQTM7qMnFXyCRyE2c9F2TlQ1psX0/+pjNTFb7HJ/e
+r8/zeuotFL/QQzOW7AKi/EAHoIAbFEeYssmkN5GPS4GLGEFRbA96HHV9riq6nDZeM4rZ8+R3RFIo
+Nc1ES1QPcmDECKLYswryNu7hOpXBJuCpsdIcjRc7mQijBFoOBa1nzdwCdTphtwjvpmK1u575jtpS
+UEeeENMnhGMbiFr+dSuUA0HUirBvXAI9lYGcavAlr1kMl1HVsYQGn4H6ijbCoxAxLlD0VgieCGFj
+HWGtIlBkSQjF3Fi5BdWg4bFWB267Bb/XwUBTNYuXqa8/D2Np4mnz6z4k7csVIGyMIBwAlt1+F51O
+W6kAM2dJrpIfWRA/Qe9xceWGUewArj9UbpAAmdLQT+Xyych9I8gcyBCKtu+S3wFRJL1FoD3nXejq
+PyvKjT8B+byB8he8CDkAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+------=_NextPart_0002_3300_C252D20A.5558B712
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: Nested Objects_files/Image [8].png
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAAB3UlEQVQoU3WSTWgTQRiGn2+D1iS7
+LSlFsYUatfEPtdWLVw/iJf5QD00VpeLNQ1H0IKVFEIsX8SSCF1E8xBixUhHBnpRSSi8ieFIqFeO2
+0SYNVdOspbsjaxq7qZu5zbzvw7zzzSt4V/LbBjS7F1FxIAYo4COKFzhym1PNuYpd/nFpMxENBe6d
+jYbCB9fXsXGdhlmySX4pcX9qAVvJPEr10N0y7DJlMG0mUDy6skOX7tYgTzIlPhdtOiJruBgLc/ND
+kf73P1yng9BJV8tzwY0XWJoE9MhajcKiU5X+Vkc95zaHaHyW/ZsbKCBOm5CaHkRUf5Xbs7m8Xef6
+boP6oRmWlklEDQiPzXdAux9YpwkTh5qYKtp0js2tWIQJF/zpxvQD7+xv4GRrkPaRWTILtteSc0H3
+1cZqcHCPwYWYzuE3ecbzi6vlWSFtvkWxz6sM7DLo26kTH53j9ffffmHGhZR5DeFqRb20TefGXoMT
+YwVezlj+MxPpE5LTTQSYBNVwZlOQhwciPP1qMZKthtwi/CqPNYdYbeUCpMzjCEO9sbDWEw353nJk
+NE/WcmyQOInmV97KHUPxAIjU+NMcyGkXWqlcxZnONIKcBzmKYstyyT8Bw4h1l66t8/+XvFZ1apz/
+AQX8oPLRcranAAAAAElFTkSuQmCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+------=_NextPart_0002_3300_C252D20A.5558B712
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: Nested Objects_files/Image [9].png
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAAB90lEQVQoU3WSz0vTYRzHX599N0bb
+d85FbeIO1XQoaZQI/QH9PEiFFxdheIgOHYygQ0VRCnUIukXgJfCSrR2CRSDVIekigoiXKEIPIpNt
+Tr44tfbD7/eJr/rNVe65PQ/v18Pr8zxvoXaN5SK4zEFE9QBxQAE/ULzHkudcaS44cfnDpTKJsNf1
+8tHRgL8r5CHsdZEvW3zKlXn2fZ21TVZRaoDL0bTNbIOpTALF67julqHOAJOFCrmyRYtf43abzoxR
+5fyXFTtpIfTSF30n2Hra5hyg/6W9sxk47GP0ZCORdHbLADAQq1VILj1G1P29IPvs2hEfL7qDhNNZ
+ilV7ZNtTPRDeZGaB47XguSYvMb+bmK5x9ZCP4a9rjMxv7EaEKRtc+1dzqCPA6YiXuO4mWzK5NVtk
+Il+uvbtgg0UgsJeqJvDkWAM3437axvMs/jSd2LKQysyg6Ko3Y6PHhdHbRP+UwauFX05sUkhmhhEe
+1gO7Qx6mzx7k1MQKnx1dkXvC2NIBNOZABa/HfET3aUwbVYyKRWfQzZ32ABVLceLjMiVz61ULSKl1
+uwDJzCWEt2ciXtfddp2OoIcGj7CwYTKeLfH027rzhyZID4nmD7WVu4hiFAjV0S6A9NvQbuWcZGpx
+P8gNkAsoYjslnwfSSGmEvpbV/0te73XqnP8G1Rms8qKr4pcAAAAASUVORK5CYIIAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+------=_NextPart_0002_3300_C252D20A.5558B712
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: Nested Objects_files/Image.png
+
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAABcElEQVQoU5WSzyvDcRjHX882M2Ga
+Fm2cmMJFSjk7aiHUJikHOShuLvKjlP/AxcHBQTM7qMnFXyCRyE2c9F2TlQ1psX0/+pjNTFb7HJ/e
+r8/zeuotFL/QQzOW7AKi/EAHoIAbFEeYssmkN5GPS4GLGEFRbA96HHV9riq6nDZeM4rZ8+R3RFIo
+Nc1ES1QPcmDECKLYswryNu7hOpXBJuCpsdIcjRc7mQijBFoOBa1nzdwCdTphtwjvpmK1u575jtpS
+UEeeENMnhGMbiFr+dSuUA0HUirBvXAI9lYGcavAlr1kMl1HVsYQGn4H6ijbCoxAxLlD0VgieCGFj
+HWGtIlBkSQjF3Fi5BdWg4bFWB267Bb/XwUBTNYuXqa8/D2Np4mnz6z4k7csVIGyMIBwAlt1+F51O
+W6kAM2dJrpIfWRA/Qe9xceWGUewArj9UbpAAmdLQT+Xyych9I8gcyBCKtu+S3wFRJL1FoD3nXejq
+PyvKjT8B+byB8he8CDkAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+------=_NextPart_0002_3300_C252D20A.5558B712--
+ 

@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1479710963346" ID="ID_598327511" MODIFIED="1479710975849" TEXT="ElasticSearch">
-<node CREATED="1479710988469" FOLDED="true" ID="ID_233598695" MODIFIED="1480990095044" POSITION="right" TEXT="&#x865a;&#x673a;&#x73af;&#x5883;&#x642d;&#x5efa;">
-<node CREATED="1479710999308" ID="ID_1714509235" MODIFIED="1480989519499">
+<node CREATED="1479710963346" ID="ID_598327511" MODIFIED="1481252111286" TEXT="ElasticSearch">
+<node CREATED="1479710988469" FOLDED="true" ID="ID_233598695" MODIFIED="1481173653382" POSITION="right" TEXT="&#x865a;&#x673a;&#x73af;&#x5883;&#x642d;&#x5efa;">
+<node CREATED="1479710999308" FOLDED="true" ID="ID_1714509235" MODIFIED="1481173550887">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -25,7 +25,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1479711028147" FOLDED="true" ID="ID_1031892637" MODIFIED="1480989527572">
+<node CREATED="1479711028147" FOLDED="true" ID="ID_1031892637" MODIFIED="1481173500638">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -47,7 +47,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1479713478054" FOLDED="true" ID="ID_25470944" MODIFIED="1480989532132">
+<node CREATED="1479713478054" FOLDED="true" ID="ID_25470944" MODIFIED="1481173515688">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -72,7 +72,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1479713560639" FOLDED="true" ID="ID_942058443" MODIFIED="1480989535597">
+<node CREATED="1479713560639" FOLDED="true" ID="ID_942058443" MODIFIED="1481173548382">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -83,7 +83,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1479713614396" ID="ID_423395491" MODIFIED="1479713625771">
+<node CREATED="1479713614396" HGAP="57" ID="ID_423395491" MODIFIED="1481173525337" VSHIFT="-2">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -95,7 +95,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1479714792465" ID="ID_1201923931" MODIFIED="1480989537972" TEXT="&#x521b;&#x5efa;&#x65b0;&#x7684;&#x865a;&#x673a;CentOS(pure for elasticsearch).vdi on &#xa;D:\CentOS&#x76ee;&#x5f55;&#xff0c;&#x91c7;&#x7528;red hat linux 64-bit">
+<node CREATED="1479714792465" FOLDED="true" ID="ID_1201923931" MODIFIED="1481173581095" TEXT="&#x521b;&#x5efa;&#x65b0;&#x7684;&#x865a;&#x673a;CentOS(pure for elasticsearch).vdi on &#xa;D:\CentOS&#x76ee;&#x5f55;&#xff0c;&#x91c7;&#x7528;red hat linux 64-bit">
 <node CREATED="1479714971923" ID="ID_649223119" MODIFIED="1479715032572">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -124,7 +124,7 @@
 </html></richcontent>
 </node>
 <node CREATED="1479715576029" ID="ID_307215383" MODIFIED="1479715608161" TEXT="&#x8bbe;&#x7f6e;root&#x5bc6;&#x7801;&#x4e3a;12....,&#x4e0d;&#x521b;&#x5efa;&#x4efb;&#x4f55;&#x5176;&#x4ed6;&#x7528;&#x6237;&#xff0c;&#x5c31;&#x7528;root"/>
-<node CREATED="1479716109322" FOLDED="true" ID="ID_1874659497" MODIFIED="1480989564388">
+<node CREATED="1479716109322" FOLDED="true" ID="ID_1874659497" MODIFIED="1481173579086">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -186,7 +186,7 @@
     </ul>
   </body>
 </html></richcontent>
-<node CREATED="1479718021293" FOLDED="true" ID="ID_1927687607" MODIFIED="1480989959772">
+<node CREATED="1479718021293" FOLDED="true" ID="ID_1927687607" MODIFIED="1481173647759">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -266,7 +266,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1479779328176" FOLDED="true" ID="ID_251423195" MODIFIED="1480989598484" TEXT="&#x8bbe;&#x7f6e;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x81ea;&#x52a8;&#x6302;&#x8f7d;&#x5171;&#x4eab;&#x76ee;&#x5f55;">
+<node CREATED="1479779328176" FOLDED="true" ID="ID_251423195" MODIFIED="1481173646294" TEXT="&#x8bbe;&#x7f6e;&#x5f00;&#x673a;&#x542f;&#x52a8;&#x81ea;&#x52a8;&#x6302;&#x8f7d;&#x5171;&#x4eab;&#x76ee;&#x5f55;">
 <node CREATED="1479780922250" ID="ID_1696348473" MODIFIED="1479784032790">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -547,11 +547,10 @@
       &#26032;&#30340;&#38382;&#39064;&#65292;&#22914;&#26524;&#37319;&#29992;&#21452;&#32593;&#21345;&#26426;&#21046;&#65292;&#20250;&#26080;&#27861;&#27491;&#24120;&#20351;&#29992;&#65292;&#22240;&#20026;&#36830;&#25509;&#26159;192.168.56.3&#36830;&#20837;&#65292;&#20294;elasticsearch&#26381;&#21153;&#31471;&#20250;&#25552;&#21462;&#26412;&#26426;10.0.2.15&#30340;nat&#22320;&#22336;&#20316;&#20026;&#20877;&#27425;&#36830;&#25509;&#65292;&#20110;&#26159;&#24754;&#21095;&#20102;&#65292;&#21482;&#33021;&#37319;&#29992;&#26725;&#25509;&#27169;&#24335;&#21543;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1479868403147" ID="ID_1562337421" MODIFIED="1481004235754" POSITION="right" TEXT="&#x642d;&#x5efa;&#x57fa;&#x4e8e;SpringMVC&#x7684;&#x5f00;&#x53d1;&#x73af;&#x5883;">
+<node CREATED="1479868403147" FOLDED="true" ID="ID_1562337421" MODIFIED="1481173663583" POSITION="right" TEXT="&#x642d;&#x5efa;&#x57fa;&#x4e8e;SpringMVC&#x7684;&#x5f00;&#x53d1;&#x73af;&#x5883;">
 <node CREATED="1479868867991" ID="ID_263797783" MODIFIED="1481000015897">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -639,7 +638,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1481002487799" FOLDED="true" ID="ID_727689374" MODIFIED="1481002511886" TEXT="&#x5173;&#x4e8e;web-inf&#x76ee;&#x5f55;">
+<node CREATED="1481002487799" FOLDED="true" ID="ID_727689374" MODIFIED="1481163465415" TEXT="&#x5173;&#x4e8e;web-inf&#x76ee;&#x5f55;">
 <node CREATED="1481002498806" ID="ID_176996669" MODIFIED="1481002505465">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -648,13 +647,12 @@
   <body>
     <img src="2016/12/Java-WebINF.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1479869043471" ID="ID_156254705" MODIFIED="1480990144592" TEXT="&#x6dfb;&#x52a0;&#x540d;&#x4e3a;assembly&#x7684;maven module">
-<node CREATED="1479883316578" FOLDED="true" ID="ID_1423427710" MODIFIED="1481002457492" TEXT="pom&#x6587;&#x4ef6;&#x8bbe;&#x7f6e;">
+<node CREATED="1479883316578" FOLDED="true" ID="ID_1423427710" MODIFIED="1481163473591" TEXT="pom&#x6587;&#x4ef6;&#x8bbe;&#x7f6e;">
 <node CREATED="1479883939662" FOLDED="true" ID="ID_289545470" MODIFIED="1480992308889" TEXT="&#x901a;&#x7528;&#x7248;&#x672c;artifactid&#x7b49;&#x914d;&#x7f6e;">
 <node CREATED="1479883963874" ID="ID_1733927621" MODIFIED="1479884995845">
 <richcontent TYPE="NODE"><html>
@@ -815,8 +813,7 @@
       first step : plugin for dependency
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1480992377598" FOLDED="true" ID="ID_1037117967" MODIFIED="1480993920519" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1480992408481" ID="ID_203221279" MODIFIED="1480993909483">
 <richcontent TYPE="NODE"><html>
@@ -951,8 +948,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/plugin&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1480993056912" FOLDED="true" ID="ID_915658023" MODIFIED="1480993844698">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -963,8 +959,7 @@
       <font color="#9966ff">unpack</font>&#160;used in maven-dependency-plugin
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1480993087697" ID="ID_1389378145" MODIFIED="1480993097893">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -973,8 +968,7 @@
   <body>
     <img src="2016/12/unpack-dependency-plugin.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1480993126457" ID="ID_1343320256" MODIFIED="1480993830495">
@@ -993,8 +987,7 @@
       &#23558;&#25152;&#26377;&#20381;&#36182;&#32452;&#20214;&#25335;&#36125;&#36827;WEB-INF/lib&#20013;&#65292;&#20294;&#25490;&#38500;web
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1015,8 +1008,7 @@
       &#21487;&#20197;&#22312;maven &#20013;run ant task&#65292;&#29978;&#33267;&#21487;&#20197;&#22312;pom&#25991;&#20214;&#20013;&#20889;ant script
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1480994080115" FOLDED="true" ID="ID_237884821" MODIFIED="1480999200216">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1027,8 +1019,7 @@
       &#31034;&#20363;&#65292;&#26412;&#39033;&#30446;&#20998;&#20004;&#20010;&#38454;&#27573;&#20351;&#29992;&#20102;antrun&#25554;&#20214;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1480995895726" FOLDED="true" ID="ID_1866798740" MODIFIED="1480996410460" TEXT="process-resource&#x9636;&#x6bb5;">
 <node CREATED="1480995955090" ID="ID_1081304119" MODIFIED="1480996097637">
 <richcontent TYPE="NODE"><html>
@@ -1115,8 +1106,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/plugin&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1480995908266" ID="ID_1219974530" MODIFIED="1480995916523" TEXT="package&#x9636;&#x6bb5;">
@@ -1187,8 +1177,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/plugin&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1208,8 +1197,7 @@
       http://ant.apache.org/manual/Tasks/ant.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1480995875957" FOLDED="true" ID="ID_1305932561" MODIFIED="1480999203328" TEXT="&#x5f85;&#x5b9a;">
 <node CREATED="1480995585908" ID="ID_267608792" MODIFIED="1480995700118">
@@ -1259,8 +1247,7 @@
       &#25171;&#21253;&#21040;&#19968;&#20010;&#25351;&#23450;&#26684;&#24335;&#30340;&#25991;&#20214;&#65292;&#30001;&#35813;&#25554;&#20214;&#36127;&#36131;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1479887744358" ID="ID_797386808" MODIFIED="1479887905338">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1401,8 +1388,7 @@
       &lt;/assembly&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1480999227839" ID="ID_1631753821" MODIFIED="1480999241553">
 <richcontent TYPE="NODE"><html>
@@ -1412,8 +1398,7 @@
   <body>
     <img src="2016/12/assembly-plugin.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1551,7 +1536,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1479882450444" FOLDED="true" ID="ID_327590897" MODIFIED="1481004241202" TEXT="maven&#x9879;&#x76ee;">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1479882450444" ID="ID_327590897" MODIFIED="1481163478694" TEXT="maven&#x9879;&#x76ee;">
 <icon BUILTIN="messagebox_warning"/>
 <node BACKGROUND_COLOR="#99ffff" CREATED="1479882457433" ID="ID_985243025" MODIFIED="1479883211988">
 <richcontent TYPE="NODE"><html>
@@ -1603,7 +1588,7 @@
 </html></richcontent>
 <node CREATED="1480647124486" ID="ID_1283315965" MODIFIED="1480647130387" TEXT="Tool&#x7c7b;">
 <node CREATED="1480647245317" ID="ID_1107243535" MODIFIED="1480647257709" TEXT="maven-jar-plugin">
-<node CREATED="1480664170372" FOLDED="true" ID="ID_1791528960" MODIFIED="1480990827802" TEXT="&#x5173;&#x952e;&#x7684;archive&#x914d;&#x7f6e;">
+<node CREATED="1480664170372" FOLDED="true" ID="ID_1791528960" MODIFIED="1481163486343" TEXT="&#x5173;&#x952e;&#x7684;archive&#x914d;&#x7f6e;">
 <node CREATED="1480663993156" ID="ID_1850722869" MODIFIED="1480664486565">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1692,7 +1677,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1480647132549" FOLDED="true" ID="ID_204917370" MODIFIED="1480990945458" TEXT="maven-dependency-plugin">
+<node CREATED="1480647132549" FOLDED="true" ID="ID_204917370" MODIFIED="1481163488431" TEXT="maven-dependency-plugin">
 <node CREATED="1480921735874" ID="ID_1386440820" MODIFIED="1480921789071">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2042,7 +2027,7 @@
 </node>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1481004244338" ID="ID_660988666" LINK="2016/12/&#x4f7f;&#x7528;maven&#x6784;&#x5efa;&#x57fa;&#x672c;&#x7684;web&#x9879;&#x76ee;&#x7ed3;&#x6784;.mht" MODIFIED="1481013066579" TEXT="maven&#x6784;&#x5efa;web&#x9879;&#x76ee;&#x7ed3;&#x6784;&#x89e3;&#x6790;"/>
 </node>
-<node CREATED="1479870829534" FOLDED="true" ID="ID_190608876" MODIFIED="1480990774914" POSITION="left" TEXT="maven&#x63d2;&#x4ef6;&#x67e5;&#x8be2;">
+<node CREATED="1479870829534" FOLDED="true" ID="ID_190608876" MODIFIED="1481163499887" POSITION="left" TEXT="maven&#x63d2;&#x4ef6;&#x67e5;&#x8be2;">
 <node CREATED="1479870838851" ID="ID_932756220" MODIFIED="1479870902830">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2064,5 +2049,40 @@
 </node>
 <node CREATED="1479956795597" ID="ID_317680857" MODIFIED="1479956819220" POSITION="left" TEXT="&#x5229;&#x7528;Anki&#x641e;&#x5b9a;git,maven,springmvc,elasticsearch&#x8bb0;&#x5fc6;&#x70b9;"/>
 <node CREATED="1480216324387" ID="ID_1357813463" MODIFIED="1480216331049" POSITION="right" TEXT="resin&#x76f8;&#x5173;"/>
+<node CREATED="1481081216834" ID="ID_1148212559" MODIFIED="1481081226264" POSITION="left" TEXT="elas&#x7684;&#x6570;&#x636e;&#x5b58;&#x50a8;">
+<node CREATED="1481081531890" ID="ID_403323399" MODIFIED="1481081688051" TEXT="elas&#x6570;&#x636e;&#x5185;&#x90e8;&#x5904;&#x7406;&#xff0c;&#x4e0d;&#x5b58;&#x5728;&#x6570;&#x7ec4;&#x7c7b;&#x578b;&#xff0c;&#x9ed8;&#x8ba4;&#x5c31;&#x662f;&#x6570;&#x7ec4;">
+<node CREATED="1481081560957" ID="ID_663140772" LINK="2016/12/Complex%20Core%20Field.mht" MODIFIED="1481081685339" TEXT="&#x641c;&#x7d22;&#x4e0d;&#x7cbe;&#x51c6;&#x7684;&#x95ee;&#x9898;"/>
+<node CREATED="1481081688053" ID="ID_169397626" LINK="2016/12/Nested%20Objects.mht" MODIFIED="1481081712737" TEXT="&#x901a;&#x8fc7;nested object&#x5b9e;&#x73b0;&#x7cbe;&#x51c6;&#x641c;&#x7d22;"/>
+</node>
+</node>
+<node CREATED="1481252112455" ID="ID_729713802" MODIFIED="1481587420272" POSITION="right" TEXT="&#x7ebf;&#x4e0a;&#x6392;&#x67e5;&#x8bed;&#x53e5;">
+<node CREATED="1481252122616" ID="ID_591929519" MODIFIED="1481252213900">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30331;&#20837;es&#21069;&#31471;&#26426;&#65292;&#29992;&#22914;&#19979;&#35821;&#21477;&#26597;&#35810;&#20855;&#20307;&#30340;&#24191;&#21578;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      curl http://shop...:9210/sh_adcenter_index/sh_ad_type/1
+    </p>
+    <p>
+      &#25110;&#32773;
+    </p>
+    <p>
+      curl http://shop...:9210/sh_adcenter_index/sh_ad_type/_search
+    </p>
+    <p>
+      &#26597;&#35810;&#25152;&#26377;&#24191;&#21578;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </map>

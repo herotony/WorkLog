@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1472694016229" ID="ID_1380030112" MODIFIED="1479989902767" TEXT="&#x652f;&#x4ed8;&#x7ec4;">
+<node CREATED="1472694016229" ID="ID_1380030112" MODIFIED="1481587421122" TEXT="&#x652f;&#x4ed8;&#x7ec4;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -55,11 +55,12 @@
       <font color="#ff0000">&#25214;&#21040;&#21407;&#22240;&#20102;&#65306;&#22791;&#27880;&#25110;&#32773;&#21482;&#35201;&#29992;&#21040;&#20102;html&#30340;&#22320;&#26041;&#19968;&#23450;&#19981;&#35201;&#29992;&#33521;&#25991;&#24341;&#21495;&#65292;&#20882;&#21495;&#31561;&#29305;&#27530;&#23383;&#31526;&#21543;&#65292;&#21542;&#21017;&#24517;&#23450;&#20081;&#30721;&#20102;&#12290;</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1472694078828" ID="ID_101371554" MODIFIED="1472694082632" POSITION="left" TEXT="mdtask">
 <node CREATED="1473066573935" ID="ID_175032134" MODIFIED="1473066580789" TEXT="&#x6570;&#x636e;&#x5e93;&#x5904;&#x7406;&#x6a21;&#x5f0f;"/>
 </node>
-<node BACKGROUND_COLOR="#66ff66" CREATED="1473734185522" FOLDED="true" ID="ID_47046362" MODIFIED="1476064889439" POSITION="right" TEXT="&#x65b9;&#x5f0f;&#x65b9;&#x6cd5;">
+<node BACKGROUND_COLOR="#66ff66" CREATED="1473734185522" FOLDED="true" ID="ID_47046362" MODIFIED="1481162754920" POSITION="right" TEXT="&#x65b9;&#x5f0f;&#x65b9;&#x6cd5;">
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1473734197680" ID="ID_17049138" MODIFIED="1473734248675">
 <richcontent TYPE="NODE"><html>
@@ -98,9 +99,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1472694040313" FOLDED="true" ID="ID_589861280" MODIFIED="1480989503757" POSITION="right" TEXT="mdpaygate">
+<node CREATED="1472694040313" FOLDED="true" ID="ID_589861280" MODIFIED="1481162767105" POSITION="right" TEXT="mdpaygate">
 <node CREATED="1473066573935" ID="ID_1020199487" MODIFIED="1473066580789" TEXT="&#x6570;&#x636e;&#x5e93;&#x5904;&#x7406;&#x6a21;&#x5f0f;"/>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1473299914657" ID="ID_1223111739" MODIFIED="1475029831030">
+<node BACKGROUND_COLOR="#99ff99" CREATED="1473299914657" FOLDED="true" ID="ID_1223111739" MODIFIED="1481162764464">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -264,7 +265,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473643212402" FOLDED="true" ID="ID_1277502724" MODIFIED="1480989502749" TEXT="spring bean xml&#x914d;&#x7f6e;">
+<node CREATED="1473643212402" FOLDED="true" ID="ID_1277502724" MODIFIED="1481162763384" TEXT="spring bean xml&#x914d;&#x7f6e;">
 <node CREATED="1473643225824" ID="ID_73378328" MODIFIED="1475029831084" TEXT="mdpaygate-dubbo.xml">
 <node CREATED="1473643271319" ID="ID_1453519399" MODIFIED="1473643372705">
 <richcontent TYPE="NODE"><html>
@@ -349,8 +350,8 @@
 <node CREATED="1472694045163" ID="ID_1130587513" MODIFIED="1472694053721" POSITION="left" TEXT="mdtradecenter">
 <node CREATED="1473066573935" ID="ID_493780406" MODIFIED="1473066580789" TEXT="&#x6570;&#x636e;&#x5e93;&#x5904;&#x7406;&#x6a21;&#x5f0f;"/>
 </node>
-<node CREATED="1473237168608" ID="ID_29738871" MODIFIED="1475030743923" POSITION="right" TEXT="&#x652f;&#x4ed8;&#x6d41;&#x7a0b;">
-<node CREATED="1473835794197" FOLDED="true" ID="ID_269882459" MODIFIED="1476064903926" TEXT="5&#x6b65;">
+<node CREATED="1473237168608" FOLDED="true" ID="ID_29738871" MODIFIED="1481162853424" POSITION="right" TEXT="&#x652f;&#x4ed8;&#x6d41;&#x7a0b;">
+<node CREATED="1473835794197" FOLDED="true" ID="ID_269882459" MODIFIED="1481162774424" TEXT="5&#x6b65;">
 <node CREATED="1473237176756" ID="ID_344807398" MODIFIED="1473835815590">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -407,7 +408,7 @@
 <node CREATED="1473321404676" ID="ID_848742019" MODIFIED="1473321412252" TEXT="paycallback.do"/>
 </node>
 </node>
-<node CREATED="1473835826658" FOLDED="true" ID="ID_777148863" MODIFIED="1480989496221" TEXT="&#x8be6;&#x7ec6;&#x8bf4;&#x660e;">
+<node CREATED="1473835826658" FOLDED="true" ID="ID_777148863" MODIFIED="1481162786649" TEXT="&#x8be6;&#x7ec6;&#x8bf4;&#x660e;">
 <node CREATED="1473835858709" ID="ID_1214891478" MODIFIED="1476068116544">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -435,7 +436,7 @@
 </node>
 <node CREATED="1473836205316" ID="ID_1220567706" MODIFIED="1473836211662" TEXT="/wftcreate.do"/>
 </node>
-<node CREATED="1473836610870" FOLDED="true" ID="ID_174701000" MODIFIED="1476068160709">
+<node CREATED="1473836610870" ID="ID_174701000" MODIFIED="1481162781044">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -447,7 +448,7 @@
   </body>
 </html></richcontent>
 <node CREATED="1473836621753" ID="ID_826244738" MODIFIED="1476068157936" TEXT="ShOrderCreateParam">
-<node CREATED="1473837155000" FOLDED="true" ID="ID_671134209" MODIFIED="1476066328084" TEXT="payType ">
+<node CREATED="1473837155000" FOLDED="true" ID="ID_671134209" MODIFIED="1481162784393" TEXT="payType ">
 <node CREATED="1473837168036" ID="ID_1138412187" MODIFIED="1473837182121" TEXT="0 , &#x4e0d;&#x7528;&#x7b2c;&#x4e09;&#x65b9;&#x652f;&#x4ed8;"/>
 <node CREATED="1473837183953" ID="ID_1027042987" MODIFIED="1473837195416" TEXT="1&#xff0c;&#x652f;&#x4ed8;&#x5b9d;&#x7f51;&#x9875;&#x652f;&#x4ed8;"/>
 <node CREATED="1473837197145" ID="ID_1197850042" MODIFIED="1473837203778" TEXT="2&#xff0c;&#x652f;&#x4ed8;&#x5b9d;&#x94b1;&#x5305;&#x652f;&#x4ed8;"/>
@@ -476,9 +477,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1476067211508" FOLDED="true" ID="ID_1054888844" MODIFIED="1480989493853" TEXT="2016.10.10 restart...">
+<node CREATED="1476067211508" ID="ID_1054888844" MODIFIED="1481162787584" TEXT="2016.10.10 restart...">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
-<node CREATED="1476067229031" FOLDED="true" ID="ID_611800187" MODIFIED="1476928370928">
+<node CREATED="1476067229031" FOLDED="true" ID="ID_611800187" MODIFIED="1481162851352">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -543,7 +544,7 @@
 </html></richcontent>
 </node>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1476069204359" ID="ID_1665307384" MODIFIED="1476069266428" TEXT="&#x5176;&#x4f59;&#x7684;&#x7528;&#x4e4b;&#x524d;&#x7684;&#x6574;&#x7406;&#x53ef;&#x7528;ctrl+f&#x6765;&#x67e5;">
-<node CREATED="1473836256883" FOLDED="true" ID="ID_289967887" MODIFIED="1476928369216">
+<node CREATED="1473836256883" FOLDED="true" ID="ID_289967887" MODIFIED="1481162849194">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -615,7 +616,7 @@
   </body>
 </html></richcontent>
 <node CREATED="1474270103625" ID="ID_797375467" MODIFIED="1476238282922" TEXT="OrderGenerateServiceImpl">
-<node CREATED="1473839398965" FOLDED="true" ID="ID_453502703" MODIFIED="1476927634935">
+<node CREATED="1473839398965" ID="ID_453502703" MODIFIED="1481162831690">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2227,8 +2228,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1476067932313" FOLDED="true" ID="ID_1029663343" MODIFIED="1476067961862" TEXT="&#x53c2;&#x6570;&#x5bf9;&#x8c61;">
-<node CREATED="1476067921229" FOLDED="true" ID="ID_1544122475" MODIFIED="1476067958950" TEXT="shOrderCreateParam">
+<node CREATED="1476067932313" FOLDED="true" ID="ID_1029663343" MODIFIED="1481162798736" TEXT="&#x53c2;&#x6570;&#x5bf9;&#x8c61;">
+<node CREATED="1476067921229" ID="ID_1544122475" MODIFIED="1481162794809" TEXT="shOrderCreateParam">
 <node CREATED="1476067944680" ID="ID_344495042" MODIFIED="1476067953776">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2374,7 +2375,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473239392163" FOLDED="true" ID="ID_1614984069" MODIFIED="1476064914555" POSITION="right" TEXT="&#x6389;&#x5355;&#x539f;&#x56e0;">
+<node CREATED="1473239392163" FOLDED="true" ID="ID_1614984069" MODIFIED="1481162889648" POSITION="right" TEXT="&#x6389;&#x5355;&#x539f;&#x56e0;">
 <node CREATED="1473642682149" ID="ID_359865984" MODIFIED="1475029831429" TEXT="&#x652f;&#x4ed8;&#x5b9d;">
 <node CREATED="1473318673560" ID="ID_130624948" MODIFIED="1473318715281">
 <richcontent TYPE="NODE"><html>
@@ -2435,7 +2436,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473660030276" FOLDED="true" ID="ID_421232651" MODIFIED="1475030016120" POSITION="right" TEXT="other">
+<node CREATED="1473660030276" FOLDED="true" ID="ID_421232651" MODIFIED="1481162912488" POSITION="right" TEXT="other">
 <node CREATED="1473660039127" ID="ID_1634373046" MODIFIED="1475029831546">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3177,7 +3178,7 @@
 <node CREATED="1473664223198" ID="ID_1290270550" MODIFIED="1473664260009" TEXT="Java&#x65b9;&#x6cd5;&#x7684;final&#x53c2;&#x6570;&#xff0c;&#x5bf9;&#x4e8e;&#x5f15;&#x7528;&#x7c7b;&#x578b;&#xff0c;&#x5c31;&#x662f;&#x4e0d;&#x80fd;&#x518d;&#x5728;&#x65b9;&#x6cd5;&#x5185;&#x90e8;&#x91cd;&#x65b0;new&#x5b9e;&#x4f8b;"/>
 <node CREATED="1474332218368" ID="ID_1928482105" LINK="2016/09/jedis-8-invoke-method.mht" MODIFIED="1474332358983" TEXT="jedis&#x7684;&#x516b;&#x79cd;&#x8c03;&#x7528;&#x65b9;&#x5f0f;"/>
 </node>
-<node CREATED="1473819319799" FOLDED="true" ID="ID_23633334" MODIFIED="1475030152008" POSITION="right" TEXT="&#x538b;&#x6d4b;sql&#x8bed;&#x53e5;">
+<node CREATED="1473819319799" FOLDED="true" ID="ID_23633334" MODIFIED="1481162388243" POSITION="right" TEXT="&#x538b;&#x6d4b;sql&#x8bed;&#x53e5;">
 <node CREATED="1473819342506" ID="ID_1389751221" MODIFIED="1475030141821" TEXT="select ">
 <node CREATED="1473819351428" ID="ID_1236876261" MODIFIED="1473819357409" TEXT="&#x7ebf;&#x4e0a;&#x7cfb;&#x7edf;">
 <node CREATED="1473819475897" FOLDED="true" ID="ID_1912710726" MODIFIED="1475030144776" TEXT="1">
@@ -3829,7 +3830,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473649150839" FOLDED="true" ID="ID_292738889" MODIFIED="1476927609902" POSITION="left">
+<node CREATED="1473649150839" FOLDED="true" ID="ID_292738889" MODIFIED="1481162876424" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4110,7 +4111,7 @@
 </node>
 </node>
 <node CREATED="1478159577813" ID="ID_371018964" MODIFIED="1478159584875" POSITION="right" TEXT="&#x53c2;&#x4e0e;&#x9879;&#x76ee;">
-<node CREATED="1478159589398" FOLDED="true" ID="ID_1332068764" MODIFIED="1479785572753" TEXT="&#x591a;&#x4e3b;&#x4f53;&#x9879;&#x76ee;">
+<node CREATED="1478159589398" FOLDED="true" ID="ID_1332068764" MODIFIED="1481173976111" TEXT="&#x591a;&#x4e3b;&#x4f53;&#x9879;&#x76ee;">
 <node CREATED="1478159625048" FOLDED="true" ID="ID_82831550" MODIFIED="1478160782273" TEXT="&#x63cf;&#x8ff0;">
 <node CREATED="1478159634675" ID="ID_1980859081" MODIFIED="1478160038089">
 <richcontent TYPE="NODE"><html>
@@ -4175,8 +4176,8 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1478161688685" FOLDED="true" ID="ID_1038806141" MODIFIED="1478567941524" TEXT="tradePayNotify">
-<node CREATED="1478162105190" FOLDED="true" ID="ID_1761325085" MODIFIED="1478567938954" TEXT="&#x91c7;&#x7528;&#x4e3b;&#x7ad9;&#x901a;&#x7528;&#x6a21;&#x677f;&#x5904;&#x7406;exeInTransaction&#x6570;&#x636e;&#x5e93;&#x5904;&#x7406;">
+<node CREATED="1478161688685" ID="ID_1038806141" MODIFIED="1481173953344" TEXT="tradePayNotify">
+<node CREATED="1478162105190" ID="ID_1761325085" MODIFIED="1481173957400" TEXT="&#x91c7;&#x7528;&#x4e3b;&#x7ad9;&#x901a;&#x7528;&#x6a21;&#x677f;&#x5904;&#x7406;exeInTransaction&#x6570;&#x636e;&#x5e93;&#x5904;&#x7406;">
 <node CREATED="1478162149443" ID="ID_360429000" MODIFIED="1478223985698">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4237,6 +4238,618 @@
   </body>
 </html></richcontent>
 <node CREATED="1478223609821" ID="ID_1626432383" LINK="https://pay.weixin.qq.com/wiki/doc/api/jsapi_sl.php?chapter=9_7" MODIFIED="1478223635257" TEXT="&#x56de;&#x8c03;&#x901a;&#x77e5;"/>
+</node>
+</node>
+<node CREATED="1481173686606" ID="ID_1826920491" MODIFIED="1481253194080">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22810;&#32447;&#31243;&#29616;&#22312;&#25903;&#20184;&#19994;&#21153;&#26597;&#35810;&#26381;&#21153;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1481177011914" FOLDED="true" ID="ID_621032951" MODIFIED="1481253207119" TEXT="linux&#x4f53;&#x7cfb;&#x4e0b;&#x7684;&#x670d;&#x52a1;&#x542f;&#x52a8;&#x811a;&#x672c;">
+<node CREATED="1481177034280" ID="ID_1753536893" MODIFIED="1481177039222" TEXT="example">
+<node CREATED="1481177060944" FOLDED="true" ID="ID_413988658" MODIFIED="1481191450817">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21551;&#21160;&#33050;&#26412;<b><font color="#9900ff">start.sh</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1481177188373" ID="ID_1604457155" MODIFIED="1481177516374">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      <b>#! /bin/bash</b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;
+    </p>
+    <p>
+      <b><font color="#009966">PATH</font>=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin &#160;</b>
+    </p>
+    <p>
+      <b><font color="#9900ff">CARRIER_HOME</font>=/home/dist/carrier&#160; </b>
+    </p>
+    <p>
+      <b>export <font color="#006666">JAVA_HOME</font>=/usr/jdk1.6&#160; </b>
+    </p>
+    <p>
+      <b>export <font color="#009966">PATH</font>=&quot;$JAVA_HOME/bin:$PATH&quot;&#160; </b>
+    </p>
+    <p>
+      <b><font color="#ff0000">java</font>&#160;<font color="#00cc33">-server</font>&#160;<font color="#9900ff">-cp</font>&#160; $CARRIER_HOME/site/master/rest/dependency/ </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#00cc33">-jar</font>&#160; $CARRIER_HOME/site/master/rest/master-1.0.jar &amp;&#160; </b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1481177086547" FOLDED="true" ID="ID_777565530" MODIFIED="1481248138297">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009966">service.sh</font></b>&#33050;&#26412;&#65292;&#29992;&#26469;&#24320;&#26426;&#21551;&#21160;<b><font color="#9900ff">start.sh</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node BACKGROUND_COLOR="#ffffcc" COLOR="#000000" CREATED="1481177714303" ID="ID_988944064" MODIFIED="1481177947277">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # Short-Description: master&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      # Description: master rest service&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      ### END INIT INFO&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;
+    </p>
+    <p>
+      <b><font color="#ff0000">./lib/lsb/init-functions</font></b><font color="#ff0000">&#160;</font>
+    </p>
+    <p>
+      &#160;&#160;
+    </p>
+    <p>
+      <b><font color="#006666">PATH</font></b>=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin&#160;
+    </p>
+    <p>
+      <b><font color="#9900ff">CARRIER_HOME</font></b>=/home/dist/carrier&#160;
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      case &quot;$1&quot; in&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;start)&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;<b><font color="#0000cc">log_begin_msg</font></b>&#160;&quot;Starting master rest server&quot;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;<b><font color="#cc33ff">/bin/bash</font></b>&#160;<b><font color="#9900ff">$CARRIER_HOME</font>/scripts/start.sh</b>&#160; &gt;/dev/null 2&gt;&amp;1&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;<b><font color="#0000cc">log_end_msg</font></b>&#160;0&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;;;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;stop)&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;<b><font color="#009999">PID=`ps -ef | grep 'master-1.0.jar' | grep -v grep | awk '{print $2}'`&#160;</font></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;<b><font color="#0000cc">log_begin_msg </font></b>&quot;Stopping master rest server&quot;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;if [ ! -z &quot;$PID&quot; ]; then&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;<b><font color="#ff0000">kill -15 $PID&#160;</font></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;fi&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;<b><font color="#0000cc">log_end_msg</font></b>&#160;0&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;;;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;restart)&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;$0 stop&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;$0 start&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;;;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;*)&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;<b><font color="#0000cc">log_success_msg</font></b>&#160;&quot;Usage: service master_rest {start|stop|restart}&quot; &#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;exit 1&#160;
+    </p>
+    <p>
+      esac&#160;
+    </p>
+    <p>
+      &#160;&#160;
+    </p>
+    <p>
+      exit 0&#160;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1481181000293" ID="ID_1279974083" MODIFIED="1481188493412" TEXT="redhat&#x4f53;&#x7cfb;&#x4e0b;&#x7684;">
+<node CREATED="1481181359881" ID="ID_1085627355" MODIFIED="1481248140879" TEXT="&#x94fe;&#x63a5;">
+<node CREATED="1481181341127" FOLDED="true" ID="ID_495389106" MODIFIED="1481248153336">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000cc">&#36719;&#38142;&#25509;(&#31526;&#21495;&#38142;&#25509;,</font><font color="#00cc33">ln&#160;</font></b><font color="#00cc33">l</font><font color="#0000cc">i</font><font color="#00cc33">n</font><font color="#0000cc">k<b>&#32553;&#20889;&#21543;)</b></font>: <b><font color="#00cc33">ln -s </font></b>&#21019;&#24314;&#30340;&#38142;&#25509;(<b><font color="#00cc33">-s software?</font></b>)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20363;&#22914;: <b>ln -s /bin/bash&#160; <font color="#006666">sh</font></b><font color="#006666">,</font>&#23601;&#21019;&#24314;&#20102;<b>&#36719;&#38142;&#25509; <font color="#006666">sh</font></b><font color="#006666">&#160;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1481185439646" ID="ID_135016446" MODIFIED="1481185506908">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(0, 0, 0)" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#21478;&#22806;&#19968;&#31181;&#36830;&#25509;&#31216;&#20043;&#20026;&#31526;&#21495;&#36830;&#25509;&#65288;Symbolic Link&#65289;&#65292;&#20063;&#21483;&#36719;&#36830;&#25509;&#12290;<b>&#36719;&#38142;&#25509;&#25991;&#20214;&#26377;</b></font><b><font color="#9900ff" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#31867;&#20284;&#20110;Windows&#30340;&#24555;&#25463;&#26041;&#24335;</font><font color="rgb(0, 0, 0)" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#12290;&#23427;&#23454;&#38469;&#19978;&#26159;&#19968;&#20010;&#29305;&#27530;&#30340;&#25991;&#20214;</font></b><font color="rgb(0, 0, 0)" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#12290;&#22312;</font><font color="#009966" face="Verdana, Arial, Helvetica, sans-serif" size="14px"><b>&#31526;&#21495;&#36830;&#25509;&#20013;&#65292;&#25991;&#20214;&#23454;&#38469;&#19978;&#26159;&#19968;&#20010;</b></font><b><font color="#9900ff" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#25991;&#26412;&#25991;&#20214;</font><font color="#009966" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#65292;&#20854;&#20013;&#21253;&#21547;&#30340;&#26377;&#21478;&#19968;&#25991;&#20214;&#30340;</font><font color="#9900ff" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#20301;&#32622;&#20449;&#24687;</font><font color="#009966" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#12290;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1481181351016" FOLDED="true" ID="ID_1433482072" MODIFIED="1481248160080">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000cc">&#30828;&#38142;&#25509;</font></b>:<b><font color="#006666">ln</font>&#160;</b>&#21019;&#24314;&#30340;&#38142;&#25509;(<b><font color="#ff0000">&#19981;&#24102;</font><font color="#00cc33">-s</font>&#21442;&#25968;</b>&#30340;&#23601;&#26159;<b>&#30828;&#38142;&#25509;</b>)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#009999">&#19968;&#33324;&#35201;&#27714;&#24517;&#39035;&#26377;sudo,&#20134;&#21363;root&#26435;&#38480;&#25165;&#33021;&#35774;&#32622;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1481185309700" ID="ID_510323078" MODIFIED="1481185404356">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(0, 0, 0)" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#30828;&#36830;&#25509;&#25351;&#36890;&#36807;&#32034;&#24341;&#33410;&#28857;&#26469;&#36827;&#34892;&#36830;&#25509;&#12290;&#22312;Linux&#30340;&#25991;&#20214;&#31995;&#32479;&#20013;&#65292;&#20445;&#23384;&#22312;&#30913;&#30424;&#20998;&#21306;&#20013;&#30340;&#25991;&#20214;&#19981;&#31649;&#26159;&#20160;&#20040;&#31867;&#22411;&#37117;&#32473;&#23427;&#20998;&#37197;&#19968;&#20010;&#32534;&#21495;&#65292;&#31216;&#20026;&#32034;&#24341;&#33410;&#28857;&#21495;(Inode Index)&#12290;&#22312;Linux&#20013;&#65292;&#22810;&#20010;&#25991;&#20214;&#21517;&#25351;&#21521;&#21516;&#19968;&#32034;&#24341;&#33410;&#28857;&#26159;&#23384;&#22312;&#30340;&#12290;&#19968;&#33324;&#36825;&#31181;&#36830;&#25509;&#23601;&#26159;&#30828;&#36830;&#25509;&#12290;<b>&#30828;&#36830;&#25509;&#30340;&#20316;&#29992;&#26159;&#20801;&#35768;&#19968;&#20010;&#25991;&#20214;&#25317;&#26377;&#22810;&#20010;&#26377;&#25928;&#36335;&#24452;&#21517;&#65292;&#36825;&#26679;&#29992;&#25143;&#23601;&#21487;&#20197;&#24314;&#31435;&#30828;&#36830;&#25509;&#21040;&#37325;&#35201;&#25991;&#20214;&#65292;</b></font><b><font color="#009966" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#20197;&#38450;&#27490;</font><font color="#ff0000" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#8220;&#35823;&#21024;&#8221;</font><font color="#009966" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#30340;&#21151;&#33021;</font><font color="rgb(0, 0, 0)" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#12290;</font></b><font color="rgb(0, 0, 0)" face="Verdana, Arial, Helvetica, sans-serif" size="14px">&#20854;&#21407;&#22240;&#22914;&#19978;&#25152;&#36848;&#65292;&#22240;&#20026;&#23545;&#24212;&#35813;&#30446;&#24405;&#30340;&#32034;&#24341;&#33410;&#28857;&#26377;&#19968;&#20010;&#20197;&#19978;&#30340;&#36830;&#25509;&#12290;&#21482;&#21024;&#38500;&#19968;&#20010;&#36830;&#25509;&#24182;&#19981;&#24433;&#21709;&#32034;&#24341;&#33410;&#28857;&#26412;&#36523;&#21644;&#20854;&#23427;&#30340;&#36830;&#25509;(</font><font color="#9900ff" face="Verdana, Arial, Helvetica, sans-serif" size="14px"><b>&#21482;&#26159;&#20943;&#23569;&#24341;&#29992;&#27425;&#25968;</b></font><font color="rgb(0, 0, 0)" face="Verdana, Arial, Helvetica, sans-serif" size="14px">)&#65292;&#21482;&#26377;&#24403;&#26368;&#21518;&#19968;&#20010;&#36830;&#25509;&#34987;&#21024;&#38500;&#21518;&#65292;&#25991;&#20214;&#30340;&#25968;&#25454;&#22359;&#21450;&#30446;&#24405;&#30340;&#36830;&#25509;&#25165;&#20250;&#34987;&#37322;&#25918;&#12290;&#20063;&#23601;&#26159;&#35828;&#65292;&#25991;&#20214;&#30495;&#27491;&#21024;&#38500;&#30340;&#26465;&#20214;&#26159;&#19982;&#20043;&#30456;&#20851;&#30340;&#25152;&#26377;&#30828;&#36830;&#25509;&#25991;&#20214;&#22343;&#34987;&#21024;&#38500;&#12290;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1481185868470" FOLDED="true" ID="ID_594575583" MODIFIED="1481248169553">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#9900ff">&#20030;&#20363;&#21152;&#28145;&#29702;&#35299;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="messagebox_warning"/>
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1481185883600" ID="ID_581854674" MODIFIED="1481186229423">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top: 10px; margin-bottom: 10px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-indent: 0px; color: rgb(0, 0, 0); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; text-align: left; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      &#36890;&#36807;&#23454;&#39564;&#21152;&#28145;&#29702;&#35299;
+    </p>
+    <p style="margin-top: 10px; margin-bottom: 10px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-indent: 0px; color: rgb(0, 0, 0); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; text-align: left; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />
+      [oracle@Linux]$ touch f1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#21019;&#24314;&#19968;&#20010;<font color="#009999">&#27979;&#35797;&#25991;&#20214;f1</font><br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />[oracle@Linux]$ <b><font color="#0000cc">ln</font></b>&#160;f1 f2&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#21019;&#24314;f1&#30340;&#19968;&#20010;<font color="#0000cc">&#30828;&#36830;&#25509;&#25991;&#20214;f2</font><br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />[oracle@Linux]$ <b><font color="#00cc33">ln -s</font></b>&#160;f1 f3&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#&#21019;&#24314;f1&#30340;&#19968;&#20010;<font color="#9900ff">&#31526;&#21495;&#36830;&#25509;&#25991;&#20214;f3</font><br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />[oracle@Linux]$<b><font color="#006666">&#160;ls -li&#160;&#160;&#160;&#160;&#160;</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#<b>&#160;-i&#21442;&#25968;&#26174;&#31034;&#25991;&#20214;&#30340;inode&#33410;&#28857;&#20449;&#24687; </b>
+    </p>
+    <p style="margin-top: 10px; margin-bottom: 10px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-indent: 0px; color: rgb(0, 0, 0); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; text-align: left; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />
+      total 0<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />9797648 -rw-r--r--&#160;&#160;2 oracle oinstall 0 Apr 21 08:11 f1<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />9797648 -rw-r--r--&#160;&#160;2 oracle oinstall 0 Apr 21 08:11 f2<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />9797649 lrwxrwxrwx&#160;&#160;1 oracle oinstall 2 Apr 21 08:11 f3 -&gt; f1
+    </p>
+    <p style="margin-top: 10px; margin-bottom: 10px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-indent: 0px; color: rgb(0, 0, 0); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; text-align: left; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      &#20174;&#19978;&#38754;&#30340;&#32467;&#26524;&#20013;&#21487;&#20197;&#30475;&#20986;&#65292;&#30828;&#36830;&#25509;&#25991;&#20214;f2&#19982;&#21407;&#25991;&#20214;f1&#30340;inode&#33410;&#28857;&#30456;&#21516;&#65292;&#22343;&#20026;9797648&#65292;&#28982;&#32780;&#31526;&#21495;&#36830;&#25509;&#25991;&#20214;&#30340;inode&#33410;&#28857;&#19981;&#21516;&#12290;
+    </p>
+    <p style="margin-top: 10px; margin-bottom: 10px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-indent: 0px; color: rgb(0, 0, 0); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; text-align: left; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      [oracle@Linux]$ echo &quot;I am f1 file&quot; &gt;&gt;f1<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />[oracle@Linux]$ cat f1<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />I am f1 file<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />[oracle@Linux]$ cat f2<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />I am f1 file<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />[oracle@Linux]$ cat f3<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />I am f1 file<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />[oracle@Linux]$<b><font color="#ff0000">&#160;rm -f f1</font></b><br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />[oracle@Linux]$ <font color="#0000cc">cat f2 (</font><font color="#9900ff"><b>&#23545;&#24212;&#30340;inode&#36824;&#22312;</b></font><font color="#0000cc">,&#30828;&#38142;&#25509;&#22043;,&#21482;&#26159;&#20943;&#23569;&#20102;&#24341;&#29992;&#27425;&#25968;)</font><br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />I am f1 file<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />[oracle@Linux]$ <b><font color="#009966">cat f3</font></b><br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />cat: f3: No such file or directory
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1481187310469" ID="ID_976726003" MODIFIED="1481187490242">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20174;ls li&#20013;&#21487;&#30475;&#21040;,&#20961;&#26159;<b><font color="#00cc33">&#24102; </font><font color="#0000cc">-&gt; </font><font color="#00cc33">&#37117;&#26159;&#36719;&#38142;&#25509;</font></b>,&#21542;&#21017;&#26159;<b><font color="#006666">&#30828;&#38142;&#25509;</font></b>,
+    </p>
+    <p>
+      &#25152;&#20197;,&#30828;&#38142;&#25509;&#26377;&#20010;&#40635;&#28902;&#20043;&#22788;, &#20320;&#35201;<b><font color="#006666">&#35760;&#19979;inode&#20540;</font></b>,&#21542;&#21017;,&#20320;&#26080;&#27861;&#30830;&#35748;&#26159;&#21542;&#21024;&#24178;&#20928;&#20102;,&#32780;&#36719;&#38142;&#25509;&#21017;&#27809;&#36825;&#38382;&#39064;.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1481182737995" FOLDED="true" ID="ID_1087566627" MODIFIED="1481248172848">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      linux&#20013;&#30340;&#25991;&#20214;&#31995;&#32479;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1481182748384" ID="ID_1202755394" MODIFIED="1481183188283">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        linux&#25991;&#20214;&#31995;&#32479;&#22522;<font color="#000000">&#20110;</font><b><font color="#0000cc">inode&#25991;&#20214;&#31995;&#32479;</font></b>
+      </li>
+      <li>
+        &#27599;&#20010;&#26032;&#24314;&#25991;&#20214;&#20998;&#37197;&#19968;&#20010;inode
+      </li>
+      <li>
+        inode&#26159;&#19968;&#20010;&#25351;&#38024;,&#25351;&#21521;&#30913;&#30424;&#20855;&#20307;&#30340;&#29289;&#29702;&#20301;&#32622;,inode&#33410;&#28857;&#36824;&#20445;&#23384;&#25991;&#20214;&#23646;&#24615;&#20449;&#24687;
+      </li>
+      <li>
+        &#31995;&#32479;<b><font color="#ff0000">&#36890;&#36807;inode&#23450;&#20301;&#25991;&#20214;,&#32780;&#19981;&#26159;&#25991;&#20214;&#21517;</font></b>
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1481181402896" FOLDED="true" ID="ID_1827680691" MODIFIED="1481190457508" TEXT="7&#x4e2a;&#x8fd0;&#x884c;&#x7ea7;&#x522b;">
+<node CREATED="1481181410633" ID="ID_543987913" MODIFIED="1481183421440">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      0 &#20851;&#38381;(&#25110;&#20572;&#27490;)&#31995;&#32479;&#26381;&#21153;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1481181410633" ID="ID_1101167383" MODIFIED="1481183576440">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1 <b><font color="#9900ff">&#21333;&#29992;&#25143;&#27169;&#24335;</font></b>,&#36890;&#24120;&#20026;s &#25110; S (single?)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1481181410633" ID="ID_1468954290" MODIFIED="1481183466518">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2&#160; <i><b><font color="#ff0000">&#27809;&#26377;&#32852;&#32593;</font></b></i>&#30340;<b><font color="#009966">&#22810;&#29992;&#25143;</font></b>&#27169;&#24335;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1481181410633" ID="ID_491543900" MODIFIED="1481190388014">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3 <font color="#00cc33"><b>&#32852;&#32593;</b></font>&#30340;<font color="#009966"><b>&#22810;&#29992;&#25143;</b></font>&#27169;&#24335; <b>(centos&#40664;&#35748;&#36816;&#34892;&#32423;&#21035;)</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1481181410633" ID="ID_730371302" MODIFIED="1481190444293">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4 &#36817;&#20046;&#31561;&#21516;&#20110;&#36816;&#34892;&#32423;&#21035;3,&#20294;&#21487;&#20197;user-defined&#37096;&#20998;&#21442;&#25968;&#21543;,&#26497;&#23569;&#29992;&#21040;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1481181410633" ID="ID_147848608" MODIFIED="1481183561633">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      5 <b><font color="#00cc33">&#32852;&#32593;</font></b>&#19988;&#20351;&#29992;<b><font color="#0000cc">X windows&#31995;&#32479;</font></b>&#30340;<b><font color="#006666">&#22810;&#29992;&#25143;</font></b>&#27169;&#24335;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1481181410633" ID="ID_1683852872" MODIFIED="1481183414680">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      6 &#37325;&#21551;&#31995;&#32479;&#26381;&#21153;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1481188493413" ID="ID_1195079326" MODIFIED="1481188516299" TEXT="&#x4ecd;&#x7136;&#x53ef;&#x7528;&#x7684;centos 6.X&#x7cfb;&#x5217;"/>
+</node>
+</node>
+<node CREATED="1481253194083" ID="ID_691900959" MODIFIED="1481502521717" TEXT="&#x73b0;&#x5728;&#x652f;&#x4ed8;&#x73b0;&#x6709;&#x67e5;&#x8be2;&#x4f53;&#x7cfb;&#x6574;&#x7406;">
+<node CREATED="1481253214076" ID="ID_1370582259" MODIFIED="1481263323326">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;<b><font color="#003333">JobCenter</font></b>&#25191;&#34892;<b><font color="#990000">NowpayscanpayQueryTask.run</font></b>&#26469;&#26597;&#35810;&#29616;&#22312;&#25903;&#20184;&#25509;&#21475;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1481253355292" FOLDED="true" ID="ID_982731569" MODIFIED="1481273059829">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27969;&#31243;
+    </p>
+    <ul>
+      <li>
+        &#25968;&#25454;&#24211;&#25552;&#21462;&#24453;&#26597;&#35810;&#35746;&#21333;&#25968;&#25454;
+      </li>
+      <li>
+        &#24490;&#29615;&#36941;&#21382;&#24102;&#26597;&#35810;&#35746;&#21333;
+
+        <ul>
+          <li>
+            &#21462;redis&#38145;(&#27809;&#24517;&#35201;)
+          </li>
+          <li>
+            &#35775;&#38382;&#25509;&#21475;&#33719;&#21462;&#26597;&#35810;&#32467;&#26524;
+          </li>
+          <li>
+            &#22788;&#29702;&#36820;&#22238;&#26597;&#35810;&#32467;&#26500;
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1481263334378" ID="ID_631885841" MODIFIED="1481263342252" TEXT="&#x63d0;&#x53d6;&#x5e26;&#x67e5;&#x8be2;&#x8ba2;&#x5355;&#x6570;&#x636e;">
+<node CREATED="1481267313441" ID="ID_786545413" MODIFIED="1481267325465" TEXT="queryUserPayingOrders()">
+<node CREATED="1481269506057" ID="ID_811467523" MODIFIED="1481269515758" TEXT="TradePayDO"/>
+</node>
+</node>
+<node CREATED="1481263343754" ID="ID_1570061889" MODIFIED="1481263352378" TEXT="&#x5904;&#x7406;&#x8fd4;&#x56de;&#x67e5;&#x8be2;&#x7ed3;&#x679c;">
+<node CREATED="1481267335438" ID="ID_1711465391" MODIFIED="1481271781316">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      processNowpayscanpayResult
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mdpaygate.service<font color="#006600">.<b>impl.TradeServiceImpl</b></font>.<b><font color="#009999">processNowpayscanpayResult</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1481269569291" ID="ID_500667715" MODIFIED="1481269943624" TEXT="tradeDomainRepository.storageUpdateTradeDomain"/>
+<node CREATED="1481269991845" ID="ID_1713963508" MODIFIED="1481269997936" TEXT="addQueue"/>
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1481271781317" ID="ID_1917515358" MODIFIED="1481272074270">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">responseCode</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1481271788071" ID="ID_790049909" MODIFIED="1481271796532" TEXT="A001">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1481271798166" ID="ID_1124829313" MODIFIED="1481272054214">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009999">transStatus</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1481271811972" ID="ID_767442063" MODIFIED="1481271815396" TEXT="A001"/>
+<node CREATED="1481271991269" ID="ID_947257596" MODIFIED="1481272032420" TEXT="else if [A003,A004,A00I] ... &#x5565;&#x4e5f;&#x4e0d;&#x505a;&#x5f85;&#x4e0b;&#x6b21;&#x5904;&#x7406;"/>
+<node CREATED="1481272111491" ID="ID_261472471" MODIFIED="1481272191914">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      else update&#160;<b><font color="#990000">trade/tradeinfo</font></b>&#20004;&#24352;&#34920;&#20851;&#38381;&#35746;&#21333;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1481271916142" ID="ID_1547756831" MODIFIED="1481271932540" TEXT="else ... &#x5565;&#x4e5f;&#x4e0d;&#x505a;&#x5f85;&#x4e0b;&#x6b21;&#x5904;&#x7406;"/>
+</node>
+</node>
+</node>
+<node CREATED="1481273035198" ID="ID_233161587" MODIFIED="1481273060825" TEXT="&#x6682;&#x65f6;&#x4e0d;&#x9700;&#x8981;&#x6574;&#x7406;&#xff0c;&#x53ea;&#x9700;&#x8981;&#x4fee;&#x6539;&#x8bbf;&#x95ee;&#x63a5;&#x53e3;&#x90e8;&#x5206;&#x3002;"/>
+</node>
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1481272732339" ID="ID_1384988034" MODIFIED="1481275104911">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff3333">&#32771;&#34385;&#20462;&#25913;&#27969;&#31243;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1481275113037" FOLDED="true" ID="ID_1867519380" MODIFIED="1481502525623" TEXT="&#x66fe;&#x7ecf;&#x60f3;&#x6cd5;">
+<node CREATED="1481272743083" ID="ID_864111671" MODIFIED="1481273404025">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mdpaygate&#22686;&#21152;&#19968;&#20010;&#39029;&#38754;&#35775;&#38382;&#20837;&#21475;&#65292;&#29992;&#20110;&#22788;&#29702;&#36820;&#22238;&#25968;&#25454;&#21363;&#21487;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25289;&#20986;&#20998;&#25903;&#65292;&#21019;&#24314;&#20837;&#21475;&#39029;&#38754;&#21644;&#30456;&#24212;&#22788;&#29702;&#31867;&#21363;&#21487;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1481272769803" ID="ID_678581902" MODIFIED="1481272800046" TEXT="&#x5c01;&#x88c5;&#x670d;&#x52a1;&#x53ea;&#x662f;&#x6458;&#x51fa;&#x8bbf;&#x95ee;&#x73b0;&#x5728;&#x652f;&#x4ed8;&#x63a5;&#x53e3;&#x90e8;&#x5206;">
+<node CREATED="1481273290219" ID="ID_614205637" MODIFIED="1481273358105">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        &#24490;&#29615;&#25552;&#21462;&#24453;&#22788;&#29702;&#35746;&#21333;
+      </li>
+      <li>
+        &#35775;&#38382;&#29616;&#22312;&#25903;&#20184;&#26597;&#35810;&#25509;&#21475;
+      </li>
+      <li>
+        &#26681;&#25454;&#36820;&#22238;&#32467;&#26500;post&#21040;mdpaygate&#20837;&#21475;&#39029;&#38754;
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1481275106378" FOLDED="true" ID="ID_902815972" MODIFIED="1481502527974">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#00cc00">&#26368;&#32456;&#29256;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1481275135698" ID="ID_258627689" MODIFIED="1481275163617" TEXT="&#x7b80;&#x5355;&#x505a;&#x4e2a;jobcenter&#x9875;&#x9762;&#x6539;&#x5faa;&#x73af;&#x5904;&#x7406;&#x4e3a;&#x591a;&#x7ebf;&#x7a0b;&#x5373;&#x53ef;&#x3002;"/>
+</node>
+</node>
 </node>
 </node>
 </node>
