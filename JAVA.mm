@@ -3,8 +3,8 @@
 <node CREATED="1481587520600" ID="ID_326945002" MODIFIED="1481587530576" TEXT="JAVA">
 <node CREATED="1481587551854" ID="ID_290247199" MODIFIED="1481587559111" POSITION="right" TEXT="JAVA WEB">
 <node CREATED="1481587593060" ID="ID_696015068" MODIFIED="1481587613536" TEXT="Spring&#x6846;&#x67b6;&#x7684;&#x8bbe;&#x8ba1;&#x7406;&#x5ff5;&#x548c;&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;&#x5206;&#x6790;">
-<node CREATED="1481587629348" ID="ID_406201457" MODIFIED="1481587668047" TEXT="Spring AOP&#x7279;&#x6027;&#x8be6;&#x89e3;">
-<node CREATED="1481587669955" FOLDED="true" ID="ID_212731697" MODIFIED="1481620645261">
+<node CREATED="1481587629348" FOLDED="true" ID="ID_406201457" MODIFIED="1481856998251" TEXT="Spring AOP&#x7279;&#x6027;&#x8be6;&#x89e3;">
+<node CREATED="1481587669955" ID="ID_212731697" MODIFIED="1481856989921">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14,8 +14,7 @@
       Java&#20043;&#21160;&#24577;&#20195;&#29702;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481588146351" ID="ID_440236093" MODIFIED="1481620419382">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -32,8 +31,7 @@
       http://blog.csdn.net/luanlouis/article/details/24589193
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481588188296" FOLDED="true" ID="ID_1522847824" MODIFIED="1481600090789" TEXT="class&#x6587;&#x4ef6;&#x7684;&#x751f;&#x6210;&#x548c;&#x52a0;&#x8f7d;">
 <node CREATED="1481588383866" FOLDED="true" ID="ID_1041272727" MODIFIED="1481593367775" TEXT="&#x56fe;&#x793a;">
 <node CREATED="1481588400581" ID="ID_1392465145" MODIFIED="1481588414606">
@@ -44,8 +42,7 @@
   <body>
     <img src="2016/12/javaclassloader.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481590387970" FOLDED="true" ID="ID_1850333857" MODIFIED="1481593370239">
@@ -58,8 +55,7 @@
       &#21160;&#24577;&#21019;&#24314;&#31867;&#29983;&#25104;&#28436;&#31034;&#22270;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481590467427" ID="ID_1856589295" MODIFIED="1481590472202">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -68,8 +64,7 @@
   <body>
     <img src="2016/12/javaclassloader-dynamic.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481588467663" FOLDED="true" ID="ID_794600289" MODIFIED="1481594900807" TEXT="&#x6e90;&#x7801;&#x6f14;&#x793a;">
@@ -88,8 +83,7 @@
     }
 }</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481588500709" FOLDED="true" ID="ID_1962738415" MODIFIED="1481591222220">
@@ -108,8 +102,7 @@
       &#21482;&#26159;&#28436;&#31034;&#65292;&#30452;&#25509;&#37319;&#29992;&#20102;super...&#65292;&#21861;&#20063;&#27809;&#20570;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481589346643" ID="ID_1547083876" MODIFIED="1481589557596">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -138,8 +131,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481588519566" FOLDED="true" ID="ID_451090751" MODIFIED="1481591195656" TEXT="&#x5229;&#x7528;&#x81ea;&#x5b9a;&#x4e49;java class loader&#x5904;&#x7406;&#x5b57;&#x8282;&#x7801;">
@@ -184,8 +176,7 @@ public class MyTest {
 &#160;}
 }</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481590056987" ID="ID_1466642771" MODIFIED="1481590091019">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -196,8 +187,7 @@ public class MyTest {
       &#20851;&#38190;&#23601;&#22312;<b><font color="#3300cc">class&#35268;&#33539;</font></b>&#20013;&#30340;<b><font color="#990099">invoke</font></b>&#26041;&#27861;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -304,8 +294,7 @@ methodVisitor.visitMethodInsn(Opcodes.INVOKEVIRTUAL, &quot;java/io/PrintStream&q
       jboss&#30340;&#19968;&#20010;&#23376;&#39033;&#30446;&#65292;&#30456;&#23545;&#20110;ASM&#65292;&#26080;&#38656;&#20102;&#35299;jvm&#27719;&#32534;&#25351;&#20196;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481590808529" ID="ID_971512635" LINK="#ID_769735375" MODIFIED="1481590833435" TEXT="&#x6700;&#x7ec8;&#x751f;&#x6210;&#x7684;&#x6e90;&#x7801;&#xff0c;&#x540c;&#x4e0a;"/>
 <node CREATED="1481591444311" ID="ID_675370430" MODIFIED="1481594855269" TEXT="&#x4ee3;&#x7801;&#x6f14;&#x793a;">
 <node CREATED="1481591517529" ID="ID_1461742263" MODIFIED="1481594886258">
@@ -335,8 +324,7 @@ public class MyGenerator {
 &#x9;}
 }</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -353,8 +341,7 @@ public class MyGenerator {
       &#20026;&#20309;&#35201;&#21160;&#24577;&#20195;&#29702;&#27169;&#24335;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481592815614" ID="ID_664778268" MODIFIED="1481592823158">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -363,8 +350,7 @@ public class MyGenerator {
   <body>
     <img src="2016/12/why-dynamic-proxy.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481592882314" FOLDED="true" ID="ID_1438437380" MODIFIED="1481599181501" TEXT="&#x9759;&#x6001;&#x4ee3;&#x7406;&#x6a21;&#x5f0f;&#x4e3e;&#x4f8b;">
@@ -377,8 +363,7 @@ public class MyGenerator {
   <body>
     <img src="2016/12/proxy-station.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481593349945" ID="ID_1859286001" MODIFIED="1481598782674" TEXT="&#x6e90;&#x7801;">
@@ -407,8 +392,7 @@ public <font color="#3300cc">interface</font> TicketService {
 &#x9;
 }</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481593407480" FOLDED="true" ID="ID_906025513" MODIFIED="1481598796149">
@@ -427,8 +411,7 @@ public <font color="#3300cc">interface</font> TicketService {
       &#31616;&#21333;&#21270;&#22788;&#29702;&#65292;&#26500;&#36896;&#22120;&#27880;&#20837;&#23436;&#20107;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481594017538" ID="ID_406793801" MODIFIED="1481594128647">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -628,8 +611,7 @@ public <font color="#3300cc">interface</font> TicketService {
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481593417369" FOLDED="true" ID="ID_500576231" MODIFIED="1481598748726" TEXT="">
@@ -712,8 +694,7 @@ public <font color="#3300cc">interface</font> TicketService {
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1008,8 +989,7 @@ public <font color="#3300cc">interface</font> TicketService {
       &#22914;&#27492;&#20351;&#29992;javassist&#30340;&#38169;&#35823;&#20986;&#21457;&#28857;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481595213130" ID="ID_165491364" MODIFIED="1481595226065">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1020,8 +1000,7 @@ public <font color="#3300cc">interface</font> TicketService {
       &#36890;&#36807;&#19978;&#38754;&#21160;&#24577;&#29983;&#25104;&#30340;&#20195;&#30721;&#65292;<font color="#ff0000">&#25105;&#20204;&#21457;&#29616;&#65292;&#20854;&#23454;&#29616;&#30456;&#24403;&#22320;&#40635;&#28902;&#22312;&#21019;&#36896;&#30340;&#36807;&#31243;&#20013;&#65292;&#21547;&#26377;&#22826;&#22810;&#30340;&#19994;&#21153;&#20195;&#30721;&#12290;&#25105;&#20204;&#20351;&#29992;&#19978;&#36848;&#21019;&#24314;Proxy&#20195;&#29702;&#31867;&#30340;&#26041;&#24335;&#30340;&#21021;&#34935;&#26159;&#20943;&#23569;&#31995;&#32479;&#20195;&#30721;&#30340;&#20887;&#26434;&#24230;&#65292;&#20294;&#26159;&#19978;&#36848;&#20570;&#27861;&#21364;&#22686;&#21152;&#20102;&#22312;&#21160;&#24577;&#21019;&#24314;&#20195;&#29702;&#31867;&#36807;&#31243;&#20013;&#30340;&#22797;&#26434;&#24230;&#65306;&#25163;&#21160;&#22320;&#21019;&#24314;&#20102;&#22826;&#22810;&#30340;&#19994;&#21153;&#20195;&#30721;&#65292;&#24182;&#19988;&#23553;&#35013;&#24615;&#20063;&#19981;&#22815;&#65292;&#23436;&#20840;&#19981;&#20855;&#26377;&#21487;&#25299;&#23637;&#24615;&#21644;&#36890;&#29992;&#24615;&#12290;&#22914;&#26524;&#26576;&#20010;&#20195;&#29702;&#31867;&#30340;&#19968;&#20123;&#19994;&#21153;&#36923;&#36753;&#38750;&#24120;&#22797;&#26434;&#65292;&#19978;&#36848;&#30340;&#21160;&#24577;&#21019;&#24314;&#20195;&#29702;&#30340;&#26041;&#24335;&#26159;&#38750;&#24120;&#19981;&#21487;&#21462;&#30340;&#65281;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481595263626" FOLDED="true" ID="ID_631810341" MODIFIED="1481620642136">
@@ -1034,8 +1013,7 @@ public <font color="#3300cc">interface</font> TicketService {
       <b><font color="#006600">&#25913;&#21892;&#29256;</font></b>&#30340;invocationHandler&#30340;&#30001;&#26469;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481595488924" FOLDED="true" ID="ID_1168383594" MODIFIED="1481620497909" TEXT="&#x56fe;&#x793a;&#x8bf4;&#x660e;">
 <node CREATED="1481595495189" ID="ID_446022054" MODIFIED="1481595506849">
 <richcontent TYPE="NODE"><html>
@@ -1045,8 +1023,7 @@ public <font color="#3300cc">interface</font> TicketService {
   <body>
     <img src="2016/12/invokeHandler.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481595688368" ID="ID_7245276" MODIFIED="1481595775055" TEXT="&#x9759;&#x6001;&#x4ee3;&#x7406;&#x4e2d;&#x7684;proxy&#x4f1a;&#x8c03;&#x7528;&#x7279;&#x5e26;&#x7279;&#x5b9a;&#xff08;&#x4ee3;&#x7406;&#x7684;&#xff09;&#x7684;realSubject&#x65b9;&#x6cd5;"/>
@@ -1060,8 +1037,7 @@ public <font color="#3300cc">interface</font> TicketService {
       &#21160;&#24577;&#20195;&#29702;&#20013;&#25105;&#20204;&#24378;&#35843;&#26377;&#20102;<b><font color="#006666">&#20013;&#38388;&#23618;</font><font color="#ff00cc">invocationHandler</font></b>&#26469;&#22788;&#29702;&#25152;&#26377;&#30340;&#26041;&#27861;&#35843;&#29992;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481597004510" FOLDED="true" ID="ID_773289541" MODIFIED="1481620510686" TEXT="&#x56fe;&#x793a;">
 <node CREATED="1481597009070" ID="ID_1109276673" MODIFIED="1481597014810">
 <richcontent TYPE="NODE"><html>
@@ -1071,8 +1047,7 @@ public <font color="#3300cc">interface</font> TicketService {
   <body>
     <img src="2016/12/invokeHandler-role.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481597034626" FOLDED="true" ID="ID_1303553487" MODIFIED="1481620635229">
@@ -1085,8 +1060,7 @@ public <font color="#3300cc">interface</font> TicketService {
       JDK&#27169;&#24335;&#21160;&#24577;&#20195;&#29702;&#65288;&#25509;&#21475;&#27169;&#24335;&#65289;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481597216212" FOLDED="true" ID="ID_1009875856" MODIFIED="1481620521774" TEXT="&#x5b9e;&#x73b0;&#x6b65;&#x9aa4;">
 <node CREATED="1481597226642" ID="ID_1279916393" MODIFIED="1481597358307">
 <richcontent TYPE="NODE"><html>
@@ -1096,8 +1070,7 @@ public <font color="#3300cc">interface</font> TicketService {
   <body>
     <img src="2016/12/proxy-jdk-implement-1.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481597894755" FOLDED="true" ID="ID_1319673505" MODIFIED="1481620525965" TEXT="&#x5173;&#x952e;&#x70b9;">
@@ -1109,8 +1082,7 @@ public <font color="#3300cc">interface</font> TicketService {
   <body>
     <img src="2016/12/proxy-jdk-implement-2.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481597917715" ID="ID_302331514" MODIFIED="1481620527110" TEXT="&#x4e3e;&#x4f8b;">
@@ -1124,8 +1096,7 @@ public <font color="#3300cc">interface</font> TicketService {
       &#23450;&#20041;&#19968;&#20010;&#23454;&#29616;&#20004;&#20010;&#25509;&#21475;&#31867;&#30340;&#30005;&#21160;&#36710;uml&#22270;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481598019492" ID="ID_1484418372" MODIFIED="1481598092593">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1134,8 +1105,7 @@ public <font color="#3300cc">interface</font> TicketService {
   <body>
     <img src="2016/12/proxy-jdk-implement-3.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481598159011" ID="ID_644853260" MODIFIED="1481598171426" TEXT="&#x6e90;&#x7801;">
@@ -1243,8 +1213,7 @@ public <font color="#3300cc">interface</font> TicketService {
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481615471458" ID="ID_1028619912" MODIFIED="1481615569194">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1261,8 +1230,7 @@ public <font color="#3300cc">interface</font> TicketService {
       &#20004;&#20010;&#26041;&#27861;&#34987;<b><font color="#990099">&#20195;&#29702;&#31867;</font></b>&#25318;&#25130;&#24182;&#28155;&#21152;&#20102;<b><font color="#009999">Before/After&#21151;&#33021;&#36755;&#20986;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481615572598" ID="ID_1237017748" MODIFIED="1481615642274">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1271,8 +1239,7 @@ public <font color="#3300cc">interface</font> TicketService {
   <body>
     <img src="2016/12/proxy-jdk-implement-4.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1287,8 +1254,7 @@ public <font color="#3300cc">interface</font> TicketService {
       <b><font color="#ff00ff">InvocationHandlerImpl</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481615096404" ID="ID_650707983" MODIFIED="1481615360164">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1383,8 +1349,7 @@ public <font color="#3300cc">interface</font> TicketService {
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1399,8 +1364,7 @@ public <font color="#3300cc">interface</font> TicketService {
       <b><font color="#006666">&#24037;&#20855;&#20171;&#32461;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481616031519" FOLDED="true" ID="ID_1721051257" MODIFIED="1481620571085">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1417,8 +1381,7 @@ public <font color="#3300cc">interface</font> TicketService {
       &#21033;&#29992;&#20102;<b><font color="#660066">sun.misc.ProxyGenerator&#21253;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481616243296" ID="ID_682594424" MODIFIED="1481616414684">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1546,8 +1509,7 @@ public <font color="#3300cc">interface</font> TicketService {
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481616427592" ID="ID_1847742748" MODIFIED="1481616490491">
@@ -1563,8 +1525,7 @@ public <font color="#3300cc">interface</font> TicketService {
       ProxyUtils.generateClassFile(<b><font color="#660066">car.getClass()</font></b>,&quot;<b><font color="#ff00ff">ElectriCarProxy</font></b>&quot;);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1481616508727" ID="ID_972519434" MODIFIED="1481616562746">
 <richcontent TYPE="NODE"><html>
@@ -1576,8 +1537,7 @@ public <font color="#3300cc">interface</font> TicketService {
       &#21033;&#29992;<b><font color="#006600">jd-gui.exe</font></b>&#21453;&#32534;&#35793;&#19978;&#38754;&#29983;&#25104;&#30340;<b><font color="#ff00ff">ElectriCarProxy.class</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481616585811" FOLDED="true" ID="ID_1236315147" MODIFIED="1481617377224" TEXT="&#x53cd;&#x7f16;&#x8bd1;&#x540e;&#x663e;&#x793a;&#x751f;&#x6210;&#x7684;class&#x6e90;&#x7801;">
 <node CREATED="1481616613352" ID="ID_325706392" MODIFIED="1481617369559">
 <richcontent TYPE="NODE"><html>
@@ -2012,8 +1972,7 @@ public <font color="#3300cc">interface</font> TicketService {
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481617562176" FOLDED="true" ID="ID_538862112" MODIFIED="1481620556998" TEXT="&#x56fe;&#x89e3;&#x8bf4;&#x660e;">
@@ -2025,8 +1984,7 @@ public <font color="#3300cc">interface</font> TicketService {
   <body>
     <img src="2016/12/proxy-jdk-implement-5.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2048,8 +2006,7 @@ public <font color="#3300cc">interface</font> TicketService {
       <b><font color="#006600">spring&#26694;&#26550;&#29992;&#30340;&#27492;&#27169;&#24335;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481617617135" FOLDED="true" ID="ID_390696763" MODIFIED="1481620638805" TEXT="&#x5b9e;&#x73b0;&#x6b65;&#x9aa4;">
 <node CREATED="1481617819288" ID="ID_733424080" MODIFIED="1481617849326">
 <richcontent TYPE="NODE"><html>
@@ -2059,8 +2016,7 @@ public <font color="#3300cc">interface</font> TicketService {
   <body>
     <img src="2016/12/proxy-cglib-implement-1.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481617871302" ID="ID_1472267473" MODIFIED="1481619898706" TEXT="&#x6e90;&#x7801;&#x4e3e;&#x4f8b;">
@@ -2108,8 +2064,7 @@ public <font color="#3300cc">interface</font> TicketService {
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481617958294" FOLDED="true" ID="ID_486757493" MODIFIED="1481619885942" TEXT="Hacker">
@@ -2183,8 +2138,7 @@ public <font color="#3300cc">interface</font> TicketService {
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481618123264" FOLDED="true" ID="ID_949282096" MODIFIED="1481619913814" TEXT="&#x6574;&#x5408;demo">
@@ -2261,8 +2215,7 @@ public <font color="#3300cc">interface</font> TicketService {
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481619916285" FOLDED="true" ID="ID_393494857" MODIFIED="1481620139663">
@@ -2275,8 +2228,7 @@ public <font color="#3300cc">interface</font> TicketService {
       &#21516;&#26679;&#36890;&#36807;<b><font color="#006600">jd-gui.exe</font></b>&#21453;&#32534;&#35793;<font color="#ff0000">proxy.class</font>&#26597;&#30475;<b><font color="#009999">cglib&#29983;&#25104;</font></b>&#30340;&#28304;&#30721;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481620007297" ID="ID_159482305" MODIFIED="1481620137330">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2380,8 +2332,7 @@ public <font color="#3300cc">interface</font> TicketService {
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2420,8 +2371,7 @@ public <font color="#3300cc">interface</font> TicketService {
       Java&#20013;&#20195;&#29702;&#23545;&#35937;&#30446;&#30340;&#19982;&#25105;&#29702;&#35299;&#30340;&#26377;&#20986;&#20837;&#65292;&#25105;&#26159;&#22522;&#20110;.net remoting&#26041;&#24335;&#65292;&#20195;&#29702;&#31471;&#26159;&#32431;&#31929;&#30340;&#30246;&#23458;&#25143;&#31471;&#65292;&#20165;&#20165;&#26159;&#36828;&#31243;&#35843;&#29992;&#20351;&#29992;&#65292;&#32780;Java&#36825;&#20010;&#27010;&#24565;&#21253;&#25324;&#20102;&#28155;&#21152;&#39069;&#22806;&#30340;&#21151;&#33021;&#65311;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1481614088724" ID="ID_97979035" LINK="2016/12/&#x4ee3;&#x7406;&#x6a21;&#x5f0f;.mht" MODIFIED="1481614826164">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2432,8 +2382,7 @@ public <font color="#3300cc">interface</font> TicketService {
       &#28165;&#26224;&#35299;&#37322;&#20102;,<b><font color="#ff0000">&#25105;&#23545;&#20195;&#29702;&#27169;&#24335;&#30340;&#29702;&#35299;&#29421;&#38552;&#20102;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

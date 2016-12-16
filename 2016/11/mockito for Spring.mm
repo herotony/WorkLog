@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1478080139555" ID="ID_411859334" MODIFIED="1478080160654" TEXT="mockito for Spring">
-<node CREATED="1478572510316" ID="ID_98151069" MODIFIED="1479785490585" POSITION="right" TEXT="Spring">
+<node CREATED="1478572510316" ID="ID_98151069" MODIFIED="1481852579297" POSITION="right" TEXT="Spring">
 <node CREATED="1478573983205" ID="ID_1462334804" MODIFIED="1479785494646" TEXT="&#x7b80;&#x8981;&#x8bf4;&#x660e;">
 <node CREATED="1478574002137" FOLDED="true" ID="ID_1767966821" MODIFIED="1479785502089">
 <richcontent TYPE="NODE"><html>
@@ -769,6 +769,18 @@
     <p>
       <b>default</b>&#65306;&#20808;&#23581;&#35797;constructor&#65292;&#19981;&#34892;&#30340;&#35805;&#65292;&#23581;&#35797;byType,<b>&#21363;&#20808;<font color="#009999">&#23581;&#35797;&#27880;&#20837;constructor</font>,<font color="#ff0000">&#19981;&#34892;</font>&#65292;&#23581;&#35797;<font color="#009900">&#27880;&#20837;property</font></b>
     </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1481793737097" ID="ID_1933354275" MODIFIED="1481793741342" TEXT="&#x95ee;&#x9898;&#x70b9;">
+<node CREATED="1481793742547" ID="ID_1543893689" MODIFIED="1481793757447">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="../12/autowire-setter.jpg" />
   </body>
 </html></richcontent>
 </node>
