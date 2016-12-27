@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1479710963346" ID="ID_598327511" MODIFIED="1481252111286" TEXT="ElasticSearch">
-<node CREATED="1479710988469" FOLDED="true" ID="ID_233598695" MODIFIED="1481173653382" POSITION="right" TEXT="&#x865a;&#x673a;&#x73af;&#x5883;&#x642d;&#x5efa;">
+<node CREATED="1479710963346" ID="ID_598327511" MODIFIED="1482394640057" TEXT="ElasticSearch">
+<node CREATED="1479710988469" FOLDED="true" ID="ID_233598695" MODIFIED="1482724480105" POSITION="right" TEXT="&#x865a;&#x673a;&#x73af;&#x5883;&#x642d;&#x5efa;">
 <node CREATED="1479710999308" FOLDED="true" ID="ID_1714509235" MODIFIED="1481173550887">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -550,7 +550,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1479868403147" FOLDED="true" ID="ID_1562337421" MODIFIED="1481852569631" POSITION="right" TEXT="&#x642d;&#x5efa;&#x57fa;&#x4e8e;SpringMVC&#x7684;&#x5f00;&#x53d1;&#x73af;&#x5883;">
+<node CREATED="1479868403147" FOLDED="true" ID="ID_1562337421" MODIFIED="1482394638266" POSITION="right" TEXT="&#x642d;&#x5efa;&#x57fa;&#x4e8e;SpringMVC&#x7684;&#x5f00;&#x53d1;&#x73af;&#x5883;">
 <node CREATED="1479868867991" ID="ID_263797783" MODIFIED="1481000015897">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2027,7 +2027,7 @@
 </node>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1481004244338" ID="ID_660988666" LINK="2016/12/&#x4f7f;&#x7528;maven&#x6784;&#x5efa;&#x57fa;&#x672c;&#x7684;web&#x9879;&#x76ee;&#x7ed3;&#x6784;.mht" MODIFIED="1481013066579" TEXT="maven&#x6784;&#x5efa;web&#x9879;&#x76ee;&#x7ed3;&#x6784;&#x89e3;&#x6790;"/>
 </node>
-<node CREATED="1479870829534" FOLDED="true" ID="ID_190608876" MODIFIED="1481163499887" POSITION="left" TEXT="maven&#x63d2;&#x4ef6;&#x67e5;&#x8be2;">
+<node CREATED="1479870829534" FOLDED="true" ID="ID_190608876" MODIFIED="1482394725291" POSITION="left" TEXT="maven&#x63d2;&#x4ef6;&#x67e5;&#x8be2;">
 <node CREATED="1479870838851" ID="ID_932756220" MODIFIED="1479870902830">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2048,15 +2048,50 @@
 </node>
 </node>
 <node CREATED="1479956795597" ID="ID_317680857" MODIFIED="1479956819220" POSITION="left" TEXT="&#x5229;&#x7528;Anki&#x641e;&#x5b9a;git,maven,springmvc,elasticsearch&#x8bb0;&#x5fc6;&#x70b9;"/>
-<node CREATED="1480216324387" ID="ID_1357813463" MODIFIED="1480216331049" POSITION="right" TEXT="resin&#x76f8;&#x5173;"/>
 <node CREATED="1481081216834" ID="ID_1148212559" MODIFIED="1481081226264" POSITION="left" TEXT="elas&#x7684;&#x6570;&#x636e;&#x5b58;&#x50a8;">
 <node CREATED="1481081531890" ID="ID_403323399" MODIFIED="1481081688051" TEXT="elas&#x6570;&#x636e;&#x5185;&#x90e8;&#x5904;&#x7406;&#xff0c;&#x4e0d;&#x5b58;&#x5728;&#x6570;&#x7ec4;&#x7c7b;&#x578b;&#xff0c;&#x9ed8;&#x8ba4;&#x5c31;&#x662f;&#x6570;&#x7ec4;">
 <node CREATED="1481081560957" ID="ID_663140772" LINK="2016/12/Complex%20Core%20Field.mht" MODIFIED="1481081685339" TEXT="&#x641c;&#x7d22;&#x4e0d;&#x7cbe;&#x51c6;&#x7684;&#x95ee;&#x9898;"/>
 <node CREATED="1481081688053" ID="ID_169397626" LINK="2016/12/Nested%20Objects.mht" MODIFIED="1481081712737" TEXT="&#x901a;&#x8fc7;nested object&#x5b9e;&#x73b0;&#x7cbe;&#x51c6;&#x641c;&#x7d22;"/>
 </node>
 </node>
-<node CREATED="1481252112455" FOLDED="true" ID="ID_729713802" MODIFIED="1481852559722" POSITION="right" TEXT="&#x7ebf;&#x4e0a;&#x6392;&#x67e5;&#x8bed;&#x53e5;">
-<node CREATED="1481252122616" ID="ID_591929519" MODIFIED="1481252213900">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1481252112455" FOLDED="true" ID="ID_729713802" MODIFIED="1482738462455" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32447;&#19978;&#25490;&#26597;&#35821;&#21477;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24191;&#21578;&#25490;&#26597;&#65292;<font color="#006600">&#20808;&#26597;&#24405;&#20837;&#24191;&#21578;&#25968;&#25454;</font>&#65292;&#28982;&#21518;<font color="#990099">&#25490;&#26597;&#25628;&#32034;&#35821;&#21477;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1482738318591" ID="ID_174485574" MODIFIED="1482738445341">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#006600">&#36827;&#20837;es&#21069;&#31471;web&#29615;&#22659;</font>&#65292;&#38543;&#20415;&#36827;&#20837;&#19968;&#21488;&#32447;&#19978;&#26381;&#21153;&#22120;&#65292;&#28982;&#21518;<b>ssh&#160;&#160;dalin.wang@172.16.54.161/160&#160;&#160;&#160;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      shadcenter&#22312;&#36825;&#20004;&#21488;&#26381;&#21153;&#22120;&#19978;&#37096;&#32626; /data/shadcenter-1.0...
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1481252122616" ID="ID_591929519" MODIFIED="1482737151906">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2069,19 +2104,104 @@
       
     </p>
     <p>
-      curl http://shop...:9210/sh_adcenter_index/sh_ad_type/1
+      curl http://shshopes1.55tuan.me:9210/sh_adcenter_index/sh_ad_type/1
     </p>
     <p>
       &#25110;&#32773;
     </p>
     <p>
-      curl http://shop...:9210/sh_adcenter_index/sh_ad_type/_search
+      curl http://shshopes1.55tuan.me:9210/sh_adcenter_index/sh_ad_type/_search
     </p>
     <p>
       &#26597;&#35810;&#25152;&#26377;&#24191;&#21578;
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1482394643299" FOLDED="true" ID="ID_1111228218" MODIFIED="1482738464824" POSITION="right" TEXT="&#x8ffd;&#x52a0;redis">
+<node CREATED="1482398995538" ID="ID_1734257287" MODIFIED="1482399007809">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23448;&#26041;&#32593;&#22336;&#65306;https://redis.io/
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1482399021618" ID="ID_429267973" MODIFIED="1482399045440">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19979;&#36733;&#26368;&#26032;&#21253;&#65306;http://download.redis.io/releases/redis-3.2.6.tar.gz
+    </p>
+    <p>
+      &#24182;&#25918;&#20110;D:\Tool&#30446;&#24405;&#19979;&#65292;&#20379;&#34394;&#26426;&#35775;&#38382;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1482400863142" ID="ID_59705111" MODIFIED="1482400870757" TEXT="&#x5b89;&#x88c5;&#x5f02;&#x5e38;&#x7b80;&#x5355;">
+<node CREATED="1482400872196" ID="ID_600297451" MODIFIED="1482400893124" TEXT="tar -zxvf redis-3.2.6.tar.gz &#x5230;&#x67d0;&#x4e2a;&#x76ee;&#x5f55;"/>
+<node CREATED="1482400894822" ID="ID_982004743" MODIFIED="1482400913753" TEXT="cd redis-3.2.6&#x76ee;&#x5f55; &#x6267;&#x884c;make &#x5b8c;&#x4e8b;">
+<node CREATED="1482400935957" ID="ID_1691555483" MODIFIED="1482400993332" TEXT="&#x542f;&#x52a8;&#x670d;&#x52a1;&#x7aef;&#xff1a; &#x6267;&#x884c;src/redis-server"/>
+<node CREATED="1482400995399" ID="ID_1608760181" MODIFIED="1482401021847" TEXT="&#x542f;&#x52a8;&#x4ea4;&#x4e92;&#x5f0f;&#x547d;&#x4ee4;&#x884c;&#x5ba2;&#x6237;&#x7aef;&#xff1a;&#x6267;&#x884c;src/redis-cli"/>
+</node>
+</node>
+</node>
+<node CREATED="1482394674854" ID="ID_5709910" MODIFIED="1482394713441" POSITION="right" TEXT="&#x8ffd;&#x52a0;resin"/>
+<node CREATED="1482460243089" FOLDED="true" ID="ID_1325386360" MODIFIED="1482476969460" POSITION="right" TEXT="&#x8ffd;&#x52a0;jenkins">
+<node CREATED="1482460254651" ID="ID_1723514163" MODIFIED="1482464958472" TEXT="&#x57fa;&#x7840;&#x5b89;&#x88c5;&#x5f88;&#x7b80;&#x5355;">
+<node CREATED="1482460265196" ID="ID_886966763" MODIFIED="1482460301848" TEXT="&#x4ece;https://jenkins.io&#x4e0b;&#x8f7d;&#x5b98;&#x65b9;&#x63d0;&#x4f9b;&#x7684;rpm&#x5305;"/>
+<node CREATED="1482460303634" ID="ID_476295145" MODIFIED="1482460343803" TEXT="&#x5728;centos&#x673a;&#x5668;&#x4e0a;&#xff0c;&#x7528;yum install jenkins-xxx.rpm&#x5373;&#x5b8c;&#x6210;&#x5b89;&#x88c5;"/>
+<node CREATED="1482460347913" ID="ID_1769787024" MODIFIED="1482464971151">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21551;&#21160;&#65292;<b><font color="#009999">service jenkins start/stop/restart</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1482460365543" ID="ID_1233220913" MODIFIED="1482460429495">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807; ps -ef | grep jenkins&#21487;&#26597;&#30475;&#21040;&#30456;&#20851;&#36827;&#31243;&#20449;&#24687;&#12290;
+    </p>
+    <p>
+      &#33021;&#30475;&#21040;&#26085;&#24535;&#20889;&#20837;/var/...&#30340;&#26576;&#20010;&#30446;&#24405;&#65292;&#40664;&#35748;&#26159;8080&#31471;&#21475;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1482460433372" ID="ID_1560648666" MODIFIED="1482464988410">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35774;&#32622;&#24320;&#26426;&#21551;&#21160;&#65292;<b><font color="#009999">chkconfig jenkins on&#160;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1482460453590" ID="ID_204666578" MODIFIED="1482460460846" TEXT="&#x6d4f;&#x89c8;&#x5668;&#x8bbf;&#x95ee;">
+<node CREATED="1482460462293" ID="ID_240340892" MODIFIED="1482460479731" TEXT="http://ip:8080&#xff0c;&#x5373;&#x53ef;&#xff0c;&#x4fee;&#x6539;&#x7aef;&#x53e3;&#x662f;&#x5fc5;&#x987b;&#x7684;"/>
 </node>
 </node>
 </node>

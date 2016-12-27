@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1472694016229" ID="ID_1380030112" MODIFIED="1481587421122" TEXT="&#x652f;&#x4ed8;&#x7ec4;">
+<node CREATED="1472694016229" ID="ID_1380030112" MODIFIED="1482730801625" TEXT="&#x652f;&#x4ed8;&#x7ec4;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -56,10 +56,308 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1472694078828" ID="ID_101371554" MODIFIED="1472694082632" POSITION="left" TEXT="mdtask">
+<node CREATED="1482730803024" ID="ID_1736184661" MODIFIED="1482731539162" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2016
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1482730698440" FOLDED="true" ID="ID_198244194" MODIFIED="1482730858536" TEXT="prev -- node">
+<node CREATED="1473649150839" FOLDED="true" ID="ID_292738889" MODIFIED="1482724526193">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20027;&#31449;&#24182;&#21457;&#38145;&#26426;&#21046;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22522;&#20110;redis
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1473649191071" ID="ID_427966017" MODIFIED="1475029831483" TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;">
+<node CREATED="1473649373014" ID="ID_854254399" MODIFIED="1473649540923">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25353;&#23581;&#35797;&#27425;&#25968;<font color="#0033cc">&#21462;&#38145;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1473649196876" ID="ID_1378498456" MODIFIED="1473649656945">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#660066">DLock</font></b>&#160;dLock;
+    </p>
+    <p>
+      long lockTime = 60*1000;
+    </p>
+    <p>
+      int lockTryTimes =1; //&#21482;&#23581;&#35797;&#21462;&#19968;&#27425;&#38145;
+    </p>
+    <p>
+      <font color="#009933">LockResult&lt;?&gt;</font>&#160;lockResult =<font color="#660066">dLock</font>.<font color="#0033cc">lockManualByTimes</font>(<font color="#990099">distributeKey</font>,lockTime,lockTryTimes);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      if(<font color="#009933">lockResult</font>.<font color="#006666">getCode() </font>!= 0){//&#21462;&#38145;&#22833;&#36133;&#65281;}
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1473649504128" ID="ID_198560107" MODIFIED="1473649581951">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009933">&#35299;&#38145;</font>&#65292;&#19968;&#33324;&#24517;&#22312;try/catch/finally&#30340;<font color="#ff3300">finally&#22359;</font>&#20013;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1473649577966" ID="ID_1547846446" MODIFIED="1473649644688">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if(lockResult!=null &amp;&amp; lockResult.getCode ==0)
+    </p>
+    <p>
+      &#160;&#160;&#160;dLock.<font color="#cc0000">unlockManual</font>(<font color="#990099">distributerKey</font>)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1473650039612" ID="ID_999571497" MODIFIED="1473673444250" TEXT="cozy-common-lock-redis.jar">
+<node CREATED="1473650182377" FOLDED="true" ID="ID_1563670027" MODIFIED="1482364565023" TEXT="interface">
+<node CREATED="1473650190720" ID="ID_1453584469" MODIFIED="1473650194138" TEXT="DLock"/>
+<node CREATED="1473650494413" ID="ID_424867507" MODIFIED="1473650508595" TEXT="ConnectionFactory">
+<node CREATED="1473650571031" ID="ID_905801232" MODIFIED="1473650578242" TEXT="makeLockCache"/>
+<node CREATED="1473650580132" ID="ID_1596311304" MODIFIED="1473650598573" TEXT="makeLockCache(PoolInfoBean)">
+<node CREATED="1473662578658" ID="ID_1032333150" MODIFIED="1475029831489" TEXT="PoolInfoBean">
+<node CREATED="1473662599090" ID="ID_829566831" MODIFIED="1473662611159" TEXT="host: ip or &#x57df;&#x540d;"/>
+<node CREATED="1473662612840" ID="ID_1187602838" MODIFIED="1473662624646" TEXT="port: &#x7aef;&#x53e3;"/>
+<node CREATED="1473662627414" ID="ID_283466111" MODIFIED="1473662653800" TEXT="url:&#x6c60;&#x5b50;&#x6807;&#x8bc6; = host+port"/>
+<node CREATED="1473662658483" ID="ID_1953891214" MODIFIED="1473662663272" TEXT="isCanUsed"/>
+</node>
+</node>
+<node CREATED="1473650603984" ID="ID_522118375" MODIFIED="1473650621673" TEXT="isAvailable(PoolInfoBean)"/>
+</node>
+</node>
+<node CREATED="1473650196082" FOLDED="true" ID="ID_1609072683" MODIFIED="1475030270663" TEXT="implement">
+<node CREATED="1473650224188" ID="ID_94512994" MODIFIED="1473650230845" TEXT="DLockImpl"/>
+<node CREATED="1473650511516" ID="ID_1885791459" MODIFIED="1473650523123" TEXT="RedisConnectionFactory">
+<node CREATED="1473662745827" ID="ID_726515104" MODIFIED="1473662752943" TEXT="makeLockCache">
+<node CREATED="1473662754470" ID="ID_1992131929" MODIFIED="1473662797204">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#12289;Jedis jedis = getConnection();
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1473662835423" ID="ID_436004385" MODIFIED="1475029831498" TEXT="FailOver&#x6545;&#x969c;&#x81ea;&#x52a8;&#x5207;&#x6362;&#x7b56;&#x7565;&#x5de5;&#x5177;">
+<node CREATED="1473663106742" ID="ID_703918514" MODIFIED="1473663150447" TEXT="isFailOver&#x4ee3;&#x8868;&#x662f;&#x5426;&#x652f;&#x6301;FailOver&#xff0c;&#x5373;&#x65e0;&#x6545;&#x969c;&#x5207;&#x6362;"/>
+<node CREATED="1473663163642" ID="ID_1425107448" MODIFIED="1473663205703" TEXT="List&lt;PoolInfoBean&gt; poolStatusList,&#x8fde;&#x63a5;&#x6c60;&#x72b6;&#x6001;&#x5217;&#x8868;"/>
+<node CREATED="1473663217317" ID="ID_147913593" MODIFIED="1473663221752" TEXT="poolSize"/>
+<node CREATED="1473663222626" ID="ID_1333595643" MODIFIED="1473663247055" TEXT="primaryIndex,&#x5f53;&#x524d;&#x4e3b;&#x6c60;&#x5b50;"/>
+<node CREATED="1473663557973" ID="ID_1027370218" MODIFIED="1473663609372">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30446;&#30340;&#65306;&#19968;&#20010;&#31616;&#21333;&#30340;&#31649;&#29702;PoolInfoBean&#30340;&#31867;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#29992;&#20110;&#26816;&#32034;&#12289;&#35774;&#32622;&#12289;&#26597;&#35810;&#26377;&#25928;&#30340;PoolInfoBean&#32780;&#24050;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1473662763797" ID="ID_1503411180" MODIFIED="1473662782414" TEXT="2&#x3001;new RedisLockCache(jedis,this)"/>
+</node>
+<node BACKGROUND_COLOR="#ffff99" CREATED="1473673451075" ID="ID_452242232" MODIFIED="1473673476068" TEXT="initialPool&#x5f88;&#x5173;&#x952e;">
+<node CREATED="1473673478902" ID="ID_828990800" MODIFIED="1473673494788" TEXT="&#x521d;&#x59cb;&#x5316;&#x8fde;&#x63a5;&#x5230;redis&#x7684;&#x6c60;"/>
+</node>
+</node>
+</node>
+<node CREATED="1473650689895" ID="ID_1931263681" MODIFIED="1473650692643" TEXT="other">
+<node CREATED="1473650273246" FOLDED="true" ID="ID_1028595152" MODIFIED="1475030302959" TEXT="LockResult">
+<node CREATED="1473650291730" ID="ID_1364349760" MODIFIED="1473650425246">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import java.io.Serializable;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public class LockResult &lt;T&gt; implements Serializable{
+    </p>
+    <p>
+      private static final long serialVersionUID = -7891440771293974054L;
+    </p>
+    <p>
+      <b><font color="#006600">/*</font><font color="#0033cc">0,&#25104;&#21151;</font><font color="#006600">&#65307;&#20854;&#23427;&#24453;&#23450;*/</font></b>
+    </p>
+    <p>
+      public int <font color="#0033cc">code</font>;
+    </p>
+    <p>
+      /** &#25551;&#36848;&#160;&#160;*/
+    </p>
+    <p>
+      public String description;
+    </p>
+    <p>
+      /** &#19994;&#21153;&#36820;&#22238;&#23545;&#35937;&#160;&#160;*/
+    </p>
+    <p>
+      <font color="#0033cc">public T result;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public LockResult(int code,String description,T result){
+    </p>
+    <p>
+      super();
+    </p>
+    <p>
+      this.code = code;
+    </p>
+    <p>
+      this.description = description;
+    </p>
+    <p>
+      this.result = result;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public int getCode() {
+    </p>
+    <p>
+      return code;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      public void setCode(int code) {
+    </p>
+    <p>
+      this.code = code;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      public String getDescription() {
+    </p>
+    <p>
+      return description;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      public void setDescription(String description) {
+    </p>
+    <p>
+      this.description = description;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      public<b>&#160;<font color="#006600">T</font></b>&#160;<font color="#0033cc">getResult</font>() {
+    </p>
+    <p>
+      return result;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      public void <font color="#0033cc">setResult</font>(<b><font color="#006600">T</font></b>&#160;result) {
+    </p>
+    <p>
+      this.result = result;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1473650697365" ID="ID_761976244" MODIFIED="1473650706380" TEXT="RedisDlockConfig"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1473673257411" ID="ID_1375454175" MODIFIED="1473673534861" TEXT="&#x8be5;&#x9501;&#x673a;&#x5236;&#x7684;redis&#x914d;&#x7f6e;&#x5199;&#x6b7b;&#x5728;&#x4ee3;&#x7801;&#x91cc;&#x4e86;&#xff0c;shit!">
+<node BACKGROUND_COLOR="#99ff99" CREATED="1473673278917" ID="ID_1448612529" MODIFIED="1473673527301" TEXT="redis.55tuan.me:7380?timeout=30*1000"/>
+<node CREATED="1473673315204" ID="ID_279898971" MODIFIED="1473673327827" TEXT="in AbstractDlockConfig"/>
+<node BACKGROUND_COLOR="#ff99cc" CREATED="1473674688940" ID="ID_90315083" MODIFIED="1473674735652" TEXT="&#x6211;&#x5f04;&#x9519;&#x4e86;&#xff0c;&#x5728;mdpaygate-cache-impl-bean.xml&#x4e2d;&#x6709;&#x5355;&#x72ec;&#x914d;&#x7f6e;&#x51fa;&#x6765;&#x7684;dlockConfig"/>
+</node>
+</node>
+<node CREATED="1472694045163" ID="ID_1130587513" MODIFIED="1472694053721" TEXT="mdtradecenter">
+<node CREATED="1473066573935" ID="ID_493780406" MODIFIED="1473066580789" TEXT="&#x6570;&#x636e;&#x5e93;&#x5904;&#x7406;&#x6a21;&#x5f0f;"/>
+</node>
+<node CREATED="1472694032236" ID="ID_1260912116" MODIFIED="1472694038152" TEXT="mdfrontserver">
+<node CREATED="1473066573935" ID="ID_1036565298" MODIFIED="1473066580789" TEXT="&#x6570;&#x636e;&#x5e93;&#x5904;&#x7406;&#x6a21;&#x5f0f;"/>
+</node>
+<node CREATED="1472694078828" ID="ID_101371554" MODIFIED="1472694082632" TEXT="mdtask">
 <node CREATED="1473066573935" ID="ID_175032134" MODIFIED="1473066580789" TEXT="&#x6570;&#x636e;&#x5e93;&#x5904;&#x7406;&#x6a21;&#x5f0f;"/>
 </node>
-<node BACKGROUND_COLOR="#66ff66" CREATED="1473734185522" FOLDED="true" ID="ID_47046362" MODIFIED="1482364550125" POSITION="right" TEXT="&#x65b9;&#x5f0f;&#x65b9;&#x6cd5;">
+<node BACKGROUND_COLOR="#66ff66" CREATED="1473734185522" FOLDED="true" ID="ID_47046362" MODIFIED="1482364550125" TEXT="&#x65b9;&#x5f0f;&#x65b9;&#x6cd5;">
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1473734197680" ID="ID_17049138" MODIFIED="1473734248675">
 <richcontent TYPE="NODE"><html>
@@ -98,9 +396,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1472694040313" ID="ID_589861280" MODIFIED="1481852462920" POSITION="right" TEXT="mdpaygate">
+<node CREATED="1472694040313" ID="ID_589861280" MODIFIED="1481852462920" TEXT="mdpaygate">
 <node CREATED="1473066573935" ID="ID_1020199487" MODIFIED="1473066580789" TEXT="&#x6570;&#x636e;&#x5e93;&#x5904;&#x7406;&#x6a21;&#x5f0f;"/>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1473299914657" FOLDED="true" ID="ID_1223111739" MODIFIED="1482364544493">
+<node BACKGROUND_COLOR="#99ff99" CREATED="1473299914657" FOLDED="true" ID="ID_1223111739" MODIFIED="1482730799993">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -343,13 +641,7 @@
 <node CREATED="1473642838677" ID="ID_1962340266" MODIFIED="1473642847359" TEXT="&#x8ba2;&#x5355;&#x72b6;&#x6001;&#x7684;&#x66f4;&#x65b0;"/>
 </node>
 </node>
-<node CREATED="1472694032236" ID="ID_1260912116" MODIFIED="1472694038152" POSITION="left" TEXT="mdfrontserver">
-<node CREATED="1473066573935" ID="ID_1036565298" MODIFIED="1473066580789" TEXT="&#x6570;&#x636e;&#x5e93;&#x5904;&#x7406;&#x6a21;&#x5f0f;"/>
-</node>
-<node CREATED="1472694045163" ID="ID_1130587513" MODIFIED="1472694053721" POSITION="left" TEXT="mdtradecenter">
-<node CREATED="1473066573935" ID="ID_493780406" MODIFIED="1473066580789" TEXT="&#x6570;&#x636e;&#x5e93;&#x5904;&#x7406;&#x6a21;&#x5f0f;"/>
-</node>
-<node CREATED="1473237168608" ID="ID_29738871" MODIFIED="1481852497523" POSITION="right" TEXT="&#x652f;&#x4ed8;&#x6d41;&#x7a0b;">
+<node CREATED="1473237168608" ID="ID_29738871" MODIFIED="1481852497523" TEXT="&#x652f;&#x4ed8;&#x6d41;&#x7a0b;">
 <node CREATED="1473835794197" FOLDED="true" ID="ID_269882459" MODIFIED="1482364585774" TEXT="5&#x6b65;">
 <node CREATED="1473237176756" ID="ID_344807398" MODIFIED="1473835815590">
 <richcontent TYPE="NODE"><html>
@@ -2374,7 +2666,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473239392163" FOLDED="true" ID="ID_1614984069" MODIFIED="1481852450399" POSITION="right" TEXT="&#x6389;&#x5355;&#x539f;&#x56e0;">
+<node CREATED="1473239392163" FOLDED="true" ID="ID_1614984069" MODIFIED="1481852450399" TEXT="&#x6389;&#x5355;&#x539f;&#x56e0;">
 <node CREATED="1473642682149" ID="ID_359865984" MODIFIED="1475029831429" TEXT="&#x652f;&#x4ed8;&#x5b9d;">
 <node CREATED="1473318673560" ID="ID_130624948" MODIFIED="1473318715281">
 <richcontent TYPE="NODE"><html>
@@ -2435,7 +2727,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473660030276" FOLDED="true" ID="ID_421232651" MODIFIED="1481162912488" POSITION="right" TEXT="other">
+<node CREATED="1473660030276" FOLDED="true" ID="ID_421232651" MODIFIED="1481162912488" TEXT="other">
 <node CREATED="1473660039127" ID="ID_1634373046" MODIFIED="1475029831546">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3177,7 +3469,7 @@
 <node CREATED="1473664223198" ID="ID_1290270550" MODIFIED="1473664260009" TEXT="Java&#x65b9;&#x6cd5;&#x7684;final&#x53c2;&#x6570;&#xff0c;&#x5bf9;&#x4e8e;&#x5f15;&#x7528;&#x7c7b;&#x578b;&#xff0c;&#x5c31;&#x662f;&#x4e0d;&#x80fd;&#x518d;&#x5728;&#x65b9;&#x6cd5;&#x5185;&#x90e8;&#x91cd;&#x65b0;new&#x5b9e;&#x4f8b;"/>
 <node CREATED="1474332218368" ID="ID_1928482105" LINK="2016/09/jedis-8-invoke-method.mht" MODIFIED="1474332358983" TEXT="jedis&#x7684;&#x516b;&#x79cd;&#x8c03;&#x7528;&#x65b9;&#x5f0f;"/>
 </node>
-<node CREATED="1473819319799" FOLDED="true" ID="ID_23633334" MODIFIED="1482364536229" POSITION="right" TEXT="&#x538b;&#x6d4b;sql&#x8bed;&#x53e5;">
+<node CREATED="1473819319799" FOLDED="true" ID="ID_23633334" MODIFIED="1482364536229" TEXT="&#x538b;&#x6d4b;sql&#x8bed;&#x53e5;">
 <node CREATED="1473819342506" ID="ID_1389751221" MODIFIED="1475030141821" TEXT="select ">
 <node CREATED="1473819351428" ID="ID_1236876261" MODIFIED="1473819357409" TEXT="&#x7ebf;&#x4e0a;&#x7cfb;&#x7edf;">
 <node CREATED="1473819475897" FOLDED="true" ID="ID_1912710726" MODIFIED="1475030144776" TEXT="1">
@@ -3829,287 +4121,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473649150839" FOLDED="true" ID="ID_292738889" MODIFIED="1482364567304" POSITION="left">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#20027;&#31449;&#24182;&#21457;&#38145;&#26426;&#21046;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#22522;&#20110;redis
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1473649191071" ID="ID_427966017" MODIFIED="1475029831483" TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;">
-<node CREATED="1473649373014" ID="ID_854254399" MODIFIED="1473649540923">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#25353;&#23581;&#35797;&#27425;&#25968;<font color="#0033cc">&#21462;&#38145;</font>
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1473649196876" ID="ID_1378498456" MODIFIED="1473649656945">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b><font color="#660066">DLock</font></b>&#160;dLock;
-    </p>
-    <p>
-      long lockTime = 60*1000;
-    </p>
-    <p>
-      int lockTryTimes =1; //&#21482;&#23581;&#35797;&#21462;&#19968;&#27425;&#38145;
-    </p>
-    <p>
-      <font color="#009933">LockResult&lt;?&gt;</font>&#160;lockResult =<font color="#660066">dLock</font>.<font color="#0033cc">lockManualByTimes</font>(<font color="#990099">distributeKey</font>,lockTime,lockTryTimes);
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      if(<font color="#009933">lockResult</font>.<font color="#006666">getCode() </font>!= 0){//&#21462;&#38145;&#22833;&#36133;&#65281;}
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1473649504128" ID="ID_198560107" MODIFIED="1473649581951">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#009933">&#35299;&#38145;</font>&#65292;&#19968;&#33324;&#24517;&#22312;try/catch/finally&#30340;<font color="#ff3300">finally&#22359;</font>&#20013;
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1473649577966" ID="ID_1547846446" MODIFIED="1473649644688">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      if(lockResult!=null &amp;&amp; lockResult.getCode ==0)
-    </p>
-    <p>
-      &#160;&#160;&#160;dLock.<font color="#cc0000">unlockManual</font>(<font color="#990099">distributerKey</font>)
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1473650039612" ID="ID_999571497" MODIFIED="1473673444250" TEXT="cozy-common-lock-redis.jar">
-<node CREATED="1473650182377" FOLDED="true" ID="ID_1563670027" MODIFIED="1482364565023" TEXT="interface">
-<node CREATED="1473650190720" ID="ID_1453584469" MODIFIED="1473650194138" TEXT="DLock"/>
-<node CREATED="1473650494413" ID="ID_424867507" MODIFIED="1473650508595" TEXT="ConnectionFactory">
-<node CREATED="1473650571031" ID="ID_905801232" MODIFIED="1473650578242" TEXT="makeLockCache"/>
-<node CREATED="1473650580132" ID="ID_1596311304" MODIFIED="1473650598573" TEXT="makeLockCache(PoolInfoBean)">
-<node CREATED="1473662578658" ID="ID_1032333150" MODIFIED="1475029831489" TEXT="PoolInfoBean">
-<node CREATED="1473662599090" ID="ID_829566831" MODIFIED="1473662611159" TEXT="host: ip or &#x57df;&#x540d;"/>
-<node CREATED="1473662612840" ID="ID_1187602838" MODIFIED="1473662624646" TEXT="port: &#x7aef;&#x53e3;"/>
-<node CREATED="1473662627414" ID="ID_283466111" MODIFIED="1473662653800" TEXT="url:&#x6c60;&#x5b50;&#x6807;&#x8bc6; = host+port"/>
-<node CREATED="1473662658483" ID="ID_1953891214" MODIFIED="1473662663272" TEXT="isCanUsed"/>
-</node>
-</node>
-<node CREATED="1473650603984" ID="ID_522118375" MODIFIED="1473650621673" TEXT="isAvailable(PoolInfoBean)"/>
-</node>
-</node>
-<node CREATED="1473650196082" FOLDED="true" ID="ID_1609072683" MODIFIED="1475030270663" TEXT="implement">
-<node CREATED="1473650224188" ID="ID_94512994" MODIFIED="1473650230845" TEXT="DLockImpl"/>
-<node CREATED="1473650511516" ID="ID_1885791459" MODIFIED="1473650523123" TEXT="RedisConnectionFactory">
-<node CREATED="1473662745827" ID="ID_726515104" MODIFIED="1473662752943" TEXT="makeLockCache">
-<node CREATED="1473662754470" ID="ID_1992131929" MODIFIED="1473662797204">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      1&#12289;Jedis jedis = getConnection();
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1473662835423" ID="ID_436004385" MODIFIED="1475029831498" TEXT="FailOver&#x6545;&#x969c;&#x81ea;&#x52a8;&#x5207;&#x6362;&#x7b56;&#x7565;&#x5de5;&#x5177;">
-<node CREATED="1473663106742" ID="ID_703918514" MODIFIED="1473663150447" TEXT="isFailOver&#x4ee3;&#x8868;&#x662f;&#x5426;&#x652f;&#x6301;FailOver&#xff0c;&#x5373;&#x65e0;&#x6545;&#x969c;&#x5207;&#x6362;"/>
-<node CREATED="1473663163642" ID="ID_1425107448" MODIFIED="1473663205703" TEXT="List&lt;PoolInfoBean&gt; poolStatusList,&#x8fde;&#x63a5;&#x6c60;&#x72b6;&#x6001;&#x5217;&#x8868;"/>
-<node CREATED="1473663217317" ID="ID_147913593" MODIFIED="1473663221752" TEXT="poolSize"/>
-<node CREATED="1473663222626" ID="ID_1333595643" MODIFIED="1473663247055" TEXT="primaryIndex,&#x5f53;&#x524d;&#x4e3b;&#x6c60;&#x5b50;"/>
-<node CREATED="1473663557973" ID="ID_1027370218" MODIFIED="1473663609372">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#30446;&#30340;&#65306;&#19968;&#20010;&#31616;&#21333;&#30340;&#31649;&#29702;PoolInfoBean&#30340;&#31867;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#29992;&#20110;&#26816;&#32034;&#12289;&#35774;&#32622;&#12289;&#26597;&#35810;&#26377;&#25928;&#30340;PoolInfoBean&#32780;&#24050;&#12290;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1473662763797" ID="ID_1503411180" MODIFIED="1473662782414" TEXT="2&#x3001;new RedisLockCache(jedis,this)"/>
-</node>
-<node BACKGROUND_COLOR="#ffff99" CREATED="1473673451075" ID="ID_452242232" MODIFIED="1473673476068" TEXT="initialPool&#x5f88;&#x5173;&#x952e;">
-<node CREATED="1473673478902" ID="ID_828990800" MODIFIED="1473673494788" TEXT="&#x521d;&#x59cb;&#x5316;&#x8fde;&#x63a5;&#x5230;redis&#x7684;&#x6c60;"/>
-</node>
-</node>
-</node>
-<node CREATED="1473650689895" ID="ID_1931263681" MODIFIED="1473650692643" TEXT="other">
-<node CREATED="1473650273246" FOLDED="true" ID="ID_1028595152" MODIFIED="1475030302959" TEXT="LockResult">
-<node CREATED="1473650291730" ID="ID_1364349760" MODIFIED="1473650425246">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      import java.io.Serializable;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      public class LockResult &lt;T&gt; implements Serializable{
-    </p>
-    <p>
-      private static final long serialVersionUID = -7891440771293974054L;
-    </p>
-    <p>
-      <b><font color="#006600">/*</font><font color="#0033cc">0,&#25104;&#21151;</font><font color="#006600">&#65307;&#20854;&#23427;&#24453;&#23450;*/</font></b>
-    </p>
-    <p>
-      public int <font color="#0033cc">code</font>;
-    </p>
-    <p>
-      /** &#25551;&#36848;&#160;&#160;*/
-    </p>
-    <p>
-      public String description;
-    </p>
-    <p>
-      /** &#19994;&#21153;&#36820;&#22238;&#23545;&#35937;&#160;&#160;*/
-    </p>
-    <p>
-      <font color="#0033cc">public T result;</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      public LockResult(int code,String description,T result){
-    </p>
-    <p>
-      super();
-    </p>
-    <p>
-      this.code = code;
-    </p>
-    <p>
-      this.description = description;
-    </p>
-    <p>
-      this.result = result;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      public int getCode() {
-    </p>
-    <p>
-      return code;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      public void setCode(int code) {
-    </p>
-    <p>
-      this.code = code;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      public String getDescription() {
-    </p>
-    <p>
-      return description;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      public void setDescription(String description) {
-    </p>
-    <p>
-      this.description = description;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      public<b>&#160;<font color="#006600">T</font></b>&#160;<font color="#0033cc">getResult</font>() {
-    </p>
-    <p>
-      return result;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      public void <font color="#0033cc">setResult</font>(<b><font color="#006600">T</font></b>&#160;result) {
-    </p>
-    <p>
-      this.result = result;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1473650697365" ID="ID_761976244" MODIFIED="1473650706380" TEXT="RedisDlockConfig"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1473673257411" ID="ID_1375454175" MODIFIED="1473673534861" TEXT="&#x8be5;&#x9501;&#x673a;&#x5236;&#x7684;redis&#x914d;&#x7f6e;&#x5199;&#x6b7b;&#x5728;&#x4ee3;&#x7801;&#x91cc;&#x4e86;&#xff0c;shit!">
-<node BACKGROUND_COLOR="#99ff99" CREATED="1473673278917" ID="ID_1448612529" MODIFIED="1473673527301" TEXT="redis.55tuan.me:7380?timeout=30*1000"/>
-<node CREATED="1473673315204" ID="ID_279898971" MODIFIED="1473673327827" TEXT="in AbstractDlockConfig"/>
-<node BACKGROUND_COLOR="#ff99cc" CREATED="1473674688940" ID="ID_90315083" MODIFIED="1473674735652" TEXT="&#x6211;&#x5f04;&#x9519;&#x4e86;&#xff0c;&#x5728;mdpaygate-cache-impl-bean.xml&#x4e2d;&#x6709;&#x5355;&#x72ec;&#x914d;&#x7f6e;&#x51fa;&#x6765;&#x7684;dlockConfig"/>
-</node>
-</node>
-<node CREATED="1478159577813" ID="ID_371018964" MODIFIED="1482364398286" POSITION="right" TEXT="&#x53c2;&#x4e0e;&#x9879;&#x76ee;">
+<node CREATED="1478159577813" FOLDED="true" ID="ID_371018964" MODIFIED="1482724515698" TEXT="&#x53c2;&#x4e0e;&#x9879;&#x76ee;">
 <node CREATED="1478159589398" FOLDED="true" ID="ID_1332068764" MODIFIED="1482364531422" TEXT="&#x591a;&#x4e3b;&#x4f53;&#x9879;&#x76ee;">
 <node CREATED="1478159625048" FOLDED="true" ID="ID_82831550" MODIFIED="1482364526949" TEXT="&#x63cf;&#x8ff0;">
 <node CREATED="1478159634675" ID="ID_1980859081" MODIFIED="1478160038089">
@@ -4911,8 +4923,7 @@
       &lt;/dependency&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481856086623" FOLDED="true" ID="ID_1174072395" MODIFIED="1482364490656" TEXT="&#x6838;&#x5fc3;&#x4ee3;&#x7801;&#x6846;&#x67b6;">
@@ -5351,5 +5362,314 @@
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1482730813089" ID="ID_922275831" MODIFIED="1482730857288" TEXT="12.16 -- 12.30">
+<node CREATED="1482731543370" ID="ID_345354080" MODIFIED="1482813319693">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19994;&#21153;&#31867;&#22411;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1482746648474" ID="ID_918817010" MODIFIED="1482811317704" TEXT="&#x652f;&#x4ed8;&#x65b9;&#x5f0f;">
+<node CREATED="1482731558274" ID="ID_1514409167" MODIFIED="1482824229829">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cc00cc" size="5"><b>c &#25195; b</b></font>&#65292;&#30452;&#25509;&#23458;&#25143;&#31471;&#20184;&#27454;&#65292;&#29992;&#25143;&#29992;&#25163;&#26426; <font color="#ff0000">&#36890;&#36807; &#25105;&#20204;&#25552;&#20379;&#30340;wap&#39029;&#38754;&#160;&#25195; &#21830;&#23478; &#38376;&#24215; &#29289;&#26009; &#20108;&#32500;&#30721; &#25903;&#20184;&#65311;</font>&#65292;<b><font color="#006666">&#36825;&#20010;&#21482;&#33021;&#31561;&#24453;&#21512;&#20316;&#26041;&#65288;&#24494;&#20449;&#25110;&#32773;&#25903;&#20184;&#23453;&#65289;&#22238;&#35843;&#25105;&#20204;&#30340;Java&#24037;&#31243;mdpaygate&#32593;&#22336;&#65292;&#27492;&#26102;&#65292;&#26080;&#38656;&#36890;&#36807;&#25105;&#20204;.net wap&#32593;&#31449;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1482813323565" ID="ID_1904352656" MODIFIED="1482813404998">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39033;&#24196;&#36127;&#36131;&#30340;<b><font color="#0000ff">b&#31471;&#32593;&#31449;</font></b><font color="#cc00cc">&#29983;&#25104;&#21830;&#23478;<b>&#29289;&#26009;&#20108;&#32500;&#30721;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1482813412498" ID="ID_556111128" MODIFIED="1482824963372">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#25143;&#36890;&#36807;&#24494;&#20449;/&#25903;&#20184;&#23453;&#65292;&#25195;&#35813;&#20108;&#32500;&#30721;&#65288;rqController-&gt;PhonePayController-&gt;PrepareOrder&#65289;&#29983;&#25104;&#35746;&#21333;&#39029;&#38754;&#65292;&#36755;&#20837;&#37329;&#39069;&#21518;&#65292;&#28857;&#25552;&#20132;&#23436;&#25104;&#25903;&#20184;(<b><font color="#ff0000">&#36208;&#30340;&#21738;&#20010;payController</font></b>)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1482731568442" ID="ID_1857347140" MODIFIED="1482801517103">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#6600cc" size="5"><b>b &#25195; c </b></font>[&#36739;&#22810;] &#21830;&#23478; &#25195; &#29992;&#25143;&#25480;&#26435;&#30721; &#24182;&#22635;&#20889;&#37329;&#39069;&#25903;&#20184; &#31561;&#24453;&#29992;&#25143;&#25903;&#20184;
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        &#25293;&#25293;&#23567;&#30418;
+      </li>
+      <li>
+        &#22909;&#36866;&#21475;
+      </li>
+      <li>
+        &#24494;&#32654;
+      </li>
+    </ul>
+    <p>
+      &#30446;&#21069;&#30456;&#23545;&#20110; c&#25195;b &#27604;&#20363;&#20026; 7:3&#24038;&#21491;&#65292;&#20063;&#23601;&#26159;b&#25195;c&#25480;&#26435;&#30721;&#23621;&#22810;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000"><b>&#27880;&#24847;&#65306;&#27492;&#26102;&#21512;&#20316;&#26041;&#65288;&#25293;&#25293;&#23567;&#30418;&#65292;&#22909;&#36866;&#21475;&#31561;&#65289;</b></font><b><font color="#006600">&#25195;&#30721;&#25250;&#20250;&#22312;&#36719;&#20214;&#20013;&#35774;&#32622;</font><font color="#006666">&#25105;&#20204;&#25552;&#20379;&#30340;.net wap&#32593;&#22336;</font><font color="#ff0000">&#65292;&#27492;&#21518;&#65292;&#33719;&#21462;&#29992;&#25143;&#25480;&#26435;&#30721;&#21518;&#35843;&#29992;&#35813;wap&#32593;&#22336;&#36827;&#34892;&#21518;&#32493;&#25903;&#20184;&#25805;&#20316;&#12290;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1482824981179" ID="ID_1549380387" MODIFIED="1482824990901" TEXT="&#x5fae;&#x7f8e;">
+<node CREATED="1482825012981" ID="ID_1982437640" MODIFIED="1482825039686" TEXT="Pay/MicroPayController"/>
+</node>
+<node CREATED="1482824992521" ID="ID_520242289" MODIFIED="1482824999614" TEXT="&#x62cd;&#x62cd;&#x5c0f;&#x76d2;">
+<node CREATED="1482825042468" ID="ID_738048317" MODIFIED="1482825055485" TEXT="Pay/CommonScanPayController"/>
+</node>
+<node CREATED="1482825001193" ID="ID_1326196548" MODIFIED="1482825005900" TEXT="&#x597d;&#x9002;&#x53e3;">
+<node CREATED="1482825058651" ID="ID_835464805" MODIFIED="1482825068236" TEXT="Pay/CommonScanPayController"/>
+</node>
+</node>
+</node>
+<node CREATED="1482746731001" ID="ID_729202423" MODIFIED="1482746734172" TEXT="&#x6e20;&#x9053;">
+<node CREATED="1482746735846" ID="ID_333570886" MODIFIED="1482746739362" TEXT="&#x5fae;&#x4fe1;"/>
+<node CREATED="1482746740517" ID="ID_780745941" MODIFIED="1482746743413" TEXT="&#x652f;&#x4ed8;&#x5b9d;"/>
+</node>
+</node>
+<node CREATED="1482746751492" ID="ID_163682658" MODIFIED="1482824867801">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20837;&#21475;&#39033;&#30446; MobileWap&#65292;&#22522;&#20110;c#
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1482746764887" FOLDED="true" ID="ID_1348364254" MODIFIED="1482824854239" TEXT="&#x91c7;&#x7528;&#x65e9;&#x671f;&#x738b;&#x6d2a;&#x6c5f;AspNet MVC&#x4fee;&#x6539;&#x7248;&#x672c;">
+<node CREATED="1482746805041" ID="ID_1447070994" MODIFIED="1482746907531">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2016.12.26&#65306;&#20174;git&#20013;&#25552;&#21462;&#28304;&#30721;&#65292;&#26412;&#22320;&#36816;&#34892;&#22312;Global.asax&#20837;&#21475;&#22788;&#25253;&#38169;&#65292;&#23454;&#38469;&#26159;&#30001;&#20110;&#32534;&#35793;bin&#30446;&#24405;&#35774;&#32622;&#21040;&#20102;&#19978;&#19968;&#23618;[../bin/]&#23548;&#33268;&#65292;&#20462;&#25913;&#22238;[bin/]&#21363;&#21487;&#22312;&#26412;&#22320;&#36816;&#34892;&#24182;&#35843;&#35797;&#20102;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1482796765431" ID="ID_351126586" MODIFIED="1482796792326" TEXT="Global.asax">
+<node CREATED="1482796793835" ID="ID_1541863689" MODIFIED="1482796823929" TEXT="MvcApplication">
+<node CREATED="1482796837690" ID="ID_1529331408" MODIFIED="1482811186067">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Application_Start
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1482796805362" ID="ID_1416573602" MODIFIED="1482796893690" TEXT="RegisterGlobalFilters"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1482796826075" ID="ID_1125050613" MODIFIED="1482818424238" TEXT="RegisterRoutes">
+<node CREATED="1482799160148" ID="ID_1000643570" MODIFIED="1482799164485" TEXT="routes.IgnoreRoute(&quot;{resource}.axd/{*pathInfo}&quot;);"/>
+<node CREATED="1482799530789" ID="ID_1084071987" MODIFIED="1482811306442">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29289;&#26009;&#30721;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25105;&#29702;&#35299;&#23601;&#26159;<b><font color="#006600">&#25480;&#26435;&#30721;</font></b>&#21862;&#65292;&#20294;&#35980;&#20284;&#19981;&#26159;&#65292;&#23601;&#26159;&#32465;&#23450;&#38376;&#24215;&#30340;&#29289;&#26009;&#30721;&#12290;
+    </p>
+    <p>
+      <b><font color="#ff0000">&#38169;&#20102;&#65292;&#24443;&#24213;&#25630;&#38169;&#20102;&#65292;</font>&#36825;&#26159;&#20856;&#22411;&#30340;<font color="#cc00cc">c &#25195; b</font>&#65292;<font color="#006666">&#25195;&#30340;&#23601;&#26159;&#38376;&#24215;&#30340;&#29289;&#26009;&#30721;&#65292;&#28982;&#21518;&#23637;&#31034;&#35746;&#21333;&#30028;&#38754;&#65292;&#29992;&#25143;&#36755;&#20837;&#37329;&#39069;&#65292;&#25552;&#20132;&#23436;&#25104;&#25903;&#20184;</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28041;&#21450;&#25903;&#20184;&#30340;&#24212;&#35813;&#23601;&#26159;&#36825;&#20010;&#20102;&#65292;&#20379;&#21512;&#20316;&#26041;&#35843;&#29992;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1482799179914" ID="ID_625770852" MODIFIED="1482810309976">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//&#29289;&#26009;&#30721;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;routes.MapRoute(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;rq&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;<b><font color="#0000ff">rq</font>/<font color="#ff3300">{code}</font></b>&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;new { controller = &quot;<font color="#0000ff">rq</font>&quot;, action = &quot;<b><font color="#00cccc">Index</font></b>&quot;, code = UrlParameter.Optional }
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;);
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1482797608757" ID="ID_1678088508" MODIFIED="1482800062028">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Wowo.Mobile.Wap.<b><font color="#6600cc">Controllers</font></b>.SHrcode.<b><font color="#0000ff">rq</font></b>Controller
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1482810312867" ID="ID_640122398" MODIFIED="1482810410387">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;&#29289;&#26009;&#30721;&#65292;&#20174;redis&#25552;&#21462; a_&#38376;&#24215;id_&#36820;&#29616;id&#32452;&#25104;&#30340;&#20540;&#65292;&#35843;&#29992;phonepaycontroller&#30340;prepareorder&#26469;&#29983;&#25104;&#35746;&#21333;&#23637;&#31034;&#39029;&#38754;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1482800217966" ID="ID_1467777553" MODIFIED="1482803459335">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Wowo.Mobile.Wap.Controllers.Pay.<b><font color="#6600cc">PhonePayController</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1482804126650" ID="ID_303000875" MODIFIED="1482804174532" TEXT="&#x7136;&#x540e;&#x901a;&#x8fc7;&#x8fd4;&#x73b0;&#x7ec4;&#x4ef6;wowotuan.MobileServer.CashBack.dll&#x8c03;&#x7528;Java&#x5de5;&#x7a0b;&#x7f51;&#x5740;&#x5b8c;&#x6210;&#x540e;&#x7eed;&#x652f;&#x4ed8;"/>
+</node>
+</node>
+</node>
+<node CREATED="1482796866051" ID="ID_200335942" MODIFIED="1482796871710" TEXT="InitConfig"/>
+<node CREATED="1482797695498" FOLDED="true" ID="ID_1034415880" MODIFIED="1482818422794" TEXT="&#x5173;&#x952e;&#x70b9;">
+<node CREATED="1482797704539" ID="ID_1100757105" MODIFIED="1482797728335" TEXT="routes.MapRoute"/>
+<node CREATED="1482797813962" ID="ID_909803653" MODIFIED="1482797829719" TEXT="ControllerBase">
+<node CREATED="1482797833815" ID="ID_792107565" MODIFIED="1482797837862" TEXT="ActionResult"/>
+<node CREATED="1482797847771" ID="ID_1495043628" MODIFIED="1482797858438" TEXT="RedirectToAction"/>
+</node>
+<node CREATED="1482805517026" ID="ID_1715130322" MODIFIED="1482805527739" TEXT="Controller-Model-View">
+<node CREATED="1482805529425" ID="ID_1353381911" MODIFIED="1482805564027" TEXT="route.MapRoute&#x627e;&#x5230;&#x76f8;&#x5e94;&#x7684;controller"/>
+<node CREATED="1482805568994" ID="ID_1912830298" MODIFIED="1482805595708" TEXT="controller&#x5904;&#x7406;&#x5b8c;&#x6210;&#x540e;&#xff0c;&#x901a;&#x8fc7;View&#x5c55;&#x793a;&#x6570;&#x636e;model">
+<node CREATED="1482805600826" FOLDED="true" ID="ID_1793437376" MODIFIED="1482805652940" TEXT="&#x4ee3;&#x7801;&#x5904;&#x7406;">
+<node CREATED="1482805643561" ID="ID_75678997" MODIFIED="1482805648631">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="2016/12/Views-PhonePay-SHCreateOrder2.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1482805618952" FOLDED="true" ID="ID_111839543" MODIFIED="1482805641485" TEXT="&#x6587;&#x4ef6;&#x7ed3;&#x6784;">
+<node CREATED="1482805626424" ID="ID_1564524512" MODIFIED="1482805637413">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="2016/12/Views-PhonePay-SHCreateOrder.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1482821145718" ID="ID_1341800863" MODIFIED="1482822626543">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pay/MicroPayController [&#24494;&#32654;] or Pay/CommonScanPayController[&#22909;&#36866;&#21475;&#65292;&#25293;&#25293;&#23567;&#30418;]
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#37117;&#26159;<b><font color="#0000ff">&#36890;&#36807;[HttpPost]&#23646;&#24615;&#26631;&#27880;&#26367;&#20195;route&#27880;&#20876;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1482825564309" ID="ID_363682667" MODIFIED="1482825580086" TEXT="&#x6d4b;&#x8bd5;&#x73af;&#x5883;&#x4f4d;&#x7f6e;"/>
+</node>
+</node>
+</node>
+<node CREATED="1482730873217" ID="ID_1637028870" MODIFIED="1482730876835" POSITION="left" TEXT="2017"/>
 </node>
 </map>
