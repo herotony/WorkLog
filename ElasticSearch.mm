@@ -550,7 +550,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1479868403147" FOLDED="true" ID="ID_1562337421" MODIFIED="1482394638266" POSITION="right" TEXT="&#x642d;&#x5efa;&#x57fa;&#x4e8e;SpringMVC&#x7684;&#x5f00;&#x53d1;&#x73af;&#x5883;">
+<node CREATED="1479868403147" FOLDED="true" ID="ID_1562337421" MODIFIED="1482979079209" POSITION="right" TEXT="&#x642d;&#x5efa;&#x57fa;&#x4e8e;SpringMVC&#x7684;&#x5f00;&#x53d1;&#x73af;&#x5883;">
 <node CREATED="1479868867991" ID="ID_263797783" MODIFIED="1481000015897">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -652,7 +652,7 @@
 </node>
 </node>
 <node CREATED="1479869043471" ID="ID_156254705" MODIFIED="1480990144592" TEXT="&#x6dfb;&#x52a0;&#x540d;&#x4e3a;assembly&#x7684;maven module">
-<node CREATED="1479883316578" FOLDED="true" ID="ID_1423427710" MODIFIED="1481163473591" TEXT="pom&#x6587;&#x4ef6;&#x8bbe;&#x7f6e;">
+<node CREATED="1479883316578" FOLDED="true" ID="ID_1423427710" MODIFIED="1482979074698" TEXT="pom&#x6587;&#x4ef6;&#x8bbe;&#x7f6e;">
 <node CREATED="1479883939662" FOLDED="true" ID="ID_289545470" MODIFIED="1480992308889" TEXT="&#x901a;&#x7528;&#x7248;&#x672c;artifactid&#x7b49;&#x914d;&#x7f6e;">
 <node CREATED="1479883963874" ID="ID_1733927621" MODIFIED="1479884995845">
 <richcontent TYPE="NODE"><html>
@@ -1231,7 +1231,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1479885638128" FOLDED="true" ID="ID_1532088748" MODIFIED="1481000005887">
+<node CREATED="1479885638128" ID="ID_1532088748" MODIFIED="1482979059747">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2070,8 +2070,7 @@
       &#24191;&#21578;&#25490;&#26597;&#65292;<font color="#006600">&#20808;&#26597;&#24405;&#20837;&#24191;&#21578;&#25968;&#25454;</font>&#65292;&#28982;&#21518;<font color="#990099">&#25490;&#26597;&#25628;&#32034;&#35821;&#21477;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1482738318591" ID="ID_174485574" MODIFIED="1482738445341">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2088,8 +2087,7 @@
       shadcenter&#22312;&#36825;&#20004;&#21488;&#26381;&#21153;&#22120;&#19978;&#37096;&#32626; /data/shadcenter-1.0...
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1481252122616" ID="ID_591929519" MODIFIED="1482737151906">
 <richcontent TYPE="NODE"><html>
