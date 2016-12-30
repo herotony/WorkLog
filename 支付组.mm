@@ -5363,7 +5363,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1482730813089" ID="ID_922275831" MODIFIED="1482982154567" TEXT="12.16 -- 12.30">
+<node CREATED="1482730813089" FOLDED="true" ID="ID_922275831" MODIFIED="1483063257436" TEXT="12.16 -- 12.30">
 <node CREATED="1482884818086" ID="ID_1946912449" MODIFIED="1482897427206" TEXT="MobileWap">
 <node CREATED="1482731543370" FOLDED="true" ID="ID_345354080" MODIFIED="1482897431682">
 <richcontent TYPE="NODE"><html>
@@ -5685,8 +5685,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1482897441866" FOLDED="true" ID="ID_1067108807" MODIFIED="1482979464544" TEXT="&#x5fae;&#x4fe1;&#x6587;&#x6863;&#x4f4d;&#x7f6e;">
 <node CREATED="1482897456033" ID="ID_401911411" MODIFIED="1482897471670">
@@ -5874,8 +5873,7 @@
       &#37117;&#26469;&#33258;mdpaygate-domain-bean.xml&#20013;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1482978881130" ID="ID_1570549003" MODIFIED="1482979291492">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5895,8 +5893,7 @@
       @Resource : combine @Autowire + @Qualifier
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1482978963604" ID="ID_906413404" MODIFIED="1482978994079">
 <richcontent TYPE="NODE"><html>
@@ -5911,8 +5908,7 @@
       &#160;private Map&lt;PayTypeEnum, Trade<b><font color="#009999">Query</font></b>Manager&gt; tradeQueryManagerMap;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -5933,8 +5929,7 @@
       <b>&#24517;&#39035;&#25630;&#28165;&#26970;!</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1482982159905" ID="ID_1938353595" MODIFIED="1482999171312">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5948,8 +5943,7 @@
       &#36825;&#37324;&#26377;addQueue,PayEventHandler&#31561;&#31995;&#21015;&#22788;&#29702;&#27969;&#31243;&#65288;addQueeu/EventHanlder&#26426;&#21046;&#25630;&#28165;&#26970;&#65289;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1482982190226" ID="ID_1386008657" MODIFIED="1482982347843">
 <richcontent TYPE="NODE"><html>
@@ -5961,12 +5955,111 @@
       b &#25195; c &#22312;&#31532;&#19977;&#26041;&#24179;&#21488;&#25903;&#20184;&#65292;&#30452;&#25509;&#33719;&#21462;&#20102;&#32467;&#26524;&#65292;&#25105;&#20204;&#38656;&#35201;&#33258;&#34892;&#32465;&#23450;&#29992;&#25143;&#65292;&#21047;&#26032;&#25903;&#20184;&#29366;&#24577;&#65292;&#23436;&#25104;&#20132;&#26131;&#12290;&#36825;&#37324;&#19981;&#28041;&#21450;&#22238;&#35843;&#20102;&#65292;&#20294;&#20250;&#28041;&#21450;&#35746;&#21333;&#29366;&#24577;&#26597;&#35810;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 <node CREATED="1482730873217" ID="ID_1637028870" MODIFIED="1482730876835" POSITION="left" TEXT="2017"/>
+<node CREATED="1483063260758" ID="ID_536517211" MODIFIED="1483063265412" POSITION="right" TEXT="mdpaygate">
+<node CREATED="1483063266938" ID="ID_531407904" MODIFIED="1483063269897" TEXT="uml">
+<node CREATED="1483064177395" FOLDED="true" ID="ID_623071369" MODIFIED="1483091588789" TEXT="QueueConsumeTask">
+<node CREATED="1483084855411" ID="ID_1329752554" MODIFIED="1483090509951">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25972;&#20010;EventManagerImpl&#30340;<b><font color="#ff3333">addEvent&#21482;&#34987;addEventSync&#20869;&#26576;&#20010;&#26465;&#20214;&#20998;&#25903;&#20869;&#35843;&#29992;</font></b>&#65292;&#32780;<b><font color="#ff3333">addEventSync</font><font color="#009933">&#20063;&#21482;&#34987;QueueConsumeTask</font></b>&#35843;&#29992;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><u><font color="#990000">&#32780;addEvent&#26377;&#20010;&#33268;&#21629;&#32570;&#38519;&#65292;&#19968;&#26086;</font><font color="#6666ff">ERROR/ALARM</font><font color="#990000">&#30340;Event&#23548;&#33268;addEvent&#24322;&#27493;&#22788;&#29702;&#24182;&#19988;&#35813;&#24322;&#27493;&#22788;&#29702;</font><font color="#ff3333">future.get&#36820;&#22238;null&#65288;&#26680;&#26597;&#20102;ErrorHandler,AlarmHandler&#28304;&#30721;&#65292;&#27809;&#26426;&#20250;&#36820;&#22238;null&#65289;</font><font color="#990000">&#23558;&#23548;&#33268;&#25972;&#20010;addEvent&#32447;&#31243;&#27515;&#25481;&#65281;&#21482;&#26159;&#30446;&#21069;&#24182;&#27809;&#26377;null&#26469;&#35302;&#21457; </font></u></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25105;&#20204;&#19981;&#20851;&#24515;&#27599;&#27425;addEventSync&#30340;&#22788;&#29702;&#32467;&#26524;&#30340;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1483063271496" FOLDED="true" ID="ID_1627063103" MODIFIED="1483090547382" TEXT="QueueDomain">
+<node CREATED="1483063281501" ID="ID_1601765985" MODIFIED="1483063288734">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="WorkUML/mdpaygate-QueueDomain.jpg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1483066296302" FOLDED="true" ID="ID_847289206" MODIFIED="1483091573077" TEXT="QueueServiceImpl">
+<node CREATED="1483066306723" ID="ID_1611293412" MODIFIED="1483066311789">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="WorkUML/mdpaygate-QueueServiceImpl.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffcc" COLOR="#000000" CREATED="1483082594434" FOLDED="true" ID="ID_1434905087" MODIFIED="1483091568094">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EventManagerImpl
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30446;&#21069;&#20165;&#20379;QueueConsumeTask&#20351;&#29992;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20837;&#21475;&#28857;&#24456;&#22810;&#65292;&#30456;&#24212;&#30340;EventHandler&#20986;&#21475;&#28857;&#20063;&#26377;&#20960;&#20010;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1483082601460" ID="ID_1551842561" MODIFIED="1483082607481">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="WorkUML/mdpaygate-EventManagerImplImpl.jpg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1483083260065" FOLDED="true" ID="ID_1758652570" MODIFIED="1483085728357" TEXT="Callable/Runable/future">
+<node CREATED="1483083285500" ID="ID_35188064" MODIFIED="1483083350459" TEXT="Callable &#x7c7b;&#x4f3c; Runable&#xff0c;&#x5b9e;&#x73b0;&#x65b9;&#x6cd5;call &#x4e0d;&#x8fc7;&#x5176;&#x5fc5;&#x5e26;&#x8fd4;&#x56de;&#x503c;"/>
+<node CREATED="1483083316750" ID="ID_40502405" MODIFIED="1483083330675" TEXT="Runable &#x5b9e;&#x73b0;&#x65b9;&#x6cd5;run&#xff0c;&#x4e0d;&#x80fd;&#x6709;&#x8fd4;&#x56de;&#x503c;"/>
+<node CREATED="1483083352379" ID="ID_759028660" MODIFIED="1483083587450" TEXT="future&#xff0c;&#x5f02;&#x6b65;&#x5904;&#x7406;&#xff0c;&#x662f;&#x5bf9;Callable or Runable&#x518d;&#x5c01;&#x88c5;&#xff0c;&#x4e0d;&#x50cf;Callable,Runable&#x90fd;&#x662f;&#x540c;&#x6b65;&#x8fd4;&#x56de;&#x7ed3;&#x679c;"/>
+</node>
+<node CREATED="1483089489163" ID="ID_251197316" MODIFIED="1483089498437" TEXT="PayEventHandle">
+<node CREATED="1483089532279" ID="ID_607301440" MODIFIED="1483089634837" TEXT="&#x8bbf;&#x95ee; mdfrontserver &#x7684; paycallback.do&#x7136;&#x540e;&#x518d;&#x5237;queue&#x8868;"/>
+</node>
+<node CREATED="1483091578431" ID="ID_206400336" MODIFIED="1483091586116" TEXT="&#x65f6;&#x5e8f;&#x56fe;"/>
+</node>
+</node>
+</node>
 </node>
 </map>
