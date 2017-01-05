@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1478080139555" ID="ID_411859334" MODIFIED="1478080160654" TEXT="mockito for Spring">
-<node CREATED="1478572510316" FOLDED="true" ID="ID_98151069" MODIFIED="1482979136191" POSITION="right" TEXT="Spring">
+<node CREATED="1478572510316" FOLDED="true" ID="ID_98151069" MODIFIED="1483600736064" POSITION="right" TEXT="Spring">
 <node CREATED="1478573983205" ID="ID_1462334804" MODIFIED="1479785494646" TEXT="&#x7b80;&#x8981;&#x8bf4;&#x660e;">
 <node CREATED="1478574002137" FOLDED="true" ID="ID_1767966821" MODIFIED="1479785502089">
 <richcontent TYPE="NODE"><html>

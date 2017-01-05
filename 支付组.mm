@@ -85,7 +85,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1483408840403" ID="ID_597187017" MODIFIED="1483496153694" TEXT="&#x8bf4;&#x660e;">
+<node CREATED="1483408840403" ID="ID_597187017" MODIFIED="1483608246624" TEXT="&#x8bf4;&#x660e;">
 <node CREATED="1483415327854" ID="ID_1715116367" MODIFIED="1483421532805" TEXT="&#x4f7f;&#x7528;&#x6b65;&#x9aa4;">
 <node CREATED="1483415344250" ID="ID_1167791642" MODIFIED="1483421534713">
 <richcontent TYPE="NODE"><html>
@@ -103,7 +103,7 @@
     </ol>
   </body>
 </html></richcontent>
-<node CREATED="1483415502341" FOLDED="true" ID="ID_785225303" MODIFIED="1483432343751" TEXT="&#x754c;&#x9762;&#x4e00;&#xff0c;&#x67e5;&#x770b;&#x4e8c;&#x7ef4;&#x7801;&#x5165;&#x53e3;">
+<node CREATED="1483415502341" FOLDED="true" ID="ID_785225303" MODIFIED="1483608116212" TEXT="&#x754c;&#x9762;&#x4e00;&#xff0c;&#x67e5;&#x770b;&#x4e8c;&#x7ef4;&#x7801;&#x5165;&#x53e3;">
 <node CREATED="1483415542652" ID="ID_1180171282" MODIFIED="1483415548841">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -115,7 +115,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1483415527956" FOLDED="true" ID="ID_713600562" MODIFIED="1483432350181" TEXT="&#x754c;&#x9762;&#x4e8c;&#xff0c;&#x83b7;&#x53d6;&#x7684;&#x5177;&#x4f53;&#x4e8c;&#x7ef4;&#x7801;">
+<node CREATED="1483415527956" FOLDED="true" ID="ID_713600562" MODIFIED="1483608118836" TEXT="&#x754c;&#x9762;&#x4e8c;&#xff0c;&#x83b7;&#x53d6;&#x7684;&#x5177;&#x4f53;&#x4e8c;&#x7ef4;&#x7801;">
 <node CREATED="1483415554735" ID="ID_749289878" MODIFIED="1483415558111">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -130,7 +130,7 @@
 <node CREATED="1483415564263" ID="ID_379957061" MODIFIED="1483415594288" TEXT="&#x4e8c;&#x7ef4;&#x7801;&#x7684;&#x751f;&#x6210;&#x662f;&#x91c7;&#x7528;&#x98de;&#x98de;&#x7684;winform&#x5c0f;&#x5de5;&#x5177;&#x6279;&#x91cf;&#x751f;&#x6210;&#x7684;"/>
 </node>
 </node>
-<node CREATED="1483495368943" FOLDED="true" ID="ID_1211451339" MODIFIED="1483524302624" TEXT="&#x9e4f;&#x98de;&#x53e3;&#x8ff0;">
+<node CREATED="1483495368943" FOLDED="true" ID="ID_1211451339" MODIFIED="1483608241594" TEXT="&#x9e4f;&#x98de;&#x53e3;&#x8ff0;">
 <node BACKGROUND_COLOR="#ffff99" CREATED="1483495376168" ID="ID_694611625" MODIFIED="1483495780197">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -159,6 +159,87 @@
       <font color="#330099">http://mp.weixin.qq.com/wiki/home/index.html</font>
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1483608246629" FOLDED="true" ID="ID_1811661994" LINK="http://mp.weixin.qq.com/wiki/home/index.html" MODIFIED="1483609189490">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24494;&#20449;&#20844;&#20247;&#24179;&#21488;[&#20134;&#21363;<b><font color="#00cc99">&#20844;&#20247;&#21495;</font></b>]
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      http://mp.weixin.qq.com/wiki/home/index.html
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1483608290277" ID="ID_728187343" MODIFIED="1483608349108">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#cc00cc"><i>&#27599;&#20010;</i>&#29992;&#25143;</font></b>&#160;&#38024;&#23545; <b><font color="#00cc99"><i>&#27599;&#20010;</i>&#160; &#20844;&#20247;&#21495; </font></b>&#20250; &#20135;&#29983; &#19968;&#20010;<b><font color="#009900">&#23433;&#20840; &#30340; OpenID</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1483608707606" ID="ID_1332204510" MODIFIED="1483608751655">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#00cc99" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px"><b>&#20844;&#20247;&#21495;</b></font><font color="rgb(51, 51, 51)" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#26159;&#20197;&#24494;&#20449;&#29992;&#25143;&#30340;</font><font color="#ff9933" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px"><b>&#19968;&#20010;&#32852;&#31995;&#20154;&#24418;&#24335;</b></font><font color="rgb(51, 51, 51)" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#23384;&#22312;&#30340;&#65292;</font><font color="#cc00cc" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px"><b>&#28040;&#24687;&#20250;&#35805;</b></font><font color="rgb(51, 51, 51)" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#26159;&#20844;&#20247;&#21495;&#19982;&#29992;&#25143;</font><font color="#00cc99" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px"><b>&#20132;&#20114;&#30340;&#22522;&#30784;</b></font><font color="rgb(51, 51, 51)" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#12290;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1483608783769" ID="ID_1642508080" MODIFIED="1483608791286" TEXT="&#x6d88;&#x606f;&#x79cd;&#x7c7b;">
+<node CREATED="1483608793330" ID="ID_725758221" MODIFIED="1483608968838">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#cc00cc">&#32676;&#21457;&#28040;&#24687;</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20844;&#20247;&#21495;&#21487;&#20197;&#20197;&#19968;&#23450;&#39057;&#27425;&#65288;<b><font color="#009900">&#35746;&#38405;&#21495;</font></b>&#20026;<u><b><font color="#ff6666">&#27599;&#22825;1&#27425;</font></b></u>&#65292;<b><font color="#009900">&#26381;&#21153;&#21495;</font></b>&#20026;<u><b><font color="#ff6666">&#27599;&#26376;4&#27425;</font></b></u>&#65289;&#65292;&#21521;&#29992;&#25143;<b><font color="#cc00cc">&#32676;&#21457;</font></b>&#28040;&#24687;&#65292;&#21253;&#25324;&#25991;&#23383;&#28040;&#24687;&#12289;&#22270;&#25991;&#28040;&#24687;&#12289;&#22270;&#29255;&#12289;&#35270;&#39057;&#12289;&#35821;&#38899;&#31561;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1483608800462" ID="ID_997831738" MODIFIED="1483608808656" TEXT="&#x88ab;&#x52a8;&#x56de;&#x590d;&#x6d88;&#x606f;"/>
+<node CREATED="1483608809583" ID="ID_1324886647" MODIFIED="1483608814623" TEXT="&#x5ba2;&#x670d;&#x6d88;&#x606f;"/>
+<node CREATED="1483608815426" ID="ID_1684610556" MODIFIED="1483608820087" TEXT="&#x6a21;&#x677f;&#x6d88;&#x606f;"/>
+</node>
+</node>
+</node>
+<node CREATED="1483608387118" ID="ID_455279516" MODIFIED="1483608483147">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(51, 51, 51)" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#22914;&#26524;&#38656;&#35201;&#22312;&#22810;&#20844;&#20247;&#21495;&#12289;&#31227;&#21160;&#24212;&#29992;&#20043;&#38388;&#20570;&#29992;&#25143;&#20849;&#36890;&#65292;&#21017;&#38656;&#21069;&#24448;&#24494;&#20449;&#24320;&#25918;&#24179;&#21488;&#65292;&#23558;</font><font color="#cc00cc" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px"><b>&#36825;&#20123;&#20844;&#20247;&#21495;&#21644;&#24212;&#29992;&#32465;&#23450;&#21040;&#19968;&#20010;</b></font><b><font color="#ff6666" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#24320;&#25918;&#24179;&#21488;</font><font color="#ff6600" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#36134;&#21495;</font><font color="#cc00cc" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#19979;</font></b><font color="rgb(51, 51, 51)" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#65292;&#32465;&#23450;&#21518;&#65292;&#19968;&#20010;&#29992;&#25143;&#34429;&#28982;&#23545;&#22810;&#20010;&#20844;&#20247;&#21495;&#21644;&#24212;&#29992;&#26377;&#22810;&#20010;&#19981;&#21516;&#30340;OpenID&#65292;&#20294;&#20182;&#23545;&#25152;&#26377;&#36825;&#20123;</font><font color="#009900" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px"><b>&#21516;&#19968;</b></font><b><font color="rgb(51, 51, 51)" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#24320;&#25918;&#24179;&#21488;&#36134;&#21495;&#19979;&#30340;</font><font color="#009900" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#20844;&#20247;&#21495;</font><font color="rgb(51, 51, 51)" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#21644;&#24212;&#29992;&#65292;&#21482;&#26377;&#19968;&#20010;</font><font color="#cc00cc" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">UnionID</font></b><font color="rgb(51, 51, 51)" face="Microsoft Yahei, &#x5b8b;&#x4f53;, Tahoma, Arial" size="14px">&#65292;&#21487;&#20197;&#22312;&#29992;&#25143;&#31649;&#29702;-&#33719;&#21462;&#29992;&#25143;&#22522;&#26412;&#20449;&#24687;&#65288;UnionID&#26426;&#21046;&#65289;&#25991;&#26723;&#20102;&#35299;&#35814;&#24773;&#12290;</font>
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
@@ -182,8 +263,8 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1483408848775" FOLDED="true" ID="ID_1179904598" MODIFIED="1483486692158" TEXT="&#x8bf4;&#x660e;">
-<node CREATED="1483410385148" ID="ID_974379980" MODIFIED="1483421750438" TEXT="&#x4f7f;&#x7528;&#x6b65;&#x9aa4;">
+<node CREATED="1483408848775" ID="ID_1179904598" MODIFIED="1483608010487" TEXT="&#x8bf4;&#x660e;">
+<node CREATED="1483410385148" FOLDED="true" ID="ID_974379980" MODIFIED="1483608020843" TEXT="&#x4f7f;&#x7528;&#x6b65;&#x9aa4;">
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1483410395885" ID="ID_342904935" MODIFIED="1483410610149">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -209,7 +290,7 @@
     </ol>
   </body>
 </html></richcontent>
-<node CREATED="1483408845504" FOLDED="true" ID="ID_1378902507" MODIFIED="1483436384474">
+<node CREATED="1483408845504" FOLDED="true" ID="ID_1378902507" MODIFIED="1483608018611">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -233,7 +314,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1483423013420" ID="ID_571636556" MODIFIED="1483486590141" TEXT="&#x56fe;&#x793a;&#x8bf4;&#x660e;">
+<node CREATED="1483423013420" FOLDED="true" ID="ID_571636556" MODIFIED="1483608023939" TEXT="&#x56fe;&#x793a;&#x8bf4;&#x660e;">
 <node CREATED="1483427900255" ID="ID_760276171" MODIFIED="1483427933035">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -247,7 +328,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1483414666754" FOLDED="true" ID="ID_1464441245" MODIFIED="1483486695636" TEXT="b&#x7aef;&#x5ba2;&#x6237;&#x7aef; -- &#x7a9d;&#x7a9d;&#x8425;&#x9500;">
+<node CREATED="1483414666754" FOLDED="true" ID="ID_1464441245" MODIFIED="1483608003755" TEXT="b&#x7aef;&#x5ba2;&#x6237;&#x7aef; -- &#x7a9d;&#x7a9d;&#x8425;&#x9500;">
 <node CREATED="1483415082975" ID="ID_948793248" MODIFIED="1483415087821">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5568,8 +5649,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1482730813089" FOLDED="true" ID="ID_922275831" MODIFIED="1483438042649" TEXT="12.16 -- 12.30">
-<node CREATED="1482884818086" ID="ID_1946912449" MODIFIED="1483425234929" TEXT="MobileWap">
+<node CREATED="1482730813089" FOLDED="true" ID="ID_922275831" MODIFIED="1483608102860" TEXT="12.16 -- 12.30">
+<node CREATED="1482884818086" FOLDED="true" ID="ID_1946912449" MODIFIED="1483608052364" TEXT="MobileWap">
 <node CREATED="1482731543370" ID="ID_345354080" MODIFIED="1483408119481">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5862,7 +5943,7 @@
 <node CREATED="1482825564309" ID="ID_363682667" MODIFIED="1482825580086" TEXT="&#x6d4b;&#x8bd5;&#x73af;&#x5883;&#x4f4d;&#x7f6e;"/>
 </node>
 </node>
-<node CREATED="1482890688343" FOLDED="true" ID="ID_1162915557" MODIFIED="1483425233835" TEXT="&#x6574;&#x4f53;">
+<node CREATED="1482890688343" FOLDED="true" ID="ID_1162915557" MODIFIED="1483608100098" TEXT="&#x6574;&#x4f53;">
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1482890695015" ID="ID_37998936" MODIFIED="1482979501406">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5892,7 +5973,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1482897441866" FOLDED="true" ID="ID_1067108807" MODIFIED="1482979464544" TEXT="&#x5fae;&#x4fe1;&#x6587;&#x6863;&#x4f4d;&#x7f6e;">
+<node CREATED="1482897441866" FOLDED="true" ID="ID_1067108807" MODIFIED="1483608098234" TEXT="&#x5fae;&#x4fe1;&#x6587;&#x6863;&#x4f4d;&#x7f6e;">
 <node CREATED="1482897456033" ID="ID_401911411" MODIFIED="1482897471670">
 <richcontent TYPE="NODE"><html>
   <head>
