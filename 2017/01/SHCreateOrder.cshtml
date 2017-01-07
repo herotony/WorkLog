@@ -1,0 +1,532 @@
+﻿@{
+    Layout = "~/Views/weixin/Shared/_SHLayout.cshtml";
+}
+@if (Model == null)
+{
+    <header><a class="back" href="javascript:history.back();"></a>提示</header>
+    <div class="okresult">
+        亲，现在没返现可挣哦~
+    </div>
+}
+else
+{
+    <link rel="stylesheet" href="/Content/sh/maidan.css" />
+    
+    <input type="hidden" name="shopId" id="shopId" value="@ViewBag.shopId" />
+    <input type="hidden" name="voucherId" id="voucherId" value="@ViewBag.voucherId" />
+    <input type="hidden" name="money" value="@ViewBag.money" />
+    <input type="hidden" name="multiPaySubAppId" id="multiPaySubAppId" value="@ViewBag.multiPaySubAppId" />
+    <input type="hidden" name="multiPaySubMchId" id="multiPaySubMchId"  value="@ViewBag.multiPaySubMchId" />
+    <header style="height: 0.66rem; line-height: 0.66rem; padding: 0 0.3rem">
+        <a href="@Url.Action("SHRebateExplain", "Order", new { shopId = ViewBag.shopId })" class="cash-desc">返现说明</a><p class="h1" style="width: 70%; text-overflow: ellipsis; white-space: nowrap; height: 0.66rem; line-height: 0.66rem; overflow: hidden">@Model.shopName</p>
+    </header>
+    <div id="loading">
+        <div class="opa"></div>
+        <div class="spinner">
+            <div class="spinner-container container1">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+            </div>
+            <div class="spinner-container container2">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+            </div>
+            <div class="spinner-container container3">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+            </div>
+            <p style="width: 2.8rem; font-size: 0.28rem; position: absolute; left: 50%; margin-left: -1.4rem; text-align: center; top: 0.8rem">页面正拼命加载中...</p>
+        </div>
+    </div>
+    <div class="input">
+        <span>消费金额:</span>
+        <input type="number" class="inputmoney" name="salemoney" id="salemoney" placeholder="请询问店员后输入" value="">
+    </div>
+    <div class="input">
+        <span>不参与返现金额:(如酒水)</span>
+        <input type="number" class="inputmoney" name="nopartake" id="nopartake" value="" placeholder="0">
+    </div>
+    <ul class="maidancenter">
+        @if (ViewBag.isDirect == 0)
+        {
+        <li>
+            @if (Model.isRebate == 0)
+            {
+                <span class="r span2">
+                    <input type="checkbox" id="isUserCash" value="1">
+                </span>
+                @:可用返现: &yen;<em id="canbackcash"> @Model.rebateBalance </em>
+        }
+            else
+            {
+                <span class="r span2"></span>@:可用返现 @Model.rebateBalance
+        }
+        </li>
+        }
+        <li>
+            <span class="r span3"><em>&yen;</em><span id="realuse">0</span></span>实付金额:
+        </li>
+    </ul>
+    <div class="cashdiv">
+        <span class="r">本次可返现
+            <em>&yen;<span id="nowcash">0</span></em>
+        </span>
+        当前返 <span class="precent" id="precent">@(Math.Floor(double.Parse(Model.currentRebate)) == double.Parse(Model.currentRebate) ? Math.Floor(double.Parse(Model.currentRebate)).ToString() : Model.currentRebate) %</span>
+    </div>
+    <div class="subdiv">
+        <input type="button" id="maidan" class="submit_yellow" style="border-radius: 5px" value="确认买单">
+        <p>注：如点击按钮后30秒内无响应，请退出重试！</p>
+        <p>@Model.message</p>
+    </div>
+}
+
+@*<script type="text/javascript" src="/Scripts/js/sh/fastclick-master/lib/fastclick.js"></script>
+    <script type="text/javascript" src="/Scripts/js/sh/recalc.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/js/sh/shOrderCreate.js")"></script>*@
+<script type="text/javascript" src="/Scripts/js/sh/ajax.js"></script>
+<script type="text/javascript" src="/Scripts/js/sh/appdialog_djs.js"></script>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+          resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+          recalc = function () {
+              var clientWidth = docEl.clientWidth;
+              if (!clientWidth) return;
+              //docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+              docEl.style.fontSize = clientWidth * (100 / 640) + 'px';
+          };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+
+
+    function createOrder(shopId, consumeMoney, outRebate, voucherId, useRebate, oBtn) {
+        var time = '' + new Date().getTime();
+        time = time.replace('.', '');
+        var url = '../SHPay/Pay?time=' + time;
+        var payType = '15';
+        var cashierid = '@ViewBag.cashierid';
+        var cashiername = '@ViewBag.cashiername';
+        var postData;
+        var isDirect = '@ViewBag.isDirect';
+        if (isDirect == 1) {
+            var oMultiPaySubAppId = document.getElementById('multiPaySubAppId').value;
+            var oMultiPaySubMchId = document.getElementById('multiPaySubMchId').value;
+            //如果是多主体,payType=19;
+            payType = "19";
+            postData = {
+                shopId: shopId,
+                consumeMoney: consumeMoney,
+                outRebate: outRebate,
+                voucherId: voucherId,
+                useRebate: useRebate,
+                payType: payType,
+                operatorId: cashierid,
+                operatorName: cashiername,
+                isDirect: isDirect,
+                multiPaySubAppId: oMultiPaySubAppId,
+                multiPaySubMchId: oMultiPaySubMchId
+            };
+        } else {
+            postData = {
+                shopId: shopId,
+                consumeMoney: consumeMoney,
+                outRebate: outRebate,
+                voucherId: voucherId,
+                useRebate: useRebate,
+                payType: payType,
+                operatorId: cashierid,
+                operatorName: cashiername,
+                isDirect: isDirect
+            };
+        }
+        ajax({
+            url: url,
+            type: 'post',
+            data: postData,
+            succ: function (response) {
+                var e = JSON.parse(response);
+                if (e.Succeed) {
+                    if (e.Code == 2) {
+                        location.href = "/PhonePay/PaySuccess/" + e.Data.OrderId + "?version=2.1";
+                    }
+                    else
+                    {
+                        var jsonobj = {};
+                        if (isDirect == 1)
+                        {
+                            jsonobj = eval('(' + e.Data.PostData + ')');
+                            jsonobj.wxAppId = jsonobj.appId;
+                            jsonobj.prepay_id = jsonobj.package.replace("prepay_id=", "");
+                        }
+                        else
+                        {
+                            var payParam = e.Data.PostData;
+                            var jsonArr = payParam.split('&');                           
+                            for (var i = 0; i < jsonArr.length; i++)
+                            {
+                                var arr = jsonArr[i].split('=');
+                                jsonobj[arr[0]] = arr[1];
+                            }
+                        }                       
+                        showWeixinPay(jsonobj, e.Data.OrderId);
+                    }
+                } else {
+                    alert(e.Message);
+                    var oBtn = document.getElementById('maidan');
+                    removeClass(oBtn, 'disabled');
+                    oBtn.value = "确认买单";
+                }
+
+            },
+            error: function () {
+                alert('系统繁忙，请退出重试!(' + time + ')')
+                var oBtn = document.getElementById('maidan');
+                removeClass(oBtn, 'disabled');
+                oBtn.value = "确认买单";
+            }
+
+        })
+
+    }
+
+    function cancleOrderLog(orderid) {
+        var time = '' + new Date().getTime();
+        time = time.replace('.', '');
+        var url = '../Order/CancleOrderLog/' + orderid + '?time=' + time;
+        var postData = {
+            orderid: orderid
+        };
+
+        ajax({
+            url: url,
+            type: 'post',
+            data: postData,
+            error: function () {
+                alert('系统繁忙，请退出重试!(' + time + ')')
+                var oBtn = document.getElementById('maidan');
+                removeClass(oBtn, 'disabled');
+                oBtn.value = "确认买单";
+            }
+        })
+    }
+    function showWeixinPay(payParam, orderid) {
+        WeixinJSBridge.invoke('getBrandWCPayRequest', { "appId": payParam.wxAppId, "timeStamp": payParam.timeStamp, "nonceStr": payParam.nonceStr, "package": "prepay_id=" + payParam.prepay_id, "signType": payParam.signType, "paySign": payParam.paySign }, function (res) {
+            if (res.err_msg == "get_brand_wcpay_request:ok") {
+                var oSalemoney = document.getElementById('salemoney');
+                oSalemoney.value = '';
+                location.href = '/PhonePay/PaySuccess/' + orderid + "?version=2.1";
+            }
+            else if (res.err_msg == "get_brand_wcpay_request:cancel") {
+                appDialog({
+                    buttons: [
+                        {
+                            id: 'cancel', txt: '否', fn: function () {
+                                cancleOrderLog(orderid);
+                                showWeixinPay(payParam, orderid);
+                            }
+                        },
+                        {
+                            id: 'next',
+                            txt: '10s',
+                            fn: function () {
+                                cancelOrder(orderid);
+                                var oBtn = document.getElementById('maidan');
+                                removeClass(oBtn, 'disabled');
+                                oBtn.value = "确认买单";
+                            }
+                        }
+                    ],
+                    dialogHTML: '您是否要取消支付?'
+                })
+
+                var yesBtn = document.getElementById('next');
+                yesBtn.className = 'fccc';
+                yesBtn.style.color = '#ccc';
+                var s = 10, timer = null;
+                timer = setInterval(function () {
+                    s--;
+                    yesBtn.innerHTML = s + 's';
+                    if (s == 0) {
+                        clearInterval(timer);
+                        yesBtn.innerHTML = '是';
+                        yesBtn.className = '';
+                    }
+                }, 1000)
+                return false;
+            } else {
+                var oBtn = document.getElementById('maidan');
+                removeClass(oBtn, 'disabled');
+                oBtn.value = "确认买单";
+            }
+        });
+    }
+
+    function showWeixinPay2(payParam, orderid) {
+        WeixinJSBridge.invoke('getBrandWCPayRequest', payParam, function (res) {
+            //alert(JSON.stringify(res));
+            if (res.err_msg == "get_brand_wcpay_request:ok") {
+                var oSalemoney = document.getElementById('salemoney');
+                oSalemoney.value = '';
+                location.href = '/PhonePay/PaySuccess/' + orderid + "?version=2.1";
+            }
+            else {
+                appDialog({
+                    buttons: [
+                        {
+                            id: 'cancel', txt: '否', fn: function () {
+                                cancleOrderLog(orderid);
+                                showWeixinPay(payParam, orderid);
+                            }
+                        },
+                        {
+                            id: 'next',
+                            txt: '10s',
+                            fn: function () {
+                                cancelOrder(orderid);
+                                var oBtn = document.getElementById('maidan');
+                                removeClass(oBtn, 'disabled');
+                                oBtn.value = "确认买单";
+                                //ajax({
+                                //    url: '../Order/OrderDetail?orderId=',
+                                //    type: 'post',
+                                //    data: { orderId: orderid },
+                                //    succ: function (data) {//判断订单是否可以取消
+                                //        if (data == 1) { //无法取消订单
+                                //            appDialog({
+                                //                buttons: [
+                                //                    { id: 'cancel', txt: '我知道了', fn: function () { window.location.href = '' } }
+                                //                ],
+                                //                dialogHTML: '此订单已付款成功，无法取消订单'
+                                //            })
+                                //        } else { 
+                                //            //如果用户取消支付，则取消该订单
+
+                                //        }
+                                //    }
+                                //})
+                            }
+                        }
+                    ],
+                    dialogHTML: '您是否要取消支付?'
+                })
+
+                var yesBtn = document.getElementById('next');
+                yesBtn.className = 'fccc';
+                yesBtn.style.color = '#ccc';
+                var s = 10, timer = null;
+                timer = setInterval(function () {
+                    s--;
+                    yesBtn.innerHTML = s + 's';
+                    if (s == 0) {
+                        clearInterval(timer);
+                        yesBtn.innerHTML = '是';
+                        yesBtn.className = '';
+                    }
+                }, 1000)
+                return false;
+                //alert('请点击查看支付结果');
+                //location.href = '/Order/OrderDetail?orderId=' + orderid;
+
+            }
+        });
+    }
+
+    function cancelOrder(orderId) {
+        var url = '@Url.Action("CancleOrder", "Order")';
+        ajax({
+            url: url,
+            type: 'post',
+            data: { orderId: orderId, lo: "uc_pay" },
+            succ: function (response) {
+                var e = JSON.parse(response);
+                if (e.Succeed) {
+                } else {
+                }
+            },
+            error: function () {
+            }
+        })
+    }
+
+    function hasClass(obj, iClass) {
+        var reg = new RegExp("\\b" + iClass + "\\b");
+        return reg.test(obj.className);
+    }
+    function addClass(obj, iClass) {
+        if (obj.className) {
+            if (!hasClass(obj, iClass)) {
+                obj.className += ' ' + iClass;
+            }
+        } else {
+            obj.className = iClass;
+        }
+    }
+    function removeClass(obj, iClass) {
+        if (hasClass(obj, iClass)) {
+            obj.className = obj.className.replace(iClass, '').replace(/^\s+|\s+$/g, '').replace(/\s+/g, ' ');
+        }
+    }
+
+
+    window.onload = function () {
+        document.getElementById('loading').style.display = 'none';
+
+        var oSalemoney = document.getElementById('salemoney');
+        var oNopartake = document.getElementById('nopartake');
+        var oNowcash = document.getElementById('nowcash');
+        var oBtn = document.getElementById('maidan');
+        var oIsUserCash = document.getElementById('isUserCash');
+
+        oSalemoney.value = '';
+        oNopartake.value = '';
+        /*if (oIsUserCash) {
+            oIsUserCash.checked = false;
+        }*/
+        var useRebate = 0;
+
+
+        oBtn.onclick = function () {
+            if (hasClass(oBtn, 'disabled')) {
+                return false;
+            }
+            if (oSalemoney.value == '') {
+                alert('请输入消费金额！');
+                oSalemoney.focus();
+                return false;
+            }
+            if (oSalemoney.value <= 0) {
+                alert('请输入大于0的消费金额！');
+                oSalemoney.focus();
+                return false;
+            }
+            if (oSalemoney.value > 10000) {
+                alert('消费金额不要超过10000！');
+                oSalemoney.focus();
+                return false;
+            }
+            if (oSalemoney.value / 1 < oNopartake.value / 1) {
+                alert('不参与返现金额已超过消费金额！');
+                oNopartake.focus();
+                return false;
+            }
+            var shopId = document.getElementById('shopId').value;
+            var consumeMoney = oSalemoney.value;
+            var outRebate = oNopartake.value;
+            var voucherId = document.getElementById('voucherId').value;
+            var useRebate;
+
+
+            /*if (document.getElementById('isUserCash')) {
+                useRebate = document.getElementById('isUserCash').checked ? '1' : '0';
+            } else {
+                useRebate = 0;
+            }*/
+
+
+            if (oIsUserCash && oIsUserCash.checked) {
+                useRebate = 1;
+            }
+            addClass(oBtn, 'disabled');
+            oBtn.value = "正在处理，请稍候";
+            createOrder(shopId, consumeMoney, outRebate, voucherId, useRebate, oBtn);
+        }
+
+        if (window.navigator.userAgent.indexOf('MSIE 9.0') != -1) {
+            var timer = null;
+            oSalemoney.onfocus = function () {
+                timer = setInterval(function () {
+                    getRealUse();
+                }, 100);
+            }
+            oSalemoney.onblur = function () {
+                clearInterval(timer);
+            }
+        } else {
+            oSalemoney.oninput = oSalemoney.onpropertychange = function () {
+                getRealUse();
+            }
+        }
+
+        if (window.navigator.userAgent.indexOf('MSIE 9.0') != -1) {
+            var timer2 = null;
+            oNopartake.onfocus = function () {
+                timer2 = setInterval(function () {
+                    getRealUse();
+                }, 100);
+            }
+            oNopartake.onblur = function () {
+                clearInterval(timer2);
+            }
+        } else {
+            oNopartake.oninput = oNopartake.onpropertychange = function () {
+                getRealUse();
+            }
+        }
+
+
+        /*if (document.referrer != '') {
+            oSalemoney.value = storage.getItem('salemoney');
+            oNopartake.value = storage.getItem('nopartake');
+
+            oVoucherspan.innerHTML = '￥<em>' + storage.getItem('faceval') + '<em>';
+            if (storage.getItem('isUserCash') == 1) {
+                oIsUserCash.checked = true;
+            }
+        }*/
+        if (oIsUserCash) {
+            oIsUserCash.onclick = function () {
+                getRealUse();
+            }
+        }
+
+        function getRealUse() {
+            var oCanbackcash = document.getElementById('canbackcash');
+            var oRealuse = document.getElementById('realuse');
+            var oPrecent = document.getElementById('precent');
+            var oNowcash = document.getElementById('nowcash');;
+            if (oSalemoney.value) {
+                /*if (oIsUserCash) {
+                    var canbackcash = oIsUserCash.checked ? parseFloat(oCanbackcash.innerHTML) : 0;
+                } else {
+                    var canbackcash = 0;
+                }*/
+
+                if (oCanbackcash) {
+                    var kyfx = oCanbackcash.innerHTML;
+                } else {
+                    var kyfx = 0;
+                }
+
+                var canbackcash = 0;
+                if (oIsUserCash && oIsUserCash.checked) {
+                    canbackcash = parseFloat(kyfx);
+                }
+
+
+                var n = parseFloat(parseFloat(oSalemoney.value).toFixed(2) - canbackcash).toFixed(2);
+                if (n <= 0) {
+                    oRealuse.innerHTML = '0';
+                }
+                else {
+                    oRealuse.innerHTML = n;
+                }
+
+                var nopartake = parseFloat(oNopartake.value) ? parseFloat(parseFloat(oNopartake.value).toFixed(2)) : 0;
+                var n2 = parseFloat((parseFloat(oSalemoney.value).toFixed(2) - nopartake) * parseFloat(oPrecent.innerHTML) / 100);
+                n2 = n2 > 0 ? n2 : 0;
+                //oNowcash.innerHTML = n2.toFixed(2)
+                oNowcash.innerHTML = Math.round(n2 * 100) / 100;
+            }
+        }
+        getRealUse();
+    }
+</script>
