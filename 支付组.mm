@@ -57,8 +57,8 @@
   </body>
 </html></richcontent>
 <node CREATED="1482730873217" ID="ID_1637028870" MODIFIED="1483758929464" POSITION="right" TEXT="2017">
-<node CREATED="1483758930701" ID="ID_1355869886" MODIFIED="1483926796938" TEXT="&#x5e74;&#x524d;(1.25&#x53f7;&#x524d;&#xff09;">
-<node CREATED="1483408342334" FOLDED="true" ID="ID_378928963" MODIFIED="1483947139183">
+<node CREATED="1483758930701" ID="ID_1355869886" MODIFIED="1484120509514" TEXT="&#x5e74;&#x524d;(1.25&#x53f7;&#x524d;&#xff09;">
+<node CREATED="1483408342334" FOLDED="true" ID="ID_378928963" MODIFIED="1484120520615">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -341,7 +341,7 @@
 <node CREATED="1483756791940" ID="ID_564959920" MODIFIED="1483757170479" TEXT="&#x88ab;&#x626b; &#x652f;&#x4ed8;&#x662f;  b &#x626b; c"/>
 </node>
 </node>
-<node CREATED="1483752794643" ID="ID_1945805906" MODIFIED="1483947140230" TEXT="&#x516c;&#x4f17;&#x53f7;&#x914d;&#x7f6e;&#x5207;&#x6362;&#x6574;&#x7406;">
+<node CREATED="1483752794643" FOLDED="true" ID="ID_1945805906" MODIFIED="1484120517155" TEXT="&#x516c;&#x4f17;&#x53f7;&#x914d;&#x7f6e;&#x5207;&#x6362;&#x6574;&#x7406;">
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1483752815995" ID="ID_361750404" MODIFIED="1483947145223" TEXT="&#x652f;&#x4ed8;&#x4e09;&#x4e2a;&#x53c2;&#x6570;">
 <node CREATED="1483752822438" ID="ID_613081678" MODIFIED="1483752827187" TEXT="partnerid">
 <node CREATED="1483752981993" ID="ID_202108820" MODIFIED="1483757254418">
@@ -444,7 +444,7 @@
 <node CREATED="1483758744979" ID="ID_1425540829" MODIFIED="1483758804959" TEXT="&#x88ab;&#x626b;&#x652f;&#x4ed8;(b &#x626b; c&#xff0c;&#x5546;&#x5bb6;&#x626b;&#x7801;&#x67aa;or b&#x7aef;&#x5ba2;&#x6237;&#x7aef; &#x626b; &#x7528;&#x6237;&#x6388;&#x6743;&#x7801;&#x5b8c;&#x6210;&#x652f;&#x4ed8;)"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1483761050994" FOLDED="true" ID="ID_1481594119" LINK="https://pay.weixin.qq.com/wiki/doc/api/jsapi_sl.php?chapter=7_1" MODIFIED="1483925756530">
+<node BACKGROUND_COLOR="#99ff99" CREATED="1483761050994" FOLDED="true" ID="ID_1481594119" LINK="https://pay.weixin.qq.com/wiki/doc/api/jsapi_sl.php?chapter=7_1" MODIFIED="1484120523286">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -863,7 +863,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1483922532945" FOLDED="true" ID="ID_1212735913" MODIFIED="1483922601433" TEXT="1.9">
+<node CREATED="1483922532945" FOLDED="true" ID="ID_1212735913" MODIFIED="1484120530544" TEXT="1.9">
 <node CREATED="1483922540396" ID="ID_1768484656" MODIFIED="1483922598153">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -888,8 +888,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1483923037718" ID="ID_969690643" MODIFIED="1483923065135" TEXT="&#x5e74;&#x524d;14&#x5929;">
-<node CREATED="1483923067819" FOLDED="true" ID="ID_1541416572" MODIFIED="1483956510841" TEXT="&#x7b2c;1&#x5929;">
+<node CREATED="1483923037718" ID="ID_969690643" MODIFIED="1484120531748" TEXT="&#x5e74;&#x524d;14&#x5929;">
+<node CREATED="1483923067819" FOLDED="true" ID="ID_1541416572" MODIFIED="1484114652862" TEXT="&#x7b2c;1&#x5929;">
 <node CREATED="1483923083368" ID="ID_1241534879" MODIFIED="1483932276720" TEXT="&#x6700;&#x540e;&#x4e00;&#x6b21;&#x68b3;&#x7406;Java&#x4ee3;&#x7801;&#x6d41;&#x7a0b;">
 <node CREATED="1483923114011" ID="ID_1138219680" MODIFIED="1483954720757">
 <richcontent TYPE="NODE"><html>
@@ -1045,7 +1045,7 @@
 <node CREATED="1483944455871" ID="ID_497880998" MODIFIED="1483944470274" TEXT="201 &#x597d;&#x9002;&#x53e3;"/>
 </node>
 </node>
-<node CREATED="1483948038126" FOLDED="true" ID="ID_614119989" MODIFIED="1483956509264" TEXT="&#x591a;&#x516c;&#x4f17;&#x53f7;&#x8bbe;&#x8ba1;">
+<node CREATED="1483948038126" FOLDED="true" ID="ID_614119989" MODIFIED="1484012465288" TEXT="&#x591a;&#x516c;&#x4f17;&#x53f7;&#x8bbe;&#x8ba1;">
 <node CREATED="1483948384106" ID="ID_872896244" MODIFIED="1483948636728" TEXT="newwap&#x7aef;&#x6d89;&#x53ca;&#x6839;&#x636e;&#x4e0d;&#x540c;&#x516c;&#x4f17;&#x53f7;&#x63d0;&#x53d6;&#x4e0d;&#x540c;&#x7684;openid&#xff0c;&#x5e76;&#x8981;&#x7f13;&#x5b58;&#x8ba4;&#x8bc1;Token"/>
 <node CREATED="1483948046972" ID="ID_1877155693" MODIFIED="1483948063204" TEXT="mdpaygate&#x7684;&#x4ea4;&#x6613;&#x4e09;&#x53c2;&#x6570;&#x4ece;&#x95e8;&#x5e97;&#x5bf9;&#x8c61;&#x91cc;&#x63d0;&#x53d6;"/>
 <node CREATED="1483948070898" ID="ID_1374515065" MODIFIED="1483948089661" TEXT="fontserver&#x6839;&#x636e;&#x95e8;&#x5e97;id&#x63d0;&#x53d6;&#x95e8;&#x5e97;&#x5bf9;&#x8c61;"/>
@@ -1108,11 +1108,484 @@
       <b><font color="#006666">&#25152;&#20197;&#26126;&#22825;&#30340;&#37325;&#28857;&#24212;&#35813;&#22312;frontserver&#30340;</font><font color="#9900ff">tradeServiceImpl.createMobileParams&#21644;ext.TradeExtService.createMobileParams&#30340;&#20462;&#25913;&#65281;</font><font color="#006666">&#28982;&#21518;&#25165;&#26159;mdpaygate</font></b>
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1484010585870" FOLDED="true" ID="ID_802535103" MODIFIED="1484123128484" TEXT="&#x7b2c;2&#x5929;">
+<node CREATED="1484010599981" ID="ID_580808796" MODIFIED="1484101491979">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;mdfrontserver&#30340;<b><font color="#009966">OrderPayParam</font></b>&#20013;&#22686;&#21152;&#22810;&#20844;&#20247;&#21495;&#37197;&#32622;&#21442;&#25968;&#23646;&#24615;
+    </p>
+    <p>
+      &#22686;&#21152;&#23646;&#24615;&#65306;branchPartnerId,branchAppId,branchSignKey
+    </p>
+    <p>
+      &#38656;&#35201;newwap&#20256;&#20837;paytype&#65306;610&#65288;&#29616;&#22312;&#25903;&#20184;c&#25195;b&#65289;&#65292;810(&#29616;&#22312;&#25903;&#20184;&#24494;&#20449;&#36890;&#36947;b&#25195;c)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;<b><font color="#009966">OrderFsServiceAdapter.createShOrder()</font></b>&#20013;&#65292;&#22686;&#21152;&#26681;&#25454;shopId&#20174;&#38376;&#24215;&#20013;&#24515;&#38376;&#24215;&#23545;&#35937;&#65292;&#22312;&#38376;&#24215;&#23545;&#35937;&#25552;&#21462;&#20844;&#20247;&#21495;&#37197;&#32622;&#21151;&#33021;
+    </p>
+    <p>
+      &#36825;&#20165;&#20165;&#26159;c -&gt; b&#30340;&#20462;&#25913;&#65292;&#36824;&#26377;b -&gt; c
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1484013877883" ID="ID_1210262644" MODIFIED="1484120923108">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22686;&#21152;&#25903;&#20184;&#37197;&#32622;&#21442;&#25968;&#34920;&#65292;&#22312;mdorder&#24211;&#37324;&#22686;&#21152;<b><font color="#009966">md_paygate_conf</font></b>&#34920;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      id &#20027;&#38190;
+    </p>
+    <p>
+      conftype,1-&#24494;&#20449;&#65292;2-&#25903;&#20184;&#23453;
+    </p>
+    <p>
+      signkey,&#21152;&#31614;key not null
+    </p>
+    <p>
+      partnerid,&#21487;&#20026;not null
+    </p>
+    <p>
+      appid,not null,&#24494;&#20449;&#20844;&#20247;&#21495;&#25110;&#32773;&#28120;&#23453;&#36134;&#21495;
+    </p>
+    <p>
+      createtime, not null
+    </p>
+    <p>
+      updatetime null
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1484023565785" FOLDED="true" ID="ID_1624558052" MODIFIED="1484119727423" TEXT="&#x9003;&#x79bb;">
+<node CREATED="1484020138078" ID="ID_1425217063" MODIFIED="1484020158026" TEXT="&#x4e0b;&#x5348;&#x4e0d;&#x662f;&#x5e72;&#x6d3b;&#xff0c;&#x662f;&#x7f57;&#x5217;&#x81ea;&#x5df1;&#x7684;&#x5145;&#x7535;&#x6e05;&#x5355;&#xff01;"/>
+<node CREATED="1484019317349" ID="ID_1262195764" MODIFIED="1484119701324">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20170;&#22825;&#24515;&#24773;&#24322;&#24120;&#31967;&#31957;&#65292;&#24180;&#20551;&#34987;&#30733;&#21040;&#36824;&#27424;&#20844;&#21496;3&#22825;&#20551;&#65292;&#20170;&#24180;5&#65292;6&#26376;&#20221;&#38388;&#24517;&#39035;&#36208;&#20102;&#65292;&#36825;&#23478;&#20844;&#21496;&#24178;&#22810;&#20037;&#22810;&#21162;&#21147;&#37117;&#27809;&#29992;&#65281;&#26399;&#38388;&#23581;&#35797;&#21435;&#32769;&#26472;&#37027;&#65292;&#21542;&#21017;&#65292;&#25105;&#33258;&#24049;&#36208;&#65281;&#20294;&#24517;&#39035;&#25745;&#21040;&#24180;&#24213;&#25226;&#25569;&#24615;&#26356;&#22823;&#20123;&#65292;&#24037;&#20316;&#19981;&#29992;&#31215;&#26497;&#20102;&#65292;&#23545;&#20184;&#30528;&#65292;&#24635;&#20043;&#65292;&#32943;&#23450;&#35201;&#36208;&#26159;&#21069;&#25552;&#30340;&#35805;&#65292;&#37027;&#20040;&#23601;&#26159;&#32771;&#34385;&#22914;&#20309;&#25226;&#25569;&#29616;&#26377;&#36164;&#28304;&#20805;&#30005;&#26159;&#27491;&#32463;&#65281;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26149;&#33410;&#21069;&#65292;&#23601;&#26159;&#25630;&#23450;&#20132;&#26131;&#32452;&#30340;&#20960;&#20010;&#30772;&#39033;&#30446;&#23601;&#34892;&#65292;&#26149;&#33410;&#21518;&#19968;&#24459;&#26159;&#33258;&#24049;&#20805;&#30005;&#26102;&#38388;&#65281;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22909;&#20102;&#65292;&#19981;&#22810;&#24819;&#20102;&#65292;6&#26376;&#24320;&#22987;&#25214;&#24037;&#20316;&#65292;&#27492;&#21069;&#39044;&#30041;&#33258;&#24049;4&#20010;&#26376;&#26102;&#38388;&#65292;&#31934;&#24515;&#20934;&#22791;Java&#30340;&#38754;&#35797;&#65292;&#23601;&#26159;&#37325;&#26500;&#25903;&#20184;&#32452;&#25972;&#20010;&#20132;&#26131;&#27969;&#31243;&#65292;&#20174;H5&#39029;&#38754;&#31471;&#24320;&#22987;&#65292;&#20840;&#38754;&#23454;&#29616;&#23436;&#25972;&#26694;&#26550;&#65292;&#25903;&#25345;&#33258;&#21160;&#21270;&#27979;&#35797;&#21644;&#24615;&#33021;&#30417;&#25511;&#21450;&#27979;&#35797;&#65292;&#23601;&#26159;&#36825;&#26679;&#65292;6&#26376;&#20221;&#21069;&#23436;&#25104;&#65292;&#28982;&#21518;6&#26376;&#24320;&#22987;&#20889;&#31616;&#21382;&#65292;&#24320;&#21551;&#30127;&#29378;&#38754;&#35797;&#27169;&#24335;&#21363;&#21487;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36716;&#25442;&#24605;&#36335;&#65292;&#31215;&#26497;&#20934;&#22791;&#65281;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff6666">&#20174;&#20170;&#22825;&#36215;&#24443;&#24213;&#38381;&#22068;&#65292;&#20160;&#20040;&#22403;&#22334;&#20107;&#37117;&#20808;&#24525;&#30528;&#65292;&#24180;&#20551;&#20063;&#22909;&#65292;&#38477;&#34218;&#20063;&#22909;&#65292;&#20570;&#22909;&#26368;&#22351;&#25171;&#31639;&#65292;&#21453;&#27491;&#20063;&#23601;&#24525;&#22235;&#20010;&#22810;&#26376;&#32780;&#24050;</font>&#65292;&#33509;&#32769;&#26472;&#24110;&#24537;&#65292;&#26080;&#35770;&#20160;&#20040;&#26465;&#20214;&#21017;&#24517;&#39035;&#21435;&#65292;&#21542;&#21017;&#23601;&#26159;&#32781;&#21035;&#20154;&#20102;&#65292;&#21435;&#20102;&#21017;&#25913;&#27491;&#20197;&#24448;&#30340;&#24037;&#20316;&#24577;&#24230;&#65292;&#35813;&#21152;&#29677;&#21152;&#29677;&#65292;&#26202;&#19978;&#20063;&#22909;&#22909;&#20805;&#30005;&#65292;&#27605;&#31455;&#32473;&#32769;&#26472;&#34920;&#29616;&#36824;&#33021;&#21152;&#34218;&#30340;&#65292;&#28982;&#21518;&#23601;&#26159;&#22914;&#26524;&#27809;&#26426;&#20250;&#65292;&#23601;&#22312;&#20845;&#26376;&#20221;&#24320;&#22987;&#25214;&#26032;&#24037;&#20316;&#65292;&#27492;&#21069;2&#65292;3&#65292;4&#65292;5&#22235;&#20010;&#26376;&#24517;&#39035;&#31934;&#24515;&#20934;&#22791;&#12290;&#36825;&#26399;&#38388;&#21482;&#35748;&#30495;&#20570;&#19968;&#20214;&#20107;&#65292;&#36824;&#26159;<b><font color="#009966">&#24443;&#24443;&#24213;&#24213;&#36890;&#36807;&#31616;&#21333;&#37325;&#26500;&#20998;&#26512;&#20027;&#31449;&#39033;&#30446;&#65288;&#19988;&#20165;&#38480;&#25903;&#20184;&#32452;&#19977;&#20010;&#39033;&#30446;&#21644;jobcenter&#65289;&#65292;&#26469;&#23398;&#20064;&#19968;&#27425;Java</font></b>&#65292;&#28982;&#21518;&#65292;&#22312;&#20845;&#26376;&#20221;&#24320;&#22987;&#20877;&#36827;&#34892;Go&#20043;&#31867;&#30340;&#23398;&#20064;&#65281;&#21153;&#24517;&#26377;&#25152;&#21462;&#33293;&#65292;&#25165;&#33021;&#30830;&#20445;&#20845;&#26376;&#24320;&#22987;&#30340;&#24212;&#32856;&#39034;&#21033;&#65281;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#006633">&#19968;&#26376;&#20221;&#21097;&#19979;&#30340;20&#20010;&#24037;&#20316;&#26085;&#65292;&#20840;&#21147;&#23436;&#25104;multipay_v2/v1&#21644;branchtonowpay&#22810;&#20844;&#20247;&#21495;&#30340;&#20462;&#25913;&#65292;&#21644;&#25972;&#29702;&#65292;&#21253;&#25324;&#20462;&#25913;&#28857;&#35760;&#24405;&#20197;&#21450;&#22914;&#20309;&#27979;&#35797;&#65292;&#20197;&#21450;&#24120;&#35268;&#21644;&#24179;&#34892;&#29615;&#22659;&#25645;&#24314;&#30340;&#27493;&#39588;&#35760;&#24405;&#65292;&#28982;&#21518;&#24037;&#20316;&#26085;&#26202;&#19978;&#65292;&#20840;&#21147;&#20998;&#26512;&#30456;&#20851;&#20027;&#31449;&#39033;&#30446;&#30340;web&#37197;&#32622;&#65292;&#21363;&#22914;&#20309;&#25645;&#24314;&#32593;&#31449;&#65292;&#22914;&#20309;&#37197;&#32622;&#26085;&#24535;&#21644;redis&#31561;</font></b>&#12290;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1484025044811" ID="ID_160212567" MODIFIED="1484042322330" TEXT="&#x652f;&#x4ed8;&#x4ea4;&#x6613;&#x4e2d;&#x5fc3;">
+<node CREATED="1484025062294" ID="ID_1378058593" MODIFIED="1484025105605" TEXT="H5&#x524d;&#x7aef;"/>
+<node CREATED="1484025108303" ID="ID_1630269065" MODIFIED="1484025113653" TEXT="Java&#x540e;&#x7aef;"/>
+<node CREATED="1484025219360" FOLDED="true" ID="ID_1139154864" MODIFIED="1484042797719" TEXT="&#x6574;&#x7406;&#x77e5;&#x8bc6;&#x70b9;">
+<node CREATED="1484033216516" ID="ID_1513881532" MODIFIED="1484033238645" TEXT="&#x642d;&#x5efa;spring mvc&#x5f00;&#x53d1;&#x4f53;&#x7cfb;">
+<node CREATED="1484033241611" ID="ID_1754226388" MODIFIED="1484037368733" TEXT="&#x53c2;&#x8003;&#x4e3b;&#x7ad9;&#x5b8c;&#x5168;&#x6a21;&#x4eff;">
+<node CREATED="1484037370208" ID="ID_109453896" MODIFIED="1484037374788" TEXT="&#x6570;&#x636e;&#x5e93;&#x914d;&#x7f6e;"/>
+<node CREATED="1484037375743" ID="ID_154759749" MODIFIED="1484037378780" TEXT="&#x65e5;&#x5fd7;&#x914d;&#x7f6e;"/>
+<node CREATED="1484037379751" ID="ID_1369772395" MODIFIED="1484037384659" TEXT="redis&#x914d;&#x7f6e;"/>
+<node CREATED="1484037385731" ID="ID_1596089872" MODIFIED="1484037393251" TEXT="maven&#x914d;&#x7f6e;"/>
+<node CREATED="1484037394258" ID="ID_1223124447" MODIFIED="1484037401372" TEXT="spring mvc&#x914d;&#x7f6e;"/>
+</node>
+</node>
+<node CREATED="1484025228454" ID="ID_1747479427" MODIFIED="1484025267258">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      tomcat,resin,apache&#30340;&#23433;&#35013;&#37096;&#32626;&#21644;&#26412;&#22320;/&#36828;&#31243;&#32852;&#35843;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1484027619215" ID="ID_1805918470" MODIFIED="1484027642696" TEXT="&#x4e0b;&#x8f7d;tomcat,resin&#x7248;"/>
+</node>
+<node CREATED="1484025442410" ID="ID_159228130" MODIFIED="1484027589587" TEXT="&#x81ea;&#x52a8;&#x5316;&#x6d4b;&#x8bd5;&#xff0c;maven+nexus&#xff0c;loadrunner/jmeter"/>
+<node CREATED="1484025270427" ID="ID_1760926161" MODIFIED="1484026584180" TEXT="spring mvc&#x7684;&#x65b9;&#x65b9;&#x9762;&#x9762;&#xff0c;&#x5305;&#x62ec;H5&#x524d;&#x7aef;&#x6846;&#x67b6;&#x7684;&#x9009;&#x62e9;&#xff01;">
+<node CREATED="1484025979444" ID="ID_1164460777" LINK="http://getbootstrap.com/" MODIFIED="1484026018224" TEXT="bootstrap">
+<node CREATED="1484026301522" ID="ID_1633490110" LINK="https://github.com/twbs/bootstrap/" MODIFIED="1484026325149" TEXT="github&#x7f51;&#x5740;"/>
+</node>
+<node CREATED="1484026524069" ID="ID_774171823" LINK="http://foundation.zurb.com/" MODIFIED="1484026544900" TEXT="Foundation">
+<node CREATED="1484026563288" ID="ID_1343723434" LINK="https://github.com/zurb/foundation-sites" MODIFIED="1484026577381" TEXT="github&#x7f51;&#x5740;"/>
+</node>
+<node CREATED="1484026585832" ID="ID_1902931877" LINK="http://purecss.io/" MODIFIED="1484026609746" TEXT="Pure">
+<node CREATED="1484026611979" ID="ID_1239273579" LINK="https://github.com/yahoo/pure/" MODIFIED="1484026632952" TEXT="github&#x7f51;&#x5740;"/>
+</node>
+<node CREATED="1484026496588" FOLDED="true" ID="ID_1903258156" MODIFIED="1484032782378" TEXT="&#x96f6;&#x661f;">
+<node CREATED="1484026448087" ID="ID_1869359379" LINK="http://amazeui.org/" MODIFIED="1484026462486" TEXT="Amaze UI"/>
+<node CREATED="1484026357719" ID="ID_1030090908" LINK="http://www.auicss.com/" MODIFIED="1484026374447" TEXT="AUI">
+<node CREATED="1484026392769" ID="ID_1494359977" LINK="https://github.com/liulangnan/aui" MODIFIED="1484026411486" TEXT="github&#x7f51;&#x5740;&#xff0c;&#x56fd;&#x5185;&#x4eba;&#xff1f;"/>
+</node>
+</node>
+</node>
+<node CREATED="1484025317683" ID="ID_1049148895" MODIFIED="1484025350164" TEXT="redis,memcache,elasticsearch,mysql&#x7684;&#x5e94;&#x7528;&#x518d;&#x6574;&#x7406;">
+<node CREATED="1484025351973" ID="ID_1766386322" MODIFIED="1484025385529">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110;mysql : mybaits,hibernate,c3p0
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1484025412605" ID="ID_558850458" MODIFIED="1484025439677" TEXT="java&#x57fa;&#x7840;, &#x5e76;&#x53d1;&#xff0c;jvm"/>
+<node CREATED="1484025458935" ID="ID_1999333748" MODIFIED="1484025473502" TEXT="gitlab + jenkins,&#x76ee;&#x524d;&#x53ef;&#x80fd;&#x6ca1;&#x6709;&#x7cbe;&#x529b;&#x53bb;&#x641e;&#xff01;"/>
+</node>
+</node>
+<node CREATED="1484038587371" ID="ID_1359307151" MODIFIED="1484038587371" TEXT=""/>
+</node>
+<node CREATED="1484023606399" ID="ID_1539580890" MODIFIED="1484023850305">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20174;&#26126;&#22825;&#24320;&#22987;&#65292;&#19978;&#21320;&#19981;&#24178;&#27963;&#65292;&#20805;&#30005;&#65292;&#19979;&#21320;&#24037;&#20316;&#65292;&#20170;&#22825;&#19979;&#21320;&#19981;&#24178;&#27963;&#20102;&#65292;&#37325;&#28857;&#25419;&#28165;&#26970;2&#65292;3&#65292;4&#65292;5&#22235;&#20010;&#26376;&#30340;&#23433;&#25490;&#65281;&#65292;&#20197;&#21450;&#19968;&#26376;&#20221;&#36824;&#21097;&#20960;&#20010;&#24037;&#20316;&#26085;&#30340;&#23433;&#25490;&#65281;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1484032810469" ID="ID_1774386749" MODIFIED="1484122270880">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38376;&#24215;&#20013;&#24515;&#25552;&#21462;&#30340;&#21482;&#26159;&#37197;&#32622;id,&#37197;&#32622;&#31867;&#22411;&#65292;
+    </p>
+    <p>
+      &#25105;&#20250;&#26681;&#25454;&#37197;&#32622;&#31867;&#22411;&#65292;&#20915;&#23450;&#20351;&#29992;&#21738;&#20010;&#37197;&#32622;id,
+    </p>
+    <p>
+      &#28982;&#21518;&#26681;&#25454;&#37197;&#32622;id&#65292;&#20174;redis&#37324;&#25552;&#21462;&#20855;&#20307;&#30340;&#19977;&#20010;&#25903;&#20184;&#21442;&#25968;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24405;&#20837;&#37197;&#32622;&#21442;&#25968;&#26102;&#65292;&#20250;&#21516;&#26102;&#22312;redis&#37324;&#23384;&#19968;&#20221;&#65292;&#36825;&#20010;&#23384;&#30340;&#21160;&#20316;&#26159;&#20889;&#20010;&#33050;&#26412;&#23567;&#24037;&#20855;&#65292;&#22312;&#26381;&#21153;&#31471;&#25191;&#34892;&#21363;&#21487;&#65311;&#36824;&#26159;&#25552;&#20379;&#30028;&#38754;&#65292;<b><font color="#009966">&#36890;&#36807;mdtask&#25110;jobcenter&#33258;&#21160;&#24405;&#20837;&#21363;&#21487;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1484099839802" ID="ID_1438041820" MODIFIED="1484125829375" TEXT="&#x7b2c;3&#x5929;">
+<node CREATED="1484099849042" FOLDED="true" ID="ID_932389473" MODIFIED="1484119336739">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30005;&#35805;&#27807;&#36890;&#65292;&#26126;&#22825;&#19978;&#21320;&#25165;&#33021;&#25552;&#36710;&#65292;&#20170;&#22825;&#35797;&#22270;&#25353;&#29031;&#32593;&#19978;&#30340;&#26041;&#27861;&#30772;&#35299;resin pro&#29256;&#65292;&#28982;&#21017;&#65292;&#19981;&#30693;&#36947;&#24590;&#20040;&#23558;&#21453;&#32534;&#35793;&#30340;&#25991;&#20214;&#20462;&#25913;&#21518;&#37325;&#26032;&#32534;&#35793;&#25104;jar&#21253;&#65292;<b><font color="#009966">&#26242;&#26102;&#20316;&#32610;&#65292;&#19981;&#32829;&#35823;&#26102;&#38388;</font></b>&#65292;&#35760;&#24405;&#19979;&#30772;&#35299;&#26041;&#24335;&#21363;&#21487;&#65292;&#22914;&#19979;&#65306;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1484100013315" FOLDED="true" ID="ID_685217202" LINK="https://www.strongd.net/?p=1163" MODIFIED="1484119322871" TEXT="resin pro&#x7f51;&#x4e0a;&#x63d0;&#x5230;&#x7684;&#x7834;&#x89e3;&#x65b9;&#x6cd5;&#xff0c;&#x4f46;&#x8fd8;&#x6ca1;&#x5b9e;&#x8df5;&#x6210;&#x529f;">
+<node CREATED="1484100050023" ID="ID_1169273209" MODIFIED="1484100058408">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13px; vertical-align: baseline; line-height: 18px; color: rgb(51, 51, 51); font-family: Tahoma, Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      how to crack resin 4.0.2x resin 4.0.3x.
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13px; vertical-align: baseline; line-height: 18px; color: rgb(51, 51, 51); font-family: Tahoma, Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      &#24037;&#20855;:jd&#160;http://java.decompiler.free.fr/
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13px; vertical-align: baseline; line-height: 18px; color: rgb(51, 51, 51); font-family: Tahoma, Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      &#21033;&#29992;jd&#25171;&#24320;resin 4.0.xx&#30446;&#24405;&#19979;&#30340;lib/pro.jar
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13px; vertical-align: baseline; line-height: 18px; color: rgb(51, 51, 51); font-family: Tahoma, Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      &#23558;&#28304;&#20195;&#30721;&#21478;&#23384;&#20986;&#26469;&#12290;&#20877;&#29992;eclipse&#25171;&#24320;com\caucho\license\ProLicenseStore.java
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13px; vertical-align: baseline; line-height: 18px; color: rgb(51, 51, 51); font-family: Tahoma, Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      &#25226;
+    </p>
+    <blockquote style="margin-top: 0px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; font-size: 13px; vertical-align: baseline; color: rgb(85, 85, 85); font-family: Tahoma, Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(238,; background-position: 238, 238); background-image: null; background-repeat: repeat; background-attachment: scroll">
+      <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13px; vertical-align: baseline; line-height: 18px">
+        /* */ private int _professionalCount ;<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />/* */ private int _personalCount;
+      </p>
+    </blockquote>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13px; vertical-align: baseline; line-height: 18px; color: rgb(51, 51, 51); font-family: Tahoma, Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      &#25913;&#20026;
+    </p>
+    <blockquote style="margin-top: 0px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; font-size: 13px; vertical-align: baseline; color: rgb(85, 85, 85); font-family: Tahoma, Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(238,; background-position: 238, 238); background-image: null; background-repeat: repeat; background-attachment: scroll">
+      <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13px; vertical-align: baseline; line-height: 18px">
+        /* */ private int _professionalCount =1000;<br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px" />/* */ private int _personalCount = 1000;
+      </p>
+    </blockquote>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13px; vertical-align: baseline; line-height: 18px; color: rgb(51, 51, 51); font-family: Tahoma, Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      &#37325;&#26032;&#32534;&#35793;&#25104;class&#25991;&#20214;&#65292;&#29992;winrar&#25171;&#24320;resin 4.0.xx&#30446;&#24405;&#19979;&#30340;lib/pro.jar&#65292;&#25226;&#29983;&#25104;&#30340;class&#25991;&#20214;&#25302;&#36827;&#23545;&#24212;&#30340;&#30446;&#24405;&#21363;&#21487;&#12290;
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13px; vertical-align: baseline; line-height: 18px; color: rgb(51, 51, 51); font-family: Tahoma, Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      &#20165;&#20379;&#23398;&#20064;&#20351;&#29992;&#65292;&#35831;&#22312;&#19979;&#36733;&#21518;24&#26102;&#38388;&#20869;&#21024;&#38500;&#12290;
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
 </node>
+<node CREATED="1484100115582" ID="ID_1694397776" MODIFIED="1484100121009" TEXT="&#x591a;&#x516c;&#x4f17;&#x53f7;">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1484122922204" ID="ID_1483570071" MODIFIED="1484123137422">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21457;&#29616;&#22312;mdfrontserver-&gt;domain-&gt;<font color="#6600cc"><b>OrderPayDomain.java</b></font>&#30340;<b><font color="#009966">PayOrder/wftPayOrder</font></b>&#26041;&#27861;&#20013;&#37117;&#26377;&#35843;&#29992;
+    </p>
+    <p>
+      orderCreateExtService.<b><font color="#0099ff">GetShopByIdWithRebateNow</font></b>(shopId)&#65292;&#30452;&#25509;&#20174;&#36825;&#21462;&#25903;&#20184;&#21442;&#25968;&#35774;&#32622;&#21040;orderPayParam
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1484125833203" ID="ID_663397603" MODIFIED="1484125995102">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009966"><b>mdpaygate</b></font>&#30340;<b><font color="#0099ff">PayTypeEnum</font></b>&#24517;&#39035;&#21644;<b><font color="#009966">fontserver</font></b>&#30340;<b><font color="#0099ff">FSFSOrderConstants</font></b>&#23436;&#20840;&#19968;&#33268;&#65281;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1484128352958" ID="ID_1684157331" MODIFIED="1484129220721">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">frontserver</font></b>&#30340;<b><font color="#009966">PayOrder/wftPayOrder</font></b>&#37117;&#22312;&#31532;&#19977;&#26041;&#25903;&#20184;&#19979;&#65292;&#36716;&#21040;&#20102;frontserver&#30340;TradeExtService.<b><font color="#0099ff">createMobileParam</font></b>,&#22312;&#35813;&#26041;&#27861;&#20013;&#23558;&#37325;&#35201;&#30340;<b><font color="#ff6600">orderPayParam</font></b>&#36716;&#21464;&#20026;<b><font color="#6600cc">TradeVo</font></b>&#21442;&#25968;&#65292;&#65288;&#23588;&#20854;&#27880;&#24847;&#35813;&#23545;&#35937;&#21152;&#23646;&#24615;&#26159;&#21542;&#24433;&#21709;&#21040;&#20102;&#25968;&#25454;&#24211;&#25805;&#20316;&#65292;&#25105;&#23545;<font color="#6600cc">tradevo</font>&#36861;&#21152;&#20102;<font color="#0099ff">branchpartenerid,branchappid,branchsignkey</font>&#20197;&#21518;&#35774;&#35745;&#23558;model&#23618;&#30340;&#19982;dao&#23618;&#30340;&#20998;&#24320;&#65281;&#65289;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36716;&#21040;&#20102;<b><font color="#ff0000">mdpaygate</font></b>&#24037;&#31243;&#30340;TradeServiceImpl.<b><font color="#0099ff">createMobileParam</font></b>.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36827;&#32780;&#36716;&#20837;<b><font color="#ff0000">mdpaygate</font></b>&#20851;&#38190;&#30340;<b><font color="#9999ff">TradeDomain.createMobileParam</font></b>&#26041;&#27861;&#65292;&#35813;&#26041;&#27861;&#20851;&#38190;&#30340;&#20851;&#38190;&#26159;<b><font color="#ff66ff">getTradePayManager()</font></b>&#65292;&#35813;&#20869;&#37096;&#36890;&#36807;spring &#27880;&#20837;&#20102;&#26681;&#25454;paytype&#25214;&#21040;&#30456;&#24212;&#30340;TradePayManager&#22788;&#29702;&#31867;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1484100134636" ID="ID_1708821029" MODIFIED="1484119311067">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22810;&#20027;&#20307; v1(c-&gt;b)/v2(b-&gt;c)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1484114663075" ID="ID_441516173" MODIFIED="1484115556984">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36935;&#21040;&#20010;&#38382;&#39064;&#65292;&#30446;&#21069;&#39564;&#35777;&#23384;&#22312;&#20110;c -&gt; b&#65292; b -&gt; c&#21487;&#33021;&#20063;&#23384;&#22312;&#65292;<b><font color="#009966">&#37027;&#23601;&#26159;&#25903;&#20184;&#26102;&#65292;&#38500;&#20102;&#25105;&#20204;&#23376;&#21830;&#25143;&#35201;&#25552;&#20379;&#33258;&#24049;&#30340;appid(&#36825;&#20010;&#19982;&#25105;&#20204;&#30340;appid&lt;&#36825;&#20010;&#23601;&#26159;&#20844;&#20247;&#21495;&#65292;&#29992;&#26469;&#25910;&#27454;&#30340;&gt;&#26080;&#20851;&#65292;&#21482;&#26159;swp&#20026;&#27599;&#20010;&#38376;&#24215;&#24405;&#20837;&#20102;&#20182;&#20204;&#33258;&#24049;&#30340;appid&#65292;&#27880;&#24847;&#22810;&#20027;&#20307;&#25152;&#26377;&#30340;&#36134;&#37117;&#30452;&#25509;&#25171;&#20837;&#21830;&#25143;&#36134;&#25143;&#37324;&#65289;&#65292;</font><font color="#ff0000">&#25105;&#20204;&#20570;&#38169;&#30340;&#26159;&#65306;&#29992;</font><font color="#ff6600">&#25105;&#20204;&#30340;</font><font color="#ff0000">appid&#21435;&#25552;&#21462;&#25152;&#35859;&#30340;sub_openid&#65288;&#36825;&#20010;&#23454;&#38469;&#26159;&#29992;&#25143;&#20851;&#27880;&#25105;&#20204;&#30340;&#65292;&#24403;&#28982;&#19981;&#21487;&#34892;&#65289;</font><font color="#009966">&#65292;&#25105;&#20204;&#24212;&#35813;&#26159;&#29992;&#21830;&#25143;&#30340;appid&#21435;&#25552;&#21462;&#29992;&#25143;&#20851;&#27880;&#21830;&#25143;&#30340;sub_openid&#65292;&#25165;&#33021;&#23436;&#25104;&#25903;&#20184;</font></b>&#65292;&#37027;&#20040;&#38382;&#39064;&#26469;&#20102;&#65292;&#20570;&#22810;&#20027;&#20307;&#30340;&#24847;&#20041;&#26159;&#20026;&#20102;&#20851;&#27880;&#25105;&#20204;&#30340;openid&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1484102602447" FOLDED="true" ID="ID_1573726263" MODIFIED="1484120154639" TEXT="&#x4ea4;&#x6613;&#x4e2d;&#x5fc3;&#x516c;&#x53f8;&#x73af;&#x5883;">
+<node CREATED="1484102618417" FOLDED="true" ID="ID_1037343553" MODIFIED="1484120037063" TEXT="&#x5e73;&#x884c;&#x73af;&#x5883;">
+<node CREATED="1484116887039" ID="ID_1640290103" MODIFIED="1484116975574">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36830;&#25509;&#30340;&#25968;&#25454;&#24211;&#26159;<b><font color="#009999">10.8.210.47</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mdpaygate&#37096;&#32626;&#22312;<b><font color="#009966">10.9.210.131</font></b>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1484102624187" ID="ID_886637617" MODIFIED="1484102632898" TEXT="&#x5e38;&#x89c4;&#x73af;&#x5883;"/>
+<node CREATED="1484103802050" FOLDED="true" ID="ID_1109663949" MODIFIED="1484120152088">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24320;&#21457;&#32852;&#35843;&#29615;&#22659;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1484103815549" ID="ID_580379090" MODIFIED="1484120146236">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      resin&#26159;ssh root@<b><font color="#009966">10.8.210.166</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;&#26426;&#22120;&#26426;&#22120;&#19978;&#37096;&#32626;&#20102;&#20132;&#26131;&#20013;&#24515;&#25152;&#26377;&#30340;Java&#24037;&#31243;,&#37319;&#29992;openjdk1.7.0_60
+    </p>
+    <p>
+      &#36890;&#36807;<b><font color="#009999">ps -ef|grep resin</font></b>&#26597;&#25214;&#21040;&#23433;&#35013;&#21551;&#21160;&#30446;&#24405;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mdtradecenter&#36830;&#25509;&#30340;&#26159;<b><font color="#009999">10.8.210.189</font></b>&#30340;&#24211;&#65288;root/123456 or deployment/123456&#65289;
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        <b><font color="#009966">mdtradecenter,mdtask</font></b>&#37117;&#26159;&#36830;&#25509;&#30340;<b><font color="#009966">mdorder</font></b>&#24211;
+      </li>
+      <li>
+        <b><font color="#009966">mdpaygate</font></b>&#65292;&#36830;&#25509;&#30340;&#26159;<b><font color="#009966">mdpay</font></b>&#24211;
+      </li>
+      <li>
+        <b><font color="#009966">mdfrontserver</font></b>&#19981;&#36830;&#25509;&#20219;&#20309;&#25968;&#25454;&#24211;
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      &#20854;&#20313;&#31995;&#32479;&#28041;&#21450;&#25968;&#25454;&#24211;&#65292;<b><font color="#009966">sh_wowostore</font></b>,<font color="#009966"><b>swp</b></font>&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#37325;&#35201;&#30340;&#26159;mdorder&#24211;&#65292;mdpay&#24211;&#26159;&#20010;&#19979;&#21333;&#36807;&#31243;&#20013;&#30340;&#36807;&#28193;&#24211;&#65281;,&#20026;&#20102;&#39033;&#24196;b&#31471;&#30340;&#32479;&#35745;mdtask&#39069;&#22806;&#25191;&#34892;&#20102;&#24456;&#22810;&#20219;&#21153;&#65292;&#26597;&#35810;&#21363;&#21487;&#12290;&#25152;&#20197;&#65292;&#25152;&#26377;&#20132;&#26131;&#20013;&#24515;&#30340;&#19982;&#25968;&#25454;&#24211;&#30340;&#20132;&#20114;&#21482;&#38656;&#35201;&#30475;mdtradecenter/mdtask,&#21644;&#31245;&#24102;&#30475;&#30475;mdpaygate&#21363;&#21487;&#65292;<b><font color="#009966">&#37325;&#28857;&#26159;mdtradecenter/mdtask</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1484117096230" ID="ID_1801877089" LINK="http://10.8.210.208:8088/" MODIFIED="1484118500415">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20844;&#21496;jenkins&#65292;&#36127;&#36131;&#25152;&#26377;&#29615;&#22659;&#33258;&#21160;&#37096;&#32626;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#009966">http://10.8.210.208:8088/ </font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36890;&#36807;jenkins&#30340;console&#26085;&#24535;&#21487;&#26597;&#30475;&#21040;&#37096;&#32626;&#30340;&#26426;&#22120;&#65292;&#20174;&#32780;&#20102;&#35299;&#21508;&#20010;&#29615;&#22659;&#30340;&#20301;&#32622;
+    </p>
+    <p>
+      <b><font color="#009966">&#31561;&#32852;&#35843;&#24320;&#21457;&#33258;&#27979;&#23436;&#25104;&#22810;&#20844;&#20247;&#21495;&#20877;&#25972;&#29702;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
