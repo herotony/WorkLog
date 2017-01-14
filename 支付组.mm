@@ -900,7 +900,7 @@
 </node>
 </node>
 <node CREATED="1483923037718" ID="ID_969690643" MODIFIED="1484274778049" TEXT="&#x5e74;&#x524d;14&#x5929;">
-<node CREATED="1483923067819" FOLDED="true" ID="ID_1541416572" MODIFIED="1484183732897" TEXT="&#x7b2c;1&#x5929;">
+<node CREATED="1483923067819" FOLDED="true" ID="ID_1541416572" MODIFIED="1484389030735" TEXT="&#x7b2c;1&#x5929;">
 <node CREATED="1483923083368" ID="ID_1241534879" MODIFIED="1483932276720" TEXT="&#x6700;&#x540e;&#x4e00;&#x6b21;&#x68b3;&#x7406;Java&#x4ee3;&#x7801;&#x6d41;&#x7a0b;">
 <node CREATED="1483923114011" ID="ID_1138219680" MODIFIED="1483954720757">
 <richcontent TYPE="NODE"><html>
@@ -1585,7 +1585,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1484355666643" FOLDED="true" ID="ID_277088133" MODIFIED="1484356707959" TEXT="&#x7b2c;6&#x5929;">
+<node CREATED="1484355666643" FOLDED="true" ID="ID_277088133" MODIFIED="1484389027600" TEXT="&#x7b2c;6&#x5929;">
 <node CREATED="1484355680116" ID="ID_337028562" MODIFIED="1484355728101">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1599,14 +1599,73 @@
       &#36824;&#26377;&#23601;&#26159;javadoc&#29992;&#36215;&#26469;
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1484356689739" ID="ID_1282928128" MODIFIED="1484356706684" TEXT="&#x660e;&#x5929;&#x5728;&#x5bb6;&#x7528;mac&#x7422;&#x78e8;&#x51fa;github.io&#x6a21;&#x677f;"/>
+<node CREATED="1484388945422" ID="ID_402853705" MODIFIED="1484389011594">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff6633">&#36864;&#27454;&#27809;&#20570;&#65292;&#21608;&#19968;&#26089;&#19978;&#26469;&#20570;</font>
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1484356689739" ID="ID_1282928128" MODIFIED="1484356706684" TEXT="&#x660e;&#x5929;&#x5728;&#x5bb6;&#x7528;mac&#x7422;&#x78e8;&#x51fa;github.io&#x6a21;&#x677f;"/>
+<node CREATED="1484388976547" ID="ID_338726510" MODIFIED="1484389025691">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff6633">&#26597;&#35810;&#36824;&#26377;&#37096;&#20998;&#24453;&#28548;&#28165;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1484102602447" FOLDED="true" ID="ID_1573726263" MODIFIED="1484200881334" TEXT="&#x4ea4;&#x6613;&#x4e2d;&#x5fc3;&#x516c;&#x53f8;&#x73af;&#x5883;">
+<node CREATED="1484382092303" ID="ID_794483350" MODIFIED="1484382152180" TEXT="&#x652f;&#x4ed8;&#x901a;&#x9053;&#x5171;5&#x4e2a;&#x6a21;&#x5757;">
+<node CREATED="1484382156872" ID="ID_570083611" MODIFIED="1484382533889">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65292;c -&gt; b &#31532;&#19977;&#26041;&#25903;&#20184;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1484382195782" ID="ID_748615085" MODIFIED="1484382209691" TEXT="3, c-&gt;b &#x7b2c;&#x4e09;&#x65b9;&#x652f;&#x4ed8;&#x901a;&#x77e5;"/>
+</node>
+<node CREATED="1484382181673" FOLDED="true" ID="ID_1306114754" MODIFIED="1484382536191">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2&#65292;b -&gt; c &#31532;&#19977;&#26041;&#25903;&#20184;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1484382211092" ID="ID_464491260" MODIFIED="1484382275066" TEXT="4&#xff0c; b-&gt;c &#x7684;&#x7b2c;&#x4e09;&#x65b9;&#x652f;&#x4ed8;&#x7ed3;&#x679c;&#x67e5;&#x8be2;"/>
+</node>
+<node CREATED="1484382228091" FOLDED="true" ID="ID_1781741312" MODIFIED="1484388937984" TEXT="5&#xff0c;&#x9000;&#x6b3e;">
+<node CREATED="1484382238500" ID="ID_540831875" MODIFIED="1484382257209" TEXT="&#x5fae;&#x4fe1;&#x652f;&#x4ed8;&#xff0c;&#x6dd8;&#x5b9d;&#x652f;&#x4ed8;&#xff0c;&#x76f4;&#x8fde;&#x90e8;&#x5206;&#xff0c;&#x6ca1;&#x6709;&#x9000;&#x6b3e;"/>
+</node>
+<node CREATED="1484382311291" ID="ID_1739758754" MODIFIED="1484382368729" TEXT="&#x4f59;&#x989d;&#x652f;&#x4ed8;&#xff0c;&#x76f4;&#x8fde;&#xff08;&#x5fae;&#x4fe1;&#xff0c;&#x652f;&#x4ed8;&#xff09;&#x652f;&#x4ed8;"/>
+</node>
+</node>
+<node CREATED="1484102602447" FOLDED="true" ID="ID_1573726263" MODIFIED="1484382082617" TEXT="&#x4ea4;&#x6613;&#x4e2d;&#x5fc3;&#x516c;&#x53f8;&#x73af;&#x5883;">
 <node CREATED="1484102618417" FOLDED="true" ID="ID_1037343553" MODIFIED="1484200664707" TEXT="&#x5e73;&#x884c;&#x73af;&#x5883;">
 <node CREATED="1484116887039" ID="ID_1640290103" MODIFIED="1484116975574">
 <richcontent TYPE="NODE"><html>
@@ -1799,7 +1858,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1484212253194" FOLDED="true" ID="ID_1375547211" MODIFIED="1484368114441" TEXT="&#x6d41;&#x7a0b;&#x56fe; b-&gt;c&#x591a;&#x516c;&#x4f17;&#x53f7;&#x73b0;&#x5728;&#x652f;&#x4ed8;&#x6d41;&#x7a0b;&#x56fe;">
+<node CREATED="1484212253194" FOLDED="true" ID="ID_1375547211" MODIFIED="1484384914740" TEXT="&#x6d41;&#x7a0b;&#x56fe; b-&gt;c&#x591a;&#x516c;&#x4f17;&#x53f7;&#x73b0;&#x5728;&#x652f;&#x4ed8;&#x6d41;&#x7a0b;&#x56fe;">
 <node CREATED="1484212274380" ID="ID_692197291" MODIFIED="1484212280291">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1811,7 +1870,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1484293520222" FOLDED="true" ID="ID_303217953" MODIFIED="1484368110009">
+<node CREATED="1484293520222" FOLDED="true" ID="ID_303217953" MODIFIED="1484384864597">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1839,9 +1898,34 @@
   <body>
     <img src="WorkUML/branch-to-nowpay-c-scan-b-notify-proc.jpg" />
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1484388555443" ID="ID_1640229510" MODIFIED="1484388998629">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TradeServiceImpl.processNowPayscanpayResult&#24453;&#28548;&#28165;<font color="#ff6633">notifyurl+addqueue&#20107;&#23452;</font>
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
+<node CREATED="1484389247012" ID="ID_443404298" MODIFIED="1484389339947">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff6633">&#36864;&#27454;&#27969;&#31243;&#24453;&#28548;&#28165;&#20837;&#21475;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
