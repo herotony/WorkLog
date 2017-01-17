@@ -1,0 +1,228 @@
+﻿#!/bin/bash
+set -ex
+. /etc/profile
+project_name=$1
+profile_type=$2
+build_env=$3
+
+if [ x$4 != x ]
+then
+        project_version='-'$4
+else
+        project_version=""
+fi
+
+workspace=$(pwd)
+compiledir=$HUDSON_HOME/workspace/builds/$JOB_NAME/$BUILD_NUMBER
+#local_repo=$HOME/repo.$build_env.$project_name
+local_repo=/home/repo.$build_env.$project_name
+mvn --version
+rm -rf $local_repo/com/tuan/*
+rm -rf $local_repo/com/alibaba/*
+rm -rf $local_repo/com/wowo/*
+rm -rf $local_repo/com/sh/*
+rm -rf $local_repo/com/shanhui/*
+if [ $project_name == "idcenter" ];then
+	mvn clean package  -Dmaven.test.skip=true  -Dprofile.file.name=env.properties.test
+elif [ $project_name == "pop" ];then
+	mvn clean install -U -P $profile_type -Dmaven.repo.local=$local_repo
+elif [ $project_name == "shadcenter" ];then
+	mvn clean install -Dprofile.file.name=/profile/properties.deploy.on.corp -Dmaven.repo.local=$local_repo -Dmaven.test.skip=true
+elif [ $project_name == "recsys" ];then
+        mvn clean package -P $profile_type -Dmaven.test.skip=true
+elif [ $project_name == "baseshop" ];then
+        mvn clean package -P $profile_type -Dmaven.test.skip=true
+elif [ $project_name == "recsys-evaluate" ];then
+	mvn clean package -P online -Dmaven.test.skip=true -Dmaven.repo.local=$local_repo
+elif [ $project_name == "bankagent" ];then
+        mvn clean install -Dmaven.test.skip=true -DAPP_ENV=$profile_type -Dmaven.repo.local=$local_repo
+elif [ $project_name == "discache" ];then
+        mvn clean install -Dmaven.test.skip=true -DAPP_ENV=$profile_type -Dmaven.repo.local=$local_repo
+elif [ $project_name == "dubbo" ] || [ $project_name == "wdtpaygate" ] || [ $project_name == "wdtpaycenter" ];then
+	mvn clean install -Dmaven.test.skip=true -Denv=$profile_type -Dmaven.repo.local=$local_repo
+elif [ $project_name == "mdpaygate" ];then
+       mvn clean install -Dmaven.test.skip=true -Denv=$profile_type -Dmaven.repo.local=$local_repo
+elif [ $project_name == "mdtradcenter" ];then
+        mvn clean install -Dmaven.test.skip=true -Denv=$profile_type  
+elif [ $project_name == "openserver" ];then
+        mvn clean package -Dmaven.test.skip=true -Dprofile.file.name=profile/env.properties.test -Dmaven.repo.local=$local_repo
+elif [ $project_name == "job" ];then
+	mvn clean install -Denv=$profile_type -Dmaven.repo.local=$local_repo
+elif [ $project_name == "notifyserver" ];then
+	mvn clean install -Denv=$profile_type -Dmaven.repo.local=$local_repo
+elif [ $project_name == "diamond-server" ];then
+	mvn clean  install -Dmaven.test.skip=true -P$profile_type -Dmaven.repo.local=$local_repo
+elif [ $project_name == "esbizcenter-shop" ];then
+	mvn install -Dprofile.file.name=/profile/env.properties.local.test -Dmaven.test.skip=true
+elif [ $project_name == "aofauditcenter" ];then
+	cd aofauditcenter	
+	mvn clean install -Dprofile.file.name=/profile/env.properties.$profile_type -Dmaven.test.skip=true
+elif [ $project_name == "aofjobcenter" ];then
+	mvn clean install -Dprofile.file.name=/profile/env.properties.$profile_type -Dmaven.test.skip=true
+elif [ $project_name == "aofjscenter" ];then
+	mvn clean install -Dprofile.file.name=/profile/env.properties.$profile_type -Dmaven.test.skip=true
+elif [ $project_name == "aofpaycenter" ] || [ $project_name == "aofmsacenter" ];then
+	mvn clean install -Dprofile.file.name=/profile/env.properties.$profile_type -Dmaven.test.skip=true
+elif [ $project_name == "taskmall_coordinator" ] || [ $project_name == "taskmall_dispenser" ] || [ $project_name == "taskmall_executor" ];then
+	mvn clean install -DAPP_ENV=test -Dmaven.test.skip=true -Dprofile.file.name=/profile/env.properties.$profile_type -Dmaven.repo.local=$mvnrepo
+else
+	mvn clean  install -Dmaven.test.skip=true -Dprofile.file.name=/profile/env.properties.$profile_type -Dmaven.repo.local=$local_repo
+fi
+
+if [[ -d $compiledir ]];then
+	echo $compiledir
+else
+	echo $(pwd)
+	mkdir -p $compiledir
+fi
+
+if [ -d "assembly/$project_name-war/target" ]
+    then
+	if [ $project_name == "sequence" ];then
+            unzip assembly/$project_name"-war"/target/cozy-common-sequence-1.0.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "shucenter" ];then
+            unzip assembly/$project_name"-war"/target/$project_name-1.0.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "wdtucenter" ];then
+	    mv assembly/$project_name"-war"/target/$project_name.war $compiledir/$project_name$project_version
+        elif [ $project_name == "wdtucomment" ];then
+            mv assembly/$project_name"-war"/target/$project_name.war $compiledir/$project_name$project_version
+        elif [ $project_name == "ucenter" ];then
+            unzip assembly/$project_name"-war"/target/$project_name-1.0.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "mdordercenter" ];then
+            unzip assembly/$project_name"-war"/target/$project_name-1.0.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "shappagent" ];then
+            unzip assembly/$project_name"-war"/target/$project_name-1.0.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "commentcenter" ];then
+            unzip assembly/$project_name"-war"/target/$project_name-1.0.war -d $compiledir/$project_name$project_version
+	else
+            unzip assembly/$project_name"-war"/target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+	fi
+elif [ -f target/$project_name$project_version.war ];then
+	unzip target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+else
+        if [ $project_name == "diamond-server" ];then
+            unzip diamond-server/target/diamond-server.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "dyordercenter" ];then
+   	    unzip assembly/ordercenter-dy-war/target/ordercenter-dy$project_version.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "dyordertask" ];then
+	    unzip assembly/ordertask.dy-war/target/ordertask-dy$project_version.war -d $compiledir/$project_name$project_version 
+	elif [ $project_name == "job" ];then
+	    unzip target/$project_name*.war -d $compiledir/$project_name$project_version
+            elif [ $project_name == "wdtyouhui" ];then
+             unzip assembly/wdtyouhui-war/target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+           elif [ $project_name == "wdttaskcenter" ];then
+             unzip assembly/wdttaskcenter-war/target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+          elif [ $project_name == "wdtrefundcenter" ];then
+             unzip wdtrefundcenter-web/target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "notificationbox" ];then
+	    unzip assembly/notificationbox/target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "opencenter" ];then
+	    unzip assembly/opencenter/target/opencenter-1.0.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "cartcenter" ];then
+	    rm -rf web/src/main/webapp/WEB-INF/lib/*.jar
+            unzip web/target/cartcenter-web-1.0.20150605.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "openserver" ];then
+            unzip web/target/openserver.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "cas" ];then
+	    unzip web/target/cas-server.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "youhuicenter" ];then
+	    unzip assembly/youhui-war/target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "idcenter" ];then
+	    unzip assembly/target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "baseshop" ];then
+            unzip web/target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "recsys" ];then
+	    unzip target/recsys-server-1.0.war -d $compiledir/$project_name
+	elif [ $project_name == "recsys-evaluate" ];then
+	    unzip target/recsys-evaluate-1.0.war -d $compiledir/$project_name
+	elif [ $project_name == "bankagent" ];then
+            unzip target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "discache" ];then
+            unzip target/$project_name.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "taskmall_coordinator" ] || [ $project_name == "taskmall_dispenser" ] || [ $project_name == "taskmall_executor" ];then
+            unzip assembly/taskmall-war/target/taskmall-1.0.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "dubbo" ];then
+	    unzip dubbo-admin/target/dubboadmin.war -d $compiledir/$project_name$project_version
+	    unzip dubbo-simple/dubbo-monitor-simple/target/dubbomonitor.war -d $compiledir/dubbomonitor
+	    	cd $compiledir
+		tar -zcvf dubbomonitor.tar.gz dubbomonitor
+		scp dubbomonitor.tar.gz root@10.8.210.39:/data/online/$current_date
+	        cd $workspace
+	elif [ $project_name == "inventory" ];then
+            unzip inventory/app/target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+         elif [ $project_name == "shopcenter" ];then
+            unzip assembly/shopcenter/target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+         elif [ $project_name == "shopcenter2" ];then
+            unzip shopcenter2-web/target/$project_name-web$project_version*.war -d $compiledir/$project_name$project_version
+         elif [  $project_name == "pop" ];then
+            unzip web/target/$project_name*.war -d $compiledir/$project_name$project_version
+	elif [ $project_name == "wdtpaygate" ] || [ $project_name == "wdtpaycenter" ] ;then
+	    unzip app/target/$project_name.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "mdpaygate" ];then
+            unzip app/target/$project_name.war -d $compiledir/$project_name$project_version
+       elif [ $project_name == "smsserver" ];then
+            unzip web/target/smsserver-web-1.1.20150712.war  -d $compiledir/$project_name$project_version
+       elif [ $project_name == "jmwwserver" ];then
+            unzip jmwwserver-web/target/$project_name.war -d $compiledir/$project_name$project_version
+      elif [ $project_name == "jmwwsearch" ];then
+            unzip jmwwsearch-web/target/$project_name.war -d $compiledir/$project_name$project_version
+       elif [ $project_name == "jmwwpaygate" ];then
+            unzip app/target/$project_name.war -d $compiledir/$project_name$project_version
+         elif [ $project_name == "mdfrontserver" ];then
+            unzip mdfrontserver-web/target/$project_name.war -d $compiledir/$project_name$project_version
+         elif [ $project_name == "mdtradecenter" ];then
+            unzip mdtradecenter-web/target/$project_name.war -d $compiledir/$project_name$project_version
+         elif [ $project_name == "mdtask" ];then
+            unzip mdtask-web/target/$project_name.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "mdrebate" ];then
+            unzip mdrebate-web/target/$project_name-web.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "esbizcenter-shop" ];then
+            unzip assembly/target/$project_name-1.0.0.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "mdinviterebate" ];then
+            unzip mdinviterebate-web/target/$project_name-web.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "aofauditcenter" ];then
+            unzip assembly/audit-war/target/audit-1.0.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "aofjobcenter" ];then
+            unzip assembly/$project_name-war/target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "aofjscenter" ];then
+            unzip assembly/jscenter-war/target/jscenter$project_version.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "aofpaycenter" ];then
+            unzip target/payCenter.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "aofmsacenter" ];then
+            unzip assembly/msacenter-war/target/msacenter$project_version.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "shaof" ];then
+            unzip shaof-web/target/shaof-web$project_version.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "shaofapi" ];then
+            unzip shaof-client-web/target/shaof-client-web.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "shusupplier" ];then
+            unzip assembly/usupplier-war/target/usupplier$project_version.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "orderconsumer" ];then
+            unzip orderconsumer-web/target/orderconsumer$project_version.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "uconsumer" ];then
+            unzip uconsumer-web/target/uconsumer$project_version.war -d $compiledir/$project_name$project_version
+        elif [ $project_name == "shadcenter" ];then
+            unzip assembly/target/$project_name$project_version.war -d $compiledir/$project_name$project_version
+	fi
+fi
+make_package_dir(){
+	cd /data/jenkins_package
+	if [ -d $JOB_NAME ];then
+		cd $JOB_NAME
+		mkdir $BUILD_NUMBER
+		cd $BUILD_NUMBER
+		echo $(pwd)
+	else
+		mkdir -p $JOB_NAME/$BUILD_NUMBER
+		cd $JOB_NAME/$BUILD_NUMBER
+		echo $(pwd)
+		echo 'the job dir has been created!'
+	fi 
+}
+make_package_dir
+cd $compiledir
+tar -zcvf $project_name$project_version.tar.gz $project_name$project_version
+package_md5=$(md5sum $project_name$project_version".tar.gz")
+echo 'MD5 '$package_md5''
+cp $project_name$project_version.tar.gz /data/jenkins_package/$JOB_NAME/$BUILD_NUMBER/
+cd $workspace
+#rm -rf $compiledir

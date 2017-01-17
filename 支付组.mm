@@ -56,9 +56,9 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1482730873217" ID="ID_1637028870" MODIFIED="1484366196386" POSITION="right" TEXT="2017">
-<node CREATED="1483758930701" FOLDED="true" ID="ID_1355869886" MODIFIED="1484560117087" TEXT="&#x5e74;&#x524d;(1.25&#x53f7;&#x524d;&#xff09;">
-<node CREATED="1483408342334" FOLDED="true" ID="ID_378928963" MODIFIED="1484183867456">
+<node CREATED="1482730873217" ID="ID_1637028870" MODIFIED="1484610856776" POSITION="right" TEXT="2017">
+<node CREATED="1483758930701" FOLDED="true" ID="ID_1355869886" MODIFIED="1484618659366" TEXT="&#x5e74;&#x524d;(1.25&#x53f7;&#x524d;&#xff09;">
+<node CREATED="1483408342334" FOLDED="true" ID="ID_378928963" MODIFIED="1484616507367">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -455,7 +455,7 @@
 <node CREATED="1483758744979" ID="ID_1425540829" MODIFIED="1483758804959" TEXT="&#x88ab;&#x626b;&#x652f;&#x4ed8;(b &#x626b; c&#xff0c;&#x5546;&#x5bb6;&#x626b;&#x7801;&#x67aa;or b&#x7aef;&#x5ba2;&#x6237;&#x7aef; &#x626b; &#x7528;&#x6237;&#x6388;&#x6743;&#x7801;&#x5b8c;&#x6210;&#x652f;&#x4ed8;)"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1483761050994" FOLDED="true" ID="ID_1481594119" LINK="https://pay.weixin.qq.com/wiki/doc/api/jsapi_sl.php?chapter=7_1" MODIFIED="1484560113405">
+<node BACKGROUND_COLOR="#99ff99" CREATED="1483761050994" FOLDED="true" ID="ID_1481594119" LINK="https://pay.weixin.qq.com/wiki/doc/api/jsapi_sl.php?chapter=7_1" MODIFIED="1484616502536">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -666,7 +666,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccff99" CREATED="1483771982115" FOLDED="true" ID="ID_1982907582" MODIFIED="1484209045441" TEXT="&#x65f6;&#x5e8f;&#x56fe;">
+<node BACKGROUND_COLOR="#ccff99" CREATED="1483771982115" FOLDED="true" ID="ID_1982907582" MODIFIED="1484616484567" TEXT="&#x65f6;&#x5e8f;&#x56fe;">
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1483771996107" ID="ID_1930090108" MODIFIED="1483772002058">
 <richcontent TYPE="NODE"><html>
@@ -692,7 +692,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1483775132173" ID="ID_843136363" MODIFIED="1484183744975">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1483775132173" FOLDED="true" ID="ID_843136363" MODIFIED="1484616495607">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -767,7 +767,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1483776196892" FOLDED="true" ID="ID_1500100488" MODIFIED="1484183759752">
+<node CREATED="1483776196892" FOLDED="true" ID="ID_1500100488" MODIFIED="1484616493712">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -874,7 +874,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1483922532945" FOLDED="true" ID="ID_1212735913" MODIFIED="1484183735879" TEXT="1.9">
+<node CREATED="1483922532945" FOLDED="true" ID="ID_1212735913" MODIFIED="1484616514263" TEXT="1.9">
 <node CREATED="1483922540396" ID="ID_1768484656" MODIFIED="1483922598153">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -899,7 +899,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1483923037718" FOLDED="true" ID="ID_969690643" MODIFIED="1484560109142" TEXT="&#x5e74;&#x524d;14&#x5929;">
+<node CREATED="1483923037718" ID="ID_969690643" MODIFIED="1484610863658" TEXT="&#x5e74;&#x524d;14&#x5929;">
 <node CREATED="1483923067819" FOLDED="true" ID="ID_1541416572" MODIFIED="1484389030735" TEXT="&#x7b2c;1&#x5929;">
 <node CREATED="1483923083368" ID="ID_1241534879" MODIFIED="1483932276720" TEXT="&#x6700;&#x540e;&#x4e00;&#x6b21;&#x68b3;&#x7406;Java&#x4ee3;&#x7801;&#x6d41;&#x7a0b;">
 <node CREATED="1483923114011" ID="ID_1138219680" MODIFIED="1483954720757">
@@ -1123,7 +1123,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1484010585870" FOLDED="true" ID="ID_802535103" MODIFIED="1484542235378" TEXT="&#x7b2c;2&#x5929;">
+<node CREATED="1484010585870" FOLDED="true" ID="ID_802535103" MODIFIED="1484611142039" TEXT="&#x7b2c;2&#x5929;">
 <node CREATED="1484010599981" ID="ID_580808796" MODIFIED="1484101491979">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1151,7 +1151,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1484013877883" FOLDED="true" ID="ID_1210262644" MODIFIED="1484542224099">
+<node CREATED="1484013877883" FOLDED="true" ID="ID_1210262644" MODIFIED="1484611139830">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1186,9 +1186,9 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1484023565785" FOLDED="true" ID="ID_1624558052" MODIFIED="1484542222507" TEXT="&#x9003;&#x79bb;">
+<node CREATED="1484023565785" ID="ID_1624558052" MODIFIED="1484610879627" TEXT="&#x9003;&#x79bb;">
 <node CREATED="1484020138078" ID="ID_1425217063" MODIFIED="1484020158026" TEXT="&#x4e0b;&#x5348;&#x4e0d;&#x662f;&#x5e72;&#x6d3b;&#xff0c;&#x662f;&#x7f57;&#x5217;&#x81ea;&#x5df1;&#x7684;&#x5145;&#x7535;&#x6e05;&#x5355;&#xff01;"/>
-<node CREATED="1484019317349" ID="ID_1262195764" MODIFIED="1484119701324">
+<node CREATED="1484019317349" FOLDED="true" ID="ID_1262195764" MODIFIED="1484611137088">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1291,7 +1291,7 @@
 <node CREATED="1484025458935" ID="ID_1999333748" MODIFIED="1484025473502" TEXT="gitlab + jenkins,&#x76ee;&#x524d;&#x53ef;&#x80fd;&#x6ca1;&#x6709;&#x7cbe;&#x529b;&#x53bb;&#x641e;&#xff01;"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ff99ff" CREATED="1484038587371" FOLDED="true" ID="ID_1359307151" MODIFIED="1484542054211" TEXT="&#x7ee7;&#x7eed;&#x660e;&#x786e;">
+<node BACKGROUND_COLOR="#ff99ff" CREATED="1484038587371" ID="ID_1359307151" MODIFIED="1484610886295" TEXT="&#x7ee7;&#x7eed;&#x660e;&#x786e;">
 <icon BUILTIN="messagebox_warning"/>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1484202914430" ID="ID_445336612" MODIFIED="1484203856671">
 <richcontent TYPE="NODE"><html>
@@ -1338,9 +1338,26 @@
     </ul>
   </body>
 </html></richcontent>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1484610896657" ID="ID_1169042274" MODIFIED="1484611082899">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <font color="#00cc66">&#26149;&#33410;&#21069;&#65292;&#32487;&#32493;&#26803;&#29702;&#20132;&#26131;&#32452;&#30340;&#19994;&#21153;&#32447;&#65292;&#30475;java&#33258;&#25105;&#20462;&#20859;&#19968;&#20070;&#65292;&#26202;&#19978;&#21017;&#30475;tomcat&#25991;&#26723; </font>
+      </li>
+      <li>
+        <font color="#00cc66">&#26149;&#33410;&#20551;&#26399;&#38388;&#65292;tomcat+springMVC+&#21069;&#31471;&#26694;&#26550;+redis+memcache+mysql&#30340;&#19968;&#25972;&#22871;&#24320;&#21457;&#26694;&#26550;&#25972;&#29702;&#21644;&#26803;&#29702;&#21363;&#21487;&#12290;</font>
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1484542059937" FOLDED="true" ID="ID_1154549400" MODIFIED="1484542196252" TEXT="&#x8ffd;&#x52a0;">
+</node>
+<node CREATED="1484542059937" FOLDED="true" ID="ID_1154549400" MODIFIED="1484610884855" TEXT="&#x8ffd;&#x52a0;">
 <node CREATED="1484542069782" ID="ID_511619978" MODIFIED="1484542193734">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1668,12 +1685,14 @@
       &#32852;&#35843;&#26102;&#21457;&#29616;&#21644;&#23436;&#21892;&#65281;&#26126;&#22825;&#36890;&#30424;&#22312;&#26803;&#29702;&#19968;&#27425;&#65292;&#24180;&#21518;&#32454;&#32454;&#32852;&#35843;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+<node CREATED="1484610866944" FOLDED="true" ID="ID_69895482" MODIFIED="1484611204662" TEXT="&#x7b2c;8&#x5929;">
+<node CREATED="1484611176228" ID="ID_244711856" MODIFIED="1484611201582" TEXT="&#x51c6;&#x5907;&#x516c;&#x53f8;&#x8054;&#x8c03;&#x73af;&#x5883;&#xff0c;&#x5305;&#x62ec;jobcenter,idcenter,notifyserver&#x7684;&#x6574;&#x7406;"/>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1484382092303" FOLDED="true" ID="ID_794483350" MODIFIED="1484556293994" TEXT="&#x652f;&#x4ed8;&#x901a;&#x9053;&#x5171;5&#x4e2a;&#x6a21;&#x5757;">
+</node>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1484382092303" ID="ID_794483350" MODIFIED="1484618343460" TEXT="&#x652f;&#x4ed8;&#x901a;&#x9053;&#x5171;5&#x4e2a;&#x6a21;&#x5757;">
 <node CREATED="1484382156872" ID="ID_570083611" LINK="#ID_478833607" MODIFIED="1484555865962">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1721,10 +1740,25 @@
 <node CREATED="1484382238500" ID="ID_540831875" MODIFIED="1484382257209" TEXT="&#x5fae;&#x4fe1;&#x652f;&#x4ed8;&#xff0c;&#x6dd8;&#x5b9d;&#x652f;&#x4ed8;&#xff0c;&#x76f4;&#x8fde;&#x90e8;&#x5206;&#xff0c;&#x6ca1;&#x6709;&#x9000;&#x6b3e;"/>
 </node>
 <node CREATED="1484382311291" ID="ID_1739758754" MODIFIED="1484382368729" TEXT="&#x4f59;&#x989d;&#x652f;&#x4ed8;&#xff0c;&#x76f4;&#x8fde;&#xff08;&#x5fae;&#x4fe1;&#xff0c;&#x652f;&#x4ed8;&#xff09;&#x652f;&#x4ed8;"/>
+<node CREATED="1484618355537" FOLDED="true" ID="ID_22007199" MODIFIED="1484618424791" TEXT="&#x8ffd;&#x52a0;&#x4e00;&#x4e2a;&#x81ea;&#x52a8;&#x8865;&#x5355;">
+<node CREATED="1484618378590" ID="ID_1113434649" MODIFIED="1484618423178">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20063;&#23601;&#26159;&#35828;&#65292;&#23558;&#25152;&#26377;&#38750;&#25903;&#20184;&#25104;&#21151;&#30340;&#21333;&#23376;&#22266;&#23450;&#37117;&#25552;&#20986;&#26469;&#36208;&#29616;&#22312;&#25903;&#20184;&#25509;&#21475;&#20877;&#26597;&#35810;&#19968;&#27425;&#65292;&#21047;&#26032;&#30456;&#24212;&#29366;&#24577;&#31561;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1484102602447" FOLDED="true" ID="ID_1573726263" MODIFIED="1484555749146" TEXT="&#x4ea4;&#x6613;&#x4e2d;&#x5fc3;&#x516c;&#x53f8;&#x73af;&#x5883;">
-<node CREATED="1484102618417" FOLDED="true" ID="ID_1037343553" MODIFIED="1484200664707" TEXT="&#x5e73;&#x884c;&#x73af;&#x5883;">
+</node>
+</node>
+<node CREATED="1484102602447" FOLDED="true" ID="ID_1573726263" MODIFIED="1484623999744" TEXT="&#x4ea4;&#x6613;&#x4e2d;&#x5fc3;&#x516c;&#x53f8;&#x73af;&#x5883;">
+<node CREATED="1484102618417" ID="ID_1037343553" MODIFIED="1484610858228" TEXT="&#x5e73;&#x884c;&#x73af;&#x5883;">
 <node CREATED="1484116887039" ID="ID_1640290103" MODIFIED="1484116975574">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1745,7 +1779,7 @@
 </node>
 </node>
 <node CREATED="1484102624187" ID="ID_886637617" MODIFIED="1484102632898" TEXT="&#x5e38;&#x89c4;&#x73af;&#x5883;"/>
-<node CREATED="1484103802050" FOLDED="true" ID="ID_1109663949" MODIFIED="1484200660916">
+<node CREATED="1484103802050" FOLDED="true" ID="ID_1109663949" MODIFIED="1484623806207">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1837,8 +1871,156 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1484615315503" FOLDED="true" ID="ID_1896544403" MODIFIED="1484623783159" TEXT="&#x516c;&#x53f8;&#x73af;&#x5883;">
+<node CREATED="1484615325691" ID="ID_1781186563" MODIFIED="1484616091218">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009933">http://idcenter.55tuan.me/idcenter/home </font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#009999">&#24517;&#39035;&#26159;&#36825;&#20010;&#32593;&#22336;&#25165;&#34892;&#65292;&#35201;&#25340;&#20840;&#20102;&#65292;&#20174;idcenter&#36827;&#20837;&#20854;&#20182;&#20013;&#24515;&#21363;&#21487;</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36134;&#21495; manager &#23494;&#30721; manager
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [&#27491;&#24335;&#29615;&#22659;]
+    </p>
+    <p>
+      116.213.176.50 idcenter.wowotuan.com
+    </p>
+    <p>
+      116.213.178.222 notifyconsole.wowotuan.com
+    </p>
+    <p>
+      116.213.178.199&#160;&#160;dubbo.wowotuan.com
+    </p>
+    <p>
+      116.213.178.192 jobcenter.wowotuan.com
+    </p>
+    <p>
+      116.213.176.18 secret.wowotuan.com
+    </p>
+    <p>
+      116.213.178.221&#160;&#160;configcenter.wowotuan.com
+    </p>
+    <p>
+      116.213.176.51 brushweb.wowotuan.com
+    </p>
+    <p>
+      116.213.178.76 logstashnew.wowotuan.com
+    </p>
+    <p>
+      116.213.176.49 recsys.wowotuan.com
+    </p>
+    <p>
+      116.213.176.18 graphite.wowotuan.com
+    </p>
+    <p>
+      116.213.176.51 discache.wowotuan.com
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [&#20844;&#21496;&#24320;&#21457;&#29615;&#22659;]
+    </p>
+    <p>
+      10.8.210.223 idcenter.55tuan.me
+    </p>
+    <p>
+      10.8.210.207 jobcenter.55tuan.me
+    </p>
+    <p>
+      10.9.210.216 notifyserver-gateway.55tuan.me
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1484182831610" FOLDED="true" ID="ID_93460076" MODIFIED="1484560022461" TEXT="&#x591a;&#x516c;&#x4f17;&#x53f7;&#x90e8;&#x5206;&#x4fee;&#x6539;&#x70b9;&#x8bb0;&#x5f55;">
+</node>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1484621408584" FOLDED="true" ID="ID_1871739080" MODIFIED="1484623985772" TEXT="&#x516c;&#x53f8;&#x73af;&#x5883;jenkins&#x81ea;&#x52a8;&#x90e8;&#x7f72;&#x8bb0;&#x5f55;">
+<node CREATED="1484621423728" ID="ID_1631339036" MODIFIED="1484621949424">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#12289;&#36827;&#20837;<b>https://10.9.210.155</b>&#160;&#36827;&#20837;gitlab&#65292;&#29992;wangdalin/W.l.....1&#30331;&#24405;
+    </p>
+    <p>
+      2&#12289;&#25214;&#21040;mdpaygate&#39033;&#30446;&#65292;&#22312;&#27983;&#35272;&#22120;&#22320;&#22336;&#26639;&#30475;&#21040;&#38142;&#25509;&#22320;&#22336;
+    </p>
+    <p>
+      https://10.9.210.155/java/mdpaygate/commits/<b><font color="#009933">feature/multi-mhtsubappid-on-nowpay</font></b>
+    </p>
+    <p>
+      &#25335;&#36125;&#39068;&#33394;&#26631;&#35782;&#37096;&#20998;
+    </p>
+    <p>
+      3&#12289;&#36827;&#20837;<b>http://10.8.210.208:8088/ </b>&#160;&#36827;&#20837;&#160; jenkins&#29615;&#22659;&#65292;&#29992;yanfa/yanfa&#30331;&#24405;&#65292;&#25214;&#21040;<b><font color="#009999">&#32852;&#35843;&#29615;&#22659;</font></b>&#65288;&#36825;&#37324;&#20195;&#34920;&#35201;&#37096;&#32626;&#30340;&#26381;&#21153;&#22120;&#65289;&#65292;&#22312;&#35813;&#26381;&#21153;&#22120;&#21015;&#34920;&#39033;&#20013;&#25214;&#21040;<b><font color="#009999">Java_Liantiao_mdpaygate</font></b>&#39033;&#65292;&#28857;&#20987;&#36827;&#21435;<b><font color="#009933">&#37197;&#32622;</font></b>&#30028;&#38754;&#65292;&#22312;&#37197;&#32622;&#31649;&#29702;&#30028;&#38754;&#30340;&#28304;&#30721;&#31649;&#29702;&#20013;&#30340;Git&#39033;&#30340;<b><font color="#009999">Brand Specifier</font></b>&#20013;&#36755;&#20837;<b><font color="#009933">feature/multi-mhtsubappid-on-nowpay</font></b>&#20445;&#23384;&#21363;&#21487;&#65292;&#33258;&#21160;&#37096;&#32626;&#23601;&#20250;&#23558;&#35813;&#20998;&#25903;&#36827;&#34892;&#32534;&#35793;&#24182;&#33258;&#21160;&#37096;&#32626;&#21040;&#35813;&#26381;&#21153;&#22120;&#19978;&#24182;&#37325;&#21551;resin
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1484622552600" ID="ID_1857411237" LINK="2017/01/build.sh%20-%20jenkins-autodeploy-script.txt" MODIFIED="1484622661508">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20844;&#21496;&#33258;&#21160;&#37096;&#32626;&#33050;&#26412;&#21442;&#32771;&#65292;&#35831;&#25335;&#36125;&#20986;&#26469;&#29992;vim&#31561;&#26597;&#30475;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#27573;&#33050;&#26412;&#26159;&#30331;&#20837;jenkins&#25152;&#22312;&#26381;&#21153;&#22120;&#19978;&#25335;&#36125;&#26469;&#30340;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1484623570367" FOLDED="true" ID="ID_420680217" MODIFIED="1484623995148" TEXT="jobcenter&#x90e8;&#x7f72;">
+<node CREATED="1484623599094" ID="ID_243193233" MODIFIED="1484623733050">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36827;&#20837;http://idcenter.55tuan.me/idcenter/home
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      manger/manger&#30331;&#20837;&#65292;&#36716;&#20837;jobcenter&#36827;&#34892;&#37197;&#32622;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1484182831610" FOLDED="true" ID="ID_93460076" MODIFIED="1484616548000" TEXT="&#x591a;&#x516c;&#x4f17;&#x53f7;&#x90e8;&#x5206;&#x4fee;&#x6539;&#x70b9;&#x8bb0;&#x5f55;">
 <node CREATED="1484182851996" FOLDED="true" ID="ID_588303253" MODIFIED="1484555745882" TEXT="&#x9000;&#x6b3e;">
 <node CREATED="1484201146454" ID="ID_115078618" MODIFIED="1484201151161" TEXT="mdpaygate">
 <node CREATED="1484182858553" ID="ID_1961232388" MODIFIED="1484201346654">
@@ -2026,7 +2208,18 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1482730698440" FOLDED="true" ID="ID_198244194" MODIFIED="1484287158877" TEXT="jedje">
+<node CREATED="1482730698440" FOLDED="true" ID="ID_198244194" MODIFIED="1484616958416">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      jedis
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1473649150839" FOLDED="true" ID="ID_292738889" MODIFIED="1482884863029">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6081,8 +6274,8 @@
 </node>
 </node>
 <node CREATED="1478159577813" ID="ID_371018964" MODIFIED="1482910804815" TEXT="&#x53c2;&#x4e0e;&#x9879;&#x76ee;">
-<node CREATED="1478159589398" ID="ID_1332068764" MODIFIED="1483760727086" TEXT="&#x591a;&#x4e3b;&#x4f53;&#x9879;&#x76ee;">
-<node CREATED="1478159625048" FOLDED="true" ID="ID_82831550" MODIFIED="1484287103613" TEXT="&#x63cf;&#x8ff0;">
+<node CREATED="1478159589398" FOLDED="true" ID="ID_1332068764" MODIFIED="1484616756120" TEXT="&#x591a;&#x4e3b;&#x4f53;&#x9879;&#x76ee;">
+<node CREATED="1478159625048" FOLDED="true" ID="ID_82831550" MODIFIED="1484616743095" TEXT="&#x63cf;&#x8ff0;">
 <node CREATED="1478159634675" ID="ID_1980859081" MODIFIED="1478160038089">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6111,7 +6304,7 @@
 </node>
 <node CREATED="1481852407256" ID="ID_1892582130" MODIFIED="1481852436332" TEXT="&#x5751;&#x4e86;&#xff0c;&#x6839;&#x672c;&#x7528;&#x4e0d;&#x5230;&#x6c38;&#x597d;&#x7684;&#x4efb;&#x4f55;&#x6570;&#x636e;&#xff0c;&#x4e0d;&#x5b58;&#x5728;&#x4e00;&#x4e2a;&#x95e8;&#x5e97;&#x4e00;&#x4e2a;key&#x7684;&#x8bf4;&#x6cd5;"/>
 </node>
-<node CREATED="1478160786339" FOLDED="true" ID="ID_1275657612" MODIFIED="1484287109373" TEXT="&#x6d41;&#x7a0b;">
+<node CREATED="1478160786339" FOLDED="true" ID="ID_1275657612" MODIFIED="1484616748879" TEXT="&#x6d41;&#x7a0b;">
 <node CREATED="1478160803871" FOLDED="true" ID="ID_439117649" MODIFIED="1481797081672">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6215,7 +6408,7 @@
 <node CREATED="1481852546678" ID="ID_659269209" MODIFIED="1481852549629" TEXT="&#x670d;&#x52a1;&#x7aef;"/>
 </node>
 </node>
-<node CREATED="1481173686606" FOLDED="true" HGAP="13" ID="ID_1826920491" MODIFIED="1482910839749" VSHIFT="25">
+<node CREATED="1481173686606" HGAP="13" ID="ID_1826920491" MODIFIED="1484616759738" VSHIFT="25">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6226,7 +6419,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1481177011914" FOLDED="true" ID="ID_621032951" MODIFIED="1482910838617" TEXT="linux&#x4f53;&#x7cfb;&#x4e0b;&#x7684;&#x670d;&#x52a1;&#x542f;&#x52a8;&#x811a;&#x672c;">
+<node CREATED="1481177011914" FOLDED="true" ID="ID_621032951" MODIFIED="1484616771752" TEXT="linux&#x4f53;&#x7cfb;&#x4e0b;&#x7684;&#x670d;&#x52a1;&#x542f;&#x52a8;&#x811a;&#x672c;">
 <node CREATED="1481177034280" ID="ID_1753536893" MODIFIED="1481177039222" TEXT="example">
 <node CREATED="1481177060944" FOLDED="true" ID="ID_413988658" MODIFIED="1481191450817">
 <richcontent TYPE="NODE"><html>
@@ -6641,7 +6834,7 @@
 <node CREATED="1481188493413" ID="ID_1195079326" MODIFIED="1481188516299" TEXT="&#x4ecd;&#x7136;&#x53ef;&#x7528;&#x7684;centos 6.X&#x7cfb;&#x5217;"/>
 </node>
 </node>
-<node CREATED="1481253194083" FOLDED="true" ID="ID_691900959" MODIFIED="1482895942307" TEXT="&#x73b0;&#x5728;&#x652f;&#x4ed8;&#x73b0;&#x6709;&#x67e5;&#x8be2;&#x4f53;&#x7cfb;&#x6574;&#x7406;">
+<node CREATED="1481253194083" FOLDED="true" ID="ID_691900959" MODIFIED="1484616791256" TEXT="&#x73b0;&#x5728;&#x652f;&#x4ed8;&#x73b0;&#x6709;&#x67e5;&#x8be2;&#x4f53;&#x7cfb;&#x6574;&#x7406;">
 <node CREATED="1481253214076" ID="ID_1370582259" MODIFIED="1481263323326">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6811,7 +7004,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1481275106378" FOLDED="true" ID="ID_902815972" MODIFIED="1482364502790">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1481275106378" FOLDED="true" ID="ID_902815972" MODIFIED="1484616789864">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7921,7 +8114,18 @@
 </node>
 <node CREATED="1483063260758" ID="ID_536517211" MODIFIED="1483760715409" POSITION="left" TEXT="mdpaygate">
 <node CREATED="1483063266938" ID="ID_531407904" MODIFIED="1483063269897" TEXT="uml">
-<node CREATED="1483064177395" FOLDED="true" ID="ID_623071369" MODIFIED="1483926676114" TEXT="QueueConsumeTask">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1483064177395" FOLDED="true" ID="ID_623071369" MODIFIED="1484616883552">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009933">QueueConsumeTask</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1483084855411" ID="ID_1329752554" MODIFIED="1483090509951">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7946,7 +8150,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1483063271496" FOLDED="true" ID="ID_1627063103" MODIFIED="1483401394813" TEXT="QueueDomain">
+<node CREATED="1483063271496" FOLDED="true" ID="ID_1627063103" MODIFIED="1484616847992" TEXT="QueueDomain">
 <node CREATED="1483063281501" ID="ID_1601765985" MODIFIED="1483063288734">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7958,7 +8162,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1483066296302" FOLDED="true" ID="ID_847289206" MODIFIED="1483407755424" TEXT="QueueServiceImpl">
+<node CREATED="1483066296302" FOLDED="true" ID="ID_847289206" MODIFIED="1484616855839" TEXT="QueueServiceImpl">
 <node CREATED="1483066306723" ID="ID_1611293412" MODIFIED="1483066311789">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7970,7 +8174,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffcc" COLOR="#000000" CREATED="1483082594434" FOLDED="true" ID="ID_1434905087" MODIFIED="1483407773944">
+<node BACKGROUND_COLOR="#ffffcc" COLOR="#000000" CREATED="1483082594434" FOLDED="true" ID="ID_1434905087" MODIFIED="1484616864159">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8004,7 +8208,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1483083260065" FOLDED="true" ID="ID_1758652570" MODIFIED="1483401488925" TEXT="Callable/Runable/future">
+<node CREATED="1483083260065" FOLDED="true" ID="ID_1758652570" MODIFIED="1484616879327" TEXT="Callable/Runable/future">
 <node CREATED="1483083285500" ID="ID_35188064" MODIFIED="1483083350459" TEXT="Callable &#x7c7b;&#x4f3c; Runable&#xff0c;&#x5b9e;&#x73b0;&#x65b9;&#x6cd5;call &#x4e0d;&#x8fc7;&#x5176;&#x5fc5;&#x5e26;&#x8fd4;&#x56de;&#x503c;"/>
 <node CREATED="1483083316750" ID="ID_40502405" MODIFIED="1483083330675" TEXT="Runable &#x5b9e;&#x73b0;&#x65b9;&#x6cd5;run&#xff0c;&#x4e0d;&#x80fd;&#x6709;&#x8fd4;&#x56de;&#x503c;"/>
 <node CREATED="1483083352379" ID="ID_759028660" MODIFIED="1483083587450" TEXT="future&#xff0c;&#x5f02;&#x6b65;&#x5904;&#x7406;&#xff0c;&#x662f;&#x5bf9;Callable or Runable&#x518d;&#x5c01;&#x88c5;&#xff0c;&#x4e0d;&#x50cf;Callable,Runable&#x90fd;&#x662f;&#x540c;&#x6b65;&#x8fd4;&#x56de;&#x7ed3;&#x679c;"/>
