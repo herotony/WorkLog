@@ -1795,8 +1795,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1484102602447" FOLDED="true" ID="ID_1573726263" MODIFIED="1484709381128" TEXT="&#x4ea4;&#x6613;&#x4e2d;&#x5fc3;&#x516c;&#x53f8;&#x73af;&#x5883;">
-<node CREATED="1484102618417" ID="ID_1037343553" MODIFIED="1484610858228" TEXT="&#x5e73;&#x884c;&#x73af;&#x5883;">
+<node CREATED="1484102602447" FOLDED="true" ID="ID_1573726263" MODIFIED="1484718478829" TEXT="&#x4ea4;&#x6613;&#x4e2d;&#x5fc3;&#x516c;&#x53f8;&#x73af;&#x5883;">
+<node CREATED="1484102618417" FOLDED="true" ID="ID_1037343553" MODIFIED="1484718469790" TEXT="&#x5e73;&#x884c;&#x73af;&#x5883;">
 <node CREATED="1484116887039" ID="ID_1640290103" MODIFIED="1484116975574">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1817,7 +1817,7 @@
 </node>
 </node>
 <node CREATED="1484102624187" ID="ID_886637617" MODIFIED="1484102632898" TEXT="&#x5e38;&#x89c4;&#x73af;&#x5883;"/>
-<node CREATED="1484103802050" FOLDED="true" ID="ID_1109663949" MODIFIED="1484703691264">
+<node CREATED="1484103802050" FOLDED="true" ID="ID_1109663949" MODIFIED="1484718450701">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1909,7 +1909,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1484615315503" FOLDED="true" ID="ID_1896544403" MODIFIED="1484709375001" TEXT="&#x516c;&#x53f8;&#x73af;&#x5883;">
+<node CREATED="1484615315503" FOLDED="true" ID="ID_1896544403" MODIFIED="1484718390461" TEXT="&#x516c;&#x53f8;&#x73af;&#x5883;">
 <node CREATED="1484615325691" ID="ID_1781186563" MODIFIED="1484616091218">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1989,7 +1989,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1484621408584" FOLDED="true" ID="ID_1871739080" MODIFIED="1484703684375" TEXT="&#x516c;&#x53f8;&#x73af;&#x5883;jenkins&#x81ea;&#x52a8;&#x90e8;&#x7f72;&#x8bb0;&#x5f55;">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1484621408584" FOLDED="true" ID="ID_1871739080" MODIFIED="1484718407510" TEXT="&#x516c;&#x53f8;&#x73af;&#x5883;jenkins&#x81ea;&#x52a8;&#x90e8;&#x7f72;&#x8bb0;&#x5f55;">
 <node CREATED="1484621423728" ID="ID_1631339036" MODIFIED="1484621949424">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2033,8 +2033,8 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1484623570367" ID="ID_420680217" MODIFIED="1484703666131" TEXT="jobcenter&#x90e8;&#x7f72;">
-<node CREATED="1484623599094" FOLDED="true" ID="ID_243193233" MODIFIED="1484709379192">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1484623570367" FOLDED="true" ID="ID_420680217" MODIFIED="1484718437789" TEXT="jobcenter&#x90e8;&#x7f72;">
+<node CREATED="1484623599094" FOLDED="true" ID="ID_243193233" MODIFIED="1484718412095">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2104,7 +2104,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1484709041559" FOLDED="true" ID="ID_1122526381" MODIFIED="1484709350003" TEXT="&#x65e5;&#x5fd7;&#x627e;&#x56de;">
+<node CREATED="1484709041559" FOLDED="true" ID="ID_1122526381" MODIFIED="1484718433222" TEXT="&#x65e5;&#x5fd7;&#x627e;&#x56de;">
 <node BACKGROUND_COLOR="#ccccff" CREATED="1484709051086" ID="ID_449303745" MODIFIED="1484709313545">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2134,7 +2134,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1484182831610" ID="ID_93460076" MODIFIED="1484710034410" TEXT="&#x591a;&#x516c;&#x4f17;&#x53f7;&#x90e8;&#x5206;&#x4fee;&#x6539;&#x70b9;&#x8bb0;&#x5f55;">
+<node CREATED="1484182831610" FOLDED="true" ID="ID_93460076" MODIFIED="1484735042146" TEXT="&#x591a;&#x516c;&#x4f17;&#x53f7;&#x90e8;&#x5206;&#x4fee;&#x6539;&#x70b9;&#x8bb0;&#x5f55;">
 <node CREATED="1484182851996" FOLDED="true" ID="ID_588303253" MODIFIED="1484710041215" TEXT="&#x9000;&#x6b3e;">
 <node CREATED="1484201146454" ID="ID_115078618" MODIFIED="1484201151161" TEXT="mdpaygate">
 <node CREATED="1484182858553" ID="ID_1961232388" MODIFIED="1484201346654">
@@ -2184,7 +2184,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1484204738186" FOLDED="true" ID="ID_478833607" LINK="#ID_1982907582" MODIFIED="1484292004375">
+<node CREATED="1484204738186" FOLDED="true" ID="ID_478833607" LINK="#ID_1982907582" MODIFIED="1484720211787">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2267,7 +2267,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1484389247012" ID="ID_443404298" MODIFIED="1484389339947">
+<node CREATED="1484389247012" FOLDED="true" ID="ID_443404298" MODIFIED="1484719312429">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2308,6 +2308,123 @@
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1484719319331" ID="ID_1473835237" MODIFIED="1484735003336">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20132;&#26131;&#26803;&#29702;&#35760;&#24405;&#25991;&#26412;&#25551;&#36848;&#29256;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1484719345994" ID="ID_1291250435" MODIFIED="1484719378862" TEXT="c -&gt; b">
+<node CREATED="1484719457074" ID="ID_1371311283" MODIFIED="1484735004990" TEXT="pay flow">
+<node CREATED="1484719856926" FOLDED="true" ID="ID_18776074" MODIFIED="1484735040258">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        mdfrontserver-web/controller/<b><font color="#00cc33">trade</font></b>/ShOrderController
+
+        <ol>
+          <li style="text-align: left">
+            &#160;<b><font color="#00cccc">shPreOrderCreateService</font></b>.preCreateOrder
+          </li>
+          <li style="text-align: left">
+            &#160;<b><font color="#660099">shOrderServiceAdapter</font></b>.createShOrder
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1484720709586" FOLDED="true" ID="ID_1512370775" MODIFIED="1484724390965" TEXT="ShOrderCreateServiceImpl.preCreateOrder">
+<node CREATED="1484720782986" ID="ID_396983561" MODIFIED="1484721664778">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30001;&#21016;&#32479;&#21018;&#20174;&#31389;&#31389;&#36716;&#38378;&#24800;&#26102;&#32534;&#20889;&#65292;&#23601;&#20570;&#20004;&#20214;&#20107;
+    </p>
+    <ol>
+      <li>
+        &#26681;&#25454;&#20256;&#36807;&#26469;&#30340;<b><font color="#00cc33">userid</font></b>&#25552;&#21462;&#29992;&#25143;&#36820;&#29616;&#20313;&#39069;&#20449;&#24687;[<b><font color="#009999">rebateExtService</font></b>.<b><font color="#cc00cc">findUserRebateByUserId</font></b>]&#65292;&#21253;&#25324;&#22914;&#19979;&#19977;&#28857;
+
+        <ol>
+          <li>
+            &#26159;&#21542;&#21487;&#29992;&#36820;&#29616;&#20313;&#39069;
+          </li>
+          <li>
+            &#21487;&#36820;&#29616;&#30340;&#20313;&#39069;&#26159;&#22810;&#23569;
+          </li>
+          <li>
+            &#20923;&#32467;&#21407;&#22240;&#65288;&#21363;&#36820;&#29616;&#20313;&#39069;&#19981;&#21487;&#29992;&#65289;
+          </li>
+        </ol>
+      </li>
+      <li>
+        &#26681;&#25454;&#20256;&#36807;&#26469;&#30340;<b><font color="#00cc33">shopid</font></b>&#33719;&#21462;&#38376;&#24215;&#36820;&#29616;&#26041;&#26696;&#20449;&#24687;[<b><font color="#009999">orderCreateExtService</font></b>.<b><font color="#cc00cc">getShopScheme</font></b>]
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1484721739859" ID="ID_116581062" MODIFIED="1484721773863" TEXT="shOrderServiceAdapter.createShOrder">
+<node CREATED="1484723813073" FOLDED="true" ID="ID_408672451" MODIFIED="1484724226366" TEXT="&#x7ebf;&#x4e0a;&#x65e5;&#x5fd7;">
+<node CREATED="1484723824148" ID="ID_236933232" MODIFIED="1484724220516">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      request param:ShOrderCreateParam{<b><font color="#00cccc">userId</font></b>=100365331, <b><font color="#00cccc">userName</font></b>='<b><font color="#cc00cc">wx_oqhvowymdo_8vomth0_1bdu8nzhy</font></b>', <b><font color="#00cccc">shopId</font></b>=<b><font color="#cc00cc">8015049</font></b>, consumeMoney=3.0, outRebate=0.0, voucherId=0, useRebate=false, <b><font color="#00cccc">payType</font></b>=15, <b><font color="#00cccc">orderId</font></b>='', pid='1.2003', mid='null', mobilePhone='', isWeChat='1', <b><font color="#00cccc">openId</font></b>='<b><font color="#cc00cc">oQhVOwYMDo_8VOmth0_1bDu8nzHY</font></b>', <b><font color="#00cccc">operatorId</font></b>=<b><font color="#cc00cc">40508</font></b>, authCode='null', operatorName='', <b><font color="#00cccc">isDirect</font></b>=0, multiPayAppId='null', multiPayMchId='null', multiPayKey='null', multiPaySubAppId='null', multiPaySubMchId='null'}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1484724523510" FOLDED="true" ID="ID_945165463" MODIFIED="1484735035410" TEXT="&#x65f6;&#x5e8f;&#x56fe;">
+<node CREATED="1484735011081" ID="ID_865380204" MODIFIED="1484735017677">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="WorkUML/c%20&#x626b;%20b%20&#x4e0b;&#x5355;&#x8be6;&#x7ec6;&#x65f6;&#x5e8f;&#x56fe;.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1484719468600" ID="ID_1858273898" MODIFIED="1484719478308" TEXT="notify flow"/>
+</node>
+<node CREATED="1484719381706" FOLDED="true" ID="ID_232654261" MODIFIED="1484719850379" TEXT="b -&gt; c">
+<node CREATED="1484719480118" ID="ID_257891230" MODIFIED="1484719484371" TEXT="pay flow"/>
+<node CREATED="1484719485633" ID="ID_1716716359" MODIFIED="1484719491275" TEXT="task query flow"/>
+</node>
+<node CREATED="1484719393735" FOLDED="true" ID="ID_868987733" MODIFIED="1484719851388" TEXT="refund">
+<node CREATED="1484719494224" ID="ID_1831534832" MODIFIED="1484719499491" TEXT="task refund flow"/>
+</node>
+</node>
+<node CREATED="1484726546734" ID="ID_423402428" MODIFIED="1484726553406" TEXT="&#x6280;&#x672f;&#x70b9;">
+<node CREATED="1484726555752" ID="ID_704228270" MODIFIED="1484726572707" TEXT="RedisSentinelPool"/>
 </node>
 </node>
 </node>
@@ -8329,6 +8446,82 @@
 <node CREATED="1483089532279" ID="ID_607301440" MODIFIED="1483089634837" TEXT="&#x8bbf;&#x95ee; mdfrontserver &#x7684; paycallback.do&#x7136;&#x540e;&#x518d;&#x5237;queue&#x8868;"/>
 </node>
 <node CREATED="1483091578431" ID="ID_206400336" MODIFIED="1483091586116" TEXT="&#x65f6;&#x5e8f;&#x56fe;"/>
+</node>
+</node>
+</node>
+<node CREATED="1484727338332" ID="ID_343097466" LINK="https://www.tutorialspoint.com/compile_java8_online.php" MODIFIED="1484727361880" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      coderunner:
+    </p>
+    <p>
+      https://www.tutorialspoint.com/compile_java8_online.php
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1484727367666" FOLDED="true" ID="ID_757414393" MODIFIED="1484732253703" TEXT="&#x968f;&#x673a;&#x6570;paycode">
+<node CREATED="1484727403813" ID="ID_1398583291" MODIFIED="1484727420505">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import java.util.HashSet;
+    </p>
+    <p>
+      import java.util.Random;
+    </p>
+    <p>
+      import java.util.Set;
+    </p>
+    <p>
+      public class HelloWorld{
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;public static void main(String []args){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(&quot;Hello World&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Set&lt;Integer&gt; loadSet = new HashSet&lt;&gt;();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Random rand = new Random();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;while(loadSet.size()&lt;10){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;loadSet.add(rand.nextInt(10));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;for(Integer i:loadSet)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(i);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
