@@ -1812,8 +1812,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2032,7 +2031,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1484102602447" FOLDED="true" ID="ID_1573726263" MODIFIED="1484903224549" TEXT="&#x4ea4;&#x6613;&#x4e2d;&#x5fc3;&#x516c;&#x53f8;&#x73af;&#x5883;">
+<node CREATED="1484102602447" FOLDED="true" ID="ID_1573726263" MODIFIED="1484904754439" TEXT="&#x4ea4;&#x6613;&#x4e2d;&#x5fc3;&#x516c;&#x53f8;&#x73af;&#x5883;">
 <node CREATED="1484102618417" FOLDED="true" ID="ID_1037343553" MODIFIED="1484718469790" TEXT="&#x5e73;&#x884c;&#x73af;&#x5883;">
 <node CREATED="1484116887039" ID="ID_1640290103" MODIFIED="1484116975574">
 <richcontent TYPE="NODE"><html>
@@ -2054,7 +2053,7 @@
 </node>
 </node>
 <node CREATED="1484102624187" ID="ID_886637617" MODIFIED="1484102632898" TEXT="&#x5e38;&#x89c4;&#x73af;&#x5883;"/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1484103802050" FOLDED="true" ID="ID_1109663949" MODIFIED="1484903222006">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1484103802050" FOLDED="true" ID="ID_1109663949" MODIFIED="1484904750032">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2125,7 +2124,27 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#9966ff" CREATED="1484894574461" ID="ID_817726316" MODIFIED="1484900374528" TEXT="c -&gt; b &#x95e8;&#x5e97;&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;&#x7f51;&#x5740;">
+<node COLOR="#9966ff" CREATED="1484894574461" FOLDED="true" ID="ID_817726316" MODIFIED="1484904601138">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      c -&gt; b &#38376;&#24215;&#20108;&#32500;&#30721;&#29983;&#25104;&#32593;&#22336;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20146;&#27979;&#21487;&#29992;&#32852;&#35843;&#32593;&#22336;&#65288;&#23454;&#38469;&#23601;&#26159;10.9.60.63&#65292;<font color="#009900">&#21482;&#26159;&#25104;&#21151;&#29983;&#25104;&#20102;&#29289;&#26009;&#30721;</font>&#65292;&#20294;&#19981;&#30693;&#36339;&#36716;&#32593;&#22336;&#26159;&#21542;&#21487;&#29992;...&#20854;&#23454;&#24212;&#35813;&#29992;&#36339;&#36716;&#32593;&#22336;&#20570;pc&#31471;&#27979;&#35797;&#25165;&#21487;&#34892;&#65292;&#20294;&#19981;&#33021;&#36305;&#36890;&#27969;&#31243;&#65292;&#25152;&#20197;&#36824;&#26159;&#24212;&#35813;&#32771;&#34385;&#29992;&#35774;&#32622;&#20102;dns&#30340;&#25163;&#26426;&#36827;&#34892;&#27979;&#35797;)
+    </p>
+    <p>
+      http://devwap.wowotuan.com/CreateQCode/Create?shopid=1&amp;cashierid=1&amp;cashierName=tony
+    </p>
+  </body>
+</html>
+</richcontent>
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1484896749706" ID="ID_1628363178" MODIFIED="1484903208793">
 <richcontent TYPE="NODE"><html>
@@ -2149,11 +2168,27 @@
       B&#31471;&#30340;H5&#31449;&#28857;&#30340;&#32593;&#22336;&#23545;&#24212;&#39033;&#30446;&#26159;<b><font color="#009999">SH.Merchant.AppServer.UI.Web.CreateQCodeController.cs&#65292;&#26368;&#32456;&#29983;&#25104;&#30340;&#20108;&#32500;&#30721;&#32593;&#22336;&#26159;&#36827;&#20837;</font><font color="#3333ff">Wowo.Mobile.Wap.Controller.SHRcode.</font><font color="#009999">&#30340;&#22788;&#29702;&#32593;&#22336;</font></b>
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#009999" CREATED="1484894606178" FOLDED="true" ID="ID_1204679186" MODIFIED="1484904746870">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      b-&gt;c &#21019;&#24314;&#35746;&#21333;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26126;&#30830;&#32593;&#22336;&#65292;&#21364;&#21482;&#33021;&#29992;b&#31471;&#25195;&#25480;&#26435;&#30721;&#27979;&#35797;...&#38656;&#35201;&#30456;&#24212;&#30340;&#32852;&#35843;&#27979;&#35797;&#23458;&#25143;&#31471;&#12290;
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
-</node>
-<node COLOR="#009999" CREATED="1484894606178" ID="ID_1204679186" MODIFIED="1484900383346" TEXT="b-&gt;c &#x521b;&#x5efa;&#x8ba2;&#x5355;">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1484895680344" ID="ID_1263067393" MODIFIED="1484903080417">
 <richcontent TYPE="NODE"><html>
@@ -2183,8 +2218,7 @@
       &#23545;&#24212;&#39033;&#30446;&#26159;<b><font color="#009999">Wowo.Mobile.Wap.Controllers.Pay.CommonScanPayController.cs</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1484895023883" ID="ID_1962524658" MODIFIED="1484899946137">
@@ -2211,7 +2245,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1484902633945" ID="ID_1385087672" MODIFIED="1484902644908" TEXT="&#x5570;&#x55e6;&#x591a;&#x4e00;&#x6b21;">
+<node CREATED="1484902633945" FOLDED="true" ID="ID_1385087672" MODIFIED="1484904433373" TEXT="&#x5570;&#x55e6;&#x591a;&#x4e00;&#x6b21;">
 <node CREATED="1484902402368" ID="ID_112793079" MODIFIED="1484902735549">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2236,8 +2270,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -8991,8 +9024,7 @@
       c#&#31034;&#20363;&#28304;&#30721;&#65292;&#30456;&#24212;&#31532;&#19977;&#26041;&#32452;&#20214;<b><font color="#9933ff">ThougtWorks.QRCode.Codec</font></b>&#19982;&#28304;&#30721;&#22312;&#30456;&#21516;&#30446;&#24405;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
