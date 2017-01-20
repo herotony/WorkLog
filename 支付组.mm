@@ -56,7 +56,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1482730873217" ID="ID_1637028870" MODIFIED="1484883770911" POSITION="right" TEXT="2017">
+<node CREATED="1482730873217" ID="ID_1637028870" MODIFIED="1484901397158" POSITION="right" TEXT="2017">
 <node CREATED="1483758930701" FOLDED="true" ID="ID_1355869886" MODIFIED="1484900009019" TEXT="&#x5e74;&#x524d;(1.25&#x53f7;&#x524d;&#xff09;">
 <node CREATED="1483408342334" FOLDED="true" ID="ID_378928963" MODIFIED="1484881022403">
 <richcontent TYPE="NODE"><html>
@@ -2025,7 +2025,7 @@
 </node>
 </node>
 <node CREATED="1484102624187" ID="ID_886637617" MODIFIED="1484102632898" TEXT="&#x5e38;&#x89c4;&#x73af;&#x5883;"/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1484103802050" FOLDED="true" ID="ID_1109663949" MODIFIED="1484900387708">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1484103802050" ID="ID_1109663949" MODIFIED="1484901402583">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2041,8 +2041,7 @@
       &#26377;&#26126;&#30830;&#30340;&#32852;&#35843;&#27979;&#35797;&#20837;&#21475;&#32593;&#22336;&#35828;&#21517;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1484103815549" ID="ID_580379090" MODIFIED="1484120146236">
 <richcontent TYPE="NODE"><html>
@@ -2099,7 +2098,7 @@
 </node>
 <node COLOR="#9966ff" CREATED="1484894574461" ID="ID_817726316" MODIFIED="1484900374528" TEXT="c -&gt; b &#x95e8;&#x5e97;&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;&#x7f51;&#x5740;">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1484896749706" ID="ID_1628363178" MODIFIED="1484900219408">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1484896749706" ID="ID_1628363178" MODIFIED="1484901607309">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2112,7 +2111,7 @@
       
     </p>
     <p>
-      B&#31471;&#30340;H5&#31449;&#28857;&#30340;&#32593;&#22336;&#23545;&#24212;&#39033;&#30446;&#26159;<b><font color="#009999">SH.Merchant.AppServer.UI.Web.CreateQCodeController.cs</font></b>
+      B&#31471;&#30340;H5&#31449;&#28857;&#30340;&#32593;&#22336;&#23545;&#24212;&#39033;&#30446;&#26159;<b><font color="#009999">SH.Merchant.AppServer.UI.Web.CreateQCodeController.cs&#65292;&#26368;&#32456;&#29983;&#25104;&#30340;&#20108;&#32500;&#30721;&#32593;&#22336;&#26159;&#36827;&#20837;</font><font color="#3333ff">Wowo.Mobile.Wap.Controller.SHRcode.</font><font color="#009999">&#30340;&#22788;&#29702;&#32593;&#22336;</font></b>
     </p>
   </body>
 </html>
@@ -2143,8 +2142,7 @@
       &#23545;&#24212;&#39033;&#30446;&#26159;<b><font color="#009999">Wowo.Mobile.Wap.Controllers.Pay.CommonScanPayController.cs</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1484895023883" ID="ID_1962524658" MODIFIED="1484899946137">
@@ -2169,8 +2167,7 @@
       <b><font color="#009999">cg -&#160;&#160;&#24120;&#35268;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1484117096230" ID="ID_1801877089" LINK="http://10.8.210.208:8088/" MODIFIED="1484118500415">
