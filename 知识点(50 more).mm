@@ -48,7 +48,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1487636954614" ID="ID_1641642432" MODIFIED="1487636968115" POSITION="right" TEXT="GitLab&#x5b89;&#x88c5;">
+<node CREATED="1487636954614" FOLDED="true" ID="ID_1641642432" MODIFIED="1487647700214" POSITION="right" TEXT="GitLab&#x5b89;&#x88c5;">
 <node CREATED="1487636969752" ID="ID_504664271" MODIFIED="1487637026099" TEXT="&#x53ea;&#x652f;&#x6301;linux&#x4f53;&#x7cfb;&#xff0c;&#x6545;&#x800c;&#x4e0d;&#x5b58;&#x5728;windows/osx&#x5b89;&#x88c5;&#x7248;&#x672c;"/>
 <node CREATED="1487637028572" ID="ID_78322273" LINK="https://about.gitlab.com/downloads/#centos7" MODIFIED="1487637103126" TEXT="centos7&#x7248;&#x672c;&#x5b98;&#x65b9;&#x5b89;&#x88c5;&#x8bf4;&#x660e;">
 <node CREATED="1487637293214" ID="ID_1434800588" LINK="https://packages.gitlab.com/gitlab/gitlab-ce/install" MODIFIED="1487647149717" TEXT="&#x5b98;&#x65b9;&#x5b89;&#x88c5;&#x811a;&#x672c;&#xff0c;&#x8bf7;&#x7ec6;&#x8bfb;rpm&#x7248;">

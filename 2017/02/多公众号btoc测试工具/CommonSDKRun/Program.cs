@@ -23,9 +23,9 @@ namespace CommonSDKRun
         /// </summary>
         static readonly string key = "Lydfaeadadd77Yijdd9jksadfaUhggkh";
         //开发联调
-        static readonly string ltCreateOrderUrl = "http://ltsh.wowotuan.com/CommonScanPay/CreateOrder";
+        static readonly string ltCreateOrderUrl = "http://cgsh.wowotuan.com/CommonScanPay/CreateOrder";
         //开发联调
-        static readonly string ltQueryOrderUrl = "http://ltsh.wowotuan.com/CommonScanPay/QueryOrder";
+        static readonly string ltQueryOrderUrl = "http://cgsh.wowotuan.com/CommonScanPay/QueryOrder";
  
         static void Main(string[] args)
         {
