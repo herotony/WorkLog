@@ -10403,7 +10403,7 @@
 <node CREATED="1488354040118" ID="ID_275764798" MODIFIED="1488354058531" TEXT="&#x4fee;&#x6539;&#x5728;&#x7ebf;shopcenter2&#x7684;resin.xml&#xff0c;&#x9700;&#x8981;&#x786e;&#x8ba4;&#x6743;&#x9650;"/>
 <node CREATED="1488354779315" ID="ID_1907117112" MODIFIED="1488354788059" TEXT="&#x914d;&#x7f6e;&#x6b63;&#x5f0f;&#x73af;&#x5883;&#x7684;jobcenter"/>
 </node>
-<node CREATED="1488418027477" ID="ID_263846925" MODIFIED="1488443808411" TEXT="2&#x53f7;">
+<node CREATED="1488418027477" FOLDED="true" ID="ID_263846925" MODIFIED="1488511165550" TEXT="2&#x53f7;">
 <node CREATED="1488418034941" ID="ID_455196766" MODIFIED="1488439099232">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -10455,8 +10455,122 @@
 </richcontent>
 </node>
 </node>
+<node CREATED="1488502730539" ID="ID_75770165" MODIFIED="1488522550352" TEXT="3&#x53f7;">
+<node CREATED="1488502735858" ID="ID_1185184021" MODIFIED="1488502750034" TEXT="&#x8865;&#x5355;&#x5df2;&#x7ecf;&#x5b8c;&#x6210;&#xff0c;&#x53ef;&#x4e0a;&#x7ebf;&#x3002;"/>
+<node CREATED="1488504954954" ID="ID_345391471" MODIFIED="1488505026950">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19979;&#21608;&#38024;&#23545;&#34917;&#21333;&#65292;&#36864;&#27454;&#65292;&#24517;&#39035;&#37319;&#29992;md_order_info&#34920;&#20013;&#26576;&#20010;&#25193;&#23637;&#23383;&#27573;&#26469;&#22788;&#29702;&#65288;&#35813;&#23383;&#27573;&#20445;&#23384;&#20102;&#23545;&#24212;&#30340;payarg id&#20449;&#24687;&#65292;&#29992;&#20110;&#25552;&#21462;&#19979;&#21333;&#26102;&#30340;&#25903;&#20184;&#21442;&#25968;&#65289;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1487659705162" FOLDED="true" ID="ID_312284204" MODIFIED="1488263400325" TEXT="notice">
+<node CREATED="1488510128121" ID="ID_171585703" MODIFIED="1488510140821" TEXT="&#x4ee3;&#x91d1;&#x5238;&#x68b3;&#x7406;"/>
+<node BACKGROUND_COLOR="#ffffcc" COLOR="#ff3300" CREATED="1488522608842" ID="ID_1373509289" MODIFIED="1488526431246">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mdfrontserver&#30340;paycallback&#22788;&#29702;&#20013;&#65292;&#23569;&#20102;&#36153;&#29575;&#30340;&#32467;&#31639;&#65281;&#20020;&#26102;&#21152;&#20837;61&#65292;81
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#38656;&#35201;&#39069;&#22806;&#21047;&#22238;&#65292;&#25688;&#19968;&#21488;&#19978;&#19968;&#21488;&#26041;&#24335;&#26356;&#26032;&#19978;&#32447;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1488525194710" ID="ID_449060484" MODIFIED="1488530558944">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pay_fee&#65292;jiesuanAmount&#20855;&#20307;&#35745;&#31639;&#22312;<b><font color="#3333ff">mdtradecenter-&gt;domain-&gt;trade-&gt;OrderPaySucessDomain.fillOrderInfoDO()</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#3333ff">newMoneyPaid.multiply(payRate).divde(new BigDecimal(10000).setScale(2,BigDecimal.ROUND_HALF_UP));</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1488530619829" ID="ID_1135515023" MODIFIED="1488530633150">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      payfee
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: &#x5b8b;&#x4f53;; font-size: 11.3pt"><font color="#660e7a"><b>orderInfoDO</b></font>.setPayFee(newMoneyPaid.multiply(payRate).divide(<font color="#000080"><b>new </b></font>BigDecimal(<font color="#0000ff">10000</font>)).setScale(<font color="#0000ff">2</font>, BigDecimal.<font color="#660e7a"><b><i>ROUND_HALF_UP</i></b></font>));</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1488530637816" ID="ID_1060331735" MODIFIED="1488530654627">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      jiesuanAmount
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: &#x5b8b;&#x4f53;; font-size: 11.3pt"><font color="#660e7a"><b>orderInfoDO</b></font>.setJiesuanAmount(<br />        <font color="#660e7a"><b>orderInfoDO</b></font>.getBillAmount()<br />             .subtract(<font color="#660e7a"><b>orderInfoDO</b></font>.getBillAmount().subtract(<font color="#660e7a"><b>orderInfoDO</b></font>.getNoRebateMoney())<br />                        .multiply(<font color="#660e7a"><b>orderInfoDO</b></font>.getRebateRate().divide(<font color="#000080"><b>new </b></font>BigDecimal(<font color="#0000ff">100</font>))))<br />                .subtract(<font color="#660e7a"><b>orderInfoDO</b></font>.getPayFee()).setScale(<font color="#0000ff">2</font>, BigDecimal.<font color="#660e7a"><b><i>ROUND_HALF_UP</i></b></font>)</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1488531440152" ID="ID_693025773" MODIFIED="1488531547030">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#34917;&#21047;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      payfee=moneypaid*payrate,jiesuanAmount = jiesuanAmount - payfee&#21363;&#21487;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1488525890506" FOLDED="true" ID="ID_919189723" MODIFIED="1488527032129" TEXT="md_order_info">
+<node CREATED="1488526040440" ID="ID_689827875" MODIFIED="1488526050079" TEXT="money_paid&#xff0c;&#x5b9e;&#x9645;&#x652f;&#x4ed8;"/>
+<node CREATED="1488526051235" ID="ID_1588300477" MODIFIED="1488526058831" TEXT="pay_fee&#xff0c;&#x624b;&#x7eed;&#x8d39;"/>
+<node CREATED="1488526060021" ID="ID_624462557" MODIFIED="1488526074623" TEXT="bill_Amount,&#x8ba2;&#x5355;&#x603b;&#x989d;"/>
+<node CREATED="1488526075828" ID="ID_1818300063" MODIFIED="1488526095088" TEXT="rebate_use_money,&#x53cd;&#x73b0;&#x91d1;&#x989d;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1487659705162" FOLDED="true" ID="ID_312284204" MODIFIED="1488511155815" TEXT="notice">
 <node CREATED="1486367498106" ID="ID_1675502465" MODIFIED="1487659721070">
 <richcontent TYPE="NODE"><html>
   <head>
