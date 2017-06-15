@@ -55,8 +55,7 @@
       <font color="#ff0000">&#25214;&#21040;&#21407;&#22240;&#20102;&#65306;&#22791;&#27880;&#25110;&#32773;&#21482;&#35201;&#29992;&#21040;&#20102;html&#30340;&#22320;&#26041;&#19968;&#23450;&#19981;&#35201;&#29992;&#33521;&#25991;&#24341;&#21495;&#65292;&#20882;&#21495;&#31561;&#29305;&#27530;&#23383;&#31526;&#21543;&#65292;&#21542;&#21017;&#24517;&#23450;&#20081;&#30721;&#20102;&#12290;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1482730803024" ID="ID_1736184661" MODIFIED="1484279221862" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -16217,8 +16216,7 @@
       &#36820;&#29616;&#19981;&#25104;&#21151;&#26159;&#22240;&#20026;&#27809;&#26377;&#21019;&#24314;md_rebate_log&#34920;&#23548;&#33268;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1497404087173" ID="ID_381987498" MODIFIED="1497404091904" TEXT="&#x963f;&#x91cc;&#x4e91;&#x9000;&#x6b3e;"/>
 <node CREATED="1497404092846" ID="ID_1018231149" MODIFIED="1497404099998" TEXT="&#x963f;&#x91cc;&#x4e91;b-&gt;c&#x6162;"/>
@@ -16233,12 +16231,11 @@
       &#26126;&#22825;&#25353;&#29031;aliyun&#28165;&#21333;&#26597;&#26085;&#24535;&#30830;&#35748;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1497435023018" ID="ID_285170602" MODIFIED="1497435046655" TEXT="&#x660e;&#x5929;&#x4e0a;&#x5348;10&#x70b9;&#x524d;&#x6574;&#x7406;&#x8be6;&#x7ec6;&#x7684;ssh -&gt; github with sourcetree"/>
 </node>
-<node CREATED="1497491960037" ID="ID_206247154" MODIFIED="1497491966145" TEXT="6.15">
+<node CREATED="1497491960037" FOLDED="true" ID="ID_206247154" MODIFIED="1497492149093" TEXT="6.15">
 <node CREATED="1497491968230" ID="ID_685166902" MODIFIED="1497492054106">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -16252,8 +16249,7 @@
       &#21478;&#22806;&#65292;&#20197;&#21518;freemind+sourcetree&#20026;&#19968;&#20010;&#24037;&#20316;&#26700;&#38754;&#20415;&#20110;&#23433;&#25490;&#21644;&#24635;&#32467;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1497422493104" FOLDED="true" ID="ID_575273099" MODIFIED="1497422698563" TEXT="aliyun&#x6e05;&#x5355;">
@@ -16269,8 +16265,7 @@
       b-&gt;c &#22238;&#35843;(&#36755;&#20837;&#23494;&#30721;&#25110;&#31532;&#19968;&#27425;&#36820;A004)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1497422554812" ID="ID_1912124942" MODIFIED="1497422559836" TEXT="c-&gt;b"/>
 <node CREATED="1497422561103" ID="ID_1272585692" MODIFIED="1497422567204" TEXT="c-&gt;b&#x56de;&#x8c03;"/>
@@ -16279,7 +16274,7 @@
 <node CREATED="1497422660765" ID="ID_416640923" MODIFIED="1497422667468" TEXT="&#x4f59;&#x989d;&#x652f;&#x4ed8;"/>
 </node>
 </node>
-<node CREATED="1487659705162" FOLDED="true" ID="ID_312284204" MODIFIED="1497404308723" TEXT="notice">
+<node CREATED="1487659705162" FOLDED="true" ID="ID_312284204" MODIFIED="1497508574791" TEXT="notice">
 <node CREATED="1486367498106" ID="ID_1675502465" MODIFIED="1487659721070">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -16507,7 +16502,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1495160697818" FOLDED="true" ID="ID_1457231945" MODIFIED="1496713841376">
+<node CREATED="1495160697818" FOLDED="true" ID="ID_1457231945" MODIFIED="1497508568911">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -16519,8 +16514,12 @@
     <p>
       &#160;find . -regex &quot;.*\(.log.20170518[0-9].\)$&quot;
     </p>
+    <p>
+      &#160;find . -regex &quot;.*\(.log.2017051<b><font color="#009999">[2-3]</font><font color="#ff0000">.*</font></b>\)$&quot;,&#36825;&#37324;<b><font color="#ff0000">.*</font></b>&#20195;&#34920;&#20219;&#24847;&#23383;&#31526;&#65292;&#36825;&#21487;&#21305;&#37197;&#20986;&#20219;&#20309;&#20197;log.20170512.../20170513...&#30340;&#26085;&#24535;
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1496713797564" ID="ID_1087671953" MODIFIED="1496713838862">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -17993,8 +17992,7 @@
       mdtradecenter&#26377;&#19977;&#20010;&#38431;&#21015;&#23545;&#24212;&#19981;&#21516;&#19994;&#21153;&#65292;&#26803;&#29702;&#28165;&#26970;&#20102;(mdNotifyQueue,mdorderinfo.update,mdorderinfo.speechmsg)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1497410900907" ID="ID_730993900" MODIFIED="1497411078399">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -18014,8 +18012,7 @@
       <b><font color="#006600">&#35821;&#38899;&#28040;&#24687;</font></b>&#21017;&#30452;&#25509;&#35775;&#38382;&#35821;&#38899;&#25773;&#25253;&#25509;&#21475;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
