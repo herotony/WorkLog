@@ -13,3 +13,4 @@ date: "2017-06-26 14:35"
     - 将24号修改的5秒nowpaytool socket超时改回了3秒并已经上线。
     - 确认了mdfrontserver/mdtask用的sentinel端口7672的保存过于频繁，为10分钟，占用IO，导致网络IO无法进来或处理太慢，而且IDC的每日清理redis操作并没有在阿里云执行，导致1.5G的数据量占用磁盘IO，且是虚拟机性能影响更大。
   - mdfrontserver的确出现了从webMVC到generateorder纯走内存居然耗费10秒？我CTMD，无语了，没法解释这个诡异现象，难道当时线程堆积还是IO堆积？待后续继续观察，只是再嘟囔mdfrontserver慢需要先查日志再说了。我理解是方法栈日志搞的，不太明白这块了，待后续跟踪，这部分太反常识了！
+  - 通过在Google Chrome上安装了Markdown reader插件，然后修改.markdown文件的默认处理程序，再通过freemind追加文件链接方式，能暂时完美满足我的需求，即通过Atom编辑日常文档，在freemind中整理并点击在GoogleChrome中显示，可以了，以后大量使用Atom写文档且必须采用vim模式进行，疯狂熟悉vim编辑，甚至考虑用Atom编写Java源码文件，通过Itellij IDEA只是用来编译而已。
