@@ -4,7 +4,7 @@ title: redis-partitioning
 date: '2017-06-21 15:56'
 ---
 
-redis的详细官方文档[<font color=green>(请点击此处)](https://redis.io/documentation "redis官方文档")
+redis的详细官方文档[<font color=green>(请点击此处)</font>](https://redis.io/documentation "redis官方文档")
 
 ##Partitioning(分区)
 >目的：将数据分割存储到多个Reids实例中，从而实现如下两个目标：

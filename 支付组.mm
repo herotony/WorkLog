@@ -15617,7 +15617,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1496625264304" ID="ID_1164691263" MODIFIED="1498460954352" TEXT="&#x516d;&#x6708;">
+<node CREATED="1496625264304" FOLDED="true" ID="ID_1164691263" MODIFIED="1498470529512" TEXT="&#x516d;&#x6708;">
 <node CREATED="1496625329168" FOLDED="true" ID="ID_1660385815" MODIFIED="1498017470201" TEXT="6.5">
 <node CREATED="1496630940485" ID="ID_1050314119" MODIFIED="1496634899840">
 <richcontent TYPE="NODE"><html>
@@ -16637,8 +16637,8 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1498460957652" FOLDED="true" ID="ID_893483452" LINK="MDFiles/2017/_posts/2017/_posts/2017/2017-06-26-5thweek-worklog.markdown" MODIFIED="1498462593453" TEXT="&#x7b2c;5&#x5468;">
-<node CREATED="1498462541031" FOLDED="true" ID="ID_1453077277" MODIFIED="1498462590211" TEXT="6.26">
+<node CREATED="1498460957652" ID="ID_893483452" LINK="D:\GitHubData\WorkLog\MDFiles\2017\_posts\2017\_posts\2017\2017-06-26-5thweek-worklog.markdown" MODIFIED="1498470138930" TEXT="&#x7b2c;5&#x5468;">
+<node CREATED="1498462541031" FOLDED="true" ID="ID_1453077277" MODIFIED="1498470103327" TEXT="6.26">
 <node CREATED="1498462550675" ID="ID_1894301744" MODIFIED="1498462571011" TEXT="&#x5927;&#x91cf;&#x4e22;&#x5355;&#x539f;&#x56e0;&#x6392;&#x67e5;&#xff0c;&#x786e;&#x5b9a;&#x662f;redis&#x539f;&#x56e0;"/>
 <node CREATED="1498462572096" ID="ID_936256238" MODIFIED="1498462589408" TEXT="&#x6574;&#x7406;&#x4e86;autobudan/budantask&#x7684;&#x8bbe;&#x7f6e;"/>
 </node>
@@ -17329,7 +17329,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0066cc" CREATED="1494921507794" ID="ID_1840202417" MODIFIED="1498110197158" TEXT="&#x652f;&#x4ed8;&#x6d41;&#x7a0b;">
+<node COLOR="#0066cc" CREATED="1494921507794" FOLDED="true" ID="ID_1840202417" MODIFIED="1498470350801" TEXT="&#x652f;&#x4ed8;&#x6d41;&#x7a0b;">
 <node CREATED="1494921528261" FOLDED="true" ID="ID_1906817172" MODIFIED="1498110215737" TEXT="mdfrontserver&#x5165;&#x53e3;&#x53c2;&#x6570;">
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1494921540580" ID="ID_1403812803" MODIFIED="1494921908795">
 <richcontent TYPE="NODE"><html>
@@ -18508,6 +18508,22 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1498470368247" FOLDED="true" ID="ID_1529207760" MODIFIED="1498470527986" TEXT="redis">
+<node CREATED="1498470373666" ID="ID_1501915630" LINK="D:\GitHubData\WorkLog\MDFiles\2017\_posts\2017\_posts\2017\2017-06-21-redis-partitioning.markdown" MODIFIED="1498470401970" TEXT="redis-partitioning"/>
+<node CREATED="1498470479395" ID="ID_285558819" LINK="D:\GitHubData\WorkLog\MDFiles\2017\_posts\2017\_posts\2017\2017-06-22-using-jedis.markdown" MODIFIED="1498470505698">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      using jedis
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
