@@ -20,5 +20,34 @@ date: "2017-06-22 09:34"
   WATCH指令则一般用在MULTI前，用来在事务操作做一次check-and-set(CAS),此时，WATCH的key都将被监控起来，在EXEC前，一旦被监控key有变化，则整个事务操作将被放弃直接ABORT,并且返回Null,同时注意，一旦EXEC完成，则所有WATCH的key则自动改为UNWATCH状态。
 #### what is GenericObjectPoolConfig
 #### jedis sample
-* [JedisSentinelPool Sample](https://github.com/herotony/jedis/blob/master/src/test/java/redis/clients/jedis/tests/JedisSentinelPoolTest.java "Jedis Sentinel Pool官方测试示例")
-* [JedisPool Sample](https://github.com/herotony/jedis/blob/master/src/test/java/redis/clients/jedis/tests/JedisPoolTest.java "Jedis Pool官方测试示例")
+  * [JedisSentinelPool Sample](https://github.com/herotony/jedis/blob/master/src/test/java/redis/clients/jedis/tests/JedisSentinelPoolTest.java "Jedis Sentinel Pool官方测试示例")
+  * [JedisPool Sample](https://github.com/herotony/jedis/blob/master/src/test/java/redis/clients/jedis/tests/JedisPoolTest.java "Jedis Pool官方测试示例")
+#### Distributed locks
+>  官方提供的Redlock算法，支持如下三个基本要求
+>  1. 安全，同一时刻，只能有一个客户端拥有锁
+>  2. 存活A，释放死锁机制，确保获取某个资源锁的客户端崩了，最终仍能获取该资源锁
+>  3. 存活B，容错机制，一旦主要的Redis节点耗尽，客户端仍然能获取和释放相应的资源锁
+
+   - why failover-based implementations are not enough
+     - 为了理解我们要提升什么，先分析当前基于Redis的分布锁的应用情况
+
+        最简单的基于Redis分布锁应用就是创建一个key，这个key一定设定了过期时间，即利用了Redis的expire特性，确保最终会释放锁从而满足基本要求2,当客户端释放资源锁则是简单的delete该key即可。这个机制貌似不错，但当Redis master宕机了，所谓的slave因其异步同步机制导致其并没卵用（因为宕机，会导致锁key恰巧丢失），所以基本要求3并不能得到满足！此时，任何一个客户端都能再次获取锁，那么锁失去了意义，因为原来持有者理论上还没释放呢，你丫就又能获取了。
+     - 单一实例分布锁的正确实现方式
+
+       关键点除了设置过期时间，还要为key(待锁资源名称)设置<font color=red>唯一标识</font>的<font color=blue>值</font>，确保值的唯一性很重要！，删除时除了判断key是否存在还必须校验值是否一致，确保删除锁的操作来自设置锁的客户端！比如这个应用场景：
+          * 当客户端A获取锁后，由于超时操作导致锁因时间过期而被Redis系统删除，此时，客户端B获取了锁，但与此同时，客户端A操作完成要删除锁，此时，由于做了校验确保该资源锁不会被删除，否则，会被客户端A删除，从而客户端B失去了锁的意义！进而导致客户端C,D...都有可能再次获取锁。
+
+       但是，诚如大家所见，该机制不能确保锁过期这件事,为锁设置过期时间，只能确保锁最终能自动被释放，过期时间内锁具备排他保障。但就满足设计要求了。这里强调的是单一实例的分布锁，即只有一个Redis实例，没有什么slave,sentinel之类的考虑，即在该单一实例不宕机的情况下没问题，但是多个分布Redis实例下的分布锁呢？
+     - Redlock算法
+
+       亦即所谓多Redis实例分布版啦，这里我们一般假设有N个Redis master且这些nodes是完全互相独立的（即它们之间不存在任何复制和隐藏的协作系统）。在这里我们预设N=5，即我们需要在不同的计算机或虚拟机上运行5个Redis master实例以确保满足模拟绝大部分独立部署场景下的宕机容错处理。此种情况下客户端获取资源锁步骤如下：
+         1. 客户端先获取当期时间(System.currentMilliSecond())
+         2. 客户端顺序从N个Redis master获取锁（实际就是做setnx啦,注意，所有N个实例采用相同的key和唯一值),在客户端设置过程中，客户端采用的time out值远小于实际过期值，比如，我们的过期时间为10秒，那么，客户端设置的获取锁time out的值约为5-50毫秒。这么做就是确保当某个Redis node宕机了,能尽快轮询下一个Redis node。
+         3. 客户端每轮询一个Redis node取到锁后(即setnx成功)，根据第一步的值来计算耗时，至少成功获取了3个Redis node的锁且总耗时小于锁的过期时间，则才算获取锁成功！
+         4. 成功获取锁后，有效过期时间要减去取锁的总耗时。
+         5. 若取锁失败（比如：取锁数量小于N/2+1或者总耗时已经超出过期时长），将删除所有Redis node上的锁（即便曾经判断某个Redis node没有锁）。
+
+      - Redlock算法支持异步吗？
+
+        总而言之，上述第三步取到的锁，是基于各个Redis node机器间时间是一致的，即便有也是很小可忽略的，基于此该算法才能确保容错机制起效！
+      - 如何容错
