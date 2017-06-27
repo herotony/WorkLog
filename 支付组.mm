@@ -16395,8 +16395,7 @@
       &#38024;&#23545;&#20002;&#21333;&#30340;&#26597;&#35810;&#65292;&#20462;&#27491;Z&#24320;&#22836;&#20026;A&#24320;&#22836;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1497926926963" FOLDED="true" ID="ID_748501853" MODIFIED="1497949417506" TEXT="&#x53bb;&#x9664;jobcenter&#x5bf9;&#x4e8e;login.jsp&#x7684;&#x8fc7;&#x6ee4;&#x903b;&#x8f91;">
 <node COLOR="#ff3300" CREATED="1497949393467" ID="ID_383490532" MODIFIED="1497949414663" TEXT="&#x7136;&#x5219;&#x6ca1;&#x8d77;&#x4f5c;&#x7528;!"/>
@@ -16414,8 +16413,7 @@
       &#21457;&#29616;&#19968;&#20010;&#24456;&#22909;&#30340;&#24037;&#20855;atom&#65292;&#35013;&#19978;vim&#25554;&#20214;&#24456;&#22909;&#29992;&#30340;&#32534;&#36753;&#24037;&#20855;&#65292;&#21487;&#32534;&#36753;markdown&#25991;&#26723;&#65292;&#20197;&#21518;&#35201;&#20064;&#24815;&#36825;&#20010;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1498099672882" ID="ID_1230750498" MODIFIED="1498099736831">
 <richcontent TYPE="NODE"><html>
@@ -16433,8 +16431,7 @@
       &#19979;&#21320;&#36816;&#32500;&#28165;&#29702;&#20102;&#25152;&#26377;&#38376;&#24215;&#21644;notifyserver&#30340;redis&#25968;&#25454;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1498099658673" FOLDED="true" ID="ID_913501470" MODIFIED="1498110377129" TEXT="6.22">
@@ -16448,8 +16445,7 @@
       &#20940;&#26216;3&#28857;&#21322;&#36214;&#21040;&#20844;&#21496;&#65292;&#36824;&#26159;&#22240;&#20026;&#38463;&#37324;&#20113;&#21516;&#27493;&#24310;&#36831;&#23548;&#33268;&#20999;&#25442;&#26426;&#25151;&#19968;&#20107;&#32487;&#32493;&#24310;&#21518;&#65292;&#30333;&#26469;&#20102;&#65292;&#19979;&#21320;&#25552;&#21069;&#19977;&#23567;&#26102;&#26089;&#36208;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1498177832359" FOLDED="true" ID="ID_332772152" MODIFIED="1498207138738" TEXT="6.23">
@@ -16463,8 +16459,7 @@
       &#26426;&#25151;&#25972;&#20307;&#36801;&#31227;&#21040;&#20102;&#38463;&#37324;&#20113;&#65292;&#22235;&#28857;&#24320;&#22987;&#25240;&#33150;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1498184927963" FOLDED="true" ID="ID_473633955" MODIFIED="1498207137128" TEXT="queue&#x4efb;&#x52a1;&#x672a;&#x914d;&#x7f6e;">
 <node CREATED="1498184938590" ID="ID_370914529" MODIFIED="1498184983731">
@@ -16480,8 +16475,7 @@
       &#34917;&#37197;&#20102;&#8220;&#38431;&#21015;&#22791;&#20221;&#8221;&#65292;&#8220;&#38145;&#23450;&#28040;&#24687;&quot;&#20219;&#21153;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1498184986550" ID="ID_738222347" MODIFIED="1498186113146">
 <richcontent TYPE="NODE"><html>
@@ -16493,8 +16487,7 @@
       &#29616;&#22312;md_order_info&#34920;&#20013;&#23384;&#22312;&#22823;&#37327;order_status=5 and pay_status=0&#30340;&#35746;&#21333;&#65292;&#24453;&#22788;&#29702;&#65292;&#23545;&#20110;c-&gt;B&#26159;&#27491;&#24120;&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1498186124901" ID="ID_1066406086" MODIFIED="1498186366035">
 <richcontent TYPE="NODE"><html>
@@ -16509,8 +16502,7 @@
       budan: md_order_info /paystatus!=2/refundstatus=0&#65292;&#19968;&#22825;&#20869;&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1498203267742" ID="ID_1653961292" MODIFIED="1498203383682">
 <richcontent TYPE="NODE"><html>
@@ -16528,8 +16520,7 @@
       <font color="#ff0000">&#20462;&#27491;&#20026;&#37117;&#36208;&#20027;&#24211;&#36830;&#25509;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -16550,8 +16541,7 @@
       18:18:28&#31186;&#26597;&#35810;&#36820;&#22238;&#26102;&#38388;&#26159;18:18:40&#65292;&#25105;&#20204;&#20043;&#21069;&#29992;responsetime&#20316;&#20026;&#20132;&#26131;&#26102;&#38388;&#65292;&#20294;&#25991;&#26723;&#35828;&#36825;&#26159;&#21709;&#24212;&#26102;&#38388;&#65292;&#27809;&#35828;&#26159;&#20132;&#26131;&#26102;&#38388;&#65292;&#25991;&#26723;&#37324;&#27809;&#26377;&#20132;&#26131;&#26102;&#38388;&#65292;&#23646;&#20110;&#21382;&#21490;&#38382;&#39064;&#65292;&#29616;&#22312;&#35201;&#26597;&#31532;&#19968;&#27425;&#26597;&#35810;&#36820;&#22238;&#30340;&#32467;&#26524;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1498436170324" FOLDED="true" ID="ID_1081728720" MODIFIED="1498460948357" TEXT="6.26">
@@ -16574,8 +16564,7 @@
       18:29:06,312
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1498436880864" ID="ID_1709659539" MODIFIED="1498436943341" TEXT="W170625181201707 &#x8fd4;&#x56de;A002&#xff0c;&#x652f;&#x4ed8;&#x5931;&#x8d25;,&#x8865;&#x5355;&#x5904;&#x7406;&#x4e86;"/>
 <node CREATED="1498437489539" ID="ID_1232482675" MODIFIED="1498437495644" TEXT="W170625181201776 &#x6b63;&#x5e38;&#x7684;"/>
@@ -16614,8 +16603,7 @@
       queue_error[existed data]tradeno
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1498440799337" ID="ID_724823393" MODIFIED="1498441292462">
 <richcontent TYPE="NODE"><html>
@@ -16633,8 +16621,7 @@
       queue_error[existed data]tradeno,&#21462;&#38145;&#22833;&#36133;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1498460957652" FOLDED="true" ID="ID_893483452" LINK="D:\GitHubData\WorkLog\MDFiles\2017\_posts\2017\_posts\2017\2017-06-26-5thweek-worklog.markdown" MODIFIED="1498471154144" TEXT="&#x7b2c;5&#x5468;">
@@ -18510,7 +18497,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0066cc" CREATED="1498470368247" FOLDED="true" ID="ID_1529207760" MODIFIED="1498470600696" TEXT="redis">
+<node COLOR="#0066cc" CREATED="1498470368247" ID="ID_1529207760" MODIFIED="1498542283886" TEXT="redis">
 <node CREATED="1498470373666" ID="ID_1501915630" LINK="D:\GitHubData\WorkLog\MDFiles\2017\_posts\2017\_posts\2017\2017-06-21-redis-partitioning.markdown" MODIFIED="1498470401970" TEXT="redis-partitioning"/>
 <node CREATED="1498470479395" ID="ID_285558819" LINK="D:\GitHubData\WorkLog\MDFiles\2017\_posts\2017\_posts\2017\2017-06-22-using-jedis.markdown" MODIFIED="1498470505698">
 <richcontent TYPE="NODE"><html>
@@ -18522,8 +18509,7 @@
       using jedis
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
