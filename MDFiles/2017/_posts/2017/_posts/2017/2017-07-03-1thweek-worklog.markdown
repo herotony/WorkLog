@@ -1,2 +1,9 @@
 #### 7.3
   * 补单开发，考虑closeTrade的影响，另外追加补单记录标识。
+  * 今天核实丢单W1707020551793，还是b->c，情况还是因为提取dlock失败导致丢单，前面的tradeStatus=A001,绑定用户也ok，唯独入queue因为lock提取失败了，这是典型的丢单，但是理论上pay_status没刷，但补单未补到，closeTrade也总是提示already pay success，这是什么鬼，今天搞清楚这两处的处理流程。
+    *  拟在AbstractNotify.addQueue针对NotifyStatusEnum.PAY_NOTIFY_STATUS_SERVER和resultKey==TRADE_SUCCESS，取锁尝试3次，这是mdpaygate的一处修改。
+    *  针对b->c下单的orderStatus变化状态：
+        *  createOrder下单时，orderStatus=0,orderStatus=3这个状态不知在哪设置，目前看到mdtradecenter.OrderUpdateServiceImpl.invalidOrder有设置，但没查到调用之处。
+  * 门店上线导致大量无效门店访问数据库，奇怪的是影响了交易的性能，导致md_pay_queue表大量堆积，也可能导致门店，原因解释通了，大量的无效门店导致shopcenter2的网络流量剧增，从而影响了交易的结算，交易结算需要从门店中心提取费率等方案，也就是shopcenter2站点打满了导致延迟，今天追加了流量监控。
+      *  极端诡异，shopcenter2的getShopByIdV2，传入的门店id - A会导致门店 B补入redis操作，但该门店一不合法（审核不通过等），二莫名其妙出来的，根据日志就是这个情况！[shopcenter2-bug](D:\GitHubData\WorkLog\MDFiles\2017\images\07\shopbug2.jpg),这个花了一下午也没看出个所以然，暂时搁置。明天补单，等会一定找出order_status=3的设置点。
+  * 确定了<font color=green>mdtask</font>两个NotBind.../NotPay...负责定时刷新md_order_info的单子为order_status=3/order_status=4的操作，其中order_status=3被Autobudan进行补偿处理。
