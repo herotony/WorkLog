@@ -5,7 +5,7 @@
     *  针对b->c下单的orderStatus变化状态：
         *  createOrder下单时，orderStatus=0,orderStatus=3这个状态不知在哪设置，目前看到mdtradecenter.OrderUpdateServiceImpl.invalidOrder有设置，但没查到调用之处。
   * 门店上线导致大量无效门店访问数据库，奇怪的是影响了交易的性能，导致md_pay_queue表大量堆积，也可能导致门店，原因解释通了，大量的无效门店导致shopcenter2的网络流量剧增，从而影响了交易的结算，交易结算需要从门店中心提取费率等方案，也就是shopcenter2站点打满了导致延迟，今天追加了流量监控。
-      *  极端诡异，shopcenter2的getShopByIdV2，传入的门店id - A会导致门店 B补入redis操作，但该门店一不合法（审核不通过等），二莫名其妙出来的，根据日志就是这个情况！[shopcenter2-bug](D:\GitHubData\WorkLog\MDFiles\2017\images\07\shopbug2.jpg),这个花了一下午也没看出个所以然，暂时搁置。明天补单，等会一定找出order_status=3的设置点。
+      *  极端诡异，shopcenter2的getShopByIdV2，传入的门店id - A会导致门店 B补入redis操作，但该门店一不合法（审核不通过等），二莫名其妙出来的，根据日志就是这个情况！![shopcenter2-bug](D:\GitHubData\WorkLog\MDFiles\2017\images\07\shopbug2.jpg),这个花了一下午也没看出个所以然，暂时搁置。明天补单，等会一定找出order_status=3的设置点。
   * 确定了<font color=green>mdtask</font>两个NotBind.../NotPay...负责定时刷新md_order_info的单子为order_status=3/order_status=4的操作，其中order_status=3被Autobudan进行补偿处理。
 
 #### 7.4
