@@ -430,3 +430,25 @@ public class ServiceTemplateImpl implements ServiceTemplate {
 
   }
 ```
+##### MultipleRoutingDataSource
+
+* 请参考ServiceTemplateImpl类中DataSourceContextHolder的使用场景来加深理解。
+
+```java
+  import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
+
+  /**
+   * 类说明,采用spring的jdbc框架来选择数据源
+   * 关键点是：DataSourceContextHolder类的使用！
+   */
+  public class MultipleRoutingDataSource extends AbstractRoutingDataSource {
+
+
+  	protected Object determineCurrentLookupKey() {
+
+  		return DataSourceContextHolder.getDataSourceType();
+  	}
+
+
+  }
+```
