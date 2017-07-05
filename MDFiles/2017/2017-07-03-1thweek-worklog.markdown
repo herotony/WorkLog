@@ -15,3 +15,7 @@
       * 利用了org.springframework.scheduling.quartz.CronTriggerBean定时本地触发了任务notBindOrder.../notPayOrder...的后续处理，所谓的order_status=3(过期未绑定)/4(过期未支付)的状态，就是这两个任务刷出来的。
       * 接notify消息发送模板消息（支付成功后，用户在微信中收到的支付成功的定制消息，一般会附带广告链接)，同时根据门店配置进行返现。
   * 修改补单autobudantask,在补单开始前，往单独的补单表remedyorder写入记录。创建单独的remedyorder表。初步编码完成，多出的时间好好整理mybatis在spring下的应用，单独拉一个markdown文档。
+  * 明天closeTrade部分，另外，完善今天的数据库应用的整理，仅限于主站采用的部分，尽量全面，涉及配置，框架和示例。
+#### 7.5
+  * closeTrade是先调用第三方来关闭交易，但实际目前的现在支付是根本没这个接口的，而对于md_pay_trade中status=3(支付成功)是不能正常关闭的，而关闭交易的任务一般是从md_order_info中搜素出的order_status=5的pay_status=0/1的记录，所以这种情况下应该做的是补单才更合理。先确认md_pay_trade的status=3何时刷新吧，的确是第三方返回了明确支付成功，md_pay_trade表的status状态才刷为3，也就是支付成功，此时，补单判断时，再次提取该字段是应该采用补单操作，考虑如何做。![status为3的情况](images/07/mdpaygatetopaytrade.jpg)
+  * 针对closeTrade过程中遇到支付成功的，则进行一次补单流程，待测试，明后两天统一测试补单流程，一个是补单是否正常，一个是是否正常留下记录，一个是closeTrade是否能正常补单等。
