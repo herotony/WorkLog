@@ -19,3 +19,4 @@
 #### 7.5
   * closeTrade是先调用第三方来关闭交易，但实际目前的现在支付是根本没这个接口的，而对于md_pay_trade中status=3(支付成功)是不能正常关闭的，而关闭交易的任务一般是从md_order_info中搜素出的order_status=5的pay_status=0/1的记录，所以这种情况下应该做的是补单才更合理。先确认md_pay_trade的status=3何时刷新吧，的确是第三方返回了明确支付成功，md_pay_trade表的status状态才刷为3，也就是支付成功，此时，补单判断时，再次提取该字段是应该采用补单操作，考虑如何做。![status为3的情况](images/07/mdpaygatetopaytrade.jpg)
   * 针对closeTrade过程中遇到支付成功的，则进行一次补单流程，待测试，明后两天统一测试补单流程，一个是补单是否正常，一个是是否正常留下记录，一个是closeTrade是否能正常补单等。
+  * b->c慢，提取unionid为空值不是null导致json解析异常，绑定失败，然则进入queue后处理状态不对，补单延后一小时才完成...
