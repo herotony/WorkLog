@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1472694016229" ID="ID_1380030112" MODIFIED="1497854999613" TEXT="&#x652f;&#x4ed8;&#x7ec4;">
+<node CREATED="1472694016229" ID="ID_1380030112" MODIFIED="1499249041143" TEXT="&#x652f;&#x4ed8;&#x7ec4;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -55,7 +55,8 @@
       <font color="#ff0000">&#25214;&#21040;&#21407;&#22240;&#20102;&#65306;&#22791;&#27880;&#25110;&#32773;&#21482;&#35201;&#29992;&#21040;&#20102;html&#30340;&#22320;&#26041;&#19968;&#23450;&#19981;&#35201;&#29992;&#33521;&#25991;&#24341;&#21495;&#65292;&#20882;&#21495;&#31561;&#29305;&#27530;&#23383;&#31526;&#21543;&#65292;&#21542;&#21017;&#24517;&#23450;&#20081;&#30721;&#20102;&#12290;</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1482730803024" ID="ID_1736184661" MODIFIED="1484279221862" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -16649,8 +16650,7 @@
       idcenter&#36134;&#21495;&#23494;&#30721;&#65288;manager/manager&#65289;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1498722417059" FOLDED="true" ID="ID_1640660835" MODIFIED="1499150431629" TEXT="6.29">
@@ -16666,8 +16666,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1499040089127" ID="ID_1915146799" MODIFIED="1499149222005" TEXT="&#x4e03;&#x6708;">
-<node CREATED="1499040106457" FOLDED="true" ID="ID_402659952" LINK="MDFiles/2017/2017-07-03-1thweek-worklog.markdown" MODIFIED="1499241097552" TEXT="&#x7b2c;&#x4e00;&#x5468;">
+<node CREATED="1499040089127" FOLDED="true" ID="ID_1915146799" MODIFIED="1499250442150" TEXT="&#x4e03;&#x6708;">
+<node CREATED="1499040106457" FOLDED="true" ID="ID_402659952" LINK="MDFiles/2017/2017-07-03-1thweek-worklog.markdown" MODIFIED="1499250441173" TEXT="&#x7b2c;&#x4e00;&#x5468;">
 <node CREATED="1499074324324" ID="ID_407498791" MODIFIED="1499074453187">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -16689,8 +16689,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1499149227398" ID="ID_373906361" LINK="MDFiles/2017/mysql-in-JavaApp.markdown" MODIFIED="1499154374338" TEXT="mysql in java"/>
 </node>

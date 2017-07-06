@@ -452,3 +452,205 @@ public class ServiceTemplateImpl implements ServiceTemplate {
 
   }
 ```
+##### About MyBatis
+
+* 这里讨论如何将myBatis集成到该框架内以达成需要支持数据库的业务需求。
+* Spring中的bean xml配置部分
+    * 数据源部分
+      ```xml
+      <bean id="writeDataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+          <property name="jndiName">
+              <value>${dataSource.jndi.master}</value>
+          </property>
+      </bean>
+      <bean id="readDataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+          <property name="jndiName">
+              <value>${dataSource.jndi.slave_1}</value>
+          </property>
+      </bean>
+
+      <bean id="dataSource" class="com.QiXun.core.common.datasource.MultipleRoutingDataSource">
+          <property name="targetDataSources">
+              <map>
+                  <entry key="master" value-ref="writeDataSource"/>
+                  <entry key="slave_1" value-ref="readDataSource"/>
+              </map>
+          </property>
+      </bean>
+      ```
+    * 业务查询语句部分
+
+      ```xml
+      <configuration>
+          <settings>
+              <setting name="cacheEnabled" value="true"/>
+              <setting name="lazyLoadingEnabled" value="false"/>
+              <setting name="defaultStatementTimeout" value="30"/>
+          </settings>
+
+          <mappers>
+              <mapper resource="mybatis/sqlmap/mdpaygate-refund-mapper.xml"/>
+              <mapper resource="mybatis/sqlmap/mdpaygate-refund-log-mapper.xml"/>
+              <mapper resource="mybatis/sqlmap/mdpaygate-trade-pay-mapper.xml"/>
+              <mapper resource="mybatis/sqlmap/mdpaygate-trade-pay-info-mapper.xml"/>
+              <mapper resource="mybatis/sqlmap/mdpaygate-trade-pay-log-mapper.xml"/>
+              <mapper resource="mybatis/sqlmap/mdpaygate-queue-mapper.xml"/>
+              <mapper resource="mybatis/sqlmap/mdpaygate-queue-info-mapper.xml"/>
+              <mapper resource="mybatis/sqlmap/mdpaygate-queue-bak-mapper.xml"/>
+              <mapper resource="mybatis/sqlmap/mdpaygate-order-info-mapper.xml"/>
+              <mapper resource="mybatis/sqlmap/mdpaygate-paygate-conf-mapper.xml"/>
+          </mappers>
+      </configuration>
+      ```
+        * 具体某个mapper配置，涉及具体业务，上面的是整个业务配置入口，关键是<font color=blue>settings节点</font>配置是适用于所有mapper映射的业务
+
+        ```xml
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        								"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        <mapper namespace="honor" >
+          <resultMap id="QueueInfoDO" type="com.wowo.mdpaygate.dao.data.QueueInfoDO" >
+        	<result column="queue_id" property="queueID" jdbcType="BIGINT" />
+        	<result column="json_data" property="jsonData" jdbcType="LONGVARCHAR" />
+          </resultMap>
+
+          <insert id="createQueueInfo" parameterType="com.wowo.mdpaygate.dao.data.QueueInfoDO">
+             insert into md_pay_queue_info
+              	(`queue_id`,`json_data`)
+              		values
+               (#{queueID,jdbcType=BIGINT},#{jsonData,jdbcType=LONGVARCHAR})
+          </insert>
+
+          <sql id="selQueueInfo">
+        	select
+        	  `queue_id`,
+        	  `json_data`
+        	from md_pay_queue_info
+          </sql>
+
+          <select id="getQueueInfoById" resultMap="QueueInfoDO" parameterType="long" >
+            <include refid="selQueueInfo"/>
+           <![CDATA[
+                where queue_id = #{queueID,jdbcType=BIGINT}
+            ]]>
+          </select>
+          <select id="findQueueInfoListByIds" resultMap="QueueInfoDO" parameterType="String" >
+            <include refid="selQueueInfo"/>
+               where queue_id in
+               <foreach item="item" index="index" collection="list"
+              		open="(" separator="," close=")">
+                	#{item}
+          	   </foreach>
+          </select>
+          <delete id="deleteQueueInfo" parameterType="java.util.List">
+        	 delete from md_pay_queue_info where queue_id in
+        	<foreach item="item" index="index" collection="list" open="(" separator="," close=")">
+        		#{item}
+        	</foreach>
+        	</delete>
+        </mapper>
+
+        ```
+
+    * 整合数据源和业务查询两部分
+
+      ```xml
+      <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+              <property name="dataSource" ref="dataSource"/>
+              <property name="configLocation" value="classpath:mybatis/mdpaygate-root.xml"/>
+      </bean>
+      ```
+* Java代码示例部分,上面是在Spring框架中的配置，分为两部分，一部分是如何连接数据源，另一部分才是业务模块。
+    * 业务逻辑层应用，具体业务类必须<font color=green>extends SqlSessionDaoSupport</font>才能利用<font color=blue>getSqlSession()</font>提取到数据源进行相应的insert,update,delete等操作，对应了myBatis的mapper xml配置中的insert,select等节点，<font color=GoldenRod>一般是dao层（所谓dao包下）定义各个表对应的类，比如下面的就是orderinfo表对应的OrderInfoDAOImpl类下的各种操作</font>。
+
+    ```java
+
+      public class OrderInfoDAOImpl extends SqlSessionDaoSupport implements OrderInfoDAO {
+      @Override
+      public List<OrderInfoDO> queryNoPayOrder() {
+          return getSqlSession().selectList("queryNoPayOrder");
+      }
+
+      @Override
+      public List<OrderInfoDO> queryNoPayOrderByAutoBudan() {
+          return getSqlSession().selectList("queryNoPayOrderByAutoBudan");
+      }
+
+      @Override
+      public boolean updateOrderInfoByBudan(String orderId) {
+          Map<String, Object> param = new HashMap<String, Object>();
+          param.put("order_id", orderId);
+          return getSqlSession().update("updateOrderInfoByBudan", param) == 1;
+      }
+
+      @Override
+      public boolean addOrUpdateRemedyOrderInfo(OrderInfoDO orderInfoDO){
+
+          Map<String,Object> param = new HashMap<>();
+
+          param.put("order_id",orderInfoDO.getOrderId());
+          param.put("add_time",orderInfoDO.getAddTime());
+          param.put("last_remedy_time",System.currentTimeMillis());
+
+          return getSqlSession().insert("addOrUpdateRemedyOrderInfo",param) >0;
+      }
+
+      @Override
+      public OrderInfoDO queryOrderInfoByOrderId(String orderId){
+
+          Map<String,Object> param = new HashMap<>();
+          param.put("order_id",orderId);
+
+          return getSqlSession().selectOne("queryOrderInfoByOrderId",param);
+      }
+    }
+
+    ```
+
+    * 数据源的选择，则在ServiceTemplateImpl中的某个方法中以<font color=Teal>DataSourceContextHolder.setDataSourceType(MSDataSourceType.MASTER)</font>的形式来指定,但你选择了**exeInTransaction,exeOnMaster,exeOnSlave**的方法时，已经确定了要使用的是主库还是从库了，这完全来源于前面数据源xml配置中datasource的bean配置，该配置设定了支持的数据源有master,slave_1，该datasource类(MultipleRoutingDataSource)继承自<font color=Teal>spring jdbc架构的AbstractRoutingDataSource类</font>，只是重写了<font color=Teal>determineCurrentLookupKey方法</font>，在该方法里用了自定义的静态类DataSourceContextHolder来设定选择数据源。
+
+    ```java
+
+    @Override
+  	public CallResult<?> backQueue(final int consumerStatus, final int consumerStartTime, final int consumerEndTime,
+  			final Map<String, Object> otherParams) throws TuanRuntimeException
+  	{
+  		return serviceTemplate.exeInTransaction(new TemplateAction<Integer>()
+  		{
+  			@Override
+  			public CallResult<Integer> doAction()
+  			{
+  				// 查询数据/
+  				List<QueueDomain> queueDomainList = queueDomainRepository.findQueueByParams(consumerStatus,
+  						consumerStartTime, consumerEndTime, otherParams);
+  				if (queueDomainList == null || queueDomainList.size() == 0) { return CallResult
+  						.failure(BACKUP_QUEUE_DB_NO_DATA, "findQueueByParams find no data"); }
+  				// 保存备份数据
+  				queueDomainRepository.batchStoreQueueBackDomains(queueDomainList);
+  				// 删除备份数据
+  				queueDomainRepository.batchDeleteDomains(queueDomainList);
+  				return CallResult.success(BACKUP_QUEUE_SUCCESS);
+  			}
+
+  			@Override
+  			public CallResult<Integer> checkParam()
+  			{
+  				if (consumerStatus < 0) { return CallResult.failure(BACKUP_QUEUE_PARAM_INVALID, "consumerStatus<0"); }
+  				return CallResult.success();
+  			}
+
+  			@Override
+  			public CallResult<Integer> checkBiz()
+  			{
+  				return CallResult.success();
+  			}
+
+  			@Override
+  			public void finishUp(CallResult<Integer> callResult)
+  			{
+  			}
+  		});
+
+  	}
+
+    ```
