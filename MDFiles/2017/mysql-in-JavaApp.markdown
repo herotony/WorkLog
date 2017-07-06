@@ -478,6 +478,32 @@ public class ServiceTemplateImpl implements ServiceTemplate {
           </property>
       </bean>
       ```
+    * 容器里的jndi配置，这是java标准做法，如下举例的是mysql在resin.xml里的配置示例
+
+    ```xml
+
+    <tuan-password:MysqlPassword xmlns:tuan-password="urn:java:com.tuan.resin" xmlns:ee="urn:java:ee">
+    <ee:Named>mysqlPasswordGener</ee:Named>
+    </tuan-password:MysqlPassword>
+      <database>
+          <jndi-name>java:comp/env/jdbc/master</jndi-name>
+          <driver type="com.mysql.jdbc.Driver">
+              <url>jdbc:mysql://shdb-user.mysql.rds.aliyuncs.com:3306/mdpay?useUnicode=true&amp;characterEncoding=gbk&amp;zeroDateTimeBehavior=convertToNull</url>
+              <user>mdpayer</user>
+              <password>${mysqlPasswordGener.findPassword("d40d19a0c4aa041a8bc3b5a35a967aafb15ac72231377dc70423a4f532")}</password>
+          </driver>
+          <prepared-statement-cache-size>8</prepared-statement-cache-size>
+          <max-connections>30</max-connections>
+          <max-idle-time>30s</max-idle-time>
+          <connection-wait-time>30000</connection-wait-time>
+          <transaction-timeout>30000</transaction-timeout>
+          <ping>true</ping>
+          <ping-table>dual</ping-table>
+          <ping-interval>1s</ping-interval>
+      </database>
+
+    ```
+
     * 业务查询语句部分
 
       ```xml
