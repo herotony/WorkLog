@@ -20,3 +20,29 @@
   * closeTrade是先调用第三方来关闭交易，但实际目前的现在支付是根本没这个接口的，而对于md_pay_trade中status=3(支付成功)是不能正常关闭的，而关闭交易的任务一般是从md_order_info中搜素出的order_status=5的pay_status=0/1的记录，所以这种情况下应该做的是补单才更合理。先确认md_pay_trade的status=3何时刷新吧，的确是第三方返回了明确支付成功，md_pay_trade表的status状态才刷为3，也就是支付成功，此时，补单判断时，再次提取该字段是应该采用补单操作，考虑如何做。![status为3的情况](images/07/mdpaygatetopaytrade.jpg)
   * 针对closeTrade过程中遇到支付成功的，则进行一次补单流程，待测试，明后两天统一测试补单流程，一个是补单是否正常，一个是是否正常留下记录，一个是closeTrade是否能正常补单等。
   * b->c慢，提取unionid为空值不是null导致json解析异常，绑定失败，然则进入queue后处理状态不对，补单延后一小时才完成...
+#### 7.6
+  * 昨天的两个丢单都是入queue前取redis锁失败导致，目前已修改为尝试3次，待测试
+  * 中午c->b延迟还是现在支付回调慢导致。
+  * 上午整理完了目前主站采用的基于mybatis，serviceTemplate的编码框架，暂时至此。
+  * 补单用的三个sql
+
+    ```sql
+
+    select UNIX_TIMESTAMP("2017-07-06 12:50:50")
+    select FROM_UNIXTIME(UNIX_TIMESTAMP(DATE_SUB(NOW(),INTERVAL 150 MINUTE)),'%Y-%m-%d %T')
+    select FROM_UNIXTIME(UNIX_TIMESTAMP(DATE_SUB(NOW(),INTERVAL 120 MINUTE)),'%Y-%m-%d %T')
+    ```
+  * 测试closeTrade下补单失败，md_order_info主动刷为order_status=5,pay_status=0且将md_pay_trade的status刷为3（支付成功），但在closeTrade任务时并没有触发相应的补单而是成功关闭了订单，order_status刷为4，非常诡异，需要追加日志排查。
+
+#### 7.7
+
+  * closeTrade会判断两次，第一次是从md_order_info表提取相应记录，只要满足order_status=5/pay_limit_time即可，这个一般都会满足，第二次是关闭订单时，判断md_pay_trade的status字段不为3，现在我做的针对c->b的测试关闭失败了，那是因为，md_pay_status刷为8了，但pay_limit_time没刷，导致，再次提取时，closeTrade成功，进而md_order_info的order_status也成功刷为4，导致补单失败。另外，c->b不适合这类补单，因为要靠周期任务而不是回调触发提取userpaying(8)状态的记录，去再次查询第三方接口，然后addQueue，而c->b是靠回调，这么做无意义，也无需补单。补单仅限于b->c的。不对不对，必须改pay_limit_time，才能确保正确补单，而且这个补单一定通用于c->b/b->c都可以行的，只要确定修改pay_limit_time就行
+      * 再次修正，mdtask的未支付关闭订单，是一分钟一执行的而md_pay_trade则是第三方交易后才产生的记录，错大了，这个问题在于不能补md_order_info(order_status=5)+md_pay_trade(status=3)的单子，因为平时补单，是(order_status=3)被提取后，查询第三方接口，太乱重新整理
+
+ * b->c 流程:创建订单(order_status=0)，没有绑定订单（order_status=0)，第三方交易，交易若成功获取支付状态(status=1->3)和绑定订单(openid由第三方传回，若没有采用默认值orderid替代)，不成功，待周期主动查询，现在也支持回调了来刷新状态和绑定订单
+ * c->b 流程:创建订单啊(order_status=0)，但支付前由于有openid，可以真实绑定订单(order_status=5)，第三方交易，创建交易记录(status=1)，待回调刷新status
+ * 补单 流程:提取order_status=3的（该状态由mdtask将order_status=0的超过bind_limit_time（15分钟超时）记录刷成3），查第三方接口，进行补单处理
+ * 关闭订单 流程：提取order_status=5的超过pay_limit_time（2小时超时）的记录进行关闭交易处理。
+ * <font color=SteelBlue>综上所述，closeTrade中遇到md_pay_trade中status=3交易成功的记录，必须修改md_order_info中的pay_limit_time时间大于当前时间一个时间段，比如5分钟，才能确保补单成功</font>
+ * 由于userpaying模式的补单，最终需要靠b->c的查询任务来完成，那么补单目前就是只针对b->c了，c->b的补单目前来说不存在可行机制,且受md_pay_trade的createTime限制(仅取15分钟内的)。再梳理一次：mdtask关闭交易任务一分钟一执行，但pay_limit_time控制了不会干扰b->c的查询，b->c可能几秒一执行，但也是产生交易记录后的15分钟内了。
+ * 最终通过刷字段自测没通过，又报isPaid=false，估计与数据有关，实际绑定订单失败不会影响结算的，结算这块并没修改，应该closeTrade的补单算是能正常走流程了，先这样吧。
