@@ -1,0 +1,195 @@
+## org.aopalliance
+### 概览
+
+* 利用了**<font color=green>org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator</font>**来拦截监控相应的Bean实例的方法，包括方法的执行日志和方法的执行性能(至于具体监控哪个方法，则由设置的拦截器决定，BeanNameAutoProxyCreator则只负责类似Proxy方式创建相应的Bean实例来搭建拦截器和Bean实例的桥接作用)，非常不错的实际应用，值得学习和效仿。
+* 拦截器目前主站有两种，一种用来性能监控，一种用来日志监控，Java特有的AOP拦截功能非常适宜统一日志监控标准并进而标准化监控编码体系的建立。
+* aop方法拦截器很简单，一定是**<font color=SandyBrown>所有</font>拦截器**都在方法调用前介入，然后invocation.proceed()执行(**不管多少个拦截器，所有拦截器中的invocation.proceed()实际都是指向同一方法的指针，也就只能执行一次而已，无需多虑**)具体的方法，再在之后进行扫尾处理，非常适于记录日志和耗时统计等统一的日志监控逻辑工作。
+
+### aop官方**方法拦截接口**定义
+
+* 实现了invoke方法就实现了一个方法拦截器，就这么简单。
+
+```java
+package org.aopalliance.intercept;
+
+/**
+ * Intercepts calls on an interface on its way to the target. These
+ * are nested "on top" of the target.
+ *
+ * <p>The user should implement the {@link #invoke(MethodInvocation)}
+ * method to modify the original behavior. E.g. the following class
+ * implements a tracing interceptor (traces all the calls on the
+ * intercepted method(s)):
+ *
+ * <pre class=code>
+ * class TracingInterceptor implements MethodInterceptor {
+ *   Object invoke(MethodInvocation i) throws Throwable {
+ *     System.out.println("method "+i.getMethod()+" is called on "+
+ *                        i.getThis()+" with args "+i.getArguments());
+ *     Object ret=i.proceed();
+ *     System.out.println("method "+i.getMethod()+" returns "+ret);
+ *     return ret;
+ *   }
+ * }
+ * </pre> */
+
+public interface MethodInterceptor extends Interceptor {
+
+    /**
+     * Implement this method to perform extra treatments before and
+     * after the invocation. Polite implementations would certainly
+     * like to invoke {@link Joinpoint#proceed()}.
+     *
+     * @param invocation the method invocation joinpoint
+     * @return the result of the call to {@link
+     * Joinpoint#proceed()}, might be intercepted by the
+     * interceptor.
+     *
+     * @throws Throwable if the interceptors or the
+     * target-object throws an exception.  */
+    Object invoke(MethodInvocation invocation) throws Throwable;
+}
+```
+
+### aop官方**方法反射调用接口**定义
+
+* 这里主站将之用于实现InvokeChain，即针对某个方法提供**多个拦截器**，这里实现getMethod方法即可向拦截器提供方法拦截的功能。
+
+```java
+package org.aopalliance.intercept;
+
+import java.lang.reflect.Method;
+
+/**
+ * Description of an invocation to a method, given to an interceptor
+ * upon method-call.
+ *
+ * <p>A method invocation is a joinpoint and can be intercepted by a method
+ * interceptor.
+ *
+ * @see MethodInterceptor */
+public interface MethodInvocation extends Invocation
+{
+
+    /**
+     * Gets the method being called.
+     *
+     * <p>This method is a frienly implementation of the {@link
+     * Joinpoint#getStaticPart()} method (same result).
+     *
+     * @return the method being called.
+     */
+    Method getMethod();
+
+}
+```
+#### InterceptorChain
+
+```java
+package com.QiXun.core.common.aop.util;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.aopalliance.intercept.MethodInterceptor;
+import org.aopalliance.intercept.MethodInvocation;
+
+//这个也是个拦截器，但是该拦截器是多个拦截器的入口
+public class InterceptorChain implements MethodInterceptor {
+
+    private List<MethodInterceptor> chains = new ArrayList<MethodInterceptor>();
+
+
+    public Object invoke(MethodInvocation invocation) throws Throwable {
+        InterceptorChainSupport support = new InterceptorChainSupport(invocation,new ArrayList<MethodInterceptor>(chains));
+        return support.proceed();
+    }
+
+    public void setChains(List<MethodInterceptor> chains) {
+        this.chains = chains;
+    }
+
+}
+```
+
+#### InterceptorChainSupport
+
+* 这部分proceed方法的remove(0)有点疑惑的，一种可能是在其他处维护了，只是第一次启动才冗余运行一次，以后就在spring里维护了。
+
+```java
+package com.QiXun.core.common.aop.util;
+
+import java.lang.reflect.AccessibleObject;
+import java.lang.reflect.Method;
+import java.util.List;
+
+import org.aopalliance.intercept.MethodInterceptor;
+import org.aopalliance.intercept.MethodInvocation;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class InterceptorChainSupport implements MethodInvocation {
+
+    private final static Log  logger = LogFactory.getLog(InterceptorChainSupport.class);
+
+    private MethodInvocation  proxy;
+
+    private List<MethodInterceptor> chains;
+
+    public InterceptorChainSupport(MethodInvocation proxy, List<MethodInterceptor> chains) {
+        this.proxy = proxy;
+        this.chains = chains;
+    }
+
+
+    public Method getMethod() {
+        return proxy.getMethod();
+    }
+
+
+    public Object[] getArguments() {
+        return proxy.getArguments();
+    }
+
+
+    public AccessibleObject getStaticPart() {
+        return proxy.getStaticPart();
+    }
+
+
+    public Object getThis() {
+        return proxy.getThis();
+    }
+
+
+    public Object proceed() throws Throwable {
+        if (null != chains) {
+            if (chains.size() > 0) {
+                if (logger.isDebugEnabled()) {
+                    logger.debug(" [ " + Thread.currentThread().getId() + " ] Invoke Chanin [ "
+                                 + chains.size() + " ] , name is : " + chains.get(0).getClass());
+                }
+                //有拦截器，调用拦截器并退出，这段不太明白为啥是移除，需看官方文档，这里的疑点就是chains清空后，下次拦截器调用进来怎么办？
+                return chains.remove(0).invoke(this);
+            }
+        }
+        //没有拦截器，直接调用具体方法
+        return proxy.proceed();
+    }
+
+}
+```
+
+#### spring xml配置
+
+```xml
+  <bean id="interceptorChain"
+		class="com.QiXun.core.common.aop.util.InterceptorChain">
+		<property name="chains">
+			<list>
+          <!--定义了两个拦截器分别用于性能和日志监控-->
+				<ref bean="performanceMonitor" />
+				<ref bean="monitorLogInterceptor" />
+			</list>
+		</property>
+	</bean>
+```
