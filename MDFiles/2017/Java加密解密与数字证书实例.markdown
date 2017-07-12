@@ -32,14 +32,21 @@
 
 这里举例是windows系统，至于linux系统自行模仿照做即可。一般默认目录建议为当前用户的home目录下创建即可。这点也同于Windows的默认目录情况(c:\Documents and Settings\UserName目录)。也可以指定目录保存，这都是一样的。
 
+#### HTTPS认证
+##### 基本概念
+> * **单向认证**：就是传输的数据加密但不会校验数据来源。
+> * **双向认证**:此时客户端浏览器不导入p12证书，是访问不来https服务端的，也意味着要验证来源。导入p12文件是服务端的证书，此时，即可获取加密的服务端数据也能验证服务端的来源是否合法，但服务端一般不安装客户端证书，除非要验证客户端来源。所以，一般是单向，而银行系统的专业版估计一般都是双向验证，即在客户端安装了服务端证书，同时服务端也安装了客户端的信任证书。
+
 #### 为客户端生成证书
 >  * （注意：个人证书的生成和使用比较特别，是分开的。**先生成p12文件，然后导出cer文件，再将cer文件导入默认类型的keystore（JKS）文件**）
 >  *  这一步是为浏览器生成证书，以便让服务器来验证它。**为了能将证书顺利导入至IE和Firefox,证书格式应该是PKCS12** ，因此，使用如下命令生成：
 >      * keytool -genkey -v -keystore c:\keystore\user.p12 -alias MyPC -keyalg RSA -storetype PKCS12 -validity 3650 -dname "CN=MyPC,OU=cn,O=cn,L=cn,ST=cn,c=cn" -storepass 123456 -keypass 123456
->  *  服务器要信任客户端，必须也要把客户端的证书添加到服务器的信任认证，由于不能直接将PKCS12格式的证书导入（p12文件一般用于IE/FireFox导入使用),我们必须先把客户端证书导出为一个单独的cer文件，使用如下命令生成：
->       * keytool -export -alias MyPC -keystore c:\keystore\user.p12 -storetype PKCS12 -storepass 123456 -rfc -file c:\keystore\user.cer
+>  *  服务器要信任客户端，必须也要把客户端的证书添加到服务器的信任认证，由于不能直接将PKCS12格式的证书导入（p12文件一般用于IE/FireFox导入使用),我们必须**先把客户端p12证书导出为一个单独的cer文件**，使用如下命令生成：
+>       * keytool -export -alias MyPC -keystore c:\keystore\user.p12 -storetype PKCS12 -storepass 123456 **<font color=blue>-rfc</font>** -file c:\keystore\user.cer
+        * **rfc意味着输出文件会采用BASE64编码**
         * **服务端导入user.cer证书**，命令为：keytool -import -v -file c:\keyStore\user.cer -keystore c:\keystore\servertrust -alias **user** -storepass 123456
         * **服务端查看安装后的客户端证书**：keytool -list -keystore c:\keystore\servertrust -storepass 123456,这里新建了一个密钥库servertrust。
+
 #### 为服务器生成证书
 >  * 在c盘根目录下创建keystore文件夹
 >  * 确定服务器对应的域名，查看c:\windows\system32\drivers\etc\hosts文件
@@ -63,4 +70,44 @@
   truststoreFile="C:\Java\Tomcat\conf\keystore\servertrust" truststorePass="123456"
 />
 ```
-> * 同时在windows系统下安装个人证书client.p12和服务器证书server.cer。
+> * **上面的keystoreFile是服务端的密钥库，truststoreFile则是用于存储来自各个客户端证书的密钥库**。
+> * 同时在windows系统下的**客户端**安装个人证书client.p12给IE/FireFox和服务器证书server.cer。
+> * 然后服务端启动tomcat,此时客户端浏览器中敲入https://qixun.me:443/Test即可。
+
+## Java实例处理证书
+### Java程序读取证书相关信息
+
+```java
+import java.io.*;
+import java.security.*;
+import java.security.cert.*;
+import java.math.*;
+
+public class ShowCertInfo{
+
+   public static void main(String args[ ]) throws Exception{
+
+        CertificateFactory cf=CertificateFactory.getInstance("X.509");
+        FileInputStream in=new FileInputStream("my.cer");
+        java.security.cert.Certificate c=cf.generateCertificate(in);
+        in.close();
+
+        X509Certificate t=(X509Certificate) c;
+
+        System.out.println("版本号 "+t.getVersion());
+        System.out.println("序列号 "+t.getSerialNumber().toString(16));
+        System.out.println("全名 "+t.getSubjectDN());
+        System.out.println("签发者全名n"+t.getIssuerDN());
+        System.out.println("有效期起始日 "+t.getNotBefore());
+        System.out.println("有效期截至日 "+t.getNotAfter());
+        System.out.println("签名算法 "+t.getSigAlgName());
+
+        byte[] sig=t.getSignature();
+
+        System.out.println("签名n"+new BigInteger(sig).toString(16));
+
+        PublicKey pk=t.getPublicKey();
+        byte[] pkenc=pk.getEncoded();
+  }
+}
+```
