@@ -25,3 +25,20 @@
 * 反现方案的KEY不同于手续费的KEY，手续费KEY为KEY_SHOP_PAYRATE_8200564,而反现方案的KEY很诡异**<font color=red>KEY_SHOP_REBATE_8,200,564</font>**
 * 整理加密解密的事暂告一段落，先整理民生文档，为下星期开发做做准备，后天出加密解密demo类即可。
 * 明天继续整理加密解密证书这块，民生银行不做了，考虑后续接微众银行，暂时搁置，计划作废，明后两天全力梳理清楚证书这块编程整理。
+
+### 7.13
+* 目前还存在的丢单一般都是获取用户失败，比如，微信的根据openid提取用户信息失败，此时，返回null，导致无法绑定订单，从而丢单进而再被补单处理。
+* get unionid时针对转换json失败做一次容错处理。
+* 协查常规环境的8006002门店信息没有，提取sql条件不满足闹得，不明所以
+```sql
+
+SELECT a.*,b.suppliers_id,c.contract_id,c.is_direct,d.subscript_name,d.subscript_icon,subscript_start_time,subscript_end_time
+		FROM sh_shop AS a
+		INNER JOIN sh_suppliers_shop AS b ON b.shop_id=a.shop_id
+		INNER JOIN sh_suppliers AS c ON b.suppliers_id=c.suppliers_id
+		LEFT JOIN (SELECT shop_id,subscript_name,subscript_icon,subscript_start_time,subscript_end_time
+FROM sh_subscript INNER JOIN sh_subscript_relation ON sh_subscript.subscript_id=sh_subscript_relation.subscript_id
+WHERE sh_subscript_relation.subscript_start_time <NOW() AND sh_subscript_relation.subscript_end_time > NOW()) d ON a.shop_id=d.shop_id
+		WHERE a.shop_id=8006002
+```
+* 门店面审核需求导致上述语句中的sh_suppliers改为sh_suppliers_draft表。
