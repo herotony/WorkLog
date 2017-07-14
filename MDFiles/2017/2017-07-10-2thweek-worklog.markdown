@@ -42,3 +42,22 @@ WHERE sh_subscript_relation.subscript_start_time <NOW() AND sh_subscript_relatio
 		WHERE a.shop_id=8006002
 ```
 * 门店面审核需求导致上述语句中的sh_suppliers改为sh_suppliers_draft表。
+
+### 7.14
+* 早上确认mdtask是16年的老版，并没有针对模板消息添加userid的版本上线，今早上线。
+* 昨天丢单的一个原因的容错处理今早已上线。另外，家里的vpn解决了，可以直连入公司局域网了，很方便了，可以在家编码和调试了。
+* 今天早上 2017-07-14 05:17:29,852 [resin-port-9040-55] ERROR D.LOG - [{"handleCost":2410,"errorMsg":"jedis get lock error! key:MD_PAY_GATE_trade_W17071405463240000,timeStamp:1499980652441","_serialId":1,"_method":"DLockImpl.getLock#1499980647440#"}]
+还是出现了取锁失败，尽管尝试了3次，耗时2秒4。确认当时正在上线操作，会有影响。
+* 追查W17071410331276的丢单补单是因为什么。微众银行接口整理。支付宝订单（51），原因order user bind failure,mdtradecenter项目中发生错误，待查原因
+    * 的确是数据库死锁了，resin线程和时间都对上了,在日志dao目录里查到。
+    * ```sql
+    2017-07-14 10:11:00,013 [resin-port-9022-74] ERROR MD_ERROR [d548acb022bc0b4e33828695///] - [{"handleCost":6,"_serialId":1,"_method":"OrderUserBindDomain.orderUserBind#1499998260004#"}]
+    org.springframework.dao.DeadlockLoserDataAccessException:
+     Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Deadlock found when trying to get lock; try restarting transaction
+     The error may involve com.wowo.mdtradecenter.dao.trade.userBindOrderInfoDO-Inline
+     The error occurred while setting parameters
+     SQL: update md_order_info set   order_status=?   ,user_id=?   ,mobile=?   ,bind_time=?   ,mid=?   ,ostype=?   ,last_update_time=?   ,pay_limit_time=?   where order_id=? and order_status=0
+     Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Deadlock found when trying to get lock; try restarting transaction
+    ; SQL []; Deadlock found when trying to get lock; try restarting transaction; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Deadlock found when trying to get lock; try restarting transaction
+
+    ```
