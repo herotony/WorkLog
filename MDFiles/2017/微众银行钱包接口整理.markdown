@@ -65,5 +65,13 @@ public static string sign(List<string> values, string signTicket) {
 #### 回调签名方法
 #### 疑问点
 > * 支付接口必须提供数据对比现有现在支付有哪些不同
->       * 现在支付参数:[tradeVO:TradeVO{businessType=40, tradeId='W170717131000', subject='lm(azms)', payMoney=1, payType=61, shopID=8006009, supplierID=8000002, paymentType='1', body='lm(azms)', payLongitude='0', payLatitude='0', openId='ogIb-s2rzi8cDjaJnEbzNk7N0iL8', expireTime=119, notifyURL='null', showURL='null', tradeNo='null', outUser='37514430', externToken='null', appID='ogIb-s2rzi8cDjaJnEbzNk7N0iL8', appEnv='103', phoneIp='10.9.241.185', phoneImei='ogIb-s2rzi8cDjaJnEbzNk7N0iL8', callBackURL='null', merchantURL='null', thirdPayUserID='null', thirdPayUserName='null', thirdTradeNO='null', redirectPath='null', payBank='null', tradeGoodsAmount=0, wxAuthCode='null', multiPaySubAppId='null', multiPaySubMchId='null',branchappid='wxe28dc3846fc0e54c',branchpartnerId='1478765216257094',branchsignKey='HSb2e'}]
->        * 微信钱包参数
+>       * 现在支付参数:tradeVO:TradeVO{businessType=40, tradeId='W170717131000', subject='lm(azms)', payMoney=1, payType=61, shopID=8006009, supplierID=8000002, paymentType='1', body='lm(azms)', payLongitude='0', payLatitude='0', openId='ogIb-s2rzi8cDjaJnEbzNk7N0iL8', expireTime=119, notifyURL='null', showURL='null', tradeNo='null', outUser='37514430', externToken='null', appID='ogIb-s2rzi8cDjaJnEbzNk7N0iL8', appEnv='103', phoneIp='10.9.241.185', phoneImei='ogIb-s2rzi8cDjaJnEbzNk7N0iL8', callBackURL='null', merchantURL='null', thirdPayUserID='null', thirdPayUserName='null', thirdTradeNO='null', redirectPath='null', payBank='null', tradeGoodsAmount=0, wxAuthCode='null', multiPaySubAppId='null', multiPaySubMchId='null',branchappid='wxe28dc3846fc0e54c',branchpartnerId='1478765216257094',branchsignKey='HSb2e'}
+
+
+>     * 代码示例
+>
+>           ![现在支付](images/07/nowpay-ref.jpg)
+
+>     * 微信钱包参数
+
+>           ![微众钱包接口](images/07/webank-ref.jpg)
