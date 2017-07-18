@@ -1,0 +1,33 @@
+## mdpaygate
+
+### 确认consumeQueue是否堆积导致延迟
+>  * 曾经广告项目导致shopcenter打穿redis，直接访问数据库导致shopcenter慢，进而连锁反映到mdfrontserver提取shopcenter信息慢，进而导致consumeQueue堆积。
+>  * mdtradecenter配置了rdm主从合一数据库连接，导致虽然绑定成功，但在mdfrontserver的paycallback的回调处理失败，order_status字段因主从延迟而不一致，导致consumeQueue消费失败，进而堆积。
+
+
+
+#### 正常堆积判断语句
+
+<table><tr><td bgcolor="Teal"><font color="white">select count(*) from mdpay.md_pay_queue where consume_status!=2</font></td></tr></table>
+
+#### 特定时段consumequeue超过1分钟处理的延时堆积
+
+```sql
+select trade_no ,consume_count,FROM_UNIXTIME(create_time/1000,'%Y-%m-%d %T') add_time, FROM_UNIXTIME(last_consume_time/1000,'%Y-%m-%d %T') last_time from md_pay_queue_bak where consume_status=2 and create_time>UNIX_TIMESTAMP('2017-07-18 12:00')*1000 and create_time<UNIX_TIMESTAMP('2017-07-18 14:00')*1000  and (last_consume_time - create_time>60000) order by id desc;
+```
+
+
+### 多码合一 c扫b 回调
+> * c->b回调慢也有原因是我们的网络架构不合理，ngix上集成了太多项目的负载，后来做了调整。
+
+### 被扫，扫码机的b扫c，延迟
+> * 曾经有入consumequeue时取redis锁失败导致丢单依赖补单
+> * 现在支付持续返回A004导致丢单依赖补单
+> * mysql的Dead lock导致丢单依赖补单
+> * hashmap未采用多线程版本concurrentHashMap，导致时间转换失败，已修正，此前采用多尝试一次机制也能很大改善。
+
+## notifyserver
+> * 必须消息缓存体和队列缓存体分开，不能是同一服务器同一端口的redis，否则无法正常工作。
+
+## 运维
+> * 镜像虚拟机时，host配置必须修改，否则重复导致无法访问到。
