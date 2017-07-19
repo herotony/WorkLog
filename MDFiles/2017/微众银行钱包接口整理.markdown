@@ -75,3 +75,43 @@ public static string sign(List<string> values, string signTicket) {
 >     * 微信钱包参数
 
 >           ![微众钱包接口](images/07/webank-ref.jpg)
+>           * 示例
+>           * 分为两部分，一个是post的链接构成，一部分是post数据部分。
+>           * post链接构成(涉及验签部分数据):https://test-svrapi.webank.com/h/api/wallet/server/pay/syncTransOrderInfo?appId=WW000001&nonce=09650212221358023205967266386333&version=1.0.0&sign=1E143CB3E06B77DD72824A0D59438A28CC700F68&timestamp=1486626851
+>           * post数据（涉及支付部分数据）
+
+```json
+      {
+          "webankAppId":"WW000001",
+          "orderNo":"20170209155410",
+          "amount":1,
+          "reqTime":"20170110072636",
+          "merchantName":"webank",
+          "merchantAbbreviation":"webank",
+          "userId":"000030",
+          "redirectUrl":"http%3A%2F%2Ffb.ysf.mobi%2F%23%2Fusercenter%2Finvestment",
+          "goodsName":"book",
+          "sequenceId":"20170209155410",
+          "afterSightFlag":"1",
+          "transRecordSubList":[
+              {
+              "merchantUserId":"XFB0000014",
+              "subOrderNo":"201701101926361845-0",
+              "subAmount":"1",
+              "merchantName":"tencent",
+              "goodsInfoList":[
+                  {
+                  "goodsId":"3291",
+                  "goodsPrice":"1",
+                  "goodsName":"0109",
+                  "goodsNum":"1",
+                  "goodsDesc":"0109"
+                  }
+                ],
+                "billExpire":"1"
+              }
+          ],
+          "billExpire":"1"
+      }
+
+```
