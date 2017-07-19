@@ -60,6 +60,9 @@ public static string sign(List<string> values, string signTicket) {
 #### 订单支付流程
 ##### 支付信息同步接口
 ##### 支付结果查询接口
+
+> * 该接口表明，真正重要不可缺的参数有四个：webBankAppId,orderNo,merchantId,sequenceId。
+
 ##### 支付结果通知接口
 ##### 见证支付确认收获接口
 #### 回调签名方法
@@ -115,3 +118,4 @@ public static string sign(List<string> values, string signTicket) {
       }
 
 ```
+> * 缺少直接退款接口。我们只是支付通道，没有商品的概念。
