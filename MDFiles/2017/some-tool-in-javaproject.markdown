@@ -1,12 +1,12 @@
 ## json
 > * 采用业界通用的jackjson库，各方面都优秀，不要用国内的fastJson，bug多且为了些许的快做了很多不标准的事。
 > * 建议采用mdfrontserver的简版。
-### > pom引用
+###  pom引用
 > * 目前maven库采用2.2.2版
 > * [Jackson官网地址(http://wiki.fasterxml.com/JacksonHome)](http://wiki.fasterxml.com/JacksonHome)
 > * [GitHub源码地址](https://github.com/FasterXML)
 ```xml
-<dependency>
+       <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
             <version>${jackson-2-version}</version>
@@ -487,4 +487,390 @@ public class JsonUtils {
 //		System.out.println(queue);
 	}
 }
+```
+## log日志
+
+> * [logback官方网址](https://logback.qos.ch/)
+> * 采用效率更高的logback组件，框架采用静态编译的slf4j框架，不再使用log4j组件，而对于通用于很多框架中的common-logging框架(具体实现了JCL标准)建议采用桥接方式进行无缝过渡到slf4j+logback架构中来。
+### slf4j与common-logging的区别
+> * 二者都只是一个上层定义日志接口的框架需要底层具体实现其接口的组件，比如，log4j,logback,Simple Logger,java.util.logging...
+> * common-logging是动态绑定方式，即程序运行中决定绑定哪个日志组件，而slf4j是静态绑定，在编译是就确定了要绑定使用哪个组件，对于动态绑定某些框架将无法使用，比如OSGI框架，而slf4j框架没这个问题。common-logging是apache下的开源框架得到更多框架的默认支持
+### spring中使用log
+> * [Logging dependencies in Spring](https://spring.io/blog/2009/12/04/logging-dependencies-in-spring/)
+> * Spring默认强制使用Jakarta Commons Logging API框架(也就是**JCL**),亦即common-logging框架，其会运行时找到相应的实现日志功能的组件，如果找不到，则用java自带的java.util.logging(也就是俗称JUL的组件),为了保持兼容性，才一直还使用common-logging，实际上如果重新来过，一定会采用SLF4J+LOGBACK的搭配模式。
+
+#### maven配置
+
+> * 这里强烈推荐SLF4J + LOGBACK的搭配。
+
+##### 移除对commons-logging框架的依赖
+
+```xml
+<dependencies>
+   <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>3.1.2.RELEASE</version>
+      <scope>runtime</scope>
+      <exclusions>
+         <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+         </exclusion>
+      </exclusions>
+   </dependency>
+</dependencies>
+```
+
+##### 引入slf4j框架替代commons-logging来实现JCL
+
+> * 关键是jcl-over-slf4j的桥接组件的引入，确保能无缝将JCL过渡到slf4j。
+> * 这里采用log4j日志组件，但我们建议采用性能更优越的logback。
+
+```
+<dependencies>
+   <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>3.1.2.RELEASE</version>
+      <scope>runtime</scope>
+      <exclusions>
+         <exclusion>
+           <groupId>commons-logging</groupId>
+           <artifactId>commons-logging</artifactId>
+         </exclusion>
+      </exclusions>
+   </dependency>
+   <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>jcl-over-slf4j</artifactId>
+      <version>1.7.0</version>
+      <scope>runtime</scope>
+   </dependency>
+   <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.0</version>
+      <scope>runtime</scope>
+   </dependency>
+   <dependency>
+     <groupId>org.slf4j</groupId>
+     <artifactId>slf4j-log4j12</artifactId>
+     <version>1.7.0</version>
+     <scope>runtime</scope>
+  </dependency>
+  <dependency>
+     <groupId>log4j</groupId>
+     <artifactId>log4j</artifactId>
+     <version>1.2.14</version>
+     <scope>runtime</scope>
+  </dependency>
+</dependencies>
+```
+##### 直接使用logback
+
+> * logback分为三个模块：logback-classic,logback-core,logback-access。
+>     * logback-core是logback-classic,logback-access的上层封装应用。
+>     * logback-core上有个姊妹项目logback-audit，可以提供触发日志事件。
+> * logback-classic直接实现了slf4j的所有接口，且性能远超log4j，由于其实现了slf4j，可以在使用JUL,log4j的日志框架中无缝过渡。
+> * logback-access确保与servlet容器完美集成，比如：Tomcat或者Jetty,也提供了Http-access的日志记录功能，即记录HTTP访问日志。
+> * 比如 maven项目的web-app，很简单，在WEB-INF/lib目录下存放logback-classic.x.x.x.jar,logback-core.x.x.x.jar,slf4j-api.x.x.x.jar包
+> * maven pom中只要引入一个依赖即可，其实，该依赖会自动导致引入logback-core/slf4j-api的jar包（**已实际验证过了**）如下：
+
+```xml
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.0.13</version>
+</dependency>
+```
+#### maven的web-app下配置logback.xml
+##### logback.xml项目中的放置位置
+> * 一般放于src/main/resources和src/test/resources下，实际在classpath下能找到即可，logback组件会自动载入**该固定名称的文件**。
+
+##### 交易项目目前的配置
+
+> * 需要配置log.home变量，如:/data/application/logs/mdpaygate
+> * 需要配置log.root.level变量，如：INFO
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!-- <property resource="app.properties" /> -->
+ 	<property name="pattern.category" value="%c{2}"/>
+	<!-- default log -->
+	<appender name="DEFAULT-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/default/common-default.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/default/common-default.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+	</appender>
+	<!-- error log -->
+	<appender name="ERROR-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/error/common-error.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/error/common-error.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} %L - [%m]%n</pattern>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+    		<level>ERROR</level>
+    	</filter>
+	</appender>
+	<!-- warn log -->
+	<appender name="WARN-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/warn/common-warn.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/warn/common-warn.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} %L - [%m]%n</pattern>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+    		<level>WARN</level>
+    	</filter>
+	</appender>
+	<!-- perf log -->
+	<appender name="PERF-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/perf/common-perf.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/perf/common-perf.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- service log -->
+	<appender name="SERVICE-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/service/common-service.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/service/common-service.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+	</appender>
+	<!-- dao log -->
+	<appender name="DAO-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    	<file>${log.home}/dao/common-dao.log</file>
+    	<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+	      <fileNamePattern>${log.home}/dao/common-dao.log.%d{yyyyMMdd}</fileNamePattern>
+	    </rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+  	</appender>
+	<!-- business log -->
+	<appender name="BUSINESS-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/business/common-business.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/business/common-business.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+	</appender>
+	<appender name="VISIT-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/visit/common-visit.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/visit/common-visit.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+	</appender>
+	<!-- business order log -->
+	<appender name="BUSINESS-ORDER-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/business/business-order.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/business/business-order.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+	</appender>
+	<!-- business task log -->
+	<appender name="BUSINESS-TASK-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/business/business-task.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/business/business-task.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+	</appender>
+	<!-- business ALARM log -->
+	<appender name="BUSINESS-ALARM-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/business/business-alarm.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/business/business-alarm.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+	</appender>
+	<!-- business notify log -->
+	<appender name="BUSINESS-NOTIFY-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/business/business-notify.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/business/business-notify.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+	</appender>
+	<!-- QUEUE TASK APPENDER -->
+	<appender name="QUEUE-TASK-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/queue/task.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/queue/task.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+	</appender>
+	<appender name="LOCKER-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/lock/locker.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/lock/locker.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="TRACE-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/trace/tracing.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/trace/tracing.log.%d{yyyy-MM-dd-HH}.gz</fileNamePattern>
+			<maxHistory>72</maxHistory>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%m%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- dubbo log -->
+	<appender name="DUBBO-MONITOR-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/dubbo/dubbo-monitor.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/dubbo/dubbo-monitor.log.%d{yyyyMMdd}</fileNamePattern>
+		</rollingPolicy>
+		<encoder charset="UTF-8">
+			<pattern>%d [%t] %-5p ${pattern.category} - [%m]%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- project logger -->
+	<logger name="businessLogger" additivity="false">
+		<level value="${log.root.level}"/>
+		<appender-ref ref="BUSINESS-APPENDER"/>
+	</logger>
+	<logger name="businessOrderLogger" additivity="false">
+		<level value="${log.root.level}"/>
+		<appender-ref ref="BUSINESS-ORDER-APPENDER"/>
+	</logger>
+	<logger name="businessTaskLogger" additivity="false">
+		<level value="${log.root.level}"/>
+		<appender-ref ref="BUSINESS-TASK-APPENDER"/>
+	</logger>
+	<logger name="businessAlarmLogger" additivity="false">
+		<level value="${log.root.level}"/>
+		<appender-ref ref="BUSINESS-ALARM-APPENDER"/>
+	</logger>
+	<logger name="businessNotifyLogger" additivity="false">
+		<level value="${log.root.level}"/>
+		<appender-ref ref="BUSINESS-NOTIFY-APPENDER"/>
+	</logger>
+
+	<logger name="visitLogger" additivity="false">
+		<level value="${log.root.level}"/>
+		<appender-ref ref="VISIT-APPENDER"/>
+	</logger>
+
+	<logger name="serviceLogger" additivity="false">
+		<level value="${log.root.level}"/>
+		<appender-ref ref="SERVICE-APPENDER"/>
+	</logger>
+	<!-- dlock redis -->
+	<logger name="DLOCK.LOG" additivity="false">
+		<level value="INFO"/>
+		<appender-ref ref="LOCKER-APPENDER"/>
+	</logger>
+
+	<!-- mask logger -->
+	<logger name="org.springframework" level="WARN" />
+	<logger name="org.apache" level="WARN" />
+	<logger name="httpclient" level="WARN" />
+	<logger name="org.mybatis" level="WARN" />
+	<!-- mybatis print sql log, need set debug -->
+	<logger name="tuan" level="WARN" />
+	<logger name="com.tuan.notifyserver" level="WARN" />
+	<logger name="com.alibaba.dubbo" level="WARN" />
+	<!-- Invoke Chanin log -->
+	<logger name="com.tuan.core.common.aop.util.InterceptorChainSupport" level="WARN" />
+	<!-- perf log -->
+	<logger name="com.tuan.core.common.aop.pref.PerformanceMonitorInterceptor" additivity="false">
+		<level value="INFO"/>
+		<appender-ref ref="PERF-APPENDER"/>
+	</logger>
+	<!-- queue task  -->
+	<logger name="com.wowo.mdpaygate.service.task" additivity="false">
+		<level value="INFO"/>
+		<appender-ref ref="QUEUE-TASK-APPENDER"/>
+	</logger>
+	<logger name="org.apache.ibatis" additivity="true">
+		<level value="WARN"/>
+		<appender-ref ref="DAO-APPENDER"/>
+		<appender-ref ref="ERROR-APPENDER"/>
+	</logger>
+	<logger name="com.mchange" additivity="true">
+		<level value="WARN"/>
+		<appender-ref ref="DAO-APPENDER"/>
+		<appender-ref ref="ERROR-APPENDER"/>
+	</logger>
+	<logger name="com.ibatis" additivity="false">
+		<level value="WARN"/>
+		<appender-ref ref="DAO-APPENDER"/>
+		<appender-ref ref="ERROR-APPENDER"/>
+	</logger>
+	<logger name="java.sql" additivity="false">
+		<level value="WARN"/>
+		<appender-ref ref="DAO-APPENDER"/>
+		<appender-ref ref="ERROR-APPENDER"/>
+	</logger>
+	<logger name="com.wowotrace.trace" additivity="false">
+		<level value="INFO"/>
+		<appender-ref ref="TRACE-APPENDER"/>
+	</logger>
+	<!-- dubbo log -->
+	<logger name="com.alibaba.dubbo" additivity="false">
+		<level value="INFO"/>
+		<appender-ref ref="DUBBO-MONITOR-APPENDER"/>
+	</logger>
+
+	<!-- mask logger end -->
+	<root level="${log.root.level}">
+		<appender-ref ref="DEFAULT-APPENDER"></appender-ref>
+		<appender-ref ref="ERROR-APPENDER"></appender-ref>
+		<appender-ref ref="WARN-APPENDER"></appender-ref>
+	</root>
+
+</configuration>
+```
+##### java里使用
+
+```java
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+private static final Logger logger = LoggerFactory.getLogger(LogUtil.class);
+
+logger.info(message);
+
 ```
