@@ -1,3 +1,15 @@
+## 安排
+
+> * 整理包括简单说明，最小pom文件和程序示例三部分
+> * json
+> * Log
+> * dubbo
+> * redis
+> * memcache
+> * mysql
+> * http
+> * web-app build script
+
 ## json
 > * 采用业界通用的jackjson库，各方面都优秀，不要用国内的fastJson，bug多且为了些许的快做了很多不标准的事。
 > * 建议采用mdfrontserver的简版。
