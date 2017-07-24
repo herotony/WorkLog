@@ -46,7 +46,7 @@ padding即填充模式，由于RSA加密算法中要加密的明文是必须要�
 ## 利用openssl工具生成p12文件
 ### 生成模长为2048的私钥
 > openssl genrsa -out private_key_for_mybank.pem 2048
->   * genrsa 指定生成rsa的密钥
+>   * genrsa 指定生成rsa的密钥,**<font color=Teal>实际这里只产生了private_key_for_mybank.pem的密钥文件，但此时公对应的钥已经确定了</font>**。
 >   * 生成名为private_key_for_mybank的pem格式的私钥文件
 >   * 2048的模长，越大密钥破解难度越大，效率也略低
 
@@ -54,24 +54,28 @@ padding即填充模式，由于RSA加密算法中要加密的明文是必须要�
 > openssl req -new -key private_key_for_mybank.pem -out rsaCertReq.csr
 >   * new 产生新的请求文件
 >   * key 指定对应的私钥文件 private_key_for_mybank.pem
+>   * <font color=Teal>所有的公钥文件，请求文件，都只能根据已产生的私钥文件来生成</font>，这里强调**只能**。
+>   * 这里产生的请求文件的内容包含了**<font color=LightCoral>私钥加密的签名数据和公钥</font>**以及组织信息等
+>   * 请求文件用来向证书颁发机构申请证书时必须有的一个数字文件，颁发机构根据公钥来解密私钥加密的内容来验签，同时审核通过后，将请求文件的公钥和组织信息打包到新生成的证书文件里返回给请求方。
+>
 
 ### 根据证书请求文件生成证书并指定过期时间
-> openssl x509 -req -days 3650 -in rsaCertReq.csr -signkey private_key_for_mybank.pem -out rsaCert.crt
->   * x509这是一种证书加密标准
+> openssl x509 -req -days 3650 -in rsaCertReq.csr -signkey authority_key_for_mybank.pem -out rsaCert.crt
+>   * x509这是一种证书加密标准,这是证书加密标准与公私钥无关。
 >   * -days 3650，指定了过期时间为10年
->   * -signkey 采用private_key_for_mybank.pem进行加签
+>   * -signkey 采用authority_key_for_mybank.pem进行加签，这部分应该是颁发机构用其自己的私钥生成的验签文件并随之产生的公钥打包到rsaCert.crt返回给申请方。
 
 ### 生成用于加密解密/加签验签的p12文件
-> openssl pkcs12 -export -out private_key.p12 -inkey private_key_for_mybank.pem -in rsaCert.crt
+> openssl pkcs12 -export -out private_key.p12 -inkey authority_key_for_mybank.pem -in rsaCert.crt
 >   * pckcs12 采用pckcs12标准生成p12文件
 >   * -inkey 指定生成p12的私钥文件
->   * -in 指定生成p12的证书
+>   * -in 指定需要**转换生成**p12格式的证书
 >   会提示输入密码，自行记住即可。
 
 ### 根据私钥文件生成pem格式公钥文件供Java使用
 > openssl rsa -in private_key_for_mybank.pem -out my_public_key.pem -pubout
 >   * -in 指定对应的私钥文件private_key_for_mybank.pem
->   * -pubout 公钥文件
+>   * -pubout 公钥文件选项
 
 ### 根据私钥文件生成pem格式私钥文件供Java使用
 > openssl pkcs8 -topk8 -in private_key_for_mybank.pem -out pkcs8_private_key.pem -nocrypt
