@@ -9268,7 +9268,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1485055629220" ID="ID_1546341522" MODIFIED="1500370102641" POSITION="right">
+<node CREATED="1485055629220" ID="ID_1546341522" MODIFIED="1500882431227" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -16995,7 +16995,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff3300" CREATED="1499414823342" FOLDED="true" ID="ID_976307202" MODIFIED="1500854223337" TEXT="perspective">
+<node COLOR="#ff3300" CREATED="1499414823342" ID="ID_976307202" MODIFIED="1500885476576" TEXT="perspective">
 <node COLOR="#006600" CREATED="1499414842458" ID="ID_633930199" MODIFIED="1499658397232">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -17451,7 +17451,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#006699" CREATED="1499415392342" ID="ID_1407481107" MODIFIED="1500510997969" TEXT="paycenter">
+<node COLOR="#006699" CREATED="1499415392342" FOLDED="true" ID="ID_1407481107" MODIFIED="1500886850003" TEXT="paycenter">
 <node COLOR="#0066cc" CREATED="1494921507794" FOLDED="true" ID="ID_1840202417" MODIFIED="1500459956868" TEXT="&#x652f;&#x4ed8;&#x6d41;&#x7a0b;">
 <node CREATED="1494921528261" FOLDED="true" ID="ID_1906817172" MODIFIED="1499415348832" TEXT="mdfrontserver&#x5165;&#x53e3;&#x53c2;&#x6570;">
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1494921540580" ID="ID_1403812803" MODIFIED="1494921908795">
@@ -18515,7 +18515,20 @@
 <node BACKGROUND_COLOR="#ffffcc" COLOR="#cc00ff" CREATED="1499672178719" ID="ID_568870470" LINK="MDFiles/2017/&#x65b9;&#x6cd5;&#x62e6;&#x622a;&#x7528;&#x4e8e;&#x65e5;&#x5fd7;&#x76d1;&#x63a7;.markdown" MODIFIED="1500631568560" TEXT="&#x65e5;&#x5fd7;&#x76d1;&#x63a7;">
 <icon BUILTIN="messagebox_warning"/>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" COLOR="#009933" CREATED="1499758317409" ID="ID_1836062550" LINK="MDFiles/2017/Java-SHA-1%20with%20RSA%20key%20for%20security%20communicate.markdown" MODIFIED="1499760388600" TEXT="&#x6c11;&#x751f;&#x7b7e;&#x540d;"/>
+<node BACKGROUND_COLOR="#ccffcc" COLOR="#009933" CREATED="1499758317409" ID="ID_1836062550" LINK="MDFiles/2017/Java-SHA-1%20with%20RSA%20key%20for%20security%20communicate.markdown" MODIFIED="1500867886143">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25968;&#23383;&#35777;&#20070;&#35814;&#35299;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node BACKGROUND_COLOR="#ffcccc" COLOR="#009999" CREATED="1500877892340" ID="ID_1367487923" LINK="MDFiles/2017/openssl&#x6574;&#x7406;.markdown" MODIFIED="1500877927004" TEXT="openssl&#x518d;&#x6574;&#x7406;"/>
+</node>
 <node BACKGROUND_COLOR="#ffffcc" COLOR="#006666" CREATED="1499767156175" ID="ID_1531250858" LINK="MDFiles/2017/Java&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;&#x4e0e;&#x6570;&#x5b57;&#x8bc1;&#x4e66;&#x5b9e;&#x4f8b;.markdown" MODIFIED="1499767196791" TEXT="java&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;&#x4e0e;&#x6570;&#x5b57;&#x8bc1;&#x4e66;"/>
 <node BACKGROUND_COLOR="#ccccff" COLOR="#009999" CREATED="1500342029148" ID="ID_430596877" LINK="MDFiles/2017/&#x5fae;&#x4f17;&#x94f6;&#x884c;&#x94b1;&#x5305;&#x63a5;&#x53e3;&#x6574;&#x7406;.markdown" MODIFIED="1500342077055" TEXT="&#x5fae;&#x4f17;&#x652f;&#x4ed8;&#x63a5;&#x53e3;"/>
 <node BACKGROUND_COLOR="#ccccff" COLOR="#339900" CREATED="1500445005592" ID="ID_1501729324" LINK="MDFiles/2017/&#x5fae;&#x4f17;&#x94f6;&#x884c;&#x94b1;&#x5305;&#x4ee3;&#x6536;&#x5355;&#x4e1a;&#x52a1;&#x6587;&#x6863;&#x6574;&#x7406;.markdown" MODIFIED="1500445064727" TEXT="&#x5fae;&#x4e2d;&#x4ee3;&#x6536;&#x5355;&#x4e1a;&#x52a1;&#x63a5;&#x53e3;"/>
@@ -18644,7 +18657,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0066cc" CREATED="1498470368247" ID="ID_1529207760" MODIFIED="1499666616724" TEXT="redis">
+<node COLOR="#0066cc" CREATED="1498470368247" FOLDED="true" ID="ID_1529207760" MODIFIED="1500860365734" TEXT="redis">
 <node CREATED="1498470373666" ID="ID_1501915630" LINK="MDFiles/2017/2017-06-21-redis-partitioning.markdown" MODIFIED="1499150477803" TEXT="redis-partitioning"/>
 <node CREATED="1498470479395" ID="ID_285558819" LINK="MDFiles/2017/2017-06-22-using-jedis.markdown" MODIFIED="1499150484819">
 <richcontent TYPE="NODE"><html>
@@ -18664,10 +18677,12 @@
 </node>
 <node BACKGROUND_COLOR="#ffcc99" COLOR="#0033cc" CREATED="1499149227398" ID="ID_373906361" LINK="MDFiles/2017/mysql-in-JavaApp.markdown" MODIFIED="1500631602161" TEXT="mysql in java"/>
 <node BACKGROUND_COLOR="#99ff99" COLOR="#cc00ff" CREATED="1500435180773" ID="ID_426636640" LINK="MDFiles/2017/some-tool-in-javaproject.markdown" MODIFIED="1500617509733" TEXT="some-tool-in-java-proj"/>
+<node BACKGROUND_COLOR="#ccccff" COLOR="#0033cc" CREATED="1500861509042" ID="ID_1673432504" LINK="MDFiles/2017/&#x77e5;&#x8bc6;&#x70b9;&#x6982;&#x5ff5;&#x96f6;&#x788e;&#x6536;&#x96c6;.markdown" MODIFIED="1500861559886" TEXT="&#x96f6;&#x788e;&#x6982;&#x5ff5;&#x6f84;&#x6e05;"/>
 </node>
 <node BACKGROUND_COLOR="#ffcccc" COLOR="#ff0000" CREATED="1500356961074" ID="ID_595443482" LINK="MDFiles/2017/&#x6392;&#x67e5;&#x8bb0;&#x5f55;.markdown" MODIFIED="1500357016086" TEXT="emergency">
 <icon BUILTIN="messagebox_warning"/>
 </node>
+<node BACKGROUND_COLOR="#ccffcc" COLOR="#cc00ff" CREATED="1500881997948" ID="ID_59893585" LINK="https://segmentfault.com/" MODIFIED="1500882046488" TEXT="segmentfault&#x56fd;&#x5185;&#x6280;&#x672f;&#x95ee;&#x7b54;&#x7f51;"/>
 </node>
 </node>
 </map>
