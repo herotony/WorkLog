@@ -157,6 +157,13 @@ A challenge password []:
 An optional company name []:
 ...
 ```
+##### 没有交互过程来生成请求文件
+
+> * 此例为webank文档提供
+
+```
+openssl req -new -key nginx.key -out nginx.csr -subj "/CN=appid/OU=it-dept/O=shanhui/L=BeiJing/ST=GuangDong/C=CN"
+```
 
 ### CA服务器收到csr请求文件生成证书
 
