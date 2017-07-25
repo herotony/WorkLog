@@ -26,6 +26,32 @@ select trade_no ,consume_count,FROM_UNIXTIME(create_time/1000,'%Y-%m-%d %T') add
 > * mysql的Dead lock导致丢单依赖补单
 > * hashmap未采用多线程版本concurrentHashMap，导致时间转换失败，已修正，此前采用多尝试一次机制也能很大改善。
 
+### dubbo分发链接处理
+
+> * 鉴于要根据链接区分服务器，对微信和支付宝通道在nginx上根据链接做区分，为此修改dubbo配置
+
+#### 客户端dubbo配置修改
+
+> * 这里采用了同样的**interface**，不同的bean id。
+
+![dubbo reference](images/07/dubbo-ref-clientside.jpg)
+
+#### 服务端dubbo配置修改
+
+> * 这里同样采用了相同的**ref bean**引用，不同的**path**配置，<font color=LightCoral>注意这里path必须客户端配置的id完全相同!</font>
+
+![dubbo service](images/07/dubbo-service-serverside.jpg)
+
+#### Java程序中如此应用
+
+```java
+    @Autowired
+    private TradeService tradeService;
+
+    @Autowired
+    private TradeService alipayTradeService;
+```
+
 ## notifyserver
 > * 必须消息缓存体和队列缓存体分开，不能是同一服务器同一端口的redis，否则无法正常工作。
 
