@@ -36,3 +36,17 @@ Okay，现在就可以开始远程调试了。
 * Shift+F8 Step out
 * Alt+F9 运行至光标处
 * F9 恢复程序
+
+#### 路人笔记
+
+虽然很早以前就只有Eclipse和IDEA都支持远程调试功能的，但是基本没怎么使用过，今天因为紧急处理一个问题，而本地环境搭建起来比较麻烦，所以就使用了IDEA的远程调试功能。因此写一篇文章记录一下。
+1. 首先在IDEA中check出来你要调试的工程的代码，假设工程的名字为A。然后在IDEA打开这个工程。
+2. 因为我们用的是Tomcat，所以在IDEA中点击右上角那个“Edit Configurations”按钮，然后在弹出的界面中点击左上角的加号，选择tomcat server->remote
+3. 在弹出的的界面中填写服务器的ip和工程的端口。
+4. 然后点击那个弹出框的Starup/Connection选项卡，点击debug按钮，可以看到下面的文本框中有一段类似于下面的文字：
+
+```
+-Xdebug -Xrunjdwp:transport=dt_socket,address=55890,suspend=n,server=y
+```
+5. 将文本框中的这段话复制，然后登陆自己的远程机器，修改配置，在**JAVA_OPTS属性**中增加上面的那段话。并**<font color=Teal>重启tomcat</font>**。
+6. 然后回到自己的idea点击debug就可以加断点调试了。profile什么的都不需要选择。
