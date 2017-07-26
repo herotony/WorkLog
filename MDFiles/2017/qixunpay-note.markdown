@@ -1,7 +1,7 @@
 ## 概述
 
 > * 本文档记录简版复刻交易模块项目。
-
+> * 容器部分不再考虑resin,就专心搞tomcat+nignx的组合就好了，毕竟免费，可考虑后续做个resin/tomcat的压测对比。
 ### 版本设置
 
 > * 在工程的根目录pom中的properties节点中进行统一管理。
@@ -41,7 +41,10 @@
 ##### log日志最小依赖
 
 > * 自动会将依赖的slf4j-api,logback-core和commons-logging引入
-> * 配置**logback.xml**放在WEB-INF目录中或工程的resources目录下即可。
+> * 配置**logback.xml**必须放在工程的resources目录下即可，这样才默认打包到classes目录下被classpath找到。
+> * logack.xml中的file万无一失请**使用绝对路径**。
+>     * windows举例: d:/default/logs/default.log
+>     * linux举例: /data/logs/default.log
 
 ```
       <dependency>
