@@ -11,4 +11,8 @@
 > * 需要修改mdfrontserver,mdpaygate工程，需要修改dubbo配置和mdfrontserver调用处，需要本地模拟测试。
 > * 本周一个是搞定idea 远程调试，一个是本地dubbo搭建笔记和修改。今天搞定idea远程调试。
 >       * 已修改一版，待测试，若通过则可行。
-> * 修改dubbo配置能实现链接分开访问,稍后做整理
+> * 修改dubbo配置能实现链接分开访问已测试通过,稍后做整理
+
+### 7.26
+
+> * web-app远程调试整理，简单做了个asp.net的httpruntime.cache的demo给胡正。
