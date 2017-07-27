@@ -16,3 +16,9 @@
 ### 7.26
 
 > * web-app远程调试整理，简单做了个asp.net的httpruntime.cache的demo给胡正。
+
+### 7.27
+
+> * 配合新的第三方b扫c接口联调。
+> * 所谓idea结合tomcat的调试已经都看过了，那么今天，明天后天，整理spring mvc的请求流程，结合电子书整理，并出demo。包括异步部分。
+> * 明天mdpaygate的http时长设置为6秒。
