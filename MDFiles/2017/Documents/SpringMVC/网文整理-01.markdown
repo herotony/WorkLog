@@ -71,13 +71,32 @@ JSP：（Java Server Page）：一种在服务器端执行的web组件，**是�
 
 ### 服务到工作者模式，实现者就有Spring MVC
 
+#### 时序图
+
+![server-work](images/服务到工作者模式时序图.jpg)
+
 > * 也是web mvc，**<font color=Teal>FrontController + ApplicationController + PageController + Context</font>**
 >     1. <font color=Teal>FrontController</font>:负责为View层提供统一的访问出入口点
 >          * 从而避免Model2中出现的重复的控制逻辑（由前端控制器统一回调相应的功能方法，如前边的根据submitFlag=login转调login方法）
 >          * 并且可以为多个请求提供**共用的逻辑**（如准备上下文等等），**<font color=Teal>这里共享机制采用ThreadLocal模式</font>**。
 >          * 将选择具体视图和具体的功能处理（如login里边封装请求参数到模型，并调用业务逻辑对象）分离,利用**ModelAndView对象**来解耦双方之间的耦合。
+>     2. <font color=Teal>ApplicationController</font>:应用控制器,前端控制器分离选择具体视图和具体的功能处理之后，需要有人来管理，**应用控制器就是用来<font color=Blue>选择</font><font color=LightCoral>具体视图技术（视图的管理）</font>和<font color=YellowGreen>具体的功能处理（页面控制器/命令对象/动作管理）</font>，一种策略设计模式的应用，可以很容易的切换视图/页面控制器**，相互不产生影响。
+>     3. <font color=Teal>PageController(Command)</font>:页面控制器/动作处理器
+>
+>              1. 负责功能处理代码的调用
+>              2. 收集参数并封装参数到模型
+>              3. 调用业务对象处理模型来处理业务
+>              4. 返回视图名称给前端控制器
+>
+>     4. <font color=Teal>Context上下文</font>:我们可以将最终用于展示的Model数据存在Context中，这个Context采用ThreadLocal模式实现共享。
+> * 这么分层的好处如下：
+>     1. 模型和视图的分离
+>     2. 控制器中的控制逻辑与业务功能的分离
+>     3. 控制器中的视图选择和具体视图技术实现的分离
+>     4. 轻薄的web表现层:**<font color=Teal>控制器</font>**只负责收集封装请求参数到模型对象，然后启动业务对象处理业务，根据返回视图名称调用具体的视图对象，**<font color=Teal>所有这些只是个壳</font>**
 
+#### SpringMVC的服务到工作者模式的实现
 
-#### 时序图
+![springMVC](images/SpringMVC-01.jpg)
 
-![server-work](images/服务到工作者模式时序图.jpg)
+> 1. 这里前端控制器和应用控制器合二为一，用DispatcherServlet实现。
