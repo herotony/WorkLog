@@ -1,0 +1,74 @@
+### 接口通讯规范
+
+分为两部分：web api和web browser
+>  * web api：实际对接就是走这个，也就是后台之间的交互。
+>  * web browser：多用于临时测试，用来确认接口是否正常等,我一般采用**<font color=YellowGreen>Google Chrome的Advanced RESTful API插件</font>**。
+
+#### 如何加签
+
+1. 必须采用https通讯，本地生成rsa公私钥并上传公钥给网商银行同时获取网商给我们的**公钥（这里用于验签）**。
+2. 由于采用https通讯，则必须安装或者拷贝相应的网商银行的证书文件。
+3. 用本地**<font color=Teal>私钥进行加签</font>**，**加签算法采用sha256withrsa**，注意此前本地生成的公私钥使用**2048位以上**的长度才可。
+4. **<font color=Teal>加签后获取的值必须进行BASE64转码</font>**，防止特殊字符被意外转义而验签失败。
+5. 加签的两种模式
+    1. **整体报文价签**，此时采用Xml格式，有官方demo,**对于web browser模式**，即联调测试，只能采用这个加签方法。具体说明如下：
+        * 根据HTTP协议要求，传递参数的值中如果存在**<font color=DarkCyan>特殊字符（如：&、@等），那么该值需要做URLEncoding</font>**，这样请求接收方才能接收到正确的参数值。**这种情况下，待签名数据应该是原生值而不是encoding之后的值(<font color=YellowGreen>加签必须是原值哦</font>)**。例如：调用某接口需要对请求参数email进行数字签名，那么待签名数据应该是email=test@msn.com，而不是email=test%40msn.com。对数据组里的每一个值从a到z的顺序排序，若遇到相同首字母，则看第二个字母，以此类推。排序完成之后，再把所有数组值以“&”字符连接起来，如：
+        * Version=1.0&Appid=20130808888&Function=alipay.mobile.public&ProductId=P001&Notify_url=http%3A%2F%2Fwww.test.com%2Falipay%2Fnotify_url.jsp
+
+        * 如果参数值为空（空和空格），那么不纳入签名串拼接。这串字符串便是待签名字符串。特殊字符的说明：数字签名后，对签名串需要进行一次**<font color=YellowGreen>URL Encoding</font>**，然后才进行GET/POST。
+    2. **部分业务参数参与加签**，估计会采用这种，具体为：按报文中业务参数出现的顺序，将各**加签业务参数的<font color=Blue>值</font>**通过**<font color=red>英文竖线“|”拼接</font>**成签名要素串；例如“102100033452|CNY123456|beps.101.001.01|”。**最后一个业务要素值后面也有竖线“|”**；**<font color=Darkorange>取金额字段作为加签要素时，应包括该金额对应的货币符号，例如格式CNY123456</font>**。对于需加签业务参数的值，无须补齐位数，**并截断两端空白字符**。空白字符，指空格（0x20）、制表(0x09)、回车(0x0d)、换行(0x0a)四个字符。如加签业务参数没有在报文中出现，或其值为全空白（即截断两端空白字符后长度为0），则拼接签名要素串时忽略该加签业务要素。特殊字符的说明：数字签名经BASE64转码后放置到报文的数字签名域，由于BASE64转码后的值可能包含回车符，因此在把数字签名加入到报文中时，**应避免使用Dom的API操作，否则Dom的API可能会对数字签名中的特殊字符进行转义**，从而导致接收方验签失败。例如，Dom API会将数字签名的回车符转换为“&#13;”
+
+#### 如何加密
+
+支持两种通讯模式，一种是走https，一种是走vpn，第一种需要加密数据，第二种无需加密数据。
+对于第一种很简单，采用**AES-128对称加密算法**进行数据加密，网商会单独分配一个对称密钥给我们的。
+ * 公网：风险高，报文指令传输使用https协议，文件传输使用sftp协议（开通白名单），适用于对风险要求不高的业务交互
+ * 专线：风险低，报文指令传输支持http/https/socket协议，文件传输使用sftp协议，适用于对风险要求高的业务交互，如涉及资金交易等对于稳定性要求较高的业务，支持多条通讯链路切换机制，具备一定的容灾能力。
+
+### 交易地址
+
+这里暂时只列出交易环节的地址
+
+#### 测试环境
+不同在域名：alipay**dev**.com
+ * https://fcsupergw.dl.alipaydev.com/open/api/common/requestasync.htm
+#### 预发布环境
+不同在域名：fcopen**pre**.mybank.cn
+ * https://fcopenpre.mybank.cn/open/api/common/requestasync.htm
+#### 正式生产环境亦即线上环境
+不同在域名：fcopen.mybank.cn
+ * https://fcopen.mybank.cn/open/api/common/requestasync.htm
+
+### 业务场景
+
+#### 移动刷卡b->c
+超过金额限制或者次数限制才需要输入支付密码。
+##### 流程图
+![btoc](images/08/b-c-on-mybank.cn.png)
+##### 时序图
+![btocflow](images/08/b-c-on-mybank-flow.cn.png)
+##### 场景截图
+![btocflow](images/08/b-c-on-mybank-stage01.png)
+#### c->b跳转H5页面支付
+每次必须输入支付密码的。
+##### 官方教程链接
+https://doc.open.alipay.com/docs/doc.htm?&docType=1&articleId=105672
+##### 业务流程描述
+1. 本接口只负责下单，**<font color=Teal>完成支付</font>**则由H5页面内置的**<font color=Teal>微信或支付宝JS插件</font>**完成。
+2. 完成支付后，会回调我们的页面通知支付结果。
+3. 无论支付宝或者微信都需要获取用户授权，如何操作请参考如下链接文档。
+    * 支付宝：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7386797.0.0.p9mKXe&treeId=53&articleId=104114&docType=1
+    * 微信：https://mp.weixin.qq.com/wiki/17/c0f37d5704f0b64713d5d2c37b468d75.html
+
+##### 场景截图
+* 扫码，扫商家二维码
+
+![ctob](images/08/c-b-on-mybank-stage01.cn.png)
+
+* 支付,每次必须输入支付密码
+
+![ctob2](images/08/c-b-on-mybank-stage012.cn.png)
+![ctob2](images/08/c-b-on-mybank-stage02.cn.png)
+
+##### 时序图
+![ctob](images/08/c-b-on-mybank.cn.png)
