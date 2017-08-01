@@ -1,0 +1,858 @@
+## org.aopalliance
+### 概览
+
+* 利用了**<font color=green>org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator</font>**来拦截监控相应的Bean实例的方法，包括方法的执行日志和方法的执行性能(至于具体监控哪个方法，则由设置的拦截器决定，BeanNameAutoProxyCreator则只负责类似Proxy方式创建相应的Bean实例来搭建拦截器和Bean实例的桥接作用)，非常不错的实际应用，值得学习和效仿。
+* 拦截器目前主站有两种，一种用来性能监控，一种用来日志监控，Java特有的AOP拦截功能非常适宜统一日志监控标准并进而标准化监控编码体系的建立。
+* aop方法拦截器很简单，一定是**<font color=SandyBrown>所有</font>拦截器**都在方法调用前介入，然后invocation.proceed()执行(**不管多少个拦截器，所有拦截器中的invocation.proceed()实际都是指向同一方法的指针，也就只能执行一次而已，无需多虑**)具体的方法，再在之后进行扫尾处理，非常适于记录日志和耗时统计等统一的日志监控逻辑工作。
+
+### aop官方**方法拦截接口**定义
+
+* 实现了invoke方法就实现了一个方法拦截器，就这么简单。
+
+```java
+package org.aopalliance.intercept;
+
+/**
+ * Intercepts calls on an interface on its way to the target. These
+ * are nested "on top" of the target.
+ *
+ * <p>The user should implement the {@link #invoke(MethodInvocation)}
+ * method to modify the original behavior. E.g. the following class
+ * implements a tracing interceptor (traces all the calls on the
+ * intercepted method(s)):
+ *
+ * <pre class=code>
+ * class TracingInterceptor implements MethodInterceptor {
+ *   Object invoke(MethodInvocation i) throws Throwable {
+ *     System.out.println("method "+i.getMethod()+" is called on "+
+ *                        i.getThis()+" with args "+i.getArguments());
+ *     Object ret=i.proceed();
+ *     System.out.println("method "+i.getMethod()+" returns "+ret);
+ *     return ret;
+ *   }
+ * }
+ * </pre> */
+
+public interface MethodInterceptor extends Interceptor {
+
+    /**
+     * Implement this method to perform extra treatments before and
+     * after the invocation. Polite implementations would certainly
+     * like to invoke {@link Joinpoint#proceed()}.
+     *
+     * @param invocation the method invocation joinpoint
+     * @return the result of the call to {@link
+     * Joinpoint#proceed()}, might be intercepted by the
+     * interceptor.
+     *
+     * @throws Throwable if the interceptors or the
+     * target-object throws an exception.  */
+    Object invoke(MethodInvocation invocation) throws Throwable;
+}
+```
+
+#### 设置MonitorLog注释属性
+
+```java
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Inherited;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+/**
+ * 仅仅定义一个注释属性MonitorLog
+ * Retention.RUNTIME代表该注释属性jvm在运行期会有效识别
+ * ElementType.METHOD代表该属性仅用于注释方法
+ * public @interface代表MonitorLog是一个注解类
+ */
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+@Inherited
+@Documented
+public @interface MonitorLog {
+}
+```
+
+#### 监控日志拦截器
+
+```java
+
+import java.lang.annotation.Annotation;
+
+import org.aopalliance.intercept.MethodInterceptor;
+import org.aopalliance.intercept.MethodInvocation;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.QiXun.model.interceptor.MonitorLog;
+
+
+/**
+ * 监控日志拦截器，统一记录方法的输入参数，输出参数以及耗时
+ */
+public class MonitorLogInterceptor implements MethodInterceptor {
+
+	  //日志统一通过visitLogger记录到visit目录下
+    private static final Logger logger = LoggerFactory.getLogger("visitLogger");
+
+    @Override
+    public Object invoke(MethodInvocation invocation) throws Throwable {
+        long begin = System.currentTimeMillis();
+        String name = invocation.getMethod().getDeclaringClass().getSimpleName() + "." + invocation.getMethod().getName();
+        Annotation[] annotations = invocation.getMethod().getAnnotations();
+        /* 是否需要打印访问日志 */
+        boolean isLog = false;
+        if (annotations != null && annotations.length > 0) {
+            for (Annotation annotation : annotations) {
+                //这是关键点，用MonitorLog属性注释的方法才记录监控日志
+                if(annotation instanceof MonitorLog){
+                    isLog = true;
+                    StringBuilder builder = new StringBuilder();
+                    builder.append("{visitMethodIn:")
+                            .append(name).append(",");
+                    Object[] params = invocation.getArguments();
+                    if(params != null){
+                        builder.append("params:").append("[");
+                        for(int i=0; i<params.length; i++){
+                            builder.append(params[i]);
+                            if(i!=params.length-1){
+                                builder.append(",");
+                            }
+                        }
+                        builder.append("]").append("}");
+                    }
+                    if(logger.isInfoEnabled()){
+                    	logger.info(builder.toString());
+                    }
+                    break;
+                }
+            }
+        }
+
+        Object result = null;
+        try {
+            result = invocation.proceed();
+        } finally {
+            if(isLog){
+                long end = System.currentTimeMillis();
+                StringBuilder builder = new StringBuilder();
+                builder.append("{visitMethodOut:")
+                        .append(name).append(",")
+                        .append("result:").append(result).append(",");
+                builder.append("useTime:").append(end-begin);
+                builder.append("}");
+                if(logger.isInfoEnabled()){
+                	logger.info(builder.toString());
+                }
+            }
+        }
+        return result;
+    }
+}
+```
+
+#### 日志监控应用举例
+
+* 用MonitorLog属性注释的方法将会被日志监控拦截器记录相应日志
+
+```java
+public interface OrderQueryFsService {
+
+	/**
+	 * 通过口令码查询订单信息
+	 *
+	 * @param orderQueryParam
+	 * @return
+	 */
+	@MonitorLog
+	public CallResult<OrderInfoModel> queryOrderByCode(OrderQueryParam orderQueryParam);
+
+}
+```
+
+#### 监控性能拦截器
+
+* 通过Spring框架中的BeanNameAutoProxyCreator来监控该类绑定的**DAO,**Service...(**代表任意层级任意名称以DAO或Service结尾的文件名路径)
+
+##### Spring Xml配置
+
+* 这里用interceptorChain拦截器做所有拦截器的入口并用BeanNameAutoProxyCreator来实现与具体的类**DAO...等绑定来实现性能监控。
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
+	default-autowire="byName">
+
+	<!-- ========================= 定义服务框架 ========================= -->
+	<bean id="interceptorChain"
+		class="com.tuan.core.common.aop.util.InterceptorChain">
+		<property name="chains">
+			<list>
+				<ref bean="performanceMonitor" />
+				<ref bean="monitorLogInterceptor" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="serviceProxyCreator" class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<property name="interceptorNames">
+			<list>
+				<value>interceptorChain</value>
+			</list>
+		</property>
+		<property name="beanNames">
+			<value>*Controller,*Service,*Manager,*DAO</value>
+		</property>
+	</bean>
+
+	<bean id="performanceMonitor" class="com.tuan.core.common.aop.pref.PerformanceMonitorInterceptor">
+		<property name="threshold">
+			<value>200</value>
+		</property>
+	</bean>
+	<bean id="monitorLogInterceptor" class="com.wowo.mdfrontserver.interceptor.MonitorLogInterceptor">
+	</bean>
+</beans>
+```
+
+##### 监控性能拦截器类
+
+```java
+import java.lang.reflect.Method;
+
+import org.aopalliance.intercept.MethodInterceptor;
+import org.aopalliance.intercept.MethodInvocation;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import com.QiXun.core.common.pref.Profiler;
+
+public class PerformanceMonitorInterceptor implements MethodInterceptor {
+
+    private final static Log logger    = LogFactory.getLog(PerformanceMonitorInterceptor.class);
+    //缓存LogModel方法
+    private static volatile Class<?> GET_LOGMODEL_CLASS = null;
+    private static volatile Method GET_LOGMODEL_METHOD = null;
+
+    /** 以毫秒表示的阈值 */
+    private int              threshold = 100;
+
+    /**
+     * 缺省的构造方法.
+     */
+    public PerformanceMonitorInterceptor() {
+        super();
+    }
+
+    /**
+     * 判断方法调用的时间是否超过阈值，如果是，则打印性能日志.
+     *
+     * @see org.aopalliance.intercept.MethodInterceptor#invoke(org.aopalliance.intercept.MethodInvocation)
+     */
+    public Object invoke(MethodInvocation invocation) throws Throwable {
+        String name = invocation.getMethod().getDeclaringClass().getName() + "."+ invocation.getMethod().getName();
+
+        Profiler.start("Invoking method: " + name);
+
+        try {
+            return invocation.proceed();
+        } finally {
+            Profiler.release();
+            if(Profiler.isReleased()){
+                /*这个判断，保证了PerformanceMonitorInterceptor兼容了PerformanceInstrumentInterceptor的功能；*/
+                long elapseTime = Profiler.getDuration();
+                if (elapseTime > threshold) {
+                    StringBuilder builder = new StringBuilder();
+                    builder.append(" ").append(name);                           //方法
+                    builder.append(" ").append(threshold).append(" (ms)");      //阈值 (ms)
+                    builder.append(" ").append(elapseTime).append(" (ms)\r\n"); //实际执行时间 (ms)
+                    builder.append(Profiler.dump());
+                    //2015年7月22日 增加resin X%标签
+                    String resinX = getResinX();
+                    if(resinX!= null && !"".equals(resinX)){
+                    	 logger.info(resinX+":"+builder.toString());
+                    }
+                    else {
+                    	 logger.info(builder.toString());
+                    }
+                } else {
+                    if (logger.isDebugEnabled()) {
+                        StringBuilder builder = new StringBuilder();
+                        builder.append(" ").append(name);                            //方法
+                        builder.append(" ").append(elapseTime).append(" (ms)\r\n");  //实际执行时间为 (ms)
+                    }
+                }
+
+                Profiler.reset();
+            }
+        }
+    }
+
+
+	   /**
+     * @param threshold The threshold to set.
+     */
+    public void setThreshold(int threshold) {
+        this.threshold = threshold;
+    }
+    /**
+     * 使用反射方法获取resin中的tag
+     * @return
+     */
+    private String getResinX() {
+    	try{
+    		if(GET_LOGMODEL_METHOD == null){
+    			synchronized(this){
+    				if(GET_LOGMODEL_METHOD == null){
+    					@SuppressWarnings("rawtypes")
+        	    		Class logModelClass = Class.forName("com.caucho.util.LogModel");
+    					GET_LOGMODEL_CLASS = logModelClass;
+        	    		@SuppressWarnings("unchecked")
+        	    		Method method=logModelClass.getMethod("getLogModel");
+        	    		GET_LOGMODEL_METHOD = method;
+        	    		logger.info("init GET_LOGMODEL_CLASS && GET_LOGMODEL_METHOD");
+    				}
+    			}
+    		}
+    		//取到logModel线程单例
+    		Object logModel = GET_LOGMODEL_METHOD.invoke(GET_LOGMODEL_CLASS);
+    		Method method = logModel.getClass().getMethod("getTag");
+    		//取得tag
+    		Object resinTag = method.invoke(logModel);
+    		return (String)resinTag;
+    	}
+    	catch(Exception e){
+    		logger.debug("failed to get resin LogModel");
+    	}
+ 		return null;
+ 	}
+}
+```
+
+##### 分析器Profiler
+
+```java
+import java.text.MessageFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import org.apache.commons.lang.ObjectUtils;
+import org.apache.commons.lang.StringUtils;
+
+/**
+ *
+ *用于性能监控器类中分析耗时
+ */
+public class Profiler {
+
+	private static final ThreadLocal<Entry> entryStack = new ThreadLocal<Entry>();
+
+    public static void start() {
+        start((String) null);
+    }
+
+    public static void start(String message) {
+        startPrivate(message);
+    }
+
+    public static void start(Message message) {
+        startPrivate(message);
+    }
+
+    private static void startPrivate(Object message) {
+    	Entry entry = (Entry) entryStack.get();
+
+    	if( null == entry ){
+    		entryStack.set(new Entry(message, null, null));
+    	} else {
+    		enterPrivate(message);
+    	}
+
+    	return;
+    }
+
+    public static void reset() {
+        entryStack.set(null);
+    }
+
+    public static void enter(String message) {
+    	enterPrivate(message);
+    }
+
+    public static void enter(Message message) {
+    	enterPrivate(message);
+    }
+
+    private static void enterPrivate(Object message){
+        Entry currentEntry = getCurrentEntry();
+
+        if (currentEntry != null) {
+            currentEntry.enterSubEntry(message);
+        }
+    }
+
+    public static void release() {
+        Entry currentEntry = getCurrentEntry();
+
+        if (currentEntry != null) {
+            currentEntry.release();
+        }
+    }
+
+    public static long getDuration() {
+        Entry entry = (Entry) entryStack.get();
+
+        if (entry != null) {
+            return entry.getDuration();
+        } else {
+            return -1;
+        }
+    }
+
+    public static boolean isReleased() {
+    	Entry entry = (Entry) entryStack.get();
+
+    	if(entry != null){
+    		return entry.isReleased();
+    	} else {
+    		return true;
+    	}
+    }
+
+    public static String dump() {
+        return dump("", "");
+    }
+
+    public static String dump(String prefix) {
+        return dump(prefix, prefix);
+    }
+
+    public static String dump(String prefix1, String prefix2) {
+        Entry entry = (Entry) entryStack.get();
+
+        if (entry != null) {
+            return entry.toString(prefix1, prefix2);
+        } else {
+            return "";
+        }
+    }
+
+    public static Entry getEntry() {
+        return (Entry) entryStack.get();
+    }
+
+    private static Entry getCurrentEntry() {
+        Entry subEntry = (Entry) entryStack.get();
+        Entry entry = null;
+
+        if (subEntry != null) {
+            do {
+                entry = subEntry;
+                subEntry = entry.getUnreleasedEntry();
+            } while (subEntry != null);
+        }
+
+        return entry;
+    }
+
+    public static final class Entry {
+        private final List<Entry> subEntries = new ArrayList<Entry>(4);
+        private final Object      message;
+        private final Entry       parentEntry;
+        private final Entry       firstEntry;
+        private final long        baseTime;
+        private final long        startTime;
+        private long              endTime;
+
+        private Entry(Object message, Entry parentEntry, Entry firstEntry) {
+            this.message = message;
+            this.startTime = System.currentTimeMillis();
+            this.parentEntry = parentEntry;
+            this.firstEntry = (Entry) ObjectUtils.defaultIfNull(firstEntry, this);
+            this.baseTime = (firstEntry == null) ? 0 : firstEntry.startTime;
+        }
+
+        public String getMessage() {
+            String messageString = null;
+
+            if (message instanceof String) {
+                messageString = (String) message;
+            } else if (message instanceof Message) {
+                Message messageObject = (Message) message;
+                MessageLevel level = MessageLevel.BRIEF_MESSAGE;
+
+                if (isReleased()) {
+                    level = messageObject.getMessageLevel(this);
+                }
+
+                if (level == MessageLevel.DETAILED_MESSAGE) {
+                    messageString = messageObject.getDetailedMessage();
+                } else {
+                    messageString = messageObject.getBriefMessage();
+                }
+            }
+
+            return StringUtils.defaultIfEmpty(messageString, null);
+        }
+
+        public long getStartTime() {
+            return (baseTime > 0) ? (startTime - baseTime) : 0;
+        }
+
+        public long getEndTime() {
+            if (endTime < baseTime) {
+                return -1;
+            } else {
+                return endTime - baseTime;
+            }
+        }
+
+        public long getDuration() {
+            if (endTime < startTime) {
+                return -1;
+            } else {
+                return endTime - startTime;
+            }
+        }
+
+        public long getDurationOfSelf() {
+            long duration = getDuration();
+
+            if (duration < 0) {
+                return -1;
+            } else if (subEntries.isEmpty()) {
+                return duration;
+            } else {
+                for (int i = 0; i < subEntries.size(); i++) {
+                    Entry subEntry = (Entry) subEntries.get(i);
+
+                    duration -= subEntry.getDuration();
+                }
+
+                if (duration < 0) {
+                    return -1;
+                } else {
+                    return duration;
+                }
+            }
+        }
+
+        public double getPecentage() {
+            double parentDuration = 0;
+            double duration = getDuration();
+
+            if ((parentEntry != null) && parentEntry.isReleased()) {
+                parentDuration = parentEntry.getDuration();
+            }
+
+            if ((duration > 0) && (parentDuration > 0)) {
+                return duration / parentDuration;
+            } else {
+                return 0;
+            }
+        }
+
+        public double getPecentageOfAll() {
+            double firstDuration = 0;
+            double duration = getDuration();
+
+            if ((firstEntry != null) && firstEntry.isReleased()) {
+                firstDuration = firstEntry.getDuration();
+            }
+
+            if ((duration > 0) && (firstDuration > 0)) {
+                return duration / firstDuration;
+            } else {
+                return 0;
+            }
+        }
+
+        public List<Entry> getSubEntries() {
+            return Collections.unmodifiableList(subEntries);
+        }
+
+        private void release() {
+            endTime = System.currentTimeMillis();
+        }
+
+        /**
+         * 判断当前entry是否结束。
+         *
+         * @return 如果entry已经结束，则返回<code>true</code>
+         */
+        private boolean isReleased() {
+            return endTime > 0;
+        }
+
+        private void enterSubEntry(Object message) {
+            Entry subEntry = new Entry(message, this, firstEntry);
+
+            subEntries.add(subEntry);
+        }
+
+        private Entry getUnreleasedEntry() {
+            Entry subEntry = null;
+
+            if (!subEntries.isEmpty()) {
+                subEntry = (Entry) subEntries.get(subEntries.size() - 1);
+
+                if (subEntry.isReleased()) {
+                    subEntry = null;
+                }
+            }
+
+            return subEntry;
+        }
+
+        public String toString() {
+            return toString("", "");
+        }
+
+        private String toString(String prefix1, String prefix2) {
+            StringBuffer buffer = new StringBuffer();
+
+            toString(buffer, prefix1, prefix2);
+
+            return buffer.toString();
+        }
+
+        private void toString(StringBuffer buffer, String prefix1, String prefix2) {
+            buffer.append(prefix1);
+
+            String message = getMessage();
+            long startTime = getStartTime();
+            long duration = getDuration();
+            long durationOfSelf = getDurationOfSelf();
+            double percent = getPecentage();
+            double percentOfAll = getPecentageOfAll();
+
+            Object[] params = new Object[] { message, // {0} - entry信息
+                    new Long(startTime), // {1} - 起始时间
+                    new Long(duration), // {2} - 持续总时间
+                    new Long(durationOfSelf), // {3} - 自身消耗的时间
+                    new Double(percent), // {4} - 在父entry中所占的时间比例
+                    new Double(percentOfAll) // {5} - 在总时间中所旧的时间比例
+            };
+
+            StringBuffer pattern = new StringBuffer("{1,number} ");
+
+            if (isReleased()) {
+                pattern.append("[{2,number}ms");
+
+                if ((durationOfSelf > 0) && (durationOfSelf != duration)) {
+                    pattern.append(" ({3,number}ms)");
+                }
+
+                if (percent > 0) {
+                    pattern.append(", {4,number,##%}");
+                }
+
+                if (percentOfAll > 0) {
+                    pattern.append(", {5,number,##%}");
+                }
+
+                pattern.append("]");
+            } else {
+                pattern.append("[UNRELEASED]");
+            }
+
+            if (message != null) {
+                pattern.append(" - {0}");
+            }
+
+            buffer.append(MessageFormat.format(pattern.toString(), params));
+
+            for (int i = 0; i < subEntries.size(); i++) {
+                Entry subEntry = (Entry) subEntries.get(i);
+
+                buffer.append('\n');
+
+                if (i == (subEntries.size() - 1)) {
+                    subEntry.toString(buffer, prefix2 + "`---", prefix2 + "    "); // 最后一项
+                } else if (i == 0) {
+                    subEntry.toString(buffer, prefix2 + "+---", prefix2 + "|   "); // 第一项
+                } else {
+                    subEntry.toString(buffer, prefix2 + "+---", prefix2 + "|   "); // 中间项
+                }
+            }
+        }
+    }
+
+    public interface Message {
+        MessageLevel getMessageLevel(Entry entry);
+
+        String getBriefMessage();
+
+        String getDetailedMessage();
+    }
+
+    public static void main(String[] args){
+    	Profiler.start("test");
+
+    	try {
+			Thread.sleep(30);
+			Thread.sleep(30);
+		} catch (Exception e) {
+		}
+		finally{
+			Profiler.release();
+			System.out.println(Profiler.dump("www"));
+		}
+
+    }
+
+}
+```
+
+### aop官方**方法反射调用接口**定义
+
+* 这里主站将之用于实现InvokeChain，即针对某个方法提供**多个拦截器**，这里实现getMethod方法即可向拦截器提供方法拦截的功能。
+
+```java
+package org.aopalliance.intercept;
+
+import java.lang.reflect.Method;
+
+/**
+ * Description of an invocation to a method, given to an interceptor
+ * upon method-call.
+ *
+ * <p>A method invocation is a joinpoint and can be intercepted by a method
+ * interceptor.
+ *
+ * @see MethodInterceptor */
+public interface MethodInvocation extends Invocation
+{
+
+    /**
+     * Gets the method being called.
+     *
+     * <p>This method is a frienly implementation of the {@link
+     * Joinpoint#getStaticPart()} method (same result).
+     *
+     * @return the method being called.
+     */
+    Method getMethod();
+
+}
+```
+#### InterceptorChain
+
+```java
+package com.QiXun.core.common.aop.util;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.aopalliance.intercept.MethodInterceptor;
+import org.aopalliance.intercept.MethodInvocation;
+
+//这个也是个拦截器，但是该拦截器是多个拦截器的入口
+public class InterceptorChain implements MethodInterceptor {
+
+    private List<MethodInterceptor> chains = new ArrayList<MethodInterceptor>();
+
+
+    public Object invoke(MethodInvocation invocation) throws Throwable {
+        InterceptorChainSupport support = new InterceptorChainSupport(invocation,new ArrayList<MethodInterceptor>(chains));
+        return support.proceed();
+    }
+
+    public void setChains(List<MethodInterceptor> chains) {
+        this.chains = chains;
+    }
+
+}
+```
+
+#### InterceptorChainSupport
+
+* 这部分proceed方法的remove(0)有点疑惑的，一种可能是在其他处维护了，只是第一次启动才冗余运行一次，以后就在spring里维护了。
+* 事实的确如此，**spring框架中维护了完整的拦截器链的完整副本**，这里remove也就对了，<font color=blue>实际上这个InterceptorChain的拦截器在后续调用中就是空调用，提高效率以及去除冗余都必须要remove操作才合理</font>。
+
+```java
+package com.QiXun.core.common.aop.util;
+
+import java.lang.reflect.AccessibleObject;
+import java.lang.reflect.Method;
+import java.util.List;
+
+import org.aopalliance.intercept.MethodInterceptor;
+import org.aopalliance.intercept.MethodInvocation;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class InterceptorChainSupport implements MethodInvocation {
+
+    private final static Log  logger = LogFactory.getLog(InterceptorChainSupport.class);
+
+    private MethodInvocation  proxy;
+
+    private List<MethodInterceptor> chains;
+
+    public InterceptorChainSupport(MethodInvocation proxy, List<MethodInterceptor> chains) {
+        this.proxy = proxy;
+        this.chains = chains;
+    }
+
+
+    public Method getMethod() {
+        return proxy.getMethod();
+    }
+
+
+    public Object[] getArguments() {
+        return proxy.getArguments();
+    }
+
+
+    public AccessibleObject getStaticPart() {
+        return proxy.getStaticPart();
+    }
+
+
+    public Object getThis() {
+        return proxy.getThis();
+    }
+
+
+    public Object proceed() throws Throwable {
+        if (null != chains) {
+            if (chains.size() > 0) {
+                if (logger.isDebugEnabled()) {
+                    logger.debug(" [ " + Thread.currentThread().getId() + " ] Invoke Chanin [ "
+                                 + chains.size() + " ] , name is : " + chains.get(0).getClass());
+                }
+                //有拦截器，调用拦截器并退出，这段不太明白为啥是移除，需看官方文档，这里的疑点就是chains清空后，下次拦截器调用进来怎么办？
+                return chains.remove(0).invoke(this);
+            }
+        }
+        //没有拦截器，直接调用具体方法
+        return proxy.proceed();
+    }
+
+}
+```
+
+#### spring xml配置
+
+```xml
+  <bean id="interceptorChain"
+		class="com.QiXun.core.common.aop.util.InterceptorChain">
+		<property name="chains">
+			<list>
+          <!--定义了两个拦截器分别用于性能和日志监控-->
+				<ref bean="performanceMonitor" />
+				<ref bean="monitorLogInterceptor" />
+			</list>
+		</property>
+	</bean>
+```

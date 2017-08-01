@@ -1,0 +1,10 @@
+diff a/支付组.mm b/支付组.mm	(rejected hunks)
+@@ -16667,7 +16667,7 @@
+ </node>
+ </node>
+ <node CREATED="1499040089127" ID="ID_1915146799" MODIFIED="1499149222005" TEXT="&#x4e03;&#x6708;">
+-<node CREATED="1499040106457" ID="ID_402659952" LINK="MDFiles/2017/2017-07-03-1thweek-worklog.markdown" MODIFIED="1499161312210" TEXT="&#x7b2c;&#x4e00;&#x5468;">
++<node CREATED="1499040106457" FOLDED="true" ID="ID_402659952" LINK="MDFiles/2017/2017-07-03-1thweek-worklog.markdown" MODIFIED="1499241097552" TEXT="&#x7b2c;&#x4e00;&#x5468;">
+ <node CREATED="1499074324324" ID="ID_407498791" MODIFIED="1499074453187">
+ <richcontent TYPE="NODE"><html>
+   <head>

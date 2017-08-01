@@ -1,0 +1,121 @@
+## 微众银行钱包接口
+> * 微众银行隶属腾讯体系下的网商银行，等同于阿里系的网商银行。
+
+### 平台接入微众银行钱包接口
+
+> * 与该接口的交换必须事先验证，验证需要三步骤
+>     * 微众事先提供app_id以及相应的secret和user_id给平台接入方。
+>     * 获取AccessToken(同一平台全局唯一)，一般有效期2小时，7200秒,但请根据返回的expire_in/expire_time为准
+>     * 获取SignTicket (同一平台全局唯一)，一般有效期1小时，3600秒，但请根据返回的expire_in/expire_time为准
+>          * AccessToken/SignTicket可以缓存起来，**减少两次访问**，提高访问效率，但要注意定时更新。
+>     * 登录并获取nonceTicket(随机串，一次性有效，用过作废)，有效期2分钟，120秒
+>     * expire_in有效时长，单位秒;expire_time绝对失效时间，单位毫秒，请自行转换为具体时间。
+>     *入口AccessToken需要根据微众分配的secret(app_id密钥)来请求生成。**secret变了，所有该平台下的ticket全失效，须重新获取**。
+
+完成以上安全验证准备工作后，可进行具体的业务逻辑部分。
+
+##### 签名算法测试地址
+
+> * https://test-svrapi.webank.com/环境/api/base/signTest。
+> *请求必须是POST模式。
+
+##### 签名示例
+
+```java
+//signTicket有效期1小时，全局唯一，定时更新,此前需要从缓存中提取signTicket,如果没有需要
+//从webank去用AccessToken获取。
+public static string sign(List<string> values, string signTicket) {
+  if (values == null) {
+    throw new NullPointerException("values is null");
+  }
+  values.removeAll(Collections.singleton(null));// remove null
+  values.add(signTicket);
+  java.util.Collections.sort(values);
+  stringBuilder sb = new stringBuilder();
+  for (string s : values) {
+    sb.append(s);
+  }
+  try {
+    MessageDigest md = MessageDigest.getInstance("sha1");
+    md.update(sb.tostring().getBytes("UTF-8"));
+    string sign = bytesToHex(md.digest());
+    return sign;
+  } catch (Exception e) {
+    throw new RuntimeException(e);
+  }
+}
+```
+
+### 业务详解
+
+#### 登录钱包（这部分应该用不到，走线下手工途径）
+
+> * 这里我们是基于**公司**的，先开通公司账号。个人部分完全不考虑，不可能的，一堆证件验证。
+> * 这部分似乎没用！
+##### 公司信息同步接口
+>  * /api/wallet/server/coporation/sync?appId=shanhui&sign=XXX&nonce=XXX&version=XXX&timestamp=XXX
+>  * 请求方式POST
+>  *这部分可能也无需程序提交，毕竟是一次性的，待定。
+
+#### 订单支付流程
+##### 支付信息同步接口
+##### 支付结果查询接口
+
+> * 该接口表明，真正重要不可缺的参数有四个：webBankAppId,orderNo,merchantId,sequenceId。
+
+##### 支付结果通知接口
+##### 见证支付确认收获接口
+#### 回调签名方法
+#### 疑问点
+> * 支付接口必须提供数据对比现有现在支付有哪些不同
+>       * 现在支付参数:tradeVO:TradeVO{businessType=40, tradeId='W170717131000', subject='lm(azms)', payMoney=1, payType=61, shopID=8006009, supplierID=8000002, paymentType='1', body='lm(azms)', payLongitude='0', payLatitude='0', openId='ogIb-s2rzi8cDjaJnEbzNk7N0iL8', expireTime=119, notifyURL='null', showURL='null', tradeNo='null', outUser='37514430', externToken='null', appID='ogIb-s2rzi8cDjaJnEbzNk7N0iL8', appEnv='103', phoneIp='10.9.241.185', phoneImei='ogIb-s2rzi8cDjaJnEbzNk7N0iL8', callBackURL='null', merchantURL='null', thirdPayUserID='null', thirdPayUserName='null', thirdTradeNO='null', redirectPath='null', payBank='null', tradeGoodsAmount=0, wxAuthCode='null', multiPaySubAppId='null', multiPaySubMchId='null',branchappid='wxe28dc3846fc0e54c',branchpartnerId='1478765216257094',branchsignKey='HSb2e'}
+
+
+>     * 代码示例
+>
+>           ![现在支付](images/07/nowpay-ref.jpg)
+
+>     * 微信钱包参数
+
+>           ![微众钱包接口](images/07/webank-ref.jpg)
+>           * 示例
+>           * 分为两部分，一个是post的链接构成，一部分是post数据部分。
+>           * post链接构成(涉及验签部分数据):https://test-svrapi.webank.com/h/api/wallet/server/pay/syncTransOrderInfo?appId=WW000001&nonce=09650212221358023205967266386333&version=1.0.0&sign=1E143CB3E06B77DD72824A0D59438A28CC700F68&timestamp=1486626851
+>           * post数据（涉及支付部分数据）
+
+```json
+      {
+          "webankAppId":"WW000001",
+          "orderNo":"20170209155410",
+          "amount":1,
+          "reqTime":"20170110072636",
+          "merchantName":"webank",
+          "merchantAbbreviation":"webank",
+          "userId":"000030",
+          "redirectUrl":"http%3A%2F%2Ffb.ysf.mobi%2F%23%2Fusercenter%2Finvestment",
+          "goodsName":"book",
+          "sequenceId":"20170209155410",
+          "afterSightFlag":"1",
+          "transRecordSubList":[
+              {
+              "merchantUserId":"XFB0000014",
+              "subOrderNo":"201701101926361845-0",
+              "subAmount":"1",
+              "merchantName":"tencent",
+              "goodsInfoList":[
+                  {
+                  "goodsId":"3291",
+                  "goodsPrice":"1",
+                  "goodsName":"0109",
+                  "goodsNum":"1",
+                  "goodsDesc":"0109"
+                  }
+                ],
+                "billExpire":"1"
+              }
+          ],
+          "billExpire":"1"
+      }
+
+```
+> * 缺少直接退款接口。我们只是支付通道，没有商品的概念。

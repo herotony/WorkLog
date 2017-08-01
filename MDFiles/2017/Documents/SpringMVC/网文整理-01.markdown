@@ -1,0 +1,102 @@
+## web开发的改进过程
+
+这里仅描述Java的web开发技术的发展。下图为总的一个发展图。
+
+![web发展图01](images/web-tech-01.jpg)
+
+### CGI
+
+ （Common Gateway Interface）公共网关接口，一种在web服务端使用的脚本技术，使用C或Perl语言编写，用于接收web用户请求并处理，最后动态产生响应给用户，但**每次请求将产生一个进程，重量级**，一个请求一个进程在现在来看是不可接受的。
+
+### Servlet
+
+ 一种JavaEE web组件技术，是一种在服务器端执行的web组件，用于接收web用户请求并处理，最后动态产生响应给用户。但**每次请求只产生一个线程（而且有线程池），轻量级**，一个请求一个线程是极大改善也是现有一直在使用的技术。而且能利用许多JavaEE技术（如JDBC等）。本质就是在java代码里面输出 html流。但表现逻辑、控制逻辑、业务逻辑调用混杂，**即在.java文件里写各种html代码，前端界面设计人员完全无法参与进来，很不靠谱的开发模式**,如下图所示
+
+![servlet开发模式](images/servlet-dev-mode.jpg)
+
+### JSP
+
+JSP：（Java Server Page）：一种在服务器端执行的web组件，**是一种运行在标准的HTML页面中嵌入脚本语言（现在只支持Java）的模板页面技术。本质就是在html代码中嵌入java代码**。<font color=Teal>JSP最终还是会被编译为Servlet，不同于Servlet的是，是在.jsp文件里写各种java代码，同样很混乱</font>，**所不同的是前端人员可以参与进来，但仍然过多的java代码会导致失控**,只不过比纯Servlet开发页面更简单、方便。但表现逻辑、控制逻辑、业务逻辑调用还是混杂。
+
+![jsp开发模式](images/jsp-dev-mode.jpg)
+
+### Model-1
+
+> * 架构图
+
+![jpswithjavabean](images/model-1-dev-mode.jpg)
+
+> * Model-1：可以认为是JSP的增强版，可以认为是**<font color=LightCoral>jsp+javabean</font>**，Model-1架构中，JSP负责控制逻辑、表现逻辑、业务对象（javabean）的调用，只是比纯JSP简化了获取请求参数和封装请求参数。同样是不好的，在项目中应该严禁使用（或最多再demo里使用）。**稍微改善了java代码造成的混乱程度**
+
+
+![codesample](images/model-1-dev-mode-01.jpg)
+
+
+> * 特点：使用<jsp:useBean>标准动作，自动将请求参数封装为JavaBean组件；还必须使用java脚本执行控制逻辑。
+此处我们可以看出，使用<jsp:useBean>标准动作可以简化javabean的获取/创建，及将请求参数封装到javabean，再看一下Model-1架构
+
+![model-1](images/model-1-dev-mode-02.jpg)
+
+### Modle-2 亦即 web MVC
+
+> * 在JavaEE世界里，它可以认为就是Web MVC模型Model2架构其实可以认为就是我们所说的Web MVC模型，只是:
+>        * 控制器采用Servlet
+>        * 模型采用JavaBean
+>        * 视图采用JSP
+#### 架构图
+
+![model-2-devmode](images/model-2-dev-mode.jpg)
+
+#### 控制器部分
+
+>  * 该部分过于复杂，且每个模块需要一个控制器造成控制逻辑过于复杂，这是因为<font color=OrangeRed>直接处理request/response对象</font>导致这里一个业务链接对应了一个控制器，多个链接必定多个控制器，从而出现重复逻辑场面不可避免！。
+>  * <font color=Teal>请求参数到模型数据封装太麻烦，**应该交给框架去处理而不是控制器来解析封装**</font>。
+>  * 还负责选择视图，导致更换视图基本不可能或者很难，严重依赖servlet api，实际就是一个具体的servlet实例。
+>  * 相应的model也要随着视图更换而更换也很麻烦，同样是严重依赖servlet api的结果。
+>
+
+![controller](images/model-2-controller.jpg)
+
+#### 模型业务部分
+
+> * 负责模型部分的JavaBean过于庞大臃肿，囊括了三层结构，等价于domain+service+persistant三层。
+
+![model](images/model-2-modeldata.jpg)
+
+#### 视图界面部分
+
+> * 视图被绑定到了jsp，想要更换成velocity,freemaker,pdf,excel...很难很难，涉及model也得改，控制器逻辑也得改，各种麻烦。
+
+![view](images/model-2-view-ui.jpg)
+
+### 服务到工作者模式，实现者就有Spring MVC
+
+#### 时序图
+
+![server-work](images/服务到工作者模式时序图.jpg)
+
+> * 也是web mvc，**<font color=Teal>FrontController + ApplicationController + PageController + Context</font>**
+>     1. <font color=Teal>FrontController</font>:负责为View层提供统一的访问出入口点
+>          * 从而避免Model2中出现的重复的控制逻辑（由前端控制器统一回调相应的功能方法，如前边的根据submitFlag=login转调login方法）
+>          * 并且可以为多个请求提供**共用的逻辑**（如准备上下文等等），**<font color=Teal>这里共享机制采用ThreadLocal模式</font>**。
+>          * 将选择具体视图和具体的功能处理（如login里边封装请求参数到模型，并调用业务逻辑对象）分离,利用**ModelAndView对象**来解耦双方之间的耦合。
+>     2. <font color=Teal>ApplicationController</font>:应用控制器,前端控制器分离选择具体视图和具体的功能处理之后，需要有人来管理，**应用控制器就是用来<font color=Blue>选择</font><font color=LightCoral>具体视图技术（视图的管理）</font>和<font color=YellowGreen>具体的功能处理（页面控制器/命令对象/动作管理）</font>，一种策略设计模式的应用，可以很容易的切换视图/页面控制器**，相互不产生影响。
+>     3. <font color=Teal>PageController(Command)</font>:页面控制器/动作处理器
+>
+>              1. 负责功能处理代码的调用
+>              2. 收集参数并封装参数到模型
+>              3. 调用业务对象处理模型来处理业务
+>              4. 返回视图名称给前端控制器
+>
+>     4. <font color=Teal>Context上下文</font>:我们可以将最终用于展示的Model数据存在Context中，这个Context采用ThreadLocal模式实现共享。
+> * 这么分层的好处如下：
+>     1. 模型和视图的分离
+>     2. 控制器中的控制逻辑与业务功能的分离
+>     3. 控制器中的视图选择和具体视图技术实现的分离
+>     4. 轻薄的web表现层:**<font color=Teal>控制器</font>**只负责收集封装请求参数到模型对象，然后启动业务对象处理业务，根据返回视图名称调用具体的视图对象，**<font color=Teal>所有这些只是个壳</font>**
+
+#### SpringMVC的服务到工作者模式的实现
+
+![springMVC](images/SpringMVC-01.jpg)
+
+> 1. 这里前端控制器和应用控制器合二为一，用DispatcherServlet实现。
