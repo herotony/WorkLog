@@ -16,6 +16,13 @@
 select trade_no ,consume_count,FROM_UNIXTIME(create_time/1000,'%Y-%m-%d %T') add_time, FROM_UNIXTIME(last_consume_time/1000,'%Y-%m-%d %T') last_time from md_pay_queue_bak where consume_status=2 and create_time>UNIX_TIMESTAMP('2017-07-18 12:00')*1000 and create_time<UNIX_TIMESTAMP('2017-07-18 14:00')*1000  and (last_consume_time - create_time>60000) order by id desc;
 ```
 
+#### remedy补单
+
+```sql
+select order_id,FROM_UNIXTIME(add_time/1000) as atime,
+FROM_UNIXTIME(last_remedy_time/1000) as ltime,remedy_count from remedyorder order by order_id desc;
+```
+
 
 ### 多码合一 c扫b 回调
 > * c->b回调慢也有原因是我们的网络架构不合理，ngix上集成了太多项目的负载，后来做了调整。

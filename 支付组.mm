@@ -9270,7 +9270,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1485055629220" ID="ID_1546341522" MODIFIED="1501577999151" POSITION="right">
+<node CREATED="1485055629220" ID="ID_1546341522" MODIFIED="1501579181187" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -17002,7 +17002,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff3300" CREATED="1499414823342" ID="ID_976307202" MODIFIED="1501578031748" TEXT="perspective">
+<node COLOR="#ff3300" CREATED="1499414823342" ID="ID_976307202" MODIFIED="1501638159334" TEXT="perspective">
 <node COLOR="#006600" CREATED="1499414842458" ID="ID_633930199" MODIFIED="1499658397232">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -17458,7 +17458,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#006699" CREATED="1499415392342" ID="ID_1407481107" MODIFIED="1501551631081" TEXT="paycenter">
+<node COLOR="#006699" CREATED="1499415392342" ID="ID_1407481107" MODIFIED="1501638228924" TEXT="paycenter">
 <node COLOR="#0066cc" CREATED="1494921507794" ID="ID_1840202417" LINK="MDFiles/2017/Documents/TradeProject/TradeModule.markdown" MODIFIED="1501551647626" TEXT="&#x652f;&#x4ed8;&#x6d41;&#x7a0b;">
 <node CREATED="1494921528261" FOLDED="true" ID="ID_1906817172" MODIFIED="1501550651887" TEXT="mdfrontserver&#x5165;&#x53e3;&#x53c2;&#x6570;">
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1494921540580" ID="ID_1403812803" MODIFIED="1494921908795">
@@ -18546,6 +18546,38 @@
 </node>
 <node BACKGROUND_COLOR="#ffff99" COLOR="#009966" CREATED="1495784450025" ID="ID_1667787208" LINK="MDFiles/2017/Documents/SpringMVC/&#x7f51;&#x6587;&#x6574;&#x7406;-01.markdown" MODIFIED="1501292298038" TEXT="qixunpay">
 <node CREATED="1495784465400" ID="ID_1626757799" MODIFIED="1500944772855" TEXT="springMVC">
+<node CREATED="1495784478993" FOLDED="true" ID="ID_1234583414" MODIFIED="1500944781988">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35774;&#32622;maven<b><font color="#0066ff">&#20844;&#20849;&#24211;</font></b>&#38236;&#20687;&#31449;&#28857;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1495784494242" ID="ID_342224986" MODIFIED="1495784533744">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="2017/05/maven-setting-01.jpg" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1495784540510" ID="ID_1038374098" MODIFIED="1495784544655">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="2017/05/maven-setting-02.jpg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
 <node CREATED="1495784478993" FOLDED="true" ID="ID_322921690" MODIFIED="1500944781988">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -18687,7 +18719,9 @@
 <node CREATED="1499666619631" ID="ID_1276970600" LINK="MDFiles/2017/redis-sentinel.markdown" MODIFIED="1499666642499" TEXT="all about redis sentinel"/>
 </node>
 <node BACKGROUND_COLOR="#ffcc99" COLOR="#0033cc" CREATED="1499149227398" ID="ID_373906361" LINK="MDFiles/2017/mysql-in-JavaApp.markdown" MODIFIED="1500631602161" TEXT="mysql in java"/>
-<node BACKGROUND_COLOR="#99ff99" COLOR="#cc00ff" CREATED="1500435180773" ID="ID_426636640" LINK="MDFiles/2017/some-tool-in-javaproject.markdown" MODIFIED="1500617509733" TEXT="some-tool-in-java-proj"/>
+<node BACKGROUND_COLOR="#99ff99" COLOR="#cc00ff" CREATED="1500435180773" ID="ID_426636640" LINK="MDFiles/2017/some-tool-in-javaproject.markdown" MODIFIED="1500617509733" TEXT="some-tool-in-java-proj">
+<node BACKGROUND_COLOR="#ccffcc" COLOR="#006666" CREATED="1501640713821" ID="ID_1273358523" LINK="MDFiles/2017/Documents/TradeProject/MyBankHttpCore&#x8bb0;&#x5f55;.markdown" MODIFIED="1501656659366" TEXT="Apache HttpClient"/>
+</node>
 <node BACKGROUND_COLOR="#ccccff" COLOR="#0033cc" CREATED="1500861509042" ID="ID_1673432504" LINK="MDFiles/2017/&#x77e5;&#x8bc6;&#x70b9;&#x6982;&#x5ff5;&#x96f6;&#x788e;&#x6536;&#x96c6;.markdown" MODIFIED="1500861559886" TEXT="&#x96f6;&#x788e;&#x6982;&#x5ff5;&#x6f84;&#x6e05;"/>
 </node>
 <node BACKGROUND_COLOR="#ffcccc" COLOR="#ff0000" CREATED="1500356961074" ID="ID_595443482" LINK="MDFiles/2017/&#x6392;&#x67e5;&#x8bb0;&#x5f55;.markdown" MODIFIED="1500357016086" TEXT="emergency">
