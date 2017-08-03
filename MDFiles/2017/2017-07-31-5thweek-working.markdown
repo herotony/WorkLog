@@ -14,3 +14,8 @@ ubp项目的密码规则更改提测，采用feature/change-password-rule分支�
 * 今天看了httpclient 官方文档，只看了连接池部分，考虑采用，明天出demo。
 * 另外，本周可能会针对shadcenter项目做修改。
 * 明天必须完成连接池的demo并在后天要相关文档。
+
+### 8.3
+
+* 配合shadcenter项目，修改字段，需要重新刷es
+* 编制mbankhttpcore
