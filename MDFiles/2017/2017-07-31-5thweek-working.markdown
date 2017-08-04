@@ -19,3 +19,10 @@ ubp项目的密码规则更改提测，采用feature/change-password-rule分支�
 
 * 配合shadcenter项目，修改字段，需要重新刷es
 * 编制mbankhttpcore
+* shopcenter2平行环境不通,且折腾，mysql,zookeeper都不通
+* 平行环境的交易中心也不通，彻底脑子乱了，先搁置mybankhttpcore的事，今明两天搞定平行环境
+* 下周才开始mybankhttpcore验签和加密事宜。
+
+### 8.4
+
+* 继续mybankhttpcore的验签部分，下周才能连写联调

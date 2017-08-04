@@ -1,3 +1,7 @@
+## mdfrontserver
+
+* 2017.08.04,由于阿里云slb，11:56有次中断，导致堆积的请求集中打入，造成线程堆积，服务器响应慢，进而负责接收下单请求和支付成功回调处理的mdfrontserver线程大量堆积，从而md_pay_queue表大量堆积待处理的记录，造成订单延迟！
+
 ## mdpaygate
 
 ### 确认consumeQueue是否堆积导致延迟
