@@ -55,8 +55,9 @@ where create_time<UNIX_TIMESTAMP('2017-08-08 01:00:00')*1000 and create_time>UNI
 ```bash
 cat common-default.log.2017080812|grep -E "dbMsgConsumer.{1,}此次更新[0-9]{1,}条" --color=auto
 cat common-defalut.log.2017080812|grep -E "cost6:3[0-9]{3,}.{1,},slow" --color=auto
-cat common-default.log|grep -E "2017-08-08 17:5.{1,}notify inner.{1,}Time:[0-9]{1,}," -c
+cat common-default.log|grep -E "2017-08-08 17:5.{1,}notify inner.{1,},Time:[0-9]{1,}," -c
 ```
+* 触发点可能是现在支付出现了较多的3秒超时，但不应该导致我们系统崩溃，这个根除途径是分离queue处理系统以及采用httpclient线程池，一是提高性能一是减少线程切换等等。
 
 #### 正常堆积判断语句
 
