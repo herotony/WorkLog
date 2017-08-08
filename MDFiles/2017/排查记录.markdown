@@ -5,10 +5,58 @@
 ## mdpaygate
 
 ### 确认consumeQueue是否堆积导致延迟
+
 >  * 曾经广告项目导致shopcenter打穿redis，直接访问数据库导致shopcenter慢，进而连锁反映到mdfrontserver提取shopcenter信息慢，进而导致consumeQueue堆积。
 >  * mdtradecenter配置了rdm主从合一数据库连接，导致虽然绑定成功，但在mdfrontserver的paycallback的回调处理失败，order_status字段因主从延迟而不一致，导致consumeQueue消费失败，进而堆积。
 
+### 消费失败的consume failed查询语句
 
+目前消费重试机制
+
+  * 重试第一次，10秒后开始
+  * 重试第二次，1分钟后开始
+  * 重试第三次，5分钟后开始
+  * 重试第四次，15分钟后开始
+  * 重试第五次，60分钟后开始
+  * 重试第六次，2小时后开始
+  * 重试第七次，5小时后开始
+  * 重试第八次，10小时后开始
+
+* 八次以后，status设置为作废状态(4)，consume_status设置为消费成功（2）
+* 正常状态，status应该设置为删除状态（5）也代表frontserver处理成功返回success,consume_status设置为（2）
+
+```sql
+
+select * from mdpay.md_pay_queue_bak where status = 4 and create_time>UNIX_TIMESTAMP('2017-08-06 18:00')*1000 and consume_count>1
+
+```
+
+### 2017.08.06失败原因
+
+* 取unionid的接口当了，导致mdpaygate线程堆积，进而导致绑定订单大量失败，这里未采用线程池，也不恰当设置给unionid设置了6秒超时，重点采用连接池问题，还有个隐藏问题那就是，dubbo下增加服务器，负载是否均衡分布过来需要待查。
+* 现在支付的渠道下单失败也造成了部分影响。
+* 绑定订单失败这个梗为何迟迟不能恢复也要细查。
+* 2017.08.07中午又出现了故障，基本定位是IIS自动回收关闭导致，导致大量垃圾内存无法回收，今天暂时去掉了b->c的unionid提取，另外，unionid提取单分配站点。目前这块架构存在死循环模式，即newwap等frontserver,paygate等newwap，导致互相线程大量堆积不可收拾。
+* 继续...mdtask有一个select语句采用 md_order_info forceindex(pa_status)进行了优化
+* 调取现在支付超时时长从6秒调回3秒
+* 今儿考虑分离queue队列的处理和现在支付采用http线程池，昨天彪彪还调整了mdfrontserver的resin线程池配置且将mdfrontserver追加到8台
+* 另外dubbo负载均衡事宜待解决。
+     * <table><tr><td bgcolor="Teal"><font color="white">dubbo问题解决，原因是新机器的hosts文件还是老的，此时采用cat /etc/hosts发现ip还是老的，那么从dubbomonitor.log能看到注册的ip地址采用的是hosts而无效，更改过来后正常</font></td></tr></table>
+* 发现部分因为上线而无效的queue数据，如下：
+
+```sql
+select *,FROM_UNIXTIME(create_time/1000),FROM_UNIXTIME(last_consume_time/1000) from mdpay.md_pay_queue
+where create_time<UNIX_TIMESTAMP('2017-08-08 01:00:00')*1000 and create_time>UNIX_TIMESTAMP('2017-08-06 17:00:00')*1000	and last_consume_time is null
+
+```
+* 目前可分离的模块queue处理或者接notify更合理？，当前可先调为1000，因为高峰期堆积可到13000左右，除以6大概是2000左右，目前调到500
+* 另外，提取queue数据后也应该批量开线程处理，而不是for循环单线程处理。
+    * ![dbMsgConsumer](images/08/dbMsgConsumer.jpg)
+```bash
+cat common-default.log.2017080812|grep -E "dbMsgConsumer.{1,}此次更新[0-9]{1,}条" --color=auto
+cat common-defalut.log.2017080812|grep -E "cost6:3[0-9]{3,}.{1,},slow" --color=auto
+cat common-default.log|grep -E "2017-08-08 17:5.{1,}notify inner.{1,}Time:[0-9]{1,}," -c
+```
 
 #### 正常堆积判断语句
 
