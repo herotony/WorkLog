@@ -24,6 +24,7 @@ DAO:
       * 属于眼花看错字段，错将order_channel当成了pay_status
   * clientip必须不能为null，否则所有扫码枪失败，需要将null转为空白字符
   * paytype在payEventHandle里做了一次转换，会影响payid，进而影响客户端显示的支付通道的图标
+  * 修改了List<String>为List<Integer>，费率判断条件调整类型
   * 模板消息常规环境始终未收到，今天上午开始排查，最终确定是昨天压力测试导致wxmsg.55tuan.me/api/WeChatMsg崩了
       * 最终步骤，首先用http://idcenter.55tuan.me/idcenter/home(账号密码是manager/manager，idcenter.55tuan.me对应ip:10.8.210.223)登录
       * 通过notifyserver项目配置找到其对应数据库地址为10.8.210.166(账号密码是notifyserver/notifyserver)，常规环境对应的库为notifyserver库下的以test_bu/test_ct/test_lk/test_if的表，查到相应消息的uuid，然后再在控制台"跟踪消息"处搜索，发现到了交换中心就没了记录，进一步查询，发现分配中心没有服务器在线
@@ -45,6 +46,33 @@ DAO:
       * 强调一点
 
 <table><tr><td bgcolor="Teal"><font color="white">模板消息在mdtask的反现任务中处理，而该消息来自notifyserver，亦即来自支付成功的finishup的notify消息发送模块，此后该消息在notifyserver系统的mdtask消费者来继续post给.net的微信消息处理通道</font></td></tr></table>
+
+### 线上问题排查
+##### 迅速搜索某个时间段内的queueinfo数据
+
+``` sql
+select * from md_pay_queue_bak where create_time>UNIX_TIMESTAMP('2017-08-18 05:20:00')*1000 and create_time<UNIX_TIMESTAMP('2017-08-18 06:20:00')*1000
+and trade_no like 'W1708180560658%'
+```
+
+##### 判断queue处理速度和订单状态
+
+```sql
+select count(*) from md_pay_queue where consume_status!=2
+
+
+select count(*) from md_pay_queue where consume_status=2 and `status`=5
+```
+
+##### 迅速搜索某个订单
+
+```sql
+select order_id,pay_name,pay_id,shop_name,shop_id,supplier_id,order_status,pay_status,user_id,ostype,
+FROM_UNIXTIME(add_time/1000) as `AddTime`,FROM_UNIXTIME(bind_limit_time/1000) as `bindlimittime`,
+FROM_UNIXTIME(bind_time/1000) as `bindtime`,FROM_UNIXTIME(pay_time/1000) as `paytime`,
+FROM_UNIXTIME(pay_limit_time/1000) as `paylimittime`,schema_name,rebate_status,order_source,jiesuan_amount,pay_fee,order_rebate_total_money
+from md_order_info where order_id = 'W1708180560658'
+```
 
 ### java启动命令行
 
