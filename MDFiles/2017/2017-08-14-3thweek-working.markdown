@@ -9,3 +9,7 @@
 * 提供一个页面录入一整套数据到md_order_info,md_pay_queue,md_pay_queue_info，一次录入10套
 * jmeter通过定义压力方案来调用该页面进行压测
 * 而我则通过固定的select count(*) fomr md_pay_queue where consume_status!=2的模式来检测压力效果。
+
+### 8.18
+* 今天上午上线因clientip为null导致失败，已修复
+* 昨天修复了若干问题，比如update的'type'位置不对
