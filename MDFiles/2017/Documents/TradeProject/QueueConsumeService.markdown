@@ -36,6 +36,12 @@ DAO:
       * 找到常规环境的notifyserver项目，打开对应控制台网站，发现分配中心不在线,重启分配中心在线
       * 继续从数据库提取uuid查某个消息然后发现还是失败，进入mdtask error目录发现http://wxmsg.55tuan.me/api/WeChatMsg 网站无法访问，重启windows服务器的www服务和相应的应用程序池，再查uuid方式排查发现notifyserver发送消息已经成功!
       * 在mdtask的business目录中搜索"模板消息"的确可以看到正常post给了http://wxmsg.55tuan.me 网站。而该网站发送模板消息的账号应该被封了。
+          * 正常成功post数据时，httpReturn会显示shok,httpStatus为200.
+
+```
+[http postTemplateMsg [ url=http://wxmsg.55tuan.me:8096/api/WeChatMsg, encode=utf-8, postData='{"sign":"320f563795ee01bc0b09a35fa7934841","btype":"OrderPaySuccessed","userId":"37514294","keyword5":"8005816","openid":"ogIb-swyzLifIRecJMbBJKzsgQoQ","keyword8":"获得返现：0.00元\\n返现余额：499.40元\\n交易确认码：1309","keyword1":"W170818101309","keyword2":"0.01元","key":"123","keyword3":"餐饮美食-西餐","keyword4":"2017-08-18 10:48:51"}'],useTime=9,httpStatus=200,httpReturn="{\"errcode\":\"shok\",\"errmsg\":\"ok\",\"msgid\":\"\"}"]
+
+```
       * 强调一点
 
 <table><tr><td bgcolor="Teal"><font color="white">模板消息在mdtask的反现任务中处理，而该消息来自notifyserver，亦即来自支付成功的finishup的notify消息发送模块，此后该消息在notifyserver系统的mdtask消费者来继续post给.net的微信消息处理通道</font></td></tr></table>
