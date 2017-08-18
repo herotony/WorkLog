@@ -47,6 +47,11 @@ DAO:
 
 <table><tr><td bgcolor="Teal"><font color="white">模板消息在mdtask的反现任务中处理，而该消息来自notifyserver，亦即来自支付成功的finishup的notify消息发送模块，此后该消息在notifyserver系统的mdtask消费者来继续post给.net的微信消息处理通道</font></td></tr></table>
 
+#### notifyserver问题
+
+##### 交易项目注意点
+使用notifyserver队列时，一定要区分常规环境，平行环境的Profile不能混了，因为不同的Profile配置了不同的队列名称，貌似某次平行环境采用了常规环境的包，导致mdNotifyQueuetest队列对应到了常规环境和平行环境的两台服务器，由于消息不能重复处理，只能由一台接收导致模板消息发送到了平行环境，从而影响到了常规环境的测试。
+
 ### 线上问题排查
 ##### 迅速搜索某个时间段内的queueinfo数据
 
