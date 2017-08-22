@@ -47,6 +47,11 @@ DAO:
 
 <table><tr><td bgcolor="Teal"><font color="white">模板消息在mdtask的反现任务中处理，而该消息来自notifyserver，亦即来自支付成功的finishup的notify消息发送模块，此后该消息在notifyserver系统的mdtask消费者来继续post给.net的微信消息处理通道</font></td></tr></table>
 
+* 周日下午（2017-08-20 18:34左右)，出现了大量的超时，即调用mdtradecenter的updatePaySuccess接口超时，但实际周一来查日志却发现md_order_info表很快就刷成了order_status=5,pay_status=2，只是dubbo超时返回了，导致QueueConsumeServer出现了大量的java null exception错误，有点怀疑是内存分配少了，毕竟今天用top指令看，内存占了1.2G，另外，针对pay_status=2,order_status=5，直接刷为消费成功就好了，省得占用资源导致堆积！明天更新一次。
+
+* mdpaygate常规环境居然启动了两个进程，导致dubbo不识别了...
+* 今天（2017-08-22）屏蔽了mdpaygate的pay处理，超时时长放到6秒后，查mdpaygate的error日志，不再有被扫超时日志即Read timed out异常没了，而昨天同时段是两百多单，明显改善，待中午高峰期过后再统计。
+
 #### notifyserver问题
 
 ##### 交易项目注意点
@@ -77,6 +82,33 @@ FROM_UNIXTIME(add_time/1000) as `AddTime`,FROM_UNIXTIME(bind_limit_time/1000) as
 FROM_UNIXTIME(bind_time/1000) as `bindtime`,FROM_UNIXTIME(pay_time/1000) as `paytime`,
 FROM_UNIXTIME(pay_limit_time/1000) as `paylimittime`,schema_name,rebate_status,order_source,jiesuan_amount,pay_fee,order_rebate_total_money
 from md_order_info where order_id = 'W1708180560658'
+```
+
+##### 关于绑定订单失败一例
+
+* 目前存在一种情况，尤其是b扫c，因为同时存在主动查询和被动回调接收通知
+    * 主动查询多次失败，返回tradeStatus=A004
+    * 此时，收到回调通知，正在处理，md_pay_trade的status状态还是8（userpaying,等待用户支付状态)又被主动查询提走
+    * 回调通知处理完毕，此时md_order_info表order_stauts刷为5，注定了主动查询绑定订单操作一定失败并报出错误日志
+    * 而回调通知此时将md_pay_trade(status=3,支付成功)，md_pay_queue(也已录入完毕)，md_order_info的order_status也刷为5
+    * 故而主动查询的错误可忽略，但其会不会影响二次录入queue，待查，其实问题也不大。
+    * 就此，针对大量绑定订单失败，如果是b扫c，则可忽略。
+
+
+<table><tr ><td bgcolor="Teal"><font color="yellow">确定了，在addQueue时，会根据tradeNo和queueType以及支付状态生成唯一的uniqueSign，这个会防止重复插入相同的queue数据，那么绑定订单失败反而可以用来统计超长的b扫c订单！</font></td></tr></table>
+
+
+```
+2017-08-22 08:29:25,503 [nowpayAsyncQueryStatusTask] ERROR c.w.m.s.i.TradeServiceImpl 2963 - [TradeID:W17082208207537,openId:2088802241078440,调mdfrontserver 绑定订单失败!]
+2017-08-22 08:29:25,504 [nowpayAsyncQueryStatusTask] ERROR c.w.m.s.i.TradeServiceImpl 2528 - [TradeID:W17082208207537,openId:2088802241078440,userId149864897调mdfrontserver 绑定订单失败]
+2
+
+
+2017-08-22 08:29:24,752 [resin-port-9000-29] INFO  visitLogger [///] - [{visitMethodOut:OrderFsService.bindOrder,result:{"success":true,"code":0,"msg":"","resultObject":OrderBindModel[supplierId=8048058,shopname=旺福乐超市(宜昌道店),orderid=W17082208207537,price=6.50,rate=0%,rebateMoney=0.00,message=,mobile=,lefttime=7199,fbalance=0.00,canUseRebate=0,coupon=<null>,activityId=<null>,canUseCoupon=1,usefbalance=0.00,useCoupon=0.00]},useTime:33}]
+2017-08-22 08:29:24,752 [resin-port-9000-29] INFO  serviceLogger [///] - [绑定订单返回结果：W17082208207537,{"resultObject":{"useCoupon":0.0,"canUseRebate":0,"supplierId":8048058,"shopname":"旺福乐超市(宜昌道店)","lefttime":7199,"message":"","activityId":null,"usefbalance":0.0,"rate":"0%","price":6.5,"rebateMoney":0.0,"canUseCoupon":1,"fbalance":0.0,"orderid":"W17082208207537","coupon":null,"mobile":""},"data":true,"code":0,"msg":"","success":true}]
+
+
+08:29:09 下单,查询若干次A004，08:29:24收到回调通知，处理完成后，再次被nowpayscanquerytask调出，处理，然后绑定订单失败，待查
 ```
 
 ### java启动命令行

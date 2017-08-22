@@ -1,0 +1,12 @@
+### 第四周
+
+#### 08.21
+
+* 今天继续完善QueueConsumerService，因为周六出席了一次不该有的Java Null Exception,可能是内存配小了导致。
+* 修改了queueconsumerservice（周末的dubbo超时，内存调整和容错处理），mdpaygate(屏蔽pay的队列，放宽6秒)
+* 本周梳理此次网商修改的关键点。
+* shadcenter(增加两个字段ad_throw_type,charge_type)，mdpaygate(增加为6秒超时),合并相应分支，出包检查，上线申请相关事宜。
+* queueconsumeservice修改版上线，调整了启动内存为3g,新机器为2.252
+* 明天整理网商修改检查点。另外本年度打散重构也是同步自己那套体系的时候。
+#### 08.22
+* 屏蔽mdpaygate和放宽超时时长，大幅改善了Read timed out异常状况，几乎没了，中午高峰期过后再看。
