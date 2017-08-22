@@ -97,6 +97,11 @@ from md_order_info where order_id = 'W1708180560658'
 
 <table><tr ><td bgcolor="Teal"><font color="yellow">确定了，在addQueue时，会根据tradeNo和queueType以及支付状态生成唯一的uniqueSign，这个会防止重复插入相同的queue数据，那么绑定订单失败反而可以用来统计超长的b扫c订单！</font></td></tr></table>
 
+##### queueinfo未完成插入而queue被先提出的bug
+
+* 该问题就是在处理是queueinfo还未进入数据库，导致处理失败，进而只能被修补状态任务修补，进而耽误几分钟的状态，需要及时修复。
+* 已经修复，每小时必有几十笔，这种情况的延迟应该彻底消失了。
+
 
 ```
 2017-08-22 08:29:25,503 [nowpayAsyncQueryStatusTask] ERROR c.w.m.s.i.TradeServiceImpl 2963 - [TradeID:W17082208207537,openId:2088802241078440,调mdfrontserver 绑定订单失败!]
