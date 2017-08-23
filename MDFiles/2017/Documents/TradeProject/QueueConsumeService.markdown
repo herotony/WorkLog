@@ -120,8 +120,21 @@ from md_order_info where order_id = 'W1708180560658'
 * 迅速判断是否影响正常订单更新，如果不影响，那么所谓queue消费超过1分钟没影响，只是最后一步consume deadlock导致慢而已。
 
 ```sql
-select order_id, FROM_UNIXTIME(add_time/1000) as `addtime`,FROM_UNIXTIME(last_update_time/1000) as `last_update_time`,order_status,pay_status from md_order_info where order_id='W170822191645249'
+select order_id, FROM_UNIXTIME(add_time/1000) as `addtime`,
+FROM_UNIXTIME(last_update_time/1000) as `last_update_time`,
+order_status,pay_status from md_order_info where order_id='W170822191645249'
 ```
+
+##### 查询真正意义上的延迟一分钟以上的单子
+
+```sql
+select order_id, FROM_UNIXTIME(add_time/1000) as `addtime`,
+FROM_UNIXTIME(last_update_time/1000) as `last_update_time`,
+order_status,pay_status from md_order_info
+where (last_update_time-add_time)>60000 and order_id like 'W17082218%'
+
+```
+
 ### java启动命令行
 
 ```
