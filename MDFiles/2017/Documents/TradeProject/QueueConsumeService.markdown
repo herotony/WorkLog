@@ -117,6 +117,11 @@ from md_order_info where order_id = 'W1708180560658'
 ```
 ##### update Deadlock
 * 在该问题下会同样导致延迟数分钟订单的问题，明天必须想办法修正，本周持续关注。
+* 迅速判断是否影响正常订单更新，如果不影响，那么所谓queue消费超过1分钟没影响，只是最后一步consume deadlock导致慢而已。
+
+```sql
+select order_id, FROM_UNIXTIME(add_time/1000) as `addtime`,FROM_UNIXTIME(last_update_time/1000) as `last_update_time`,order_status,pay_status from md_order_info where order_id='W170822191645249'
+```
 ### java启动命令行
 
 ```
