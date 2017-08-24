@@ -57,3 +57,5 @@
 #### mdtask
 #### queueconsumeservice
 * 要根据paytype和门店id提取相应的交易手续费率值，这个非常非常重要，实际就是要将分别对应支付宝，微信的paytype加入weixinlist和zhifubaolist的集合中即可<font color=Teal>**检查点九**</font>
+
+<table><tr><td bgcolor=Teal><font color=yellow>**本次要多通道共存，那么从数据库中提取退款记录，支付结果记录时，必须要考虑用paytype/payid做通道区分，否则就乱了**</font></td></tr></table>
