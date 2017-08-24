@@ -9270,7 +9270,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1485055629220" FOLDED="true" ID="ID_1546341522" MODIFIED="1503468485270" POSITION="right">
+<node CREATED="1485055629220" ID="ID_1546341522" MODIFIED="1503472160864" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -17005,7 +17005,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff3300" CREATED="1499414823342" ID="ID_976307202" MODIFIED="1503390351065" TEXT="perspective">
+<node COLOR="#ff3300" CREATED="1499414823342" ID="ID_976307202" MODIFIED="1503477540548" TEXT="perspective">
 <node COLOR="#006600" CREATED="1499414842458" ID="ID_633930199" MODIFIED="1499658397232">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -18740,6 +18740,11 @@
 <node BACKGROUND_COLOR="#ccffcc" COLOR="#006666" CREATED="1501640713821" ID="ID_1273358523" LINK="MDFiles/2017/Documents/TradeProject/MyBankHttpCore&#x8bb0;&#x5f55;.markdown" MODIFIED="1501656659366" TEXT="Apache HttpClient"/>
 </node>
 <node BACKGROUND_COLOR="#ccccff" COLOR="#0033cc" CREATED="1500861509042" ID="ID_1673432504" LINK="MDFiles/2017/&#x77e5;&#x8bc6;&#x70b9;&#x6982;&#x5ff5;&#x96f6;&#x788e;&#x6536;&#x96c6;.markdown" MODIFIED="1500861559886" TEXT="&#x96f6;&#x788e;&#x6982;&#x5ff5;&#x6f84;&#x6e05;"/>
+<node BACKGROUND_COLOR="#cc99ff" COLOR="#3333ff" CREATED="1503477540551" ID="ID_1999839669" MODIFIED="1503479141318" TEXT="shopcenter">
+<node BACKGROUND_COLOR="#ffcccc" COLOR="#ff6600" CREATED="1503477553679" ID="ID_1176052124" LINK="MDFiles/2017/Documents/ShopCenterProject/AccidentOnline.markdown" MODIFIED="1503479164857" TEXT="shopcenter&#x6545;&#x969c;&#x6e05;&#x5355;">
+<icon BUILTIN="closed"/>
+</node>
+</node>
 </node>
 <node BACKGROUND_COLOR="#ffcccc" COLOR="#ff0000" CREATED="1500356961074" ID="ID_595443482" LINK="MDFiles/2017/&#x6392;&#x67e5;&#x8bb0;&#x5f55;.markdown" MODIFIED="1500357016086" TEXT="emergency">
 <icon BUILTIN="messagebox_warning"/>
