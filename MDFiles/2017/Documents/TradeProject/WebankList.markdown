@@ -39,7 +39,7 @@
                 * 先校验md_pay_trade/md_pay_trade_info,是否存在交易记录，否则不予退款。且只允许status=3(交易成功)的退款。
                 * 校验通过，则doRefund来完成退款，先从md_refund表查找一条最符合条件的记录，根据tradeNo来判断最合适的**退款申请**记录。**若不存在，则创建一条退款申请记录(md_refund表)**。
                 * 校验被提取退款申请记录的状态，被锁或成功退款则不再处理，否则**执行与第三方的退款操作，关键是TradeRefundManager接口的submitRefund**并标记退款记录为refund_status=4。
-        * 该任务提取pay_type in (61,81) and refund_status=4的记录查询退款结果并刷新相关记录,也就是加入addQueue,即REFUND事件。
+        * 该任务提取pay_type in (61,81) and refund_status=4的记录查询退款结果并刷新相关记录,也就是加入addQueue,即REFUND事件**检查点十**。
     * <font color=red>**BudanTask**</font>作废！该任务只是发提醒邮件，有作用的是<font color=Teal>**AutoBudanTask**</font>,该任务也必须会修改，此为<font color=Teal>**检查点八**</font>,此处与检查点五的接口无关，即查询订单需要额外编码写进来,b扫c的贺永强来修改这部分，毕竟是主动查询订单，支付成功重新入queue的问题而已，入queue前创建用户和绑定订单即可，如果是c-b类型则是简单的入queue完事。
           * 该任务会从md_order_info提取order_status=3(5为绑定成功，3为未绑定已过期)<font color=Teal>**实际对于c->b,order_status一开始就是5，而c->b依赖回调，所以autobudan实际只是针对b->c的情况而言了，当然理论是这样，不排除查c->b绑定不成功也继续支付的诡异情况**</font>且当前时间在一定有效范围内的（<font color=Teal>**即下单时间处于当前时间前两个半小时和两个小时之间才会被提出进行自动补单处理**</font>）
           * 查询支付成功后，补单操作包括如下两个步骤：
