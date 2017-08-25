@@ -23,7 +23,7 @@
 hmget shbnpayarg-1 pid appid signkey pidforbtoc signkeyforbtoc
 ```
      * 若没有，则在jobcenter中执行一次即可，若没配置，则在jobcenter配置如下：
-           * 执行url:http://10.9.210.131:9040/job/notify.do
+           * 执行url:http://10.9.210.131:9040/job/notify.do （mdpaygate接口，mdpaygate在10.9.210.131上。）
            * 执行接口：pickPayArgTask
            * 然后手动执行一次，再通过redisdeskmanager来校验即可。
 
