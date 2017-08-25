@@ -41,6 +41,8 @@ hmget shbnpayarg-1 pid appid signkey pidforbtoc signkeyforbtoc
 * 2017-08-25
     * mdtradecenter在平行环境部署的是非常老的版本，绑定订单还保留着手机验证，需要更新相应的最新版才行，运维来做。
     * 昨天mdtradecenter新包在平行环境起不来是因为其resin/conf/resin.xml中少了**his库**的数据库节点配置，用常规环境的resin.xml覆盖后，新包能正常启动，胡正测试通过但因没配置多公众号未存入redis,查了mdorder库的md_paygate_conf表有记录，那就可能是相应的jobcenter没起来
+    * 上午还好好的能通过dubbo调通mdpaygate，下午就又forbid consumer了，唯一做的是重新部署了mdpaygate,难道又起了两个实例？
+      * 原因找到了，因为平行环境从来不用，后续的几次更改，增加语音通知，微美接口，胡正的授权接口统统没有配置到env.properties.spec文件件里，上午修正编译配置后，导致实际启动是错误的，下午的forbit consumer自然也就出现了。
 
 ### 常规环境
 
