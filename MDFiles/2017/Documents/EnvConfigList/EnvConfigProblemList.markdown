@@ -14,6 +14,19 @@
 * mdfrontserver on 10.9.210.99
 * mysql on 10.8.210.47(dns:53dbmaster.55tuan.me) with deployment - 123456
 
+##### redis服务器
+
+* 多公众号配置采用的redis服务器 on 10.9.210.131,域名为：redis-tradem.shanhui.me:17701,key值为shbnpayarg-0,shbnpayarg-6...
+    * 若门店没有配置则采用默认的6
+    * 通过redisdesktopmanager连接到redis服务器，打开相应的终端，用如下语句查询
+```
+hmget shbnpayarg-1 pid appid signkey pidforbtoc signkeyforbtoc
+```
+     * 若没有，则在jobcenter中执行一次即可，若没配置，则在jobcenter配置如下：
+           * 执行url:http://10.9.210.131:9040/job/notify.do
+           * 执行接口：pickPayArgTask
+           * 然后手动执行一次，再通过redisdeskmanager来校验即可。
+
 ##### 10.8.210.99服务器
 
 * 该服务器上部署了mdfrontserver,mdpaygate,mdtradecenter，mdtask四个交易项目的核心模块。
@@ -23,6 +36,7 @@
 * 2017-08-25
     * mdtradecenter在平行环境部署的是非常老的版本，绑定订单还保留着手机验证，需要更新相应的最新版才行，运维来做。
     * 昨天mdtradecenter新包在平行环境起不来是因为其resin/conf/resin.xml中少了his库的数据库节点配置，用常规环境的resin.xml覆盖后，新包能正常启动，胡正测试通过但因没配置多公众号未存入redis,查了mdorder库的md_paygate_conf表有记录，那就可能是相应的jobcenter没起来
+    * 目前提取门店对应配置有问题，先考虑用redisdesktopmanager直接查找相应的key
 
 ### 常规环境
 
