@@ -29,7 +29,7 @@
         * 耗费一下午提供了接口，原有提取反现接口，支持同时返回paytype对应的json支付参数配置
         * 用8006081测试返回:http://10.8.210.115:10315/shop/getshopbyid.do
         * 用[8006081]测试录入:http://http://10.8.210.115:10315/shop/doshopupdate.do
-        * 
+        * <font color=Teal>下周frontserver增加映射机制，paytype to realpaytype,便于后续快速切换通道</font>
 ```sql
 /*
 SQLyog Enterprise - MySQL GUI v7.15
