@@ -23,3 +23,48 @@
 * 2017-08-31
     * 今天是永强的退款测试以及张杰的c->b尚未通过。
     * <font color=red>正式环境不涉及沙箱，沙箱的测试地址与正式肯定不同，上线前需要注意</font>
+* 2017-09-01
+    * 修改shopcenter2,未来，一个门店可能在多个通道间切换，每个通道对于每个门店必须的参数又都不同，如何确保能及时刷新，能在frontserver一次高效获取。
+        * 在sh_wowostore中追加表sh_shop_paychannel表:paytype类似：91，92，93，94。jsondata:{"a":1},这两个参数需要魁星和永强他们共同协商决定。
+        * 耗费一下午提供了接口，原有提取反现接口，支持同时返回paytype对应的json支付参数配置
+        * 用8006081测试返回:http://10.8.210.115:10315/shop/getshopbyid.do
+        * 用[8006081]测试录入:http://http://10.8.210.115:10315/shop/doshopupdate.do
+        * 
+```sql
+/*
+SQLyog Enterprise - MySQL GUI v7.15
+MySQL - 5.6.13-log : Database - sh_wowostore
+*********************************************************************
+*/
+
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`sh_wowostore` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+USE `sh_wowostore`;
+
+/*Table structure for table `sh_shop_paychannel` */
+
+DROP TABLE IF EXISTS `sh_shop_paychannel`;
+
+CREATE TABLE `sh_shop_paychannel` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `shop_id` bigint(20) NOT NULL,
+  `paytype` varchar(60) NOT NULL,
+  `jsondata` varchar(100) NOT NULL,
+  `createtime` int(13) NOT NULL,
+  `updatetime` int(13) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `shop_id` (`shop_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+
+```
