@@ -68,3 +68,11 @@ CREATE TABLE `sh_shop_paychannel` (
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 
 ```
+* 2017-09-04
+  * 本周计划完成frontserver的映射机制。另外，继续协助网商联调。
+* 2017-09-05
+  * 今天平行环境部署更新queueconsumeservice，只更新了DOMAIN-1.0.0.jar，居然各种起不来，直接说找不到log...删除了整个lib目录，重新上传所有的文件，成功了，我知道了，因为改了日志级别为DEBUG，那么所有的相应jar包都是DEBUG级才对，但DAO的jar包没更新，还是INFO导致？但说不通啊，那个配置在SERVICE里，所以还是INFO，而Domain用了Debug却没判断isDebugEnable导致程序崩了！试试，是不是这个原因！
+  * queueconsumeservice增加了超过创建时间2分钟的，不含queueinfo记录的则不再修补。
+  * 明天开始映射功能，做成jobcenter-task来实现每天更新或者可手动更新/存入redis/mdfrontserver提供刷新接口，但使用端只走redis,如果redis不存在采用原始值，不影响效率为先。
+  * 映射需求有变化，要以门店为主，那么可能今天所想全部作废，那先不做了，等结果。
+  * 映射部分做完了，待月庆部分做完测试。
