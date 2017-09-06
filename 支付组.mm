@@ -17469,7 +17469,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#006699" CREATED="1499415392342" FOLDED="true" ID="ID_1407481107" MODIFIED="1504225513430" TEXT="paycenter">
+<node COLOR="#006699" CREATED="1499415392342" ID="ID_1407481107" MODIFIED="1504257232833" TEXT="paycenter">
 <node COLOR="#0066cc" CREATED="1494921507794" ID="ID_1840202417" LINK="MDFiles/2017/Documents/TradeProject/TradeModule.markdown" MODIFIED="1503111601376" TEXT="&#x652f;&#x4ed8;&#x6d41;&#x7a0b;">
 <node CREATED="1494921528261" FOLDED="true" ID="ID_1906817172" MODIFIED="1501550651887" TEXT="mdfrontserver&#x5165;&#x53e3;&#x53c2;&#x6570;">
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1494921540580" ID="ID_1403812803" MODIFIED="1494921908795">
@@ -18574,7 +18574,7 @@
 </node>
 <node BACKGROUND_COLOR="#ffff99" COLOR="#009966" CREATED="1495784450025" ID="ID_1667787208" LINK="MDFiles/2017/Documents/SpringMVC/&#x7f51;&#x6587;&#x6574;&#x7406;-01.markdown" MODIFIED="1501292298038" TEXT="qixunpay">
 <node CREATED="1495784465400" ID="ID_1626757799" MODIFIED="1503886435130" TEXT="springMVC">
-<node CREATED="1495784478993" FOLDED="true" ID="ID_1234583414" MODIFIED="1503886470790">
+<node CREATED="1495784478993" FOLDED="true" ID="ID_1234583414" MODIFIED="1504664301510">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -18606,39 +18606,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1495784478993" FOLDED="true" ID="ID_322921690" MODIFIED="1503886468654">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#35774;&#32622;maven<b><font color="#0066ff">&#20844;&#20849;&#24211;</font></b>&#38236;&#20687;&#31449;&#28857;
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1495784494242" ID="ID_1033572789" MODIFIED="1495784533744">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="2017/05/maven-setting-01.jpg" />
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1495784540510" ID="ID_1180172419" MODIFIED="1495784544655">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="2017/05/maven-setting-02.jpg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1495786615238" FOLDED="true" ID="ID_1681902630" MODIFIED="1503886465350" TEXT="&#x6784;&#x5efa;webmvc&#x6846;&#x67b6;">
+<node CREATED="1495786615238" ID="ID_1681902630" MODIFIED="1504664243996" TEXT="&#x6784;&#x5efa;webmvc&#x6846;&#x67b6;">
 <node CREATED="1495786637457" ID="ID_820724249" MODIFIED="1503886442837" TEXT="pom&#x4e2d;&#x8bbe;&#x7f6e;&#x4f9d;&#x8d56;&#x7ec4;&#x4ef6;">
 <node CREATED="1495789823426" FOLDED="true" ID="ID_932837152" MODIFIED="1503886450286" TEXT="javax.servlet/javax.servlet-api/3.1.0">
 <node CREATED="1495870108804" ID="ID_96025078" MODIFIED="1495870201047">
@@ -18677,7 +18645,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1495789060041" FOLDED="true" ID="ID_1641967294" MODIFIED="1503886441037">
+<node CREATED="1495789060041" FOLDED="true" ID="ID_1641967294" MODIFIED="1504664252538">
 <richcontent TYPE="NODE"><html>
   <head>
     

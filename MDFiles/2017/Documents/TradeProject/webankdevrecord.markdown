@@ -76,3 +76,7 @@ CREATE TABLE `sh_shop_paychannel` (
   * 明天开始映射功能，做成jobcenter-task来实现每天更新或者可手动更新/存入redis/mdfrontserver提供刷新接口，但使用端只走redis,如果redis不存在采用原始值，不影响效率为先。
   * 映射需求有变化，要以门店为主，那么可能今天所想全部作废，那先不做了，等结果。
   * 映射部分做完了，待月庆部分做完测试。
+* 2017-09-06
+  * 平行环境jobcenter回调通知失败，是因为引用的jobclient里写死了8080端口，而公司环境jobcenter采用的是9001端口，导致所有的回调通知都是失败的，看日志来确认是否成功好了。
+  * 配合余婷排查平行环境esbizcenter不正常事宜，平行环境的resin.xml配置少了id=esbizcenter-shop
+  * 排查newwap访问frontserver 10秒超时，当时shopcenter2取门店信息8秒，但未超时，支付成功耗时2秒，正好newwap超时，shopcenter2高峰期每秒五百，今天frontserver每台服务器零散出现dubbo 500错，说明shopcenter2较忙。
