@@ -80,3 +80,9 @@ CREATE TABLE `sh_shop_paychannel` (
   * 平行环境jobcenter回调通知失败，是因为引用的jobclient里写死了8080端口，而公司环境jobcenter采用的是9001端口，导致所有的回调通知都是失败的，看日志来确认是否成功好了。
   * 配合余婷排查平行环境esbizcenter不正常事宜，平行环境的resin.xml配置少了id=esbizcenter-shop
   * 排查newwap访问frontserver 10秒超时，当时shopcenter2取门店信息8秒，但未超时，支付成功耗时2秒，正好newwap超时，shopcenter2高峰期每秒五百，今天frontserver每台服务器零散出现dubbo 500错，说明shopcenter2较忙。
+* 2017-09-08
+  * 网商项目需要体测点
+      * mdfrontserver,mdpaygate项目，其中mdfrontserver还支持切换
+      * queueconsumeservice，支持91,92,93,94算手续费，退款部分也要注意是否涉及91,92,93,94
+      * shopcenter2修改支持网商进件
+      * bizhttpserver可能需要追加相关协议

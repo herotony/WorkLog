@@ -28,3 +28,20 @@
 
 只需要参考5.2.7 - 5.2.14部分即可。
 ## 几个关键点梳理说明
+
+2017-09-08
+
+* 全部采用redis - sentinel，70万5秒写入，70万删除20秒
+* 剔除mdfrontserver
+* paycenter模块,paygate模块,tradecenter模块,task模块
+* 独立通道机制
+* 独立insert表，后台update...
+* 提炼sql
+* 监控体系
+* 舍弃dubbo,全部采用http/json模式。精确评测单台服务器处理能力，用jmeter压测。
+* 结算库的异步同步机制
+* http连接池
+      * 保持过程中如何保证连接没有失效？
+        很难保证。传统阻塞I/O模型，只有当I/O操做的时候，socket才能响应I/O事件。当TCP连接交给连接管理器后，它可能还处于“保持连接”的状态，但是无法监听socket状态和响应I/O事件。如果这时服务器将连接关闭的话，客户端是没法知道这个状态变化的，从而也无法采取适当的手段来关闭连接。
+
+        针对这种情况，HttpClient采取一个策略，通过一个**后台的监控线程定时**的去检查连接池中连接是否还“新鲜”，如果过期了，或者空闲了一定时间则就将其从连接池里删除掉。ClientConnectionManager提供了 **closeExpiredConnections**和**closeIdleConnections**两个方法。
