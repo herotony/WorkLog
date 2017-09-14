@@ -91,3 +91,4 @@ CREATE TABLE `sh_shop_paychannel` (
   * 11,12,13,14一直忙连接池调参问题，今天下午帮忙调试网商，结果本地服务器时间相差2分钟导致排查了很久。
   * 关于模板消息的codereview这件事明天再干
   * 紧急修改mdfrontserver,过滤下线门店。
+  * 明天改mdtradecenter，模板消息单独走一个队列。
