@@ -17005,7 +17005,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff3300" CREATED="1499414823342" ID="ID_976307202" MODIFIED="1504225478002" TEXT="perspective">
+<node COLOR="#ff3300" CREATED="1499414823342" ID="ID_976307202" MODIFIED="1505726964162" TEXT="perspective">
 <node COLOR="#006600" CREATED="1499414842458" ID="ID_633930199" MODIFIED="1499658397232">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -18572,7 +18572,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff99" COLOR="#009966" CREATED="1495784450025" ID="ID_1667787208" LINK="MDFiles/2017/Documents/SpringMVC/&#x7f51;&#x6587;&#x6574;&#x7406;-01.markdown" MODIFIED="1501292298038" TEXT="qixunpay">
+<node BACKGROUND_COLOR="#ffff99" COLOR="#009966" CREATED="1495784450025" FOLDED="true" ID="ID_1667787208" LINK="MDFiles/2017/Documents/SpringMVC/&#x7f51;&#x6587;&#x6574;&#x7406;-01.markdown" MODIFIED="1505727156631" TEXT="qixunpay">
 <node CREATED="1495784465400" ID="ID_1626757799" MODIFIED="1503886435130" TEXT="springMVC">
 <node CREATED="1495784478993" FOLDED="true" ID="ID_1234583414" MODIFIED="1504664301510">
 <richcontent TYPE="NODE"><html>
@@ -18678,6 +18678,9 @@
 </node>
 </node>
 </node>
+</node>
+<node BACKGROUND_COLOR="#ffffcc" COLOR="#9933ff" CREATED="1505726994327" ID="ID_716378516" LINK="../saosin&amp;qixun/mdfiles/pay/poolinghttpclientmanager_debug_note.markdown" MODIFIED="1505727131171" TEXT="httpclient4.5.2 &#x8fde;&#x63a5;&#x6c60;&#x8c03;&#x8bd5;&#x65e5;&#x5fd7;">
+<node CREATED="1505727134137" ID="ID_22309984" MODIFIED="1505727152772" TEXT="&#x6d4b;&#x8bd5;&#x5728;qixunpay&#x9879;&#x76ee;&#x4e2d;"/>
 </node>
 </node>
 <node COLOR="#0066cc" CREATED="1496652804200" ID="ID_109802841" MODIFIED="1499310863326" TEXT="elasticsearch">
