@@ -61,3 +61,120 @@
 * mdpaygate回调与请求分离，尤其是回调，可重新设计一个中间表，只记录回调信息，纯insert，后续给一个服务负责select->process ->delete/insert-to-log(batch,累积一定数量)
 * dubbo连接池配置部分研究
 * 通道切换，用户/支付通道/，门店针对某个通道的多次进件虚拟进件号(真实对应某一个通道的进件号)，也就是说，我们这的一个真实门店id，对应多个虚拟门店id,每个虚拟门店id真实对应一个通道的进件号，另外，某个用户，这次用了这个进件号支付，下次就用另外一个进件号支付，嗯，就是这个需求。
+
+* 配合联调模板消息，修改一处bug，未将bean赋予相关domain对象
+
+2017-09-19
+* 继续修改mdfrontserver通道切换，暂不采用redis sentinel。
+* 完成了通道切换修改redis的使用模式，本周完成交易模块的优化方案文档，简单有个ppt吧，做稍微规整些，以后也按这个文档来进行逐步的迭代优化，目标是每天4000万单，目前是260万单，需要提高20倍，此前因为合作方打满导致cpu负载过高事宜，通过连接池即可解决。
+* 评判标准确定，连接数是高于cpu负载的，因为我们是io密集型，不是计算密集型。也就是有效加物理机优于加cpu核数量，但要多线程+线程池的运用到极致才能提高。线程池减少建立连接开销，有利于提高服务器整体效率。
+
+* notifyserver的合理运用，需要做一次测试，notifyserver提供了可靠的异步通知处理机制。
+* ppt文档，简要交易流程介绍，瓶颈点，数据说明，如何优化，dubbo配置连接池,如何进行压测评估，确保每台服务器的并发线程在200以内
+  * 4000万每天，折合下来每秒500条，高峰则每秒1000条，3-5台服务器即可。今天下午看看dubbo如何监控，如何配参
+  * http/dubbo双调优的过程。持续过程
+  * task分离，访问/回调分离，数据表分离 or 善加利用notifyserver
+  * 连接池的运用，目前没用连接池
+      * mdfrontserver - est:20/wait:2587
+      * mdpaygate - est:29/wait:1776
+      * mdtradecenter - est:18/wait:12 3306-mysql采用连接池，效果很好，但有很多50102 -notifyservera居然没有用连接池
+      * mdtask - est:205/wait:4533  8096短信接口
+  * notifyserver如何运用防止合作方崩了带来的cpu负载过高
+
+* 今天速速提交了方案，明天开始研究dubbo吧，争取本周搞定，下周开始优化，好好整理相关测试demo和几个java测试工具的使用。
+
+
+
+* too many open files这个问题网上有很多答案，就是文件句柄数超过了系统设置，系统设置为65535。而linux文件句柄是包含了文件的读写和tcp连接。
+* 连接数设置不合理，设置过大。一个连接可以同时处理10个、100个并发都是没有问题的。
+* 连接数和并发数、线程数不是一个概念。连接数是与网络连接有关的。一个连接数可以支持70Mbype的网络流量。
+* 多个并发请求是在一个tcp连接上传输的。传输到达dubbo端后，dubbo会把tcp连接上的请求分配给线程池中的线程处理。
+2、长连接是一直占用的网络连接，线程会超时，而长连接不会断开。
+3、nio rector机制通过长连接来减少tcp握手和挥手的开销。通过事件通知来实现非阻塞式传输，因些阻塞不会传递。
+* mdfrontserver
+
+2017-09-21
+
+* mdtradecenter的orderpreparedomain是余额付款的处理，同样发送模板消息，分队列。
+
+2017-09-22
+
+* 确认威富通接口
+    * newwap - 9 to 43(wx c-b);12 to 46(b-c );14 to 47(alipay c-b)
+    * mdfrontserver - FSOrderConstants:43(wft pay)/46(wft scan pay)/47(wft c-b pay by alipay)，微信相关支付没有？434 就是微信支付c-b
+    * mdpaygate - WEIFUTONG_PAY/WEIFUTONG_ALIPAY/WEIFUTONG_SCAN_PAY
+    * mdpaygate - 43 - 威富通支付 /46 - 威富通小额支付 /47 - 威富通支付宝c-b支付
+    * mdpaygate - mdpaygate-domain-bean.xml涉及trademanager,tradescanpaymanager,tradealipaymanager/tradequerymanager,tradescanpayquerymanager/traderefuntdmanager/tradescanpayrefundmanager
+    * payid - 12,wft wx b-c; 13,wft alipay b-c;9,wft wx c-b;14,wft alipay c-b;
+
+2017-09-25
+
+  * 梳理威富通接口的变化点并做修改。评估进度以及障碍点。
+
+## 威富通支付接口再整理
+* [https://open.swiftpass.cn/openapi](https://open.swiftpass.cn/openapi),看：微信公众号支付/支付宝服务窗支付/统一刷卡支付
+* 订单生成后，必须至少间隔5分钟才能关闭订单。
+* 所有参数都是字符串格式。
+### 微信 c-b 公众号支付
+#### 必须参数
+* service 规定值：pay.weixin.jspay
+* mch_id  <font color=Teal>此值之前是固定一个值，此次应该更改，为一个shopid对应一个mch_id</font>
+* out_trade_no : W170925...0000,追加四个0。
+* body: 瞎填？
+* sub_openid:newwap提供
+* sub_appid:唯一值，一个应用合作伙伴一个。<font color=Teal>不需要提供</font>
+* total_fee: 以“分”为单位的int值。
+* mch_create_ip:newwap提供。
+* notify_url:绝对回调地址。
+* nonce_str:随机串，不长于32位。
+* sign:md5签名结果。
+* time_start:201709251419
+* time_expire:201709251425
+### 支付宝 c-b 服务窗支付
+#### 必须参数
+* service 规定值：pay.weixin.jspay
+* mch_id  <font color=Teal>此值之前是固定一个值，此次应该更改，为一个shopid对应一个mch_id</font>
+* out_trade_no : W170925...0000,追加四个0。
+* body: 瞎填？
+* total_fee: 以“分”为单位的int值。
+* mch_create_ip:newwap提供。
+* notify_url:绝对回调地址。
+* nonce_str:随机串，不长于32位。
+* sign:md5签名结果。
+* time_start:201709251419
+* time_expire:201709251425
+### 统一 b-c 刷卡接口
+#### 必须参数
+### 关闭订单
+* 此前并未实现，现在应该是支持了，需要明天额外实现。
+
+### 核实步骤
+* 2017-09-26,上午：微信c-b/支付宝c-b核实修改/关闭订单，下午：统一刷卡/退款/查询核实修改/queueconsumeservice/mdtask(反现为0)。
+  * 回调通知间隔（通知频率为0/15/15/30/180/1800/1800/1800/1800/3600，单位：秒）。我们应该返回success。
+  * 采用连接池。
+  * sh_wowostore的sh_shop_paychannel表根据shopid可刷redis [{payType,payJsonData},...,{payTypen,payJsonDatan}],payType可重复存入，但最好别这么做，即payType保持唯一最好。针对威富通，保存为shopid-43,46,47-{"mch_id":123}存入数据库,从redis里则根据shopid提出一个List<shoppayref>列表，key值格式为**KEY_SHOP_PAYREF_shopid**,直接从redis读取。
+* 2017-09-27，联调c-b/b-c/退款接口。
+ #### 2017-09-26
+ * AlipayWeifutongTradePayManager - 支付宝 c -b 支付参数请求/回调通知的核实通过。pay_result参数，bank_type参数需要看debug日志。
+ * AlipayweifutongTradeRefundManager - 支付宝退款接口/回调核实通过。不存在回调，之前也未实现。
+ * 日了，三个威富通退款处理类，太变态了吧，算了，只看WftScanRefundTask/WeifutongRefundTask,这只是查询已经提交成功的退款，要求三天后，那么可以不必那么频繁，退款申请也加入了根据门店id提取相应的进件号，以前不是做支付，所以，我只是一个商户，不存在进件，现在我们做支付，就需要进件号了，这里的partnerkey是唯一的，需要两个不同门店进件后来做测试才能确认。
+   * weifutongrefundserviceimpl
+   * weiftongscanrefundseriveimpl，没有用到。
+   * wftscanrefundserviceimpl
+### 2017-09-27
+* QueueConsumeService针对威富通部分调整完毕。
+* 关闭订单这部分下午核实，同样涉及微信，支付宝，c-b/b-c四部分
+* 回调部分统一核实，微信，支付宝两部分
+* 支付宝c - b部分再核实
+    * <font color=red>支付宝 c-b的回调通知目前代码与接口文档不符需要核实。</font> in AlipayWeifutongTradePayManager.java,bank_type节点不存在
+    * WftAlipayConfig.getwftKey，查了线上配置，wft.key/wftscan.key/alipaywft.key都是同一个key值，那么就统一采用一个好了，乱七八糟的感觉。
+    * AlipayweifutongTradeRefundManager的提交退款部分核实完毕，<font color=red>但查询退款部分尚待核实</font>。
+* 微信 c - b部分再核实
+
+* 退款
+    * WftScanRefundServiceImpl(b-c退款查询)
+    * WeifutongRefundServiceImpl(c-b退款查询)
+    * refundNotify的逻辑诡异没用的感觉，这部分待确定，先确保交易，查询，回调，退款，节前跑通，十一期间可以在家抽空梳理一次代码。
+
+mdfrontserver/mdpaygate/mdtradecenter/mdtask已部署到平行环境，但发现mdpaygate大量的返回不做任何验签，需要补充。
+mdpaygate调整了很多逻辑，大部分是验签补充，已推到平行环境，明天开始联调。
