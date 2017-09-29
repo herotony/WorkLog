@@ -163,7 +163,8 @@
    * wftscanrefundserviceimpl
 ### 2017-09-27
 * QueueConsumeService针对威富通部分调整完毕。
-* 关闭订单这部分下午核实，同样涉及微信，支付宝，c-b/b-c四部分
+* <font color=red>关闭订单这部分下午核实</font>，同样涉及微信，支付宝，c-b/b-c四部分
+    * 无论现在支付还是之前的威富通，都是我们自己数据库刷了状态完成关闭，并不调用第三方接口去关闭订单。那么就先这样吧。
 * 回调部分统一核实，微信，支付宝两部分
 * 支付宝c - b部分再核实
     * <font color=red>支付宝 c-b的回调通知目前代码与接口文档不符需要核实。</font> in AlipayWeifutongTradePayManager.java,bank_type节点不存在
@@ -177,4 +178,14 @@
     * refundNotify的逻辑诡异没用的感觉，这部分待确定，先确保交易，查询，回调，退款，节前跑通，十一期间可以在家抽空梳理一次代码。
 
 mdfrontserver/mdpaygate/mdtradecenter/mdtask已部署到平行环境，但发现mdpaygate大量的返回不做任何验签，需要补充。
-mdpaygate调整了很多逻辑，大部分是验签补充，已推到平行环境，明天开始联调。
+mdpaygate调整了很多逻辑，大部分是验签补充，已推到平行环境，明天开始联调
+
+ ### 威富通交易中心调试日志
+
+ #### 2017-09-29
+ ##### jedis-java-driver导致的困扰
+ beanxml配置时，总是报不存在的属性，发现用的是该jar包的jedispoolconfig/jedispool而不是jedis.2.8.0.jar包，后台提出pom.xml中的所有该包的依赖，还是会打包到war包里，后来根据全局搜索，发现一个中间件cozy-common-lang.jar包中有引用，只能，在cozy-common-lang配置的依赖中加入<exclusions><exclusion><groupid>org.redis</groupid><aritfactid>jedis-java-driver</artifactid></exclusion></exclusions>，即可确保不引入该jar包了。
+ ##### jedisPool构造函数造成的困扰
+ jedis.2.8.0的构造函数有多个参数类型重复的，即参数数量相同但类型不同，此时，仅根据index配置导致调用了错误的构造函数，此时需要追加相关的参数类型才能正确区分。
+ ##### jedis-2.8.0导致的困扰，暂时恢复成2.4.0
+ mdfrontserver内部使用的类在jedis-2.8.0.jar下会导致pipeline.discard抛异常，暂时恢复为原来的jedis.2.4.0恢复正常。至此，c-b的precreate方法调用正常，但支付页面点击支付按钮没反应，待仁伟排查。
