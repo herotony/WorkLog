@@ -231,3 +231,4 @@ mdpaygate调整了很多逻辑，大部分是验签补充，已推到平行环�
       13，威富通支付宝b-c刷卡支付
 * 确认支付交易是成功的，其次是退款未测到。着手威富通上线步骤交易模块的整理
 * 切换通道redis准备，涉及mdfrontserver/mdpaygate/queueconsumeservice/shopcenter2(进件号修改).启动wftScanQueryTask的jobcenter，分支确认分别是reusewft/master/webank,还有魁星相应的表结构要先创建。
+* 在jobcenter中配置weifutongRefundTask接口任务，每5秒一执行。
