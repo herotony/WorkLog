@@ -234,3 +234,27 @@ mdpaygate调整了很多逻辑，大部分是验签补充，已推到平行环�
 * 在jobcenter中配置weifutongRefundTask接口任务，每5秒一执行。
 #### 2017-10-13
 * 替换了SpringContextUtil，加入sign_agentno字段，目前退款测试全部通过，下午拉分支做费率调整部分。
+* 下午shopcenter2/queueconsumeservice拉分支，做费率。
+
+#### 2017-10-16
+* 三件事：屏蔽所有反现和余额使用、费率修改(还剩queueconsumeservice)、常规环境模板消息排查。
+* com.shanhui.shopcenter.shopcenter2-service.2.1.4.jar is used by mdpaygate
+* com.shanhui.shopcenter.shopcenter2-service.2.1.0.jar is used by shopcenter2,holly shit...
+* QueueConsumeService调整完毕，待测试，编码完成。
+* mdfrontserver/mdtask屏蔽反现。
+#### 2017-10-17
+* 自测，合并到aliyunmaster，争取明天提上线申请。
+* 反现原来在mdtradecenter的orderpaysuccess中控制，mdtask貌似只剩关闭订单了，这部分涉及结算金额，这不能错。
+* 还需要在mdtradecenter的ordecreatedomain，将Order_rebate_total_money设为0，这部分只是显示不混乱
+#### 2017-10-18
+* 整理威富通一期上线。费率继续自测，mdfrontserver去掉isSkip for rebateuse,由胡正前端去控制。
+* 明天来公司后，配置威富通的scan,refund jobcenter
+* hudson打包用的是每个项目自己的本地库，如果不变版本号是不会重新从私库拉取的，所以，要么变版本号，要么删除hudson的项目本地库中的文件jar包。
+#### 2017-10-19
+
+* **<font color=red>通道切换没有关闭连接这种傻逼错误导致今天上线失败！唉，老了！</font>**,明天上线。
+#### 2017-10-20
+
+* shopcenter2本地重新打包后会自动安装覆盖到本地库.m2,而引用该组件的其他项目自然就会自动采用了新版本了。
+* 费率功能，已部署到常规环境：shopcenter2,queueconsumeservice。
+* 再次修改mdpaygate的威富通被扫功能。
