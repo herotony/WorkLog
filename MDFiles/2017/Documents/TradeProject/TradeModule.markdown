@@ -258,3 +258,21 @@ mdpaygate调整了很多逻辑，大部分是验签补充，已推到平行环�
 * shopcenter2本地重新打包后会自动安装覆盖到本地库.m2,而引用该组件的其他项目自然就会自动采用了新版本了。
 * 费率功能，已部署到常规环境：shopcenter2,queueconsumeservice。
 * 再次修改mdpaygate的威富通被扫功能。
+
+#### 2017-10-23
+
+* 本周费率功能上线，威富通正常后，考虑休假。
+* isv直连支付文档，口碑入口。商户入驻经由口碑。https://docs.open.alipay.com/205/104497
+* 我们应该只看： 当面付的支付交易部分，https://docs.open.alipay.com/194
+    * b-c扫码（条码支付），https://docs.open.alipay.com/194/106039
+        * alipay.trade.pay
+        * alipay.trade.query
+    * c-b扫码（扫码支付），https://docs.open.alipay.com/194/106078/
+        * alipay.trade.precreate
+    * 退款
+        * alipay.trade.refund
+    * sdk&demo,https://docs.open.alipay.com/194/105201/
+
+* https://docs.open.alipay.com/api_1/alipay.trade.pay/ : b-c,扫支付码支付
+* https://docs.open.alipay.com/api_1/alipay.trade.precreate : c-b,扫码支付
+* [alipay支付文档入口](https://openhome.alipay.com/developmentDocument.htm)
