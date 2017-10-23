@@ -276,3 +276,12 @@ mdpaygate调整了很多逻辑，大部分是验签补充，已推到平行环�
 * https://docs.open.alipay.com/api_1/alipay.trade.pay/ : b-c,扫支付码支付
 * https://docs.open.alipay.com/api_1/alipay.trade.precreate : c-b,扫码支付
 * [alipay支付文档入口](https://openhome.alipay.com/developmentDocument.htm)
+
+* 费率联调，一开始是门店中心的shoppayrateinfo忘记支持序列化导致dubbo失败，其后是费率数据不合规范导致无法正常处理
+  * 简单刷queue数据便于QueueConsumeService提取处理和debug:
+```sql
+select * from md_pay_queue order by queue_id desc limit 10
+select * from md_pay_queue_info where queue_id=651
+
+update md_pay_queue set consume_count=0,last_consume_time=null,consume_status=1,`status`=1,next_consume_time=null where queue_id=651
+```
