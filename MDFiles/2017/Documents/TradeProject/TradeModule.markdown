@@ -285,3 +285,77 @@ select * from md_pay_queue_info where queue_id=651
 
 update md_pay_queue set consume_count=0,last_consume_time=null,consume_status=1,`status`=1,next_consume_time=null where queue_id=651
 ```
+
+#### 2017-10-24
+
+* 在shopcenter2,queueconsumeservice追加调试日志，修正一处paytype未赋值的地，今天无论如何必须调通。
+* 基本确保没问题了，下午继续联调。
+* 下午继续联调，一是老门店需要重新提取费率，一是进件和费率是两次操作，下午切通道，威富通下单失败是因为没有进件。
+
+#### 2017-10-25
+
+* 门店费率没起作用是因为没刷入redis。
+* (int)System.currentMilliSecond()/1000严重错误，应该是：(int)(System.currentMilliSecond()/1000)
+* 本地host文件和dns服务器配置不一样时，虽说ping一直返回正常但实际还会走本地host的时候，造成困扰，注释本地host恢复。
+* 交付2400的发票给胡正。用于8，9月份。
+* 永强使用的httpclient代码有问题。
+
+#### 2017-10-26
+
+* 门店更改费率今天再测，因为swp权限不同导致某些门店不能显示，只能用安多使用的账号才能看到。
+* 需要确认门店是支付宝直连的逻辑，即该门店是否不会再走其他通道，显然不是，所以，必须要指定。
+
+#### 2017-10-30
+
+* 本周开始isv支付项目,今儿周一。
+
+#### 2017-10-31
+
+* 误导很久了，实际c-b支付时间是采用tradepaymodel的receivetime，即我们服务器接收时间。
+* 今儿拉肚子，状态不好.
+* 明天细查3秒单，同时排查一下数据库失败原因。
+
+#### 2017-11-01
+
+* 修改门店中心支持保存isv/isv-token/isv-shopid，提供updateISVInfo接口。
+* 修改mdpaygate，支持通过dubbo提取门店的isv三个相关信息。
+* mdtradecenter出包，上线反现为0的方案。
+
+#### 2017-11-02
+
+* 费率及反现屏蔽都已上线成功。下来专心isv这部分的开发。
+
+#### 2017-11-03
+
+* isv门店中心和mdfrontserver开发
+
+#### 2017-11-06
+
+* isv门店中心和mdfrontserver开发
+
+#### 2017-11-07
+
+* 今天啥也没干，明天一整天折腾isv的事宜，还有数据迁移事宜。
+
+##### 2017-11-08
+* 上午配合王胜新模板消息网站单配消息队列事宜。
+* 下午务必搞定mdfrontserver切换isv通道事宜。
+* 下午mdtradecenter再次确认反现显示错误问题并提上线申请。
+
+#### 2017-11-10
+* 今天讨论在mdfrontserver必须将isv的其他paytype转为96/97
+* 昨天上线了费率异常生效日志问题。
+* 这几天工作汇报就是isv项目持续开发联调，进度正常，下周开始自测和提测。
+
+
+#### 2017-11-13
+* shopcenter2平行环境正常启动了，47库加入了相应的isv表
+* 进一步确认mdfrontserver的shopservice，或者明天自己构造入口请求，通过chorme插件进行自测。
+
+#### 2017-11-14
+* 自行模拟访问，目前t参数要采用当前时间,不合法，上午整合平行环境和chrome插件访问事宜
+* 目前报shopisvinfo不对。shopisvinfo又没实现serializer接口。
+* mdpaygate的isv参数根本还没配，张杰负责吧。mdfrontserver已暂时通过。
+* 永强退款部分，从门店中心提取isvinfo,已告之，需跟进。
+* 魁星部分的调取刷isv接口。
+* codereview 新的模板消息系统。
