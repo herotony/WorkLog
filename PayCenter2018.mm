@@ -213,7 +213,7 @@
 <node CREATED="1510714329552" ID="ID_363965362" MODIFIED="1510714334600" TEXT="jobcenter"/>
 </node>
 <node CREATED="1510714176504" ID="ID_1130548846" MODIFIED="1510714299516" POSITION="right" TEXT="&#x5de5;&#x4f5c;&#x8bb0;&#x5f55;">
-<node CREATED="1510714185418" FOLDED="true" ID="ID_977109342" MODIFIED="1512121666799" TEXT="2017">
+<node CREATED="1510714185418" ID="ID_977109342" MODIFIED="1512171063327" TEXT="2017">
 <node CREATED="1510714196051" FOLDED="true" ID="ID_1115097963" MODIFIED="1512121665390" TEXT="2017.11">
 <node CREATED="1510714208857" FOLDED="true" ID="ID_849812306" MODIFIED="1512121645262" TEXT="15">
 <node CREATED="1510714220008" ID="ID_240659164" MODIFIED="1510734866910">
@@ -1012,10 +1012,46 @@
       <font color="#ff6600">&#29616;&#22312;&#25903;&#20184;&#30452;&#28165; 82...&#26681;&#25454;&#20160;&#20040;&#26465;&#20214;&#21047;&#20837;md_order_info&#35760;&#24405;&#12290;</font>
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1512171067696" FOLDED="true" ID="ID_1321380636" MODIFIED="1512171119142" TEXT="12.2">
+<node CREATED="1512171074531" ID="ID_1681657419" MODIFIED="1512171086479">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      select distinct(shop_id) from sh_multichannel_shop_payrate_log where channel_type=3 and FROM_UNIXTIME(create_time)&lt;'2017-11-30 15:20' and shop_id not in (
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      select distinct(shop_id) shop_id from sh_multichannel_shop_payrate where channel_type=3
+    </p>
+    <p>
+      and pay_rate&lt;38&#160;&#160;and create_time&lt;UNIX_TIMESTAMP('2017-11-30 15:20')
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ) and shop_id not in (select distinct(shop_id) from sh_multichannel_shop_payrate_log where channel_type=1 and FROM_UNIXTIME(create_time)&lt;'2017-11-30 15:20')
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
-</node>
+<node CREATED="1512171096992" ID="ID_712300339" MODIFIED="1512171115612" TEXT="&#x8ffd;&#x52a0;&#x901a;&#x8fc7;&#x66f4;&#x65b0;&#x88ab;&#x9057;&#x6f0f;&#x7684;&#x8ba2;&#x5355;"/>
 </node>
 <node CREATED="1512121595926" ID="ID_1462105218" MODIFIED="1512121600542" TEXT="12.5">
 <node CREATED="1512121601948" ID="ID_838674595" MODIFIED="1512121613888" TEXT="&#x73b0;&#x5728;&#x652f;&#x4ed8;&#x76f4;&#x6e05;"/>
