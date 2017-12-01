@@ -837,8 +837,8 @@
 <node CREATED="1512024255323" ID="ID_1804040440" MODIFIED="1512024341703" TEXT="&#x624b;&#x7eed;&#x8d39;&#x8865;&#x6551;">
 <node CREATED="1512024346935" ID="ID_1678265677" MODIFIED="1512024426901" TEXT="W171128... &#x624b;&#x7eed;&#x8d39;&gt;0&#x7684;&#x95e8;&#x5e97;&#x7684;"/>
 <node CREATED="1512024429805" ID="ID_633864919" MODIFIED="1512024444437" TEXT="&#x95e8;&#x5e97;&#x8d39;&#x7387;&#x4e3a;0 &#x7684;"/>
-<node CREATED="1512024445489" ID="ID_298118680" MODIFIED="1512028335257" TEXT="&#x7b5b;&#x51fa;&#x8ba2;&#x5355;&#x53f7;">
-<node CREATED="1512025304894" ENCRYPTED_CONTENT="Vhfb2IgMmJs= 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" FOLDED="true" ID="ID_36556634" MODIFIED="1512025426134">
+<node CREATED="1512024445489" FOLDED="true" ID="ID_298118680" MODIFIED="1512089138444" TEXT="&#x7b5b;&#x51fa;&#x8ba2;&#x5355;&#x53f7;">
+<node CREATED="1512025304894" ENCRYPTED_CONTENT="oTeoFfvVESI= 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" FOLDED="true" ID="ID_36556634" MODIFIED="1512035318314">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -851,11 +851,166 @@
 </html>
 </richcontent>
 </node>
+<node CREATED="1512035168114" ID="ID_1409687348" MODIFIED="1512035262113">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        &#25903;&#20184;&#36208;&#32593;&#21830;&#20116;&#30334;&#22810;&#65292;&#20063;&#32943;&#23450;&#36827;&#20214;&#25104;&#21151;&#20102;&#65292;&#36825;&#20010;&#19981;&#20250;&#20135;&#29983;&#38169;&#35823;&#12290;
+      </li>
+      <li>
+        &#32593;&#21830;&#36827;&#20214;&#20004;&#19975;&#22810;&#65292;&#20294;&#36824;&#36208;&#29616;&#22312;&#25903;&#20184;&#65292;&#36825;&#20010;&#20250;&#20135;&#29983;&#38169;&#35823;&#12290;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1510905258247" ID="ID_1317936558" MODIFIED="1510905262113" TEXT="2017.12"/>
+</node>
+<node CREATED="1510905258247" ID="ID_1317936558" MODIFIED="1510905262113" TEXT="2017.12">
+<node CREATED="1512089142142" ID="ID_166104499" MODIFIED="1512089145032" TEXT="12.1">
+<node CREATED="1512089146456" ID="ID_135768715" MODIFIED="1512089157597" TEXT="&#x591a;&#x6536;&#x624b;&#x7eed;&#x8d39;&#x95e8;&#x5e97;&#x7b5b;&#x9009;">
+<node CREATED="1512089177407" ID="ID_922937729" MODIFIED="1512089275897" TEXT="&#x63d0;&#x53d6;&#x6709;&#x95ee;&#x9898;&#x95e8;&#x5e97;">
+<node CREATED="1512089158946" ID="ID_1745879495" MODIFIED="1512089170271">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      select distinct(shop_id) shop_id from sh_multichannel_shop_payrate where channel_type=3
+    </p>
+    <p>
+      and pay_rate&lt;38&#160;&#160;and create_time&lt;UNIX_TIMESTAMP('2017-11-30 15:20')
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1512089205871" ID="ID_52603905" MODIFIED="1512089238568" TEXT="&#x63d0;&#x53d6;&#x8ba2;&#x5355;,&#x9700;&#x8981;&#x521b;&#x5efa;&#x4e34;&#x65f6;&#x8868;&#x5173;&#x8054;">
+<node CREATED="1512089780058" ID="ID_678383185" MODIFIED="1512092204135">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      select shop_id,shop_name,sum(pay_fee) returnfee,sum(jiesuan_amount) totalfee from (
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      select order_id,md.shop_id,shop_name,pay_id,pay_name,pay_fee,jiesuan_amount,pay_status,order_status from md_order_info md inner join tmp_ordershop tos
+    </p>
+    <p>
+      on md.shop_id = tos.shop_id where md.pay_fee&gt;0 and md.pay_status=2 and md.order_status=5 and
+    </p>
+    <p>
+      (md.order_id like 'W171128%' or md.order_id like 'W171129%' or md.order_id like 'W171130%') and md.shop_id not in (select shop_id from tmp_ordershop1) order by shop_id)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      a group by a.shop_id,a.shop_name order by returnfee desc
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1512093129810" ID="ID_1449076628" MODIFIED="1512093145837">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      select sp.* from sh_shop_payrate sp
+    </p>
+    <p>
+      &#160;inner join tmp_ordershop_payfee tof
+    </p>
+    <p>
+      on sp.shop_id=tof.shop_id
+    </p>
+    <p>
+      where sp.pay_rate&gt;0
+    </p>
+    <p>
+      order by pay_type,pay_rate
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1512098614423" FOLDED="true" ID="ID_624354532" MODIFIED="1512098630644" TEXT="mdorder">
+<node CREATED="1512098621077" ID="ID_832547194" MODIFIED="1512098626124">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      select * from tmp_1201_payrate
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      select pay_fee+jiesuan_amount,pay_fee,t1p.pay_rate from tmp_1201_order t1o inner join tmp_1201_payrate t1p on t1o.shop_id = t1p.shop_id
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      where t1p.pay_type=1 and t1o.pay_id=18
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      select shop_name,shop_id,sum(pay_fee),sum(finalfee),sum(totalmoney) from (
+    </p>
+    <p>
+      select t1o.order_id, t1o.shop_id,t1o.shop_name,t1o.jiesuan_amount, (pay_fee+jiesuan_amount) totalmoney,pay_fee,t1p.pay_rate,round((pay_fee+jiesuan_amount)*(pay_rate/10000),2) finalfee from tmp_1201_order t1o
+    </p>
+    <p>
+      inner join tmp_1201_payrate t1p on t1o.shop_id = t1p.shop_id
+    </p>
+    <p>
+      where t1p.pay_type=2 and (t1o.pay_id!=16 and t1o.pay_id!=18 )) b where b.pay_fee!=b.finalfee group by shop_id,shop_name order by sum(finalfee) desc
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      select shop_name,shop_id,sum(pay_fee) total_payfee,sum(jiesuan_amount) total_jiesuan_amount from tmp_1201_order where shop_id not in (select shop_id from tmp_1201_payrate)
+    </p>
+    <p>
+      group by shop_name,shop_id order by total_payfee desc
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1510714191216" ID="ID_1987457160" MODIFIED="1510714193879" TEXT="2018">
 <node CREATED="1510714279628" ID="ID_661651074" MODIFIED="1510714284882" TEXT="2018.01"/>
