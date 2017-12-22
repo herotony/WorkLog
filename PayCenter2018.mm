@@ -895,7 +895,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1510905258247" ID="ID_1317936558" MODIFIED="1513580849833" TEXT="2017.12">
+<node CREATED="1510905258247" ID="ID_1317936558" MODIFIED="1513935702840" TEXT="2017.12">
 <node CREATED="1512089142142" FOLDED="true" ID="ID_166104499" MODIFIED="1513654455798" TEXT="12.1">
 <node CREATED="1512089146456" FOLDED="true" ID="ID_135768715" MODIFIED="1513042471646" TEXT="&#x591a;&#x6536;&#x624b;&#x7eed;&#x8d39;&#x95e8;&#x5e97;&#x7b5b;&#x9009;">
 <node CREATED="1512089177407" ID="ID_922937729" MODIFIED="1512089275897" TEXT="&#x63d0;&#x53d6;&#x6709;&#x95ee;&#x9898;&#x95e8;&#x5e97;">
@@ -1541,7 +1541,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1513566837917" ID="ID_1941819116" MODIFIED="1513646737495" TEXT="12.17">
+<node CREATED="1513566837917" FOLDED="true" ID="ID_1941819116" MODIFIED="1513675232624" TEXT="12.17">
 <node CREATED="1513566843295" ID="ID_1928796515" MODIFIED="1513580890477">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1599,7 +1599,7 @@
 </node>
 <node CREATED="1513644703404" ID="ID_765546738" MODIFIED="1513644707364" TEXT="12.18">
 <node CREATED="1513644728673" ID="ID_196935097" MODIFIED="1513644764647" TEXT="&#x5df2;&#x56de;&#x6eda;mdfrontserver,mdpaygate&#xff0c;redis&#x8001;&#x95e8;&#x5e97;&#x6709;b-c&#x4e3a;0 &#x7684;&#x60c5;&#x51b5;"/>
-<node CREATED="1513644766475" ID="ID_908738075" MODIFIED="1513644782907" TEXT="&#x5a01;&#x5bcc;&#x901a;&#x5927;&#x5546;&#x6237;&#x4fee;&#x6539;">
+<node CREATED="1513644766475" FOLDED="true" ID="ID_908738075" MODIFIED="1513675221768" TEXT="&#x5a01;&#x5bcc;&#x901a;&#x5927;&#x5546;&#x6237;&#x4fee;&#x6539;">
 <node CREATED="1513648694990" ID="ID_738000823" MODIFIED="1513648707395" TEXT="&#x9000;&#x6b3e;">
 <node CREATED="1513648709334" ID="ID_1692865769" MODIFIED="1513653844178" TEXT="WeifutongRefundTask">
 <icon BUILTIN="button_ok"/>
@@ -1613,8 +1613,27 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1513654432881" ID="ID_1731522595" MODIFIED="1513654440615" TEXT="AutoBudan"/>
-<node CREATED="1513654489645" ID="ID_125123183" MODIFIED="1513654497490" TEXT="&#x56de;&#x8c03;/&#x8bed;&#x97f3;">
+<node CREATED="1513654432881" ID="ID_1731522595" MODIFIED="1513675207926">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AutoBudan
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff6633">&#26126;&#22825;&#32487;&#32493;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1513654489645" ID="ID_125123183" MODIFIED="1513667302647" TEXT="&#x56de;&#x8c03;/&#x8bed;&#x97f3;">
+<icon BUILTIN="button_ok"/>
 <node CREATED="1513665790784" ID="ID_1464576597" MODIFIED="1513665794222" TEXT="alipayweifutongNotify"/>
 <node CREATED="1513665796385" ID="ID_50696614" MODIFIED="1513665808980" TEXT="wftpayNotify"/>
 </node>
@@ -1641,6 +1660,127 @@
 </richcontent>
 </node>
 </node>
+<node CREATED="1513671796732" ID="ID_244860131" MODIFIED="1513671837947">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23041;&#23500;&#36890;&#30340;&#20960;&#20010;weifutong/weifutongscan/alipayweifutong&#30340;appid,signkey&#37117;&#19968;&#26679;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1513731653823" ID="ID_206793606" MODIFIED="1513731660440" TEXT="12.19">
+<node CREATED="1513731661763" ID="ID_1171900443" MODIFIED="1513826640759" TEXT="&#x5a01;&#x5bcc;&#x901a;&#x5927;&#x5546;&#x6237;&#x7f16;&#x7801;">
+<node CREATED="1513759022592" ID="ID_482845954" MODIFIED="1513759076425">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      QueueConsumeService
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26174;&#31034;&#32479;&#19968;&#20026;&#65306;&#25903;&#20184;&#23453;&#25903;&#20184;/&#24494;&#20449;&#25903;&#20184;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1513826598187" FOLDED="true" ID="ID_1872376051" MODIFIED="1513826662649" TEXT="12.20">
+<node CREATED="1513826609338" ID="ID_1962368113" MODIFIED="1513826629344" TEXT="&#x5a01;&#x5bcc;&#x901a;&#x5927;&#x5546;&#x6237;&#x7f16;&#x7801;&#x5b8c;&#x6210;">
+<node CREATED="1513756476550" ID="ID_953605333" MODIFIED="1513756662768">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36153;&#29575;&#20877;&#20462;&#25913;&#65292;&#27704;&#24378;&#37027;&#24352;&#34920;&#20316;&#24223;&#65292;&#19981;&#20877;&#26377;futruerate,nowpayrate...&#30340;&#36923;&#36753;
+    </p>
+    <p>
+      &#19968;&#24459;&#20197;sh_shop_paychannel&#20026;&#20934;&#65292;wxFee,zfbFee&#12290;&#38656;&#35201;&#20462;&#25913;
+    </p>
+    <p>
+      shopcenter2
+    </p>
+    <p>
+      queueconsumeservice&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        &#36153;&#29575;&#65292;&#36827;&#20214;&#20013;&#26102;&#19981;&#20801;&#35768;&#20999;&#36890;&#36947;&#65292;&#26174;&#31034;&#23457;&#26680;&#20013;
+      </li>
+      <li>
+        &#20999;&#25442;&#36890;&#36947;&#30340;&#30446;&#30340;&#36890;&#36947;&#24517;&#39035;&#36827;&#20214;&#25104;&#21151;&#65292;&#31579;&#36873;&#36827;&#20214;&#25104;&#21151;&#30340;&#38376;&#24215;&#30001;&#32993;&#27491;&#36127;&#36131;
+      </li>
+      <li>
+        &#20462;&#25913;&#36153;&#29575;&#24403;&#22825;&#65292;&#19968;&#23450;&#20250;&#26377;&#36739;&#23567;&#30340;&#37329;&#39069;&#20986;&#20837;
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1513756401582" ID="ID_339421184" MODIFIED="1513756431178">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      md_order_info&#21152;&#20837;merchant_id&#23383;&#27573;
+    </p>
+    <p>
+      &#20801;&#35768;NULL
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1513826611758" FOLDED="true" ID="ID_1715244030" MODIFIED="1513935830247" TEXT="12.21">
+<node CREATED="1513826630362" ID="ID_436706562" MODIFIED="1513826637517" TEXT="&#x5f00;&#x59cb;&#x6d4b;&#x8bd5;&#x5a01;&#x5bcc;&#x901a;&#x5927;&#x5546;&#x6237;"/>
+<node CREATED="1513850927419" ID="ID_1882334629" MODIFIED="1513850942584" TEXT="&#x660e;&#x5929;&#x95e8;&#x5e97;&#x5f53;&#x524d;&#x901a;&#x9053;&#x63a5;&#x53e3;"/>
+<node CREATED="1513850944356" ID="ID_805030650" MODIFIED="1513850960882" TEXT="QueueConsumeService&#x8d39;&#x7387;&#x4fee;&#x6539;"/>
+</node>
+<node CREATED="1513935704718" FOLDED="true" ID="ID_474312872" MODIFIED="1513935829183" TEXT="12.22">
+<node CREATED="1513935711875" ID="ID_1941500389" MODIFIED="1513935821084">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        mdfontserver&#28155;&#21152;&#33719;&#21462;&#24403;&#21069;&#38376;&#24215;&#36890;&#36947;&#25509;&#21475;&#23436;&#25104;
+      </li>
+      <li>
+        mdtradecenter/queueconsumeservice&#65292;&#35760;&#24405;merchantid&#23436;&#25104;
+      </li>
+      <li>
+        queueconsumeservice&#36153;&#29575;&#22788;&#29702;&#20462;&#25913;&#23436;&#25104;
+      </li>
+      <li>
+        &#24120;&#35268;&#29615;&#22659;&#35843;&#25972;&#40664;&#35748;&#36890;&#36947;&#26144;&#23556;&#65292;&#35843;&#36890;&#29615;&#22659;&#65292;sh_shop_defaultpayroute
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
