@@ -2489,7 +2489,7 @@
 <node CREATED="1517641938442" ID="ID_1213459872" MODIFIED="1517641951996" TEXT="&#x5207;&#x6362;&#x516c;&#x4f17;&#x53f7;&#x529f;&#x80fd;&#x5f00;&#x53d1;&#x5b8c;&#x6210;"/>
 </node>
 <node CREATED="1517802794697" ID="ID_1842483686" MODIFIED="1517802869249" TEXT="dubbo/zookeeper/redis/resin-or-tomcat">
-<node CREATED="1517802772660" FOLDED="true" ID="ID_292794252" MODIFIED="1517887433921" TEXT="02.05">
+<node CREATED="1517802772660" ID="ID_292794252" MODIFIED="1517897620449" TEXT="02.05">
 <node CREATED="1517802872763" ID="ID_1130622081" MODIFIED="1517802889333" TEXT="demo for dubbo code"/>
 <node CREATED="1517813008796" FOLDED="true" ID="ID_702251883" MODIFIED="1517813138611" TEXT="plan">
 <node CREATED="1517812807901" ID="ID_323232334" MODIFIED="1517813124625">
@@ -2536,23 +2536,29 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1517813020603" ID="ID_1197543437" MODIFIED="1517813143007" TEXT="zookeeper">
-<node CREATED="1517813155409" ID="ID_666235708" MODIFIED="1517818758354">
+<node CREATED="1517813020603" ID="ID_1197543437" MODIFIED="1517898287332" TEXT="zookeeper">
+<node CREATED="1517813155409" ID="ID_666235708" MODIFIED="1517898307551">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      1.&#36827;&#20837;conf&#30446;&#24405;,&#22797;&#21046;&#37325;&#21629;&#21517;zoo_sample.cfg&#21040;zoo.cfg
+      1.&#36827;&#20837;<b><font color="#009999">conf&#30446;&#24405;</font></b>,&#22797;&#21046;&#37325;&#21629;&#21517;zoo_sample.cfg&#21040;zoo.cfg
     </p>
     <p>
-      2.&#20462;&#25913;zoo.cfg&#20869;&#23481;&#20026;&#22914;&#19979;&#65306;
+      2.&#20462;&#25913;<b><font color="#003399">zoo.cfg</font></b>&#20869;&#23481;&#22914;&#19979;&#65306;
+    </p>
+    <p>
+      &#160;&#160;&#160;server.1=127.0.0.1:2181:3181
+    </p>
+    <p>
+      3.&#36827;&#20837;<b><font color="#009999">bin&#30446;&#24405;</font></b>&#65292;<b><font color="#003399">zkServer.sh start</font></b>&#26469;&#21551;&#21160;&#21363;&#21487;&#12290;&#29992;telnet 127.0.0.1 2181 -&gt; stat&#26469;&#26816;&#39564;&#21551;&#21160;&#26159;&#21542;&#25104;&#21151;&#12290;(&#23545;&#20110;windows&#26159;zkServer.cmd)
     </p>
   </body>
 </html>
 </richcontent>
-<node CREATED="1517818973815" FOLDED="true" ID="ID_557195615" MODIFIED="1517821207815">
+<node CREATED="1517818973815" FOLDED="true" ID="ID_557195615" MODIFIED="1517897688425">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2650,6 +2656,24 @@
   </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1517897699564" FOLDED="true" ID="ID_1027006162" MODIFIED="1517897745969" TEXT="&#x76d1;&#x63a7;">
+<node CREATED="1517897706025" ID="ID_839532589" MODIFIED="1517897744695">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26368;&#26041;&#20415;&#23601;&#26159;
+    </p>
+    <p>
+      telnet ip 2181 - &gt; conf/stat/... &#26469;&#26597;&#30475;&#24403;&#21069;zookeeper&#29366;&#24577;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -2771,8 +2795,8 @@
 <node CREATED="1517294071386" ID="ID_490882394" MODIFIED="1517294080016" TEXT="97,alipay b-c"/>
 </node>
 </node>
-<node CREATED="1517887444764" FOLDED="true" ID="ID_796737952" MODIFIED="1517887669573" POSITION="right" TEXT="java">
-<node CREATED="1517887454387" FOLDED="true" ID="ID_1276575981" MODIFIED="1517887667748" TEXT="JMX: java management extension">
+<node CREATED="1517887444764" ID="ID_796737952" MODIFIED="1517897626815" POSITION="right" TEXT="java">
+<node CREATED="1517887454387" FOLDED="true" ID="ID_1276575981" MODIFIED="1517897646881" TEXT="JMX: java management extension">
 <node CREATED="1517887479401" ID="ID_859613784" MODIFIED="1517887614365">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2797,7 +2821,7 @@
 </html>
 </richcontent>
 </node>
-<node CREATED="1517887618209" FOLDED="true" ID="ID_1021659396" MODIFIED="1517887665583" TEXT="resin&#x548c;java&#x7a0b;&#x5e8f;&#x7684;&#x542f;&#x52a8;&#x53c2;&#x6570;&#x914d;&#x7f6e;&#x56fe;">
+<node CREATED="1517887618209" FOLDED="true" ID="ID_1021659396" MODIFIED="1517897645649" TEXT="resin&#x548c;java&#x7a0b;&#x5e8f;&#x7684;&#x542f;&#x52a8;&#x53c2;&#x6570;&#x914d;&#x7f6e;&#x56fe;">
 <node CREATED="1517887642236" ID="ID_1058158282" MODIFIED="1517887658504">
 <richcontent TYPE="NODE"><html>
   <head>
