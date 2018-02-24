@@ -4,6 +4,47 @@
 <edge COLOR="#111111" WIDTH="thin"/>
 <font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
+<node CREATED="1517887444764" FOLDED="true" ID="ID_796737952" MODIFIED="1519434034678" POSITION="right" TEXT="java">
+<node CREATED="1517887454387" FOLDED="true" ID="ID_1276575981" MODIFIED="1519434028228" TEXT="JMX: java management extension">
+<node CREATED="1517887479401" ID="ID_859613784" MODIFIED="1517887614365">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      java&#35268;&#33539;&#65292;&#25903;&#25345;&#36828;&#31243;&#36830;&#20837;&#30417;&#25511;&#65292;&#20063;&#23601;&#26159;&#34987;&#30417;&#25511;&#31243;&#24207;&#21551;&#21160;&#21152;&#20837;&#22914;&#19979;&#19977;&#20010;<b><font color="#003399">&#21551;&#21160;&#21442;&#25968;</font></b>&#21363;&#21487;&#65306;
+    </p>
+    <ul>
+      <li>
+        &#160;<font color="#003399">-Dcom.sun.management.jmxremote.ssl=false </font>
+      </li>
+      <li>
+        <font color="#003399">-Dcom.sun.management.jmxremote.authenticate=false&#160; </font>
+      </li>
+      <li>
+        <font color="#003399">-Dcom.sun.management.jmxremote.port=10000</font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1517887618209" FOLDED="true" ID="ID_1021659396" MODIFIED="1518163271765" TEXT="resin&#x548c;java&#x7a0b;&#x5e8f;&#x7684;&#x542f;&#x52a8;&#x53c2;&#x6570;&#x914d;&#x7f6e;&#x56fe;">
+<node CREATED="1517887642236" ID="ID_1058158282" MODIFIED="1517887658504">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="2018/jmx.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 <node CREATED="1515144660625" ID="ID_730159923" MODIFIED="1515144671703" POSITION="right" TEXT="&#x9879;&#x76ee;">
 <node CREATED="1515144673749" FOLDED="true" ID="ID_1360713174" MODIFIED="1517285768726" TEXT="&#x8865;&#x5355;&#x670d;&#x52a1;">
 <node CREATED="1515144680317" ID="ID_1368311189" MODIFIED="1515144698676" TEXT="&#x8870;&#x51cf;&#x662f;&#x95f4;&#x9694;&#x67e5;&#x8be2;&#xff0c;&#x6301;&#x7eed;&#x4e00;&#x5929;&#x5230;&#x4e24;&#x5929;"/>
@@ -2356,7 +2397,7 @@
 </node>
 </node>
 <node CREATED="1510714191216" ID="ID_1987457160" MODIFIED="1517802767838" TEXT="2018">
-<node CREATED="1510714279628" FOLDED="true" ID="ID_661651074" MODIFIED="1517802780342" TEXT="2018.01">
+<node CREATED="1510714279628" FOLDED="true" ID="ID_661651074" MODIFIED="1519451051477" TEXT="2018.01">
 <node CREATED="1514877740733" FOLDED="true" ID="ID_846249459" MODIFIED="1515751258741" TEXT="01.02">
 <node CREATED="1514877763368" ID="ID_303962640" MODIFIED="1514877810088" TEXT="&#x5a01;&#x5bcc;&#x901a;&#x5927;&#x5546;&#x6237;&#x4e0a;&#x7ebf;&#x51c6;&#x5907;"/>
 </node>
@@ -2429,7 +2470,7 @@
 <node CREATED="1516265780336" FOLDED="true" ID="ID_490122831" MODIFIED="1516265813910" TEXT="01.18">
 <node CREATED="1516265785843" ID="ID_1568898793" MODIFIED="1516265811984" TEXT="&#x7533;&#x8bf7;&#x4e0a;&#x7ebf; &#x8865;&#x5355;&#x5206;&#x79bb;&#x670d;&#x52a1;"/>
 </node>
-<node CREATED="1516604975258" FOLDED="true" ID="ID_808528858" MODIFIED="1516786694312" TEXT="01.22">
+<node CREATED="1516604975258" FOLDED="true" ID="ID_808528858" MODIFIED="1519451050300" TEXT="01.22">
 <node CREATED="1516604981912" FOLDED="true" ID="ID_849167270" MODIFIED="1516605039438" TEXT="mdpaygate&#x5e38;&#x89c4;&#x73af;&#x5883;&#x6062;&#x590d;">
 <node CREATED="1516605001960" ID="ID_695507384" MODIFIED="1516605016008" TEXT="&#x6392;&#x9664;jedis.2.4.2&#x4ee5;&#x4e0a;&#x7248;&#x672c;"/>
 <node CREATED="1516605017557" ID="ID_26040378" MODIFIED="1516605037585" TEXT="&#x5f15;&#x5165;jedis.2.2.1&#xff0c;&#x540c;&#x65f6;&#x63d0;&#x51fa;&#x6240;&#x6709;maxTotal&#x914d;&#x7f6e;"/>
@@ -2437,13 +2478,13 @@
 <node CREATED="1516605042542" ID="ID_321439463" MODIFIED="1516605051800" TEXT="OrderQuerySerivce&#x6574;&#x5408;"/>
 <node CREATED="1516605065674" ID="ID_1416855750" MODIFIED="1516605090714" TEXT="mdpaygate&#x4fee;&#x6539;&#x679a;&#x4e3e;&#x7c7b;&#x578b;&#xff0c;&#x63d0;&#x51fa;WEBANK_TEST..."/>
 </node>
-<node CREATED="1516786606421" ID="ID_252883003" MODIFIED="1517285669821" TEXT="1.24">
+<node CREATED="1516786606421" FOLDED="true" ID="ID_252883003" MODIFIED="1519451045860" TEXT="1.24">
 <node CREATED="1516786611180" ID="ID_1887625684" MODIFIED="1516786643546" TEXT="isv &#x8054;&#x8c03;&#xff0c;&#x63d0;&#x4f9b;json&#x63a5;&#x53e3;"/>
 <node CREATED="1516786645675" ID="ID_927285049" MODIFIED="1516786657556" TEXT="orderquery&#x4e0a;&#x7ebf;&#x5b8c;&#x6210;"/>
 <node CREATED="1516786659106" ID="ID_265677589" MODIFIED="1516786702153" TEXT="wft timeout &#x6ca1;&#x6709;&#x8fdb;&#x5165;&#x652f;&#x4ed8;&#x4e2d;&#x7684;bug - mdpaygate"/>
 <node CREATED="1516786704172" ID="ID_1972009879" MODIFIED="1516786721356" TEXT="queueconsumeservice&#x4fee;&#x6539;isv shopid = merchantid"/>
 </node>
-<node CREATED="1516851169624" ID="ID_1652254398" MODIFIED="1516851802385" TEXT="1.25">
+<node CREATED="1516851169624" FOLDED="true" ID="ID_1652254398" MODIFIED="1519451042589" TEXT="1.25">
 <node CREATED="1516851180600" ID="ID_625537005" MODIFIED="1516851218526" TEXT="pay ok but bind order fail ,this order lost"/>
 <node CREATED="1516851803558" ID="ID_203605498" MODIFIED="1516851818551" TEXT="&#x518d;&#x4fee;&#x6539;&#x786e;&#x4fdd;&#x4e0d;&#x4e22;&#x5355;">
 <node CREATED="1516851820295" ID="ID_1266214677" MODIFIED="1516851836582" TEXT="c-b&#x7684;&#x534a;&#x5c0f;&#x65f6;&#x4ee5;&#x4e0a;&#x7b56;&#x7565;&#x67e5;"/>
@@ -2481,17 +2522,17 @@
 </node>
 </node>
 </node>
-<node CREATED="1517641906510" ID="ID_220215265" MODIFIED="1517802769212" TEXT="2018.02">
+<node CREATED="1517641906510" ID="ID_220215265" MODIFIED="1519451052356" TEXT="2018.02">
 <node CREATED="1517641911944" ID="ID_1539471269" MODIFIED="1517641920362" TEXT="02.02">
 <node CREATED="1517641921596" ID="ID_455503714" MODIFIED="1517641931276" TEXT="OrderQueryService&#x4e0a;&#x7ebf;&#x5b8c;&#x6210;"/>
 </node>
 <node CREATED="1517641933381" ID="ID_376962663" MODIFIED="1517641937236" TEXT="02.03">
 <node CREATED="1517641938442" ID="ID_1213459872" MODIFIED="1517641951996" TEXT="&#x5207;&#x6362;&#x516c;&#x4f17;&#x53f7;&#x529f;&#x80fd;&#x5f00;&#x53d1;&#x5b8c;&#x6210;"/>
 </node>
-<node CREATED="1517802794697" ID="ID_1842483686" MODIFIED="1517802869249" TEXT="dubbo/zookeeper/redis/resin-or-tomcat">
-<node CREATED="1517802772660" ID="ID_292794252" MODIFIED="1517897620449" TEXT="02.05">
+<node CREATED="1517802794697" FOLDED="true" ID="ID_1842483686" MODIFIED="1519451081469" TEXT="dubbo/zookeeper/redis/resin-or-tomcat">
+<node CREATED="1517802772660" FOLDED="true" ID="ID_292794252" MODIFIED="1519443326065" TEXT="02.05">
 <node CREATED="1517802872763" ID="ID_1130622081" MODIFIED="1517802889333" TEXT="demo for dubbo code"/>
-<node CREATED="1517813008796" FOLDED="true" ID="ID_702251883" MODIFIED="1517813138611" TEXT="plan">
+<node CREATED="1517813008796" FOLDED="true" ID="ID_702251883" MODIFIED="1519443082416" TEXT="plan">
 <node CREATED="1517812807901" ID="ID_323232334" MODIFIED="1517813124625">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2524,7 +2565,7 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1517813044480" ID="ID_1116563827" MODIFIED="1517818677011">
+<node CREATED="1517813044480" FOLDED="true" ID="ID_1116563827" MODIFIED="1519443097648">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2536,7 +2577,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1517813020603" ID="ID_1197543437" MODIFIED="1517898287332" TEXT="zookeeper">
+<node CREATED="1517813020603" ID="ID_1197543437" MODIFIED="1519443085346" TEXT="zookeeper">
 <node CREATED="1517813155409" ID="ID_666235708" MODIFIED="1517898307551">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2657,7 +2698,7 @@
 </html>
 </richcontent>
 </node>
-<node CREATED="1517897699564" FOLDED="true" ID="ID_1027006162" MODIFIED="1517897745969" TEXT="&#x76d1;&#x63a7;">
+<node CREATED="1517897699564" FOLDED="true" ID="ID_1027006162" MODIFIED="1519433704556" TEXT="&#x76d1;&#x63a7;">
 <node CREATED="1517897706025" ID="ID_839532589" MODIFIED="1517897744695">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2714,16 +2755,137 @@
 </node>
 </node>
 </node>
-<node CREATED="1517802838937" FOLDED="true" ID="ID_1326473312" MODIFIED="1517885030748" TEXT="02.06">
+<node CREATED="1517802838937" FOLDED="true" ID="ID_1326473312" MODIFIED="1519443101873" TEXT="02.06">
 <node CREATED="1517884982533" ID="ID_1971451172" MODIFIED="1517885003995" TEXT="&#x914d;&#x5408;&#x4f59;&#x5a77;&#x4fee;&#x6539;&#x5e7f;&#x544a;&#x641c;&#x7d22;"/>
 <node CREATED="1517885005207" ID="ID_361137887" MODIFIED="1517885029678" TEXT="viusalVM&#x6210;&#x529f;&#x8fdc;&#x7a0b;&#x8fde;&#x5165;java&#x8fdb;&#x7a0b;"/>
 </node>
-<node CREATED="1517802845031" ID="ID_1222833794" MODIFIED="1517802849158" TEXT="02.07"/>
-<node CREATED="1517802850964" ID="ID_823106339" MODIFIED="1517802854966" TEXT="02.08"/>
-<node CREATED="1517802856036" ID="ID_1525186778" MODIFIED="1517802859407" TEXT="02.09"/>
+<node CREATED="1517802845031" FOLDED="true" ID="ID_1222833794" MODIFIED="1519443100106" TEXT="02.07">
+<node CREATED="1518163375350" ID="ID_531326148" MODIFIED="1518163400948" TEXT="&#x4e3b;&#x626b;&#x8865;&#x5355;&#x4fee;&#x590d;userid&#x7684;&#x5bfc;&#x81f4;&#x8865;&#x5355;&#x5931;&#x8d25;"/>
+</node>
+<node CREATED="1517802850964" FOLDED="true" ID="ID_823106339" MODIFIED="1519443328297" TEXT="02.08">
+<node CREATED="1518163403150" ID="ID_1036095995" MODIFIED="1518163412861" TEXT="dubbo"/>
+</node>
+<node CREATED="1517802856036" FOLDED="true" ID="ID_1525186778" MODIFIED="1519443106593" TEXT="02.09">
+<node CREATED="1518163414016" ID="ID_1384046301" MODIFIED="1518164003054" TEXT="dubbo&#x672c;&#x5730;&#x73af;&#x5883;&#x642d;&#x5efa;&#x5b8c;&#x6bd5;">
+<node CREATED="1518163452556" ID="ID_1292128476" MODIFIED="1518163462698" TEXT="1.dubbo&#x5e94;&#x7528;">
+<node CREATED="1518163463938" ID="ID_876092269" MODIFIED="1518163481067" TEXT="&#x9700;&#x8981;zkclient,dubbo&#x4f9d;&#x8d56;"/>
+</node>
+<node CREATED="1518163483085" ID="ID_452303872" MODIFIED="1518163492539" TEXT="2.dubbo-admin&#x7f51;&#x7ad9;">
+<node CREATED="1518163493895" ID="ID_235311338" MODIFIED="1518163493895" TEXT=""/>
+</node>
+<node CREATED="1518163501246" ID="ID_428110780" MODIFIED="1518163519981" TEXT="3.dubbo-monitor&#x7f51;&#x7ad9;">
+<node CREATED="1518163523700" ID="ID_1188748899" MODIFIED="1518163542781" TEXT="&#x7ed3;&#x5408;2&#xff0c;&#x6765;&#x8c03;&#x8bd5;&#x5982;&#x4f55;&#x4f7f;&#x7528;dubbo-admin"/>
+<node CREATED="1518163551877" ID="ID_1287026640" MODIFIED="1518163559818" TEXT="&#x53ef;&#x7b80;&#x5355;&#x505a;&#x6027;&#x80fd;&#x8bc4;&#x4f30;"/>
+<node CREATED="1518164010057" ID="ID_184840262" MODIFIED="1518164010057" TEXT=""/>
+</node>
+<node CREATED="1518163564447" ID="ID_706091820" MODIFIED="1518163578652" TEXT="&#x672a;&#x6765;&#x53ef;&#x8003;&#x8651;&#x7ed3;&#x5408;jmeter&#x8fdb;&#x884c;"/>
+<node CREATED="1518164025586" ID="ID_1734084194" MODIFIED="1518164037292" TEXT="pre: zookeeper&#x642d;&#x5efa;"/>
+<node CREATED="1518169844202" ID="ID_383161852" MODIFIED="1518169891319">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dubbo&#33258;&#24102;jetty&#31616;&#29256;&#23481;&#22120;&#29992;&#20110;&#21551;&#21160;spring&#31243;&#24207;&#65292;&#26080;&#38656;&#22797;&#26434;&#30340;resin,tomcat&#31561;&#36807;&#20110;&#22797;&#26434;&#30340;web&#23481;&#22120;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21442;&#32771;dubbo.io
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518164871370" ID="ID_1952282024" MODIFIED="1518164878773" TEXT="&#x91c7;&#x96c6;&#x9636;&#x6bb5;">
+<node CREATED="1518164880468" FOLDED="true" ID="ID_1940543425" MODIFIED="1519434206276" TEXT="&#x6838;&#x5fc3;&#x90e8;&#x5206;&#x5b57;&#x6bb5;">
+<node CREATED="1518164887900" ID="ID_409631968" MODIFIED="1518164891854" TEXT="paytime"/>
+<node CREATED="1518164892807" ID="ID_952909255" MODIFIED="1518164924948" TEXT="paymoney"/>
+<node CREATED="1518164909420" ID="ID_673399869" MODIFIED="1518164915275" TEXT="pay_fee"/>
+<node CREATED="1518164929778" ID="ID_1385650574" MODIFIED="1518164933548" TEXT="orderid"/>
+<node CREATED="1518164938839" ID="ID_183086275" MODIFIED="1518164946282" TEXT="jiesuan_amount"/>
+<node CREATED="1518164956065" ID="ID_313682770" MODIFIED="1518164961212" TEXT="paychannel"/>
+</node>
+</node>
+</node>
 <node CREATED="1517802860393" ID="ID_1924382768" MODIFIED="1517802863787" TEXT="02.10"/>
+<node CREATED="1519437314966" ID="ID_595881194" MODIFIED="1519451064405" TEXT="2.24">
+<node CREATED="1519437324832" ID="ID_994965599" MODIFIED="1519437462588">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        &#20248;&#38597;&#20572;&#26426;&#39564;&#35777;
+      </li>
+      <li>
+        &#31649;&#29702;&#39029;&#38754;&#31105;&#29992;&#25552;&#20379;&#32773;+&#20248;&#38597;&#20572;&#26426;&#32508;&#21512;&#39564;&#35777;&#65292;&#21363;&#24050;&#21457;&#36215;&#35831;&#27714;&#30340;&#26159;&#21542;&#33021;&#27491;&#24120;&#25910;&#21462;&#36820;&#22238;&#25968;&#25454;&#65292;&#26032;&#35831;&#27714;&#26159;&#21542;&#31435;&#39532;&#20999;&#25442;&#21040;&#21035;&#30340;&#26381;&#21153;&#22120;&#12290;
+      </li>
+      <li>
+        &#38598;&#32676;&#37197;&#32622;&#12290;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519441568468" ID="ID_1115860401" MODIFIED="1519441624128">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26368;&#31616;&#20415;&#21551;&#21160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      java <font color="#003399">com.alibaba.dubbo.container.Main</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519443290231" ID="ID_689864286" MODIFIED="1519443322160">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;<b><font color="#003399">D:\WorkData\dubbo-test</font></b>&#19979;&#36827;&#34892;&#25152;&#26377;&#30456;&#20851;&#27979;&#35797;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
+</node>
+<node CREATED="1519434258330" ID="ID_1469393640" MODIFIED="1519437305833" TEXT="02.24">
+<node CREATED="1519434266064" ID="ID_1232727099" MODIFIED="1519434679761">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#37325;&#26500;mdfrontserver/mdpaygate/mdtradecenter&#65292;&#30456;&#20851;&#34920;&#20063;&#35201;&#31934;&#31616;&#65292;&#20108;&#26376;&#32771;&#34385;&#22914;&#20309;&#35774;&#35745;&#20445;&#35777;&#20114;&#30456;&#29420;&#31435;&#65292;&#20114;&#19981;&#24433;&#21709;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519437305836" ID="ID_428611932" MODIFIED="1519437305836" TEXT=""/>
+</node>
+</node>
+<node CREATED="1519434248844" ID="ID_1026153351" MODIFIED="1519434251515" TEXT="03"/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#00cccc" CREATED="1513567860337" ID="ID_1554936111" MODIFIED="1513644847100" POSITION="left" TEXT="&#x652f;&#x4ed8;&#x6620;&#x5c04;">
@@ -2793,47 +2955,6 @@
 <node CREATED="1517294049075" ID="ID_199004851" MODIFIED="1517294070072" TEXT="AlilpayISV">
 <node CREATED="1517294058379" ID="ID_491057020" MODIFIED="1517294068837" TEXT="96,alipay c-b"/>
 <node CREATED="1517294071386" ID="ID_490882394" MODIFIED="1517294080016" TEXT="97,alipay b-c"/>
-</node>
-</node>
-<node CREATED="1517887444764" ID="ID_796737952" MODIFIED="1517897626815" POSITION="right" TEXT="java">
-<node CREATED="1517887454387" FOLDED="true" ID="ID_1276575981" MODIFIED="1517897646881" TEXT="JMX: java management extension">
-<node CREATED="1517887479401" ID="ID_859613784" MODIFIED="1517887614365">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      java&#35268;&#33539;&#65292;&#25903;&#25345;&#36828;&#31243;&#36830;&#20837;&#30417;&#25511;&#65292;&#20063;&#23601;&#26159;&#34987;&#30417;&#25511;&#31243;&#24207;&#21551;&#21160;&#21152;&#20837;&#22914;&#19979;&#19977;&#20010;<b><font color="#003399">&#21551;&#21160;&#21442;&#25968;</font></b>&#21363;&#21487;&#65306;
-    </p>
-    <ul>
-      <li>
-        &#160;<font color="#003399">-Dcom.sun.management.jmxremote.ssl=false </font>
-      </li>
-      <li>
-        <font color="#003399">-Dcom.sun.management.jmxremote.authenticate=false&#160; </font>
-      </li>
-      <li>
-        <font color="#003399">-Dcom.sun.management.jmxremote.port=10000</font>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1517887618209" FOLDED="true" ID="ID_1021659396" MODIFIED="1517897645649" TEXT="resin&#x548c;java&#x7a0b;&#x5e8f;&#x7684;&#x542f;&#x52a8;&#x53c2;&#x6570;&#x914d;&#x7f6e;&#x56fe;">
-<node CREATED="1517887642236" ID="ID_1058158282" MODIFIED="1517887658504">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="2018/jmx.jpg" />
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
 </node>
 </node>
 </node>
