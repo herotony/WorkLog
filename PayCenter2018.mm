@@ -4,7 +4,7 @@
 <edge COLOR="#111111" WIDTH="thin"/>
 <font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
-<node CREATED="1517887444764" FOLDED="true" ID="ID_796737952" MODIFIED="1519434034678" POSITION="right" TEXT="java">
+<node CREATED="1517887444764" FOLDED="true" ID="ID_796737952" MODIFIED="1519466884827" POSITION="right" TEXT="java">
 <node CREATED="1517887454387" FOLDED="true" ID="ID_1276575981" MODIFIED="1519434028228" TEXT="JMX: java management extension">
 <node CREATED="1517887479401" ID="ID_859613784" MODIFIED="1517887614365">
 <richcontent TYPE="NODE"><html>
@@ -27,8 +27,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1517887618209" FOLDED="true" ID="ID_1021659396" MODIFIED="1518163271765" TEXT="resin&#x548c;java&#x7a0b;&#x5e8f;&#x7684;&#x542f;&#x52a8;&#x53c2;&#x6570;&#x914d;&#x7f6e;&#x56fe;">
 <node CREATED="1517887642236" ID="ID_1058158282" MODIFIED="1517887658504">
@@ -39,8 +38,7 @@
   <body>
     <img src="2018/jmx.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -84,7 +82,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1510713988382" FOLDED="true" ID="ID_23680819" MODIFIED="1517887440092" POSITION="right" TEXT="&#x6545;&#x969c;&#x8bb0;&#x5f55;">
+<node COLOR="#111111" CREATED="1510713988382" FOLDED="true" ID="ID_23680819" MODIFIED="1519463711834" POSITION="right" TEXT="&#x6545;&#x969c;&#x8bb0;&#x5f55;">
 <edge COLOR="#111111" WIDTH="thin"/>
 <node CREATED="1510913611960" FOLDED="true" ID="ID_1173122374" MODIFIED="1517285764070" TEXT="isv&#x9000;&#x6b3e;&#x5361;&#x58f3;">
 <node CREATED="1510913623400" ID="ID_1667729884" MODIFIED="1512633976095" TEXT="&#x9000;&#x6b3e;&#x6d41;&#x7a0b;&#x56fe;">
@@ -419,7 +417,7 @@
 <node CREATED="1516610763854" ID="ID_1403177516" MODIFIED="1516610804403" TEXT="&#x79c1;&#x5e93;&#x5fc5;&#x987b;&#x5c06;3rd&#x5e93;&#x987a;&#x5e8f;&#x7f6e;&#x9876;&#xff0c;&#x5426;&#x5219;&#x7248;&#x672c;&#x53f7;&#x4e0d;&#x53d8;&#xff0c;&#x6c38;&#x8fdc;&#x4e0d;&#x4f1a;&#x53d6;&#x5230;&#x8be5;&#x5e93;&#x4e2d;&#x6700;&#x65b0;&#x7ec4;&#x4ef6;"/>
 <node CREATED="1517641979213" ID="ID_1418944589" MODIFIED="1517642015468" TEXT="jedis&#x7528;maxActive&#x5219;&#x5fc5;&#x987b;&#x5728;&#x76f8;&#x5e94;module&#x7684;pom&#x4e2d;&#x5f15;&#x5165;&#x6307;&#x5b9a;&#x7248;&#x672c;&#x7684;jedis"/>
 </node>
-<node CREATED="1510714159564" FOLDED="true" ID="ID_1656036778" MODIFIED="1511145378239" POSITION="left" TEXT="&#x5b89;&#x88c5;&#x90e8;&#x7f72;&#x8bf4;&#x660e;">
+<node CREATED="1510714159564" FOLDED="true" ID="ID_1656036778" MODIFIED="1519466882379" POSITION="left" TEXT="&#x5b89;&#x88c5;&#x90e8;&#x7f72;&#x8bf4;&#x660e;">
 <node CREATED="1510714323785" ID="ID_1257702630" MODIFIED="1510714328627" TEXT="notifyserver"/>
 <node CREATED="1510714329552" ID="ID_363965362" MODIFIED="1510714334600" TEXT="jobcenter"/>
 </node>
@@ -2396,7 +2394,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1510714191216" ID="ID_1987457160" MODIFIED="1517802767838" TEXT="2018">
+<node CREATED="1510714191216" ID="ID_1987457160" MODIFIED="1519464742053" TEXT="2018">
 <node CREATED="1510714279628" FOLDED="true" ID="ID_661651074" MODIFIED="1519451051477" TEXT="2018.01">
 <node CREATED="1514877740733" FOLDED="true" ID="ID_846249459" MODIFIED="1515751258741" TEXT="01.02">
 <node CREATED="1514877763368" ID="ID_303962640" MODIFIED="1514877810088" TEXT="&#x5a01;&#x5bcc;&#x901a;&#x5927;&#x5546;&#x6237;&#x4e0a;&#x7ebf;&#x51c6;&#x5907;"/>
@@ -2529,10 +2527,10 @@
 <node CREATED="1517641933381" ID="ID_376962663" MODIFIED="1517641937236" TEXT="02.03">
 <node CREATED="1517641938442" ID="ID_1213459872" MODIFIED="1517641951996" TEXT="&#x5207;&#x6362;&#x516c;&#x4f17;&#x53f7;&#x529f;&#x80fd;&#x5f00;&#x53d1;&#x5b8c;&#x6210;"/>
 </node>
-<node CREATED="1517802794697" FOLDED="true" ID="ID_1842483686" MODIFIED="1519451081469" TEXT="dubbo/zookeeper/redis/resin-or-tomcat">
-<node CREATED="1517802772660" FOLDED="true" ID="ID_292794252" MODIFIED="1519443326065" TEXT="02.05">
+<node CREATED="1517802794697" ID="ID_1842483686" MODIFIED="1519610445263" TEXT="dubbo/zookeeper/redis/resin-or-tomcat">
+<node CREATED="1517802772660" ID="ID_292794252" MODIFIED="1519610460081" TEXT="02.05">
 <node CREATED="1517802872763" ID="ID_1130622081" MODIFIED="1517802889333" TEXT="demo for dubbo code"/>
-<node CREATED="1517813008796" FOLDED="true" ID="ID_702251883" MODIFIED="1519443082416" TEXT="plan">
+<node CREATED="1517813008796" FOLDED="true" ID="ID_702251883" MODIFIED="1519610466938" TEXT="plan">
 <node CREATED="1517812807901" ID="ID_323232334" MODIFIED="1517813124625">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2561,11 +2559,10 @@
       &#21608;&#20108;&#65292;&#21608;&#19977;&#20851;&#38190;&#26159;&#37197;&#32622;&#21644;&#31616;&#21333;demo&#36305;&#36215;&#26469;&#65292;&#21644;dubbo-admin&#35843;&#36215;&#26469;&#30475;&#21442;&#25968;&#65292;&#26368;&#36831;&#21608;&#19977;&#23436;&#25104;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1517813044480" FOLDED="true" ID="ID_1116563827" MODIFIED="1519443097648">
+<node CREATED="1517813044480" FOLDED="true" ID="ID_1116563827" MODIFIED="1519610480635">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2575,8 +2572,7 @@
       install introduction
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1517813020603" ID="ID_1197543437" MODIFIED="1519443085346" TEXT="zookeeper">
 <node CREATED="1517813155409" ID="ID_666235708" MODIFIED="1517898307551">
 <richcontent TYPE="NODE"><html>
@@ -2597,8 +2593,7 @@
       3.&#36827;&#20837;<b><font color="#009999">bin&#30446;&#24405;</font></b>&#65292;<b><font color="#003399">zkServer.sh start</font></b>&#26469;&#21551;&#21160;&#21363;&#21487;&#12290;&#29992;telnet 127.0.0.1 2181 -&gt; stat&#26469;&#26816;&#39564;&#21551;&#21160;&#26159;&#21542;&#25104;&#21151;&#12290;(&#23545;&#20110;windows&#26159;zkServer.cmd)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1517818973815" FOLDED="true" ID="ID_557195615" MODIFIED="1517897688425">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2609,8 +2604,7 @@
       <b><font color="#003399">ticketTime</font></b>:&#26368;&#23567;&#26102;&#38388;&#21333;&#20803;&#65292;ms&#65292;zookeeper&#31995;&#32479;&#20013;&#26102;&#38388;&#19968;&#33324;&#37117;&#26159;&#35813;&#21333;&#20803;&#30340;&#20493;&#25968;&#12290;&#19968;&#33324;&#35774;&#20026;2000&#21543;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1517820338825" ID="ID_222366983" MODIFIED="1517820406738">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2621,8 +2615,7 @@
       <b><font color="#003399">initLimit</font></b>:&#40664;&#35748;10,&#20195;&#34920;10*ticketTime&#65292;&#20026;Leader&#26381;&#21153;&#22120;&#31561;&#24453;Follower&#26381;&#21153;&#22120;&#21551;&#21160;&#24182;&#23436;&#25104;&#21516;&#27493;&#30340;&#26102;&#38388;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1517820424186" ID="ID_461334013" MODIFIED="1517820523802">
 <richcontent TYPE="NODE"><html>
@@ -2634,8 +2627,7 @@
       <b><font color="#003399">syncLimit</font></b>:&#40664;&#35748;5,&#20195;&#34920;5*ticketTime,&#20026;Leader&#21644;Follower&#38388;&#24515;&#36339;&#26816;&#27979;&#30340;&#26368;&#22823;&#24310;&#36831;&#26102;&#38388;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1517820633027" ID="ID_323915362" MODIFIED="1517820800515">
 <richcontent TYPE="NODE"><html>
@@ -2653,8 +2645,7 @@
       &#27880;&#24847;&#65292;<b><font color="#ff3300">minSessionTimeout&#65292;&#20195;&#34920;&#33267;&#23569;&#32531;&#23384;&#36825;&#20040;&#20037;&#30340;&#20250;&#35805;&#21543;</font></b>&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink DESTINATION="ID_323915362" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1661758126" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_323915362" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1661758126" SOURCE="ID_323915362" STARTARROW="None" STARTINCLINATION="0;0;"/>
 </node>
@@ -2669,8 +2660,7 @@
       <b><font color="#003399">clientport</font></b>:&#19968;&#33324;&#20026;2181,&#38598;&#32676;&#37197;&#32622;&#26159;&#32943;&#23450;&#35813;&#31471;&#21475;&#37117;&#19981;&#19968;&#26679;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1517819143294" ID="ID_123956173" MODIFIED="1517819438499">
 <richcontent TYPE="NODE"><html>
@@ -2682,8 +2672,7 @@
       <b><font color="#003399">dataDir</font></b>:&#24555;&#29031;&#25991;&#20214;&#30446;&#24405;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1517819332103" ID="ID_78078249" MODIFIED="1517820312452">
 <richcontent TYPE="NODE"><html>
@@ -2695,8 +2684,7 @@
       <b><font color="#003399">dataLogDir</font></b>:&#20107;&#21153;&#26085;&#24535;&#25991;&#20214;&#30446;&#24405;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1517897699564" FOLDED="true" ID="ID_1027006162" MODIFIED="1519433704556" TEXT="&#x76d1;&#x63a7;">
 <node CREATED="1517897706025" ID="ID_839532589" MODIFIED="1517897744695">
@@ -2712,8 +2700,7 @@
       telnet ip 2181 - &gt; conf/stat/... &#26469;&#26597;&#30475;&#24403;&#21069;zookeeper&#29366;&#24577;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2750,22 +2737,21 @@
       &#28982;&#21518;&#65292;&#20998;&#21035;&#23558;reids/zookeeper&#21387;&#32553;&#21253;&#35299;&#21387;&#21040;&#21508;&#33258;&#30446;&#24405;&#65292;dubbo-admin&#30446;&#24405;&#21017;&#23558;&#32534;&#35793;&#22909;&#30340;dubbo-admin.war&#21253;&#25918;&#20837;&#20854;&#20013;&#12290;<b><font color="#339900">&#24453;&#37197;&#32622;&#23433;&#35013;</font></b>&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1517802838937" FOLDED="true" ID="ID_1326473312" MODIFIED="1519443101873" TEXT="02.06">
+<node CREATED="1517802838937" FOLDED="true" ID="ID_1326473312" MODIFIED="1519610486171" TEXT="02.06">
 <node CREATED="1517884982533" ID="ID_1971451172" MODIFIED="1517885003995" TEXT="&#x914d;&#x5408;&#x4f59;&#x5a77;&#x4fee;&#x6539;&#x5e7f;&#x544a;&#x641c;&#x7d22;"/>
 <node CREATED="1517885005207" ID="ID_361137887" MODIFIED="1517885029678" TEXT="viusalVM&#x6210;&#x529f;&#x8fdc;&#x7a0b;&#x8fde;&#x5165;java&#x8fdb;&#x7a0b;"/>
 </node>
-<node CREATED="1517802845031" FOLDED="true" ID="ID_1222833794" MODIFIED="1519443100106" TEXT="02.07">
+<node CREATED="1517802845031" FOLDED="true" ID="ID_1222833794" MODIFIED="1519610489179" TEXT="02.07">
 <node CREATED="1518163375350" ID="ID_531326148" MODIFIED="1518163400948" TEXT="&#x4e3b;&#x626b;&#x8865;&#x5355;&#x4fee;&#x590d;userid&#x7684;&#x5bfc;&#x81f4;&#x8865;&#x5355;&#x5931;&#x8d25;"/>
 </node>
-<node CREATED="1517802850964" FOLDED="true" ID="ID_823106339" MODIFIED="1519443328297" TEXT="02.08">
+<node CREATED="1517802850964" FOLDED="true" ID="ID_823106339" MODIFIED="1519610490796" TEXT="02.08">
 <node CREATED="1518163403150" ID="ID_1036095995" MODIFIED="1518163412861" TEXT="dubbo"/>
 </node>
-<node CREATED="1517802856036" FOLDED="true" ID="ID_1525186778" MODIFIED="1519443106593" TEXT="02.09">
+<node CREATED="1517802856036" FOLDED="true" ID="ID_1525186778" MODIFIED="1519610507947" TEXT="02.09">
 <node CREATED="1518163414016" ID="ID_1384046301" MODIFIED="1518164003054" TEXT="dubbo&#x672c;&#x5730;&#x73af;&#x5883;&#x642d;&#x5efa;&#x5b8c;&#x6bd5;">
 <node CREATED="1518163452556" ID="ID_1292128476" MODIFIED="1518163462698" TEXT="1.dubbo&#x5e94;&#x7528;">
 <node CREATED="1518163463938" ID="ID_876092269" MODIFIED="1518163481067" TEXT="&#x9700;&#x8981;zkclient,dubbo&#x4f9d;&#x8d56;"/>
@@ -2796,8 +2782,7 @@
       &#21442;&#32771;dubbo.io
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518164871370" ID="ID_1952282024" MODIFIED="1518164878773" TEXT="&#x91c7;&#x96c6;&#x9636;&#x6bb5;">
@@ -2812,7 +2797,7 @@
 </node>
 </node>
 <node CREATED="1517802860393" ID="ID_1924382768" MODIFIED="1517802863787" TEXT="02.10"/>
-<node CREATED="1519437314966" ID="ID_595881194" MODIFIED="1519451064405" TEXT="2.24">
+<node CREATED="1519437314966" FOLDED="true" ID="ID_595881194" MODIFIED="1519610449211" TEXT="2.24">
 <node CREATED="1519437324832" ID="ID_994965599" MODIFIED="1519437462588">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2831,8 +2816,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1519441568468" ID="ID_1115860401" MODIFIED="1519441624128">
 <richcontent TYPE="NODE"><html>
@@ -2850,8 +2834,7 @@
       java <font color="#003399">com.alibaba.dubbo.container.Main</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1519443290231" ID="ID_689864286" MODIFIED="1519443322160">
 <richcontent TYPE="NODE"><html>
@@ -2863,12 +2846,47 @@
       &#22312;<b><font color="#003399">D:\WorkData\dubbo-test</font></b>&#19979;&#36827;&#34892;&#25152;&#26377;&#30456;&#20851;&#27979;&#35797;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1519610451786" ID="ID_1659872524" MODIFIED="1519611241440" TEXT="2.26">
+<node CREATED="1519611241441" FOLDED="true" ID="ID_1958225362" MODIFIED="1519611249501" TEXT="this week list">
+<node CREATED="1519611055440" ID="ID_44186665" MODIFIED="1519611234897">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26412;&#21608;&#20869;&#23481;&#28165;&#21333;
+    </p>
+    <ul>
+      <li>
+        dubbo&#23433;&#35013;&#20351;&#29992;&#30340;&#24517;&#35201;&#29615;&#22659;&#35828;&#26126;
+      </li>
+      <li>
+        dubbo&#37197;&#32622;&#35828;&#26126;
+      </li>
+      <li>
+        dubbo&#21387;&#21147;&#27979;&#35797;&#35780;&#20272;
+      </li>
+      <li>
+        dubbo&#30340;&#38598;&#32676;&#65292;&#36127;&#36733;&#22343;&#34913;&#30340;&#27979;&#35797;&#39564;&#35777;
+      </li>
+      <li>
+        dubbo&#20248;&#38597;&#20851;&#26426;&#39564;&#35777;
+      </li>
+      <li>
+        dubbo-admin&#30340;&#20351;&#29992;&#35828;&#26126;
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1519434258330" ID="ID_1469393640" MODIFIED="1519437305833" TEXT="02.24">
+</node>
+<node CREATED="1519434258330" FOLDED="true" ID="ID_1469393640" MODIFIED="1519610443259" TEXT="02.24">
 <node CREATED="1519434266064" ID="ID_1232727099" MODIFIED="1519434679761">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2879,10 +2897,77 @@
       &#37325;&#26500;mdfrontserver/mdpaygate/mdtradecenter&#65292;&#30456;&#20851;&#34920;&#20063;&#35201;&#31934;&#31616;&#65292;&#20108;&#26376;&#32771;&#34385;&#22914;&#20309;&#35774;&#35745;&#20445;&#35777;&#20114;&#30456;&#29420;&#31435;&#65292;&#20114;&#19981;&#24433;&#21709;
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1519437305836" FOLDED="true" ID="ID_428611932" MODIFIED="1519466455293">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        &#19979;&#21608;&#20180;&#32454;&#35745;&#21010;&#37325;&#26500;&#20132;&#26131;&#20013;&#24515;&#20107;&#23452;
+      </li>
+      <li>
+        
+      </li>
+      <li>
+        dubbo&#20877;&#23398;&#20064;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1519465081686" ID="ID_1730946998" MODIFIED="1519465160199" TEXT="&#x6280;&#x672f;&#x8bc4;&#x4f30;">
+<node CREATED="1519465147248" ID="ID_653448638" MODIFIED="1519465202033">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dubbo&#20877;&#30740;&#31350; 5 day
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1519437305836" ID="ID_428611932" MODIFIED="1519437305836" TEXT=""/>
+<node CREATED="1519465132358" ID="ID_508324561" MODIFIED="1519465697806" TEXT="dubbo + website&#x6574;&#x5408;&#x538b;&#x529b;&#x6d4b;&#x8bd5; 5 day"/>
+</node>
+<node CREATED="1519465071109" ID="ID_847024304" MODIFIED="1519465277906" TEXT="&#x7f16;&#x7801;&#x81ea;&#x6d4b;">
+<node CREATED="1519464746522" ID="ID_1359482424" MODIFIED="1519465373604">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        mdfrontserver - &#35746;&#21333;&#29983;&#25104; - &#35746;&#21333;&#21495;&#65292;&#20837;&#24211;&#65292;&#36890;&#36947;&#20999;&#25442; - 3 day
+      </li>
+      <li>
+        mdpaygate - &#20998;&#31163;c -b/b-c/&#21333;&#29420;&#25509;&#25910;&#36890;&#30693;/refund/&#20132;&#26131;&#20837;&#24211;&#65292;&#25972;&#21512;&#26694;&#26550;
+
+        <ul>
+          <li>
+            &#25972;&#21512;&#26694;&#26550;&#32534;&#30721; - 10 day
+          </li>
+          <li>
+            &#36890;&#36947;&#37325;&#26500;&#65306;wft/webank/isv/ - 15 day
+          </li>
+        </ul>
+      </li>
+      <li>
+        mdtradecenter - &#31934;&#31616;&#37325;&#26500; - 5 day
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1519434248844" ID="ID_1026153351" MODIFIED="1519434251515" TEXT="03"/>
