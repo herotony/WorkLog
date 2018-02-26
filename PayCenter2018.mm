@@ -2530,7 +2530,7 @@
 <node CREATED="1517802794697" ID="ID_1842483686" MODIFIED="1519610445263" TEXT="dubbo/zookeeper/redis/resin-or-tomcat">
 <node CREATED="1517802772660" ID="ID_292794252" MODIFIED="1519610460081" TEXT="02.05">
 <node CREATED="1517802872763" ID="ID_1130622081" MODIFIED="1517802889333" TEXT="demo for dubbo code"/>
-<node CREATED="1517813008796" FOLDED="true" ID="ID_702251883" MODIFIED="1519610466938" TEXT="plan">
+<node CREATED="1517813008796" FOLDED="true" ID="ID_702251883" MODIFIED="1519626813160" TEXT="plan">
 <node CREATED="1517812807901" ID="ID_323232334" MODIFIED="1517813124625">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2562,7 +2562,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1517813044480" FOLDED="true" ID="ID_1116563827" MODIFIED="1519610480635">
+<node CREATED="1517813044480" ID="ID_1116563827" MODIFIED="1519626814343">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2573,7 +2573,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1517813020603" ID="ID_1197543437" MODIFIED="1519443085346" TEXT="zookeeper">
+<node CREATED="1517813020603" FOLDED="true" ID="ID_1197543437" MODIFIED="1519628047702" TEXT="zookeeper">
 <node CREATED="1517813155409" ID="ID_666235708" MODIFIED="1517898307551">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2594,7 +2594,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1517818973815" FOLDED="true" ID="ID_557195615" MODIFIED="1517897688425">
+<node CREATED="1517818973815" FOLDED="true" ID="ID_557195615" MODIFIED="1519628021182">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2686,7 +2686,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1517897699564" FOLDED="true" ID="ID_1027006162" MODIFIED="1519433704556" TEXT="&#x76d1;&#x63a7;">
+<node CREATED="1517897699564" FOLDED="true" ID="ID_1027006162" MODIFIED="1519628028398" TEXT="&#x76d1;&#x63a7;">
 <node CREATED="1517897706025" ID="ID_839532589" MODIFIED="1517897744695">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2850,7 +2850,7 @@
 </node>
 </node>
 <node CREATED="1519610451786" ID="ID_1659872524" MODIFIED="1519611241440" TEXT="2.26">
-<node CREATED="1519611241441" FOLDED="true" ID="ID_1958225362" MODIFIED="1519611249501" TEXT="this week list">
+<node CREATED="1519611241441" ID="ID_1958225362" MODIFIED="1519625314773" TEXT="this week list">
 <node CREATED="1519611055440" ID="ID_44186665" MODIFIED="1519611234897">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2882,6 +2882,140 @@
     </ul>
   </body>
 </html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1519626135916" ID="ID_1316317908" LINK="2018/Document/dubbo/dubbo-enviroment.markdown" MODIFIED="1519626167497" TEXT="dubbo-environment">
+<node CREATED="1517813020603" ID="ID_1164702023" MODIFIED="1519443085346" TEXT="zookeeper">
+<node CREATED="1517813155409" ID="ID_1925577837" MODIFIED="1517898307551">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#36827;&#20837;<b><font color="#009999">conf&#30446;&#24405;</font></b>,&#22797;&#21046;&#37325;&#21629;&#21517;zoo_sample.cfg&#21040;zoo.cfg
+    </p>
+    <p>
+      2.&#20462;&#25913;<b><font color="#003399">zoo.cfg</font></b>&#20869;&#23481;&#22914;&#19979;&#65306;
+    </p>
+    <p>
+      &#160;&#160;&#160;server.1=127.0.0.1:2181:3181
+    </p>
+    <p>
+      3.&#36827;&#20837;<b><font color="#009999">bin&#30446;&#24405;</font></b>&#65292;<b><font color="#003399">zkServer.sh start</font></b>&#26469;&#21551;&#21160;&#21363;&#21487;&#12290;&#29992;telnet 127.0.0.1 2181 -&gt; stat&#26469;&#26816;&#39564;&#21551;&#21160;&#26159;&#21542;&#25104;&#21151;&#12290;(&#23545;&#20110;windows&#26159;zkServer.cmd)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1517818973815" FOLDED="true" ID="ID_36964125" MODIFIED="1519628021182">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#003399">ticketTime</font></b>:&#26368;&#23567;&#26102;&#38388;&#21333;&#20803;&#65292;ms&#65292;zookeeper&#31995;&#32479;&#20013;&#26102;&#38388;&#19968;&#33324;&#37117;&#26159;&#35813;&#21333;&#20803;&#30340;&#20493;&#25968;&#12290;&#19968;&#33324;&#35774;&#20026;2000&#21543;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1517820338825" ID="ID_1701551929" MODIFIED="1517820406738">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#003399">initLimit</font></b>:&#40664;&#35748;10,&#20195;&#34920;10*ticketTime&#65292;&#20026;Leader&#26381;&#21153;&#22120;&#31561;&#24453;Follower&#26381;&#21153;&#22120;&#21551;&#21160;&#24182;&#23436;&#25104;&#21516;&#27493;&#30340;&#26102;&#38388;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1517820424186" ID="ID_1365371170" MODIFIED="1517820523802">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#003399">syncLimit</font></b>:&#40664;&#35748;5,&#20195;&#34920;5*ticketTime,&#20026;Leader&#21644;Follower&#38388;&#24515;&#36339;&#26816;&#27979;&#30340;&#26368;&#22823;&#24310;&#36831;&#26102;&#38388;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1517820633027" ID="ID_1997330996" MODIFIED="1517820800515">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#003399">minSessionTimeout/maxSessionTimeout</font></b>:&#23458;&#25143;&#31471;&#21644;&#26381;&#21153;&#31471;&#38388;&#20250;&#35805;&#26102;&#38271;&#65292;&#40664;&#35748;2/20,&#21363;2*ticketTime&#21040;20*ticketTimeout&#65292;&#29992;&#25143;&#35774;&#32622;&#19981;&#22312;&#27492;&#33539;&#22260;&#20250;&#24378;&#21046;&#21040;&#27492;&#33539;&#22260;&#20869;&#30340;&#26368;&#22823;&#25110;&#26368;&#23567;&#20540;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27880;&#24847;&#65292;<b><font color="#ff3300">minSessionTimeout&#65292;&#20195;&#34920;&#33267;&#23569;&#32531;&#23384;&#36825;&#20040;&#20037;&#30340;&#20250;&#35805;&#21543;</font></b>&#12290;
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink DESTINATION="ID_1997330996" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_418797273" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1997330996" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_418797273" SOURCE="ID_1997330996" STARTARROW="None" STARTINCLINATION="0;0;"/>
+</node>
+</node>
+<node CREATED="1517819046320" ID="ID_1160374018" MODIFIED="1517819422264">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#003399">clientport</font></b>:&#19968;&#33324;&#20026;2181,&#38598;&#32676;&#37197;&#32622;&#26159;&#32943;&#23450;&#35813;&#31471;&#21475;&#37117;&#19981;&#19968;&#26679;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1517819143294" ID="ID_687563538" MODIFIED="1517819438499">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#003399">dataDir</font></b>:&#24555;&#29031;&#25991;&#20214;&#30446;&#24405;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1517819332103" ID="ID_1365343400" MODIFIED="1517820312452">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#003399">dataLogDir</font></b>:&#20107;&#21153;&#26085;&#24535;&#25991;&#20214;&#30446;&#24405;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1517897699564" FOLDED="true" ID="ID_1180127885" MODIFIED="1519628028398" TEXT="&#x76d1;&#x63a7;">
+<node CREATED="1517897706025" ID="ID_469335534" MODIFIED="1517897744695">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26368;&#26041;&#20415;&#23601;&#26159;
+    </p>
+    <p>
+      telnet ip 2181 - &gt; conf/stat/... &#26469;&#26597;&#30475;&#24403;&#21069;zookeeper&#29366;&#24577;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
