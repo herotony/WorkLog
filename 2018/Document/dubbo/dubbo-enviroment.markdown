@@ -33,6 +33,10 @@ syncLimit=2 #集群服务器从leader服务器同步到各个服务器的最长�
 至此，此阶段的使用应该是到此为止，无需过多深入。
 
 ### dubbo配置
+* 今天又特意单写了测试程序，待明天完成，用来测集群，优雅关机等等。
+#### dubbo application
+#### dubbo monitor
+#### dubbo admin website
 ### 测试点
 * 一律通过jmeter进行测试
 * dubbo集群：kill pid优雅关掉某个dubbo provider，查看相关日志确认。摘负载上线的关键。
