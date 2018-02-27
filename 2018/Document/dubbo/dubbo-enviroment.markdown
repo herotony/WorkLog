@@ -42,6 +42,7 @@ syncLimit=2 #集群服务器从leader服务器同步到各个服务器的最长�
   * 关键的pom插件配置，设定启动类。
     * ![key plugin](images/dubbo-wrapper-pom-key-plugin.jpg)
   * 启动很简单！java -jar java-wrapper.jar，该jar包只包含关键的META-INF/Manifest.MF文件用于识别启动类。
+  * 集群测试效果很好，集群就是很简单的在局域网内多个服务器启动相同的dubbo server即可，今天测试，如果是单点，客户端不断访问，测试单点杀掉进程(采用优雅模式 -not kill -9)，此后的访问会大量报错，但双点集群，由于dubbo默认是failover重试模式，则客户端不断访问情况下，kill一个点的dubbo，无缝切换到另外一台服务器，没有一个错误，非常好！唯一要限制的就是retry的次数，如果集群有很多点，那么不设置会无限切换重试下去，这会很耗时的。
 #### dubbo application
 #### dubbo monitor
 #### dubbo admin website
