@@ -12,6 +12,7 @@
 
 * [zookeeper官网](https://zookeeper.apache.org/)
 * [zookeeper简单开始教程](https://zookeeper.apache.org/doc/current/zookeeperStarted.html),这里有如何利用zkClient进行当前zookeeper服务的测试。
+* [dubbo提供的zookeeper简单配置启动教程](http://dubbo.io/books/dubbo-admin-book/install/zookeeper.html)
 
 * 很简单先下载官方压缩包，比如：zookeeper-3.4.1.tar.gz,然后找合适目录解压该压缩包，进入conf目录拷贝zoo_sample.cfg，并重命名为zoo.cfg，然后编辑该文件，修改clientPort，也就是启动端口内容如下：
 
@@ -45,7 +46,19 @@ syncLimit=2 #集群服务器从leader服务器同步到各个服务器的最长�
   * 集群测试效果很好，集群就是很简单的在局域网内多个服务器启动相同的dubbo server即可，今天测试，如果是单点，客户端不断访问，测试单点杀掉进程(采用优雅模式 -not kill -9)，此后的访问会大量报错，但双点集群，由于dubbo默认是failover重试模式，则客户端不断访问情况下，kill一个点的dubbo，无缝切换到另外一台服务器，没有一个错误，非常好！唯一要限制的就是retry的次数，如果集群有很多点，那么不设置会无限切换重试下去，这会很耗时的。
 #### dubbo application
 #### dubbo monitor
-#### dubbo admin website
+#### dubbo简版监控中心
+* 顾名思义，可以图形化看到当前dubbo集群的运行情况，非常实用，也可用于测试。
+* 采用本地编译通过的dubbo-simple模块的dubbo-monitor-simple-2.5.5-assembly.tar.gz,解压缩后修改conf/dubbo.properties到指定的zookeeper即可,然后用bin/start.sh or stop.sh进行开始或者停止监控，就是这么简单。
+* 能简单查看某个dubbo service的QPS，亦即每秒请求数。
+![QPS图](images/dubbo-monitor-simple.jpg)
+#### dubbo admin website 亦即dubbo管理中心
+* 更多可用于临时调整集群负载策略，学习学习就好了，不会特别用到的。
+* 通过本地编译通过的dubbo-admin模块生成的war包放入tomcat/resin的webapps下，即可通过这两种web容器的start.sh来启动访问，此前只需要简单配置WEB-INF目录下的dubbo.properties即可。主要是配置监听端口(监听端口在web容器配置中配置)和zookeeper注册地址，这样才能发现集群内的所有dubbo实例。
+```
+dubbo.registry.address=zookeeper://127.0.0.1:2181
+dubbo.admin.root.password=root
+dubbo.admin.guest.password=guest
+```
 ### 测试点
 * 一律通过jmeter进行测试
 * dubbo集群：kill pid优雅关掉某个dubbo provider，查看相关日志确认。摘负载上线的关键。
