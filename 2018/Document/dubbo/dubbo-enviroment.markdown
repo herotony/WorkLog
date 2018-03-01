@@ -44,6 +44,8 @@ syncLimit=2 #集群服务器从leader服务器同步到各个服务器的最长�
     * ![key plugin](images/dubbo-wrapper-pom-key-plugin.jpg)
   * 启动很简单！java -jar java-wrapper.jar，该jar包只包含关键的META-INF/Manifest.MF文件用于识别启动类。
   * 集群测试效果很好，集群就是很简单的在局域网内多个服务器启动相同的dubbo server即可，今天测试，如果是单点，客户端不断访问，测试单点杀掉进程(采用优雅模式 -not kill -9)，此后的访问会大量报错，但双点集群，由于dubbo默认是failover重试模式，则客户端不断访问情况下，kill一个点的dubbo，无缝切换到另外一台服务器，没有一个错误，非常好！唯一要限制的就是retry的次数，如果集群有很多点，那么不设置会无限切换重试下去，这会很耗时的。
+
+* 2018-02-28 确认我们就该用默认的dubbo协议而不是hessian，数据传输量控制在10k以下为好，dubbo协议是单一的长连接，然后两端各自由连接池来处理，效率应该很高，但前提是交互数据量必须小。比如生成订单号，生成和返回请求数据就非常的合适。
 #### dubbo application
 #### dubbo monitor
 #### dubbo简版监控中心
@@ -51,6 +53,7 @@ syncLimit=2 #集群服务器从leader服务器同步到各个服务器的最长�
 * 采用本地编译通过的dubbo-simple模块的dubbo-monitor-simple-2.5.5-assembly.tar.gz,解压缩后修改conf/dubbo.properties到指定的zookeeper即可,然后用bin/start.sh or stop.sh进行开始或者停止监控，就是这么简单。
 * 能简单查看某个dubbo service的QPS，亦即每秒请求数。
 ![QPS图](images/dubbo-monitor-simple.jpg)
+
 #### dubbo admin website 亦即dubbo管理中心
 * 更多可用于临时调整集群负载策略，学习学习就好了，不会特别用到的。
 * 通过本地编译通过的dubbo-admin模块生成的war包放入tomcat/resin的webapps下，即可通过这两种web容器的start.sh来启动访问，此前只需要简单配置WEB-INF目录下的dubbo.properties即可。主要是配置监听端口(监听端口在web容器配置中配置)和zookeeper注册地址，这样才能发现集群内的所有dubbo实例。
