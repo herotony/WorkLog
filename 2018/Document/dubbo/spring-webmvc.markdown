@@ -59,3 +59,50 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 ```
+
+* 其次WEB-INF目录必须在webapp目录下才能正确打成war包，结构图如下：
+![webapp structure](images/webapp.jpg)
+
+   * 必须的pom中build节点配置如下
+```
+<packaging>war</packaging>
+<build>
+       <finalName>dubbowrap</finalName>
+       <resources>
+           <resource>
+               <directory>src/main/resources</directory>
+               <filtering>true</filtering>
+           </resource>
+       </resources>
+       <plugins>
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-dependency-plugin</artifactId>
+               <executions>
+                   <execution>
+                       <id>copy</id>
+                       <phase>package</phase>
+                       <goals>
+                           <goal>copy-dependencies</goal>
+                       </goals>
+
+                       <configuration>
+                           <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/lib</outputDirectory>
+                       </configuration>
+                   </execution>
+               </executions>
+           </plugin>
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-war-plugin</artifactId>
+               <version>2.4</version>
+               <configuration>
+                   <packagingExcludes>WEB-INF/lib/commons-logging-*.jar</packagingExcludes>
+               </configuration>
+           </plugin>
+       </plugins>
+
+   </build>
+```
+  * 该build/plugin/maven-war-plugin下的packagingExcludes节点害惨我了，折磨了一整天，如果不另外打包进来commons-loggin-1.2.jar之类的日志包进来，则resin直接报错丢失该类。此外spring系列引入组件中spring-webmvc/spring-web必须明确规定采用同一版本，否则，会出现奇奇怪怪的丢失类错误。
+  * 还以就是dubbo pom中，的dubbo reference要记得version节点和check="false"节点配置别丢了，否则也会报错。
