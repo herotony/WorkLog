@@ -3346,7 +3346,7 @@
 <node BACKGROUND_COLOR="#ffffcc" COLOR="#009933" CREATED="1520326210095" ID="ID_1678248496" MODIFIED="1520326272171" POSITION="right" TEXT="&#x538b;&#x6d4b;&#x6307;&#x6807;">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
 <icon BUILTIN="button_ok"/>
-<node CREATED="1520321851658" FOLDED="true" ID="ID_1627015504" MODIFIED="1520327918652" TEXT="mdpaygate">
+<node CREATED="1520321851658" FOLDED="true" ID="ID_1627015504" MODIFIED="1520330378678" TEXT="mdpaygate">
 <node CREATED="1520322438077" ID="ID_886296142" MODIFIED="1520326190309">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3401,6 +3401,52 @@
   </body>
 </html>
 </richcontent>
+</node>
+</node>
+<node CREATED="1520329414047" FOLDED="true" ID="ID_1111150427" MODIFIED="1520330377432" TEXT="&#x5173;&#x4e8e;&#x7ebf;&#x7a0b;&#x6570;&#x8bbe;&#x7f6e;">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1520328863817" ID="ID_1466582127" MODIFIED="1520329442359">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32447;&#31243;&#25968;&#35774;&#32622;&#65292;&#23545;&#20110;cpu&#23494;&#38598;&#22411;&#65292;&#24456;&#31616;&#21333;&#65292;core-count+1&#65292;&#21363;&#21487;&#20134;&#21363;&#27704;&#22909;&#32447;&#31243;&#25968;&#20026;5&#30340;&#26469;&#28304;&#65292;
+    </p>
+    <p>
+      &#23545;&#20110;IO&#23494;&#38598;&#22411;&#65292;&#21017;&#30456;&#23545;&#35774;&#32622;&#20250;&#22823;&#20123;&#65292;core-count*8?...&#26377;&#20844;&#24335;&#20294;&#19981;&#35265;&#24471;&#26159;&#23545;&#30340;&#65292;&#26377;&#26102;&#20505;&#35774;&#32622;&#22823;&#26377;&#29992;&#21834;&#12290;&#20844;&#24335;&#22914;&#19979;
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        <font color="rgb(0, 0, 0)" face="Helvetica, Tahoma, Arial, sans-serif" size="14px">Ncpu = number of CPUs&#160;&#160;&#27604;&#22914;&#65292;&#25105;&#20204;&#30340;4&#26680;&#12290;<br align="left" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /><br align="left" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" />Ucpu = target CPU utilization, 0 &lt;= Ucpu &lt;= 1&#160;&#160;&#65292;cpu&#20351;&#29992;&#29575;&#19968;&#33324;&#35774;&#23450;&#20026;0.6&#65292;&#21363;60%&#30340;&#36127;&#36733;<br align="left" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /><br align="left" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /><br align="left" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" />&#160;W/C=&#160;&#160;ratio of wait time to compute time&#160;&#160;,&#31561;&#24453;&#26102;&#38388;&#19982;&#22788;&#29702;&#26102;&#38388;&#30340;&#27604;&#29575;&#65311;<br align="left" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /><br align="left" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /><br align="left" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" />&#35201;&#20351;&#22788;&#29702;&#22120;&#36798;&#21040;&#26399;&#26395;&#30340;&#21033;&#29992;&#29575;,&#32447;&#31243;&#27744;&#30340;&#26368;&#20248;&#22823;&#23567;&#20026;:&#160;<br align="left" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /><br align="left" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /></font><font color="#6666ff" face="Helvetica, Tahoma, Arial, sans-serif" size="14px"><b>Nthreads = Ncpu * Ucpu * (1 + W/C)&#160;</b></font><font color="rgb(0, 0, 0)" face="Helvetica, Tahoma, Arial, sans-serif" size="14px"><br align="left" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" />&#27604;&#22914;&#65306;4*0.6*(1+1/0.1)=26...&#21363;&#31934;&#30830;&#20272;&#31639;W/C&#26159;&#20851;&#38190;&#65292;&#27604;&#22914;&#22788;&#29702;&#26102;&#38388;&#24456;&#30701;&#65292;&#31561;&#24453;&#26102;&#38388;&#24456;&#38271;&#23601;&#35201;&#37197;&#32622;&#26356;&#22810;&#30340;&#32447;&#31243;&#25968;&#12290;linux&#19968;&#33324;&#22266;&#23450;1/100 cpu&#26102;&#38388;&#29992;&#20110;&#31561;&#24453;&#65292;&#21363;W&#20540;&#22266;&#23450;&#65292;&#25105;&#20204;&#21482;&#35201;&#30693;&#36947;C&#21363;&#21487;&#12290;</font>
+      </li>
+      <li>
+        <font color="rgb(0, 0, 0)" face="Helvetica, Tahoma, Arial, sans-serif" size="14px"><br align="left" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" />
+        </font>
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1520330136374" FOLDED="true" ID="ID_875557456" MODIFIED="1520330372055">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pidstat -p 27919 1
+    </p>
+    <p>
+      &#26597;&#30475;27919&#36827;&#31243;&#21495;&#30340;cpu&#20351;&#29992;&#24773;&#20917;&#65292;1&#31186;&#37319;&#26679;&#19968;&#27425;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1520330339584" ID="ID_1933215378" MODIFIED="1520330368670" TEXT="&#x8fd8;&#x662f;&#x5b9e;&#x6d4b;&#x6700;&#x4f73;&#x503c;&#x5427;&#xff0c;&#x4f30;&#x8ba1;&#x56db;&#x6838;&#x5c31;&#x662f;&#x7ebf;&#x7a0b;&#x6570;30&#x4e4b;&#x95f4;&#x5427;"/>
 </node>
 </node>
 </node>
