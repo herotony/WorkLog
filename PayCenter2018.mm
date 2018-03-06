@@ -2520,7 +2520,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1517641906510" ID="ID_220215265" MODIFIED="1519451052356" TEXT="2018.02">
+<node CREATED="1517641906510" FOLDED="true" ID="ID_220215265" MODIFIED="1520321333227" TEXT="2018.02">
 <node CREATED="1517641911944" ID="ID_1539471269" MODIFIED="1517641920362" TEXT="02.02">
 <node CREATED="1517641921596" ID="ID_455503714" MODIFIED="1517641931276" TEXT="OrderQueryService&#x4e0a;&#x7ebf;&#x5b8c;&#x6210;"/>
 </node>
@@ -3029,8 +3029,7 @@
       &#32771;&#34385;&#23558;&#35831;&#27714;&#25968;&#25454;&#25171;&#21253;&#21644;&#35299;&#26512;&#20998;&#24320;&#21040;dubbo&#38598;&#32676;&#65292;&#32780;web&#26381;&#21153;&#22120;&#23436;&#25104;&#25152;&#26377;&#30340;&#36923;&#36753;&#65292;&#19981;&#21516;&#30340;&#21512;&#20316;&#26041;&#37319;&#29992;&#19981;&#21516;&#30340;web&#38598;&#32676;&#21363;&#21487;&#12290;&#30495;&#27491;&#20570;&#21040;app&#37096;&#20998;&#26159;dubbo&#65292;&#32780;&#25972;&#21512;&#22312;web&#21363;&#21487;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1519809771671" ID="ID_1991985131" MODIFIED="1519809811350" TEXT="2.28 &#x642d;&#x5efa;webservlet&#xff0c;3.1&#x5b8c;&#x6210;&#xff0c;3.2&#x901a;&#x8fc7;jmeter&#x8fdb;&#x884c;&#x538b;&#x6d4b;web+dubbo"/>
@@ -3067,8 +3066,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1519465081686" ID="ID_1730946998" MODIFIED="1519465160199" TEXT="&#x6280;&#x672f;&#x8bc4;&#x4f30;">
 <node CREATED="1519465147248" ID="ID_653448638" MODIFIED="1519465202033">
 <richcontent TYPE="NODE"><html>
@@ -3080,8 +3078,7 @@
       dubbo&#20877;&#30740;&#31350; 5 day
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1519465132358" ID="ID_508324561" MODIFIED="1519465697806" TEXT="dubbo + website&#x6574;&#x5408;&#x538b;&#x529b;&#x6d4b;&#x8bd5; 5 day"/>
 </node>
@@ -3113,6 +3110,64 @@
       </li>
     </ul>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1519434248844" ID="ID_1026153351" MODIFIED="1519434251515" TEXT="03">
+<node CREATED="1520321335514" ID="ID_79364416" MODIFIED="1520321849134" TEXT="03.06">
+<node CREATED="1520321344091" ID="ID_1923780406" MODIFIED="1520321543557">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32447;&#19978;&#22235;&#26680;(2.5G)-8G
+    </p>
+    <p>
+      &#24120;&#35268;&#21452;&#26680;(2.4G)-8G
+    </p>
+    <p>
+      &#27979;&#35797;&#37319;&#29992;&#32447;&#19978;&#23792;&#20540;&#21644;&#35774;&#35745;&#39044;&#24819;&#20540;&#38500;&#20197;&#32447;&#19978;&#26381;&#21153;&#22120;&#24471;&#21040;&#27599;&#21488;&#26381;&#21153;&#22120;&#30340;&#35774;&#35745;&#20540;&#65292;&#29702;&#35770;&#65292;CPU&#19981;&#33021;&#36229;&#36807;70%&#65292;GC&#27425;&#25968;&#19981;&#33021;&#36229;&#36807;&#19968;&#23450;&#38400;&#20540;&#19979;&#30340;&#32447;&#31243;&#25968;&#65292;&#28982;&#21518;&#20877;&#26412;&#22320;&#27979;&#35797;&#26381;&#21153;&#22120;&#27979;&#35797;&#65292;&#30001;&#20110;&#65292;&#27979;&#35797;&#26381;&#21153;&#22120;&#19981;&#22914;&#32447;&#19978;&#65292;&#37027;&#20040;&#21482;&#35201;&#27979;&#35797;&#26381;&#21153;&#22120;&#27979;&#35797;&#36890;&#36807;&#65292;&#32447;&#19978;&#19968;&#23450;&#27809;&#38382;&#39064;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1520321874270" ID="ID_1590461247" MODIFIED="1520321881126" TEXT="&#x5f53;&#x524d;&#x7ebf;&#x4e0a;">
+<node CREATED="1520321867668" ID="ID_427306049" MODIFIED="1520321871559" TEXT="mdfrontserver"/>
+<node CREATED="1520321861313" ID="ID_660130081" MODIFIED="1520321866593" TEXT="shopcenter2"/>
+<node CREATED="1520321851658" ID="ID_450144862" MODIFIED="1520321858545" TEXT="mdpaygate">
+<node CREATED="1520322438077" ID="ID_685938226" MODIFIED="1520323037740">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26368;&#39640;&#23792;&#65306;20&#26465;/s/&#26381;&#21153;&#22120;&#65292;mdpaygate 10&#21488;&#65292;200per/second
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30446;&#21069;&#65292;&#39640;&#23792;&#26399;&#26159;&#24179;&#26102;&#26368;&#20302;&#35895;&#30340;5&#20493;&#12290;&#23601;&#25353;&#24179;&#22343;&#20540;5&#20493;&#26469;&#35780;&#20272;&#39640;&#23792;&#26399;&#30340;&#24615;&#33021;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21017;&#30446;&#26631;&#27599;&#22825;1000&#19975;&#21333;&#30340;&#24773;&#20917;&#19979;&#65292;&#39640;&#23792;&#26399;&#30340;&#20540;&#24212;&#35813;&#26159;600per/second,&#30701;&#26399;600&#19975;&#21333;&#30340;&#24773;&#20917;&#19979;&#65292;&#39640;&#23792;&#26399;&#24212;&#35813;&#26159;400per/second&#65292;&#30456;&#24403;&#20110;&#27599;&#21488;&#26381;&#21153;&#22120;&#24212;&#35813;&#26159;40&#26465;/s
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#32447;&#19979;&#24120;&#35268;&#27979;&#35797;&#29615;&#22659;&#30701;&#26399;&#21387;&#21147;&#27979;&#35797;&#35774;&#23450;&#20026;20 ~ 30&#26465;/s&#65292;&#22240;&#20026;&#32447;&#19978;&#26159;&#22235;&#26680;&#65292;&#32780;&#32447;&#19979;&#26159;&#21452;&#26680;&#12290;
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
@@ -3120,7 +3175,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1519434248844" ID="ID_1026153351" MODIFIED="1519434251515" TEXT="03"/>
+</node>
 </node>
 </node>
 <node BACKGROUND_COLOR="#00cccc" CREATED="1513567860337" ID="ID_1554936111" MODIFIED="1513644847100" POSITION="left" TEXT="&#x652f;&#x4ed8;&#x6620;&#x5c04;">
@@ -3190,6 +3245,96 @@
 <node CREATED="1517294049075" ID="ID_199004851" MODIFIED="1517294070072" TEXT="AlilpayISV">
 <node CREATED="1517294058379" ID="ID_491057020" MODIFIED="1517294068837" TEXT="96,alipay c-b"/>
 <node CREATED="1517294071386" ID="ID_490882394" MODIFIED="1517294080016" TEXT="97,alipay b-c"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffcc99" COLOR="#cc6600" CREATED="1520325845829" ID="ID_696044184" MODIFIED="1520326015406" POSITION="right" TEXT="&#x624b;&#x5de5;&#x8865;&#x5355;">
+<font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1520325423534" ID="ID_1974834015" MODIFIED="1520325441860">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      c &#25195; b &#34917;&#21333;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1520325444318" ID="ID_984603511" MODIFIED="1520325444318" TEXT="">
+<node CREATED="1520325341258" ID="ID_1877670921" MODIFIED="1520325520311">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)"><br />
+      </font>
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)">update&#160;md_pay_trade&#160;set&#160;`status`=1,create_time=UNIX_TIMESTAMP(now())*1000&#160;where&#160;trade_no='W1802280548989' c&#25195;b&#24050;&#32463;&#32465;&#23450;&#35746;&#21333;&#20102;</font>
+    </div>
+    <br class="Apple-interchange-newline" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1520325327330" FOLDED="true" ID="ID_1796856646" MODIFIED="1520326007937">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      b &#25195; c &#34917;&#21333;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1520325341258" ID="ID_1192657454" MODIFIED="1520325383198">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)" size="16px">update&#160;md_order_info&#160;set&#160;order_status=0&#160;,&#160;&#160;add_time=UNIX_TIMESTAMP(now())*1000&#160;,</font>
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)" size="16px">pay_limit_time=UNIX_TIMESTAMP(date_add(&#160;now(),interval&#160;1&#160;DAY))*1000&#160;,&#160;bind_limit_time=&#160;UNIX_TIMESTAMP(date_add(&#160;now(),interval&#160;1&#160;DAY))*1000&#160;&#160;</font>
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)" size="16px">where&#160;order_id&#160;='W1802280548989'</font>
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)" size="16px"><br />
+      </font>
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)" size="16px">update&#160;md_pay_trade&#160;set&#160;`status`=8,create_time=UNIX_TIMESTAMP(now())*1000&#160;where&#160;trade_no='W1802280548989'</font>
+    </div>
+    <br class="Apple-interchange-newline" />
+    
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1520325863338" ID="ID_401717029" MODIFIED="1520325979060">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      c &#25195; b&#34917;&#21333;&#24456;&#23569;&#65292;&#20960;&#20046;&#19981;&#29992;&#65292;c&#25195;b&#20107;&#20808;&#23601;&#32465;&#23450;&#22909;&#20102;&#35746;&#21333;&#65292;&#21153;&#24517;&#19981;&#35201;&#25913;&#65292;orderqueryservice&#38024;&#23545;c&#25195;b&#30340;&#21333;&#23376;&#36339;&#36807;&#21019;&#24314;&#29992;&#25143;&#21644;&#32465;&#23450;&#35746;&#21333;&#30340;&#36923;&#36753;&#12290;
+    </p>
+    <p>
+      queueconsumeservice&#65292;&#21482;&#20250;&#21047;&#26032;md_order_info&#30340;pay_status,pay_fee,pay_id&#31561;&#23383;&#27573;&#65292;&#32477;&#19981;&#20250;&#20877;&#21160;order_status&#23383;&#27573;&#20102;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
