@@ -2394,7 +2394,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1510714191216" ID="ID_1987457160" MODIFIED="1519464742053" TEXT="2018">
+<node CREATED="1510714191216" FOLDED="true" ID="ID_1987457160" MODIFIED="1520812499189" TEXT="2018">
 <node CREATED="1510714279628" FOLDED="true" ID="ID_661651074" MODIFIED="1520385230851" TEXT="2018.01">
 <node CREATED="1514877740733" FOLDED="true" ID="ID_846249459" MODIFIED="1515751258741" TEXT="01.02">
 <node CREATED="1514877763368" ID="ID_303962640" MODIFIED="1514877810088" TEXT="&#x5a01;&#x5bcc;&#x901a;&#x5927;&#x5546;&#x6237;&#x4e0a;&#x7ebf;&#x51c6;&#x5907;"/>
@@ -3116,8 +3116,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1519434248844" ID="ID_1026153351" MODIFIED="1520417141819" TEXT="03">
-<node CREATED="1520321335514" ID="ID_79364416" MODIFIED="1520321849134" TEXT="03.06">
+<node CREATED="1519434248844" FOLDED="true" ID="ID_1026153351" MODIFIED="1520812497733" TEXT="03">
+<node CREATED="1520321335514" FOLDED="true" ID="ID_79364416" MODIFIED="1520812495673" TEXT="03.06">
 <node CREATED="1520321344091" ID="ID_1923780406" MODIFIED="1520321543557">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3138,7 +3138,7 @@
 <node CREATED="1520321874270" ID="ID_1590461247" MODIFIED="1520321881126" TEXT="&#x5f53;&#x524d;&#x7ebf;&#x4e0a;">
 <node CREATED="1520321867668" ID="ID_427306049" MODIFIED="1520321871559" TEXT="mdfrontserver"/>
 <node CREATED="1520321861313" ID="ID_660130081" MODIFIED="1520321866593" TEXT="shopcenter2"/>
-<node CREATED="1520321851658" FOLDED="true" ID="ID_450144862" MODIFIED="1520326226839" TEXT="mdpaygate">
+<node CREATED="1520321851658" FOLDED="true" ID="ID_450144862" MODIFIED="1520554668151" TEXT="mdpaygate">
 <node CREATED="1520322438077" ID="ID_685938226" MODIFIED="1520326190309">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3179,7 +3179,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1520417144038" FOLDED="true" ID="ID_287648768" MODIFIED="1520417486203" TEXT="03.07">
+<node CREATED="1520417144038" FOLDED="true" ID="ID_287648768" MODIFIED="1520554675511" TEXT="03.07">
 <node CREATED="1520417149958" ID="ID_1998346383" MODIFIED="1520417482200">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3200,7 +3200,7 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1520502681351" ID="ID_184219298" MODIFIED="1520502686209" TEXT="03.08">
+<node CREATED="1520502681351" FOLDED="true" ID="ID_184219298" MODIFIED="1520554671209" TEXT="03.08">
 <node CREATED="1520502687810" ID="ID_704866361" MODIFIED="1520502738109">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3214,6 +3214,202 @@
 </html>
 </richcontent>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1520812502271" ID="ID_307011401" MODIFIED="1520812506796" TEXT="&#x4ea4;&#x6613;&#x91cd;&#x6784;">
+<node CREATED="1520812508176" ID="ID_1390129206" MODIFIED="1520813801061" TEXT="&#x6570;&#x636e;&#x8868;">
+<node CREATED="1520812513436" ID="ID_1325667879" MODIFIED="1520812527880" TEXT="md_order_info -&gt; md_order_info_day">
+<node CREATED="1520812542181" ID="ID_1916168958" MODIFIED="1520812563132" TEXT="md_order_day_busy">
+<node CREATED="1520812573837" ID="ID_719848913" MODIFIED="1520824898442">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      11-12-13/17-18-19
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1520812564297" ID="ID_1712871275" MODIFIED="1520812572242" TEXT="md_order_day_other">
+<node CREATED="1520812594310" ID="ID_1439066461" MODIFIED="1520812602418" TEXT="other"/>
+</node>
+<node CREATED="1520812611468" ID="ID_436677658" MODIFIED="1520812627092" TEXT="after 00:00 transfer to stat table"/>
+<node CREATED="1520835115174" FOLDED="true" ID="ID_1818710642" MODIFIED="1520835140812" TEXT="structure">
+<node CREATED="1520835126408" ID="ID_1010960208" MODIFIED="1520835134025">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="black" size="16px">&#26377;&#38382;&#39064;&#21363;&#26102;&#27807;&#36890;&#65292;&#26085;&#34920;&#21517;&#20026;</font><font color="#008000" size="16px"><b>pay_order_20180312_busy(</b></font><font color="black" size="16px">&#20869;&#23384;11&#65292;12&#65292;13&#65292;17&#65292;18&#65292;19)&#25968;&#25454;&#65292;</font><font color="#808000" size="16px"><b>pay_order_ 20180312_other</b></font><font color="black" size="16px">(&#20854;&#20313;&#26102;&#27573;&#25968;&#25454;&#37117;&#22312;&#27492;)</font>
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      &#27425;&#26085;&#20940;&#26216;&#20004;&#28857;&#23558;&#26085;&#34920;&#25152;&#26377;&#25968;&#25454;&#23548;&#20837;<font color="#0000ff"><b>md_order_info&#34920;&#20013;&#25110;&#32773;&#20840;&#26032;&#30340;pay_order_stat</b></font>&#34920;&#20013;&#37117;&#34892;(&#37492;&#20110;&#24590;&#20040;&#37117;&#20250;&#26377;&#27425;&#20462;&#25913;&#65292;&#24314;&#35758;&#37319;&#29992;&#26032;&#34920;)&#65292;&#29992;&#20110;<b>&#32467;&#31639;&#21644;&#32479;&#35745;</b>&#12290;
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)" size="16px"><br />
+      </font>
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)" size="16px">private&#160;String&#160;order_Id; //W</font><font color="#333399" size="16px"><b>18031216</b></font><b><font color="#800080" size="16px">01</font></b><font color="black" size="16px"><b style="color: black; font-size: 16px; line-height: 1.5">93</b>....... ,<b style="color: black; font-size: 16px; line-height: 1.5">93</b>&#21363;paytype</font><font color="#333399" size="16px">,</font><font color="#0000ff" size="16px"><b>01</b></font><font color="black" size="16px">&#21363;paytype&#25152;&#23646;&#36890;&#36947;&#32534;&#30721;</font>
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="black" size="16px">&#160;&#160;private&#160;long&#160;supplier_Id;<br />&#160;&#160;private&#160;long&#160;shop_Id;<br />&#160;&#160;private&#160;String&#160;shop_Name;<br />&#160;</font><font size="16px" color="#ff0000"><strike>&#160;private&#160;String&#160;secret; &#160;//&#21475;&#20196;&#30721;&#65311;<br />&#160;&#160;private&#160;long&#160;order_Channel;//&#35746;&#21333;&#31867;&#22411;&#24050;&#32463;&#19981;&#23384;&#22312;&#65292;&#21482;&#26159;&#29992;&#25143;&#25903;&#20184;</strike></font><font size="16px"><br />&#160;&#160;private&#160;long&#160;order_Status;<br />&#160;&#160;private&#160;long&#160;add_Time;<br /></font><font size="16px" color="#ff0000">&#160;</font><font size="16px" color="black"><strike>&#160;private&#160;long&#160;bind_Limit_Time;</strike></font><font size="16px" color="#ff0000"><br />&#160;</font><font size="16px" color="black"><strike>&#160;private&#160;String&#160;remark;</strike></font><font size="16px"><br />&#160;&#160;private&#160;long&#160;user_Id;<br />&#160;&#160;private&#160;String&#160;mobile;<br />&#160;&#160;</font><font size="16px" color="black"><b style="color: black">private&#160;String&#160;mid; /</b></font><font size="16px">/&#30446;&#21069;&#23384;&#30528;&#24494;&#20449;&#25110;&#25903;&#20184;&#23453;&#29992;&#25143;id<br />&#160;&#160;</font><font size="16px" color="#0000ff"><b>private&#160;long&#160;ostype;//204,107,103...</b></font><font size="16px"><br />&#160;&#160;private&#160;long&#160;bind_Time;<br />&#160;&#160;private&#160;double&#160;bill_Amount;<br />&#160;</font><font size="16px" color="black"><strike>&#160;private&#160;double&#160;surplus; //&#20313;&#39069;</strike></font><font size="16px" color="#ff0000"><br /></font><font size="16px" color="black"><strike>&#160;&#160;private&#160;double&#160;rebate_Use_Money;</strike></font><font size="16px"><br />&#160;&#160;private&#160;double&#160;money_Paid;<br />&#160;&#160;private&#160;double&#160;order_Amount;//&#26174;&#31034;&#29992;<br /></font><font size="16px" color="#339966">&#160;</font><font size="16px" color="#ff0000">&#160;<strike>private&#160;double&#160;order_Off_Money;//&#35746;&#21333;&#20248;&#24800;&#20215;&#26684;<br />&#160;&#160;private&#160;double&#160;no_Rebate_Money;//&#19981;&#21442;&#19982;&#36820;&#29616;&#37329;&#39069;</strike></font><font size="16px"><br />&#160;&#160;private&#160;long&#160;pay_Status;<br /></font><font size="16px" color="#ff0000"><strike>&#160;&#160;private&#160;long&#160;pay_Limit_Time;</strike></font><font size="16px"><br />&#160;&#160;private&#160;long&#160;pay_Id;<br />&#160;&#160;private&#160;String&#160;pay_Name;<br />&#160;&#160;private&#160;long&#160;pay_Time;<br />&#160;</font><font size="16px" color="#ff0000">&#160;</font><font size="16px" color="black"><strike>private&#160;long&#160;pay_Sync;//&#25903;&#20184;&#21516;&#27493;&#29366;&#24577;</strike></font><font size="16px" color="#ff0000"><br />&#160;</font><font size="16px" color="black"><strike>&#160;private&#160;String&#160;trade_Pay_Account;//&#25903;&#20184;&#36134;&#21495;&#65292;&#31867;&#20284;mid&#30340;&#20540;&#65292;&#20294;&#26356;&#22810;&#30340;&#26159;0,NULL</strike></font><font size="16px"><br />&#160;&#160;private&#160;String&#160;trade_No;<br />&#160;&#160;private&#160;String&#160;third_Trade_No;<br />&#160;</font><font size="16px" color="#ff0000">&#160;</font><font size="16px" color="black"><strike>private&#160;long&#160;confirm_Time;//&#35746;&#21333;&#26680;&#23454;&#26102;&#38388;&#65292;&#20840;&#26159;0</strike></font><font size="16px"><br />&#160;&#160;private&#160;long&#160;refund_Time;<br />&#160;&#160;private&#160;long&#160;refund_Status;<br />&#160;&#160;private&#160;long&#160;is_Refunded;<br />&#160;&#160;</font><font size="16px" color="black"><strike>private&#160;long&#160;schema_Id;//&#36820;&#29616;&#26041;&#26696;id<br />&#160;&#160;private&#160;String&#160;schema_Name;&#22635;&#20889;&#31867;&#20284;60%...</strike></font><font size="16px" color="#339966"><br />&#160;&#160;</font><font size="16px" color="black"><strike>private&#160;long&#160;contract_Id;//&#30446;&#21069;&#19968;&#24459;&#20026;1</strike></font><font size="16px" color="#339966"><br />&#160;</font><font size="16px" color="black"><strike>&#160;private&#160;double&#160;rebate_Rate; //&#36820;&#29616;&#27604;&#20363; 60.00<br />&#160;&#160;<b>private&#160;double&#160;settlement_Rate;//&#20998;&#36134;&#27604;&#20363;&#65292;&#30446;&#21069;0.0000</b><br />&#160;&#160;private&#160;long&#160;rebate_Status;<br />&#160;&#160;private&#160;double&#160;order_Rebate_Money; //&#36820;&#29616;&#32473;&#29992;&#25143;&#37329;&#39069;<br />&#160;&#160;private&#160;double&#160;order_Rebate_Total_Money;//&#35746;&#21333;&#36820;&#29616;&#32473;&#29992;&#25143;&#30340;&#24635;&#37329;&#39069;</strike></font><font size="16px"><br />&#160;&#160;private&#160;long&#160;operator_Id;<br /></font><font size="16px" color="#0000ff"><strike>&#160;</strike></font><strike><font size="16px" color="#ff0000">&#160;private&#160;String&#160;operator_Name;<br />&#160;&#160;private&#160;String&#160;operator_Mid;</font></strike><font size="16px"><br />&#160;&#160;</font><font size="16px" color="#0000ff"><b style="background-color: rgb(255, 255, 153)"><strike>private&#160;String&#160;order_Source;//103,204,107...</strike></b></font><font size="16px"><br />&#160;</font><font size="16px" color="#ff0000">&#160;</font><font size="16px" color="black"><strike>private&#160;long&#160;order_User_Hide;<br />&#160;&#160;private&#160;long&#160;order_Shop_Hide;</strike></font><font size="16px" color="#ff0000"><br />&#160;&#160;</font><font size="16px">private&#160;long&#160;last_Update_Time;<br /></font><font size="16px" color="#ff0000"><strike>&#160;&#160;private&#160;long&#160;route_Time;//20180711<br />&#160;&#160;private&#160;long&#160;extend_Filed1;<br />&#160;&#160;private&#160;long&#160;extend_Filed2;<br />&#160;&#160;private&#160;long&#160;extend_Filed3;<br />&#160;&#160;private&#160;long&#160;extend_Filed4;<br />&#160;&#160;private&#160;long&#160;extend_Filed5;</strike></font><font size="16px"><br />&#160;&#160;private&#160;long&#160;city_Id;<br />&#160;</font><font size="16px" color="#ff0000">&#160;</font><font size="16px" color="black"><strike>private&#160;long&#160;rebate_Time;</strike></font><font size="16px" color="#ff0000"><br />&#160;&#160;</font><font size="16px" color="black"><strike>private&#160;double&#160;first_Trade_Rebate_Money;</strike></font><font size="16px" color="#ff0000"><br /></font><font size="16px" color="black"><strike>&#160;&#160;private&#160;long&#160;is_Check;</strike></font><font size="16px"><br />&#160;&#160;private&#160;double&#160;pay_Fee;<br />&#160;&#160;private&#160;double&#160;jiesuan_Amount;<br /></font><font size="16px" color="#993366"><strike>&#160;</strike></font><strike><font size="16px" color="#ff0000">&#160;private&#160;String&#160;out_Order_Id;//?</font></strike><font size="16px"><br />&#160;&#160;private&#160;String&#160;merchant_Id;<br />&#160;&#160;private&#160;String&#160;kb_Shop_Id;</font>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1520812607502" FOLDED="true" ID="ID_1707234899" MODIFIED="1520835756722">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      md_pay_trade -&gt; md_pay_trade_day
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#33258;&#24049;&#29992;&#65292;&#24590;&#20040;&#39640;&#20852;&#24590;&#20040;&#26469;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1520812691318" ID="ID_151959551" MODIFIED="1520812709726" TEXT="md_pay_trade_day_busy_11"/>
+<node CREATED="1520812711422" ID="ID_1996031126" MODIFIED="1520812723619" TEXT="md_pay_trade_day_other"/>
+<node CREATED="1520812725787" ID="ID_266699898" MODIFIED="1520812738787" TEXT="md_pay_trade_day_busy_12..17..18"/>
+<node CREATED="1520812756200" ID="ID_1814839615" MODIFIED="1520812767960" TEXT="never transfer"/>
+<node CREATED="1520835143803" ID="ID_1787636118" MODIFIED="1520835148357" TEXT="structure">
+<node CREATED="1520835222606" ID="ID_1501054166" MODIFIED="1520835714279">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;private String trade_Id; &#20027;&#38190;W18...
+    </p>
+    <p>
+      &#160;&#160;private long status;
+    </p>
+    <p>
+      &#160;&#160;private long refund_Status;
+    </p>
+    <p>
+      &#160;&#160;private long create_Time;
+    </p>
+    <p>
+      &#160;&#160;private long update_Time;
+    </p>
+    <p>
+      &#160;&#160;private long pay_Type;
+    </p>
+    <p>
+      &#160;&#160;private String trade_No;
+    </p>
+    <p>
+      &#160;&#160;private long trade_Money;
+    </p>
+    <p>
+      &#160;&#160;private long pay_Time;
+    </p>
+    <p>
+      &#160;&#160;private String third_Trade_No;
+    </p>
+    <p>
+      &#160;&#160;private String third_Pay_User_Id;
+    </p>
+    <p>
+      &#160;&#160;private String third_Pay_User_Name;
+    </p>
+    <p>
+      &#160;&#160;private int querycount;//&#26368;&#22810;&#26597;&#35810;&#27425;&#25968;,&#31243;&#24207;&#25511;&#21046;&#25554;&#21465;&#38388;&#38548;&#12290;
+    </p>
+    <p>
+      &#160;&#160;private string jsondata;//&#31532;&#19977;&#26041;&#26368;&#26032;&#19968;&#27425;&#36820;&#22238;&#21407;&#22987;&#25968;&#25454;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1520835736924" ID="ID_1148275750" MODIFIED="1520835754789" TEXT="&#x5254;&#x9664;&#x539f;&#x6709;&#x7684;md_pay_queue&#x7b49;"/>
+</node>
+</node>
+<node CREATED="1520824788052" ID="ID_1994804521" MODIFIED="1520824853655">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35746;&#21333;&#21495;&#65306;W180312229301XXXXXX
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1520824804827" ID="ID_118788646" MODIFIED="1520824812121" TEXT="93&#x662f;paytype"/>
+<node CREATED="1520824819902" ID="ID_1795973176" MODIFIED="1520824829780" TEXT="01&#x662f;&#x901a;&#x9053;&#x53f7;"/>
+</node>
+<node CREATED="1520826674863" ID="ID_550887575" MODIFIED="1520826707000" TEXT="&#x4e3a;&#x4e86;&#x517c;&#x5bb9;&#xff0c;&#x91c7;&#x7528;&#x65b0;&#x5efa;shanhuipayorder&#x5e93;"/>
+<node CREATED="1520833258420" FOLDED="true" ID="ID_1420790842" MODIFIED="1520833482310" TEXT="&#x5173;&#x952e;&#x8ba1;&#x7b97;">
+<node CREATED="1520833263978" ID="ID_511666352" MODIFIED="1520833357968">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)">//&#160;&#26032;&#30340;&#24212;&#20184;&#37329;&#39069;&#160;=&#160;&#35746;&#21333;&#24635;&#37329;&#39069;-&#20313;&#39069;-&#36820;&#29616;&#37329;&#39069;-&#31532;&#19977;&#26041;&#37329;&#39069;&#65288;&#27491;&#24120;&#20026;0&#65289;-&#20248;&#24800;&#37329;&#39069;-&#26032;&#30340;&#31532;&#19977;&#26041;&#37329;&#39069;&#65292;</font><font color="#009900"><b>neweMoneyPaid&#20026;&#31532;&#19977;&#26041;&#36820;&#22238;&#30340;&#37329;&#39069;</b></font><font color="rgb(0, 0, 0)"><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;newOrderAmount&#160;=&#160;billAmount.subtract(surplus).subtract(rebateUseMoney).subtract(newMoneyPaid)<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.subtract(orderOffMoney).subtract(moneyPaid);</font>
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)"><br />
+      </font>
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)">&#160;&#160;&#160;if(isWebank){<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#cc00ff"><b>orderInfoDO.setPayFee</b></font><font color="rgb(0, 0, 0)">(newMoneyPaid.multiply(payRate).divide(new&#160;BigDecimal(10000)).setScale(2,&#160;BigDecimal.ROUND_HALF_EVEN));<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}else{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#cc00ff"><b>orderInfoDO.setPayFee</b></font><font color="rgb(0, 0, 0)">(newMoneyPaid.multiply(payRate).divide(new&#160;BigDecimal(10000)).setScale(2,&#160;BigDecimal.ROUND_HALF_UP));<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</font>
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <br />
+      
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <br />
+      
+    </div>
+    <div style="color: rgb(0, 0, 0); font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <font color="rgb(0, 0, 0)">if&#160;(thirdPayCallBackParam.getIsDirect()&#160;==&#160;1&#160;||&#160;isAlipayISV&#160;)&#160;{<br /><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;orderInfoDO.setJiesuanAmount(BigDecimal.ZERO);<br /><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if(isAlipayISV){<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#009999"><b>&#160;orderInfoDO.setPayFee</b></font><font color="rgb(0, 0, 0)">(BigDecimal.ZERO);<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}<br /><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;else&#160;{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#6666ff"><b>orderInfoDO.setJiesuanAmount</b></font><font color="rgb(0, 0, 0)">(<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;orderInfoDO.getBillAmount()<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.subtract(orderInfoDO.getBillAmount().subtract(orderInfoDO.getNoRebateMoney())<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.multiply(orderInfoDO.getRebateRate().divide(new&#160;BigDecimal(100))))<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.subtract(orderInfoDO.getPayFee()).setScale(2,&#160;BigDecimal.ROUND_HALF_UP)<br /><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;);</font>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1520833445249" ID="ID_1847656902" MODIFIED="1520833476770">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;BigDecimal displayToShopOrderAmount = orderInfoDO.getBillAmount().subtract((orderInfoDO.getBillAmount().subtract(orderInfoDO.getNoRebateMoney())).multiply(orderInfoDO.getRebateRate().divide(new BigDecimal(100)))).setScale(2,BigDecimal.ROUND_HALF_UP);
+    </p>
+    <p>
+      &#160; <b><font color="#cc00ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;orderInfoDO.setOrderAmount</font></b>(displayToShopOrderAmount);
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -3287,7 +3483,7 @@
 <node CREATED="1517294071386" ID="ID_490882394" MODIFIED="1517294080016" TEXT="97,alipay b-c"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcc99" COLOR="#cc6600" CREATED="1520325845829" FOLDED="true" ID="ID_696044184" MODIFIED="1520385269258" POSITION="right" TEXT="&#x624b;&#x5de5;&#x8865;&#x5355;">
+<node BACKGROUND_COLOR="#ffcc99" COLOR="#cc6600" CREATED="1520325845829" FOLDED="true" ID="ID_696044184" MODIFIED="1520836403703" POSITION="right" TEXT="&#x624b;&#x5de5;&#x8865;&#x5355;">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1520325423534" ID="ID_1974834015" MODIFIED="1520325441860">
@@ -3379,7 +3575,7 @@
 <node BACKGROUND_COLOR="#ffffcc" COLOR="#009933" CREATED="1520326210095" ID="ID_1678248496" MODIFIED="1520326272171" POSITION="right" TEXT="&#x538b;&#x6d4b;&#x6307;&#x6807;">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
 <icon BUILTIN="button_ok"/>
-<node CREATED="1520321851658" FOLDED="true" ID="ID_1627015504" MODIFIED="1520392041028" TEXT="mdpaygate">
+<node CREATED="1520321851658" FOLDED="true" ID="ID_1627015504" MODIFIED="1520836412239" TEXT="mdpaygate">
 <node CREATED="1520322438077" ID="ID_886296142" MODIFIED="1520326190309">
 <richcontent TYPE="NODE"><html>
   <head>
