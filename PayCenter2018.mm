@@ -453,12 +453,33 @@
 </richcontent>
 </node>
 </node>
+<node CREATED="1522145210543" ID="ID_1004262916" MODIFIED="1522145231545" TEXT="&#x5173;&#x4e8e;&#x6fc0;&#x6d3b;&#x95ee;&#x9898;&#x5c1a;&#x672a;&#x89e3;&#x51b3;">
+<node CREATED="1522145233549" ID="ID_1218796800" MODIFIED="1522145239399">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ERROR o.s.w.c.ContextLoader - [Context initialization failed]
+    </p>
+    <p>
+      org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to import bean definitions from URL location [classpath:bean/mdpaygate-domain-bean.xml]
+    </p>
+    <p>
+      Offending resource: class path resource [bean/mdpaygate-center-root-bean.xml]; nested exception is org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 12 in XML document from class path resource [bean/mdpaygate-domain-bean.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 12; columnNumber: 34; cvc-complex-type.2.4.c: The matching wildcard is strict, but no declaration can be found for element 'context:annotation-config'.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1510714159564" FOLDED="true" ID="ID_1656036778" MODIFIED="1521192931024" POSITION="left" TEXT="&#x5b89;&#x88c5;&#x90e8;&#x7f72;&#x8bf4;&#x660e;">
 <node CREATED="1510714323785" ID="ID_1257702630" MODIFIED="1510714328627" TEXT="notifyserver"/>
 <node CREATED="1510714329552" ID="ID_363965362" MODIFIED="1510714334600" TEXT="jobcenter"/>
 </node>
-<node CREATED="1510714176504" FOLDED="true" ID="ID_1130548846" MODIFIED="1521194161773" POSITION="right" TEXT="&#x5de5;&#x4f5c;&#x8bb0;&#x5f55;">
+<node CREATED="1510714176504" ID="ID_1130548846" MODIFIED="1522142687322" POSITION="right" TEXT="&#x5de5;&#x4f5c;&#x8bb0;&#x5f55;">
 <node CREATED="1510714185418" ID="ID_977109342" MODIFIED="1521192873109" TEXT="2017">
 <node CREATED="1510714196051" FOLDED="true" ID="ID_1115097963" MODIFIED="1521192891784" TEXT="2017.11">
 <node CREATED="1510714208857" FOLDED="true" ID="ID_849812306" MODIFIED="1514358421887" TEXT="15">
@@ -3153,7 +3174,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1519434248844" ID="ID_1026153351" MODIFIED="1521103339967" TEXT="03">
+<node CREATED="1519434248844" FOLDED="true" ID="ID_1026153351" MODIFIED="1522142766359" TEXT="03">
 <node CREATED="1520321335514" ID="ID_79364416" MODIFIED="1521166542784" TEXT="03.06">
 <node CREATED="1520321344091" ID="ID_1923780406" MODIFIED="1520321543557">
 <richcontent TYPE="NODE"><html>
@@ -3313,6 +3334,21 @@
 <node CREATED="1521187873290" ID="ID_163179092" MODIFIED="1521187877175" TEXT="3.16">
 <node CREATED="1521187878844" ID="ID_289480735" MODIFIED="1521187909908" TEXT="shopcenterlite&#xff0c;&#x521d;&#x7248;&#x5b8c;&#x6210;&#xff0c;&#x5f85;&#x540e;&#x7eed;&#x8ffd;&#x52a0;&#x7528;&#x4e8e;&#x6539;&#x7248;mdpaygate&#x7684;"/>
 <node CREATED="1521194117008" ID="ID_824782543" MODIFIED="1521194153736" TEXT="&#x4e0b;&#x5468;&#x4fee;&#x6539;mdpaygate&#xff0c;&#x6ce8;&#x610f;&#x7f29;&#x51cf;&#x65e5;&#x5fd7;&#xff0c;&#x53e6;&#x4fee;&#x6539;dao&#x90e8;&#x5206;&#xff0c;&#x786e;&#x4fdd;&#x80fd;standalone&#x6a21;&#x5f0f;&#x8fd0;&#x884c;"/>
+</node>
+<node CREATED="1522142694698" ID="ID_1006187628" MODIFIED="1522142699898" TEXT="3.27">
+<node CREATED="1522142703360" ID="ID_500703241" MODIFIED="1522142752767">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mdpaygate&#23613;&#26089;&#23436;&#25104;&#27979;&#35797;&#65292;&#24182;&#31616;&#21333;&#37197;&#32622;dubbo&#36827;&#34892;&#20998;&#31163;&#65292;&#20943;&#23569;&#26085;&#24535;&#12290;&#19979;&#21608;&#20877;&#36827;&#34892;orderquery&#30340;&#20998;&#31163;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
