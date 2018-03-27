@@ -429,7 +429,8 @@
 </node>
 <node CREATED="1516610763854" ID="ID_1403177516" MODIFIED="1516610804403" TEXT="&#x79c1;&#x5e93;&#x5fc5;&#x987b;&#x5c06;3rd&#x5e93;&#x987a;&#x5e8f;&#x7f6e;&#x9876;&#xff0c;&#x5426;&#x5219;&#x7248;&#x672c;&#x53f7;&#x4e0d;&#x53d8;&#xff0c;&#x6c38;&#x8fdc;&#x4e0d;&#x4f1a;&#x53d6;&#x5230;&#x8be5;&#x5e93;&#x4e2d;&#x6700;&#x65b0;&#x7ec4;&#x4ef6;"/>
 <node CREATED="1517641979213" ID="ID_1418944589" MODIFIED="1517642015468" TEXT="jedis&#x7528;maxActive&#x5219;&#x5fc5;&#x987b;&#x5728;&#x76f8;&#x5e94;module&#x7684;pom&#x4e2d;&#x5f15;&#x5165;&#x6307;&#x5b9a;&#x7248;&#x672c;&#x7684;jedis"/>
-<node CREATED="1522136901330" FOLDED="true" ID="ID_1708971614" MODIFIED="1522137089178" TEXT="&#x5173;&#x4e8e;jenkins&#x7f16;&#x8bd1;&#x6ca1;&#x6709;&#x4f9d;&#x8d56;&#x4f20;&#x9012;">
+<node BACKGROUND_COLOR="#ccffcc" COLOR="#6633ff" CREATED="1522136901330" FOLDED="true" ID="ID_1708971614" MODIFIED="1522141533942" TEXT="&#x5173;&#x4e8e;jenkins&#x7f16;&#x8bd1;&#x6ca1;&#x6709;&#x4f9d;&#x8d56;&#x4f20;&#x9012;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1522136937477" ID="ID_683634943" MODIFIED="1522137086556">
 <richcontent TYPE="NODE"><html>
   <head>
