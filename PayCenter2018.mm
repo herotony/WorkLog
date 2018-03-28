@@ -449,11 +449,10 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1522145210543" ID="ID_1004262916" MODIFIED="1522145231545" TEXT="&#x5173;&#x4e8e;&#x6fc0;&#x6d3b;&#x95ee;&#x9898;&#x5c1a;&#x672a;&#x89e3;&#x51b3;">
+<node CREATED="1522145210543" FOLDED="true" ID="ID_1004262916" MODIFIED="1522229516397" TEXT="&#x5173;&#x4e8e;&#x6fc0;&#x6d3b;&#x95ee;&#x9898;&#x5c1a;&#x672a;&#x89e3;&#x51b3;">
 <node CREATED="1522145233549" ID="ID_1218796800" MODIFIED="1522145239399">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -470,8 +469,29 @@
       Offending resource: class path resource [bean/mdpaygate-center-root-bean.xml]; nested exception is org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 12 in XML document from class path resource [bean/mdpaygate-domain-bean.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 12; columnNumber: 34; cvc-complex-type.2.4.c: The matching wildcard is strict, but no declaration can be found for element 'context:annotation-config'.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+<node CREATED="1522229497596" ID="ID_1928264208" MODIFIED="1522229500888" TEXT="&#x89e3;&#x51b3;&#x4e86;">
+<node CREATED="1522229314351" ID="ID_1944947129" MODIFIED="1522229493917">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        &#19968;&#20010;&#26159;&lt;context:property-placeholder location=&quot;a,b,c&quot;/&gt;&#30340;&#26041;&#24335;&#26469;&#36733;&#20837;&#22810;&#20010;properties&#65292;&#20840;&#39033;&#30446;&#21482;&#20801;&#35768;&#26377;&#19968;&#20010;&#12290;
+      </li>
+      <li>
+        &#19968;&#20010;&#26159;@Resource&#26356;&#22909;&#20351;&#65292;&#26159;&#29992;&#21517;&#31216;&#26469;&#23547;&#25214;&#23545;&#24212;bean&#30340;&#65292;&#20294;&#24314;&#35758;&#37319;&#29992;&#25509;&#21475;+&#23454;&#29616;&#30340;&#27169;&#24335;&#36827;&#34892;&#25165;&#38752;&#35889;&#12290;&#21363;@Resource&#27880;&#37322;&#30340;&#26159;&#25509;&#21475;&#65292;bean&#21017;&#26159;&#23454;&#29616;&#31867;&#12290;
+      </li>
+      <li>
+        &#19968;&#20010;&#26159;dubbo&#38656;&#35201;&#39069;&#22806;&#28155;&#21152;&#20381;&#36182;javassist/netty&#20004;&#20010;&#32452;&#20214;
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -3346,8 +3366,7 @@
       mdpaygate&#23613;&#26089;&#23436;&#25104;&#27979;&#35797;&#65292;&#24182;&#31616;&#21333;&#37197;&#32622;dubbo&#36827;&#34892;&#20998;&#31163;&#65292;&#20943;&#23569;&#26085;&#24535;&#12290;&#19979;&#21608;&#20877;&#36827;&#34892;orderquery&#30340;&#20998;&#31163;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3765,10 +3784,10 @@
 <node CREATED="1517294071386" ID="ID_490882394" MODIFIED="1517294080016" TEXT="97,alipay b-c"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcc99" COLOR="#cc6600" CREATED="1520325845829" ID="ID_696044184" MODIFIED="1521171065282" POSITION="right" TEXT="&#x624b;&#x5de5;&#x8865;&#x5355;">
+<node BACKGROUND_COLOR="#ffcc99" COLOR="#cc6600" CREATED="1520325845829" FOLDED="true" ID="ID_696044184" MODIFIED="1522229606550" POSITION="right" TEXT="&#x624b;&#x5de5;&#x8865;&#x5355;">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1520325423534" FOLDED="true" ID="ID_1974834015" MODIFIED="1521171241636">
+<node CREATED="1520325423534" ID="ID_1974834015" MODIFIED="1522229582776">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3799,7 +3818,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1520325327330" FOLDED="true" ID="ID_1796856646" MODIFIED="1521171244228">
+<node CREATED="1520325327330" FOLDED="true" ID="ID_1796856646" MODIFIED="1522229573901">
 <richcontent TYPE="NODE"><html>
   <head>
     
