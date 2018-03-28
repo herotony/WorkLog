@@ -3194,7 +3194,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1519434248844" FOLDED="true" ID="ID_1026153351" MODIFIED="1522142766359" TEXT="03">
+<node CREATED="1519434248844" ID="ID_1026153351" MODIFIED="1522231465809" TEXT="03">
 <node CREATED="1520321335514" ID="ID_79364416" MODIFIED="1521166542784" TEXT="03.06">
 <node CREATED="1520321344091" ID="ID_1923780406" MODIFIED="1520321543557">
 <richcontent TYPE="NODE"><html>
@@ -3367,6 +3367,27 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1522231473119" FOLDED="true" ID="ID_1866898212" MODIFIED="1522231519180" TEXT="28">
+<node CREATED="1522231477379" ID="ID_468060651" MODIFIED="1522231512411">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mdpaygate/orderquery/queueconsume
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24320;&#21457;&#29615;&#22659;&#23436;&#20840;&#25630;&#23450;&#65281;&#26126;&#22825;&#24320;&#22987;&#35268;&#25972;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
