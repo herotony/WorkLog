@@ -1,10 +1,10 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1510713087405" ID="ID_1700999216" MODIFIED="1513567858315" TEXT="PayCenter2018">
+<node COLOR="#000000" CREATED="1510713087405" ID="ID_1700999216" MODIFIED="1533695899550" TEXT="PayCenter2018">
 <edge COLOR="#111111" WIDTH="thin"/>
 <font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
-<node CREATED="1517887444764" ID="ID_796737952" MODIFIED="1520385600143" POSITION="right" TEXT="java">
+<node CREATED="1517887444764" FOLDED="true" ID="ID_796737952" MODIFIED="1533695897616" POSITION="right" TEXT="java">
 <node CREATED="1517887454387" FOLDED="true" ID="ID_1276575981" MODIFIED="1520387720374" TEXT="JMX: java management extension">
 <node CREATED="1517887479401" ID="ID_859613784" MODIFIED="1517887614365">
 <richcontent TYPE="NODE"><html>
@@ -55,7 +55,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1515144660625" ID="ID_730159923" MODIFIED="1515144671703" POSITION="right" TEXT="&#x9879;&#x76ee;">
+<node CREATED="1515144660625" FOLDED="true" ID="ID_730159923" MODIFIED="1533695898784" POSITION="right" TEXT="&#x9879;&#x76ee;">
 <node CREATED="1515144673749" FOLDED="true" ID="ID_1360713174" MODIFIED="1521184236281" TEXT="&#x8865;&#x5355;&#x670d;&#x52a1;">
 <node CREATED="1515144680317" ID="ID_1368311189" MODIFIED="1515144698676" TEXT="&#x8870;&#x51cf;&#x662f;&#x95f4;&#x9694;&#x67e5;&#x8be2;&#xff0c;&#x6301;&#x7eed;&#x4e00;&#x5929;&#x5230;&#x4e24;&#x5929;"/>
 <node CREATED="1513332316580" FOLDED="true" ID="ID_302468416" MODIFIED="1520385241099" TEXT="&#x4f18;&#x5316;">
@@ -3856,6 +3856,10 @@
 <node CREATED="1530692982312" ID="ID_1081615078" MODIFIED="1530692989929" TEXT="69 alipay"/>
 </node>
 </node>
+<node CREATED="1532595707586" ID="ID_846327720" MODIFIED="1532595712225" TEXT="&#x95ea;&#x60e0;&#x652f;&#x4ed8;">
+<node CREATED="1532595714527" ID="ID_1228895937" MODIFIED="1532595732998" TEXT="98 &#x4e3b;&#x626b;&#x652f;&#x4ed8;"/>
+<node CREATED="1532595734022" ID="ID_1472397869" MODIFIED="1532595738847" TEXT="99 &#x88ab;&#x626b;&#x652f;&#x4ed8;"/>
+</node>
 </node>
 <node BACKGROUND_COLOR="#ffcc99" COLOR="#cc6600" CREATED="1520325845829" FOLDED="true" ID="ID_696044184" MODIFIED="1522229606550" POSITION="right" TEXT="&#x624b;&#x5de5;&#x8865;&#x5355;">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
@@ -3946,7 +3950,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffcc" COLOR="#009933" CREATED="1520326210095" ID="ID_1678248496" MODIFIED="1520326272171" POSITION="right" TEXT="&#x538b;&#x6d4b;&#x6307;&#x6807;">
+<node BACKGROUND_COLOR="#ffffcc" COLOR="#009933" CREATED="1520326210095" FOLDED="true" ID="ID_1678248496" MODIFIED="1533695989360" POSITION="right" TEXT="&#x538b;&#x6d4b;&#x6307;&#x6807;">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="15"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1520321851658" FOLDED="true" ID="ID_1627015504" MODIFIED="1520909319692" TEXT="mdpaygate">
@@ -4082,6 +4086,48 @@
 </html></richcontent>
 <node CREATED="1520330339584" ID="ID_1933215378" MODIFIED="1520330368670" TEXT="&#x8fd8;&#x662f;&#x5b9e;&#x6d4b;&#x6700;&#x4f73;&#x503c;&#x5427;&#xff0c;&#x4f30;&#x8ba1;&#x56db;&#x6838;&#x5c31;&#x662f;&#x7ebf;&#x7a0b;&#x6570;30&#x4e4b;&#x95f4;&#x5427;"/>
 </node>
+</node>
+</node>
+<node CREATED="1533695902104" ID="ID_798113599" MODIFIED="1533695913382" POSITION="right" TEXT="&#x4e0a;&#x7ebf;&#x9879;&#x76ee;">
+<node CREATED="1533695995490" ID="ID_282805579" MODIFIED="1533697718974">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32593;&#21830;&#26032;&#27169;&#24335;&#21644;&#20027;&#25195;&#24320;&#20851;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1533696005711" ID="ID_1017545026" MODIFIED="1533697220532" TEXT="shopcenterlite">
+<node CREATED="1533696801497" ID="ID_144479388" MODIFIED="1533696808073" TEXT="&#x52a0;&#x5165;&#x4e3b;&#x626b;&#x5f00;&#x5173;"/>
+<node CREATED="1533696809309" ID="ID_466186248" MODIFIED="1533697229266" TEXT="&#x52a0;&#x5165;&#x7f51;&#x5546;&#x65b0;&#x6a21;&#x5f0f;&#x5f00;&#x5173;&#x548c;&#x5237;&#x5f00;&#x5173;&#x63a5;&#x53e3;"/>
+<node CREATED="1533696821712" ID="ID_1342313197" MODIFIED="1533696837321" TEXT="&#x52a0;&#x5165;&#x65b0;&#x589e;&#x5b57;&#x6bb5;&#x8fd4;&#x56de;&#x5b57;&#x5178;">
+<node CREATED="1533699307755" ID="ID_1011735012" MODIFIED="1533699315279" TEXT="&#x9700;&#x8981;&#x9488;&#x5bf9;&#x6240;&#x6709;&#x95e8;&#x5e97;&#x5237;&#x6570;&#x636e;"/>
+</node>
+</node>
+<node CREATED="1533697231225" ID="ID_891222249" MODIFIED="1533697235191" TEXT="shopcenter2">
+<node CREATED="1533697286806" ID="ID_1018935554" MODIFIED="1533697299375" TEXT="&#x52a0;&#x5165;&#x95e8;&#x5e97;&#x5237;ctob&#x5f00;&#x5173;">
+<node CREATED="1533699291867" ID="ID_1431358013" MODIFIED="1533699299789" TEXT="&#x9700;&#x8981;&#x9488;&#x5bf9;&#x6240;&#x6709;&#x95e8;&#x5e97;&#x5237;&#x6570;&#x636e;"/>
+</node>
+<node CREATED="1533697300822" ID="ID_879653266" MODIFIED="1533697689352" TEXT="&#x4fee;&#x6539;sh_wowostore&#x7684;shshop&#x8868;&#x548c;draft&#x8868;&#xff0c;&#x52a0;&#x5165;&#x5b57;&#x6bb5;support_c_to_b  tinyint(1)"/>
+</node>
+<node CREATED="1533697698548" ID="ID_1120184254" MODIFIED="1533697706017" TEXT="shanhuipaygate"/>
+</node>
+</node>
+<node CREATED="1533697899949" FOLDED="true" ID="ID_150086519" MODIFIED="1533698024384" POSITION="right" TEXT="&#x7f51;&#x5546;&#x8054;&#x7cfb;&#x4eba;">
+<node CREATED="1533697914942" ID="ID_96713795" MODIFIED="1533698018107">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(25, 31, 37)" face="Microsoft YaHei, Segoe UI, system-ui, Roboto, Droid Sans, Helvetica Neue, sans-serif">&#35268;&#21017;&#36890;&#30693;&#65306;&#22914;&#26377;&#25209;&#37327;&#36827;&#20214;&#12289;&#25209;&#37327;&#26032;&#22686;&#25903;&#20184;&#37197;&#32622;&#30340;&#38656;&#27714;&#65292;&#33267;&#23569;&#25552;&#21069;12&#20010;&#23567;&#26102;&#36319;&#22521;&#22521;&#65288;&#36816;&#33829;&#25509;&#21475;&#20154;&#65289;&#25253;&#22791;&#24182;&#39044;&#32422;&#26102;&#38388;&#12290;&#12304;&#38656;&#27714;&#35831;&#25353;&#20197;&#19979;&#26684;&#24335;&#21457;&#30003;&#35831;&#65306;1&#12289;&#31867;&#22411;&#65306; &#25209;&#37327;&#36827;&#20214;or&#25209;&#37327;&#26032;&#22686;&#25903;&#20184;&#37197;&#32622;&#12290;2&#12289;&#25968;&#37327;&#12290;3&#12289;&#26399;&#26395;&#26085;&#26399;&#12290;4&#12289;ISV&#20540;&#29677;&#20154;&#21592;&#21450;&#32852;&#31995;&#26041;&#24335;&#12305;&#12290;&#25105;&#20204;&#25910;&#21040;&#30003;&#35831;&#21518;&#65292;&#20250;&#21327;&#35843;&#36164;&#28304;&#65292;&#19982;ISV&#30003;&#35831;&#20154;&#12289;ISV&#20540;&#29677;&#20154;&#27807;&#36890;&#30830;&#23450;&#12290; &#19968;&#12289;&#30446;&#21069;&#26377;4&#20010;&#26426;&#22120;&#20154;&#65306; &#9312;&#12304;&#25910;&#21333;&#25903;&#25345;&#31192;&#20070;&#12305;&#29992;&#20110;&#37325;&#35201;&#20449;&#24687;&#36890;&#30693;&#12290; &#9313;&#12304;&#30334;&#31185;&#12305;&#29992;&#20110;&#31572;&#30097;&#65292;&#33258;&#21160;&#22788;&#29702;&#65292;&#36805;&#36895;&#22238;&#22797;&#12290; &#9314;&#12304;&#32593;&#21830;&#38134;&#34892;&#32858;&#21512;&#25903;&#20184;&#21672;&#35810;&#12305;&#29992;&#20110;&#31572;&#30097;&#12290; &#9315;&#12304;</font><font color="#9933ff" face="Microsoft YaHei, Segoe UI, system-ui, Roboto, Droid Sans, Helvetica Neue, sans-serif"><b>&#20132;&#26131;&#21578;&#35686;&#30417;&#25511;</b></font><font color="rgb(25, 31, 37)" face="Microsoft YaHei, Segoe UI, system-ui, Roboto, Droid Sans, Helvetica Neue, sans-serif">&#12305;&#29992;&#20110;&#20132;&#26131;&#30417;&#25511;&#12290; &#12304;&#32593;&#21830;&#38134;&#34892;&#32858;&#21512;&#25903;&#20184;&#21672;&#35810;&#12305;&#26426;&#22120;&#20154;&#65292;&#20351;&#29992;&#25915;&#30053;&#22914;&#19979;&#65292;</font><a href="https://yuque.com/zhejiangwangshangyinhang/xk6u8w/bt98gx" target="_blank" style="color: rgb(33, 101, 168); text-decoration: none !important; font-family: Microsoft YaHei, Segoe UI, system-ui, Roboto, Droid Sans, Helvetica Neue, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; text-align: left; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null"><font color="rgb(33, 101, 168)" face="Microsoft YaHei, Segoe UI, system-ui, Roboto, Droid Sans, Helvetica Neue, sans-serif" size="14px">https://yuque.com/zhejiangwangshangyinhang/xk6u8w/bt98gx</font></a><font color="rgb(25, 31, 37)" face="Microsoft YaHei, Segoe UI, system-ui, Roboto, Droid Sans, Helvetica Neue, sans-serif">&#12290; &#20108;&#12289;ISV&#27010;&#20917;&#65306; &#9312;&#21271;&#20140;&#38378;&#24800;&#20449;&#24687;&#25216;&#26415;&#26377;&#38480;&#20844;&#21496;ISV orgid 202210000000000001075 &#9313;&#21271;&#20140;&#24800;&#20449;&#32858;&#21033;&#20449;&#24687;&#25216;&#26415;&#26377;&#38480;&#20844;&#21496;ISV orgid 202210000000000001136 &#9314;&#21271;&#20140;&#38378;&#24800;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496;ISV orgid 202210000000000001248 &#9315;ISV&#26041;&#38754;&#32852;&#31995;&#20154;: &#32918;&#33395;&#26757;&#65288;&#36816;&#33829;&#65289;xiaoyanmei@wowoshijie.com &#32993;&#27491;&#65288;&#25216;&#26415;&#65289;huzheng@wowoshijie.com &#30005;&#35805;&#65306;17600878585&#65288;18618216163&#65289; &#29579;&#23721;&#65288;&#36130;&#21153;&#65289;wangyan@wowoshijie.com &#32467;&#31639;&#35843;&#36134;&#25509;&#21475;&#20154;&#65306; wangyan@wowoshijie.com huzheng@wowoshijie.com xiaoyanmei@wowoshijie.com xieyueqing@wowoshijie.com &#19977;&#12289;&#36816;&#33829;&#26041;&#38754;&#65306; &#9312;&#12304;&#32852;&#35843;&#29615;&#33410;&amp;&#19978;&#32447;&#21518;&#30340;&#24120;&#29992;&#36164;&#26009;&#21253;&#22320;&#22336;&#12305;&#65306;</font><a href="https://space.dingtalk.com/c/ggHaACQ1ZjllN2VlNi0yNDA5LTRmYjQtODUzZC01NDA2MTQ5NGQ1YTUCziV-tZw" target="_blank" style="color: rgb(33, 101, 168); text-decoration: none !important; font-family: Microsoft YaHei, Segoe UI, system-ui, Roboto, Droid Sans, Helvetica Neue, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; text-align: left; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null"><font color="rgb(33, 101, 168)" face="Microsoft YaHei, Segoe UI, system-ui, Roboto, Droid Sans, Helvetica Neue, sans-serif" size="14px">https://space.dingtalk.com/c/ggHaACQ1ZjllN2VlNi0yNDA5LTRmYjQtODUzZC01NDA2MTQ5NGQ1YTUCziV-tZw</font></a><font color="rgb(25, 31, 37)" face="Microsoft YaHei, Segoe UI, system-ui, Roboto, Droid Sans, Helvetica Neue, sans-serif">&#9313;&#12304;&#24120;&#29992;&#37038;&#20214;&#32452;&#12305; &#36816;&#33829;&#25805;&#20316;&#31867;&#30340;&#30003;&#35831;&#21487;&#21457;&#36865;&#37038;&#20214;&#32452;&#65306;MYBank-jhzf-yunyingzuoye@list.alibaba-inc.com &#32467;&#31639;&#35843;&#36134;&#31867;&#30340;&#30003;&#35831;&#21487;&#21457;&#36865;&#37038;&#20214;&#32452;&#65306;MYBank-jhzf-jiesuantiaozhang@list.alibaba-inc.com &#39118;&#25511;&#30003;&#35785;&#22788;&#29702;&#21487;&#21457;&#36865;&#37038;&#20214;&#32452;&#65306;MYBank-jhzf-fengxianchuli@list.alibaba-inc.com &#9314;&#12304;&#32593;&#21830;&#36816;&#33829;&#20154;&#21592;&#20998;&#24037;&#12305; &#20135;&#21697;&#65306;&#26408;&#26665;&#12289;&#21493;&#21487;&#12290; BD&#65306;&#21796;&#36229;&#12289;&#38647;&#34174;&#12289;&#22025;&#36125;&#12289;&#23472;&#20104;&#12290; &#36816;&#33829;&#65306;&#22521;&#22521;&#12289;&#20313;&#39062;&#12290; &#39118;&#38505;&#21830;&#25143;&#22788;&#29702;&#65306;&#38472;&#26228;&#12290; &#32467;&#31639;&#65306;&#20016;&#24800;(&#23020;&#24800;)&#12289;&#20170;&#21916;&#12289;&#26102;&#22869;&#12290; &#36816;&#33829;&#20316;&#19994;&#25805;&#20316;&#65306;&#20170;&#21916;&#12289;&#27146;&#21746;&#12290; &#9315;&#12304;&#32593;&#21830;&#25216;&#26415;&#20154;&#21592;&#20998;&#24037;&#12305; &#27979;&#35797;&#25216;&#26415;&#65306;&#38472;&#25935;&#12289;&#21016;&#26032;&#38155;&#12289;&#24429;&#26494;&#12289;&#23004;&#26149;&#38647;&#12289;&#26472;&#27589;&#12289;&#24352;&#27915;&#12290; &#21830;&#25143;&#20135;&#21697;&#65288;&#21830;&#25143;&#20837;&#39547;&#65289;&#65306;&#25122;&#40158;&#12289;&#38463;&#26415;&#12289;&#20940;&#36763;&#12290; </font><font color="#9933ff" face="Microsoft YaHei, Segoe UI, system-ui, Roboto, Droid Sans, Helvetica Neue, sans-serif"><b>&#20132;&#26131;&#65306;&#34394;&#29983;&#12289;&#24847;&#34892;&#12289;&#24322;&#25196;</b></font><font color="rgb(25, 31, 37)" face="Microsoft YaHei, Segoe UI, system-ui, Roboto, Droid Sans, Helvetica Neue, sans-serif">&#12290; &#32467;&#31639;&#65306;&#34394;&#29983;&#12289;&#24518;&#30651;&#12289;&#36213;&#26032;&#38745;&#12289;&#24322;&#25196;&#12290; &#36134;&#21333;&#65306;&#32418;&#21035;&#12290;</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
