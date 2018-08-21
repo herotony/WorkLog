@@ -4100,6 +4100,16 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1533697231225" ID="ID_891222249" MODIFIED="1534558534046" TEXT="step1:shopcenter2">
+<node CREATED="1533697286806" ID="ID_1018935554" MODIFIED="1533697299375" TEXT="&#x52a0;&#x5165;&#x95e8;&#x5e97;&#x5237;ctob&#x5f00;&#x5173;">
+<node CREATED="1533699291867" ID="ID_1431358013" MODIFIED="1533699299789" TEXT="&#x9700;&#x8981;&#x9488;&#x5bf9;&#x6240;&#x6709;&#x95e8;&#x5e97;&#x5237;&#x6570;&#x636e;"/>
+</node>
+<node CREATED="1533697300822" ID="ID_879653266" MODIFIED="1533697689352" TEXT="&#x4fee;&#x6539;sh_wowostore&#x7684;shshop&#x8868;&#x548c;draft&#x8868;&#xff0c;&#x52a0;&#x5165;&#x5b57;&#x6bb5;support_c_to_b  tinyint(1)"/>
+<node CREATED="1534558486156" ID="ID_1886157243" MODIFIED="1534558493165" TEXT="swp&#x914d;&#x5408;&#x4e0a;&#x7ebf;"/>
+</node>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1534558563733" ID="ID_1211848166" MODIFIED="1534558732823" TEXT="&#x524d;&#x63d0;&#xff1a;&#x5fc5;&#x987b;&#x5df2;&#x7ecf;&#x5237;&#x597d;&#x4e86;ctob&#x6240;&#x6709;&#x95e8;&#x5e97;">
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1533697698548" ID="ID_1120184254" MODIFIED="1534558551480" TEXT="step2:shanhuipaygate">
 <node CREATED="1533696005711" ID="ID_1017545026" MODIFIED="1533697220532" TEXT="shopcenterlite">
 <node CREATED="1533696801497" ID="ID_144479388" MODIFIED="1533696808073" TEXT="&#x52a0;&#x5165;&#x4e3b;&#x626b;&#x5f00;&#x5173;"/>
 <node CREATED="1533696809309" ID="ID_466186248" MODIFIED="1533697229266" TEXT="&#x52a0;&#x5165;&#x7f51;&#x5546;&#x65b0;&#x6a21;&#x5f0f;&#x5f00;&#x5173;&#x548c;&#x5237;&#x5f00;&#x5173;&#x63a5;&#x53e3;"/>
@@ -4107,19 +4117,16 @@
 <node CREATED="1533699307755" ID="ID_1011735012" MODIFIED="1533699315279" TEXT="&#x9700;&#x8981;&#x9488;&#x5bf9;&#x6240;&#x6709;&#x95e8;&#x5e97;&#x5237;&#x6570;&#x636e;"/>
 </node>
 </node>
-<node CREATED="1533697231225" ID="ID_891222249" MODIFIED="1533697235191" TEXT="shopcenter2">
-<node CREATED="1533697286806" ID="ID_1018935554" MODIFIED="1533697299375" TEXT="&#x52a0;&#x5165;&#x95e8;&#x5e97;&#x5237;ctob&#x5f00;&#x5173;">
-<node CREATED="1533699291867" ID="ID_1431358013" MODIFIED="1533699299789" TEXT="&#x9700;&#x8981;&#x9488;&#x5bf9;&#x6240;&#x6709;&#x95e8;&#x5e97;&#x5237;&#x6570;&#x636e;"/>
 </node>
-<node CREATED="1533697300822" ID="ID_879653266" MODIFIED="1533697689352" TEXT="&#x4fee;&#x6539;sh_wowostore&#x7684;shshop&#x8868;&#x548c;draft&#x8868;&#xff0c;&#x52a0;&#x5165;&#x5b57;&#x6bb5;support_c_to_b  tinyint(1)"/>
 </node>
-<node CREATED="1533697698548" ID="ID_1120184254" MODIFIED="1533697706017" TEXT="shanhuipaygate"/>
+<node CREATED="1534558590832" ID="ID_68427462" MODIFIED="1534558635722" TEXT="step3:&#x5237;&#x597d;&#x6240;&#x6709;&#x7684;channelid,submerchid&#x8fdb;&#x4ef6;&#x95e8;&#x5e97;"/>
+<node CREATED="1534558638729" ID="ID_1775163784" MODIFIED="1534558681599" TEXT="step4:&#x5237;&#x5f00;&#x5173;newmode,&#x7528;shop-centerlite-run.jar"/>
 </node>
 <node CREATED="1534151593296" ID="ID_210100047" MODIFIED="1534151599082" TEXT="&#x7535;&#x5b50;&#x50a8;&#x503c;&#x5361;">
 <node CREATED="1534151600669" ID="ID_1225881420" MODIFIED="1534151606535" TEXT="&#x5ef6;&#x540e;"/>
 </node>
 </node>
-<node CREATED="1533697899949" FOLDED="true" ID="ID_150086519" MODIFIED="1534151589135" POSITION="right" TEXT="&#x7f51;&#x5546;&#x8054;&#x7cfb;&#x4eba;">
+<node CREATED="1533697899949" FOLDED="true" ID="ID_150086519" MODIFIED="1534728508235" POSITION="right" TEXT="&#x7f51;&#x5546;&#x8054;&#x7cfb;&#x4eba;">
 <node CREATED="1533697914942" ID="ID_96713795" MODIFIED="1533698018107">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4131,6 +4138,61 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1534728514774" FOLDED="true" ID="ID_427599459" MODIFIED="1534728760268" POSITION="right" TEXT="web-display route">
+<node CREATED="1534728686669" FOLDED="true" ID="ID_439119215" MODIFIED="1534728759143">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      html-&gt;css-&gt;javascript-&gt;jquery
+    </p>
+    <p>
+      &#160;&#160;javascript -&gt; argular
+    </p>
+    <p>
+      &#160;&#160;css -&gt; bootstrap
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      velocity in java web
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534728579330" ID="ID_1466824808" MODIFIED="1534728589178">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="../web-display.jpg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1534846172055" FOLDED="true" ID="ID_1741158852" MODIFIED="1534846313369" POSITION="right" TEXT="&#x89e3;&#x51b3;&#x95ee;&#x9898;">
+<node CREATED="1534846185011" FOLDED="true" ID="ID_1914161017" MODIFIED="1534846311161" TEXT="2018.08.21">
+<node CREATED="1534846195975" FOLDED="true" ID="ID_1265845561" MODIFIED="1534846308993" TEXT="maven-jar-plugin">
+<node CREATED="1534846208449" ID="ID_80718538" MODIFIED="1534846306548">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      manifest&#29983;&#25104;&#30340;class-path&#24847;&#22806;&#32570;&#23569;&#20102;&#24517;&#35201;&#30340;jar&#21253;&#65292;&#27492;&#26102;&#21482;&#33021;&#33258;&#24049;&#29983;&#25104;manifest&#34917;&#19978;jar&#21253;&#65292;&#28982;&#21518;&#29992;&lt;manifestFile&gt;&#26469;&#25351;&#23450;&#33258;&#24049;&#25351;&#23450;&#30340;manifest file&#26367;&#25442;&#20043;&#26469;&#35299;&#20915;&#22855;&#24618;&#30340;&#32570;&#23569;jar&#21253;&#38382;&#39064;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
